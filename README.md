@@ -37,9 +37,9 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ### Images
 
-* Base Image : https://github.com/phusion/baseimage-docker
-* Busybox: https://github.com/jpetazzo/docker-busybox
-* DockerFile Example : https://github.com/komljen/dockerfile-examples
+* Base Image by @phusion: https://github.com/phusion/baseimage-docker
+* Busybox by @jpetazzo: https://github.com/jpetazzo/docker-busybox
+* DockerFile Example by @komljen: https://github.com/komljen/dockerfile-examples
 
 ### Managing Images
 
