@@ -1,4 +1,4 @@
-# Awesome
+# Awesome Docker
 
 > A curated list of Docker resources
 
