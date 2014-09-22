@@ -2,6 +2,8 @@
 
 > A curated list of Docker resources
 
+Inspired by [@sindresorhus](https://github.com/sindresorhus)'s [awesome](https://github.com/sindresorhus/awesome)
+
 Share the love, add your docker resource by forking / sending pull requests.
 
 This list is not exhaustive (nor is it meant to be) but can probably help you get up and running faster. 
