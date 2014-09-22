@@ -11,9 +11,15 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Useful Articles](#useful-articles)
 * [Books](#books)
 * [Dev](#dev)
+  * [Continous Integration / Continous Delivery](#continous-integration-continous-delivery) 
+  * [Dev Tools](#dev-tools)
+  * [Images](#images)
+  * [Managing Images](#managing-images)
 * [Slides](#slides)
 * [Videos](#videos)
-* [(Interesting) Twitter Accounts](#(interesting)-twitter-accounts)
+  * [Main Account](#main-account)
+  * [Useful videos](#useful-videos)
+* [(Interesting) Twitter Accounts](#interesting-twitter-accounts)
   
 ----
 
