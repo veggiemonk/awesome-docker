@@ -31,28 +31,28 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ### Dev Tools
 
-* [Fig (Fast, isolated development environments using Docker)](https://github.com/docker/fig) - http://www.fig.sh
-* [Sandstorm (Personal Cloud Sandbox /!\ uses LXC, not docker, but it's so nice)](https://github.com/sandstorm-io/sandstorm) - https://sandstorm.io/
-* [ns-enter (no more ssh, enter name spaces of container) by @jpetazzo](https://github.com/jpetazzo/nsenter)
-* [Squid-in-a-can (in case of proxy problem) by @jpetazzo](https://github.com/jpetazzo/squid-in-a-can)
-* [docker-gen (Generate files from docker container meta-data) by @jwilder](https://github.com/jwilder/docker-gen)
+* [Fig](https://github.com/docker/fig) (Fast, isolated development environments using Docker) -- http://www.fig.sh
+* [Sandstorm](https://github.com/sandstorm-io/sandstorm) (Personal Cloud Sandbox /!\ uses LXC, not docker, but it's so nice) -- https://sandstorm.io/
+* [ns-enter](https://github.com/jpetazzo/nsenter) (no more ssh, enter name spaces of container) by @jpetazzo
+* [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) (in case of proxy problem) by [@jpetazzo](https://github.com/jpetazzo/)
+* [docker-gen](https://github.com/jwilder/docker-gen) (Generate files from docker container meta-data) by [@jwilder](https://github.com/jwilder)
 
 ### Images
 
 * [Base Image by @phusion](https://github.com/phusion/baseimage-docker)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) by [@jpetazzo](https://github.com/jpetazzo)
-* [DockerFile Example by @komljen](https://github.com/komljen/dockerfile-examples)
+* [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 
 ### Managing Images
 
-* [Shipyard (Composable Docker Management)](https://github.com/shipyard/shipyard) - http://shipyard-project.com/
-* [Panamax (Docker Management for Humans)](https://github.com/CenturyLinkLabs/panamax-ui/wiki) - http://panamax.io/
+* [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
+* [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
 * [Docker Registry](https://github.com/docker/docker-registry)
-* [Docker Registry Web (A web UI for easy private/local Docker Registry integration)](https://github.com/atc-/docker-registry-web) by [@atc-](https://github.com/atc-)
-* [Flynn (A next generation open source platform as a service (PaaS))](https://github.com/flynn/flynn) - https://flynn.io/
-* [Deis (Your PaaS, your rules)](https://github.com/deis/deis) - http://deis.io/
-* [CoreOS (Linux for Massive Server Deployments)](https://github.com/coreos) - https://coreos.com/
-* [Boot2Docker (docker for OSX and Windows)](https://github.com/boot2docker/boot2docker) - http://boot2docker.io/
+* [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
+* [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service (PaaS)) -- https://flynn.io/
+* [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
+* [CoreOS](https://github.com/coreos) (Linux for Massive Server Deployments) -- https://coreos.com/
+* [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
 
 ## Slides
 
