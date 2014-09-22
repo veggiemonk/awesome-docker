@@ -2,11 +2,20 @@
 
 > A curated list of Docker resources
 
-Inspired by [@sindresorhus](https://github.com/sindresorhus)'s [awesome](https://github.com/sindresorhus/awesome)
+Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome](https://github.com/sindresorhus/awesome)
 
 Share the love, add your docker resource by forking / sending pull requests.
 
 This list is not exhaustive (nor is it meant to be) but can probably help you get up and running faster. 
+
+* [Useful Articles](#useful-articles)
+* [Books](#books)
+* [Dev](#dev)
+* [Slides](#slides)
+* [Videos](#videos)
+* [(Interesting) Twitter Accounts](#(interesting)-twitter-accounts)
+  
+----
 
 ## Useful Articles
 
@@ -27,7 +36,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Docker Images](https://hub.docker.com)
 * [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)  by [@wsargent](https://github.com/wsargent)
 
-### Continous Integration/ Continous Delivery
+### Continous Integration / Continous Delivery
 
 * [Drone](https://github.com/drone/drone) - https://drone.io/
 
