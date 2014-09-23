@@ -87,6 +87,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 * [Orchestrating Docker containers in production using Fig (7:11)](https://www.youtube.com/watch?v=SEtRg8siQWw)
 * [Docker: How to Use Your Own Private Registry (15:01)](https://www.youtube.com/watch?v=CAewZCBT4PI)
+* [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg&list=WL&index=19)
 
 ## (Interesting) Twitter Accounts
 
