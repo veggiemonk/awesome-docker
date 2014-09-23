@@ -68,6 +68,8 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
 * [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service (PaaS)) -- https://flynn.io/
 * [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
+* [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker, Go, and YAM) -- http://gaudi.io/
+
 * [CoreOS](https://github.com/coreos) (Linux for Massive Server Deployments) -- https://coreos.com/
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
 
