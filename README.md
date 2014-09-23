@@ -85,12 +85,12 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ### Useful videos
 
-* [Orchestrating Docker containers in production using Fig (7:11)](https://www.youtube.com/watch?v=SEtRg8siQWw)
-* [Docker: How to Use Your Own Private Registry (15:01)](https://www.youtube.com/watch?v=CAewZCBT4PI)
-* [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg)
-* [Performance Analysis of Docker - Jeremy Eder ](https://www.youtube.com/watch?v=6f2E6PKYb0w)
-* [Docker and SELinux by Daniel Walsh from Red Hat ](https://www.youtube.com/watch?v=zWGFqMuEHdw)
-* [Immutable Infrastructure with Docker and EC2 by Michael Bryzek (Gilt)](https://www.youtube.com/watch?v=GaHzdqFithc)
+* [Orchestrating Docker containers in production using Fig](https://www.youtube.com/watch?v=SEtRg8siQWw) (7:11)
+* [Docker: How to Use Your Own Private Registry](https://www.youtube.com/watch?v=CAewZCBT4PI) (15:01)
+* [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
+* [Performance Analysis of Docker - Jeremy Eder](https://www.youtube.com/watch?v=6f2E6PKYb0w) (1:36:58)
+* [Docker and SELinux by Daniel Walsh from Red Hat ](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
+* [Immutable Infrastructure with Docker and EC2 by Michael Bryzek (Gilt)](https://www.youtube.com/watch?v=GaHzdqFithc) (42:04)
 
 ## (Interesting) Twitter Accounts
 
