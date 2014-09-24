@@ -110,4 +110,4 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Jérôme Petazzoni](https://twitter.com/jpetazzo) Docker Developer
 * [Michael Crosby](https://twitter.com/crosbymichael) Docker Developer
 * [James Turnbull](https://twitter.com/kartar) Author of Docker Book
-* [Jeff Lindsay](https://twitter.com/progrium)
+* [Jeff Lindsay](https://twitter.com/progrium) Design-minded software architect
