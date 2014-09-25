@@ -60,8 +60,10 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 ### Images
 
 * [Base Image by @phusion](https://github.com/phusion/baseimage-docker)
-* [Busybox](https://github.com/jpetazzo/docker-busybox) by [@jpetazzo](https://github.com/jpetazzo)
+* [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo](https://github.com/jpetazzo)
+* [Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium](https://github.com/progrium)
 * [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
+* [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 
 ### Managing Images
 
