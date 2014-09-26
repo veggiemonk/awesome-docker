@@ -109,7 +109,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 * [Reesd](https://reesd.com/) -  Private Docker repositories and redundant storage service by [@noteed](https://github.com/noteed)
 
-### Hosting for containers
+### Hosting for containers (Paying Services $$$)
 
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
 * [StackDock](https://stackdock.com/) - Docker hosting on blazing fast dedicated infrastructure 
