@@ -17,6 +17,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   * [Dev Tools](#dev-tools)
   * [Images](#images)
   * [Managing Images](#managing-images)
+  * [Service Discovery](#service-discovery)
 * [Slides](#slides)
 * [Videos](#videos)
   * [Main Account](#main-account)
@@ -90,8 +91,12 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
 * [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker, Go, and YAM) -- http://gaudi.io/
 * [CoreOS](https://github.com/coreos) (Linux for Massive Server Deployments) -- https://coreos.com/
-* [Dokku](https://github.com/progrium/dokku) (Docker powered mini-Heroku in around 100 lines of Bash)
+* [Dokku](https://github.com/progrium/dokku) (Docker powered mini-Heroku in around 100 lines of Bash) by [@progrium](https://github.com/progrium)
   * [dokku-alt](https://github.com/dokku-alt/dokku-alt) (Dokku fork with Dockerfile support, database plugins, ACL and more)
+
+### Service Discovery
+
+*[docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
 
 ## Slides
 
