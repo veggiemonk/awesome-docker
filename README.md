@@ -6,7 +6,11 @@ Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome](https://
 
 Share some love: add your docker resource by forking / sending pull requests.
 
+> **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)**
+
 This list is not exhaustive (nor is it meant to be) but can probably help you get up and running faster. 
+
+---
 
 * [Useful Articles](#useful-articles)
  * [Main Resources](#main-resources)
@@ -24,7 +28,8 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   * [Hosting for containers](#hosting-for-containers)
   * [Dev Tools](#dev-tools)
   * [Images](#images)
-  * [Managing Images](#managing-images)
+  * [Storing Images](#storing-images)
+  * [Running Containers](#running-containers)
   * [Service Discovery](#service-discovery)
 * [Slides](#slides)
 * [Videos](#videos)
@@ -83,6 +88,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
  * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker)
  * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
 
+
 ## Books
 
 * [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar](https://twitter.com/kartar))
@@ -101,7 +107,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
-* [Reesd](https://reesd.com/) -  Private Docker repositories and redundant storage service.by [@noteed](https://github.com/noteed)
+* [Reesd](https://reesd.com/) -  Private Docker repositories and redundant storage service by [@noteed](https://github.com/noteed)
 
 ### Hosting for containers
 
@@ -129,12 +135,15 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 
-### Managing Images / Containers
+### Storing Images
+
+* [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
+* [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
+
+### Running Containers
 
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
-* [Docker Registry](https://github.com/docker/docker-registry)
-* [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
 * [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service (PaaS)) -- https://flynn.io/
 * [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
 * [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker, Go, and YAM) -- http://gaudi.io/
