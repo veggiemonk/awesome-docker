@@ -27,7 +27,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
   * [Hosting for containers](#hosting-for-containers-paying-services-)
   * [Dev Tools](#dev-tools)
-  * [Useful Images](#userful-images)
+  * [Useful Images](#useful-images)
   * [Storing Images](#storing-images)
   * [Running Containers](#running-containers)
   * [Service Discovery](#service-discovery)
