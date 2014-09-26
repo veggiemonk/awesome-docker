@@ -22,7 +22,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Videos](#videos)
   * [Main Account](#main-account)
   * [Useful videos](#useful-videos)
-* [(Interesting) Twitter Accounts](#interesting-twitter-accounts)
+* [Interesting Twitter Accounts](#interesting-twitter-accounts)
   
 ----
 
@@ -82,7 +82,6 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo](https://github.com/jpetazzo)
 * [Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium](https://github.com/progrium)
-
 * [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
@@ -131,7 +130,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Ansible and Docker HP](https://www.youtube.com/watch?v=oZ45v8AeE7k) (32:38)
 
 
-## (Interesting) Twitter Accounts
+## Interesting Twitter Accounts
 
 * [Docker](https://twitter.com/docker)
 * [Century Link Labs](https://twitter.com/CenturyLinkLabs)
