@@ -9,6 +9,14 @@ Share some love: add your docker resource by forking / sending pull requests.
 This list is not exhaustive (nor is it meant to be) but can probably help you get up and running faster. 
 
 * [Useful Articles](#useful-articles)
+ * [Main Resources](#main-resources)
+ * [General Articles](#general-articles)
+ * [Good Tips](#good-tips)
+ * [Service Discovery](#service-discovery)
+ * [Optimizing Images](#optimizing-images)
+ * [Security](#security)
+ * [Performances](#performances)
+ * [Other](#other)
 * [Books](#books)
 * [Dev](#dev)
   * [Continous Integration / Continous Delivery](#continous-integration-continous-delivery) 
@@ -28,34 +36,48 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ## Useful Articles
 
+### Main Resources
+
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Century Links Labs](http://www.centurylinklabs.com/category/docker-posts/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
 * [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) <--- MUST SEE
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo](https://github.com/jpetazzo)
 * [Blog](http://progrium.com/blog/) of [@progrium](https://github.com/progrium)
+
+### General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
+* [How to Use Docker on OS X: The Missing Guide](http://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
+* [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
+### Good Tips
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
+* [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) 
+* [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
+
+### Service Discovery
 * [@progrium](https://github.com/progrium) Service Discovery articles series:
  * [Consul Service Discovery with Docker](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/) 
  * [Understanding Modern Service Discovery with Docker](http://progrium.com/blog/2014/07/29/understanding-modern-service-discovery-with-docker/)
- * [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) by [@progrium](https://github.com/progrium)
-* [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/)
+ * [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) 
+
+### Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/)
 * [Creating a Docker image from your code](http://blog.tutum.co/2014/04/10/creating-a-docker-image-from-your-code/)
 * [Optimizing Docker Images](http://www.centurylinklabs.com/optimizing-docker-images/?hvid=1OW0br)
-* [Building Docker Images for Static Go Binaries](https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07)
-* [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
-* [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
-* [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/)
-* [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
-* [How to Use Docker on OS X: The Missing Guide](http://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
-* [Distrubuted JMeter testing using Docker](http://srivaths.blogspot.fr/2014/08/distrubuted-jmeter-testing-using-docker.html?m=1)
-* [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
-* [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
+* [Building Docker Images for Static Go Binaries](https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07) by @kelseyhightower
+* [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/) by [@jwilder](https://github.com/jwilder)
 * [Dockerfile Golf (or optimizing the Docker build process)](http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html)
+
+### Security
+* [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
+* [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
+* 
+### Perfomances
+* [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
+* [Distrubuted JMeter testing using Docker](http://srivaths.blogspot.fr/2014/08/distrubuted-jmeter-testing-using-docker.html?m=1)
 * [nsinit: per-container resource monitoring of Docker containers on RHEL/Fedora](http://www.breakage.org/2014/09/03/nsinit-per-container-resource-monitoring-of-docker-containers-on-rhelfedora/)
 
+### Other
 * Presentation: Docker and JBoss - the perfect combination
  * [Vidéo](http://www.youtube.com/watch?v=4uQ6gR_xZhE)
  * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker)
