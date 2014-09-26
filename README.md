@@ -78,7 +78,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
 
-### Perfomances
+### Performances
 * [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
 * [Distrubuted JMeter testing using Docker](http://srivaths.blogspot.fr/2014/08/distrubuted-jmeter-testing-using-docker.html?m=1)
 * [nsinit: per-container resource monitoring of Docker containers on RHEL/Fedora](http://www.breakage.org/2014/09/03/nsinit-per-container-resource-monitoring-of-docker-containers-on-rhelfedora/)
