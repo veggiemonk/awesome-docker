@@ -23,7 +23,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
  * [Other](#other)
 * [Books](#books)
 * [Dev](#dev)
-  * [Continous Integration / Continous Delivery](#continous-integration-continous-delivery) 
+  * [Continous Integration / Continous Delivery](#continous-integration--continous-delivery) 
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
   * [Hosting for containers](#hosting-for-containers)
   * [Dev Tools](#dev-tools)
