@@ -27,12 +27,12 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ## Useful Articles
 
-* [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
+* [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Century Links Labs](http://www.centurylinklabs.com/category/docker-posts/)
-* [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)
+* [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
 * [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) <--- MUST SEE
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo](https://github.com/jpetazzo)
-* [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper)
+* [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
 * [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) by [@progrium](https://github.com/progrium)
 
