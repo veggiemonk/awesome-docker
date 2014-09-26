@@ -58,14 +58,14 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 ### Hosting for repositories (registries)
 
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
-* [Quay.io](https://quay.io/) (part of CoreOS)
-* [Reesd](https://reesd.com/)
+* [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
+* [Reesd](https://reesd.com/) -  Private Docker repositories and redundant storage service.by [@noteed](https://github.com/noteed)
 
 ### Hosting for containers
 
-* [Orchard](https://www.orchardup.com/) (part of Docker Inc)
-* [StackDock](https://stackdock.com/)
-* [Tutum](https://www.tutum.co/)
+* [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
+* [StackDock](https://stackdock.com/) - Docker hosting on blazing fast dedicated infrastructure 
+* [Tutum](https://www.tutum.co/) - Simple hosting for your Docker containers.
 
 ### Dev Tools
 
@@ -79,11 +79,13 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ### Images
 
-* [Base Image by @phusion](https://github.com/phusion/baseimage-docker)
+* [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo](https://github.com/jpetazzo)
 * [Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium](https://github.com/progrium)
+
 * [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
+* [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 
 ### Managing Images
 
