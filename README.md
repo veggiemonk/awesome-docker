@@ -16,8 +16,8 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
  * [Main Resources](#main-resources)
  * [General Articles](#general-articles)
  * [Good Tips](#good-tips)
- * [Service Discovery](#service-discovery)
  * [Optimizing Images](#optimizing-images)
+ * [Service Discovery](#service-discovery)
  * [Security](#security)
  * [Performances](#performances)
  * [Other](#other)
@@ -60,12 +60,6 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) 
 * [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
 
-### Service Discovery
-* [@progrium](https://github.com/progrium) Service Discovery articles series:
- * [Consul Service Discovery with Docker](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/) 
- * [Understanding Modern Service Discovery with Docker](http://progrium.com/blog/2014/07/29/understanding-modern-service-discovery-with-docker/)
- * [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) 
-
 ### Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/)
 * [Creating a Docker image from your code](http://blog.tutum.co/2014/04/10/creating-a-docker-image-from-your-code/)
@@ -73,6 +67,12 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Building Docker Images for Static Go Binaries](https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07) by @kelseyhightower
 * [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/) by [@jwilder](https://github.com/jwilder)
 * [Dockerfile Golf (or optimizing the Docker build process)](http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html)
+
+### Service Discovery
+* [@progrium](https://github.com/progrium) Service Discovery articles series:
+ * [Consul Service Discovery with Docker](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/) 
+ * [Understanding Modern Service Discovery with Docker](http://progrium.com/blog/2014/07/29/understanding-modern-service-discovery-with-docker/)
+ * [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) 
 
 ### Security
 * [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
