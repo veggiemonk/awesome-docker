@@ -33,9 +33,13 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
 * [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) <--- MUST SEE
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo](https://github.com/jpetazzo)
-* [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
+* [Blog](http://progrium.com/blog/) of [@progrium](https://github.com/progrium)
+* [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
-* [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) by [@progrium](https://github.com/progrium)
+* [@progrium](https://github.com/progrium) Service Discovery articles series:
+ * [Consul Service Discovery with Docker](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/) 
+ * [Understanding Modern Service Discovery with Docker](http://progrium.com/blog/2014/07/29/understanding-modern-service-discovery-with-docker/)
+ * [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) by [@progrium](https://github.com/progrium)
 
 ## Books
 
@@ -96,7 +100,8 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ### Service Discovery
 
-*[docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
+* [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
+* [etcd](https://github.com/coreos/etcd): A highly-available key value store for shared configuration and service discovery
 
 ## Slides
 
