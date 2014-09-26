@@ -27,7 +27,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
   * [Hosting for containers](#hosting-for-containers)
   * [Dev Tools](#dev-tools)
-  * [Images](#images)
+  * [Useful Images](#userful-images)
   * [Storing Images](#storing-images)
   * [Running Containers](#running-containers)
   * [Service Discovery](#service-discovery)
@@ -126,7 +126,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
 * [OctoHost](http://www.octohost.io/) (Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
 
-### Images
+### Useful Images
 
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo](https://github.com/jpetazzo)
