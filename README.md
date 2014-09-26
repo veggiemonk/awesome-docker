@@ -55,7 +55,12 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
 * [Dockerfile Golf (or optimizing the Docker build process)](http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html)
 * [nsinit: per-container resource monitoring of Docker containers on RHEL/Fedora](http://www.breakage.org/2014/09/03/nsinit-per-container-resource-monitoring-of-docker-containers-on-rhelfedora/)
-* 
+
+* Presentation: Docker and JBoss - the perfect combination
+ * [Vidéo](http://www.youtube.com/watch?v=4uQ6gR_xZhE)
+ * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker)
+ * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
+
 ## Books
 
 * [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar](https://twitter.com/kartar))
