@@ -12,6 +12,8 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Books](#books)
 * [Dev](#dev)
   * [Continous Integration / Continous Delivery](#continous-integration-continous-delivery) 
+  * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
+  * [Hosting for containers](#hosting-for-containers)
   * [Dev Tools](#dev-tools)
   * [Images](#images)
   * [Managing Images](#managing-images)
@@ -47,6 +49,18 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 ### Continous Integration / Continous Delivery
 
 * [Drone](https://github.com/drone/drone) - https://drone.io/
+
+### Hosting for repositories (registries)
+
+* [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
+* [Quay.io](https://quay.io/) (part of CoreOS)
+* [Reesd](https://reesd.com/)
+
+### Hosting for containers
+
+* [Orchard](https://www.orchardup.com/) (part of Docker Inc)
+* [StackDock](https://stackdock.com/)
+* [Tutum](https://www.tutum.co/)
 
 ### Dev Tools
 
