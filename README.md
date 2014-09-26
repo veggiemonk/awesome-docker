@@ -107,7 +107,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 
-### Managing Images
+### Managing Images / Containers
 
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
@@ -119,6 +119,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [CoreOS](https://github.com/coreos) (Linux for Massive Server Deployments) -- https://coreos.com/
 * [Dokku](https://github.com/progrium/dokku) (Docker powered mini-Heroku in around 100 lines of Bash) by [@progrium](https://github.com/progrium)
   * [dokku-alt](https://github.com/dokku-alt/dokku-alt) (Dokku fork with Dockerfile support, database plugins, ACL and more)
+* [Ansible - manage docker containers](http://docs.ansible.com/docker_module.html)
 
 ### Service Discovery
 
