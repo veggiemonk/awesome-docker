@@ -7,7 +7,6 @@ We appreciate and recognize [all contributors](https://github.com/veggiemonk/awe
 
 `awesome-docker` is a hand-crafted list for high-quality information about docker and its resources.
 
-- List items should be sorted *alphabetically*.
 - Each item should be limited to one link
 - The link should be the name of the package or project or website
 - Descriptions should be clear, concise, and non-promotional
