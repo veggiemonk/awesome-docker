@@ -153,6 +153,8 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   * [dokku-alt](https://github.com/dokku-alt/dokku-alt) (Dokku fork with Dockerfile support, database plugins, ACL and more)
 * [cAdvisor](https://github.com/google/cadvisor) (Analyzes resource usage and performance characteristics of running containers)
 * [Ansible - manage docker containers](http://docs.ansible.com/docker_module.html)
+* [Launch Docker container on Mesos](https://mesosphere.com/learn/launch-docker-container-on-mesosphere/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment.)
+* [Marathon](https://mesosphere.github.io/marathon/docs/) (Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on".)
 
 ### Service Discovery
 
