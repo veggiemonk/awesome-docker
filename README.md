@@ -119,6 +119,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 ### Dev Tools
 
 * [Fig](https://github.com/docker/fig) (Fast, isolated development environments using Docker) -- http://www.fig.sh
+* [Shutit](http://ianmiell.github.io/shutit/) (a tool for building and maintaining complex Docker deployments) by [@ianmiell](https://github.com/ianmiell)
 * [Sandstorm](https://github.com/sandstorm-io/sandstorm) (Personal Cloud Sandbox /!\ uses LXC, not docker, but it's so nice) -- https://sandstorm.io/
 * [ns-enter](https://github.com/jpetazzo/nsenter) (no more ssh, enter name spaces of container) by [@jpetazzo](https://github.com/jpetazzo)
 * [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) (in case of proxy problem) by [@jpetazzo](https://github.com/jpetazzo/)
