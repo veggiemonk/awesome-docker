@@ -58,7 +58,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ### Good Tips
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
-* [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) 
+* [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) by [@jwilder](https://github.com/jwilder)
 * [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
 * [A Simple Way to Dockerize Applications](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications) by [@jwilder](https://github.com/jwilder)
 
