@@ -49,6 +49,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) <--- MUST SEE
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo](https://github.com/jpetazzo)
 * [Blog](http://progrium.com/blog/) of [@progrium](https://github.com/progrium)
+* [Blog](http://jasonwilder.com/) of [@jwilder](https://github.com/jwilder)
 
 ### General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
@@ -59,6 +60,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
 * [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) 
 * [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
+* [A Simple Way to Dockerize Applications](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications) by [@jwilder](https://github.com/jwilder)
 
 ### Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/)
@@ -124,6 +126,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [ns-enter](https://github.com/jpetazzo/nsenter) (no more ssh, enter name spaces of container) by [@jpetazzo](https://github.com/jpetazzo)
 * [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) (in case of proxy problem) by [@jpetazzo](https://github.com/jpetazzo/)
 * [docker-gen](https://github.com/jwilder/docker-gen) (Generate files from docker container meta-data) by [@jwilder](https://github.com/jwilder)
+* [dockerize](https://github.com/jwilder/dockerize) (Utility to simplify running applications in docker containers) by [@jwilder](https://github.com/jwilder)
 * [registrator](https://github.com/progrium/registrator) (Service registry bridge for Docker) by [@progrium](https://github.com/progrium)
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
 * [OctoHost](http://www.octohost.io/) (Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
