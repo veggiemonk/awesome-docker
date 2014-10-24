@@ -56,6 +56,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [How to Use Docker on OS X: The Missing Guide](http://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
 * [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
 * [Deploying NGINX with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
+* [Eight Docker Development Patterns](http://www.hokstad.com/docker/patterns)
 
 ### Good Tips
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
