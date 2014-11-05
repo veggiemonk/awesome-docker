@@ -164,6 +164,10 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Launch Docker container on Mesos](https://mesosphere.com/learn/launch-docker-container-on-mesosphere/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment.)
 * [Marathon](https://mesosphere.github.io/marathon/docs/) (Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on".)
 
+### Networking
+
+* [Weave] (https://github.com/zettio/weave) (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
+
 ### Service Discovery
 
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
