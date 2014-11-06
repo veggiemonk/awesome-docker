@@ -129,6 +129,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 * [Fig](https://github.com/docker/fig) (Fast, isolated development environments using Docker) -- http://www.fig.sh
 * [Shutit](http://ianmiell.github.io/shutit/) (a tool for building and maintaining complex Docker deployments) by [@ianmiell](https://github.com/ianmiell)
+* [FuGu](https://github.com/mattes/fugu) (a docker run wrapper without orchestration) by [@mattes](https://github.com/mattes)
 * [Sandstorm](https://github.com/sandstorm-io/sandstorm) (Personal Cloud Sandbox /!\ uses LXC, not docker, but it's so nice) -- https://sandstorm.io/
 * [ns-enter](https://github.com/jpetazzo/nsenter) (no more ssh, enter name spaces of container) by [@jpetazzo](https://github.com/jpetazzo)
 * [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) (in case of proxy problem) by [@jpetazzo](https://github.com/jpetazzo/)
@@ -152,7 +153,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
 * [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
 
-### Running Containers
+### Running Containers / Orchestration
 
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
