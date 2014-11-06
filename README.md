@@ -80,7 +80,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ### Service Discovery
 * [@progrium](https://github.com/progrium) Service Discovery articles series:
- * [Consul Service Discovery with Docker](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/) 
+ * [Consul Service Discovery with Docker](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/)
  * [Understanding Modern Service Discovery with Docker](http://progrium.com/blog/2014/07/29/understanding-modern-service-discovery-with-docker/)
  * [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) 
 
@@ -111,17 +111,14 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)  by [@wsargent](https://github.com/wsargent)
 
 ### Continous Integration / Continous Delivery
-
 * [Drone](https://github.com/drone/drone) - https://drone.io/
 
 ### Hosting for repositories (registries)
-
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 * [Reesd](https://reesd.com/) -  Private Docker repositories and redundant storage service by [@noteed](https://github.com/noteed)
 
 ### Hosting for containers (Paying Services $$$)
-
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
 * [StackDock](https://stackdock.com/) - Docker hosting on blazing fast dedicated infrastructure 
 * [Tutum](https://www.tutum.co/) - Simple hosting for your Docker containers.
@@ -141,7 +138,6 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [OctoHost](http://www.octohost.io/) (Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
 
 ### Useful Images
-
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo](https://github.com/jpetazzo)
 * [Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium](https://github.com/progrium)
@@ -150,12 +146,10 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 
 ### Storing Images
-
 * [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
 * [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
 
 ### Running Containers / Orchestration
-
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
 * [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service (PaaS)) -- https://flynn.io/
@@ -171,33 +165,28 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Serf](https://github.com/hashicorp/serf)Service orchestration and management tool. by [@hashicorp](https://github.com/hashicorp)
 
 ### Networking
-
 * [Weave](https://github.com/zettio/weave) (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
  
 ### Logging
-
 * [LogJam](https://github.com/gocardless/logjam)
 
 ### Service Discovery
-
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
 * [etcd](https://github.com/coreos/etcd): A highly-available key value store for shared configuration and service discovery
+* [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/articles/ambassador_pattern_linking/)
 
 ## Slides
-
 * [Docker Slideshare Account](http://www.slideshare.net/dotCloud)
 * [Docker Security](http://www.slideshare.net/jpetazzo) with [@jpetazzo](https://github.com/jpetazzo)
 
 ## Videos
 
 ### Main Account
-
 * [Docker Youtube Account](http://www.youtube.com/user/dockerrun)
 * [CenturyLink Labs Docker Interviews](http://www.youtube.com/playlist?list=PL_q4Fk7SVBCIjyuCBFBItXnzGI3qBa2L1)
 * [YLD Event](https://www.youtube.com/channel/UCvksXSnLqIVM_uFB7xyrsSg/videos) Conference about *containers*!!! [@YLDio](https://twitter.com/YLDio)
 
 ### Useful videos
-
 * [Orchestrating Docker containers in production using Fig](https://www.youtube.com/watch?v=SEtRg8siQWw) (7:11)
 * [Development Environments with Fig](http://youtu.be/QpSFOHvFyMc) by Aanand Prasad (17:58)
 * [Docker in Production](http://youtu.be/Glk5d5WP6MI) by [@jpetazzo](https://github.com/jpetazzo) (36:05)
@@ -211,7 +200,6 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 
 ## Interesting Twitter Accounts
-
 * [Docker](https://twitter.com/docker)
 * [Century Link Labs](https://twitter.com/CenturyLinkLabs)
 * [Flux7Labs](https://twitter.com/Flux7Labs)
