@@ -30,6 +30,8 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   * [Useful Images](#useful-images)
   * [Storing Images](#storing-images)
   * [Running Containers](#running-containers)
+  * [Networking](networking)
+  * [Logging](#logging)
   * [Service Discovery](#service-discovery)
 * [Slides](#slides)
 * [Videos](#videos)
@@ -167,7 +169,11 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 
 ### Networking
 
-* [Weave] (https://github.com/zettio/weave) (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
+* [Weave](https://github.com/zettio/weave) (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
+ 
+### Logging
+
+* [LogJam](https://github.com/gocardless/logjam)
 
 ### Service Discovery
 
