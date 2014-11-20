@@ -15,6 +15,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Useful Articles](#useful-articles)
  * [Main Resources](#main-resources)
  * [General Articles](#general-articles)
+ * [Multi-Server](#multi-server)
  * [Good Tips](#good-tips)
  * [Optimizing Images](#optimizing-images)
  * [Service Discovery](#service-discovery)
@@ -60,6 +61,9 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
 * [Deploying NGINX with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Eight Docker Development Patterns](http://www.hokstad.com/docker/patterns)
+
+### Multi-Server
+* [Using Fig and Flocker to build, test, deploy and migrate multi-server Dockerized apps](https://clusterhq.com/blog/fig-flocker-multi-server-docker-apps/)
 
 ### Good Tips
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
