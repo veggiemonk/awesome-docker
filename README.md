@@ -32,7 +32,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   * [Running Containers](#running-containers--orchestration)
   * [Networking](networking)
   * [Logging](#logging)
-  * [Service Discovery](#service-discovery)
+  * [Service Discovery](#service-discovery-1)
 * [Slides](#slides)
 * [Videos](#videos)
   * [Main Account](#main-account)
