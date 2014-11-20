@@ -170,7 +170,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Weave](https://github.com/zettio/weave) (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
  
 ### Logging
-* [LogJam](https://github.com/gocardless/logjam)
+* [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collecton server (such as logstash).)
 
 ### Service Discovery
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
