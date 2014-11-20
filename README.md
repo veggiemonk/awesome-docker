@@ -29,7 +29,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   * [Dev Tools](#dev-tools)
   * [Useful Images](#useful-images)
   * [Storing Images](#storing-images)
-  * [Running Containers](#running-containers)
+  * [Running Containers](#running-containers--orchestration)
   * [Networking](networking)
   * [Logging](#logging)
   * [Service Discovery](#service-discovery)
