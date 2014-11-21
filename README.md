@@ -4,13 +4,16 @@
 
 Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome](https://github.com/sindresorhus/awesome)
 
-Share some love: add your docker resource by forking / sending pull requests.
+This list is not exhaustive, contribute to make it so: add your docker resource by forking / sending pull requests.
 
 > **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)**
 
-This list is not exhaustive (nor is it meant to be) but can probably help you get up and running faster. 
+# What is Docker ?
 
----
+> Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Consisting of Docker Engine, a portable, lightweight runtime and packaging tool, and Docker Hub, a cloud service for sharing applications and automating workflows, Docker enables apps to be quickly assembled from components and eliminates the friction between development, QA, and production environments. As a result, IT can ship faster and run the same app, unchanged, on laptops, data center VMs, and any cloud.
+
+
+# MENU
 
 * [Useful Articles](#useful-articles)
  * [Main Resources](#main-resources)
@@ -44,9 +47,9 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
   
 ----
 
-## Useful Articles
+# Useful Articles
 
-### Main Resources
+## Main Resources
 
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Century Links Labs](http://www.centurylinklabs.com/category/docker-posts/)
@@ -57,20 +60,20 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Blog](http://jasonwilder.com/) of [@jwilder](https://github.com/jwilder)
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 
-### General Articles
+## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
 * [How to Use Docker on OS X: The Missing Guide](http://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
 * [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
 * [Deploying NGINX with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Eight Docker Development Patterns](http://www.hokstad.com/docker/patterns)
 
-### Deep Dive
+## Deep Dive
 * [Creating containers - Part 1](http://crosbymichael.com/creating-containers-part-1.html) This is part one of a series of blog posts detailing how docker creates containers. By [@crosbymichael](https://github.com/crosbymichael)
 
-### Multi-Server
+## Multi-Server
 * [Using Fig and Flocker to build, test, deploy and migrate multi-server Dockerized apps](https://clusterhq.com/blog/fig-flocker-multi-server-docker-apps/)
 
-### Good Tips
+## Good Tips
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
 * [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) by [@jwilder](https://github.com/jwilder)
 * [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
@@ -79,7 +82,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [10 Things Not To Forget Before Deploying Docker In Production](http://www.slideshare.net/rightscale/docker-meetup-40826948)
 * [Make Your Docker Workflow Awesome With Fig.sh](http://www.syncano.com/docker-workflow-fig-sh/) Fig is a python application that helps you run groups of docker containers.
 
-### Optimizing Images
+## Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/)
 * [Creating a Docker image from your code](http://blog.tutum.co/2014/04/10/creating-a-docker-image-from-your-code/)
 * [Optimizing Docker Images](http://www.centurylinklabs.com/optimizing-docker-images/?hvid=1OW0br)
@@ -88,52 +91,52 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/) by [@jwilder](https://github.com/jwilder)
 * [Dockerfile Golf (or optimizing the Docker build process)](http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html)
 
-### Service Discovery
+## Service Discovery
 * [@progrium](https://github.com/progrium) Service Discovery articles series:
  * [Consul Service Discovery with Docker](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/)
  * [Understanding Modern Service Discovery with Docker](http://progrium.com/blog/2014/07/29/understanding-modern-service-discovery-with-docker/)
  * [Automatic Docker Service Announcement with Registrator](http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/) 
 
-### Security
+## Security
 * [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
 
-### Performances
+## Performances
 * [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
 * [Distrubuted JMeter testing using Docker](http://srivaths.blogspot.fr/2014/08/distrubuted-jmeter-testing-using-docker.html?m=1)
 * [nsinit: per-container resource monitoring of Docker containers on RHEL/Fedora](http://www.breakage.org/2014/09/03/nsinit-per-container-resource-monitoring-of-docker-containers-on-rhelfedora/)
 
-### Other
+## Other
 * Presentation: Docker and JBoss - the perfect combination
  * [Vidéo](http://www.youtube.com/watch?v=4uQ6gR_xZhE)
  * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker)
  * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
 
 
-## Books
+# Books
 
 * [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar](https://twitter.com/kartar))
  
-## Dev 
+# Dev 
 
 * [Docker](https://github.com/docker/docker)
 * [Docker Images](https://hub.docker.com)
 * [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)  by [@wsargent](https://github.com/wsargent)
 
-### Continous Integration / Continous Delivery
+## Continous Integration / Continous Delivery
 * [Drone](https://github.com/drone/drone) - https://drone.io/
 
-### Hosting for repositories (registries)
+## Hosting for repositories (registries)
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 * [Reesd](https://reesd.com/) -  Private Docker repositories and redundant storage service by [@noteed](https://github.com/noteed)
 
-### Hosting for containers (Paying Services $$$)
+## Hosting for containers (Paying Services $$$)
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
 * [StackDock](https://stackdock.com/) - Docker hosting on blazing fast dedicated infrastructure 
 * [Tutum](https://www.tutum.co/) - Simple hosting for your Docker containers.
 
-### Dev Tools
+## Dev Tools
 
 * [Fig](https://github.com/docker/fig) (Fast, isolated development environments using Docker) -- http://www.fig.sh
 * [Shutit](http://ianmiell.github.io/shutit/) (a tool for building and maintaining complex Docker deployments) by [@ianmiell](https://github.com/ianmiell)
@@ -147,7 +150,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
 * [OctoHost](http://www.octohost.io/) (Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
  
-### Useful Images
+## Useful Images
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo](https://github.com/jpetazzo)
 * [Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium](https://github.com/progrium)
@@ -155,15 +158,14 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 
-### Storing Images
+## Storing Images
 * [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
 
-
-### Web Interface
+## Web Interface
 * [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
 * [DockerUI](https://github.com/crosbymichael/dockerui) (DockerUI is a web interface to interact with the Remote API.) by [@crosbymichael](https://github.com/crosbymichael)
 
-### Running Containers / Orchestration
+## Running Containers / Orchestration
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
 * [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service (PaaS)) -- https://flynn.io/
@@ -179,29 +181,29 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Serf](https://github.com/hashicorp/serf)Service orchestration and management tool. by [@hashicorp](https://github.com/hashicorp)
 * [Flocker](https://github.com/ClusterHQ/flocker) (Flocker is a data volume manager and multi-host Docker cluster management tool) by [@ClusterHQ](https://github.com/ClusterHQ)
 
-### Networking
+## Networking
 * [Weave](https://github.com/zettio/weave) (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
  
-### Logging
+## Logging
 * [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collecton server (such as logstash).)
 
-### Service Discovery
+## Service Discovery
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
 * [etcd](https://github.com/coreos/etcd): A highly-available key value store for shared configuration and service discovery
 * [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/articles/ambassador_pattern_linking/)
 
-## Slides
+# Slides
 * [Docker Slideshare Account](http://www.slideshare.net/dotCloud)
 * [Docker Security](http://www.slideshare.net/jpetazzo) with [@jpetazzo](https://github.com/jpetazzo)
 
-## Videos
+# Videos
 
-### Main Account
+## Main Account
 * [Docker Youtube Account](http://www.youtube.com/user/dockerrun)
 * [CenturyLink Labs Docker Interviews](http://www.youtube.com/playlist?list=PL_q4Fk7SVBCIjyuCBFBItXnzGI3qBa2L1)
 * [YLD Event](https://www.youtube.com/channel/UCvksXSnLqIVM_uFB7xyrsSg/videos) Conference about *containers*!!! [@YLDio](https://twitter.com/YLDio)
 
-### Useful videos
+## Useful videos
 * [Orchestrating Docker containers in production using Fig](https://www.youtube.com/watch?v=SEtRg8siQWw) (7:11)
 * [Development Environments with Fig](http://youtu.be/QpSFOHvFyMc) by Aanand Prasad (17:58)
 * [Docker in Production](http://youtu.be/Glk5d5WP6MI) by [@jpetazzo](https://github.com/jpetazzo) (36:05)
@@ -215,7 +217,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Extending Docker with Plugins](http://vimeo.com/110835013) (15:21)
 
 
-## Interesting Twitter Accounts
+# Interesting Twitter Accounts
 * [Docker](https://twitter.com/docker)
 * [Century Link Labs](https://twitter.com/CenturyLinkLabs)
 * [Flux7Labs](https://twitter.com/Flux7Labs)
@@ -224,7 +226,7 @@ This list is not exhaustive (nor is it meant to be) but can probably help you ge
 * [Openshift By Red Hat](https://twitter.com/openshift)
 * [YLD](https://twitter.com/YLDio)
 
-### People
+## People
 * [Solomon Hykes](https://twitter.com/solomonstre) Founder of Docker
 * [Gabriel Monroy](https://twitter.com/gabrtv) Creator of Deis
 * [Jérôme Petazzoni](https://twitter.com/jpetazzo) Docker Developer
