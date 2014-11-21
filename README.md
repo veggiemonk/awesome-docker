@@ -54,10 +54,11 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Century Links Labs](http://www.centurylinklabs.com/category/docker-posts/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
-* [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) <--- MUST SEE
+* [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo](https://github.com/jpetazzo)
 * [Blog](http://progrium.com/blog/) of [@progrium](https://github.com/progrium)
 * [Blog](http://jasonwilder.com/) of [@jwilder](https://github.com/jwilder)
+* [Blog](http://crosbymichael.com/) of [@crosbymichael](https://github.com/crosbymichael)
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 
 ## General Articles
