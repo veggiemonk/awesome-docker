@@ -33,6 +33,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
   * [Hosting for containers](#hosting-for-containers-paying-services-)
   * [Dev Tools](#dev-tools)
   * [Useful Images](#useful-images)
+  * [Docker Files](#docker-files)
   * [Storing Images](#storing-images)
   * [Web Interface](#web-interface)
   * [Running Containers](#running-containers--orchestration)
@@ -132,7 +133,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 * [Reesd](https://reesd.com/) -  Private Docker repositories and redundant storage service by [@noteed](https://github.com/noteed)
 
-## Hosting for containers (Paying Services $$$)
+## Hosting for containers
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
 * [StackDock](https://stackdock.com/) - Docker hosting on blazing fast dedicated infrastructure 
 * [Tutum](https://www.tutum.co/) - Simple hosting for your Docker containers.
@@ -158,6 +159,9 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
+
+## Docker Files
+* [Collection of Dockerfiles](https://github.com/crosbymichael/Dockerfiles) by [@crosbymichael](https://github.com/crosbymichael)
 
 ## Storing Images
 * [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
