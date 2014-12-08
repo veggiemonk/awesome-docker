@@ -27,7 +27,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
  * [Performances](#performances)
  * [Other](#other)
 * [Books](#books)
-* [Dev](#dev)
+* [Tools](#tools)
   * [Continous Integration / Continous Delivery](#continous-integration--continous-delivery) 
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
   * [Hosting for containers](#hosting-for-containers-paying-services-)
@@ -122,7 +122,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 
 * [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar](https://twitter.com/kartar))
  
-# Dev 
+# Tools 
 
 * [Docker](https://github.com/docker/docker)
 * [Docker Images](https://hub.docker.com)
