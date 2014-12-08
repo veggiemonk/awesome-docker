@@ -36,6 +36,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
   * [Docker Files](#docker-files)
   * [Storing Images](#storing-images)
   * [Web Interface](#web-interface)
+  * [Monitoring](#monitoring)
   * [Running Containers](#running-containers--orchestration)
   * [Networking](#networking)
   * [Logging](#logging)
@@ -171,6 +172,10 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 ## Web Interface
 * [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
 * [DockerUI](https://github.com/crosbymichael/dockerui) (DockerUI is a web interface to interact with the Remote API.) by [@crosbymichael](https://github.com/crosbymichael)
+ 
+## Monitoring
+* [Seagull](https://github.com/tobegit3hub/seagull) (Friendly Web UI to monitor docker daemon.)
+* [Dockarana](https://github.com/dockerana/dockerana) (packaged version of Graphite and Grafana, specifically targeted at metrics from Docker.)
 
 ## Running Containers / Orchestration
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
