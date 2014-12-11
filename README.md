@@ -164,6 +164,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 
 ## Docker Files
+* [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
 * [Collection of Dockerfiles](https://github.com/crosbymichael/Dockerfiles) by [@crosbymichael](https://github.com/crosbymichael)
 
 ## Storing Images
