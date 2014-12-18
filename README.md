@@ -155,6 +155,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [registrator](https://github.com/progrium/registrator) (Service registry bridge for Docker) by [@progrium](https://github.com/progrium)
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
 * [OctoHost](http://www.octohost.io/) (Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
+* [Dockly](https://github.com/swipely/dockly): Dockly is a gem made to ease the pain of packaging an application in Docker.
  
 ## Useful Images
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
@@ -195,9 +196,11 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Marathon](https://mesosphere.github.io/marathon/docs/) (Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on".)
 * [Serf](https://github.com/hashicorp/serf)Service orchestration and management tool. by [@hashicorp](https://github.com/hashicorp)
 * [Flocker](https://github.com/ClusterHQ/flocker) (Flocker is a data volume manager and multi-host Docker cluster management tool) by [@ClusterHQ](https://github.com/ClusterHQ)
+* [Decking](http://decking.io/): Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers.
+* [Maestro](https://github.com/toscanini/maestro): Maestro provides the ability to easily launch, orchestrate and manage mulitple Docker containers as single unit.
 
 ## Networking
-* [Weave](https://github.com/zettio/weave) (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
+* [Weave][weave] (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
  
 ## Logging
 * [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collecton server (such as logstash).)
@@ -206,6 +209,12 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
 * [etcd](https://github.com/coreos/etcd): A highly-available key value store for shared configuration and service discovery
 * [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/articles/ambassador_pattern_linking/)
+* [confd](http://www.confd.io/): Manage local application configuration files using templates and data from etcd or consul.
+
+## Deployment and Infrastructure
+* [Centurion](https://github.com/newrelic/centurion): Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings.
+* [Longshoreman](https://github.com/longshoreman/longshoreman): Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool.
+* [Clocker](https://github.com/brooklyncentral/clocker): Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts. It leverages [Weave][weave] for networking and [Brooklyn][boorklyn] for application blueprints.
 
 # Slides
 * [Docker Slideshare Account](http://www.slideshare.net/dotCloud)
@@ -249,3 +258,6 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Michael Crosby](https://twitter.com/crosbymichael) Docker Developer
 * [James Turnbull](https://twitter.com/kartar) Author of Docker Book
 * [Jeff Lindsay](https://twitter.com/progrium) Design-minded software architect
+
+[weave]: https://github.com/zettio/weave
+[brooklyn]: https://brooklyn.incubator.apache.org/
