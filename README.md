@@ -64,7 +64,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Blog](http://crosbymichael.com/) of [@crosbymichael](https://github.com/crosbymichael)
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 * [Container42](http://container42.com/)
-* [Contrainer solutions](http://container-solutions.com/)
+* [Contrainer solutions](http://container-solutions.com/blog/)
 
 ## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
