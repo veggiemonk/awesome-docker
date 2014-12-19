@@ -84,6 +84,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [blimp](https://github.com/tubesandlube/blimp) Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 
 ## Good Tips
+* [24 random docker tips](http://csaba.palfi.me/random-docker-tips/) by [@csabapalfi](https://github.com/csabapalfi)
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
 * [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) by [@jwilder](https://github.com/jwilder)
 * [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
