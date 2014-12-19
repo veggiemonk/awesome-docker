@@ -19,6 +19,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
  * [Main Resources](#main-resources)
  * [General Articles](#general-articles)
  * [Deep Dive](#deep-dive)
+ * [Metal](#metal)
  * [Multi-Server](#multi-server)
  * [Good Tips](#good-tips)
  * [Optimizing Images](#optimizing-images)
@@ -74,6 +75,9 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 ## Deep Dive
 * [Creating containers - Part 1](http://crosbymichael.com/creating-containers-part-1.html) This is part one of a series of blog posts detailing how docker creates containers. By [@crosbymichael](https://github.com/crosbymichael)
 * [Data-only container madness](http://container42.com/2014/11/18/data-only-container-madness/)
+
+## Metal
+* [How to use Docker on Full Metal](http://blog.bigstep.com/big-data-performance/use-docker-full-metal-cloud/)
 
 ## Multi-Server
 * [Using Fig and Flocker to build, test, deploy and migrate multi-server Dockerized apps](https://clusterhq.com/blog/fig-flocker-multi-server-docker-apps/)
