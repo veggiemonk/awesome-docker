@@ -22,6 +22,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
  * [Metal](#metal)
  * [Multi-Server](#multi-server)
  * [Good Tips](#good-tips)
+ * [Continuous Integration](#continuous-integration)
  * [Optimizing Images](#optimizing-images)
  * [Service Discovery](#service-discovery)
  * [Security](#security)
@@ -93,6 +94,9 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Building good docker images](http://jonathan.bergknoff.com/journal/building-good-docker-images) by [@jbergknoff](https://github.com/jbergknoff)
 * [10 Things Not To Forget Before Deploying Docker In Production](http://www.slideshare.net/rightscale/docker-meetup-40826948)
 * [Make Your Docker Workflow Awesome With Fig.sh](http://www.syncano.com/docker-workflow-fig-sh/) Fig is a python application that helps you run groups of docker containers.
+
+## Continuous Integration
+* [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](http://ariya.ofilabs.com/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html)
 
 ## Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/)
