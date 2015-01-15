@@ -116,6 +116,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 ## Security
 * [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
+* [Docker Secure Deployment Guidelines](https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines)
 
 ## Performances
 * [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
