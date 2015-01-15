@@ -192,6 +192,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Dockerana](https://github.com/dockerana/dockerana) (packaged version of Graphite and Grafana, specifically targeted at metrics from Docker.)
 
 ## Running Containers / Orchestration
+* [Kubernetes](http://kubernetes.io) Open source orchestration system for Docker containers by Google  -- http://kubernetes.io
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
 * [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service (PaaS)) -- https://flynn.io/
