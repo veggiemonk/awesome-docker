@@ -56,7 +56,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 ## Main Resources
 
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
-* [Century Links Labs](http://www.centurylinklabs.com/category/docker-posts/)
+* [Century Links Labs](http://www.centurylinklabs.com/category/docker/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
 * [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo](https://github.com/jpetazzo)
