@@ -2,7 +2,7 @@
 
 > A curated list of Docker resources
 
-Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome](https://github.com/sindresorhus/awesome)
+Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome](https://github.com/sindresorhus/awesome) and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
 
 This list is not exhaustive, contribute to make it so: add your docker resource by forking / sending pull requests.
 
