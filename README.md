@@ -167,6 +167,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
 * [OctoHost](http://www.octohost.io/) (Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
 * [Dockly](https://github.com/swipely/dockly): Dockly is a gem made to ease the pain of packaging an application in Docker.
+* [docker-volumes](https://github.com/cpuguy83/docker-volumes) (Docker Volume Manager) by [@cpuguy83](https://github.com/cpuguy83)
  
 ## Useful Images
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
