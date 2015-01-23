@@ -142,6 +142,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 
 ## Continous Integration / Continous Delivery
 * [Drone](https://github.com/drone/drone) - https://drone.io/
+* [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 
 ## Hosting for repositories (registries)
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
