@@ -133,7 +133,8 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 # Books
 
 * [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar](https://twitter.com/kartar))
- 
+* [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do) Solutions and examples for building distributed applications By Sébastien Goasguen 
+
 # Tools 
 
 * [Docker](https://github.com/docker/docker)
