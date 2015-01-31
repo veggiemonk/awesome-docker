@@ -33,7 +33,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
   * [Dev Tools](#dev-tools)
   * [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
-  * [Hosting for containers](#hosting-for-containers-paying-services-)
+  * [Hosting for containers](#hosting-for-containers)
   * [Web Interface](#web-interface)
   * [Local Container Manager](#local-container-manager)
   * [Useful Images](#useful-images)
