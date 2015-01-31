@@ -30,18 +30,20 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
  * [Other](#other)
 * [Books](#books)
 * [Tools](#tools)
-  * [Continous Integration / Continous Delivery](#continous-integration--continous-delivery)
+  * [Dev Tools](#dev-tools)
+  * [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
   * [Hosting for containers](#hosting-for-containers-paying-services-)
-  * [Dev Tools](#dev-tools)
+  * [Web Interface](#web-interface)
+  * [Local Container Manager](#local-container-manager)
   * [Useful Images](#useful-images)
   * [Docker Files](#docker-files)
   * [Storing Images](#storing-images)
-  * [Web Interface](#web-interface)
   * [Monitoring](#monitoring)
-  * [Running Containers](#running-containers--orchestration)
   * [Networking](#networking)
   * [Logging](#logging)
+  * [Deployment and Infrastructure](#deployment-and-infrastructure)
+  * [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
   * [Service Discovery](#service-discovery-1)
 * [Slides](#slides)
 * [Videos](#videos)
@@ -152,7 +154,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [docker-volumes](https://github.com/cpuguy83/docker-volumes) (Docker Volume Manager) by [@cpuguy83](https://github.com/cpuguy83)
 * [dockerfile_lint](https://github.com/redhataccess/dockerfile_lint) (A rule-based 'linter' for Dockerfiles) by [@redhataccess](https://github.com/redhataccess)
 
-## Continous Integration / Continous Delivery
+## Continuous Integration / Continuous Delivery
 * [Drone](https://github.com/drone/drone) - https://drone.io/
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 
@@ -172,7 +174,7 @@ Securely store your Docker images.
 * [DockerUI](https://github.com/crosbymichael/dockerui) (DockerUI is a web interface to interact with the Remote API.) by [@crosbymichael](https://github.com/crosbymichael)
 * [DockerBoard](https://github.com/dockerboard/dockerboard) (Simple dashboards, visualizations, managements for your dockers.) by [@dockerboard](https://github.com/dockerboard)
 
-## Local container manager
+## Local Container Manager
 
 * [Fig](https://github.com/docker/fig) (Fast, isolated development environments using Docker) -- http://www.fig.sh
 * [Shutit](http://ianmiell.github.io/shutit/) (a tool for building and maintaining complex Docker deployments) by [@ianmiell](https://github.com/ianmiell)
@@ -209,6 +211,12 @@ Securely store your Docker images.
 ## Logging
 * [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collecton server (such as logstash).)
 
+## Deployment and Infrastructure
+* [Centurion](https://github.com/newrelic/centurion): Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings.
+* [Longshoreman](https://github.com/longshoreman/longshoreman): Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool.
+* [Clocker](https://github.com/brooklyncentral/clocker): Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts. It leverages [Weave][weave] for networking and [Brooklyn][boorklyn] for application blueprints.
+* [Docket](https://github.com/netvarun/docket): Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
+
 ## Remote Container Manager / Orchestration
 * [Kubernetes](http://kubernetes.io) (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
@@ -225,8 +233,7 @@ Securely store your Docker images.
 * [Serf](https://github.com/hashicorp/serf) (Service orchestration and management tool.) by [@hashicorp](https://github.com/hashicorp)
 * [Flocker](https://github.com/ClusterHQ/flocker) (Flocker is a data volume manager and multi-host Docker cluster management tool) by [@ClusterHQ](https://github.com/ClusterHQ)
 * [Decking](http://decking.io/): (Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers.)
-* [Maestro](https://github.com/toscanini/maestro): (Maestro provides the ability to easily launch, orchestrate and manage mulitple Docker containers as single unit.)
-
+* [Maestro](https://github.com/toscanini/maestro): (Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit.)
 
 ## Service Discovery
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
@@ -234,11 +241,6 @@ Securely store your Docker images.
 * [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/articles/ambassador_pattern_linking/)
 * [confd](http://www.confd.io/): Manage local application configuration files using templates and data from etcd or consul.
 
-## Deployment and Infrastructure
-* [Centurion](https://github.com/newrelic/centurion): Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings.
-* [Longshoreman](https://github.com/longshoreman/longshoreman): Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool.
-* [Clocker](https://github.com/brooklyncentral/clocker): Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts. It leverages [Weave][weave] for networking and [Brooklyn][boorklyn] for application blueprints.
-* [Docket](https://github.com/netvarun/docket): Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
 
 # Slides
 * [Docker Slideshare Account](http://www.slideshare.net/dotCloud)
