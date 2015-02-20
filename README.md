@@ -154,6 +154,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 * [docker-volumes](https://github.com/cpuguy83/docker-volumes) (Docker Volume Manager) by [@cpuguy83](https://github.com/cpuguy83)
 * [dockerfile_lint](https://github.com/redhataccess/dockerfile_lint) (A rule-based 'linter' for Dockerfiles) by [@redhataccess](https://github.com/redhataccess)
 * [powerstrip](https://github.com/clusterhq/powerstrip) (A tool for prototyping Docker extensions)
+* [Vagga](https://github.com/tailhook/vagga) (Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.) by [@tailhook](https://github.com/tailhook/)
 
 ## Continuous Integration / Continuous Delivery
 * [Drone](https://github.com/drone/drone) - https://drone.io/
