@@ -218,6 +218,7 @@ Securely store your Docker images.
 * [Longshoreman](https://github.com/longshoreman/longshoreman): Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool.
 * [Clocker](https://github.com/brooklyncentral/clocker): Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts. It leverages [Weave][weave] for networking and [Brooklyn][boorklyn] for application blueprints.
 * [Docket](https://github.com/netvarun/docket): Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
+* [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
 
 ## Remote Container Manager / Orchestration
 * [Kubernetes](http://kubernetes.io) (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
