@@ -190,7 +190,7 @@ Securely store your Docker images.
 ## Useful Images
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo](https://github.com/jpetazzo)
-* [Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium](https://github.com/progrium)
+* [Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium](https://github.com/progrium) [@deprecated use [docker-alpine](https://github.com/gliderlabs/docker-alpine) instead]
 * [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
