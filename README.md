@@ -191,15 +191,15 @@ Securely store your Docker images.
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo](https://github.com/jpetazzo)
 * [Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium](https://github.com/progrium) [@deprecated use [docker-alpine](https://github.com/gliderlabs/docker-alpine) instead]
-* [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 * [passenger-docker](https://github.com/phusion/passenger-docker) (Docker base images for Ruby, Python, Node.js and Meteor web apps) by [@phusion](https://github.com/phusion)
-* [docker-alpine](https://github.com/gliderlabs/docker-alpine) (A super small Docker base image using Alpine Linux) by [@gliderlabs](https://github.com/gliderlabs)
+* [docker-alpine](https://github.com/gliderlabs/docker-alpine) (A super small Docker base image *(5MB)* using Alpine Linux) by [@gliderlabs](https://github.com/gliderlabs)
 
 ## Docker Files
 * [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
 * [Collection of Dockerfiles](https://github.com/crosbymichael/Dockerfiles) by [@crosbymichael](https://github.com/crosbymichael)
+* [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 
 ## Storing Images
 * [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
