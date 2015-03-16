@@ -135,6 +135,8 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 # Books
 
 * [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar](https://twitter.com/kartar))
+* [Docker in Action](http://manning.com/nickoloff/?a_aid=zwischenzugs&a_bid=aa64c557) by Jeff Nickoloff ([@allingeek](https://twitter.com/allingeek))
+* [Docker in Practice](http://manning.com/miell/?a_aid=zwischenzugs&a_bid=e0d48f62) by Ian Miell [@ianmiell](https://github.com/ianmiell) and Aidan Hobson Sayers [@aidanhs](https://github.com/aidanhs). ==> [Website](http://docker-in-practice.github.io/)
 
 # Tools
 
