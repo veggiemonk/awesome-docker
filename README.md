@@ -259,6 +259,7 @@ Securely store your Docker images.
 * [YLD Event](https://www.youtube.com/channel/UCvksXSnLqIVM_uFB7xyrsSg/videos) Conference about *containers*!!! [@YLDio](https://twitter.com/YLDio)
 
 ## Useful videos
+* [Docker for Developers](http://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo](https://github.com/jpetazzo)  <== Good introduction, context, demo
 * [SysAdminCasts: Introduction to Docker](https://sysadmincasts.com/episodes/31-introduction-to-docker) (15:49)
 * [Orchestrating Docker containers in production using Fig](https://www.youtube.com/watch?v=SEtRg8siQWw) (7:11)
 * [Development Environments with Fig](http://youtu.be/QpSFOHvFyMc) by Aanand Prasad (17:58)
