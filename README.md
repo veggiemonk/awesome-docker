@@ -58,6 +58,7 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 ## Main Resources
 
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
+* [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) by [@wsargent](https://github.com/wsargent) __MUST SEE__
 * [Century Links Labs](http://www.centurylinklabs.com/category/docker/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
 * [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
@@ -142,7 +143,6 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 
 * [Docker](https://github.com/docker/docker)
 * [Docker Images](https://hub.docker.com)
-* [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)  by [@wsargent](https://github.com/wsargent)
 
 ## Dev Tools
 
