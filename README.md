@@ -4,7 +4,7 @@
 
 Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome](https://github.com/sindresorhus/awesome) and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
 
-This list is not exhaustive, contribute to make it so: add your docker resource by forking / sending pull requests.
+This list is not exhaustive, contribute to make it so. It's now a github project because it's considerably easier for other people to edit, fix and expand on Docker using Github. Just click [README.md](https://github.com/veggiemonk/awesome-docker/edit/master/README.md).
 
 > **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)**
 
@@ -12,9 +12,17 @@ This list is not exhaustive, contribute to make it so: add your docker resource 
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Consisting of Docker Engine, a portable, lightweight runtime and packaging tool, and Docker Hub, a cloud service for sharing applications and automating workflows, Docker enables apps to be quickly assembled from components and eliminates the friction between development, QA, and production environments. As a result, IT can ship faster and run the same app, unchanged, on laptops, data center VMs, and any cloud.
 
+_Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
+
+# Where to start ?
+
+[10-minute Interactive Tutorial](https://www.docker.com/tryit/)  __OR__ Watch the video: [Docker for Developers](http://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo](https://github.com/jpetazzo)
+
 
 # MENU
 
+* [What is Docker ?](#what-is-docker)
+* [Where to start ?](#where-to-start)
 * [Useful Articles](#useful-articles)
  * [Main Resources](#main-resources)
  * [General Articles](#general-articles)
