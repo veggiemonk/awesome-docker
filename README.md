@@ -175,7 +175,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [dockerode](https://github.com/apocas/dockerode) (Not just another Docker Remote API node.js module) by [@apocas](https://github.com/apocas)
 
 ## Continuous Integration / Continuous Delivery
-* [Drone](https://github.com/drone/drone) - https://drone.io/
+* [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 
 ## Hosting for repositories (registries)
