@@ -188,6 +188,10 @@ Securely store your Docker images.
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
 * [StackDock](https://stackdock.com/) - Docker hosting on blazing fast dedicated infrastructure
 * [Tutum](https://www.tutum.co/) - Simple hosting for your Docker containers.
+* [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
+* [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
+* [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
+* [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 
 ## Web Interface
 * [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
@@ -241,7 +245,7 @@ Securely store your Docker images.
 * [Longshoreman](https://github.com/longshoreman/longshoreman): Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool.
 
 ## Remote Container Manager / Orchestration
-* [Kubernetes](http://kubernetes.io) (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
+* [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
 * [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service (PaaS)) -- https://flynn.io/
@@ -311,3 +315,4 @@ Securely store your Docker images.
 
 [weave]: https://github.com/zettio/weave
 [brooklyn]: https://brooklyn.incubator.apache.org/
+[kubernetes]: http://kubernetes.io
