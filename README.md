@@ -135,6 +135,10 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
 * [Docker Secure Deployment Guidelines](https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines)
+* [Security Best Practices for Building Docker Images](http://linux-audit.com/tag/docker/)
+* [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](http://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
+* [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
+* [Lynis is an open source security auditing tool including Docker](https://cisofy.com/lynis/)
 
 ## Performances
 * [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
