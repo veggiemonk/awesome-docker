@@ -230,6 +230,7 @@ Securely store your Docker images.
 * [Seagull](https://github.com/tobegit3hub/seagull) (Friendly Web UI to monitor docker daemon.)
 * [Dockerana](https://github.com/dockerana/dockerana) (packaged version of Graphite and Grafana, specifically targeted at metrics from Docker.)
 * [Docker-mon](https://github.com/icecrime/docker-mon) (Console-based Docker monitoring) by [@icecrime](https://github.com/icecrime)
+* [Sysdig](http://www.sysdig.org/): An open source troubleshooting tool that provides a rich set of real-time, system-level information. It has container-specific features and is very useful in Docker environments.
 
 ## Networking
 * [Weave][weave] (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
