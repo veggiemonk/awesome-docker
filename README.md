@@ -84,7 +84,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 * [Container42](http://container42.com/)
 * [Contrainer solutions](http://container-solutions.com/blog/)
-* [DockerOne](http://dockerone.com/) by [@LiYingJie](http://dockerone.com/people/%E6%9D%8E%E9%A2%96%E6%9D%B0)
+* [DockerOne](http://dockerone.com/) Docker Community (in Chinese) by [@LiYingJie](http://dockerone.com/people/%E6%9D%8E%E9%A2%96%E6%9D%B0)
 
 ## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
