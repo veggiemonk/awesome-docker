@@ -152,7 +152,8 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
  * [Vidéo](http://www.youtube.com/watch?v=4uQ6gR_xZhE)
  * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker)
  * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
-
+* [Docker on Raspberry Pi](http://blog.xebia.com/2014/08/25/docker-on-a-raspberry-pi/)
+* [Raspberry Pi with Docker 1.5.0](http://blog.hypriot.com/post/heavily-armed-after-major-upgrade-raspberry-pi-with-docker-1-dot-5-0/)
 
 # Books
 
