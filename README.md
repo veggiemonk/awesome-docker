@@ -94,6 +94,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Deploying NGINX with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Eight Docker Development Patterns](http://www.hokstad.com/docker/patterns)
 * [Rails Development Environment for OS X using Docker](http://allenan.com/docker-rails-dev-environment-for-osx/)
+* [Logging on Docker: What You Need to Know](http://java.dzone.com/articles/logging-docker-what-you-need) + see the [video](https://vimeo.com/123341629) (~50min)
 
 ## Deep Dive
 * [Creating containers - Part 1](http://crosbymichael.com/creating-containers-part-1.html) This is part one of a series of blog posts detailing how docker creates containers. By [@crosbymichael](https://github.com/crosbymichael)
@@ -309,6 +310,7 @@ Securely store your Docker images.
 * [Ansible and Docker HP](https://www.youtube.com/watch?v=oZ45v8AeE7k) (32:38)
 * [Run Any App on Mesos on Any Infrastructure Using Docker](https://www.youtube.com/watch?v=u5jd9YT9EsY) (17:44)
 * [Extending Docker with Plugins](http://vimeo.com/110835013) (15:21)
+* [Logging on Docker: What You Need to Know](https://vimeo.com/123341629) (51:27)
 
 
 # Interesting Twitter Accounts
