@@ -95,6 +95,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Eight Docker Development Patterns](http://www.hokstad.com/docker/patterns)
 * [Rails Development Environment for OS X using Docker](http://allenan.com/docker-rails-dev-environment-for-osx/)
 * [Logging on Docker: What You Need to Know](http://java.dzone.com/articles/logging-docker-what-you-need) + see the [video](https://vimeo.com/123341629) (~50min)
+* [Comparing Five Monitoring Options for Docker](http://rancher.com/comparing-monitoring-options-for-docker-deployments/)
 * [Running Docker Containers with Systemd](http://container-solutions.com/2015/04/running-docker-containers-with-systemd/)
 
 ## Deep Dive
