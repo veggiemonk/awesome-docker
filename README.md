@@ -255,6 +255,7 @@ Securely store your Docker images.
 ## Logging
 * [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collecton server (such as logstash).)
 * [Docker-Fluentd](https://registry.hub.docker.com/u/kiyoto/docker-fluentd/): Docker container to Log Other Containers' Logs.  One can aggregate the logs of Docker containers running on the same host using Fluentd.
+* [Logspout](https://github.com/gliderlabs/logspout) (Log routing for Docker container logs) by [@gliderlabs](https://github.com/gliderlabs)
 
 ## Deployment and Infrastructure
 * [Centurion](https://github.com/newrelic/centurion): Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings.
