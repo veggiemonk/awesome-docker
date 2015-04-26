@@ -291,6 +291,7 @@ Securely store your Docker images.
 * [etcd](https://github.com/coreos/etcd): A highly-available key value store for shared configuration and service discovery
 * [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/articles/ambassador_pattern_linking/)
 * [confd](http://www.confd.io/): Manage local application configuration files using templates and data from etcd or consul.
+* [proxy](https://github.com/factorish/proxy): lightweight nginx based load balancer self using service discovery provided by registrator. by @factorish
 
 
 # Slides
