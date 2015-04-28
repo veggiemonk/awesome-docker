@@ -285,6 +285,7 @@ Securely store your Docker images.
 * [Decking](http://decking.io/): (Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers.)
 * [Maestro](https://github.com/toscanini/maestro) (Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit.)
 * [Citadel](http://citadeltoolkit.org/) (Citadel is a toolkit for scheduling containers on a Docker cluster.)
+* [CloudSlang](http://www.cloudslang.io/) (CloudSlang is a workflow engine to create Docker process automation)
 
 ## Service Discovery
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
