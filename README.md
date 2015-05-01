@@ -154,17 +154,21 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Distrubuted JMeter testing using Docker](http://srivaths.blogspot.fr/2014/08/distrubuted-jmeter-testing-using-docker.html?m=1)
 * [nsinit: per-container resource monitoring of Docker containers on RHEL/Fedora](http://www.breakage.org/2014/09/03/nsinit-per-container-resource-monitoring-of-docker-containers-on-rhelfedora/)
 
-## Other
-* Presentation: Docker and JBoss - the perfect combination
- * [Vidéo](http://www.youtube.com/watch?v=4uQ6gR_xZhE)
- * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker)
- * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
+## Raspberry Pi
 * [Docker on Raspberry Pi](http://blog.xebia.com/2014/08/25/docker-on-a-raspberry-pi/)
+* [Fool-Proof Recipe: Docker on the Raspberry Pi](https://www.voxxed.com/blog/2015/04/fool-proof-recipe-docker-on-the-raspberry-pi/) Same article as above but more opinionated.
 * [Raspberry Pi with Docker 1.5.0](http://blog.hypriot.com/post/heavily-armed-after-major-upgrade-raspberry-pi-with-docker-1-dot-5-0/)
 * [Swarming Raspberry Pi – Part 1](http://matthewkwilliams.com/index.php/2015/03/21/swarming-raspberry-pi-part-1/)
 * [Swarming Raspberry Pi, Part 2: Registry & Mirror](http://matthewkwilliams.com/index.php/2015/03/29/swarming-raspberry-pi-part-2-registry-mirror/)
 * [Swarming Raspberry Pi: Docker Swarm Discovery Options](http://matthewkwilliams.com/index.php/2015/04/03/swarming-raspberry-pi-docker-swarm-discovery-options/)
 * [Uniform Development by Docker & QEMU](http://www.instructables.com/id/Uniform-Development-by-Docker-QEMU/)
+
+
+## Other
+* Presentation: Docker and JBoss - the perfect combination
+ * [Vidéo](http://www.youtube.com/watch?v=4uQ6gR_xZhE)
+ * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker)
+ * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
 
 # Books
 
