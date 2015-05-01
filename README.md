@@ -38,6 +38,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
  * [Deep Dive](#deep-dive)
  * [Metal](#metal)
  * [Multi-Server](#multi-server)
+ * [Cloud Infrastructure](#cloud-infrastructure)
  * [Good Tips](#good-tips)
  * [Continuous Integration](#continuous-integration)
  * [Optimizing Images](#optimizing-images)
@@ -112,6 +113,9 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 ## Multi-Server
 * [Using Fig and Flocker to build, test, deploy and migrate multi-server Dockerized apps](https://clusterhq.com/blog/fig-flocker-multi-server-docker-apps/)
 * [blimp](https://github.com/tubesandlube/blimp) Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
+
+## Cloud Infrastructure
+* [Cloud Infrastructure Automation for Docker Nodes](http://blog.tutum.co/2015/04/29/cloud-infrastructure-automation-for-docker-nodes/)
 
 ## Good Tips
 * [24 random docker tips](http://csaba.palfi.me/random-docker-tips/) by [@csabapalfi](https://github.com/csabapalfi)
