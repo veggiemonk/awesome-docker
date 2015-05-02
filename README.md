@@ -206,6 +206,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 ## Continuous Integration / Continuous Delivery
 * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
+* [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery.
 
 ## Hosting for repositories (registries)
 Securely store your Docker images.
