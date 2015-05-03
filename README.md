@@ -36,6 +36,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
  * [Main Resources](#main-resources)
  * [General Articles](#general-articles)
  * [Deep Dive](#deep-dive)
+ * [Networking](#networking)
  * [Metal](#metal)
  * [Multi-Server](#multi-server)
  * [Cloud Infrastructure](#cloud-infrastructure)
@@ -107,6 +108,9 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 ## Deep Dive
 * [Creating containers - Part 1](http://crosbymichael.com/creating-containers-part-1.html) This is part one of a series of blog posts detailing how docker creates containers. By [@crosbymichael](https://github.com/crosbymichael)
 * [Data-only container madness](http://container42.com/2014/11/18/data-only-container-madness/)
+
+## Networking
+* [Using Docker Machine with Weave 0.10](http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/) (written 22 APR 2015)
 
 ## Metal
 * [How to use Docker on Full Metal](http://blog.bigstep.com/big-data-performance/use-docker-full-metal-cloud/)
