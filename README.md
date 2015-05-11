@@ -57,7 +57,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
   * [Web Interface](#web-interface)
   * [Local Container Manager](#local-container-manager)
   * [Useful Images](#useful-images)
-  * [Docker Files](#docker-files)
+  * [Dockerfile](#dockerfile)
   * [Storing Images](#storing-images)
   * [Monitoring](#monitoring)
   * [Networking](#networking)
@@ -255,10 +255,11 @@ Securely store your Docker images.
 * [passenger-docker](https://github.com/phusion/passenger-docker) (Docker base images for Ruby, Python, Node.js and Meteor web apps) by [@phusion](https://github.com/phusion)
 * [docker-alpine](https://github.com/gliderlabs/docker-alpine) (A super small Docker base image *(5MB)* using Alpine Linux) by [@gliderlabs](https://github.com/gliderlabs)
 
-## Docker Files
+## Dockerfile
 * [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
 * [Collection of Dockerfiles](https://github.com/crosbymichael/Dockerfiles) by [@crosbymichael](https://github.com/crosbymichael)
-* [DockerFile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
+* [Dockerfile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
+* [Dockerfile Example 2](https://github.com/kstaken/dockerfile-examples) by [@kstaken](https://github.com/kstaken)
 
 ## Storing Images
 * [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
