@@ -158,6 +158,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](http://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
 * [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
 * [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
+* [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/) (written 5 MAY 2015)
 
 ## Performances
 * [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
