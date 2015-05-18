@@ -52,6 +52,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Tools](#tools)
   * [Dev Tools](#dev-tools)
   * [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
+  * [Deployment](#deployment)
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
   * [Hosting for containers](#hosting-for-containers)
   * [Web Interface](#web-interface)
@@ -215,6 +216,9 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 * [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery.
 
+## Deployment
+* [Last.Backend](http://lastbackend.com) - Last.Backend platform is designed for automatization of all routine work with the server and deployment of applications in one click using the visual interface.
+
 ## Hosting for repositories (registries)
 Securely store your Docker images.
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
@@ -306,6 +310,7 @@ Securely store your Docker images.
 * [Maestro](https://github.com/toscanini/maestro) (Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit.)
 * [Citadel](http://citadeltoolkit.org/) (Citadel is a toolkit for scheduling containers on a Docker cluster.)
 * [CloudSlang](http://www.cloudslang.io/) (CloudSlang is a workflow engine to create Docker process automation)
+
 
 ## Service Discovery
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
