@@ -210,6 +210,8 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [dockerode](https://github.com/apocas/dockerode) (Not just another Docker Remote API node.js module) by [@apocas](https://github.com/apocas)
 * [go-dockerclient](https://github.com/fsouza/go-dockerclient/) (Go HTTP client for the Docker remote API.) by [@fsouza](https://github.com/fsouza/)
 * [Conduit](https://github.com/ehazlett/conduit) (Experimental deployment system for Docker.) by [@ehazlett](https://github.com/ehazlett)
+* [container-factory](https://github.com/lsqio/container-factory) (produces Docker images from tarballs of application source code http://www.containerfactory.io) by [@lsqio](https://github.com/lsqio)
+
 
 ## Continuous Integration / Continuous Delivery
 * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
