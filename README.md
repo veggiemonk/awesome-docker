@@ -105,6 +105,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Comparing Five Monitoring Options for Docker](http://rancher.com/comparing-monitoring-options-for-docker-deployments/)
 * [Running Docker Containers with Systemd](http://container-solutions.com/2015/04/running-docker-containers-with-systemd/)
 * [Why and How to use Docker for Development](https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24) (written 28 APR 2015)
+* [Automating Docker Logging: ElasticSearch, Logstash, Kibana, and Logspout](http://nathanleclaire.com/blog/2015/04/27/automating-docker-logging-elasticsearch-logstash-kibana-and-logspout/) (written 27 APR 2015)
 
 ## Deep Dive
 * [Creating containers - Part 1](http://crosbymichael.com/creating-containers-part-1.html) This is part one of a series of blog posts detailing how docker creates containers. By [@crosbymichael](https://github.com/crosbymichael)
