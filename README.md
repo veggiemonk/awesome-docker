@@ -212,6 +212,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [go-dockerclient](https://github.com/fsouza/go-dockerclient/) (Go HTTP client for the Docker remote API.) by [@fsouza](https://github.com/fsouza/)
 * [Conduit](https://github.com/ehazlett/conduit) (Experimental deployment system for Docker.) by [@ehazlett](https://github.com/ehazlett)
 * [container-factory](https://github.com/lsqio/container-factory) (produces Docker images from tarballs of application source code http://www.containerfactory.io) by [@lsqio](https://github.com/lsqio)
+* [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 
 
 ## Continuous Integration / Continuous Delivery
@@ -253,6 +254,7 @@ Securely store your Docker images.
 * [Ansible - manage docker containers](http://docs.ansible.com/docker_module.html)
 * [Vagrant - Docker provider ](http://docs.vagrantup.com/v2/docker/basics.html) a good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example) by [@bubenkoff](https://github.com/bubenkoff)
 * [Dray](https://github.com/CenturyLinkLabs/dray)  An engine for managing the execution of container-based workflows. http://Dray.it by [@CenturyLinkLabs](https://github.com/CenturyLinkLabs/)
+* [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 
 ## Useful Images
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
