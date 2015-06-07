@@ -143,6 +143,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Tutum](https://dashboard.tutum.co/accounts/register/)
 * [DevOps Weekly](http://devopsweekly.com/)
 * [Shippable](http://blog.shippable.com/)
+* [WebOps weekly](http://webopsweekly.com/)
 
 ## Continuous Integration
 * [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](http://ariya.ofilabs.com/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html)
