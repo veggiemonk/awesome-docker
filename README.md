@@ -22,6 +22,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [10-minute Interactive Tutorial](https://www.docker.com/tryit/)
 * Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 * Watch the video: [Docker for Developers](http://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo](https://github.com/jpetazzo)
+* [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Install Docker on your machine](https://github.com/wsargent/docker-cheat-sheet#installation) and play with a few [Useful Images](#useful-images)
 * Try [Panamax: Docker Management for Humans](http://panamax.io/) It will install a CoreOS VM with VirtualBox and has nice front end
 * [Install Boot2Docker](http://boot2docker.io/) It works on Windows and OSX
