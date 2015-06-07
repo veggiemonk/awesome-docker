@@ -41,6 +41,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
  * [Multi-Server](#multi-server)
  * [Cloud Infrastructure](#cloud-infrastructure)
  * [Good Tips](#good-tips)
+ * [Newsletter](#newsletter)
  * [Continuous Integration](#continuous-integration)
  * [Optimizing Images](#optimizing-images)
  * [Service Discovery](#service-discovery)
@@ -135,6 +136,13 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Building good docker images](http://jonathan.bergknoff.com/journal/building-good-docker-images) by [@jbergknoff](https://github.com/jbergknoff)
 * [10 Things Not To Forget Before Deploying Docker In Production](http://www.slideshare.net/rightscale/docker-meetup-40826948)
 * [Make Your Docker Workflow Awesome With Fig.sh](http://www.syncano.com/docker-workflow-fig-sh/) Fig is a python application that helps you run groups of docker containers.
+
+## Newsletter
+* [Docker Team](https://www.docker.com/)
+* [CenturyLinksLabs](http://www.centurylinklabs.com/)
+* [Tutum](https://dashboard.tutum.co/accounts/register/)
+* [DevOps Weekly](http://devopsweekly.com/)
+* [Shippable](http://blog.shippable.com/)
 
 ## Continuous Integration
 * [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](http://ariya.ofilabs.com/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html)
