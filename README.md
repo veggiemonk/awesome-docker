@@ -215,7 +215,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [docker-gen](https://github.com/jwilder/docker-gen) (Generate files from docker container meta-data) by [@jwilder](https://github.com/jwilder)
 * [dockerize](https://github.com/jwilder/dockerize) (Utility to simplify running applications in docker containers) by [@jwilder](https://github.com/jwilder)
 * [registrator](https://github.com/progrium/registrator) (Service registry bridge for Docker) by [@progrium](https://github.com/progrium)
-* [Dockly](https://github.com/swipely/dockly): Dockly is a gem made to ease the pain of packaging an application in Docker.
+* [Dockly](https://github.com/swipely/dockly) (Dockly is a gem made to ease the pain of packaging an application in Docker.) by [@swipely](https://github.com/swipely/)
 * [docker-volumes](https://github.com/cpuguy83/docker-volumes) (Docker Volume Manager) by [@cpuguy83](https://github.com/cpuguy83)
 * [dockerfile_lint](https://github.com/redhataccess/dockerfile_lint) (A rule-based 'linter' for Dockerfiles) by [@redhataccess](https://github.com/redhataccess)
 * [powerstrip](https://github.com/clusterhq/powerstrip) (A tool for prototyping Docker extensions)
@@ -225,7 +225,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Conduit](https://github.com/ehazlett/conduit) (Experimental deployment system for Docker.) by [@ehazlett](https://github.com/ehazlett)
 * [container-factory](https://github.com/lsqio/container-factory) (produces Docker images from tarballs of application source code http://www.containerfactory.io) by [@lsqio](https://github.com/lsqio)
 * [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
-
+* [crane](https://github.com/michaelsauter/crane) (Lift containers with ease. Easy orchestration for images and containers) by [@michaelsauter](https://github.com/michaelsauter)
 
 ## Continuous Integration / Continuous Delivery
 * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
