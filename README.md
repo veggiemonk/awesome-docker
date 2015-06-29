@@ -209,6 +209,10 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 * [Docker](https://github.com/docker/docker)
 * [Docker Images](https://hub.docker.com)
+* [Docker Compose](https://github.com/docker/compose/) (Define and run multi-container applications with Docker)
+* [Docker Machine](https://github.com/docker/machine) (Machine management for a container-centric world)
+* [Docker Registry](https://github.com/docker/distribution) (The Docker toolset to pack, ship, store, and deliver content)
+* [Docker Swarm](https://github.com/docker/swarm) (Swarm: a Docker-native clustering system)
 
 ## Dev Tools
 
