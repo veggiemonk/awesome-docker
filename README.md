@@ -112,6 +112,8 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Automating Docker Logging: ElasticSearch, Logstash, Kibana, and Logspout](http://nathanleclaire.com/blog/2015/04/27/automating-docker-logging-elasticsearch-logstash-kibana-and-logspout/) (written 27 APR 2015)
 * [Docker Host Volume Synchronization](http://oliverguenther.de/2015/05/docker-host-volume-synchronization/) (written 1 JUN 2015)
 * [Multi-Service Local Development Environment with Vagrant and Docker](http://devbandit.com/2015/05/29/vagrant-and-docker.html) (written 29 MAY 2015)
+* [Docker: Build, Ship and Run Any App, Anywhere](http://delftswa.github.io/chapters/docker/index.html) by [Martijn Dwars](https://github.com/MartijnDwars), [Wiebe van Geest](https://github.com/wrvangeest), [Rik Nijessen](https://github.com/gewoonrik), and [Rick Wieman](https://github.com/RickWieman) from [Delft University of Technology](http://www.tudelft.nl/)
+
 
 ## Deep Dive
 * [Creating containers - Part 1](http://crosbymichael.com/creating-containers-part-1.html) This is part one of a series of blog posts detailing how docker creates containers. By [@crosbymichael](https://github.com/crosbymichael)
@@ -202,9 +204,11 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 # Books
 
 * [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar](https://twitter.com/kartar))
+* [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do) by Sébastien Goasguen ([@sebgoa](https://twitter.com/sebgoa))
 * [Docker in Action](http://manning.com/nickoloff/?a_aid=zwischenzugs&a_bid=aa64c557) by Jeff Nickoloff ([@allingeek](https://twitter.com/allingeek))
 * [Docker in Practice](http://manning.com/miell/?a_aid=zwischenzugs&a_bid=e0d48f62) by Ian Miell ([@ianmiell](https://github.com/ianmiell)) and Aidan Hobson Sayers ([@aidanhs](https://github.com/aidanhs)). ==> [Website](http://docker-in-practice.github.io/)
-* [Docker Up & Running](http://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane).
+* [Docker Up & Running](http://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
+* [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat))
 
 # Tools
 
