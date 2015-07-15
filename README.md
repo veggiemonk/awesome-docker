@@ -144,6 +144,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [10 Things Not To Forget Before Deploying Docker In Production](http://www.slideshare.net/rightscale/docker-meetup-40826948)
 * [Make Your Docker Workflow Awesome With Fig.sh](http://www.syncano.com/docker-workflow-fig-sh/) Fig is a python application that helps you run groups of docker containers.
 * [Docker CIFS – How to Mount CIFS as a Docker Volume](http://backdrift.org/docker-cifs-howto-mount-cifs-volume-docker-container)
+* [Nginx Proxy for Docker](http://blog.danivovich.com/2015/07/09/nginx-proxy-for-docker-containers) (written 9 JUL 2015)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
