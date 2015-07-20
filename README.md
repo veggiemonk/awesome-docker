@@ -1,6 +1,6 @@
 # Awesome Docker
 
-> A curated list of Docker resources
+> A curated list of Docker resources and projects
 
 Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome](https://github.com/sindresorhus/awesome) and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
 
