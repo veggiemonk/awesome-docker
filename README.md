@@ -20,6 +20,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 # Where to start ?
 
 * [10-minute Interactive Tutorial](https://www.docker.com/tryit/)
+* [Docker Training](http://training.docker.com/)
 * Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 * Watch the video: [Docker for Developers](http://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo](https://github.com/jpetazzo)
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
@@ -92,7 +93,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Blog](http://jasonwilder.com/) of [@jwilder](https://github.com/jwilder)
 * [Blog](http://crosbymichael.com/) of [@crosbymichael](https://github.com/crosbymichael)
 * [Blog](http://gliderlabs.com/blog/) of [@gliderlabs](https://github.com/gliderlabs)
-* [Blog](http://sebgoa.blogspot.com/) of ([@sebgoa](https://twitter.com/sebgoa))
+* [Blog](http://sebgoa.blogspot.com/) of [@sebgoa](https://twitter.com/sebgoa)
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 * [Container42](http://container42.com/)
 * [Contrainer solutions](http://container-solutions.com/blog/)
@@ -406,6 +407,7 @@ Securely store your Docker images.
 * [Michael Crosby](https://twitter.com/crosbymichael) Docker Developer
 * [James Turnbull](https://twitter.com/kartar) Author of Docker Book
 * [Jeff Lindsay](https://twitter.com/progrium) Design-minded software architect
+* [Jessie Frazelle](https://twitter.com/frazelledazzell) Work @docker and uses full containerized desktop, lots of fun.
 
 [weave]: https://github.com/zettio/weave
 [brooklyn]: https://brooklyn.incubator.apache.org/
