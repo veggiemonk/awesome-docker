@@ -313,7 +313,8 @@ Securely store your Docker images.
 * [Dockerfile @jfrazelle](https://github.com/jfrazelle/dockerfiles) by [@jfrazelle](https://github.com/jfrazelle) **MUST SEE** for a fully containerized desktop!
 
 ## Storing Images
-* [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
+* ~~[Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))~~
+* [Docker Registry v2](https://github.com/docker/distribution) (The Docker toolset to pack, ship, store, and deliver content)
 
 ## Monitoring
 * [Seagull](https://github.com/tobegit3hub/seagull) (Friendly Web UI to monitor docker daemon.)
