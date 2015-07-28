@@ -99,6 +99,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Contrainer solutions](http://container-solutions.com/blog/)
 * [DockerOne](http://dockerone.com/) Docker Community (in Chinese) by [@LiYingJie](http://dockerone.com/people/%E6%9D%8E%E9%A2%96%E6%9D%B0)
 * [Project Web Dev](http://project-webdev.blogspot.de) : (Article series) How to create your own website based on Docker
+* [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 
 ## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
