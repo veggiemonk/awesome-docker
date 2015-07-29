@@ -60,6 +60,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
   * [Deployment](#deployment)
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
   * [Hosting for containers](#hosting-for-containers)
+  * [HTTP Reverse Proxy](#http-reverse-proxy)
   * [Web Interface](#web-interface)
   * [Local Container Manager](#local-container-manager)
   * [Useful Images](#useful-images)
@@ -278,6 +279,10 @@ Securely store your Docker images.
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
 * [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 * [IBM Bluemix](http://bluemix.net) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
+
+## HTTP Reverse Proxy
+* [nginx-proxy](https://github.com/jwilder/nginx-proxy) - Automated nginx proxy for Docker containers using docker-gen by [@jwilder](https://github.com/jwilder)
+* [h2o-proxy](https://github.com/zchee/h2o-proxy) - Automated H2O reverse proxy for Docker containers. An alternative [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) by [@zchee](https://github.com/zchee)
 
 ## Web Interface
 * [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
