@@ -30,6 +30,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Install Kitematic](https://kitematic.com/) Nice GUI, works on OSX
 * Check out: [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) by [@wsargent](https://github.com/wsargent) __MUST SEE__
 * [Project Web Dev](http://project-webdev.blogspot.de) : (Article series) How to create your own website based on Docker
+* [Docker Containers on the desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) by [@jfrazelle](https://github.com/jfrazelle) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles](https://github.com/jfrazelle/dotfiles) and her [dockerfiles](https://github.com/jfrazelle/dockerfiles))
 
 # MENU
 
@@ -100,6 +101,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [DockerOne](http://dockerone.com/) Docker Community (in Chinese) by [@LiYingJie](http://dockerone.com/people/%E6%9D%8E%E9%A2%96%E6%9D%B0)
 * [Project Web Dev](http://project-webdev.blogspot.de) : (Article series) How to create your own website based on Docker
 * [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
+* [Docker Containers on the desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) by [@jfrazelle](https://github.com/jfrazelle) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles](https://github.com/jfrazelle/dotfiles) and her [dockerfiles](https://github.com/jfrazelle/dockerfiles))
 
 ## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
@@ -311,9 +313,12 @@ Securely store your Docker images.
 * [Collection of Dockerfiles](https://github.com/crosbymichael/Dockerfiles) by [@crosbymichael](https://github.com/crosbymichael)
 * [Dockerfile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [Dockerfile Example 2](https://github.com/kstaken/dockerfile-examples) by [@kstaken](https://github.com/kstaken)
+* [Dockerfile @jfrazelle](https://github.com/jfrazelle/dockerfiles) by [@jfrazelle](https://github.com/jfrazelle) **MUST SEE** for a fully containerized desktop!
 
 ## Storing Images
-* [Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))
+* ~~[Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))~~
+* [Docker Registry v2](https://github.com/docker/distribution) (The Docker toolset to pack, ship, store, and deliver content)
+* [Rescoyl](https://github.com/noteed/rescoyl) (Private Docker registry) by [@noteed](https://github.com/noteed)
 
 ## Monitoring
 * [Seagull](https://github.com/tobegit3hub/seagull) (Friendly Web UI to monitor docker daemon.)
