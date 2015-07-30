@@ -256,6 +256,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [bocker](https://github.com/p8952/bocker) (1) (Docker implemented in 100 lines of bash) by [p8952](https://github.com/p8952) by [@p8952](https://github.com/p8952)
 * [bocker](https://github.com/icy/bocker) (2) (Write Dockerfile completely in Bash. Extensible and simple. --> Reusable) by [@icy](https://github.com/icy)
 * [docker-cli](https://github.com/j-bennet/dockercli) (A CLI with autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
+* [docker-gc](https://github.com/spotify/docker-gc) (A cron job that will delete old stopped containers and unused images) by [@spotify](https://github.com/spotify)
 
 ## Continuous Integration / Continuous Delivery
 * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
