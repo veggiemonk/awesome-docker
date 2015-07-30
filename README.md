@@ -70,6 +70,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
   * [Networking](#networking)
   * [Logging](#logging)
   * [Deployment and Infrastructure](#deployment-and-infrastructure)
+  * [PaaS](#pass)
   * [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
   * [Service Discovery](#service-discovery-1)
 * [Slides](#slides)
@@ -348,12 +349,16 @@ Securely store your Docker images.
 * [Docket](https://github.com/netvarun/docket): Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
 * [Longshoreman](https://github.com/longshoreman/longshoreman): Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool.
 
+## PaaS
+* [Tsuru](https://github.com/tsuru/tsuru) (Tsuru is an extensible and open source Platform as a Service software.) -- https://tsuru.io/
+* [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service) -- https://flynn.io/
+* [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
+
 ## Remote Container Manager / Orchestration
 * [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
-* [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service (PaaS)) -- https://flynn.io/
-* [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
+
 * [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker, Go, and YAM) -- http://gaudi.io/
 * [CoreOS](https://github.com/coreos) (Linux for Massive Server Deployments) -- https://coreos.com/
 * [Rancher](https://github.com/rancherio/rancher) (Portable AWS-style infrastructure service for Docker) -- http://www.rancher.io/
