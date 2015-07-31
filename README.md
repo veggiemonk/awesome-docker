@@ -31,6 +31,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * Check out: [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) by [@wsargent](https://github.com/wsargent) __MUST SEE__
 * [Project Web Dev](http://project-webdev.blogspot.de) : (Article series) How to create your own website based on Docker
 * [Docker Containers on the desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) by [@jfrazelle](https://github.com/jfrazelle) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles](https://github.com/jfrazelle/dotfiles) and her [dockerfiles](https://github.com/jfrazelle/dockerfiles))
+* [Container Hacks and Fun Images](https://www.youtube.com/watch?v=1qlLUf7KtAw) by [@jfrazelle](https://github.com/jfrazelle) @ DockerCon 2015 **MUST WATCH VIDEO** (38:50) 
 
 # MENU
 
@@ -413,6 +414,7 @@ Securely store your Docker images.
 * [Run Any App on Mesos on Any Infrastructure Using Docker](https://www.youtube.com/watch?v=u5jd9YT9EsY) (17:44)
 * [Extending Docker with Plugins](http://vimeo.com/110835013) (15:21)
 * [Logging on Docker: What You Need to Know](https://vimeo.com/123341629) (51:27)
+* [Container Hacks and Fun Images](https://www.youtube.com/watch?v=1qlLUf7KtAw) by [@jfrazelle](https://github.com/jfrazelle) @ DockerCon 2015 (**MUST WATCH VIDEO**: 38:50) 
 
 
 # Interesting Twitter Accounts
