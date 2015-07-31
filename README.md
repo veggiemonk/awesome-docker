@@ -361,6 +361,7 @@ Securely store your Docker images.
 * [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
 
 ## Remote Container Manager / Orchestration
+* [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- http://kontena.io
 * [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
