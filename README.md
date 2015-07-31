@@ -250,12 +250,11 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Vagga](https://github.com/tailhook/vagga) (Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.) by [@tailhook](https://github.com/tailhook/)
 * [dockerode](https://github.com/apocas/dockerode) (Not just another Docker Remote API node.js module) by [@apocas](https://github.com/apocas)
 * [go-dockerclient](https://github.com/fsouza/go-dockerclient/) (Go HTTP client for the Docker remote API.) by [@fsouza](https://github.com/fsouza/)
-* [Conduit](https://github.com/ehazlett/conduit) (Experimental deployment system for Docker.) by [@ehazlett](https://github.com/ehazlett)
 * [container-factory](https://github.com/lsqio/container-factory) (produces Docker images from tarballs of application source code http://www.containerfactory.io) by [@lsqio](https://github.com/lsqio)
 * [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 * [crane](https://github.com/michaelsauter/crane) (Lift containers with ease. Easy orchestration for images and containers) by [@michaelsauter](https://github.com/michaelsauter)
 * [sherdock](https://github.com/rancherio/sherdock) (Automatic GC of images based on regexp)
-* [bocker](https://github.com/p8952/bocker) (1) (Docker implemented in 100 lines of bash) by [p8952](https://github.com/p8952) by [@p8952](https://github.com/p8952)
+* [bocker](https://github.com/p8952/bocker) (1) (Docker implemented in 100 lines of bash) by [p8952](https://github.com/p8952)
 * [bocker](https://github.com/icy/bocker) (2) (Write Dockerfile completely in Bash. Extensible and simple. --> Reusable) by [@icy](https://github.com/icy)
 * [docker-cli](https://github.com/j-bennet/dockercli) (A CLI with autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
 * [docker-gc](https://github.com/spotify/docker-gc) (A cron job that will delete old stopped containers and unused images) by [@spotify](https://github.com/spotify)
@@ -268,6 +267,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 ## Deployment
 * [Last.Backend](http://lastbackend.com) - Last.Backend platform is designed for automatization of all routine work with the server and deployment of applications in one click using the visual interface.
+* [Conduit](https://github.com/ehazlett/conduit) (Experimental deployment system for Docker.) by [@ehazlett](https://github.com/ehazlett)
 
 ## Hosting for repositories (registries)
 Securely store your Docker images.
