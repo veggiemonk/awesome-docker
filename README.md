@@ -364,7 +364,6 @@ Securely store your Docker images.
 * [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
-
 * [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker, Go, and YAM) -- http://gaudi.io/
 * [CoreOS](https://github.com/coreos) (Linux for Massive Server Deployments) -- https://coreos.com/
 * [Rancher](https://github.com/rancherio/rancher) (Portable AWS-style infrastructure service for Docker) -- http://www.rancher.io/
