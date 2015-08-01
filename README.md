@@ -308,6 +308,7 @@ Securely store your Docker images.
 * [Vagrant - Docker provider](http://docs.vagrantup.com/v2/docker/basics.html) a good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example) by [@bubenkoff](https://github.com/bubenkoff)
 * [Dray](https://github.com/CenturyLinkLabs/dray)  An engine for managing the execution of container-based workflows. http://Dray.it by [@CenturyLinkLabs](https://github.com/CenturyLinkLabs/)
 * [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
+* [Dusty](http://dusty.gc.com/) Managed Docker development environments on OS X
 
 ## Useful Images
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
