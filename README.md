@@ -139,7 +139,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 ## Multi-Server
 * [Using Fig and Flocker to build, test, deploy and migrate multi-server Dockerized apps](https://clusterhq.com/blog/fig-flocker-multi-server-docker-apps/)
-* [blimp](https://github.com/tubesandlube/blimp) Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
+* [A Docker based mini-PaaS](http://shortcircuit.net.au/~prologic/blog/article/2015/03/24/a-docker-based-mini-paas/) by [@prologic](https://github.com/prologic)
 
 ## Cloud Infrastructure
 * [Cloud Infrastructure Automation for Docker Nodes](http://blog.tutum.co/2015/04/29/cloud-infrastructure-automation-for-docker-nodes/)
@@ -382,7 +382,8 @@ Securely store your Docker images.
 * [Maestro](https://github.com/toscanini/maestro) (Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit.) by [@tascanini](https://github.com/toscanini)
 * [Citadel](http://citadeltoolkit.org/) (Citadel is a toolkit for scheduling containers on a Docker cluster.)
 * [CloudSlang](http://www.cloudslang.io/) (CloudSlang is a workflow engine to create Docker process automation)
-* [autodock](https://github.com/prologic/autodock) (Automating Docker; also provides [A Docker based mini-PaaS](http://shortcircuit.net.au/~prologic/blog/article/2015/03/24/a-docker-based-mini-paas/) by [@prologic](https://github.com/prologic)
+* [autodock](https://github.com/prologic/autodock) (Daemon for Docker Automation) 
+* [blimp](https://github.com/tubesandlube/blimp) Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 
 
 ## Service Discovery
