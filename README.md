@@ -61,7 +61,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
   * [Deployment](#deployment)
   * [Hosting for repositories (registries)](#hosting-for-repositories-registries)
   * [Hosting for containers](#hosting-for-containers)
-  * [HTTP Reverse Proxy](#http-reverse-proxy)
+  * [Reverse Proxy](#reverse-proxy)
   * [Web Interface](#web-interface)
   * [Local Container Manager](#local-container-manager)
   * [Useful Images](#useful-images)
@@ -287,9 +287,10 @@ Securely store your Docker images.
 * [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 * [IBM Bluemix](http://bluemix.net) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
 
-## HTTP Reverse Proxy
+## Reverse Proxy
 * [nginx-proxy](https://github.com/jwilder/nginx-proxy) - Automated nginx proxy for Docker containers using docker-gen by [@jwilder](https://github.com/jwilder)
 * [h2o-proxy](https://github.com/zchee/h2o-proxy) - Automated H2O reverse proxy for Docker containers. An alternative [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) by [@zchee](https://github.com/zchee)
+* [docker-proxy](https://github.com/silarsis/docker-proxy) - Transparent proxy for docker containers, run in a docker container. By [@silarsis](https://github.com/silarsis)
 * [muguet](https://github.com/mattallty/muguet) - DNS Server & Reverse proxy for Docker environments. By [@mattallty](https://github.com/mattallty)
 
 ## Web Interface
