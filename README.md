@@ -385,6 +385,8 @@ Securely store your Docker images.
 * [autodock](https://github.com/prologic/autodock) (Daemon for Docker Automation) 
 * [blimp](https://github.com/tubesandlube/blimp) Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 
+## Security
+* [docker-bench-security](https://github.com/docker/docker-bench-security) script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker](https://github.com/docker)
 
 ## Service Discovery
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
