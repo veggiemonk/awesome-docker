@@ -387,6 +387,7 @@ Securely store your Docker images.
 
 ## Security
 * [docker-bench-security](https://github.com/docker/docker-bench-security) script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker](https://github.com/docker)
+* [notary](https://github.com/docker/notary) a server and a client for running and interacting with trusted collections. By [@docker](https://github.com/docker)
 
 ## Service Discovery
 * [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
