@@ -330,6 +330,7 @@ Securely store your Docker images.
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 * [passenger-docker](https://github.com/phusion/passenger-docker) (Docker base images for Ruby, Python, Node.js and Meteor web apps) by [@phusion](https://github.com/phusion)
 * [docker-alpine](https://github.com/gliderlabs/docker-alpine) (A super small Docker base image *(5MB)* using Alpine Linux) by [@gliderlabs](https://github.com/gliderlabs)
+* [docker-fluentd](https://github.com/kiyoto/docker-fluentd) (the Container to Log Other Containers' Logs) by [@kiyoto](https://github.com/kiyoto)
 
 ## Dockerfile
 * [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
