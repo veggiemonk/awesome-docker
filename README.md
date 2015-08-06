@@ -275,6 +275,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 ## Deployment
 * [Last.Backend](http://lastbackend.com) - Last.Backend platform is designed for automatization of all routine work with the server and deployment of applications in one click using the visual interface.
 * [Conduit](https://github.com/ehazlett/conduit) - Experimental deployment system for Docker by [@ehazlett](https://github.com/ehazlett)
+* [Zodiac](https://github.com/CenturyLinkLabs/zodiac) - A lightweight tool for easy deployment and rollback of dockerized applications. By [@CenturyLinkLabs](https://github.com/CenturyLinkLabs)
 
 ## Hosting for repositories (registries)
 Securely store your Docker images.
