@@ -271,6 +271,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [portainer](https://github.com/duedil-ltd/portainer) (Apache Mesos framework for building Docker images) by [@tarnfeld](https://github.com/tarnfeld)
 * [Gradle Docker plugin](https://github.com/gesellix/gradle-docker-plugin) a Docker remote api plugin for Gradle by [@gesellix](https://github.com/gesellix)
 * [Docker client](https://github.com/gesellix/docker-client) a Docker remote api client library for the JVM, written in Groovy by [@gesellix](https://github.com/gesellix)
+* [Dropdock][http://www.dropdock.io/] a framework designed for Drupal to build fast, isolated development environments using Docker.
 
 ## Continuous Integration / Continuous Delivery
 * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
