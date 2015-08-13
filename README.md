@@ -26,8 +26,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Install Docker on your machine](https://github.com/wsargent/docker-cheat-sheet#installation) and play with a few [Useful Images](#useful-images)
 * Try [Panamax: Docker Management for Humans](http://panamax.io/) It will install a CoreOS VM with VirtualBox and has nice front end
-* [Install Boot2Docker](http://boot2docker.io/) It works on Windows and OSX
-* [Install Kitematic](https://kitematic.com/) Nice GUI, works on OSX
+* [Install Docker Toolbox](https://www.docker.com/toolbox) Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. Available for both Windows and Mac, the Toolbox installs Docker Client, Machine, Compose (Mac only), Kitematic and VirtualBox.
 * Check out: [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) by [@wsargent](https://github.com/wsargent) __MUST SEE__
 * [Project Web Dev](http://project-webdev.blogspot.de) : (Article series) How to create your own website based on Docker
 * [Docker Containers on the desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) by [@jfrazelle](https://github.com/jfrazelle) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles](https://github.com/jfrazelle/dotfiles) and her [dockerfiles](https://github.com/jfrazelle/dockerfiles))
