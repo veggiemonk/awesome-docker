@@ -279,6 +279,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 * [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur)
 * [IBM DevOps Services](https://hub.jazz.net) - Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix.
+* [Watchtower](https://github.com/CenturyLinkLabs/watchtower) - Automatically update running Docker containers by [@CenturyLinkLabs](https://github.com/CenturyLinkLabs)
 
 ## Deployment
 * [Last.Backend](http://lastbackend.com) - Last.Backend platform is designed for automatization of all routine work with the server and deployment of applications in one click using the visual interface.
