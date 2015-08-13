@@ -272,6 +272,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Docker client](https://github.com/gesellix/docker-client) a Docker remote api client library for the JVM, written in Groovy by [@gesellix](https://github.com/gesellix)
 * [Dropdock][http://www.dropdock.io/] a framework designed for Drupal to build fast, isolated development environments using Docker.
 * [Devstep](https://github.com/fgrehm/devstep) (Development environments powered by Docker and buildpacks) by [@fgrehm](https://github.com/fgrehm)
+* [Lorry](https://lorry.io/) (Lorry is a docker-compose.yml validator and composer) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
 
 ## Continuous Integration / Continuous Delivery
 * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
