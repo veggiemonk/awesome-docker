@@ -274,6 +274,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Devstep](https://github.com/fgrehm/devstep) (Development environments powered by Docker and buildpacks) by [@fgrehm](https://github.com/fgrehm)
 * [Lorry](https://lorry.io/) (Lorry is a docker-compose.yml validator and composer) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
 * [Dray](http://dray.it/) (Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
+* [docker-do](https://github.com/benzaita/docker-do) hassle-free docker run, like `env` but for docker
 
 ## Continuous Integration / Continuous Delivery
 
