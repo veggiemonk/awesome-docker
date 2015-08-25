@@ -87,7 +87,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) by [@wsargent](https://github.com/wsargent) __MUST SEE__
-* [Century Links Labs](http://www.centurylinklabs.com/category/docker/)
+* [CenturyLink Labs](http://www.centurylinklabs.com/category/docker/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
 * [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
 * [Docker Ecosystem](http://comp.photo777.org/wp-content/uploads/2014/09/Docker-ecosystem-7.01.pdf) (PDF) __MUST SEE__    find it on [twitter](https://twitter.com/patrickdebois/status/584434312201768961?t=1&cn=cmVjb3NfbmV0d29ya19kaWdlc3RfdHJpZ2dlcmVk&sig=2edb5efda01d3bb52b0ef9fd83e41dd177a7cbb1&al=1&refsrc=email&iid=87a2ac9d42dc4298886e0e86a4806d29&autoactions=1428241702&uid=2322141703&nid=244+40) by Bryzgalov Peter.
@@ -161,7 +161,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
-* [CenturyLinksLabs](http://www.centurylinklabs.com/)
+* [CenturyLink Labs](http://www.centurylinklabs.com/)
 * [Tutum](https://dashboard.tutum.co/accounts/register/)
 * [DevOps Weekly](http://devopsweekly.com/)
 * [Shippable](http://blog.shippable.com/)
@@ -475,7 +475,7 @@ Securely store your Docker images.
 # Interesting Twitter Accounts
 
 * [Docker](https://twitter.com/docker)
-* [Century Link Labs](https://twitter.com/CenturyLinkLabs)
+* [CenturyLink Labs](https://twitter.com/CenturyLinkLabs)
 * [Flux7Labs](https://twitter.com/Flux7Labs)
 * [TutumCloud](https://twitter.com/tutumcloud)
 * [Project Atomic](https://twitter.com/ProjectAtomic)
