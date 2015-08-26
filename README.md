@@ -352,6 +352,9 @@ Securely store your Docker images.
 * [docker-fluentd](https://github.com/kiyoto/docker-fluentd) (the Container to Log Other Containers' Logs) by [@kiyoto](https://github.com/kiyoto)
 * [chaperone-docker](https://github.com/garywiz/chaperone-docker) (A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.)
 
+## Interesting Images:
+* [kiwenlau/hadoop-cluster-docker](https://github.com/kiwenlau/hadoop-cluster-docker) (Quickly build arbitrary size Hadoop Cluster based on Docker)
+
 
 ## Dockerfile
 
