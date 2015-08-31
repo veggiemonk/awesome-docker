@@ -339,6 +339,10 @@ Securely store your Docker images.
 * [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 * [Dusty](http://dusty.gc.com/) Managed Docker development environments on OS X
 
+## Volume management and plugins
+
+* [Convoy](https://github.com/rancher/convoy) - an open-source Docker volume driver that can snapshot, backup and restore Docker volumes anywhere.
+
 ## Useful Images
 
 * [Official Images from Docker Hub](https://github.com/docker-library/official-images)
