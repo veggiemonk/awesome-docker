@@ -275,7 +275,8 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Devstep](https://github.com/fgrehm/devstep) (Development environments powered by Docker and buildpacks) by [@fgrehm](https://github.com/fgrehm)
 * [Lorry](https://lorry.io/) (Lorry is a docker-compose.yml validator and composer) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
 * [Dray](http://dray.it/) (Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
-* [docker-do](https://github.com/benzaita/docker-do) hassle-free docker run, like `env` but for docker
+* [docker-do](https://github.com/benzaita/docker-do) hassle-free docker run, like `env` but for docker by [@benzaita](https://github.com/benzaita)
+* [Docker osx dev](https://github.com/brikis98/docker-osx-dev) A productive development environment with Docker on OS X by [@brikis98](https://github.com/brikis98)
 
 ## Continuous Integration / Continuous Delivery
 
@@ -342,7 +343,9 @@ Securely store your Docker images.
 
 ## Volume management and plugins
 
-* [Convoy](https://github.com/rancher/convoy) - an open-source Docker volume driver that can snapshot, backup and restore Docker volumes anywhere.
+* [Convoy](https://github.com/rancher/convoy) - an open-source Docker volume driver that can snapshot, backup and restore Docker volumes anywhere. By [@rancher](https://github.com/rancher)
+* [Docker Unison](https://github.com/leighmcculloch/docker-unison) A docker volume container using Unison for fast two-way folder sync. Created as an alternative to slow boot2docker volumes on OS X. By [@leighmcculloch](https://github.com/leighmcculloch)
+
 
 ## Useful Images
 
