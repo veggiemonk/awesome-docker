@@ -280,7 +280,6 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Docker osx dev](https://github.com/brikis98/docker-osx-dev) A productive development environment with Docker on OS X by [@brikis98](https://github.com/brikis98)
 * [rocker](https://github.com/grammarly/rocker) extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc.
 
-
 ## Continuous Integration / Continuous Delivery
 
 * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
