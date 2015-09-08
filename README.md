@@ -278,6 +278,8 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Dray](http://dray.it/) (Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
 * [docker-do](https://github.com/benzaita/docker-do) hassle-free docker run, like `env` but for docker by [@benzaita](https://github.com/benzaita)
 * [Docker osx dev](https://github.com/brikis98/docker-osx-dev) A productive development environment with Docker on OS X by [@brikis98](https://github.com/brikis98)
+* [rocker](https://github.com/grammarly/rocker) extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc.
+
 
 ## Continuous Integration / Continuous Delivery
 
