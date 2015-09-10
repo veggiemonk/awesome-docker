@@ -159,6 +159,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Nginx Proxy for Docker](http://blog.danivovich.com/2015/07/09/nginx-proxy-for-docker-containers) (written 9 JUL 2015)
 * [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](http://github.com/rochacbruno)
 * [Docker Tips](http://mervine.net/notes/docker-tips) by [@jmervine](https://github.com/jmervine)
+* [Docker on Windows behind a firewall](http://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/) by [@kaitoedter](http://twitter.com/kaitoedter)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
