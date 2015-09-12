@@ -414,6 +414,7 @@ Securely store your Docker images.
 * [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
 * [Docket](https://github.com/netvarun/docket): Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
 * [Longshoreman](https://github.com/longshoreman/longshoreman): Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool. By [longshoreman](https://github.com/longshoreman)
+* [StackEngine](http://stackengine.com/free-docker-management/): The StackEngine Free Startup Edition enables you to build, deploy and operate your Docker applications across unlimited hosts.  Free [Community](http://community.stackengine.com) support via Slack channel gets you rapid access to a community of users and developers ready to help.
 
 ## PaaS
 
