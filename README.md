@@ -283,6 +283,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [docker-do](https://github.com/benzaita/docker-do) hassle-free docker run, like `env` but for docker by [@benzaita](https://github.com/benzaita)
 * [Docker osx dev](https://github.com/brikis98/docker-osx-dev) A productive development environment with Docker on OS X by [@brikis98](https://github.com/brikis98)
 * [rocker](https://github.com/grammarly/rocker) extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc.
+* [dexec](https://github.com/docker-exec/dexec) Command line interface for running code with Docker Exec images. https://docker-exec.github.io/ written in Go.
 
 ## Continuous Integration / Continuous Delivery
 
