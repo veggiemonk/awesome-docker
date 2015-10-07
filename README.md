@@ -35,8 +35,8 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 # MENU
 
-* [What is Docker ?](#what-is-docker)
-* [Where to start ?](#where-to-start)
+* [What is Docker ?](#what-is-docker-)
+* [Where to start ?](#where-to-start-)
 * [Useful Articles](#useful-articles)
  * [Main Resources](#main-resources)
  * [General Articles](#general-articles)
