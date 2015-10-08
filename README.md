@@ -411,7 +411,7 @@ Securely store your Docker images.
 
 ## Logging
 
-* [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collecton server (such as logstash).) by [@gocardless](https://github.com/gocardless)
+* [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collection server (such as logstash).) by [@gocardless](https://github.com/gocardless)
 * [Docker-Fluentd](https://github.com/kiyoto/docker-fluentd): (Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd.) by [@kiyoto](https://github.com/kiyoto)
 * [Logspout](https://github.com/gliderlabs/logspout) (Log routing for Docker container logs) by [@gliderlabs](https://github.com/gliderlabs)
 * [SPM for Docker](https://github.com/sematext/spm-agent-docker) Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext](http://www.twitter.com/sematext)  
