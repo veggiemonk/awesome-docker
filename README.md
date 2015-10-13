@@ -409,6 +409,7 @@ Securely store your Docker images.
 ## Networking
 
 * [Weave][weave] (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
+* [Calico-Docker](http://www.projectcalico.org/getting-started/docker/) - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other. 
 
 ## Logging
 
