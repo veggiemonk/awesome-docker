@@ -502,6 +502,7 @@ Securely store your Docker images.
 * [Extending Docker with Plugins](http://vimeo.com/110835013) (15:21)
 * [Logging on Docker: What You Need to Know](https://vimeo.com/123341629) (51:27)
 * [Container Hacks and Fun Images](https://www.youtube.com/watch?v=1qlLUf7KtAw) by [@jfrazelle](https://github.com/jfrazelle) @ DockerCon 2015 (**MUST WATCH VIDEO**: 38:50) 
+* [From Local Docker Development to Production Deployments](https://www.youtube.com/watch?v=7CZFpHUPqXw) by [@jpetazzo](https://github.com/jpetazzo) @ AWS re:Invent 2015
 
 
 # Interesting Twitter Accounts
