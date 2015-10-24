@@ -106,6 +106,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Project Web Dev](http://project-webdev.blogspot.de) : (Article series) How to create your own website based on Docker
 * [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 * [Docker Containers on the desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) by [@jfrazelle](https://github.com/jfrazelle) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles](https://github.com/jfrazelle/dotfiles) and her [dockerfiles](https://github.com/jfrazelle/dockerfiles))
+* [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
 
 ## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
