@@ -130,6 +130,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Joining the Docker Ship](http://thenewstack.io/joining-the-docker-ship-and-go) Learn how to contribute to docker (written 9 JUL 2015)
 * [Continuous Deployment with Gradle and Docker](https://github.com/gesellix/pipeline-with-gradle-and-docker/blob/master/README.md) Describes a complete pipeline from source to production deploy (includes a complete Spring Boot example project) by [@gesellix](https://github.com/gesellix)
 * [Containerization and the PaaS Cloud](http://www.computer.org/cms/Computer.org/ComputingNow/issues/2015/09/mcd2015030024.pdf) -- This article discusses the requirements that arise from having to facilitate applications through distributed multicloud platforms.
+* [Docker for Development: Common Problems and Solutions](https://medium.com/@rdsubhas/docker-for-development-common-problems-and-solutions-95b25cae41eb) by [@rdsubhas](https://github.com/rdsubhas)
 
 
 ## Deep Dive
