@@ -91,7 +91,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [CenturyLink Labs](http://www.centurylinklabs.com/category/docker/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
 * [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
-* [Docker Ecosystem](http://comp.photo777.org/wp-content/uploads/2014/09/Docker-ecosystem-7.01.pdf) (PDF) __MUST SEE__    find it on [twitter](https://twitter.com/patrickdebois/status/584434312201768961?t=1&cn=cmVjb3NfbmV0d29ya19kaWdlc3RfdHJpZ2dlcmVk&sig=2edb5efda01d3bb52b0ef9fd83e41dd177a7cbb1&al=1&refsrc=email&iid=87a2ac9d42dc4298886e0e86a4806d29&autoactions=1428241702&uid=2322141703&nid=244+40) by Bryzgalov Peter.
+* [Docker Ecosystem](http://comp.photo777.org/wp-content/uploads/2015/09/Docker-ecosystem-8.5.1.pdf) (PDF) __MUST SEE__    find it on [blog](http://comp.photo777.org/docker-ecosystem/) by Bryzgalov Peter.
 * [Blog](https://blog.jessfraz.com/) of [@frazelledazzell](https://github.com/jfrazelle)
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo](https://github.com/jpetazzo)
 * [Blog](http://progrium.com/blog/) of [@progrium](https://github.com/progrium)
