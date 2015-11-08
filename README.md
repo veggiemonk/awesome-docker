@@ -5,7 +5,7 @@ in
 Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome](https://github.com/sindresorhus/awesome) and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
 
 It's now a github project because it's considerably easier for other people to edit, fix and expand on Docker using Github. Just click [README.md](https://github.com/veggiemonk/awesome-docker/edit/master/README.md).
-If this list is not complete, you can [contribute](https://github.com/veggiemonk/awesome-docker/edit/master/README.md) to make it so. 
+If this list is not complete, you can [contribute](https://github.com/veggiemonk/awesome-docker/edit/master/README.md) to make it so.
 
 > **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)**
 
@@ -400,7 +400,8 @@ Securely store your Docker images.
 ## Monitoring
 
 * [Axibase Time-Series Database](http://axibase.com/products/axibase-time-series-database/writing-data/docker-cadvisor/) (Long-term retention of container statistics and built-in dashboards for Docker. Collected with native Google cAdvisor storage driver.)
-* [cAdvisor](https://github.com/google/cadvisor) (Analyzes resource usage and performance characteristics of running containers. created by [@Google](https://github.com/google) 
+* [cAdvisor](https://github.com/google/cadvisor) (Analyzes resource usage and performance characteristics of running containers. created by [@Google](https://github.com/google)
+* [Datadog](https://www.datadog.com] (Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. It includes support for Docker, Kubernetes, and Mesos.
 * [Dockerana](https://github.com/dockerana/dockerana) (packaged version of Graphite and Grafana, specifically targeted at metrics from Docker.)
 * [Docker-mon](https://github.com/icecrime/docker-mon) (Console-based Docker monitoring) by [@icecrime](https://github.com/icecrime)
 * [InfluxDB, cAdvisor, Grafana](https://github.com/vegasbrianc/docker-monitoring) (InfluxDB Time series DB in combination with Grafana and cAdvisor) by [@vegasbrianc](https://github.com/vegasbrianc)
@@ -417,14 +418,14 @@ Securely store your Docker images.
 ## Networking
 
 * [Weave][weave] (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
-* [Calico-Docker](http://www.projectcalico.org/getting-started/docker/) - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other. 
+* [Calico-Docker](http://www.projectcalico.org/getting-started/docker/) - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other.
 
 ## Logging
 
 * [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collection server (such as logstash).) by [@gocardless](https://github.com/gocardless)
 * [Docker-Fluentd](https://github.com/kiyoto/docker-fluentd): (Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd.) by [@kiyoto](https://github.com/kiyoto)
 * [Logspout](https://github.com/gliderlabs/logspout) (Log routing for Docker container logs) by [@gliderlabs](https://github.com/gliderlabs)
-* [SPM for Docker](https://github.com/sematext/spm-agent-docker) Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext](http://www.twitter.com/sematext)  
+* [SPM for Docker](https://github.com/sematext/spm-agent-docker) Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext](http://www.twitter.com/sematext)
 
 ## Deployment and Infrastructure
 
@@ -508,7 +509,7 @@ Securely store your Docker images.
 * [Run Any App on Mesos on Any Infrastructure Using Docker](https://www.youtube.com/watch?v=u5jd9YT9EsY) (17:44)
 * [Extending Docker with Plugins](http://vimeo.com/110835013) (15:21)
 * [Logging on Docker: What You Need to Know](https://vimeo.com/123341629) (51:27)
-* [Container Hacks and Fun Images](https://www.youtube.com/watch?v=1qlLUf7KtAw) by [@jfrazelle](https://github.com/jfrazelle) @ DockerCon 2015 (**MUST WATCH VIDEO**: 38:50) 
+* [Container Hacks and Fun Images](https://www.youtube.com/watch?v=1qlLUf7KtAw) by [@jfrazelle](https://github.com/jfrazelle) @ DockerCon 2015 (**MUST WATCH VIDEO**: 38:50)
 * [From Local Docker Development to Production Deployments](https://www.youtube.com/watch?v=7CZFpHUPqXw) by [@jpetazzo](https://github.com/jpetazzo) @ AWS re:Invent 2015
 
 
