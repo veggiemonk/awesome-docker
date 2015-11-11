@@ -284,7 +284,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [portainer](https://github.com/duedil-ltd/portainer) (Apache Mesos framework for building Docker images) by [@tarnfeld](https://github.com/tarnfeld)
 * [Gradle Docker plugin](https://github.com/gesellix/gradle-docker-plugin) a Docker remote api plugin for Gradle by [@gesellix](https://github.com/gesellix)
 * [Docker client](https://github.com/gesellix/docker-client) a Docker remote api client library for the JVM, written in Groovy by [@gesellix](https://github.com/gesellix)
-* [Dropdock][http://www.dropdock.io/] a framework designed for Drupal to build fast, isolated development environments using Docker.
+* [Dropdock](http://www.dropdock.io/) a framework designed for Drupal to build fast, isolated development environments using Docker.
 * [Devstep](https://github.com/fgrehm/devstep) (Development environments powered by Docker and buildpacks) by [@fgrehm](https://github.com/fgrehm)
 * [Lorry](https://lorry.io/) (Lorry is a docker-compose.yml validator and composer) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
 * [Dray](http://dray.it/) (Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
@@ -402,7 +402,7 @@ Securely store your Docker images.
 
 * [Axibase Time-Series Database](http://axibase.com/products/axibase-time-series-database/writing-data/docker-cadvisor/) (Long-term retention of container statistics and built-in dashboards for Docker. Collected with native Google cAdvisor storage driver.)
 * [cAdvisor](https://github.com/google/cadvisor) (Analyzes resource usage and performance characteristics of running containers. created by [@Google](https://github.com/google)
-* [Datadog](https://www.datadog.com] (Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. It includes support for Docker, Kubernetes, and Mesos.
+* [Datadog](https://www.datadog.com) Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. It includes support for Docker, Kubernetes, and Mesos.
 * [Dockerana](https://github.com/dockerana/dockerana) (packaged version of Graphite and Grafana, specifically targeted at metrics from Docker.)
 * [Docker-mon](https://github.com/icecrime/docker-mon) (Console-based Docker monitoring) by [@icecrime](https://github.com/icecrime)
 * [InfluxDB, cAdvisor, Grafana](https://github.com/vegasbrianc/docker-monitoring) (InfluxDB Time series DB in combination with Grafana and cAdvisor) by [@vegasbrianc](https://github.com/vegasbrianc)
