@@ -15,18 +15,18 @@ If this list is not complete, you can [contribute](https://github.com/veggiemonk
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Consisting of Docker Engine, a portable, lightweight runtime and packaging tool, and Docker Hub, a cloud service for sharing applications and automating workflows, Docker enables apps to be quickly assembled from components and eliminates the friction between development, QA, and production environments. As a result, IT can ship faster and run the same app, unchanged, on laptops, data center VMs, and any cloud.
 
-_Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
+_Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 # Where to start ?
 
-* [10-minute Interactive Tutorial](https://www.docker.com/tryit/)
+* [10-minute Interactive Tutorial](http://docs.docker.com/mac/started/)
 * [Docker Training](http://training.docker.com/)
 * Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
-* Watch the video: [Docker for Developers](http://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo](https://github.com/jpetazzo)
+* Watch the video: [Docker for Developers](https://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo](https://github.com/jpetazzo)
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Install Docker on your machine](https://github.com/wsargent/docker-cheat-sheet#installation) and play with a few [Useful Images](#useful-images)
 * Try [Panamax: Docker Management for Humans](http://panamax.io/) It will install a CoreOS VM with VirtualBox and has nice front end
-* [Install Docker Toolbox](https://www.docker.com/toolbox) Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. Available for both Windows and Mac, the Toolbox installs Docker Client, Machine, Compose (Mac only), Kitematic and VirtualBox.
+* [Install Docker Toolbox](https://www.docker.com/docker-toolbox) Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. Available for both Windows and Mac, the Toolbox installs Docker Client, Machine, Compose (Mac only), Kitematic and VirtualBox.
 * Check out: [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) by [@wsargent](https://github.com/wsargent) __MUST SEE__
 * [Project Web Dev](http://project-webdev.blogspot.de) : (Article series) How to create your own website based on Docker
 * [Docker Containers on the desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) by [@jfrazelle](https://github.com/jfrazelle) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles](https://github.com/jfrazelle/dotfiles) and her [dockerfiles](https://github.com/jfrazelle/dockerfiles))
@@ -89,9 +89,9 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) by [@wsargent](https://github.com/wsargent) __MUST SEE__
-* [CenturyLink Labs](http://www.centurylinklabs.com/category/docker/)
+* [CenturyLink Labs](https://labs.ctl.io/category/docker/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
-* [Docker Ecosystem](http://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
+* [Docker Ecosystem](https://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
 * [Docker Ecosystem](http://comp.photo777.org/wp-content/uploads/2015/09/Docker-ecosystem-8.5.1.pdf) (PDF) __MUST SEE__    find it on [blog](http://comp.photo777.org/docker-ecosystem/) by Bryzgalov Peter.
 * [Blog](https://blog.jessfraz.com/) of [@frazelledazzell](https://github.com/jfrazelle)
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo](https://github.com/jpetazzo)
@@ -103,32 +103,32 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 * [Container42](http://container42.com/)
 * [Contrainer solutions](http://container-solutions.com/blog/)
-* [DockerOne](http://dockerone.com/) Docker Community (in Chinese) by [@LiYingJie](http://dockerone.com/people/%E6%9D%8E%E9%A2%96%E6%9D%B0)
+* [DockerOne](http://dockone.io/) Docker Community (in Chinese) by [@LiYingJie](http://dockone.io/people/%E6%9D%8E%E9%A2%96%E6%9D%B0)
 * [Project Web Dev](http://project-webdev.blogspot.de) : (Article series) How to create your own website based on Docker
 * [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 * [Docker Containers on the desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) by [@jfrazelle](https://github.com/jfrazelle) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles](https://github.com/jfrazelle/dotfiles) and her [dockerfiles](https://github.com/jfrazelle/dockerfiles))
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
 
 ## General Articles
-* [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
+* [Getting Started with Docker](https://serversforhackers.com/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
 * [What is Docker and how do you monitor it?](http://axibase.com/docker-monitoring/)
-* [How to Use Docker on OS X: The Missing Guide](http://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
+* [How to Use Docker on OS X: The Missing Guide](https://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
 * [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
-* [Deploying NGINX with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
+* [Deploying NGINX with Docker](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Eight Docker Development Patterns](http://www.hokstad.com/docker/patterns)
-* [Rails Development Environment for OS X using Docker](http://allenan.com/docker-rails-dev-environment-for-osx/)
-* [Logging on Docker: What You Need to Know](http://java.dzone.com/articles/logging-docker-what-you-need) + see the [video](https://vimeo.com/123341629) (~50min)
+* [Rails Development Environment for OS X using Docker](https://allenan.com/docker-rails-dev-environment-for-osx/)
+* [Logging on Docker: What You Need to Know](https://dzone.com/articles/logging-docker-what-you-need) + see the [video](https://vimeo.com/123341629) (~50min)
 * [Comparing Five Monitoring Options for Docker](http://rancher.com/comparing-monitoring-options-for-docker-deployments/)
 * [Minimalistic data-only container for Docker Compose](http://dockermeetupsinbordeaux.github.io/docker-compose/data-container/2015/03/01/minimalistic-docker-data-container.html) (Written Mar 1, 2015)
-* [Running Docker Containers with Systemd](http://container-solutions.com/2015/04/running-docker-containers-with-systemd/)
+* [Running Docker Containers with Systemd](http://container-solutions.com/running-docker-containers-with-systemd/)
 * [Dockerizing Flask With Compose and Machine - From Localhost to the Cloud](https://realpython.com/blog/python/dockerizing-flask-with-compose-and-machine-from-localhost-to-the-cloud/) -- [GitHub](https://github.com/realpython/orchestrating-docker) Learn how to deploy an application using Docker Compose and Docker Machine (written 17 April 2015)
-* [Why and How to use Docker for Development](https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24) (written 28 APR 2015)
+* [Why and How to use Docker for Development](https://medium.com/iron-io-blog/why-and-how-to-use-docker-for-development-a156c1de3b24) (written 28 APR 2015)
 * [Automating Docker Logging: ElasticSearch, Logstash, Kibana, and Logspout](http://nathanleclaire.com/blog/2015/04/27/automating-docker-logging-elasticsearch-logstash-kibana-and-logspout/) (written 27 APR 2015)
 * [Docker Host Volume Synchronization](http://oliverguenther.de/2015/05/docker-host-volume-synchronization/) (written 1 JUN 2015)
 * [Multi-Service Local Development Environment with Vagrant and Docker](http://devbandit.com/2015/05/29/vagrant-and-docker.html) (written 29 MAY 2015)
 * [From Local Development to Remote Deployment with Docker Machine and Compose](https://developer.rackspace.com/blog/dev-to-deploy-with-docker-machine-and-compose/) (written 2 JUL 2015)
 * [Docker: Build, Ship and Run Any App, Anywhere](http://delftswa.github.io/chapters/docker/index.html) by [Martijn Dwars](https://github.com/MartijnDwars), [Wiebe van Geest](https://github.com/wrvangeest), [Rik Nijessen](https://github.com/gewoonrik), and [Rick Wieman](https://github.com/RickWieman) from [Delft University of Technology](http://www.tudelft.nl/) (written 2 JUL 2015)
-* [Joining the Docker Ship](http://thenewstack.io/joining-the-docker-ship-and-go) Learn how to contribute to docker (written 9 JUL 2015)
+* [Joining the Docker Ship](http://thenewstack.io/joining-the-docker-ship-and-go/) Learn how to contribute to docker (written 9 JUL 2015)
 * [Continuous Deployment with Gradle and Docker](https://github.com/gesellix/pipeline-with-gradle-and-docker/blob/master/README.md) Describes a complete pipeline from source to production deploy (includes a complete Spring Boot example project) by [@gesellix](https://github.com/gesellix)
 * [Containerization and the PaaS Cloud](http://www.computer.org/cms/Computer.org/ComputingNow/issues/2015/09/mcd2015030024.pdf) -- This article discusses the requirements that arise from having to facilitate applications through distributed multicloud platforms.
 * [Docker for Development: Common Problems and Solutions](https://medium.com/@rdsubhas/docker-for-development-common-problems-and-solutions-95b25cae41eb) by [@rdsubhas](https://github.com/rdsubhas)
@@ -141,7 +141,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Data-only container madness](http://container42.com/2014/11/18/data-only-container-madness/)
 
 ## Networking
-* [Using Docker Machine with Weave 0.10](http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/) (written 22 APR 2015)
+* [Using Docker Machine with Weave 0.10](http://blog.weave.works/2015/04/22/using-docker-machine-with-weave-0-10/) (written 22 APR 2015)
 * [How to Route Traffic through a Tor Docker container](https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container/) by [@jfrazelle](https://github.com/jfrazelle) (writtent 20 JUN 2015)
 
 ## Metal
@@ -159,25 +159,25 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm](https://github.com/fgrehm)
 * [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) by [@jwilder](https://github.com/jwilder)
 * [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
-* [A Simple Way to Dockerize Applications](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications) by [@jwilder](https://github.com/jwilder)
+* [A Simple Way to Dockerize Applications](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications/) by [@jwilder](https://github.com/jwilder)
 * [Building good docker images](http://jonathan.bergknoff.com/journal/building-good-docker-images) by [@jbergknoff](https://github.com/jbergknoff)
 * [10 Things Not To Forget Before Deploying Docker In Production](http://www.slideshare.net/rightscale/docker-meetup-40826948)
 * [Make Your Docker Workflow Awesome With Fig.sh](http://www.syncano.com/docker-workflow-fig-sh/) Fig is a python application that helps you run groups of docker containers.
 * [Docker CIFS – How to Mount CIFS as a Docker Volume](http://backdrift.org/docker-cifs-howto-mount-cifs-volume-docker-container)
-* [Nginx Proxy for Docker](http://blog.danivovich.com/2015/07/09/nginx-proxy-for-docker-containers) (written 9 JUL 2015)
-* [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](http://github.com/rochacbruno)
-* [Docker Tips](http://mervine.net/notes/docker-tips) by [@jmervine](https://github.com/jmervine)
-* [Docker on Windows behind a firewall](http://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/) by [@kaitoedter](http://twitter.com/kaitoedter)
+* [Nginx Proxy for Docker](http://blog.danivovich.com/2015/07/09/nginx-proxy-for-docker-containers/) (written 9 JUL 2015)
+* [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](https://github.com/rochacbruno)
+* [Docker Tips](http://www.mervine.net/notes/docker-tips) by [@jmervine](https://github.com/jmervine)
+* [Docker on Windows behind a firewall](http://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/) by [@kaitoedter](https://twitter.com/kaitoedter)
 * [Pulling Git into a Docker image without leaving SSH keys behind](http://blog.cloud66.com/pulling-git-into-a-docker-image-without-leaving-ssh-keys-behind/) by [@khash](https://github.com/khash)
 * [6 Million Ways To Log In Docker](http://www.slideshare.net/raychaser/6-million-ways-to-log-in-docker-nyc-docker-meetup-12172014) by [@aychaser](https://twitter.com/aychaser)
-* [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator) (ruby script)
+* [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/) (ruby script)
 * [Running Production Hadoop Clusters in Docker Containers](http://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
-* [CenturyLink Labs](http://www.centurylinklabs.com/)
-* [Tutum](https://dashboard.tutum.co/accounts/register/)
-* [DevOps Weekly](http://devopsweekly.com/)
+* [CenturyLink Labs](https://labs.ctl.io/)
+* [Tutum](https://dashboard.tutum.co/accounts/login/)
+* [DevOps Weekly](http://www.devopsweekly.com)
 * [Shippable](http://blog.shippable.com/)
 * [WebOps weekly](http://webopsweekly.com/)
 
@@ -187,7 +187,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 ## Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/)
 * [Creating a Docker image from your code](http://blog.tutum.co/2014/04/10/creating-a-docker-image-from-your-code/)
-* [Optimizing Docker Images](http://www.centurylinklabs.com/optimizing-docker-images/?hvid=1OW0br)
+* [Optimizing Docker Images](https://labs.ctl.io/optimizing-docker-images/?hvid=1OW0br)
 * [How to Optimize Your Dockerfile](http://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/) by [@tutumcloud](https://github.com/tutumcloud)
 * [Building Docker Images for Static Go Binaries](https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07) by [@kelseyhightower](https://github.com/kelseyhightower)
 * [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/) by [@jwilder](https://github.com/jwilder)
@@ -232,8 +232,8 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 ## Other
 * Presentation: Docker and JBoss - the perfect combination
- * [Vidéo](http://www.youtube.com/watch?v=4uQ6gR_xZhE)
- * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker)
+ * [Vidéo](https://www.youtube.com/watch?v=4uQ6gR_xZhE)
+ * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker/)
  * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
 
 # Books
@@ -241,8 +241,8 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar](https://twitter.com/kartar))
 * [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do) by Sébastien Goasguen ([@sebgoa](https://twitter.com/sebgoa)) (Publisher: O'Reilly)
 * [Docker Cookbook](http://dockercookbook.github.io/) by Neependra Khare ([@neependra](https://twitter.com/neependra)) (Publisher: Packt)
-* [Docker in Action](http://manning.com/nickoloff/) by Jeff Nickoloff ([@allingeek](https://twitter.com/allingeek))
-* [Docker in Practice](http://manning.com/miell/) by Ian Miell ([@ianmiell](https://github.com/ianmiell)) and Aidan Hobson Sayers ([@aidanhs](https://github.com/aidanhs)). ==> [Website](http://docker-in-practice.github.io/)
+* [Docker in Action](https://www.manning.com/books/docker-in-action) by Jeff Nickoloff ([@allingeek](https://twitter.com/allingeek))
+* [Docker in Practice](https://www.manning.com/books/docker-in-practice) by Ian Miell ([@ianmiell](https://github.com/ianmiell)) and Aidan Hobson Sayers ([@aidanhs](https://github.com/aidanhs)). ==> [Website](http://docker-in-practice.github.io/)
 * [Docker Up & Running](http://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
 * [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat))
 * [Docker: Container-Infrastruktur für Microservices](http://www.bee42.com/dockerbook/) (German) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
@@ -267,7 +267,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [registrator](https://github.com/progrium/registrator) (Service registry bridge for Docker) by [@progrium](https://github.com/progrium)
 * [Dockly](https://github.com/swipely/dockly) (Dockly is a gem made to ease the pain of packaging an application in Docker.) by [@swipely](https://github.com/swipely/)
 * [docker-volumes](https://github.com/cpuguy83/docker-volumes) (Docker Volume Manager) by [@cpuguy83](https://github.com/cpuguy83)
-* [dockerfile_lint](https://github.com/redhataccess/dockerfile_lint) (A rule-based 'linter' for Dockerfiles) by [@redhataccess](https://github.com/redhataccess)
+* [dockerfile_lint](https://github.com/projectatomic/dockerfile_lint) (A rule-based 'linter' for Dockerfiles) by [@redhataccess](https://github.com/redhataccess)
 * [powerstrip](https://github.com/clusterhq/powerstrip) (A tool for prototyping Docker extensions) by [@clusterhq](https://github.com/clusterhq)
 * [Vagga](https://github.com/tailhook/vagga) (Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.) by [@tailhook](https://github.com/tailhook/)
 * [dockerode](https://github.com/apocas/dockerode) (Not just another Docker Remote API node.js module) by [@apocas](https://github.com/apocas)
@@ -275,10 +275,10 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [container-factory](https://github.com/lsqio/container-factory) (produces Docker images from tarballs of application source code http://www.containerfactory.io) by [@lsqio](https://github.com/lsqio)
 * [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 * [crane](https://github.com/michaelsauter/crane) (Lift containers with ease. Easy orchestration for images and containers) by [@michaelsauter](https://github.com/michaelsauter)
-* [sherdock](https://github.com/rancherio/sherdock) (Automatic GC of images based on regexp) by [@rancherio](https://github.com/rancherio)
+* [sherdock](https://github.com/rancher/sherdock) (Automatic GC of images based on regexp) by [@rancherio](https://github.com/rancherio)
 * [bocker](https://github.com/p8952/bocker) (1) (Docker implemented in 100 lines of bash) by [p8952](https://github.com/p8952)
 * [bocker](https://github.com/icy/bocker) (2) (Write Dockerfile completely in Bash. Extensible and simple. --> Reusable) by [@icy](https://github.com/icy)
-* [docker-cli](https://github.com/j-bennet/dockercli) (A CLI with autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
+* [docker-cli](https://github.com/j-bennet/wharfee) (A CLI with autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
 * [docker-gc](https://github.com/spotify/docker-gc) (A cron job that will delete old stopped containers and unused images) by [@spotify](https://github.com/spotify)
 * [dlayer](https://github.com/wercker/dlayer) (Stats collector for Docker layers) by [@wercker](https://github.com/wercker)
 * [forward2docker](https://github.com/bsideup/forward2docker) (Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM) by [@bsideup](https://github.com/bsideup)
@@ -286,7 +286,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [portainer](https://github.com/duedil-ltd/portainer) (Apache Mesos framework for building Docker images) by [@tarnfeld](https://github.com/tarnfeld)
 * [Gradle Docker plugin](https://github.com/gesellix/gradle-docker-plugin) a Docker remote api plugin for Gradle by [@gesellix](https://github.com/gesellix)
 * [Docker client](https://github.com/gesellix/docker-client) a Docker remote api client library for the JVM, written in Groovy by [@gesellix](https://github.com/gesellix)
-* [Dropdock](http://www.dropdock.io/) a framework designed for Drupal to build fast, isolated development environments using Docker.
+* [Dropdock](http://dropdock.io/) a framework designed for Drupal to build fast, isolated development environments using Docker.
 * [Devstep](https://github.com/fgrehm/devstep) (Development environments powered by Docker and buildpacks) by [@fgrehm](https://github.com/fgrehm)
 * [Lorry](https://lorry.io/) (Lorry is a docker-compose.yml validator and composer) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
 * [Dray](http://dray.it/) (Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker) by [@CenturyLinkLabs](https://github.com/CenturyLinkLab)
@@ -307,7 +307,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 
 ## Deployment
 
-* [Last.Backend](http://lastbackend.com) - Last.Backend platform is designed for automatization of all routine work with the server and deployment of applications in one click using the visual interface.
+* [Last.Backend](https://lastbackend.com/) - Last.Backend platform is designed for automatization of all routine work with the server and deployment of applications in one click using the visual interface.
 * [Conduit](https://github.com/ehazlett/conduit) - Experimental deployment system for Docker by [@ehazlett](https://github.com/ehazlett)
 * [Zodiac](https://github.com/CenturyLinkLabs/zodiac) - A lightweight tool for easy deployment and rollback of dockerized applications. By [@CenturyLinkLabs](https://github.com/CenturyLinkLabs)
 * [rocker-compose](https://github.com/grammarly/rocker-compose) - Docker composition tool with idempotency features for deploying apps composed of multiple containers.
@@ -329,7 +329,7 @@ Securely store your Docker images.
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
 * [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
-* [IBM Bluemix](http://bluemix.net) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
+* [IBM Bluemix](https://console.ng.bluemix.net/) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
 
 ## Reverse Proxy
 
@@ -341,14 +341,14 @@ Securely store your Docker images.
 
 ## Web Interface
 
-* [Docker Registry Web](https://github.com/atc-/docker-registry-web) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
+* [Docker Registry Web](https://github.com/atc-/docker-registry-ui) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
 * [DockerUI](https://github.com/crosbymichael/dockerui) (DockerUI is a web interface to interact with the Remote API.) by [@crosbymichael](https://github.com/crosbymichael)
 * [DockerBoard](https://github.com/dockerboard/dockerboard) (Simple dashboards, visualizations, managements for your dockers.) by [@dockerboard](https://github.com/dockerboard)
 * [Portus](https://github.com/SUSE/Portus) (Authorization service and frontend for Docker registry (v2)) by [@SUSE](https://github.com/SUSE)
 
 ## Local Container Manager
 
-* ~~[Fig](https://github.com/docker/fig) (Fast, isolated development environments using Docker) -- http://www.fig.sh~~ --> Fig has been replaced by [Docker Compose](http://docs.docker.com/compose/), and is now deprecated. The new documentation is on the [Docker website](http://docs.docker.com/compose/).
+* ~~[Fig](https://github.com/docker/compose) (Fast, isolated development environments using Docker) -- http://www.fig.sh~~ --> Fig has been replaced by [Docker Compose](http://docs.docker.com/compose/), and is now deprecated. The new documentation is on the [Docker website](http://docs.docker.com/compose/).
 * [Shutit](http://ianmiell.github.io/shutit/) (a tool for building and maintaining complex Docker deployments) by [@ianmiell](https://github.com/ianmiell)
 * [FuGu](https://github.com/mattes/fugu) (a docker run wrapper without orchestration) by [@mattes](https://github.com/mattes)
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
@@ -357,7 +357,7 @@ Securely store your Docker images.
 * [subuser](http://subuser.org) (subuser makes it easy to securely and portably run graphical desktop applications in Docker)
 * [OctoHost](http://www.octohost.io/) (Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
 * [Dokku](https://github.com/progrium/dokku) (Docker powered mini-Heroku in around 100 lines of Bash) by [@progrium](https://github.com/progrium)
-* [Ansible - manage docker containers](http://docs.ansible.com/docker_module.html)
+* [Ansible - manage docker containers](http://docs.ansible.com/ansible/docker_module.html)
 * [Vagrant - Docker provider](http://docs.vagrantup.com/v2/docker/basics.html) a good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example) by [@bubenkoff](https://github.com/bubenkoff)
 * [Dray](https://github.com/CenturyLinkLabs/dray)  An engine for managing the execution of container-based workflows. http://Dray.it by [@CenturyLinkLabs](https://github.com/CenturyLinkLabs/)
 * [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
@@ -404,7 +404,7 @@ Securely store your Docker images.
 
 * [Axibase Time-Series Database](http://axibase.com/products/axibase-time-series-database/writing-data/docker-cadvisor/) (Long-term retention of container statistics and built-in dashboards for Docker. Collected with native Google cAdvisor storage driver.)
 * [cAdvisor](https://github.com/google/cadvisor) (Analyzes resource usage and performance characteristics of running containers. created by [@Google](https://github.com/google)
-* [Datadog](https://www.datadog.com) Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. It includes support for Docker, Kubernetes, and Mesos.
+* [Datadog](https://www.datadoghq.com/) Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. It includes support for Docker, Kubernetes, and Mesos.
 * [Dockerana](https://github.com/dockerana/dockerana) (packaged version of Graphite and Grafana, specifically targeted at metrics from Docker.)
 * [Docker-mon](https://github.com/icecrime/docker-mon) (Console-based Docker monitoring) by [@icecrime](https://github.com/icecrime)
 * [InfluxDB, cAdvisor, Grafana](https://github.com/vegasbrianc/docker-monitoring) (InfluxDB Time series DB in combination with Grafana and cAdvisor) by [@vegasbrianc](https://github.com/vegasbrianc)
@@ -414,8 +414,8 @@ Securely store your Docker images.
 * [Seagull](https://github.com/tobegit3hub/seagull) (Friendly Web UI to monitor docker daemon.) by [@tobegit3hub](https://github.com/tobegit3hub)
 * [Site24x7](https://www.site24x7.com/docker-monitoring.html) Docker MOnitoring for DevOps and IT is a SaaS Pay per Host model
 * [Sysdig](http://www.sysdig.org/): An open source troubleshooting tool that provides a rich set of real-time, system-level information. It has container-specific features and is very useful in Docker environments.
-* [Zabbix Docker module](https://github.com/jangaraj/Zabbix-Docker-Monitoring): Zabbix module that provides discovery of running containers, CPU/memory/blk IO/net container metrics. Systemd Docker and LXC execution driver is also supported. It's a dynamically linked shared object library, so its performance is (~10x) better, than any script solution.
-* [SPM for Docker](https://github.com/sematext/spm-agent-docker) Monitoring of host and container metrics, Docker events and logs. Automatic log parser. Anomaly Detection and alerting for metrics and logs. [@sematext](http://www.twitter.com/sematext)
+* [Zabbix Docker module](https://github.com/monitoringartist/Zabbix-Docker-Monitoring): Zabbix module that provides discovery of running containers, CPU/memory/blk IO/net container metrics. Systemd Docker and LXC execution driver is also supported. It's a dynamically linked shared object library, so its performance is (~10x) better, than any script solution.
+* [SPM for Docker](https://github.com/sematext/spm-agent-docker) Monitoring of host and container metrics, Docker events and logs. Automatic log parser. Anomaly Detection and alerting for metrics and logs. [@sematext](https://twitter.com/sematext)
 * [Zabbix Docker](https://github.com/gomex/docker-zabbix) - Monitor containers automatically using zabbix LLD feature.
 * [Collecting docker logs and stats with Splunk](http://blogs.splunk.com/2015/08/24/collecting-docker-logs-and-stats-with-splunk/)
 
@@ -429,7 +429,7 @@ Securely store your Docker images.
 * [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collection server (such as logstash).) by [@gocardless](https://github.com/gocardless)
 * [Docker-Fluentd](https://github.com/kiyoto/docker-fluentd): (Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd.) by [@kiyoto](https://github.com/kiyoto)
 * [Logspout](https://github.com/gliderlabs/logspout) (Log routing for Docker container logs) by [@gliderlabs](https://github.com/gliderlabs)
-* [SPM for Docker](https://github.com/sematext/spm-agent-docker) Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext](http://www.twitter.com/sematext)
+* [SPM for Docker](https://github.com/sematext/spm-agent-docker) Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext](https://twitter.com/sematext)
 
 ## Deployment and Infrastructure
 
@@ -450,13 +450,13 @@ Securely store your Docker images.
 
 ## Remote Container Manager / Orchestration
 
-* [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- http://kontena.io
+* [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- http://www.kontena.io/
 * [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
 * ~~[Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker, Go, and YAM) -- http://gaudi.io/~~ project discontinued.
 * [CoreOS](https://github.com/coreos) (Linux for Massive Server Deployments) -- https://coreos.com/
-* [Rancher](https://github.com/rancherio/rancher) (Portable AWS-style infrastructure service for Docker) -- http://www.rancher.io/
+* [Rancher](https://github.com/rancher/rancher) (Portable AWS-style infrastructure service for Docker) -- http://rancher.com/
 * [dokku-alt](https://github.com/dokku-alt/dokku-alt) (Dokku fork with Dockerfile support, database plugins, ACL and more)
 * [Docker container on Mesos](https://mesosphere.com/learn/launch-docker-container-on-mesosphere/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)
 * [Marathon](https://mesosphere.github.io/marathon/docs/) (Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on")
@@ -478,9 +478,9 @@ Securely store your Docker images.
 
 ## Service Discovery
 
-* [docker-consul](https://github.com/progrium/docker-consul) by [@progrium](https://github.com/progrium)
+* [docker-consul](https://github.com/gliderlabs/docker-consul) by [@progrium](https://github.com/progrium)
 * [etcd](https://github.com/coreos/etcd): A highly-available key value store for shared configuration and service discovery by [@coreOS](https://github.com/coreos)
-* [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/articles/ambassador_pattern_linking/) by [@cpuguy83](https://github.com/cpuguy83)
+* [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/engine/articles/ambassador_pattern_linking/) by [@cpuguy83](https://github.com/cpuguy83)
 * [confd](http://www.confd.io/): Manage local application configuration files using templates and data from etcd or consul.
 * [proxy](https://github.com/factorish/proxy): lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
 
@@ -494,13 +494,13 @@ Securely store your Docker images.
 
 ## Main Account
 
-* [Docker Youtube Account](http://www.youtube.com/user/dockerrun)
-* [CenturyLink Labs Docker Interviews](http://www.youtube.com/playlist?list=PL_q4Fk7SVBCIjyuCBFBItXnzGI3qBa2L1)
+* [Docker Youtube Account](https://www.youtube.com/user/dockerrun)
+* [CenturyLink Labs Docker Interviews](https://www.youtube.com/playlist?list=PL_q4Fk7SVBCIjyuCBFBItXnzGI3qBa2L1)
 * [YLD Event](https://www.youtube.com/channel/UCvksXSnLqIVM_uFB7xyrsSg/videos) Conference about *containers*!!! [@YLDio](https://twitter.com/YLDio)
 
 ## Useful videos
 
-* [Docker for Developers](http://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo](https://github.com/jpetazzo)  <== Good introduction, context, demo
+* [Docker for Developers](https://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo](https://github.com/jpetazzo)  <== Good introduction, context, demo
 * [SysAdminCasts: Introduction to Docker](https://sysadmincasts.com/episodes/31-introduction-to-docker) (15:49)
 * [Orchestrating Docker containers in production using Fig](https://www.youtube.com/watch?v=SEtRg8siQWw) (7:11)
 * [Development Environments with Fig](http://youtu.be/QpSFOHvFyMc) by Aanand Prasad (17:58)
@@ -512,7 +512,7 @@ Securely store your Docker images.
 * [Immutable Infrastructure with Docker and EC2 by Michael Bryzek (Gilt)](https://www.youtube.com/watch?v=GaHzdqFithc) (42:04)
 * [Ansible and Docker HP](https://www.youtube.com/watch?v=oZ45v8AeE7k) (32:38)
 * [Run Any App on Mesos on Any Infrastructure Using Docker](https://www.youtube.com/watch?v=u5jd9YT9EsY) (17:44)
-* [Extending Docker with Plugins](http://vimeo.com/110835013) (15:21)
+* [Extending Docker with Plugins](https://vimeo.com/110835013) (15:21)
 * [Logging on Docker: What You Need to Know](https://vimeo.com/123341629) (51:27)
 * [Container Hacks and Fun Images](https://www.youtube.com/watch?v=1qlLUf7KtAw) by [@jfrazelle](https://github.com/jfrazelle) @ DockerCon 2015 (**MUST WATCH VIDEO**: 38:50)
 * [From Local Docker Development to Production Deployments](https://www.youtube.com/watch?v=7CZFpHUPqXw) by [@jpetazzo](https://github.com/jpetazzo) @ AWS re:Invent 2015
@@ -538,6 +538,6 @@ Securely store your Docker images.
 * [Jeff Lindsay](https://twitter.com/progrium) Design-minded software architect
 * [Jessie Frazelle](https://twitter.com/frazelledazzell) Work @docker and uses full containerized desktop, lots of fun.
 
-[weave]: https://github.com/zettio/weave
+[weave]: https://github.com/weaveworks/weave
 [brooklyn]: https://brooklyn.incubator.apache.org/
 [kubernetes]: http://kubernetes.io
