@@ -193,6 +193,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/) by [@jwilder](https://github.com/jwilder)
 * [Dockerfile Golf (or optimizing the Docker build process)](http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html)
 * [ImageLayers](https://imagelayers.io/) Visualize Docker images and the layers that compose them.
+* [DockerSlim](https://github.com/cloudimmunity/docker-slim) shrinks fat Docker images creating the smallest possible images.
 
 ## Service Discovery
 * [@progrium](https://github.com/progrium) Service Discovery articles series:
