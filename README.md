@@ -194,6 +194,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Dockerfile Golf (or optimizing the Docker build process)](http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html)
 * [ImageLayers](https://imagelayers.io/) Visualize Docker images and the layers that compose them.
 * [DockerSlim](https://github.com/cloudimmunity/docker-slim) shrinks fat Docker images creating the smallest possible images.
+* [SkinnyWhale](https://github.com/djosephsen/skinnywhale) Skinnywhale helps you make smaller (as in megabytes) Docker containers.
 
 ## Service Discovery
 * [@progrium](https://github.com/progrium) Service Discovery articles series:
