@@ -366,6 +366,7 @@ Securely store your Docker images.
 * [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 * [Dusty](http://dusty.gc.com/) Managed Docker development environments on OS X
 * [Beluga](https://github.com/cortexmedia/Beluga) Beluga a CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
+* [sen](https://github.com/TomasTomecek/sen) Terminal user interface for docker engine, by [@TomasTomecek](https://github.com/TomasTomecek)
 
 ## Volume management and plugins
 
