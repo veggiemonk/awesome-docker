@@ -56,6 +56,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
  * [Other](#other)
 * [Books](#books)
 * [Tools](#tools)
+  * [Terminal User Interface TUI](#terminal-user-interface)
   * [Dev Tools](#dev-tools)
   * [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
   * [Deployment](#deployment)
@@ -259,6 +260,12 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Docker Registry](https://github.com/docker/distribution) (The Docker toolset to pack, ship, store, and deliver content)
 * [Docker Swarm](https://github.com/docker/swarm) (Swarm: a Docker-native clustering system)
 
+## Terminal User Interface
+
+* [sen](https://github.com/TomasTomecek/sen) Terminal user interface for docker engine, by [@TomasTomecek](https://github.com/TomasTomecek)
+* [wharfee](https://github.com/j-bennet/wharfee) Autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
+* [ctop](https://github.com/yadutaf/ctop) A command line / text based Linux Containers monitoring tool that works just like you expect by [@yadutaf](https://github.com/yadutaf/ctop)
+
 ## Dev Tools
 
 * [GoSu](https://github.com/tianon/gosu) ("run this specific application as this specific user and get out of the pipeline" -- entrypoint script tool) by [@tianon](https://github.com/tianon)
@@ -281,7 +288,6 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [sherdock](https://github.com/rancher/sherdock) (Automatic GC of images based on regexp) by [@rancherio](https://github.com/rancherio)
 * [bocker](https://github.com/p8952/bocker) (1) (Docker implemented in 100 lines of bash) by [p8952](https://github.com/p8952)
 * [bocker](https://github.com/icy/bocker) (2) (Write Dockerfile completely in Bash. Extensible and simple. --> Reusable) by [@icy](https://github.com/icy)
-* [docker-cli](https://github.com/j-bennet/wharfee) (A CLI with autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
 * [docker-gc](https://github.com/spotify/docker-gc) (A cron job that will delete old stopped containers and unused images) by [@spotify](https://github.com/spotify)
 * [dlayer](https://github.com/wercker/dlayer) (Stats collector for Docker layers) by [@wercker](https://github.com/wercker)
 * [forward2docker](https://github.com/bsideup/forward2docker) (Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM) by [@bsideup](https://github.com/bsideup)
@@ -366,7 +372,6 @@ Securely store your Docker images.
 * [percheron](https://github.com/ashmckenzie/percheron) (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 * [Dusty](http://dusty.gc.com/) Managed Docker development environments on OS X
 * [Beluga](https://github.com/cortexmedia/Beluga) Beluga a CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
-* [sen](https://github.com/TomasTomecek/sen) Terminal user interface for docker engine, by [@TomasTomecek](https://github.com/TomasTomecek)
 
 ## Volume management and plugins
 
