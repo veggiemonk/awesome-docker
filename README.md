@@ -432,6 +432,7 @@ Securely store your Docker images.
 
 * [Weave][weave] (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
 * [Calico-Docker](http://www.projectcalico.org/getting-started/docker/) - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other.
+* [Wagl](https://github.com/ahmetalpbalkan/wagl) - DNS Service Discovery for Docker Swarm (by [@ahmetalpbalkan](https://github.com/ahmetalpbalkan) ) http://ahmetalpbalkan.github.io/wagl
 
 ## Logging
 
