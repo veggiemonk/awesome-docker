@@ -493,7 +493,7 @@ Securely store your Docker images.
 * [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/engine/articles/ambassador_pattern_linking/) by [@cpuguy83](https://github.com/cpuguy83)
 * [confd](http://www.confd.io/): Manage local application configuration files using templates and data from etcd or consul.
 * [proxy](https://github.com/factorish/proxy): lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
-
+* [wagl](https://github.com/ahmetalpbalkan/wagl/): Service discovery for docker swarm using DNS
 
 # Slides
 
