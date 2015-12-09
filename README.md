@@ -497,7 +497,7 @@ Securely store your Docker images.
 
 # Slides
 
-* [Docker Slideshare Account](http://www.slideshare.net/dotCloud)
+* [Docker Slideshare Account](http://www.slideshare.net/Docker)
 * [Docker Security](http://www.slideshare.net/jpetazzo) with [@jpetazzo](https://github.com/jpetazzo)
 
 # Videos
@@ -537,6 +537,8 @@ Securely store your Docker images.
 * [Project Atomic](https://twitter.com/ProjectAtomic)
 * [Openshift By Red Hat](https://twitter.com/openshift)
 * [YLD](https://twitter.com/YLDio)
+* [Docker News](https://twitter.com/dockernews)
+* [The New Stack](https://twitter.com/thenewstack)
 
 ## People
 
