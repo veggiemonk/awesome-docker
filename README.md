@@ -250,6 +250,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Docker Up & Running](http://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
 * [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat))
 * [Docker: Container-Infrastruktur für Microservices](http://www.bee42.com/dockerbook/) (German) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
+* [Containers com Docker do desenvolvimento à produção](http://www.casadocodigo.com.br/products/livro-docker) (Portuguese) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
 
 # Tools
 
