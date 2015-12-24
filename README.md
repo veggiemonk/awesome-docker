@@ -174,6 +174,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [6 Million Ways To Log In Docker](http://www.slideshare.net/raychaser/6-million-ways-to-log-in-docker-nyc-docker-meetup-12172014) by [@aychaser](https://twitter.com/aychaser)
 * [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/) (ruby script)
 * [Running Production Hadoop Clusters in Docker Containers](http://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
+* [10 practical docker tips](www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage) (Dec 2015)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
