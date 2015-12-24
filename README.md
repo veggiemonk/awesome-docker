@@ -251,7 +251,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat))
 * [Docker: Container-Infrastruktur für Microservices](http://www.bee42.com/dockerbook/) (German) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
 * [Containers com Docker do desenvolvimento à produção](http://www.casadocodigo.com.br/products/livro-docker) (Portuguese) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
-* [Docker Container and Container Cloud](http://www.amazon.cn/Docker-%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91-%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6SEL%E5%AE%9E%E9%AA%8C%E5%AE%A4/dp/B014ETH1IG/ref=sr_1_1?s=books&ie=UTF8&qid=1450944386&sr=1-1&keywords=docker%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91) (Chinese) by [Harry Zhang](https://twitter.com/resouer) & Jianbo Sun & ZJU SEL Lab
+* [Docker Container and Container Cloud](http://www.amazon.cn/Docker-%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91-%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6SEL%E5%AE%9E%E9%AA%8C%E5%AE%A4/dp/B014ETH1IG/ref=sr_1_1?s=books&ie=UTF8&qid=1450944386&sr=1-1&keywords=docker%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91) (Chinese) by [Harry Zhang](https://twitter.com/resouer) & Jianbo Sun & Zhejiang University SEL Laboratory
 
 # Tools
 
