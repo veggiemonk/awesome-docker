@@ -540,7 +540,7 @@ Go, and YAM) ~~ project discontinued.
 * [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
 * [Development Environments with Fig](https://www.youtube.com/watch?v=QpSFOHvFyMc) by Aanand Prasad (17:58)
 * [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]  <== Good introduction, context, demo
-* [Docker in Production](http://youtube.com/watch?v=Glk5d5WP6MI) by [@jpetazzo][jpetazzo] (36:05)
+* [Docker in Production](https://www.youtube.com/watch?v=Glk5d5WP6MI) by [@jpetazzo][jpetazzo] (36:05)
 * [Docker: How to Use Your Own Private Registry](https://www.youtube.com/watch?v=CAewZCBT4PI) (15:01)
 * [Docker and SELinux by Daniel Walsh from Red Hat ](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
 * [Extending Docker with Plugins](https://vimeo.com/110835013) (15:21)
@@ -550,7 +550,7 @@ Go, and YAM) ~~ project discontinued.
 * [Orchestrating Docker containers in production using Fig](https://www.youtube.com/watch?v=SEtRg8siQWw) (7:11)
 * [Performance Analysis of Docker - Jeremy Eder](https://www.youtube.com/watch?v=6f2E6PKYb0w) (1:36:58)
 * [Run Any App on Mesos on Any Infrastructure Using Docker](https://www.youtube.com/watch?v=u5jd9YT9EsY) (17:44)
-* [State of containers: a debate with CoreOS, VMware and Google](https://youtube.com/watch?v=IiITP3yIRd8) (27:38)
+* [State of containers: a debate with CoreOS, VMware and Google](https://www.youtube.com/watch?v=IiITP3yIRd8) (27:38)
 * [SysAdminCasts: Introduction to Docker](https://sysadmincasts.com/episodes/31-introduction-to-docker) (15:49)
 
 
@@ -563,7 +563,6 @@ Go, and YAM) ~~ project discontinued.
 * [Project Atomic](https://twitter.com/ProjectAtomic)
 * [Openshift By Red Hat](https://twitter.com/openshift)
 * [YLD](https://twitter.com/YLDio)
-* [Docker News](https://twitter.com/dockernews)
 * [The New Stack](https://twitter.com/thenewstack)
 
 ## People
