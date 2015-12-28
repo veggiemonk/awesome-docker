@@ -563,7 +563,6 @@ Go, and YAM) ~~ project discontinued.
 * [Project Atomic](https://twitter.com/ProjectAtomic)
 * [Openshift By Red Hat](https://twitter.com/openshift)
 * [YLD](https://twitter.com/YLDio)
-* [Docker News](https://twitter.com/dockernews)
 * [The New Stack](https://twitter.com/thenewstack)
 
 ## People
