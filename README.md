@@ -339,7 +339,7 @@ Securely store your Docker images.
 ## Hosting for containers
 
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
-* ~~[StackDock](https://stackdock.com/) - Docker hosting on blazing fast dedicated infrastructure~~
+* ~~StackDock - Docker hosting on blazing fast dedicated infrastructure~~
 * [Tutum](https://www.tutum.co/) - Simple hosting for your Docker containers.
 * [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
@@ -499,7 +499,6 @@ Securely store your Docker images.
 * [docker-consul](https://github.com/gliderlabs/docker-consul) by [@progrium](https://github.com/progrium)
 * [etcd](https://github.com/coreos/etcd): A highly-available key value store for shared configuration and service discovery by [@coreOS](https://github.com/coreos)
 * [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](http://docs.docker.com/engine/articles/ambassador_pattern_linking/) by [@cpuguy83](https://github.com/cpuguy83)
-* ~~[confd](http://www.confd.io/): Manage local application configuration files using templates and data from etcd or consul.~~
 * [proxy](https://github.com/factorish/proxy): lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
 * [wagl](https://github.com/ahmetalpbalkan/wagl/): Service discovery for docker swarm using DNS
 
