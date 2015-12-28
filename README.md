@@ -1,4 +1,4 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)][sindresorhus] 
 [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
 [![Build Status](https://travis-ci.org/veggiemonk/awesome-docker.svg?branch=master)](https://travis-ci.org/veggiemonk/awesome-docker)
 
@@ -29,7 +29,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * Watch the video: [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Install Docker on your machine][docker-cheat-sheet#installation] and play with a few [Useful Images](#useful-images)
-* Try [Panamax: Docker Management for Humans](http://panamax.io/) It will install a CoreOS VM with VirtualBox and has nice front end
+* Try [Panamax: Docker Management for Humans][panamax.io] It will install a CoreOS VM with VirtualBox and has nice front end
 * [Install Docker Toolbox](https://www.docker.com/docker-toolbox) Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. Available for both Windows and Mac, the Toolbox installs Docker Client, Machine, Compose (Mac only), Kitematic and VirtualBox.
 * Check out: [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
 * [Project Web Dev][projwebdev] : (Article series) How to create your own website based on Docker
@@ -285,7 +285,7 @@ by [@prologic][prologic]
 * [GoSu](https://github.com/tianon/gosu) ("run this specific application as this specific user and get out of the pipeline" -- entrypoint script tool) by [@tianon](https://github.com/tianon)
 * [Chaperone](https://github.com/garywiz/chaperone) ("A single PID1 process designed for docker containers.  Does user management, log management, startup, zombie reaping, all in one small package.) by [@garywiz](https://github.com/garywiz)
 * [ns-enter](https://github.com/jpetazzo/nsenter) (no more ssh, enter name spaces of container) by [@jpetazzo][jpetazzo]
-* [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) (in case of proxy problem) by [@jpetazzo](https://github.com/jpetazzo/)
+* [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) (in case of proxy problem) by [@jpetazzo][jpetazzo]
 * [docker-gen](https://github.com/jwilder/docker-gen) (Generate files from docker container meta-data) by [@jwilder][jwilder]
 * [dockerize](https://github.com/jwilder/dockerize) (Utility to simplify running applications in docker containers) by [@jwilder][jwilder]
 * [registrator](https://github.com/progrium/registrator) (Service registry bridge for Docker) by [@progrium][progrium]
@@ -491,9 +491,9 @@ desktop!
 ## Remote Container Manager / Orchestration
 
 * [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- http://www.kontena.io/
-* [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- http://kubernetes.io
+* [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- [kubernetes]
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
-* [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- http://panamax.io/
+* [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) (Docker Management for Humans) -- [panamax.io]
 * ~~[Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker, Go, and YAM) -- http://gaudi.io/~~ project discontinued.
 * [CoreOS][coreos] (Linux for Massive Server Deployments) -- https://coreos.com/
 * [Rancher](https://github.com/rancher/rancher) (Portable AWS-style infrastructure service for Docker) -- http://rancher.com/
