@@ -7,7 +7,7 @@ Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindreso
 It's now a github project because it's considerably easier for other people to edit, fix and expand on Docker using Github. Just click [README.md][editREADME].
 If this list is not complete, you can [contribute][editREADME] to make it so.
 
-> **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-dlsocker/blob/master/CONTRIBUTING.md)**
+> **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)**
 
 #### *If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!*
 
