@@ -390,8 +390,7 @@ Securely store your Docker images.
 * [Ansible - manage docker containers](http://docs.ansible.com/ansible/docker_module.html)
 * [Vagrant - Docker provider](http://docs.vagrantup.com/v2/docker/basics.html) a good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example) by [@bubenkoff](https://github.com/bubenkoff)
 * [Dray](https://github.com/CenturyLinkLabs/dray)  An engine for managing the execution of container-based workflows. http://Dray.it by [@CenturyLinkLabs][CenturyLinkLabs]
-* [percheron][percheron] (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github
-.com/ashmckenzie)
+* [percheron][percheron] (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 * [Dusty](http://dusty.gc.com/) Managed Docker development environments on OS X
 * [Beluga](https://github.com/cortexmedia/Beluga) Beluga a CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
 
