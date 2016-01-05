@@ -463,7 +463,7 @@ desktop!
 * [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collection server (such as logstash).) by [@gocardless](https://github.com/gocardless)
 * [Docker-Fluentd][fluentd]: (Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd.) by [@kiyoto][kiyoto]
 * [Logspout](https://github.com/gliderlabs/logspout) (Log routing for Docker container logs) by [@gliderlabs]gliderlabs
-* [Logsene for Docker][logsene] Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext][sematext]
+* [Logsene for Docker][spm] Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext][sematext]
 
 ## Deployment and Infrastructure
 
@@ -610,7 +610,6 @@ Go, and YAM) ~~ project discontinued.
 [fluentd]: https://github.com/kiyoto/docker-fluentd
 [kiyoto]: https://github.com/kiyoto
 [spm]: https://github.com/sematext/sematext-agent-docker
-[logsene]: https://github.com/sematext/sematext-agent-docker
 [coreos]: https://github.com/coreos
 [docker]: https://github.com/docker
 [sematext]: https://twitter.com/sematext
