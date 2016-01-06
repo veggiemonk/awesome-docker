@@ -395,6 +395,7 @@ Securely store your Docker images.
 * [percheron][percheron] (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 * [Dusty](http://dusty.gc.com/) Managed Docker development environments on OS X
 * [Beluga](https://github.com/cortexmedia/Beluga) Beluga a CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
+* [libcompose](https://github.com/docker/libcompose) A Go library for Docker Compose.
 
 ## Volume management and plugins
 
