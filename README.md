@@ -318,6 +318,7 @@ by [@prologic][prologic]
 * [rocker](https://github.com/grammarly/rocker) extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc.
 * [dexec](https://github.com/docker-exec/dexec) Command line interface for running code with Docker Exec images. https://docker-exec.github.io/ written in Go.
 * [crowdr](https://github.com/polonskiy/crowdr) Tool for managing multiple Docker containers (docker-compose alternative)
+* [ahab](https://github.com/instacart/ahab) Docker event handling with Python
 
 ## Continuous Integration / Continuous Delivery
 
