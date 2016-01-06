@@ -332,6 +332,7 @@ by [@prologic][prologic]
 * [IBM DevOps Services](https://hub.jazz.net) - Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix.
 * [Watchtower](https://github.com/CenturyLinkLabs/watchtower) - Automatically update running Docker containers by 
 [@CenturyLinkLabs][CenturyLinkLabs]
+* [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - continuous deployment of a microservices application
 
 ## Deployment
 
