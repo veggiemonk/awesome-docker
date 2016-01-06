@@ -318,6 +318,7 @@ by [@prologic][prologic]
 * [rocker](https://github.com/grammarly/rocker) extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc.
 * [dexec](https://github.com/docker-exec/dexec) Command line interface for running code with Docker Exec images. https://docker-exec.github.io/ written in Go.
 * [crowdr](https://github.com/polonskiy/crowdr) Tool for managing multiple Docker containers (docker-compose alternative)
+* [ahab](https://github.com/instacart/ahab) Docker event handling with Python
 
 ## Continuous Integration / Continuous Delivery
 
@@ -331,6 +332,7 @@ by [@prologic][prologic]
 * [IBM DevOps Services](https://hub.jazz.net) - Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix.
 * [Watchtower](https://github.com/CenturyLinkLabs/watchtower) - Automatically update running Docker containers by 
 [@CenturyLinkLabs][CenturyLinkLabs]
+* [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - continuous deployment of a microservices application
 
 ## Deployment
 
@@ -393,6 +395,7 @@ Securely store your Docker images.
 * [percheron][percheron] (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
 * [Dusty](http://dusty.gc.com/) Managed Docker development environments on OS X
 * [Beluga](https://github.com/cortexmedia/Beluga) Beluga a CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
+* [libcompose](https://github.com/docker/libcompose) A Go library for Docker Compose.
 
 ## Volume management and plugins
 
