@@ -120,7 +120,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [How to Use Docker on OS X: The Missing Guide](https://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
 * [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
 * [Deploying NGINX with Docker](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/)
-* [Eight Docker Development Patterns](http://www.hokstad.com/docker/patterns)
+* [Eight Docker Development Patterns](http://hokstad.com/docker/patterns)
 * [Rails Development Environment for OS X using Docker](https://allenan.com/docker-rails-dev-environment-for-osx/)
 * [Logging on Docker: What You Need to Know](https://dzone.com/articles/logging-docker-what-you-need) + see the 
 [video][loggingDocker] (~50min)
