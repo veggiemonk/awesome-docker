@@ -505,6 +505,7 @@ Go, and YAM) ~~ project discontinued.
 * [autodock](https://github.com/prologic/autodock) (Daemon for Docker Automation) by [@prologic][prologic]
 * [blimp](https://github.com/tubesandlube/blimp) Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 * [Nomad Project] (https://www.nomadproject.io/) Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler.
+* [Capitan] (https://github.com/byrnedo/capitan) Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
 
 ## Security
 
