@@ -183,6 +183,7 @@ by [@prologic][prologic]
 * [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/) (ruby script)
 * [Running Production Hadoop Clusters in Docker Containers](http://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
 * [10 practical docker tips](www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage) (Dec 2015)
+* [Kubernetes Cheatsheet](http://k8s.info/cs.html) - A great resource for managing your Kubernetes installation
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
