@@ -150,7 +150,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Data-only container madness](http://container42.com/2014/11/18/data-only-container-madness/)
 
 ## Networking
-* [Using Docker Machine with Weave 0.10](http://blog.weave.works/2015/04/22/using-docker-machine-with-weave-0-10/) (written 22 APR 2015)
+* [Using Docker Machine with Weave 0.10](http://www.weave.works/using-docker-machine-with-weave-0-10/) (written 22 APR 2015)
 * [How to Route Traffic through a Tor Docker container](https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container/) by [@jfrazelle][jfrazelle] (writtent 20 JUN 2015)
 
 ## Metal
@@ -497,7 +497,7 @@ desktop!
 * [CloudSlang](http://www.cloudslang.io/) (CloudSlang is a workflow engine to create Docker process automation)
 * [CoreOS][coreos] (Linux for Massive Server Deployments) -- https://coreos.com/
 * [Decking](http://decking.io/): (Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers)
-* [Deploying a Sample Web App with Mesos](https://docs.mesosphere.com/tutorials/deploywebapp/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)
+* [Deploying a Sample Web App with Mesos](https://docs.mesosphere.com/getting-started/tutorials/deploywebapp/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)
 * [Flocker](https://github.com/ClusterHQ/flocker) (Flocker is a data volume manager and multi-host Docker cluster management tool) by [@ClusterHQ](https://github.com/ClusterHQ)
 * [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker,  Go, and YAM) ~~ project discontinued.
 * [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- http://www.kontena.io/
