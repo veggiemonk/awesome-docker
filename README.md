@@ -322,6 +322,7 @@ by [@prologic][prologic]
 * [dexec](https://github.com/docker-exec/dexec) Command line interface for running code with Docker Exec images. https://docker-exec.github.io/ written in Go.
 * [crowdr](https://github.com/polonskiy/crowdr) Tool for managing multiple Docker containers (docker-compose alternative)
 * [ahab](https://github.com/instacart/ahab) Docker event handling with Python
+* [docker-garby](https://github.com/konstruktoid/docker-garby) Docker garbage collection script by [@konstruktoid](https://github.com/konstruktoid).
 
 ## Continuous Integration / Continuous Delivery
 
