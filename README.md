@@ -500,7 +500,7 @@ desktop!
 * [CloudSlang](http://www.cloudslang.io/) (CloudSlang is a workflow engine to create Docker process automation)
 * [CoreOS][coreos] (Linux for Massive Server Deployments) -- https://coreos.com/
 * [Decking](http://decking.io/): (Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers)
-* [Deploying a Sample Web App with Mesos](https://docs.mesosphere.com/getting-started/tutorials/deploywebapp/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)
+* [Deploying a Sample Web App with Mesos](https://docs.mesosphere.com/getting-started/tutorials/deploy-containerized-app/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)
 * [Flocker](https://github.com/ClusterHQ/flocker) (Flocker is a data volume manager and multi-host Docker cluster management tool) by [@ClusterHQ](https://github.com/ClusterHQ)
 * [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker,  Go, and YAM) ~~ project discontinued.
 * [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- http://www.kontena.io/
