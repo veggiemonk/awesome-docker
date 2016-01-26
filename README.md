@@ -280,6 +280,7 @@ by [@prologic][prologic]
 * [sen](https://github.com/TomasTomecek/sen) Terminal user interface for docker engine, by [@TomasTomecek](https://github.com/TomasTomecek)
 * [wharfee](https://github.com/j-bennet/wharfee) Autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
 * [ctop](https://github.com/yadutaf/ctop) A command line / text based Linux Containers monitoring tool that works just like you expect by [@yadutaf](https://github.com/yadutaf)
+* [dry](https://github.com/moncho/dry) An interactive CLI for Docker containers
 
 ## Dev Tools
 
@@ -628,4 +629,3 @@ desktop!
 [sebgoa]: https://twitter.com/sebgoa 
 [kartar]: https://twitter.com/kartar
 [docker-compose]: https://docs.docker.com/compose/
-
