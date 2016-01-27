@@ -362,7 +362,6 @@ Securely store your Docker images.
 ## Hosting for containers
 
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
-* ~~StackDock - Docker hosting on blazing fast dedicated infrastructure~~
 * [Tutum](https://www.tutum.co/) - Simple hosting for your Docker containers.
 * [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
@@ -388,7 +387,7 @@ Securely store your Docker images.
 
 ## Local Container Manager
 
-* ~~[Fig](https://github.com/docker/compose) (Fast, isolated development environments using Docker) -- http://www.fig.sh~~ --> Fig has been replaced by [Docker Compose][docker-compose], and is now deprecated. The new documentation is on the [Docker website][docker-compose].
+
 * [Shutit](http://ianmiell.github.io/shutit/) (a tool for building and maintaining complex Docker deployments) by 
 [@ianmiell][ianmiell]
 * [FuGu](https://github.com/mattes/fugu) (a docker run wrapper without orchestration) by [@mattes](https://github.com/mattes)
@@ -421,12 +420,10 @@ Securely store your Docker images.
 * [Official Images from Docker Hub](https://github.com/docker-library/official-images)
 * [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
 * [Busybox](https://github.com/jpetazzo/docker-busybox) (with either `buildroot` or Ubuntu's `busybox-static`) by [@jpetazzo][jpetazzo]
-* ~~[Busybox](https://github.com/progrium/busybox) (with `opkg`) by [@progrium][progrium]~~ [@deprecated use 
-[docker-alpine][alpine] instead]
 * [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
 * [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 * [passenger-docker](https://github.com/phusion/passenger-docker) (Docker base images for Ruby, Python, Node.js and Meteor web apps) by [@phusion](https://github.com/phusion)
-* [docker-alpine][alpine] (A super small Docker base image *(5MB)* using Alpine Linux) by [@gliderlabs]gliderlabs
+* [docker-alpine][alpine] (A super small Docker base image *(5MB)* using Alpine Linux) by [@gliderlabs][gliderlabs]
 * [docker-fluentd][fluentd] (the Container to Log Other Containers' Logs) by [@kiyoto][kiyoto]
 * [chaperone-docker](https://github.com/garywiz/chaperone-docker) (A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.)
 
@@ -442,7 +439,6 @@ desktop!
 
 ## Storing Images
 
-* ~~[Docker Registry](https://github.com/docker/docker-registry) (Registry server for Docker (hosting/delivering of repositories and images))~~ deprecated
 * [Docker Registry v2][distribution] (The Docker toolset to pack, ship, store, and deliver content)
 * [Rescoyl](https://github.com/noteed/rescoyl) (Private Docker registry) by [@noteed][noteed]
 
