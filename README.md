@@ -103,7 +103,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Blog](http://progrium.com/blog/) of [@progrium][progrium]
 * [Blog](http://jasonwilder.com/) of [@jwilder][jwilder]
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
-* [Blog](http://gliderlabs.com/blog/) of [@gliderlabs]gliderlabs
+* [Blog](http://gliderlabs.com/blog/) of [@gliderlabs][gliderlabs]
 * [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 * [Container42](http://container42.com/)
