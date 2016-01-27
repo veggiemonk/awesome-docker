@@ -28,7 +28,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Docker Curriculum](http://prakhar.me/docker-curriculum/): A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.
 * [Install Docker on your machine][docker-cheat-sheet#installation] and play with a few [Useful Images](#useful-images)
 * Try [Panamax: Docker Management for Humans][panamax.io] It will install a CoreOS VM with VirtualBox and has nice front end
-* [Install Docker Toolbox](https://www.docker.com/docker-toolbox) Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. Available for both Windows and Mac, the Toolbox installs Docker Client, Machine, Compose (Mac only), Kitematic and VirtualBox.
+* [Install Docker Toolbox](https://www.docker.com/products/docker-toolbox) Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. Available for both Windows and Mac, the Toolbox installs Docker Client, Machine, Compose (Mac only), Kitematic and VirtualBox.
 * Check out: [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
 * [Project Web Dev][projwebdev] : (Article series) How to create your own website based on Docker
 * [Docker Containers on the desktop][jessblog] by [@jfrazelle][jfrazelle]) The **funniest way** to 
@@ -103,7 +103,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Blog](http://progrium.com/blog/) of [@progrium][progrium]
 * [Blog](http://jasonwilder.com/) of [@jwilder][jwilder]
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
-* [Blog](http://gliderlabs.com/blog/) of [@gliderlabs]gliderlabs
+* [Blog](http://gliderlabs.com/blog/) of [@gliderlabs][gliderlabs]
 * [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 * [Container42](http://container42.com/)
@@ -337,6 +337,7 @@ by [@prologic][prologic]
 * [Dockunit](https://github.com/dockunit/platform) - Docker based integration tests. A simple Node based utility for running Docker based unit tests. By [@dockunit](https://github.com/dockunit)
 * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners.
+* [GOCD-Docker](https://github.com/gocd/gocd-docker)Go Server and Agent in docker containers to provision.
 * [IBM DevOps Services](https://hub.jazz.net) - Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix.
 * [Watchtower](https://github.com/CenturyLinkLabs/watchtower) - Automatically update running Docker containers by 
 [@CenturyLinkLabs][CenturyLinkLabs]
