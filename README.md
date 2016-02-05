@@ -261,10 +261,12 @@ by [@prologic][prologic]
 * [Docker in Action](https://www.manning.com/books/docker-in-action) by Jeff Nickoloff ([@allingeek](https://twitter.com/allingeek))
 * [Docker in Practice](https://www.manning.com/books/docker-in-practice) by Ian Miell ([@ianmiell][ianmiell]) and Aidan Hobson Sayers ([@aidanhs](https://github.com/aidanhs)). ==> [Website](http://docker-in-practice.github.io/)
 * [Docker Up & Running](http://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
-* [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat))
+* [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
+* [Docker Security](https://www.openshift.com/promotions/docker-security.html) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
 * [Docker: Container-Infrastruktur für Microservices](http://www.bee42.com/dockerbook/) (German) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
 * [Containers com Docker do desenvolvimento à produção](https://www.casadocodigo.com.br/products/livro-docker) (Portuguese) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
 * [Docker Container and Container Cloud](http://www.amazon.cn/Docker-%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91-%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6SEL%E5%AE%9E%E9%AA%8C%E5%AE%A4/dp/B014ETH1IG/ref=sr_1_1?s=books&ie=UTF8&qid=1450944386&sr=1-1&keywords=docker%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91) (Chinese) by [Harry Zhang](https://twitter.com/resouer) & Jianbo Sun & Zhejiang University SEL Laboratory
+* [Kubernetes](https://www.openshift.com/promotions/kubernetes.html) by [David Rensin](http://research.google.com/pubs/DavidRensin.html) (Publisher: O'Reilly)
 
 # Tools
 
@@ -339,6 +341,7 @@ by [@prologic][prologic]
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners.
 * [GOCD-Docker](https://github.com/gocd/gocd-docker)Go Server and Agent in docker containers to provision.
 * [IBM DevOps Services](https://hub.jazz.net) - Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix.
+* [Shippable](https://app.shippable.com/) - A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production.
 * [Watchtower](https://github.com/CenturyLinkLabs/watchtower) - Automatically update running Docker containers by 
 [@CenturyLinkLabs][CenturyLinkLabs]
 * [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - continuous deployment of a microservices application
@@ -361,13 +364,14 @@ Securely store your Docker images.
 
 ## Hosting for containers
 
-* [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
-* [Tutum](https://www.tutum.co/) - Simple hosting for your Docker containers.
-* [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
-* [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
+* [Docker Tutum](https://www.tutum.co/) (part of Docker Inc) - Simple hosting for your Docker containers.
 * [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
+* [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
 * [IBM Bluemix](https://console.ng.bluemix.net/) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
+* [OpenShift Dedicated](https://www.openshift.com/dedicated/index.html) - A hosted [OpenShift][openshift] cluster for running your Docker containers managed by Red Hat.
+* [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
+* [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
 
 ## Reverse Proxy
 
@@ -490,7 +494,8 @@ desktop!
 * [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
 * [Dokku][dokku] (Docker powered mini-Heroku in around 100 lines of Bash) by [@progrium][progrium]
 * [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service) -- https://flynn.io/
-* [Tsuru](https://github.com/tsuru/tsuru) (Tsuru is an extensible and open source Platform as a Service software.) -- https://tsuru.io/
+* [OpenShift][openshift] (An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment) by [Red Hat](https://www.redhat.com/)
+* [Tsuru](https://github.com/tsuru/tsuru) (Tsuru is an extensible and open source Platform as a Service software) -- https://tsuru.io/
 
 ## Remote Container Manager / Orchestration
 
@@ -569,7 +574,7 @@ desktop!
 * [Flux7Labs](https://twitter.com/Flux7Labs)
 * [TutumCloud](https://twitter.com/tutumcloud)
 * [Project Atomic](https://twitter.com/ProjectAtomic)
-* [Openshift By Red Hat](https://twitter.com/openshift)
+* [OpenShift by Red Hat](https://twitter.com/openshift)
 * [YLD](https://twitter.com/YLDio)
 * [The New Stack](https://twitter.com/thenewstack)
 
@@ -587,6 +592,7 @@ desktop!
 [calico]: https://github.com/projectcalico/calico-containers
 [brooklyn]: http://brooklyn.apache.org/
 [kubernetes]: http://kubernetes.io
+[openshift]: https://www.openshift.org/
 [sindresorhus]: https://github.com/sindresorhus/awesome
 [editREADME]: https://github.com/veggiemonk/awesome-docker/edit/master/README.md
 [jpetazzo]: https://github.com/jpetazzo
