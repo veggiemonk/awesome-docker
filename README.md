@@ -365,7 +365,8 @@ Securely store your Docker images.
 ## Hosting for containers
 
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
-* [Docker Tutum](https://www.tutum.co/) (part of Docker Inc) - Simple hosting for your Docker containers.
+* [Docker Tutum](https://www.tutum.co/) (part of Docker Inc) - Simple hosting for your Docker containers. -> now Docker Cloud
+* [Docker Cloud](https://cloud.docker.com/) - Former Tutum
 * [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 * [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
 * [IBM Bluemix](https://console.ng.bluemix.net/) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
