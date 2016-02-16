@@ -323,12 +323,13 @@ by [@prologic][prologic]
 * [Dray](http://dray.it/) (Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker) by [@CenturyLinkLabs][CenturyLinkLabs]
 * [docker-do](https://github.com/benzaita/docker-do) hassle-free docker run, like `env` but for docker by [@benzaita](https://github.com/benzaita)
 * [Docker osx dev](https://github.com/brikis98/docker-osx-dev) A productive development environment with Docker on OS X by [@brikis98](https://github.com/brikis98)
-* [rocker](https://github.com/grammarly/rocker) extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc.
+* [rocker](https://github.com/grammarly/rocker) extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc. by [grammarly](https://github.com/grammarly).
 * [dexec](https://github.com/docker-exec/dexec) Command line interface for running code with Docker Exec images. https://docker-exec.github.io/ written in Go.
-* [crowdr](https://github.com/polonskiy/crowdr) Tool for managing multiple Docker containers (docker-compose alternative)
-* [ahab](https://github.com/instacart/ahab) Docker event handling with Python
+* [crowdr](https://github.com/polonskiy/crowdr) Tool for managing multiple Docker containers (docker-compose alternative) by [@polonskiy](https://github.com/polonskiy/)
+* [ahab](https://github.com/instacart/ahab) Docker event handling with Python by [@instacart](https://github.com/instacart)
 * [docker-garby](https://github.com/konstruktoid/docker-garby) Docker garbage collection script by [@konstruktoid](https://github.com/konstruktoid).
 * [DevLab](https://github.com/TechnologyAdvice/DevLab) Utility for running containerized development environments
+* [is-docker](https://github.com/sindresorhus/is-docker) Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
 
 ## Continuous Integration / Continuous Delivery
 
