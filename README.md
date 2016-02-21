@@ -330,6 +330,7 @@ by [@prologic][prologic]
 * [docker-garby](https://github.com/konstruktoid/docker-garby) Docker garbage collection script by [@konstruktoid](https://github.com/konstruktoid).
 * [DevLab](https://github.com/TechnologyAdvice/DevLab) Utility for running containerized development environments
 * [is-docker](https://github.com/sindresorhus/is-docker) Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
+* [Docker meets the IDE](http://domeide.github.io/) Integrating your favorite containers in the editor of your choice by [domeide](https://github.com/domeide)
 
 ## Continuous Integration / Continuous Delivery
 
