@@ -331,6 +331,7 @@ by [@prologic][prologic]
 * [DevLab](https://github.com/TechnologyAdvice/DevLab) Utility for running containerized development environments
 * [is-docker](https://github.com/sindresorhus/is-docker) Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
 * [Docker meets the IDE](http://domeide.github.io/) Integrating your favorite containers in the editor of your choice by [domeide](https://github.com/domeide)
+* [DVM](https://github.com/getcarina/dvm) Docker version manager by [@getcarina](https://github.com/getcarina)
 
 ## Continuous Integration / Continuous Delivery
 
