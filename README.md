@@ -92,7 +92,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 
 ## Main Resources
 
-* [Docker Weekly](http://blog.docker.com/docker-weekly-archives/) Huge resource
+* [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
 * [CenturyLink Labs](https://labs.ctl.io/category/docker/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
@@ -120,7 +120,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Getting Started with Docker](https://serversforhackers.com/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
 * [What is Docker and how do you monitor it?](http://axibase.com/docker-monitoring/)
 * [How to Use Docker on OS X: The Missing Guide](https://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
-* [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
+* [Docker for (Java) Developers](https://ro14nd.de/Docker-for-Developers)
 * [Deploying NGINX with Docker](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Eight Docker Development Patterns](http://hokstad.com/docker/patterns)
 * [Rails Development Environment for OS X using Docker](https://allenan.com/docker-rails-dev-environment-for-osx/)
@@ -139,7 +139,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Joining the Docker Ship](http://thenewstack.io/joining-the-docker-ship-and-go/) Learn how to contribute to docker (written 9 JUL 2015)
 * [Continuous Deployment with Gradle and Docker](https://github.com/gesellix/pipeline-with-gradle-and-docker/blob/master/README.md) Describes a complete pipeline from source to production deploy (includes a complete Spring Boot example project) by 
 [@gesellix][gesellix]
-* [Containerization and the PaaS Cloud](http://www.computer.org/cms/Computer.org/ComputingNow/issues/2015/09/mcd2015030024.pdf) -- This article discusses the requirements that arise from having to facilitate applications through distributed multicloud platforms.
+* [Containerization and the PaaS Cloud](https://www.computer.org/cms/Computer.org/ComputingNow/issues/2015/09/mcd2015030024.pdf) -- This article discusses the requirements that arise from having to facilitate applications through distributed multicloud platforms.
 * [Docker for Development: Common Problems and Solutions](https://medium.com/@rdsubhas/docker-for-development-common-problems-and-solutions-95b25cae41eb) by [@rdsubhas](https://github.com/rdsubhas)
 * [Docker Adoption Data](https://www.datadoghq.com/docker-adoption/) A study by Datadog on the real world Docker usage stastics and deployment patterns.
 * [How to monitor Docker](https://www.datadoghq.com/blog/the-docker-monitoring-problem/) (4-part series)
@@ -151,7 +151,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Data-only container madness](http://container42.com/2014/11/18/data-only-container-madness/)
 
 ## Networking
-* [Using Docker Machine with Weave 0.10](http://www.weave.works/using-docker-machine-with-weave-0-10/) (written 22 APR 2015)
+* [Using Docker Machine with Weave 0.10](https://www.weave.works/using-docker-machine-with-weave-0-10/) (written 22 APR 2015)
 * [How to Route Traffic through a Tor Docker container](https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container/) by [@jfrazelle][jfrazelle] (writtent 20 JUN 2015)
 
 ## Metal
@@ -170,7 +170,7 @@ by [@prologic][prologic]
 * [24 random docker tips](https://csabapalfi.github.io/random-docker-tips/) by [@csabapalfi](https://github.com/csabapalfi)
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm][fgrehm]
 * [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) by [@jwilder][jwilder]
-* [Using NSEnter with Boot2Docker](http://ro14nd.de/NSEnter-with-Boot2Docker/)
+* [Using NSEnter with Boot2Docker](https://ro14nd.de/NSEnter-with-Boot2Docker/)
 * [A Simple Way to Dockerize Applications](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications/) by [@jwilder][jwilder]
 * [Building good docker images](http://jonathan.bergknoff.com/journal/building-good-docker-images) by [@jbergknoff](https://github.com/jbergknoff)
 * [10 Things Not To Forget Before Deploying Docker In Production](http://www.slideshare.net/rightscale/docker-meetup-40826948)
@@ -226,6 +226,7 @@ by [@prologic][prologic]
 * [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
 * [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/) (written 5 MAY 2015)
 * [Docker Security Cheat Sheet] (https://github.com/konstruktoid/Docker/blob/master/Security/CheatSheet.md)
+* [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
 
 ## Performances
 * [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
