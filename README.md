@@ -225,7 +225,7 @@ by [@prologic][prologic]
 * [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/) (written 5 MAY 2015)
 * [Docker Security Cheat Sheet] (https://github.com/konstruktoid/Docker/blob/master/Security/CheatSheet.md)
 * [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
-* [Improving Docker Security with Authenticated Volumes](https://www.blockbridge.com/improving-docker-security-with-authenticated-volumes)
+* [Improving Docker Security with Authenticated Volumes](https://www.blockbridge.com/improving-docker-security-with-authenticated-volumes/)
 
 ## Performances
 * [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
