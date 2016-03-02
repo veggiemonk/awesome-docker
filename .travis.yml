@@ -4,4 +4,4 @@ rvm:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot README.md --white-list wiki/Installing,slideshare,awesome-docker.svg,edit/master,sindresorhus/awesome,ashmckenzie,shortcircuit.net.au,photo777.org,adrianmouat,redhat,viget
+  - awesome_bot README.md --white-list wiki/Installing,slideshare,awesome-docker.svg,edit/master,sindresorhus/awesome,ashmckenzie,shortcircuit.net.au,photo777.org,adrianmouat,redhat,viget,meros
