@@ -337,6 +337,7 @@ by [@prologic][prologic]
 
 * [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur)
 * [CircleCI](https://circleci.com/) - Push or pull Docker images from your build environment, or build and run containers right on CircleCI.
+* [CodeFresh](https://codefresh.io) - Accelerate your transition to Docker containers
 * [CodeShip](http://pages.codeship.com/docker) - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 * [Dockunit](https://github.com/dockunit/platform) - Docker based integration tests. A simple Node based utility for running Docker based unit tests. By [@dockunit](https://github.com/dockunit)
