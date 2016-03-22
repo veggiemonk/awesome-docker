@@ -370,6 +370,7 @@ Securely store your Docker images.
 ## Hosting for containers
 
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
+* [ContainerShip Cloud](https://containership.io) - Multi-Cloud Container Hosting Automation Platform.
 * [Docker Tutum](https://www.tutum.co/) (part of Docker Inc) - Simple hosting for your Docker containers. -> now Docker Cloud
 * [Docker Cloud](https://cloud.docker.com/) - Former Tutum
 * [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
@@ -513,6 +514,7 @@ desktop!
 * [Capitan] (https://github.com/byrnedo/capitan) Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
 * [Citadel](https://github.com/citadel/citadel) (Citadel is a toolkit for scheduling containers on a Docker cluster) (unmaintained)
 * [CloudSlang](http://www.cloudslang.io/) (CloudSlang is a workflow engine to create Docker process automation)
+* [ContainerShip](https://github.com/containership/containership) (A simple container management platform) -- https://containership.io
 * [CoreOS][coreos] (Linux for Massive Server Deployments) -- https://coreos.com/
 * [Decking](http://decking.io/): (Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers)
 * [Deploying a Sample Web App with Mesos](https://docs.mesosphere.com/getting-started/tutorials/deploy-containerized-app/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)
