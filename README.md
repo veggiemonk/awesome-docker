@@ -268,6 +268,7 @@ by [@prologic][prologic]
 * [Containers com Docker do desenvolvimento à produção](https://www.casadocodigo.com.br/products/livro-docker) (Portuguese) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
 * [Docker Container and Container Cloud](http://www.amazon.cn/Docker-%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91-%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6SEL%E5%AE%9E%E9%AA%8C%E5%AE%A4/dp/B014ETH1IG/ref=sr_1_1?s=books&ie=UTF8&qid=1450944386&sr=1-1&keywords=docker%E5%AE%B9%E5%99%A8%E4%B8%8E%E5%AE%B9%E5%99%A8%E4%BA%91) (Chinese) by [Harry Zhang](https://twitter.com/resouer) & Jianbo Sun & Zhejiang University SEL Laboratory
 * [Kubernetes](https://www.openshift.com/promotions/kubernetes.html) by [David Rensin](http://research.google.com/pubs/DavidRensin.html) (Publisher: O'Reilly)
+* [Docker in Production: Lessons from the Trenches](http://www.amazon.com/Docker-Production-Trenches-Joe-Johnston-ebook/dp/B0141W6KYC) by Joe Johnston (Author), John Fiedler (Author), Milos Gajdos (Author), Antoni Batchelli (Author), Justin Cormack (Author)
 
 # Tools
 
@@ -537,6 +538,7 @@ desktop!
 * [docker-bench-security](https://github.com/docker/docker-bench-security) script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker][docker]
 * [notary](https://github.com/docker/notary) a server and a client for running and interacting with trusted collections. By [@docker][docker]
 * [Twistlock](https://www.twistlock.com/)  Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
+* [Clair](https://github.com/coreos/clair) Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By [@coreos][CoreOS]
 
 ## Service Discovery
 
