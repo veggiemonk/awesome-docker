@@ -488,7 +488,7 @@ desktop!
 
 * [Docker-Fluentd][fluentd]: (Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd.) by [@kiyoto][kiyoto]
 * [LogJam](https://github.com/gocardless/logjam) (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collection server (such as logstash).) by [@gocardless](https://github.com/gocardless)
-* [Logspout](https://github.com/gliderlabs/logspout) (Log routing for Docker container logs) by [@gliderlabs]gliderlabs
+* [Logspout](https://github.com/gliderlabs/logspout) (Log routing for Docker container logs) by [@gliderlabs][gliderlabs]
 * [Logsene for Docker][spm] Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext][sematext]
 
 ## Deployment and Infrastructure
