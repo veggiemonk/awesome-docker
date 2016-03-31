@@ -440,6 +440,7 @@ Securely store your Docker images.
 * [docker-alpine][alpine] (A super small Docker base image *(5MB)* using Alpine Linux) by [@gliderlabs][gliderlabs]
 * [docker-fluentd][fluentd] (the Container to Log Other Containers' Logs) by [@kiyoto][kiyoto]
 * [chaperone-docker](https://github.com/garywiz/chaperone-docker) (A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.)
+* [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) (Build and run Docker containers leveraging NVIDIA GPUs.)
 
 
 ## Dockerfile
