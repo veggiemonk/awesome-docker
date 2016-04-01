@@ -302,7 +302,7 @@ by [@prologic][prologic]
 * [Vagga](https://github.com/tailhook/vagga) (Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.) by [@tailhook](https://github.com/tailhook/)
 * [dockerode](https://github.com/apocas/dockerode) (Not just another Docker Remote API node.js module) by [@apocas](https://github.com/apocas)
 * [go-dockerclient](https://github.com/fsouza/go-dockerclient/) (Go HTTP client for the Docker remote API.) by [@fsouza](https://github.com/fsouza/)
-* [container-factory](https://github.com/lsqio/container-factory) (produces Docker images from tarballs of application source code http://www.containerfactory.io) by [@lsqio](https://github.com/lsqio)
+* [container-factory](https://github.com/lsqio/container-factory) (produces Docker images from tarballs of application source code) by [@lsqio](https://github.com/lsqio)
 * [percheron][percheron] (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie]
 (https://github.com/ashmckenzie)
 * [crane](https://github.com/michaelsauter/crane) (Lift containers with ease. Easy orchestration for images and containers) by [@michaelsauter](https://github.com/michaelsauter)
