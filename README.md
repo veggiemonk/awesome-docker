@@ -166,7 +166,7 @@ by [@prologic][prologic]
 * [A multi-host scalable web services demo using Docker swarm, Docker compose, NGINX, and Blockbridge](https://www.blockbridge.com/a-scalable-web-services-demo-using-docker-swarm-compose-and-blockbridge/)
 
 ## Cloud Infrastructure
-* [Cloud Infrastructure Automation for Docker Nodes](http://blog.tutum.co/2015/04/29/cloud-infrastructure-automation-for-docker-nodes/)
+* [Cloud Infrastructure Automation for Docker Nodes](https://blog.tutum.co/2015/04/29/cloud-infrastructure-automation-for-docker-nodes/)
 
 ## Good Tips
 * [24 random docker tips](https://csabapalfi.github.io/random-docker-tips/) by [@csabapalfi](https://github.com/csabapalfi)
@@ -185,7 +185,7 @@ by [@prologic][prologic]
 * [6 Million Ways To Log In Docker](http://www.slideshare.net/raychaser/6-million-ways-to-log-in-docker-nyc-docker-meetup-12172014) by [@raychaser](https://twitter.com/raychaser)
 * [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/) (ruby script)
 * [Running Production Hadoop Clusters in Docker Containers](http://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
-* [10 practical docker tips](http://www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage) (Dec 2015)
+* [10 practical docker tips](https://dzone.com/articles/10-practical-docker-tips-for-day-to-day-docker-usa) (Dec 2015) by [@josdirksen](https://github.com/josdirksen)
 * [Kubernetes Cheatsheet](http://k8s.info/cs.html) - A great resource for managing your Kubernetes installation
 
 ## Newsletter
@@ -201,9 +201,9 @@ by [@prologic][prologic]
 
 ## Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/create-the-smallest-possible-docker-container/)
-* [Creating a Docker image from your code](http://blog.tutum.co/2014/04/10/creating-a-docker-image-from-your-code/)
+* [Creating a Docker image from your code](https://blog.tutum.co/2014/04/10/creating-a-docker-image-from-your-code/)
 * [Optimizing Docker Images](https://labs.ctl.io/optimizing-docker-images/?hvid=1OW0br)
-* [How to Optimize Your Dockerfile](http://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/) by [@tutumcloud](https://github.com/tutumcloud)
+* [How to Optimize Your Dockerfile](https://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/) by [@tutumcloud](https://github.com/tutumcloud)
 * [Building Docker Images for Static Go Binaries](https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07) by [@kelseyhightower](https://github.com/kelseyhightower)
 * [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/) by [@jwilder][jwilder]
 * [Dockerfile Golf (or optimizing the Docker build process)](http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html)
@@ -336,7 +336,7 @@ by [@prologic][prologic]
 * [is-docker](https://github.com/sindresorhus/is-docker) Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
 * [Docker meets the IDE](http://domeide.github.io/) Integrating your favorite containers in the editor of your choice by [domeide](https://github.com/domeide)
 * [DVM](https://github.com/getcarina/dvm) Docker version manager by [@getcarina](https://github.com/getcarina)
-* [docker-ls](https://github.com/mayflower/docker-ls) CLI tools for browsing and manipulating docker registries registries by [@mayflower](https://github.com/mayflower)
+* [docker-ls](https://github.com/mayflower/docker-ls) CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
 
 ## Continuous Integration / Continuous Delivery
 
