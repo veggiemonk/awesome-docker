@@ -336,6 +336,7 @@ by [@prologic][prologic]
 * [is-docker](https://github.com/sindresorhus/is-docker) Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
 * [Docker meets the IDE](http://domeide.github.io/) Integrating your favorite containers in the editor of your choice by [domeide](https://github.com/domeide)
 * [DVM](https://github.com/getcarina/dvm) Docker version manager by [@getcarina](https://github.com/getcarina)
+* [docker-ls](https://github.com/mayflower/docker-ls) CLI tools for browsing and manipulating docker registries registries by [@mayflower](https://github.com/mayflower)
 
 ## Continuous Integration / Continuous Delivery
 
