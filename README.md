@@ -463,6 +463,7 @@ desktop!
 
 * [Docker Registry v2][distribution] (The Docker toolset to pack, ship, store, and deliver content)
 * [Rescoyl](https://github.com/noteed/rescoyl) (Private Docker registry) by [@noteed][noteed]
+* [Atomic Registry](http://www.projectatomic.io/registry/) Red Hat Atomic Registry is an open source enterprise registry based on the Origin and Cockpit projects, enhancing the Docker registry library.
 
 ## Monitoring
 
