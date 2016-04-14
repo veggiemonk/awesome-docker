@@ -339,6 +339,7 @@ by [@prologic][prologic]
 * [Docker meets the IDE](http://domeide.github.io/) Integrating your favorite containers in the editor of your choice by [domeide](https://github.com/domeide)
 * [DVM](https://github.com/getcarina/dvm) Docker version manager by [@getcarina](https://github.com/getcarina)
 * [docker-ls](https://github.com/mayflower/docker-ls) CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
+* [habitus](https://github.com/cloud66/habitus) A Build Flow Tool for Docker http://www.habitus.io by [@cloud66](https://github.com/cloud66)
 
 ## Continuous Integration / Continuous Delivery
 
@@ -404,7 +405,6 @@ Securely store your Docker images.
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) (A simple query dashboard to use Docker Remote API) by [@ozlerhakan](https://github.com/ozlerhakan/)
 
 ## Local Container Manager
-
 
 * [Shutit](http://ianmiell.github.io/shutit/) (a tool for building and maintaining complex Docker deployments) by
 [@ianmiell][ianmiell]
