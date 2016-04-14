@@ -10,7 +10,7 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 - want to try something else: Submit a pull request
 - don't know what to do: Submit a pull request
 
-`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources. I don't feel it should be constraint to docker only ressources, so feel free to add other resources about container or deployment in general. It would be nice if it is related or compatible with docker in some way. But if it's awesome, OK!
+`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources. I don't feel it should be constraint to docker only resources, so feel free to add other resources about container or deployment in general. It would be nice if it is related or compatible with docker in some way. But if it's awesome, OK!
 
 - Each item should be limited to one link
 - The link should be the name of the package or project or website
