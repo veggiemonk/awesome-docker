@@ -311,7 +311,7 @@ by [@prologic][prologic]
 * [percheron][percheron] (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie]
 (https://github.com/ashmckenzie)
 * [crane](https://github.com/michaelsauter/crane) (Lift containers with ease. Easy orchestration for images and containers) by [@michaelsauter](https://github.com/michaelsauter)
-* [sherdock](https://github.com/rancher/sherdock) (Automatic GC of images based on regexp) by [@rancherio](https://github.com/rancherio)
+* [sherdock](https://github.com/rancher/sherdock) (Automatic GC of images based on regexp) by [@rancher](https://github.com/rancher)
 * [bocker](https://github.com/p8952/bocker) (1) (Docker implemented in 100 lines of bash) by [p8952](https://github.com/p8952)
 * [bocker](https://github.com/icy/bocker) (2) (Write Dockerfile completely in Bash. Extensible and simple. --> Reusable) by [@icy](https://github.com/icy)
 * [docker-gc](https://github.com/spotify/docker-gc) (A cron job that will delete old stopped containers and unused images) by [@spotify](https://github.com/spotify)
