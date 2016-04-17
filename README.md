@@ -293,6 +293,7 @@ by [@prologic][prologic]
 
 ## Dev Tools
 
+* [draw-compose](https://github.com/Alexis-benoist/draw-compose) (Utility to draw a schema of a docker compose) by [@Alexis-benoist](https://github.com/Alexis-benoist)
 * [GoSu](https://github.com/tianon/gosu) ("run this specific application as this specific user and get out of the pipeline" -- entrypoint script tool) by [@tianon](https://github.com/tianon)
 * [Chaperone](https://github.com/garywiz/chaperone) ("A single PID1 process designed for docker containers.  Does user management, log management, startup, zombie reaping, all in one small package.) by [@garywiz](https://github.com/garywiz)
 * [ns-enter](https://github.com/jpetazzo/nsenter) (no more ssh, enter name spaces of container) by [@jpetazzo][jpetazzo]
