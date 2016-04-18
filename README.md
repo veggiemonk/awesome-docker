@@ -123,7 +123,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 ## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
 * [What is Docker and how do you monitor it?](http://axibase.com/docker-monitoring/)
-* [How to Use Docker on OS X: The Missing Guide](https://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
+* [How to Use Docker on OS X: The Missing Guide](https://www.viget.com/articles/how-to-use-docker-on-os-x-the-missing-guide)
 * [Docker for (Java) Developers](https://ro14nd.de/Docker-for-Developers)
 * [Deploying NGINX with Docker](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Eight Docker Development Patterns](http://hokstad.com/docker/patterns)
