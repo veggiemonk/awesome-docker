@@ -261,7 +261,7 @@ by [@prologic][prologic]
 
 # Books
 
-* [Docker Book](http://dockerbook.com/) by James Turnbul ([@kartar][kartar])
+* [Docker Book](https://dockerbook.com/) by James Turnbul ([@kartar][kartar])
 * [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do) by Sébastien Goasguen ([@sebgoa][sebgoa]) (Publisher: O'Reilly)
 * [Docker Cookbook](http://dockercookbook.github.io/) by Neependra Khare ([@neependra](https://twitter.com/neependra)) (Publisher: Packt)
 * [Docker in Action](https://www.manning.com/books/docker-in-action) by Jeff Nickoloff ([@allingeek](https://twitter.com/allingeek))
@@ -402,7 +402,7 @@ Securely store your Docker images.
 ## Web Interface
 
 * [Docker Registry Web](https://github.com/atc-/docker-registry-ui) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
-* [DockerUI](https://github.com/crosbymichael/not-dockers-ui) (DockerUI is a web interface to interact with the Remote API.) by [@crosbymichael][crosbymichael]
+* [DockerUI](https://github.com/kevana/not-dockers-ui) (DockerUI is a web interface to interact with the Remote API.) by [@crosbymichael][crosbymichael]
 * [Portus](https://github.com/SUSE/Portus) (Authorization service and frontend for Docker registry (v2)) by [@SUSE](https://github.com/SUSE)
 * [dockering-on-rails](https://github.com/Electrofenster/dockerding-on-rails) Simple Web-Interface for Docker with a lot of features by [@Electrofenster](https://github.com/Electrofenster/)
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) (A simple query dashboard to use Docker Remote API) by [@ozlerhakan](https://github.com/ozlerhakan/)
@@ -532,7 +532,7 @@ desktop!
 * [Deploying a Containerized App on a Public Node with Mesos](https://docs.mesosphere.com/usage/tutorials/containerized-app/) (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)
 * [Flocker](https://github.com/ClusterHQ/flocker) (Flocker is a data volume manager and multi-host Docker cluster management tool) by [@ClusterHQ](https://github.com/ClusterHQ)
 * [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker,  Go, and YAM) ~~ project discontinued.
-* [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- http://www.kontena.io/
+* [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- https://www.kontena.io/
 * [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- [kubernetes] See Also [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana](https://github.com/ramitsurana)
 * [Maestro](https://github.com/toscanini/maestro) (Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit) by [@tascanini](https://github.com/toscanini)
 * [Marathon](https://mesosphere.github.io/marathon/docs/) (Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on")
