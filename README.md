@@ -205,7 +205,7 @@ by [@prologic][prologic]
 ## Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/create-the-smallest-possible-docker-container/)
 * [Creating a Docker image from your code](https://blog.tutum.co/2014/04/10/creating-a-docker-image-from-your-code/)
-* [Optimizing Docker Images](https://labs.ctl.io/optimizing-docker-images/?hvid=1OW0br)
+* [Optimizing Docker Images](https://www.ctl.io/developers/blog/post/optimizing-docker-images/)
 * [How to Optimize Your Dockerfile](https://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/) by [@tutumcloud](https://github.com/tutumcloud)
 * [Building Docker Images for Static Go Binaries](https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07) by [@kelseyhightower](https://github.com/kelseyhightower)
 * [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/) by [@jwilder][jwilder]
