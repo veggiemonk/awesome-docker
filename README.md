@@ -110,6 +110,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
 * [Blog](http://gliderlabs.com/blog/) of [@gliderlabs][gliderlabs]
 * [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
+* [Blog](https://blog.codeship.com/) of [@codeship](https://github.com/codeship)
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
 * [Container42](http://container42.com/)
 * [Container solutions](http://container-solutions.com/blog/)
@@ -291,7 +292,7 @@ by [@prologic][prologic]
 * [wharfee](https://github.com/j-bennet/wharfee) Autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
 * [ctop](https://github.com/yadutaf/ctop) A command line / text based Linux Containers monitoring tool that works just like you expect by [@yadutaf](https://github.com/yadutaf)
 * [dry](https://github.com/moncho/dry) An interactive CLI for Docker containers by [@moncho](https://github.com/moncho)
-* [dockercraft](https://github.com/docker/dockercraft) Docker + Minecraft = Dockercraft by [@docker](https://github.com/docker)
+* [dockercraft](https://github.com/docker/dockercraft) Docker + Minecraft = Dockercraft by [@docker][docker]
 
 ## Dev Tools
 
