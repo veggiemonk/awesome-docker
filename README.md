@@ -345,8 +345,9 @@ by [@prologic][prologic]
 * [docker-ls](https://github.com/mayflower/docker-ls) CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
 * [habitus](https://github.com/cloud66/habitus) A Build Flow Tool for Docker http://www.habitus.io by [@cloud66](https://github.com/cloud66)
 * [Compose Registry](https://www.composeregistry.com) - A very handy search engine for Compose Files
-* [Docker Clean](https://github.com/zzrotdesign/docker-clean) - A script that cleans Docker containers, images and volumes
-* [Powerline-Docker](https://github.com/adrianmo/powerline-docker) - A Powerline segment for showing the status of Docker containers
+* [Docker Clean](https://github.com/zzrotdesign/docker-clean) - A script that cleans Docker containers, images and volumes by [@zzrotdesign](https://github.com/zzrotdesign)
+* [Powerline-Docker](https://github.com/adrianmo/powerline-docker) - A Powerline segment for showing the status of Docker containers by [@adrianmo](https://github.com/adrianmo)
+* [Docker-PowerShell](https://github.com/Microsoft/Docker-PowerShell) - PowerShell Module for Docker
 
 ## Continuous Integration / Continuous Delivery
 
