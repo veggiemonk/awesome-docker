@@ -149,6 +149,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [How to monitor Docker](https://www.datadoghq.com/blog/the-docker-monitoring-problem/) (4-part series)
 * [Using Ansible with Docker Machine to Bootstrap Host Nodes](http://nathanleclaire.com/blog/2015/11/10/using-ansible-with-docker-machine-to-bootstrap-host-nodes/) by [@nathanleclaire](https://github.com/nathanleclaire)
 * [Swarm v. Fleet v. Kubernetes v. Mesos](https://www.oreilly.com/ideas/swarm-v-fleet-v-kubernetes-v-mesos) Comparing different orchestration tools. (written OCT 2015)
+* [The Shortlist of Docker Hosting](https://blog.codeship.com/the-shortlist-of-docker-hosting) There are so many specialized and optimized Docker hosting services available, it’s high time for a review to see what’s on offer (by Chris Ward).
 
 
 ## Deep Dive
