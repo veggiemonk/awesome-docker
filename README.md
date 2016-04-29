@@ -288,17 +288,17 @@ by [@prologic][prologic]
 
 ## Terminal User Interface
 
-* [sen](https://github.com/TomasTomecek/sen) Terminal user interface for docker engine, by [@TomasTomecek](https://github.com/TomasTomecek)
-* [wharfee](https://github.com/j-bennet/wharfee) Autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
-* [ctop](https://github.com/yadutaf/ctop) A command line / text based Linux Containers monitoring tool that works just like you expect by [@yadutaf](https://github.com/yadutaf)
-* [dry](https://github.com/moncho/dry) An interactive CLI for Docker containers by [@moncho](https://github.com/moncho)
-* [dockercraft](https://github.com/docker/dockercraft) Docker + Minecraft = Dockercraft by [@docker][docker]
+* [sen](https://github.com/TomasTomecek/sen) - Terminal user interface for docker engine, by [@TomasTomecek](https://github.com/TomasTomecek)
+* [wharfee](https://github.com/j-bennet/wharfee) - Autocompletion and syntax highlighting for Docker commands.) by [@j-bennet](https://github.com/j-bennet)
+* [ctop](https://github.com/yadutaf/ctop) - A command line / text based Linux Containers monitoring tool that works just like you expect by [@yadutaf](https://github.com/yadutaf)
+* [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers by [@moncho](https://github.com/moncho)
+* [dockercraft](https://github.com/docker/dockercraft) - Docker + Minecraft = Dockercraft by [@docker][docker]
 
 ## Dev Tools
 
-* [draw-compose](https://github.com/Alexis-benoist/draw-compose) (Utility to draw a schema of a docker compose) by [@Alexis-benoist](https://github.com/Alexis-benoist)
-* [GoSu](https://github.com/tianon/gosu) ("run this specific application as this specific user and get out of the pipeline" -- entrypoint script tool) by [@tianon](https://github.com/tianon)
-* [Chaperone](https://github.com/garywiz/chaperone) ("A single PID1 process designed for docker containers.  Does user management, log management, startup, zombie reaping, all in one small package.) by [@garywiz](https://github.com/garywiz)
+* [draw-compose](https://github.com/Alexis-benoist/draw-compose) - Utility to draw a schema of a docker compose by [@Alexis-benoist](https://github.com/Alexis-benoist)
+* [GoSu](https://github.com/tianon/gosu) - Run this specific application as this specific user and get out of the pipeline (entrypoint script tool) by [@tianon](https://github.com/tianon)
+* [Chaperone](https://github.com/garywiz/chaperone) - A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package. by [@garywiz](https://github.com/garywiz)
 * [ns-enter](https://github.com/jpetazzo/nsenter) (no more ssh, enter name spaces of container) by [@jpetazzo][jpetazzo]
 * [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) (in case of proxy problem) by [@jpetazzo][jpetazzo]
 * [docker-gen](https://github.com/jwilder/docker-gen) (Generate files from docker container meta-data) by [@jwilder][jwilder]
@@ -311,23 +311,21 @@ by [@prologic][prologic]
 * [Vagga](https://github.com/tailhook/vagga) (Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.) by [@tailhook](https://github.com/tailhook/)
 * [dockerode](https://github.com/apocas/dockerode) (Not just another Docker Remote API node.js module) by [@apocas](https://github.com/apocas)
 * [go-dockerclient](https://github.com/fsouza/go-dockerclient/) (Go HTTP client for the Docker remote API.) by [@fsouza](https://github.com/fsouza/)
-* [container-factory](https://github.com/lsqio/container-factory) (produces Docker images from tarballs of application source code) by [@lsqio](https://github.com/lsqio)
-* [codelift](https://codelift.io/) (CodeLift is an automated Docker image build utility for 'dockerizing' services) by [@BoozAllen](https://twitter.com/BoozAllen)
-* [percheron][percheron] (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie]
-(https://github.com/ashmckenzie)
-* [crane](https://github.com/michaelsauter/crane) (Lift containers with ease. Easy orchestration for images and containers) by [@michaelsauter](https://github.com/michaelsauter)
-* [sherdock](https://github.com/rancher/sherdock) (Automatic GC of images based on regexp) by [@rancher][rancher]
-* [bocker](https://github.com/p8952/bocker) (1) (Docker implemented in 100 lines of bash) by [p8952](https://github.com/p8952)
-* [bocker](https://github.com/icy/bocker) (2) (Write Dockerfile completely in Bash. Extensible and simple. --> Reusable) by [@icy](https://github.com/icy)
-* [docker-gc](https://github.com/spotify/docker-gc) (A cron job that will delete old stopped containers and unused images) by [@spotify](https://github.com/spotify)
-* [dlayer](https://github.com/wercker/dlayer) (Stats collector for Docker layers) by [@wercker](https://github.com/wercker)
-* [forward2docker](https://github.com/bsideup/forward2docker) (Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM) by [@bsideup](https://github.com/bsideup)
-* [dockramp](https://github.com/jlhawn/dockramp) (Proof of Concept: A Client Driven Docker Image Builder) by [@jlhawn](https://github.com/jlhawn)
-* [portainer](https://github.com/duedil-ltd/portainer) (Apache Mesos framework for building Docker images) by [@tarnfeld](https://github.com/tarnfeld)
-* [Gradle Docker plugin](https://github.com/gesellix/gradle-docker-plugin) a Docker remote api plugin for Gradle by
-[@gesellix][gesellix]
-* [Docker client](https://github.com/gesellix/docker-client) a Docker remote api client library for the JVM, written in Groovy by [@gesellix][gesellix]
-* [Dropdock](http://dropdock.io/) a framework designed for Drupal to build fast, isolated development environments using Docker.
+* [container-factory](https://github.com/lsqio/container-factory) - Produces Docker images from tarballs of application source code by [@lsqio](https://github.com/lsqio)
+* [codelift](https://codelift.io/) - CodeLift is an automated Docker image build utility for 'dockerizing' services by [@BoozAllen](https://twitter.com/BoozAllen)
+* [percheron][percheron] - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
+* [crane](https://github.com/michaelsauter/crane) - Lift containers with ease. Easy orchestration for images and containers by [@michaelsauter](https://github.com/michaelsauter)
+* [sherdock](https://github.com/rancher/sherdock) - Automatic GC of images based on regexp by [@rancher][rancher]
+* [bocker](https://github.com/p8952/bocker) (1) - Docker implemented in 100 lines of bash by [p8952](https://github.com/p8952)
+* [bocker](https://github.com/icy/bocker) (2) - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
+* [docker-gc](https://github.com/spotify/docker-gc) - A cron job that will delete old stopped containers and unused images by [@spotify](https://github.com/spotify)
+* [dlayer](https://github.com/wercker/dlayer) - Stats collector for Docker layers by [@wercker](https://github.com/wercker)
+* [forward2docker](https://github.com/bsideup/forward2docker) - Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM by [@bsideup](https://github.com/bsideup)
+* [dockramp](https://github.com/jlhawn/dockramp) - Proof of Concept: A Client Driven Docker Image Builder by [@jlhawn](https://github.com/jlhawn)
+* [portainer](https://github.com/duedil-ltd/portainer) - Apache Mesos framework for building Docker images by [@tarnfeld](https://github.com/tarnfeld)
+* [Gradle Docker plugin](https://github.com/gesellix/gradle-docker-plugin) - A Docker remote api plugin for Gradle by [@gesellix][gesellix]
+* [Docker client](https://github.com/gesellix/docker-client) - A Docker remote api client library for the JVM, written in Groovy by [@gesellix][gesellix]
+* [Dropdock](http://dropdock.io/) - A framework designed for Drupal to build fast, isolated development environments using Docker.
 * [Devstep](https://github.com/fgrehm/devstep) - Development environments powered by Docker and buildpacks by [@fgrehm][fgrehm]
 * [Lorry](https://lorry.io/) - Lorry is a docker-compose.yml validator and composer by [@CenturyLinkLabs][CenturyLinkLabs]
 * [Dray](http://dray.it/) - Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker by [@CenturyLinkLabs][CenturyLinkLabs]
@@ -352,7 +350,7 @@ by [@prologic][prologic]
 
 ## Continuous Integration / Continuous Delivery
 
-* [Awesome-ciandcd](https://github.com/ciandcd/awesome-ciandcd) Not specific to docker but relevant.
+* [Awesome-ciandcd](https://github.com/ciandcd/awesome-ciandcd) - Not specific to docker but relevant.
 * [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur)
 * [CircleCI](https://circleci.com/) - Push or pull Docker images from your build environment, or build and run containers right on CircleCI.
 * [CodeFresh](https://codefresh.io) - Accelerate your transition to Docker containers
@@ -366,7 +364,7 @@ by [@prologic][prologic]
 * [Shippable](https://app.shippable.com/) - A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production.
 * [Watchtower](https://github.com/CenturyLinkLabs/watchtower) - Automatically update running Docker containers by
 [@CenturyLinkLabs][CenturyLinkLabs]
-* [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - continuous deployment of a microservices application
+* [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - Continuous deployment of a microservices application
 
 ## Deployment
 
