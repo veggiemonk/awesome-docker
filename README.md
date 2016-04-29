@@ -328,28 +328,27 @@ by [@prologic][prologic]
 [@gesellix][gesellix]
 * [Docker client](https://github.com/gesellix/docker-client) a Docker remote api client library for the JVM, written in Groovy by [@gesellix][gesellix]
 * [Dropdock](http://dropdock.io/) a framework designed for Drupal to build fast, isolated development environments using Docker.
-* [Devstep](https://github.com/fgrehm/devstep) (Development environments powered by Docker and buildpacks) by
-[@fgrehm][fgrehm]
-* [Lorry](https://lorry.io/) (Lorry is a docker-compose.yml validator and composer) by
-[@CenturyLinkLabs][CenturyLinkLabs]
-* [Dray](http://dray.it/) (Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker) by [@CenturyLinkLabs][CenturyLinkLabs]
-* [docker-do](https://github.com/benzaita/docker-do) hassle-free docker run, like `env` but for docker by [@benzaita](https://github.com/benzaita)
-* [Docker osx dev](https://github.com/brikis98/docker-osx-dev) A productive development environment with Docker on OS X by [@brikis98](https://github.com/brikis98)
-* [rocker](https://github.com/grammarly/rocker) extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc. by [grammarly](https://github.com/grammarly).
-* [dexec](https://github.com/docker-exec/dexec) Command line interface for running code with Docker Exec images. https://docker-exec.github.io/ written in Go.
-* [crowdr](https://github.com/polonskiy/crowdr) Tool for managing multiple Docker containers (docker-compose alternative) by [@polonskiy](https://github.com/polonskiy/)
-* [ahab](https://github.com/instacart/ahab) Docker event handling with Python by [@instacart](https://github.com/instacart)
-* [docker-garby](https://github.com/konstruktoid/docker-garby) Docker garbage collection script by [@konstruktoid](https://github.com/konstruktoid).
-* [DevLab](https://github.com/TechnologyAdvice/DevLab) Utility for running containerized development environments
-* [is-docker](https://github.com/sindresorhus/is-docker) Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
-* [Docker meets the IDE](http://domeide.github.io/) Integrating your favorite containers in the editor of your choice by [domeide](https://github.com/domeide)
-* [DVM](https://github.com/getcarina/dvm) Docker version manager by [@getcarina](https://github.com/getcarina)
-* [docker-ls](https://github.com/mayflower/docker-ls) CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
-* [habitus](https://github.com/cloud66/habitus) A Build Flow Tool for Docker http://www.habitus.io by [@cloud66](https://github.com/cloud66)
+* [Devstep](https://github.com/fgrehm/devstep) - Development environments powered by Docker and buildpacks by [@fgrehm][fgrehm]
+* [Lorry](https://lorry.io/) - Lorry is a docker-compose.yml validator and composer by [@CenturyLinkLabs][CenturyLinkLabs]
+* [Dray](http://dray.it/) - Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker by [@CenturyLinkLabs][CenturyLinkLabs]
+* [docker-do](https://github.com/benzaita/docker-do) - hassle-free docker run, like `env` but for docker by [@benzaita](https://github.com/benzaita)
+* [Docker osx dev](https://github.com/brikis98/docker-osx-dev) - A productive development environment with Docker on OS X by [@brikis98](https://github.com/brikis98)
+* [rocker](https://github.com/grammarly/rocker) - Extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc. by [grammarly](https://github.com/grammarly).
+* [dexec](https://github.com/docker-exec/dexec) - Command line interface for running code with Docker Exec images. https://docker-exec.github.io/ written in Go.
+* [crowdr](https://github.com/polonskiy/crowdr) - Tool for managing multiple Docker containers (docker-compose alternative) by [@polonskiy](https://github.com/polonskiy/)
+* [ahab](https://github.com/instacart/ahab) - Docker event handling with Python by [@instacart](https://github.com/instacart)
+* [docker-garby](https://github.com/konstruktoid/docker-garby) - Docker garbage collection script by [@konstruktoid](https://github.com/konstruktoid).
+* [DevLab](https://github.com/TechnologyAdvice/DevLab) - Utility for running containerized development environments
+* [is-docker](https://github.com/sindresorhus/is-docker) - Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
+* [Docker meets the IDE](http://domeide.github.io/) - Integrating your favorite containers in the editor of your choice by [domeide](https://github.com/domeide)
+* [DVM](https://github.com/getcarina/dvm) - Docker version manager by [@getcarina](https://github.com/getcarina)
+* [docker-ls](https://github.com/mayflower/docker-ls) - CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
+* [habitus](https://github.com/cloud66/habitus) - A Build Flow Tool for Docker http://www.habitus.io by [@cloud66](https://github.com/cloud66)
 * [Compose Registry](https://www.composeregistry.com) - A very handy search engine for Compose Files
 * [Docker Clean](https://github.com/zzrotdesign/docker-clean) - A script that cleans Docker containers, images and volumes by [@zzrotdesign](https://github.com/zzrotdesign)
 * [Powerline-Docker](https://github.com/adrianmo/powerline-docker) - A Powerline segment for showing the status of Docker containers by [@adrianmo](https://github.com/adrianmo)
 * [Docker-PowerShell](https://github.com/Microsoft/Docker-PowerShell) - PowerShell Module for Docker
+* [docker-compose-search](https://github.com/francescou/docker-compose-search) - A search engine for Docker Compose application stacks by [@francescou](https://github.com/francescou/)
 
 ## Continuous Integration / Continuous Delivery
 
