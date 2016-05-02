@@ -111,7 +111,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Blog](http://gliderlabs.com/blog/) of [@gliderlabs][gliderlabs]
 * [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
 * [Blog](https://blog.codeship.com/) of [@codeship](https://github.com/codeship)
-* [Digital Ocean Community](https://www.digitalocean.com/community/search?primary_filter=tutorials&query=docker)
+* [Digital Ocean Community](https://www.digitalocean.com/community/search?q=docker&type=tutorials)
 * [Container42](http://container42.com/)
 * [Container solutions](http://container-solutions.com/blog/)
 * [DockerOne](http://dockone.io/) Docker Community (in Chinese) by [@LiYingJie](http://dockone.io/people/%E6%9D%8E%E9%A2%96%E6%9D%B0)
