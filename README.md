@@ -352,6 +352,7 @@ by [@prologic][prologic]
 ## Continuous Integration / Continuous Delivery
 
 * [Awesome-ciandcd](https://github.com/ciandcd/awesome-ciandcd) - Not specific to docker but relevant.
+* [Buddy](https://buddy.works) - The best of Git, build & deployment tools combined into one powerful tool that supercharged our development
 * [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur)
 * [CircleCI](https://circleci.com/) - Push or pull Docker images from your build environment, or build and run containers right on CircleCI.
 * [CodeFresh](https://codefresh.io) - Accelerate your transition to Docker containers
