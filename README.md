@@ -431,6 +431,7 @@ Securely store your Docker images.
 * [Beluga](https://github.com/cortexmedia/Beluga) Beluga a CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
 * [libcompose](https://github.com/docker/libcompose) A Go library for Docker Compose.
 * [DLite] (https://github.com/nlf/dlite) Simplest way to use Docker on OSX, no VM needed. **WIP** By [@nlf] (https://github.com/nlf)
+* [Azuki](http://www.azk.io/) - Orchestrate development enviornments on your local machine
 
 ## Volume management and plugins
 * [Blockbridge](https://github.com/blockbridge/blockbridge-docker-volume) - The Blockbridge plugin is a volume plugin that provides access to an extensible set of container-based persistent storage options. It supports single and multi-host Docker environments with features that include tenant isolation, automated provisioning, encryption, secure deletion, snapshots and QoS. By [@blockbridge][blockbridge]
