@@ -122,7 +122,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
 
 ## General Articles
-* [Getting Started with Docker](https://serversforhackers.com/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
+* [Getting Started with Docker](https://serversforhackers.com/getting-started-with-docker) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
 * [What is Docker and how do you monitor it?](http://axibase.com/docker-monitoring/)
 * [How to Use Docker on OS X: The Missing Guide](https://www.viget.com/articles/how-to-use-docker-on-os-x-the-missing-guide)
 * [Docker for (Java) Developers](https://ro14nd.de/Docker-for-Developers)
@@ -268,7 +268,7 @@ by [@prologic][prologic]
 * [Docker Cookbook](http://dockercookbook.github.io/) by Neependra Khare ([@neependra](https://twitter.com/neependra)) (Publisher: Packt)
 * [Docker in Action](https://www.manning.com/books/docker-in-action) by Jeff Nickoloff ([@allingeek](https://twitter.com/allingeek))
 * [Docker in Practice](https://www.manning.com/books/docker-in-practice) by Ian Miell ([@ianmiell][ianmiell]) and Aidan Hobson Sayers ([@aidanhs](https://github.com/aidanhs)). ==> [Website](http://docker-in-practice.github.io/)
-* [Docker Up & Running](http://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
+* [Docker Up & Running](https://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
 * [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
 * [Docker Security](https://www.openshift.com/promotions/docker-security.html) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
 * [Docker: Container-Infrastruktur für Microservices](http://www.bee42.com/dockerbook/) (German) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
@@ -483,7 +483,7 @@ desktop!
 * [Glances] (http://nicolargo.github.io/glances/) (A cross-platform curses-based system monitoring tool written in Python) by [@nicolargo](https://github.com/nicolargo)
 * [InfluxDB, cAdvisor, Grafana](https://github.com/vegasbrianc/docker-monitoring) (InfluxDB Time series DB in combination with Grafana and cAdvisor) by [@vegasbrianc](https://github.com/vegasbrianc)
 * [Meros](https://meros.io) Analyzes containers resources, captures logs, remote web SSH terminal and powerful DevOps alerts.
-* [New Relic](http://newrelic.com/docker) New Relics Docker Monitoring tool
+* [New Relic](https://newrelic.com/docker) New Relics Docker Monitoring tool
 * [Prometheus](https://prometheus.io/) (Open-source service monitoring system and time series database)
 * [Ruxit](http://www.dynatrace.com/en/ruxit/technologies/cloud-and-microservices/docker-monitoring/) Monitor containerized applications without installing agents or modifying your Run commands
 * [Seagull](https://github.com/tobegit3hub/seagull) (Friendly Web UI to monitor docker daemon.) by [@tobegit3hub](https://github.com/tobegit3hub)
@@ -524,6 +524,7 @@ desktop!
 * [Flynn](https://github.com/flynn/flynn) (A next generation open source platform as a service) -- https://flynn.io/
 * [OpenShift][openshift] (An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment) by [Red Hat](https://www.redhat.com/)
 * [Tsuru](https://github.com/tsuru/tsuru) (Tsuru is an extensible and open source Platform as a Service software) -- https://tsuru.io/
+* [Convox Rack] (https://github.com/convox/rack): Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 
 ## Remote Container Manager / Orchestration
 
