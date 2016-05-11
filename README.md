@@ -408,32 +408,32 @@ Securely store your Docker images.
 
 ## Web Interface
 
-* [Docker Registry Web](https://github.com/atc-/docker-registry-ui) (A web UI for easy private/local Docker Registry integration) by [@atc-](https://github.com/atc-)
-* [DockerUI](https://github.com/kevana/ui-for-docker) (DockerUI is a web interface to interact with the Remote API.) by [@crosbymichael][crosbymichael]
-* [Portus](https://github.com/SUSE/Portus) (Authorization service and frontend for Docker registry (v2)) by [@SUSE](https://github.com/SUSE)
-* [dockering-on-rails](https://github.com/Electrofenster/dockerding-on-rails) Simple Web-Interface for Docker with a lot of features by [@Electrofenster](https://github.com/Electrofenster/)
-* [Rapid Dashboard](https://github.com/ozlerhakan/rapid) (A simple query dashboard to use Docker Remote API) by [@ozlerhakan](https://github.com/ozlerhakan/)
+* [Docker Registry Web](https://github.com/atc-/docker-registry-ui) - A web UI for easy private/local Docker Registry integration by [@atc-](https://github.com/atc-)
+* [DockerUI](https://github.com/kevana/ui-for-docker) - DockerUI is a web interface to interact with the Remote API by [@crosbymichael][crosbymichael]
+* [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
+* [dockering-on-rails](https://github.com/Electrofenster/dockerding-on-rails) - Simple Web-Interface for Docker with a lot of features by [@Electrofenster](https://github.com/Electrofenster/)
+* [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
 
 ## Local Container Manager
 
-* [Shutit](http://ianmiell.github.io/shutit/) (a tool for building and maintaining complex Docker deployments) by
+* [Shutit](http://ianmiell.github.io/shutit/) - Tool for building and maintaining complex Docker deployments by
 [@ianmiell][ianmiell]
-* [FuGu](https://github.com/mattes/fugu) (a docker run wrapper without orchestration) by [@mattes](https://github.com/mattes)
-* [Boot2Docker](https://github.com/boot2docker/boot2docker) (docker for OSX and Windows) -- http://boot2docker.io/
-* [docker-vm](https://github.com/shyiko/docker-vm) (A simple and transparent alternative to boot2docker (backed by Vagrant)) by [@shyiko](https://github.com/shyiko)
-* [Vessel](https://github.com/awvessel/vessel) (Vessel automates the setup & use of dockerized development environments) by [@awvessel](https://github.com/awvessel)
-* [subuser](http://subuser.org) (subuser makes it easy to securely and portably run graphical desktop applications in Docker)
-* [OctoHost](http://www.octohost.io/) (Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
-* [Dokku][dokku] (Docker powered mini-Heroku in around 100 lines of Bash) by [@progrium][progrium]
+* [FuGu](https://github.com/mattes/fugu) - Docker run wrapper without orchestration by [@mattes](https://github.com/mattes)
+* [Boot2Docker](https://github.com/boot2docker/boot2docker) - Docker for OSX and Windows -- http://boot2docker.io/
+* [docker-vm](https://github.com/shyiko/docker-vm) - Simple and transparent alternative to boot2docker (backed by Vagrant) by [@shyiko](https://github.com/shyiko)
+* [Vessel](https://github.com/awvessel/vessel) - Automates the setup & use of dockerized development environments by [@awvessel](https://github.com/awvessel)
+* [subuser](http://subuser.org) - Makes it easy to securely and portably run graphical desktop applications in Docker
+* [OctoHost](http://www.octohost.io/) - Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
+* [Dokku][dokku] - Docker powered mini-Heroku in around 100 lines of Bash by [@progrium][progrium]
 * [Ansible - manage docker containers](http://docs.ansible.com/ansible/docker_module.html)
-* [Vagrant - Docker provider](https://www.vagrantup.com/docs/docker/basics.html) a good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example) by [@bubenkoff](https://github.com/bubenkoff)
-* [Dray](https://github.com/CenturyLinkLabs/dray)  An engine for managing the execution of container-based workflows. http://Dray.it by [@CenturyLinkLabs][CenturyLinkLabs]
-* [percheron][percheron] (Organise your Docker containers with muscle and intelligence) by [@ashmckenzie](https://github.com/ashmckenzie)
-* [Dusty](http://dusty.gc.com/) Managed Docker development environments on OS X
-* [Beluga](https://github.com/cortexmedia/Beluga) Beluga a CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
-* [libcompose](https://github.com/docker/libcompose) A Go library for Docker Compose.
-* [DLite] (https://github.com/nlf/dlite) Simplest way to use Docker on OSX, no VM needed. **WIP** By [@nlf] (https://github.com/nlf)
-* [Azuki](http://www.azk.io/) - Orchestrate development enviornments on your local machine
+* [Vagrant - Docker provider](https://www.vagrantup.com/docs/docker/basics.html) - Good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example) by [@bubenkoff](https://github.com/bubenkoff)
+* [Dray](https://github.com/CenturyLinkLabs/dray) - An engine for managing the execution of container-based workflows. http://Dray.it by [@CenturyLinkLabs][CenturyLinkLabs]
+* [percheron][percheron] - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
+* [Dusty](http://dusty.gc.com/) - Managed Docker development environments on OS X
+* [Beluga](https://github.com/cortexmedia/Beluga) - CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
+* [libcompose](https://github.com/docker/libcompose) - Go library for Docker Compose.
+* [DLite](https://github.com/nlf/dlite) - Simplest way to use Docker on OSX, no VM needed. By [@nlf](https://github.com/nlf)
+* [Azk](http://www.azk.io/) - Orchestrate development enviornments on your local machine by [@azukiapp](https://github.com/azukiapp)
 
 ## Volume management and plugins
 * [Blockbridge](https://github.com/blockbridge/blockbridge-docker-volume) - The Blockbridge plugin is a volume plugin that provides access to an extensible set of container-based persistent storage options. It supports single and multi-host Docker environments with features that include tenant isolation, automated provisioning, encryption, secure deletion, snapshots and QoS. By [@blockbridge][blockbridge]
