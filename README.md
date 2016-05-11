@@ -39,6 +39,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Container Hacks and Fun Images][jessvid] by [@jfrazelle][jfrazelle] @ DockerCon 2015 **MUST WATCH VIDEO** (38:50)
 * [Learn Docker](https://github.com/dwyl/learn-docker) Full environment set up, screenshots, step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
+* [How to Whale](https://howtowhale.com/) Learn Docker in your web browser, no setup or installation required.
 
 # MENU
 
