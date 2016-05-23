@@ -418,7 +418,7 @@ Securely store your Docker images.
 
 ## Local Container Manager
 
-* [Shutit](http://ianmiell.github.io/shutit/) - Tool for building and maintaining complex Docker deployments by
+* [Shutit](http://shutit.tk/) - Tool for building and maintaining complex Docker deployments by
 [@ianmiell][ianmiell]
 * [FuGu](https://github.com/mattes/fugu) - Docker run wrapper without orchestration by [@mattes](https://github.com/mattes)
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) - Docker for OSX and Windows -- http://boot2docker.io/
@@ -554,7 +554,7 @@ desktop!
 * [Fleet](https://github.com/coreos/fleet) (A Distributed init System providing low-level orchestration ) -- [coreos.com]
 * [Serf](https://github.com/hashicorp/serf) (Service orchestration and management tool) by [@hashicorp](https://github.com/hashicorp)
 * [Shipyard](https://github.com/shipyard/shipyard) (Composable Docker Management) -- http://shipyard-project.com/
-* [MCollective Docker Agent](https://github.com/m4ce/mcollective-docker-agent) Uses MCollective to orchestrate your Docker containers and images -- [@m4ce](https://github.com/m4ce) 
+* [MCollective Docker Agent](https://github.com/m4ce/mcollective-docker-agent) Uses MCollective to orchestrate your Docker containers and images -- [@m4ce](https://github.com/m4ce)
 * [ElasticKube](https://github.com/ElasticBox/elastickube) open source management platform for Kubernetes.
 * [Mantl](https://github.com/ciscocloud/mantl) Mantl is a modern platform for rapidly deploying globally distributed services [@ciscocloud](http://mantl.io)
 
