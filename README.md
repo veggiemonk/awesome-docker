@@ -109,8 +109,6 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 ## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions/) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
 * [What is Docker and how do you monitor it?](http://axibase.com/docker-monitoring/)
-* [Dockerfile Tutorial for Beginners](http://theremotelab.com/blog/dockerfile-for-beginners/) by [Virendra Bhalothia](https://twitter.com/bhalothiaa)
-* [Jenkins 2.0 - Screencast Series](http://theremotelab.com/blog/jenkins2.0-screencast-series/) by [Virendra Bhalothia](https://twitter.com/bhalothiaa)
 * [How to Use Docker on OS X: The Missing Guide](http://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide)
 * [Docker for (Java) Developers](http://ro14nd.de/Docker-for-Developers/)
 * [Deploying NGINX with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
@@ -297,6 +295,7 @@ _Source:_ [What is Docker](https://www.docker.com/whatisdocker/)
 * [IBM DevOps Services](https://hub.jazz.net) - Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix.
 * [Watchtower](https://github.com/CenturyLinkLabs/watchtower) - Automatically update running Docker containers by [@CenturyLinkLabs](https://github.com/CenturyLinkLabs)
 * [Dockunit](https://github.com/dockunit/platform) - Docker based integration tests. A simple Node based utility for running Docker based unit tests. By [@dockunit](https://github.com/dockunit)
+* * [Jenkins 2.0 - Screencast Series](http://theremotelab.com/blog/jenkins2.0-screencast-series/) by [Virendra Bhalothia](https://twitter.com/bhalothiaa)
 
 ## Deployment
 
@@ -477,6 +476,7 @@ Securely store your Docker images.
 
 * [Docker Slideshare Account](http://www.slideshare.net/dotCloud)
 * [Docker Security](http://www.slideshare.net/jpetazzo) with [@jpetazzo](https://github.com/jpetazzo)
+* [Docker for the new era](https://www.slideshare.net/ramitsurana/docker-for-the-new-era)  by [@ramitsurana](https://github.com/ramitsurana)
 
 # Videos
 
