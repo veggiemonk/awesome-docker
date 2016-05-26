@@ -547,7 +547,7 @@ desktop!
 * [Flocker](https://github.com/ClusterHQ/flocker) (Flocker is a data volume manager and multi-host Docker cluster management tool) by [@ClusterHQ](https://github.com/ClusterHQ)
 * [Gaudi](https://github.com/marmelab/gaudi) (Gaudi allows to share multi-component applications, based on Docker,  Go, and YAM) ~~ project discontinued.
 * [Kontena](https://github.com/kontena/kontena) (Application Containers for Masses) -- https://www.kontena.io/
-* [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- [kubernetes] See Also [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana](https://github.com/ramitsurana)
+* [Kubernetes][kubernetes] (Open source orchestration system for Docker containers by Google)  -- [kubernetes] See Also [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana][ramitsurana]
 * [Maestro](https://github.com/toscanini/maestro) (Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit) by [@tascanini](https://github.com/toscanini)
 * [Marathon](https://mesosphere.github.io/marathon/docs/) (Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on")
 * [Nomad Project] (https://www.nomadproject.io/) Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler.
@@ -580,7 +580,7 @@ desktop!
 * [Docker Slideshare Account](http://www.slideshare.net/Docker)
 * [Docker Security](http://www.slideshare.net/jpetazzo) with [@jpetazzo][jpetazzo]
 * [Hide your DEV ENV in a container](http://www.slideshare.net/JohanJanssen4/hide-your-development-environment-and-application-in-a-container) by [@johanjanssen42](https://twitter.com/johanjanssen42)
-* [Docker for the new era](https://www.slideshare.net/ramitsurana/docker-for-the-new-era)  by [@ramitsurana](https://github.com/ramitsurana)
+* [Docker for the new era](https://www.slideshare.net/ramitsurana/docker-for-the-new-era)  by [@ramitsurana][ramitsurana]
 
 # Videos
 
@@ -680,3 +680,4 @@ desktop!
 [docker-compose]: https://docs.docker.com/compose/
 [containership]: https://containership.io
 [rancher]: https://github.com/rancher
+[ramitsurana]: https://github.com/ramitsurana
