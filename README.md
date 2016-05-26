@@ -204,6 +204,7 @@ by [@prologic][prologic]
 
 ## Continuous Integration
 * [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](http://ariya.ofilabs.com/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html)
+* [Jenkins 2.0 - Screencast Series](http://theremotelab.com/blog/jenkins2.0-screencast-series/) by [Virendra Bhalothia](https://twitter.com/bhalothiaa)
 
 ## Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/create-the-smallest-possible-docker-container/)
@@ -579,6 +580,7 @@ desktop!
 * [Docker Slideshare Account](http://www.slideshare.net/Docker)
 * [Docker Security](http://www.slideshare.net/jpetazzo) with [@jpetazzo][jpetazzo]
 * [Hide your DEV ENV in a container](http://www.slideshare.net/JohanJanssen4/hide-your-development-environment-and-application-in-a-container) by [@johanjanssen42](https://twitter.com/johanjanssen42)
+* [Docker for the new era](https://www.slideshare.net/ramitsurana/docker-for-the-new-era)  by [@ramitsurana](https://github.com/ramitsurana)
 
 # Videos
 
