@@ -352,6 +352,8 @@ by [@prologic][prologic]
 * [Docker Volume Clone Utility](https://github.com/gdiepen/docker-convenience-scripts) - A Docker Utility to Clone Volumes [@gdiepen](https://twitter.com/gdiepen)
 * [docker-companion](https://github.com/mudler/docker-companion) - A command line tool written in Golang to squash and unpack docker images by [@mudler](https://github.com/mudler/)
 * [sbt-docker-compose](https://github.com/Tapad/sbt-docker-compose) - Integrates Docker Compose functionality into sbt by [@kurtkopchik](https://github.com/kurtkopchik/)
+* [docker-useful-commands](https://github.com/cauealves/docker-useful-commands) - A list with useful commands for make your day better
+* [docker-gulp-seed](https://github.com/cauealves/docker-gulp-seed) - This project is a skeleton for make a simple way to run tasks of Gulp inside a container.
 
 ## Continuous Integration / Continuous Delivery
 
