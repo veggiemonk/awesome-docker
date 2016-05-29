@@ -422,7 +422,7 @@ Securely store your Docker images.
 
 ## Local Container Manager
 
-* [Shutit](http://shutit.tk/) - Tool for building and maintaining complex Docker deployments by
+* [Shutit](http://ianmiell.github.io/shutit/) - Tool for building and maintaining complex Docker deployments by
 [@ianmiell][ianmiell]
 * [FuGu](https://github.com/mattes/fugu) - Docker run wrapper without orchestration by [@mattes](https://github.com/mattes)
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) - Docker for OSX and Windows -- http://boot2docker.io/
