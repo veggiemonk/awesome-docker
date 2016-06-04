@@ -267,6 +267,8 @@ by [@prologic][prologic]
 
 # Books
 
+## In English
+
 * [Docker Book](https://dockerbook.com/) by James Turnbul ([@kartar][kartar])
 * [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do) by Sébastien Goasguen ([@sebgoa][sebgoa]) (Publisher: O'Reilly)
 * [Docker Cookbook](http://dockercookbook.github.io/) by Neependra Khare ([@neependra](https://twitter.com/neependra)) (Publisher: Packt)
@@ -275,11 +277,32 @@ by [@prologic][prologic]
 * [Docker Up & Running](https://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
 * [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
 * [Docker Security](https://www.openshift.com/promotions/docker-security.html) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
-* [Docker: Container-Infrastruktur für Microservices](http://www.bee42.com/dockerbook/) (German) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
-* [Containers com Docker do desenvolvimento à produção](https://www.casadocodigo.com.br/products/livro-docker) (Portuguese) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
-* [Docker Container and Container Cloud](https://www.amazon.cn/图书/dp/B014ETH1IG) (Chinese) by [Harry Zhang](https://twitter.com/resouer) & Jianbo Sun & Zhejiang University SEL Laboratory
 * [Kubernetes](https://www.openshift.com/promotions/kubernetes.html) by [David Rensin](http://research.google.com/pubs/DavidRensin.html) (Publisher: O'Reilly)
 * [Docker in Production: Lessons from the Trenches](http://www.amazon.com/Docker-Production-Trenches-Joe-Johnston-ebook/dp/B0141W6KYC) by Joe Johnston (Author), John Fiedler (Author), Milos Gajdos (Author), Antoni Batchelli (Author), Justin Cormack (Author)
+* [Mastering Docker](https://www.packtpub.com/virtualization-and-cloud/mastering-docker) by Scott Gallagher (Publisher: Packt)
+* [Learning Docker](https://www.packtpub.com/virtualization-and-cloud/learning-docker) by Pethuru Raj, Jeeva S. Chelladhurai and Vinod Singh (Publisher: Packt)
+* [Troubleshooting Docker](https://www.packtpub.com/virtualization-and-cloud/troubleshooting-docker) by John Wooten, Navid Shaikh (Publisher: Packt)
+* [Orchestrating Docker](https://www.packtpub.com/virtualization-and-cloud/orchestrating-docker) by Shrikrishna Holla (Publisher: Packt)
+* [Extending Docker](https://www.packtpub.com/networking-and-servers/extending-docker) by Russ McKendrick (Publisher: Packt)
+* [Securing Docker](https://www.packtpub.com/virtualization-and-cloud/securing-docker) by Scott Gallagher (Publisher: Packt)
+* [Learning Docker Networking](https://www.packtpub.com/networking-and-servers/learning-docker-networking) by Rajdeep Dua, Vaibhav Kohli and Santosh Kumar Konduri (Publisher: Packt)
+* [Docker High Performance](https://www.packtpub.com/networking-and-servers/docker-high-performance) by Allan Espinosa (Publisher: Packt)
+* [Kubernetes Up and Running: Dive into the Future of Infrastructure](http://shop.oreilly.com/product/0636920043874.do) by Kelsey Hightower ([@kelseyhightower](https://twitter.com/kelseyhightower)) (Publisher: O'Reilly)
+
+## Chinese
+
+* [Docker Container and Container Cloud](https://www.amazon.cn/图书/dp/B014ETH1IG) (Chinese) by [Harry Zhang](https://twitter.com/resouer) & Jianbo Sun & Zhejiang University SEL Laboratory
+
+## German
+
+* [Docker: Container-Infrastruktur für Microservices](http://www.bee42.com/dockerbook/) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
+
+## Portuguese
+
+* [Containers com Docker do desenvolvimento à produção](https://www.casadocodigo.com.br/products/livro-docker) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
+* [Aprendendo Docker: Do básico à orquestração de contêineres](http://aprendendodocker.com.br/) by Wellington F. Silva ([@_wsilva](https://twitter.com/_wsilva)) (Publisher: Editora Novatec)
+* [Docker para Desenvolvedores](https://leanpub.com/dockerparadesenvolvedores) by Rafael Gomes ([@kelseyhightower](https://twitter.com/gomex)) (Publisher: Leanpub) - 55% finished
+
 
 # Tools
 
@@ -392,6 +415,7 @@ Securely store your Docker images.
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 * [Reesd](https://reesd.com/) -  Private Docker repositories and redundant storage service by [@noteed][noteed]
+* [Gitlab Container Registry](http://docs.gitlab.com/ce/container_registry/README.html) - Repositories focused on using it images in Gitlab CI
 
 ## Hosting for containers
 
