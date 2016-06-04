@@ -194,7 +194,7 @@ by [@prologic][prologic]
 * [10 practical docker tips](http://www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage) (Dec 2015) by [@josdirksen](https://github.com/josdirksen)
 * [Kubernetes Cheatsheet](http://k8s.info/cs.html) - A great resource for managing your Kubernetes installation
 * [Container Best Practices](http://docs.projectatomic.io/container-best-practices/) - Red Hat's Project Atomic created a Container Best Practices guide which applies to everything and is updated regurlary.
-* [Project Ricochet] (https://projectricochet.com/blog/production-meteor-and-node-using-docker-part-i) First in series, subscribe for more updates of [@projectricochet]
+* [Production Meteor and Node Using Docker, Part I](https://projectricochet.com/blog/production-meteor-and-node-using-docker-part-i) by [@projectricochet](https://github.com/projectricochet)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
