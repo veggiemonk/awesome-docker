@@ -643,6 +643,7 @@ desktop!
 * [Run Any App on Mesos on Any Infrastructure Using Docker](https://www.youtube.com/watch?v=u5jd9YT9EsY) (17:44)
 * [State of containers: a debate with CoreOS, VMware and Google](https://www.youtube.com/watch?v=IiITP3yIRd8) (27:38)
 * [SysAdminCasts: Introduction to Docker](https://sysadmincasts.com/episodes/31-introduction-to-docker) (15:49)
+* [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615) Free Udacity course 
 
 
 # Interesting Twitter Accounts
@@ -655,6 +656,8 @@ desktop!
 * [OpenShift by Red Hat](https://twitter.com/openshift)
 * [YLD](https://twitter.com/YLDio)
 * [The New Stack](https://twitter.com/thenewstack)
+* [Docker News](https://twitter.com/dockernews)
+* 
 
 ## People
 
