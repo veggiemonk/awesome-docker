@@ -87,6 +87,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 	- [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
 	- [Security](#security)
 	- [Service Discovery](#service-discovery)
+	- [Metadata](#metadata)
 - [Slides](#slides)
 - [Videos](#videos)
 	- [Main Account](#main-account)
@@ -612,6 +613,9 @@ desktop!
 * [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) This is a fully dynamic docker link ambassador. + [Article](https://docs.docker.com/engine/articles/ambassador_pattern_linking/) by [@cpuguy83][cpuguy83]
 * [proxy](https://github.com/factorish/proxy): lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
 * [wagl](https://github.com/ahmetalpbalkan/wagl/): Service discovery for docker swarm using DNS
+
+## Metadata
+* [MicroBadger](https://microbadger.com) - add metadata to Docker images using labels.
 
 # Slides
 
