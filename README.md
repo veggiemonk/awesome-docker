@@ -573,7 +573,7 @@ desktop!
 * [OpenShift][openshift] (An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment) by [Red Hat](https://www.redhat.com/)
 * [Tsuru](https://github.com/tsuru/tsuru) (Tsuru is an extensible and open source Platform as a Service software) -- https://tsuru.io/
 * [Convox Rack] (https://github.com/convox/rack): Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
-* [Rancher] (https://github.com/rancher/rancher): Rancher is an open source project that provides a complete platform for operating Docker in production
+* [Rancher][rancher]: Rancher is an open source project that provides a complete platform for operating Docker in production
 
 
 ## Remote Container Manager / Orchestration
