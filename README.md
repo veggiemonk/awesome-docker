@@ -23,7 +23,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 # Where to start ?
 
-* [10-minute Interactive Tutorial](https://docs.docker.com/mac/)
+* [10-minute Interactive Tutorial](http://docs.docker.com/docker-for-mac/)
 * [Docker Training](http://training.docker.com/)
 * Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 * Watch the video: [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]
@@ -225,7 +225,7 @@ by [@prologic][prologic]
 * [Squashing Docker Images](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/) by [@jwilder][jwilder]
 * [Dockerfile Golf (or optimizing the Docker build process)](http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html)
 * [ImageLayers](https://imagelayers.io/) Visualize Docker images and the layers that compose them.
-* [DockerSlim](https://github.com/cloudimmunity/docker-slim) shrinks fat Docker images creating the smallest possible images.
+* [DockerSlim](https://github.com/docker-slim/docker-slim) shrinks fat Docker images creating the smallest possible images.
 * [SkinnyWhale](https://github.com/djosephsen/skinnywhale) Skinnywhale helps you make smaller (as in megabytes) Docker containers.
 
 ## Service Discovery
