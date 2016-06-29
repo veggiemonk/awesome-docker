@@ -23,7 +23,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 # Where to start ?
 
-* [10-minute Interactive Tutorial](http://docs.docker.com/docker-for-mac/)
+* [10-minute Interactive Tutorial](https://docs.docker.com/docker-for-mac/)
 * [Docker Training](http://training.docker.com/)
 * Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 * Watch the video: [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]
@@ -328,7 +328,7 @@ by [@prologic][prologic]
 * [ctop](https://github.com/yadutaf/ctop) - A command line / text based Linux Containers monitoring tool that works just like you expect by [@yadutaf](https://github.com/yadutaf)
 * [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers by [@moncho](https://github.com/moncho)
 * [dockercraft](https://github.com/docker/dockercraft) - Docker + Minecraft = Dockercraft by [@docker][docker]
-* [dockersql](https://github.com/crosbymichael/dockersql) - A command line interface to query Docker using SQL by [@crosbymichael](https://github.com/crosbymichael)
+* [dockersql](https://github.com/crosbymichael/dockersql) - A command line interface to query Docker using SQL by [@crosbymichael][crosbymichael]
 
 ## Dev Tools
 
