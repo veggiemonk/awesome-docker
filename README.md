@@ -681,7 +681,7 @@ desktop!
 * [Michael Crosby](https://twitter.com/crosbymichael) Docker Developer
 * [James Turnbull][kartar] Author of Docker Book
 * [Jeff Lindsay](https://twitter.com/progrium) Design-minded software architect
-* [Jessie Frazelle](https://twitter.com/frazelledazzell) Work @docker and uses full containerized desktop, lots of fun.
+* [Jessie Frazelle](https://twitter.com/jessfraz) Work @docker and uses full containerized desktop, lots of fun.
 
 [blockbridge]: https://github.com/blockbridge
 [weave]: https://github.com/weaveworks/weave
