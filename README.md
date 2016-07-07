@@ -644,6 +644,8 @@ desktop!
 * [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
 * [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]  <== Good introduction, context, demo
 * [Docker in Production](https://www.youtube.com/watch?v=Glk5d5WP6MI) by [@jpetazzo][jpetazzo] (36:05)
+* [Introduction to Docker and containers](https://www.youtube.com/watch?v=ZVaRK10HBjo) (3:09:00) by [@jpetazzo][jpetazzo]
+* [Deploying and scaling applications with Docker, Swarm, and a tiny bit of Python magic](https://www.youtube.com/watch?v=GpHMTR7P2Ms) (3:11:06) by [@jpetazzo][jpetazzo]
 * [Docker: How to Use Your Own Private Registry](https://www.youtube.com/watch?v=CAewZCBT4PI) (15:01)
 * [Docker and SELinux by Daniel Walsh from Red Hat ](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
 * [Extending Docker with Plugins](https://vimeo.com/110835013) (15:21)
@@ -671,7 +673,6 @@ desktop!
 * [YLD](https://twitter.com/YLDio)
 * [The New Stack](https://twitter.com/thenewstack)
 * [Docker News](https://twitter.com/dockernews)
-* 
 
 ## People
 
@@ -681,7 +682,7 @@ desktop!
 * [Michael Crosby](https://twitter.com/crosbymichael) Docker Developer
 * [James Turnbull][kartar] Author of Docker Book
 * [Jeff Lindsay](https://twitter.com/progrium) Design-minded software architect
-* [Jessie Frazelle](https://twitter.com/frazelledazzell) Work @docker and uses full containerized desktop, lots of fun.
+* [Jessie Frazelle](https://twitter.com/jessfraz) Ex-@docker maintainer and uses full containerized desktop, lots of fun.
 
 [blockbridge]: https://github.com/blockbridge
 [weave]: https://github.com/weaveworks/weave
