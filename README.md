@@ -213,7 +213,7 @@ by [@prologic][prologic]
 * [WebOps weekly](http://webopsweekly.com/)
 
 ## Continuous Integration
-* [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](https://ariya.io/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html)
+* [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](https://ariya.io/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome)
 * [Jenkins 2.0 - Screencast Series](http://theremotelab.com/blog/jenkins2.0-screencast-series/) by [Virendra Bhalothia](https://twitter.com/bhalothiaa)
 
 ## Optimizing Images
