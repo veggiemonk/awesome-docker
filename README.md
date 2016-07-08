@@ -213,7 +213,7 @@ by [@prologic][prologic]
 * [WebOps weekly](http://webopsweekly.com/)
 
 ## Continuous Integration
-* [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](https://ariya.io/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome)
+* [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](http://ariya.ofilabs.com/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html)
 * [Jenkins 2.0 - Screencast Series](http://theremotelab.com/blog/jenkins2.0-screencast-series/) by [Virendra Bhalothia](https://twitter.com/bhalothiaa)
 * [Pushing to ECR Using Jenkins Pipeline Plugin](https://blog.mikesir87.io/2016/04/pushing-to-ecr-using-jenkins-pipeline-plugin/) by [@mikesir87](https://github.com/mikesir87)
 
@@ -239,7 +239,7 @@ by [@prologic][prologic]
 * [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
 * [Docker Secure Deployment Guidelines](https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines)
-* [Security Best Practices for Building Docker Images](https://linux-audit.com/tag/docker/)
+* [Security Best Practices for Building Docker Images](http://linux-audit.com/tag/docker/)
 * [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](http://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
 * [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
 * [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
@@ -273,6 +273,7 @@ by [@prologic][prologic]
  * [Vidéo](https://www.youtube.com/watch?v=4uQ6gR_xZhE)
  * [Slides](https://goldmann.pl/presentations/2014-vjbug-docker/)
  * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
+* [Docker Meetups](https://www.docker.com/community/meetup-groups) 
 
 # Books
 
@@ -348,7 +349,7 @@ by [@prologic][prologic]
 * [Vagga](https://github.com/tailhook/vagga) (Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.) by [@tailhook](https://github.com/tailhook/)
 * [dockerode](https://github.com/apocas/dockerode) (Not just another Docker Remote API node.js module) by [@apocas](https://github.com/apocas)
 * [go-dockerclient](https://github.com/fsouza/go-dockerclient/) (Go HTTP client for the Docker remote API.) by [@fsouza](https://github.com/fsouza/)
-* [Docker.DotNet](https://github.com/Microsoft/Docker.DotNet) (C#/.NET HTTP client for the Docker remote API) by [@ahmetalpbalkan](https://github.com/ahmetalpbalkan/)
+* [Docker.DotNet](https://github.com/ahmetalpbalkan/Docker.DotNet) (C#/.NET HTTP client for the Docker remote API) by [@ahmetalpbalkan](https://github.com/ahmetalpbalkan/)
 * [container-factory](https://github.com/lsqio/container-factory) - Produces Docker images from tarballs of application source code by [@lsqio](https://github.com/lsqio)
 * [codelift](https://codelift.io/) - CodeLift is an automated Docker image build utility for 'dockerizing' services by [@BoozAllen](https://twitter.com/BoozAllen)
 * [percheron][percheron] - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
@@ -645,8 +646,6 @@ desktop!
 * [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
 * [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]  <== Good introduction, context, demo
 * [Docker in Production](https://www.youtube.com/watch?v=Glk5d5WP6MI) by [@jpetazzo][jpetazzo] (36:05)
-* [Introduction to Docker and containers](https://www.youtube.com/watch?v=ZVaRK10HBjo) (3:09:00) by [@jpetazzo][jpetazzo]
-* [Deploying and scaling applications with Docker, Swarm, and a tiny bit of Python magic](https://www.youtube.com/watch?v=GpHMTR7P2Ms) (3:11:06) by [@jpetazzo][jpetazzo]
 * [Docker: How to Use Your Own Private Registry](https://www.youtube.com/watch?v=CAewZCBT4PI) (15:01)
 * [Docker and SELinux by Daniel Walsh from Red Hat ](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
 * [Extending Docker with Plugins](https://vimeo.com/110835013) (15:21)
@@ -674,6 +673,7 @@ desktop!
 * [YLD](https://twitter.com/YLDio)
 * [The New Stack](https://twitter.com/thenewstack)
 * [Docker News](https://twitter.com/dockernews)
+* 
 
 ## People
 
@@ -683,7 +683,7 @@ desktop!
 * [Michael Crosby](https://twitter.com/crosbymichael) Docker Developer
 * [James Turnbull][kartar] Author of Docker Book
 * [Jeff Lindsay](https://twitter.com/progrium) Design-minded software architect
-* [Jessie Frazelle](https://twitter.com/jessfraz) Ex-@docker maintainer and uses full containerized desktop, lots of fun.
+* [Jessie Frazelle](https://twitter.com/frazelledazzell) Work @docker and uses full containerized desktop, lots of fun.
 
 [blockbridge]: https://github.com/blockbridge
 [weave]: https://github.com/weaveworks/weave
