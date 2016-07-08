@@ -215,6 +215,7 @@ by [@prologic][prologic]
 ## Continuous Integration
 * [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](https://ariya.io/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome)
 * [Jenkins 2.0 - Screencast Series](http://theremotelab.com/blog/jenkins2.0-screencast-series/) by [Virendra Bhalothia](https://twitter.com/bhalothiaa)
+* [Pushing to ECR Using Jenkins Pipeline Plugin](https://blog.mikesir87.io/2016/04/pushing-to-ecr-using-jenkins-pipeline-plugin/) by [@mikesir87](https://github.com/mikesir87)
 
 ## Optimizing Images
 * [Create the smallest possible Docker container](http://blog.xebia.com/create-the-smallest-possible-docker-container/)
