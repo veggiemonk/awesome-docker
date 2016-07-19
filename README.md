@@ -389,6 +389,7 @@ by [@prologic][prologic]
 * [sbt-docker-compose](https://github.com/Tapad/sbt-docker-compose) - Integrates Docker Compose functionality into sbt by [@kurtkopchik](https://github.com/kurtkopchik/)
 * [docker-useful-commands](https://github.com/cauealves/docker-useful-commands) - A list with useful commands for make your day better
 * [docker-gulp-seed](https://github.com/cauealves/docker-gulp-seed) - This project is a skeleton for make a simple way to run tasks of Gulp inside a container.
+* [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies.
 
 ## Continuous Integration / Continuous Delivery
 
