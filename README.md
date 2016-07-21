@@ -390,6 +390,7 @@ by [@prologic][prologic]
 * [docker-useful-commands](https://github.com/cauealves/docker-useful-commands) - A list with useful commands for make your day better
 * [docker-gulp-seed](https://github.com/cauealves/docker-gulp-seed) - This project is a skeleton for make a simple way to run tasks of Gulp inside a container.
 * [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies.
+* [docker-make](https://github.com/CtripCloud/docker-make) - build,tag,and push a bunch of related docker images via a single command.
 
 ## Continuous Integration / Continuous Delivery
 
