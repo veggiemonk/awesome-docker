@@ -271,6 +271,7 @@ by [@prologic][prologic]
 * Presentation: Docker and JBoss - the perfect combination
  * [Vidéo](https://www.youtube.com/watch?v=4uQ6gR_xZhE)
  * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
+ * [JBoss and Docker Presentation](https://goldmann.pl/presentations/2014-vjbug-docker/ )
 
 # Books
 
