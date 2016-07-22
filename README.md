@@ -579,7 +579,7 @@ desktop!
 * [Tsuru](https://github.com/tsuru/tsuru) (Tsuru is an extensible and open source Platform as a Service software) -- https://tsuru.io/
 * [Convox Rack] (https://github.com/convox/rack): Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 * [Rancher][rancher]: Rancher is an open source project that provides a complete platform for operating Docker in production
-
+* [Dcw](https://github.com/pbertera/dcw): Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels. 
 
 ## Remote Container Manager / Orchestration
 
