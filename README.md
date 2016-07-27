@@ -533,7 +533,7 @@ desktop!
 * [Meros](https://meros.io) Analyzes containers resources, captures logs, remote web SSH terminal and powerful DevOps alerts.
 * [New Relic](https://newrelic.com/docker) New Relics Docker Monitoring tool
 * [Prometheus](https://prometheus.io/) (Open-source service monitoring system and time series database)
-* [Ruxit](http://www.dynatrace.com/technologies/cloud-and-microservices/docker-monitoring/) Monitor containerized applications without installing agents or modifying your Run commands
+* [Ruxit](https://www.dynatrace.com/technologies/cloud-and-microservices/docker-monitoring/) Monitor containerized applications without installing agents or modifying your Run commands
 * [Seagull](https://github.com/tobegit3hub/seagull) (Friendly Web UI to monitor docker daemon.) by [@tobegit3hub](https://github.com/tobegit3hub)
 * [Site24x7](https://www.site24x7.com/docker-monitoring.html) Docker MOnitoring for DevOps and IT is a SaaS Pay per Host model
 * [Sysdig](http://www.sysdig.org/): An open source troubleshooting tool that provides a rich set of real-time, system-level information. It has container-specific features and is very useful in Docker environments.
