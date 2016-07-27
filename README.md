@@ -207,7 +207,7 @@ by [@prologic][prologic]
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
 * [CenturyLink Labs](https://labs.ctl.io/)
-* [Tutum](https://dashboard.tutum.co/accounts/login/)
+* [Tutum](https://dashboard.tutum.co/)
 * [DevOps Weekly](http://www.devopsweekly.com)
 * [Shippable](http://blog.shippable.com/)
 * [WebOps weekly](http://webopsweekly.com/)
@@ -433,7 +433,6 @@ Securely store your Docker images.
 
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
 * [ContainerShip Cloud][containership] - Multi-Cloud Container Hosting Automation Platform.
-* [Docker Tutum](https://www.tutum.co/) (part of Docker Inc) - Simple hosting for your Docker containers. -> now Docker Cloud
 * [Docker Cloud](https://cloud.docker.com/) - Former Tutum
 * [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 * [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
