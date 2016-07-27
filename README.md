@@ -480,7 +480,7 @@ Securely store your Docker images.
 * [libcompose](https://github.com/docker/libcompose) - Go library for Docker Compose.
 * [DLite](https://github.com/nlf/dlite) - Simplest way to use Docker on OSX, no VM needed. By [@nlf](https://github.com/nlf)
 * [Azk](http://www.azk.io/) - Orchestrate development enviornments on your local machine by [@azukiapp](https://github.com/azukiapp)
-* [Turbo](https://ramitsurana.github.io/turbo) - Simple and Powerful utility for docker. By [@ramitsurana][ramitsurana]
+* [Turbo](https://ramitsurana.github.io/turbo/) - Simple and Powerful utility for docker. By [@ramitsurana][ramitsurana]
 
 ## Volume management and plugins
 * [Blockbridge](https://github.com/blockbridge/blockbridge-docker-volume) - The Blockbridge plugin is a volume plugin that provides access to an extensible set of container-based persistent storage options. It supports single and multi-host Docker environments with features that include tenant isolation, automated provisioning, encryption, secure deletion, snapshots and QoS. By [@blockbridge][blockbridge]
