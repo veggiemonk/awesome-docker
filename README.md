@@ -103,6 +103,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 
 * [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
+* [Docker Printable Refcard][docker-quick-ref] by [@dimonomid][dimonomid]
 * [CenturyLink Labs](https://labs.ctl.io/category/docker/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
 * [Docker Ecosystem](https://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
@@ -703,6 +704,8 @@ desktop!
 [loggingDocker]: https://vimeo.com/123341629
 [docker-cheat-sheet]: https://github.com/wsargent/docker-cheat-sheet
 [wsargent]: https://github.com/wsargent
+[docker-quick-ref]: https://github.com/dimonomid/docker-quick-ref
+[dimonomid]: https://github.com/dimonomid
 [projwebdev]: http://project-webdev.blogspot.de
 [jessblog]: https://blog.jessfraz.com/post/docker-containers-on-the-desktop/
 [jfrazelle]: https://github.com/jfrazelle
