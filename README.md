@@ -426,6 +426,7 @@ Securely store your Docker images.
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 * [GitLab Container Registry](http://docs.gitlab.com/ce/container_registry/README.html) - Repositories focused on using it images in GitLab CI
+* [TreeScale](https://treescale.com/) - Build and Distriubute container based applicaitons.
 
 ## Hosting for containers
 
