@@ -679,6 +679,7 @@ desktop!
 * [YLD](https://twitter.com/YLDio)
 * [The New Stack](https://twitter.com/thenewstack)
 * [Docker News](https://twitter.com/dockernews)
+* [Docker Captains Twitter List](https://twitter.com/EltonStoneman/lists/docker-captains)
 
 ## People
 
@@ -689,6 +690,7 @@ desktop!
 * [James Turnbull][kartar] Author of Docker Book
 * [Jeff Lindsay](https://twitter.com/progrium) Design-minded software architect
 * [Jessie Frazelle](https://twitter.com/jessfraz) Ex-@docker maintainer and uses full containerized desktop, lots of fun.
+* [Docker Captains](https://www.docker.com/community/docker-captains) - Docker experts and community leaders
 
 [blockbridge]: https://github.com/blockbridge
 [weave]: https://github.com/weaveworks/weave
