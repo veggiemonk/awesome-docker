@@ -573,6 +573,7 @@ desktop!
 
 ## PaaS
 
+* [Atlantis](https://github.com/ooyala/atlantis) - Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go
 * [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
 * [Dokku][dokku] (Docker powered mini-Heroku in around 100 lines of Bash) by [@progrium][progrium]
 * [Empire](https://github.com/remind101/empire): A PaaS built on top of Amazon EC2 Container Service (ECS)
