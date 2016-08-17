@@ -244,7 +244,6 @@ by [@prologic][prologic]
 * [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](http://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
 * [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
 * [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
-* [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/) (written 5 MAY 2015)
 * [Docker Security Cheat Sheet] (https://github.com/konstruktoid/Docker/blob/master/Security/CheatSheet.adoc)
 * [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
 * [Improving Docker Security with Authenticated Volumes](https://www.blockbridge.com/improving-docker-security-with-authenticated-volumes/)
