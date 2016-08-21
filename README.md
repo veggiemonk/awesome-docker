@@ -389,7 +389,6 @@ by [@prologic][prologic]
 * [Docker Volume Clone Utility](https://github.com/gdiepen/docker-convenience-scripts) - A Docker Utility to Clone Volumes [@gdiepen](https://twitter.com/gdiepen)
 * [docker-companion](https://github.com/mudler/docker-companion) - A command line tool written in Golang to squash and unpack docker images by [@mudler](https://github.com/mudler/)
 * [sbt-docker-compose](https://github.com/Tapad/sbt-docker-compose) - Integrates Docker Compose functionality into sbt by [@kurtkopchik](https://github.com/kurtkopchik/)
-* [docker-gulp-seed](https://github.com/cauealves/docker-gulp-seed) - This project is a skeleton for make a simple way to run tasks of Gulp inside a container.
 * [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies.
 * [docker-make](https://github.com/CtripCloud/docker-make) - build,tag,and push a bunch of related docker images via a single command.
 
@@ -743,7 +742,7 @@ desktop!
 [sebgoa]: https://twitter.com/sebgoa
 [kartar]: https://twitter.com/kartar
 [docker-compose]: https://docs.docker.com/compose/
-[containership]: https://containership.io
+[containership]: http://containership.io
 [rancher]: https://github.com/rancher
 [ramitsurana]: https://github.com/ramitsurana
 [vegasbrianc]: https://github.com/vegasbrianc
