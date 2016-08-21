@@ -742,7 +742,7 @@ desktop!
 [sebgoa]: https://twitter.com/sebgoa
 [kartar]: https://twitter.com/kartar
 [docker-compose]: https://docs.docker.com/compose/
-[containership]: http://containership.io
+[containership]: https://containership.io
 [rancher]: https://github.com/rancher
 [ramitsurana]: https://github.com/ramitsurana
 [vegasbrianc]: https://github.com/vegasbrianc
