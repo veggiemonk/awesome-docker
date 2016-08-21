@@ -391,6 +391,7 @@ by [@prologic][prologic]
 * [sbt-docker-compose](https://github.com/Tapad/sbt-docker-compose) - Integrates Docker Compose functionality into sbt by [@kurtkopchik](https://github.com/kurtkopchik/)
 * [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies.
 * [docker-make](https://github.com/CtripCloud/docker-make) - build,tag,and push a bunch of related docker images via a single command.
+* [caduc](https://github.com/tjamet/caduc) - A docker garbage collector cleaning stuff you did not use recently
 
 ## Continuous Integration / Continuous Delivery
 
