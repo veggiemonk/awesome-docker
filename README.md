@@ -392,6 +392,7 @@ by [@prologic][prologic]
 * [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies.
 * [docker-make](https://github.com/CtripCloud/docker-make) - build,tag,and push a bunch of related docker images via a single command.
 * [caduc](https://github.com/tjamet/caduc) - A docker garbage collector cleaning stuff you did not use recently
+* [OctoLinker](https://github.com/OctoLinker/browser-extension) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
 
 ## Continuous Integration / Continuous Delivery
 
