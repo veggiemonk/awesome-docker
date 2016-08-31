@@ -393,6 +393,7 @@ by [@prologic][prologic]
 * [docker-make](https://github.com/CtripCloud/docker-make) - build,tag,and push a bunch of related docker images via a single command.
 * [caduc](https://github.com/tjamet/caduc) - A docker garbage collector cleaning stuff you did not use recently
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
+* [docker-replay](https://github.com/bcicen/docker-replay) Generate `docker run`command and options from running containers
 
 ## Continuous Integration / Continuous Delivery
 
