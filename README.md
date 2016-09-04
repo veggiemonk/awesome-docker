@@ -395,6 +395,7 @@ by [@prologic][prologic]
 * [caduc](https://github.com/tjamet/caduc) - A docker garbage collector cleaning stuff you did not use recently
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
 * [docker-replay](https://github.com/bcicen/docker-replay) Generate `docker run`command and options from running containers
+* [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
 
 ## Continuous Integration / Continuous Delivery
 
