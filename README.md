@@ -78,7 +78,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 	- [Volume management and plugins](#volume-management-and-plugins)
 	- [Useful Images](#useful-images)
 	- [Dockerfile](#dockerfile)
-	- [Storing Images](#storing-images)
+	- [Storing Images and Registries](#storing-images-and-registries)
 	- [Monitoring](#monitoring)
 	- [Networking](#networking)
 	- [Logging](#logging)
@@ -524,11 +524,12 @@ Securely store your Docker images.
 * [Dockerfile @jfrazelle][jfrazelledockerfiles] by [@jfrazelle][jfrazelle] **MUST SEE** for a fully containerized
 desktop!
 
-## Storing Images
+## Storing Images and Registries
 
 * [Docker Registry v2][distribution] (The Docker toolset to pack, ship, store, and deliver content)
 * [Rescoyl](https://github.com/noteed/rescoyl) (Private Docker registry) by [@noteed][noteed]
 * [Atomic Registry](http://www.projectatomic.io/registry/) Red Hat Atomic Registry is an open source enterprise registry based on the Origin and Cockpit projects, enhancing the Docker registry library.
+* [VMWare Harbor](http://vmware.github.io/harbor/) Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.
 
 ## Monitoring
 
