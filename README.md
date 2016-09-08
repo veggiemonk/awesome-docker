@@ -771,7 +771,7 @@ desktop!
 * [Docker On Line Meetup](http://www.meetup.com/Docker-Online-Meetup/)
 * [Docker Regional Meetup List](https://www.docker.com/community/meetup-groups)
 
-## Othe Brazilian Channels
+## Other Brazilian Channels
 
 * [Docker BR on Telegram](https://telegram.me/dockerbr)
 * [Docker BR on Slack](http://docker-br.herokuapp.com) - Auto invite url
