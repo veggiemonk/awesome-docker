@@ -65,6 +65,10 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 	- [Raspberry Pi & ARM](#raspberry-pi--arm)
 	- [Other](#other)
 - [Books](#books)
+	- [In english](#in-english)
+	- [Chinese](#chinese)
+	- [German](#german)
+	- [Portuguese](#portuguese)
 - [Tools](#tools)
 	- [Terminal User Interface](#terminal-user-interface)
 	- [Dev Tools](#dev-tools)
@@ -95,6 +99,9 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 - [Interactive Learning Environments](#interactive-learning-environments)
 - [Interesting Twitter Accounts](#interesting-twitter-accounts)
 	- [People](#people)
+- [Communities and Meetups](#communities-and-meetups)
+	- [Channels](#channels)
+	- [Meetups](#meetups)
 
 
 # Useful Articles
