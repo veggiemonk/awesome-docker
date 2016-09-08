@@ -396,6 +396,7 @@ by [@prologic][prologic]
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
 * [docker-replay](https://github.com/bcicen/docker-replay) Generate `docker run`command and options from running containers
 * [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
+* [Docker-sync](http://docker-sync.io/) - Tool from [@EugenMayer](https://github.com/EugenMayer) to improve performance when using Docker on Mac OS X and your volume has several folders and files like gulp projects for instance.
 
 ## Continuous Integration / Continuous Delivery
 
@@ -487,7 +488,9 @@ Securely store your Docker images.
 * [Dusty](http://dusty.gc.com/) - Managed Docker development environments on OS X
 * [Beluga](https://github.com/cortexmedia/Beluga) - CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
 * [libcompose](https://github.com/docker/libcompose) - Go library for Docker Compose.
+* [Dinghy](https://github.com/codekitchen/dinghy) - An alternative way to use Docker on Mac OS X using Docker Machine with virtualbox, vmware, xhyve or parallels
 * [DLite](https://github.com/nlf/dlite) - Simplest way to use Docker on OSX, no VM needed. By [@nlf](https://github.com/nlf)
+
 * [Azk](http://www.azk.io/) - Orchestrate development enviornments on your local machine by [@azukiapp](https://github.com/azukiapp)
 * [Turbo](https://ramitsurana.github.io/turbo/) - Simple and Powerful utility for docker. By [@ramitsurana][ramitsurana]
 
