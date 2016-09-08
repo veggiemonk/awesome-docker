@@ -311,7 +311,7 @@ by [@prologic][prologic]
 
 * [Containers com Docker do desenvolvimento à produção](https://www.casadocodigo.com.br/products/livro-docker) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
 * [Aprendendo Docker: Do básico à orquestração de contêineres](http://aprendendodocker.com.br/) by Wellington F. Silva ([@_wsilva](https://twitter.com/_wsilva)) (Publisher: Editora Novatec)
-* [Docker para Desenvolvedores](https://leanpub.com/dockerparadesenvolvedores) by Rafael Gomes ([@kelseyhightower](https://twitter.com/gomex)) (Publisher: Leanpub) - 55% finished
+* [Docker para Desenvolvedores](https://leanpub.com/dockerparadesenvolvedores) by Rafael Gomes ([@gomex](https://twitter.com/gomex)) (Publisher: Leanpub) - 80% finished
 
 
 # Tools
