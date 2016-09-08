@@ -65,6 +65,10 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 	- [Raspberry Pi & ARM](#raspberry-pi--arm)
 	- [Other](#other)
 - [Books](#books)
+	- [In english](#in-english)
+	- [Chinese](#chinese)
+	- [German](#german)
+	- [Portuguese](#portuguese)
 - [Tools](#tools)
 	- [Terminal User Interface](#terminal-user-interface)
 	- [Dev Tools](#dev-tools)
@@ -95,6 +99,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 - [Interactive Learning Environments](#interactive-learning-environments)
 - [Interesting Twitter Accounts](#interesting-twitter-accounts)
 	- [People](#people)
+- [Communities and Meetups](#communities-and-meetups)
 
 
 # Useful Articles
@@ -311,7 +316,7 @@ by [@prologic][prologic]
 
 * [Containers com Docker do desenvolvimento à produção](https://www.casadocodigo.com.br/products/livro-docker) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
 * [Aprendendo Docker: Do básico à orquestração de contêineres](http://aprendendodocker.com.br/) by Wellington F. Silva ([@_wsilva](https://twitter.com/_wsilva)) (Publisher: Editora Novatec)
-* [Docker para Desenvolvedores](https://leanpub.com/dockerparadesenvolvedores) by Rafael Gomes ([@kelseyhightower](https://twitter.com/gomex)) (Publisher: Leanpub) - 55% finished
+* [Docker para Desenvolvedores](https://leanpub.com/dockerparadesenvolvedores) by Rafael Gomes ([@gomex](https://twitter.com/gomex)) (Publisher: Leanpub) - 80% finished
 
 
 # Tools
@@ -396,6 +401,7 @@ by [@prologic][prologic]
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
 * [docker-replay](https://github.com/bcicen/docker-replay) Generate `docker run`command and options from running containers
 * [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
+* [Docker-sync](http://docker-sync.io/) - Tool from [@EugenMayer](https://github.com/EugenMayer) to improve performance when using Docker on Mac OS X and your volume has several folders and files like gulp projects for instance.
 
 ## Continuous Integration / Continuous Delivery
 
@@ -433,6 +439,7 @@ Securely store your Docker images.
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 * [GitLab Container Registry](http://docs.gitlab.com/ce/container_registry/README.html) - Repositories focused on using it images in GitLab CI
 * [TreeScale](https://treescale.com/) - Build and Distriubute container based applicaitons.
+* [Compose Registry](https://www.composeregistry.com/) - Project from [@francescou]Francesco Uliana that stores docker-compose.yml files with stack examples like LAMP/LEMP stacks, Django stacks, Flask stacks and ELK stacks for instance.
 
 ## Hosting for containers
 
@@ -486,7 +493,9 @@ Securely store your Docker images.
 * [Dusty](http://dusty.gc.com/) - Managed Docker development environments on OS X
 * [Beluga](https://github.com/cortexmedia/Beluga) - CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
 * [libcompose](https://github.com/docker/libcompose) - Go library for Docker Compose.
+* [Dinghy](https://github.com/codekitchen/dinghy) - An alternative way to use Docker on Mac OS X using Docker Machine with virtualbox, vmware, xhyve or parallels
 * [DLite](https://github.com/nlf/dlite) - Simplest way to use Docker on OSX, no VM needed. By [@nlf](https://github.com/nlf)
+
 * [Azk](http://www.azk.io/) - Orchestrate development enviornments on your local machine by [@azukiapp](https://github.com/azukiapp)
 * [Turbo](https://ramitsurana.github.io/turbo/) - Simple and Powerful utility for docker. By [@ramitsurana][ramitsurana]
 
@@ -755,3 +764,14 @@ desktop!
 [rancher]: https://github.com/rancher
 [ramitsurana]: https://github.com/ramitsurana
 [vegasbrianc]: https://github.com/vegasbrianc
+
+# Communities and Meetups
+
+* [Docker Community](https://www.docker.com/docker-community)
+* [Docker On Line Meetup](http://www.meetup.com/Docker-Online-Meetup/)
+* [Docker Regional Meetup List](https://www.docker.com/community/meetup-groups)
+
+## Othe Brazilian Channels
+
+* [Docker BR on Telegram](https://telegram.me/dockerbr)
+* [Docker BR on Slack](http://docker-br.herokuapp.com) - Auto invite url
