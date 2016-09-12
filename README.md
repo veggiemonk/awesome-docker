@@ -438,7 +438,7 @@ by [@prologic][prologic]
 Securely store your Docker images.
 * [Docker Hub](https://hub.docker.com/) (provided by Docker Inc.)
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
-* [GitLab Container Registry](http://docs.gitlab.com/ce/container_registry/README.html) - Repositories focused on using it images in GitLab CI
+* [GitLab Container Registry](https://docs.gitlab.com/ce/container_registry/README.html) - Repositories focused on using it images in GitLab CI
 * [TreeScale](https://treescale.com/) - Build and Distriubute container based applicaitons.
 * [Compose Registry](https://www.composeregistry.com/) - Project from [@francescou]Francesco Uliana that stores docker-compose.yml files with stack examples like LAMP/LEMP stacks, Django stacks, Flask stacks and ELK stacks for instance.
 
@@ -607,7 +607,6 @@ desktop!
 * [autodock](https://github.com/prologic/autodock) (Daemon for Docker Automation) by [@prologic][prologic]
 * [blimp](https://github.com/tubesandlube/blimp) Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 * [Capitan] (https://github.com/byrnedo/capitan) Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
-* [Citadel](https://github.com/citadel/citadel) (Citadel is a toolkit for scheduling containers on a Docker cluster) (unmaintained)
 * [CloudSlang](http://www.cloudslang.io/) (CloudSlang is a workflow engine to create Docker process automation)
 * [ContainerShip](https://github.com/containership/containership) (A simple container management platform) -- [containership]
 * [CoreOS][coreos] (Linux for Massive Server Deployments) -- https://coreos.com/
