@@ -482,7 +482,6 @@ Securely store your Docker images.
 
 ## Local Container Manager
 
-* [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services.
 * [Shutit](http://ianmiell.github.io/shutit/) - Tool for building and maintaining complex Docker deployments by
 [@ianmiell][ianmiell]
 * [FuGu](https://github.com/mattes/fugu) - Docker run wrapper without orchestration by [@mattes](https://github.com/mattes)
@@ -587,7 +586,6 @@ desktop!
 
 ## Deployment and Infrastructure
 
-* [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services.
 * [Centurion](https://github.com/newrelic/centurion): Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings. By [@newrelic](https://github.com/newrelic)
 * [Clocker](https://github.com/brooklyncentral/clocker): Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts, on both Docker and Marathon. It leverages [Calico][calico] and [Weave][weave] for networking and [Brooklyn][brooklyn] for application blueprints. By [@brooklyncentral](https://github.com/brooklyncentral)
 * [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
@@ -598,7 +596,6 @@ desktop!
 
 ## PaaS
 
-* [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services.
 * [Atlantis](https://github.com/ooyala/atlantis) - Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go
 * [Deis](https://github.com/deis/deis) (Your PaaS, your rules) -- http://deis.io/
 * [Dokku][dokku] (Docker powered mini-Heroku in around 100 lines of Bash) by [@progrium][progrium]
@@ -612,7 +609,6 @@ desktop!
 
 ## Remote Container Manager / Orchestration
 
-* [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services.
 * [autodock](https://github.com/prologic/autodock) (Daemon for Docker Automation) by [@prologic][prologic]
 * [blimp](https://github.com/tubesandlube/blimp) Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 * [Capitan] (https://github.com/byrnedo/capitan) Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
