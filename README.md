@@ -455,6 +455,7 @@ Securely store your Docker images.
 * [OpenShift Dedicated](https://www.openshift.com/dedicated/index.html) - A hosted [OpenShift][openshift] cluster for running your Docker containers managed by Red Hat.
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
+* [Hyper_](https://hyper.sh/) - Secure container hosting service with "nano-containers" and per-second billing.
 
 ## Reverse Proxy
 
