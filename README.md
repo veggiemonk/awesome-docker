@@ -426,6 +426,7 @@ by [@prologic][prologic]
 [@CenturyLinkLabs][CenturyLinkLabs]
 * [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - Continuous deployment of a microservices application
 * [Pumba](https://github.com/gaia-adm/pumba) - Chaos testing tool for Docker. Can be deployed on Kubernets and CoreOS clusters.
+* [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository by [@Stratoscale](https://github.com/Stratoscale)
 
 ## Deployment
 
