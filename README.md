@@ -83,6 +83,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 	- [Volume management and plugins](#volume-management-and-plugins)
 	- [Useful Images](#useful-images)
 	- [Dockerfile](#dockerfile)
+	- [Docker Compose file](#docker-compose-file)
 	- [Storing Images and Registries](#storing-images-and-registries)
 	- [Monitoring](#monitoring)
 	- [Networking](#networking)
@@ -541,6 +542,10 @@ Securely store your Docker images.
 * [Dockerfile Example 2](https://github.com/kstaken/dockerfile-examples) by [@kstaken](https://github.com/kstaken)
 * [Dockerfile @jfrazelle][jfrazelledockerfiles] by [@jfrazelle][jfrazelle] **MUST SEE** for a fully containerized
 desktop!
+
+## Docker Compose file
+
+* [Docker Compose Example](https://github.com/llitfkitfk/docker-compose-demo) by [@llitfkitfk](https://github.com/llitfkitfk)
 
 ## Storing Images and Registries
 
