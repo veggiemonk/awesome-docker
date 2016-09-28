@@ -83,6 +83,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 	- [Volume management and plugins](#volume-management-and-plugins)
 	- [Useful Images](#useful-images)
 	- [Dockerfile](#dockerfile)
+	- [Docker Compose file](#docker-compose-file)
 	- [Storing Images and Registries](#storing-images-and-registries)
 	- [Monitoring](#monitoring)
 	- [Networking](#networking)
