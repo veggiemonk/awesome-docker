@@ -542,6 +542,10 @@ Securely store your Docker images.
 * [Dockerfile @jfrazelle][jfrazelledockerfiles] by [@jfrazelle][jfrazelle] **MUST SEE** for a fully containerized
 desktop!
 
+## Docker Compose file
+
+* [Docker Compose Example](https://github.com/llitfkitfk/docker-compose-demo) by [@llitfkitfk][llitfkitfk]
+
 ## Storing Images and Registries
 
 * [Docker Registry v2][distribution] (The Docker toolset to pack, ship, store, and deliver content)
