@@ -544,7 +544,7 @@ desktop!
 
 ## Docker Compose file
 
-* [Docker Compose Example](https://github.com/llitfkitfk/docker-compose-demo) by [@llitfkitfk][llitfkitfk]
+* [Docker Compose Example](https://github.com/llitfkitfk/docker-compose-demo) by [@llitfkitfk](https://github.com/llitfkitfk)
 
 ## Storing Images and Registries
 
