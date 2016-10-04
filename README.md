@@ -745,8 +745,8 @@ desktop!
 [projwebdev]: http://project-webdev.blogspot.de
 [jessblog]: https://blog.jessfraz.com/post/docker-containers-on-the-desktop/
 [jfrazelle]: https://github.com/jfrazelle
-[jfrazelledotfiles]: https://github.com/jfrazelle/dotfiles
-[jfrazelledockerfiles]: https://github.com/jfrazelle/dockerfiles
+[jfrazelledotfiles]: https://github.com/jessfraz/dotfiles
+[jfrazelledockerfiles]: https://github.com/jessfraz/dockerfiles
 [jessvid]: https://www.youtube.com/watch?v=1qlLUf7KtAw
 [progrium]: https://github.com/progrium
 [jwilder]: https://github.com/jwilder
