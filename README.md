@@ -616,6 +616,7 @@ desktop!
 * [Convox Rack] (https://github.com/convox/rack): Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 * [Rancher][rancher]: Rancher is an open source project that provides a complete platform for operating Docker in production
 * [Dcw](https://github.com/pbertera/dcw): Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels. 
+* [Dockhero](https://dockhero.io/): Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
 
 ## Remote Container Manager / Orchestration
 
