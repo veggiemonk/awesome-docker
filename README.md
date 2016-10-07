@@ -542,6 +542,7 @@ Securely store your Docker images.
 * [Dockerfile Example 2](https://github.com/kstaken/dockerfile-examples) by [@kstaken](https://github.com/kstaken)
 * [Dockerfile @jfrazelle][jfrazelledockerfiles] by [@jfrazelle][jfrazelle] **MUST SEE** for a fully containerized
 desktop!
+* [Vektorcloud](https://github.com/vektorcloud) (A collection of minimal, Alpine-based Docker images)
 
 ## Docker Compose file
 
