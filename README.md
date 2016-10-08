@@ -363,7 +363,6 @@ by [@prologic][prologic]
 * [container-factory](https://github.com/lsqio/container-factory) - Produces Docker images from tarballs of application source code by [@lsqio](https://github.com/lsqio)
 * [codelift](https://codelift.io/) - CodeLift is an automated Docker image build utility for 'dockerizing' services by [@BoozAllen](https://twitter.com/BoozAllen)
 * [percheron][percheron] - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
-* [crane](https://github.com/michaelsauter/crane) - Lift containers with ease. Easy orchestration for images and containers by [@michaelsauter](https://github.com/michaelsauter)
 * [sherdock](https://github.com/rancher/sherdock) - Automatic GC of images based on regexp by [@rancher][rancher]
 * [bocker](https://github.com/p8952/bocker) (1) - Docker implemented in 100 lines of bash by [p8952](https://github.com/p8952)
 * [bocker](https://github.com/icy/bocker) (2) - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
