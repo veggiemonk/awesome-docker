@@ -216,7 +216,6 @@ by [@prologic][prologic]
 * [Docker Team](https://www.docker.com/)
 * [CenturyLink Labs](https://labs.ctl.io/)
 * [Tutum](https://dashboard.tutum.co/)
-* [DevOps Weekly](http://www.devopsweekly.com)
 * [Shippable](http://blog.shippable.com/)
 * [WebOps weekly](http://webopsweekly.com/)
 
