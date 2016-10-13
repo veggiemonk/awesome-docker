@@ -180,6 +180,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 
 ## Metal
 * [How to use Docker on Full Metal](http://blog.bigstep.com/use-docker-full-metal-cloud/)
+* [CargoOS](https://cargos.io/) A bare essential OS for running the Docker Engine on bare metal or Cloud.
 
 ## Multi-Server
 * [A Docker based mini-PaaS](http://shortcircuit.net.au/~prologic/blog/article/2015/03/24/a-docker-based-mini-paas/)
