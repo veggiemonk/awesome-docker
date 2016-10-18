@@ -132,6 +132,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Docker Containers on the desktop][jessblog] by [@jfrazelle][jfrazelle] The **funniest way** to learn
 about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerfiles][jfrazelledockerfiles]))
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
+* [4 tips for an effective Docker-based workflow](https://www.oreilly.com/ideas/4-tips-for-an-effective-docker-based-workflow) Learn how to make your CI/CD pipeline work for you.
 
 ## General Articles
 * [Getting Started with Docker](https://serversforhackers.com/getting-started-with-docker) by [@fideloper](https://github.com/fideloper) -- [Servers For Hackers](https://serversforhackers.com/editions) is valuable resource. At some point, every programmer finds themselves needing to know their way around a server.
