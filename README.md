@@ -661,6 +661,8 @@ desktop!
 * [wagl](https://github.com/ahmetalpbalkan/wagl/): Service discovery for docker swarm using DNS
 
 ## Metadata
+
+* [label-schema.org][labelschema] - a convention and shared namespace for Docker labels.
 * [MicroBadger][microbadger] - add metadata to Docker images using labels.
 
 # Slides
@@ -782,6 +784,7 @@ desktop!
 [ramitsurana]: https://github.com/ramitsurana
 [vegasbrianc]: https://github.com/vegasbrianc
 [microbadger]: https://microbadger.com
+[labelschema]: http://label-schema.org
 
 # Communities and Meetups
 
