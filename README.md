@@ -43,6 +43,16 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [How to Whale](https://howtowhale.com/) Learn Docker in your web browser, no setup or installation required.
 * [Docker for all - Developers, Testers, DevOps, Product Owners + Videos](https://github.com/machzqcq/docker-for-all) Docker Training Videos for all
 
+# Where to start - on Windows ?
+
+* [Windows Containers Quick Start](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start) Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016
+* [Build And Run Your First Docker Windows Server Container](https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/) Walkthrough installing Docker on Windows 10, building a Docker image and running a Windows container
+* Video: [Windows Containers and Docker: The 101](https://www.youtube.com/watch?v=N7SG2wEyQtM) A 20-minute overview, using Docker to run  PowerShell, ASP.NET Core and ASP.NET apps
+* [A Comparative Study of Docker Engine on Windows Server vs Linux](http://collabnix.com/archives/1965) Comparing the feature sets and implementations of Docker on Windows and Linux
+* [Docker with Microsoft SQL 2016 + ASP.NET](http://blog.alexellis.io/docker-does-sql2016-aspnet/) Demonstration running ASP.NET and SQL Server workloads in Docker
+* [Running a Legacy ASP.NET App in a Windows Container](https://blog.sixeyed.com/dockerizing-nerd-dinner-part-1-running-a-legacy-asp-net-app-in-a-windows-container/) Steps for Dockerizing a legacy ASP.NET app and runnning as a Windows container
+* [Exploring ASP.NET Core with Docker in both Linux and Windows Containers](http://www.hanselman.com/blog/ExploringASPNETCoreWithDockerInBothLinuxAndWindowsContainers.aspx) Running ASP.NET Core apps in Linux and Windows containers, using [Docker for Windows](https://docs.docker.com/docker-for-windows/)
+
 # MENU
 
 - [What is Docker ?](#what-is-docker-)
