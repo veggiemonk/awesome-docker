@@ -352,6 +352,7 @@ by [@prologic][prologic]
 
 ## Dev Tools
 
+* [funktion](https://github.com/fabric8io/funktion) - funktion is an open source lambda style event driven programming model for Kubernetes by ([@fabric8io](https://github.com/fabric8io/funktion)
 * [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services. Some useful plugins are : [php plugin](https://github.com/athena-oss/plugin-php), [selenium plugin](https://github.com/athena-oss/plugin-selenium) and [proxy plugin](https://github.com/athena-oss/plugin-proxy).
 * [draw-compose](https://github.com/Alexis-benoist/draw-compose) - Utility to draw a schema of a docker compose by [@Alexis-benoist](https://github.com/Alexis-benoist)
 * [GoSu](https://github.com/tianon/gosu) - Run this specific application as this specific user and get out of the pipeline (entrypoint script tool) by [@tianon](https://github.com/tianon)
