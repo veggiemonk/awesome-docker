@@ -655,7 +655,7 @@ desktop!
 * [Crane](https://github.com/Dataman-Cloud/crane) (Control plane based on docker built-in swarm) -- [@Dataman-Cloud](https://github.com/Dataman-Cloud)
 * [MCollective Docker Agent](https://github.com/m4ce/mcollective-docker-agent) Uses MCollective to orchestrate your Docker containers and images -- [@m4ce](https://github.com/m4ce)
 * [ElasticKube](https://github.com/ElasticBox/elastickube) open source management platform for Kubernetes.
-* [Mantl](https://github.com/ciscocloud/mantl) Mantl is a modern platform for rapidly deploying globally distributed services [@ciscocloud](http://mantl.io)
+* [Mantl](https://github.com/mantl/mantl) Mantl is a modern platform for rapidly deploying globally distributed services [@ciscocloud](http://mantl.io)
 * [Portainer](http://portainer.io/) - A lightweight management UI for managing your Docker host or Docker Swarm cluster
 
 ## Security
