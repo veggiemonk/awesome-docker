@@ -631,6 +631,7 @@ desktop!
 * [Rancher][rancher]: Rancher is an open source project that provides a complete platform for operating Docker in production
 * [Dcw](https://github.com/pbertera/dcw): Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels. 
 * [Dockhero](https://dockhero.io/): Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
+* [Iron-io Functions](https://github.com/iron-io/functions) The serverless microservices platform FaaS (Funcitons as a Service) which uses Docker containers to run Any language or AWS Lambda functions
 
 ## Remote Container Manager / Orchestration
 
