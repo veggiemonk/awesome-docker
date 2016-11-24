@@ -504,7 +504,7 @@ Securely store your Docker images.
 * [docker-vm](https://github.com/shyiko/docker-vm) - Simple and transparent alternative to boot2docker (backed by Vagrant) by [@shyiko](https://github.com/shyiko)
 * [Vessel](https://github.com/awvessel/vessel) - Automates the setup & use of dockerized development environments by [@awvessel](https://github.com/awvessel)
 * [subuser](http://subuser.org) - Makes it easy to securely and portably run graphical desktop applications in Docker
-* [OctoHost](http://www.octohost.io/) - Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
+* [OctoHost](http://octohost.io/) - Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by [@octohost](https://github.com/octohost)
 * [Dokku][dokku] - Docker powered mini-Heroku in around 100 lines of Bash by [@progrium][progrium]
 * [Ansible - manage docker containers](http://docs.ansible.com/ansible/docker_module.html)
 * [Vagrant - Docker provider](https://www.vagrantup.com/docs/docker/basics.html) - Good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example) by [@bubenkoff](https://github.com/bubenkoff)
