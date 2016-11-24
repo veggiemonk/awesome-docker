@@ -42,6 +42,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
 * [How to Whale](https://howtowhale.com/) Learn Docker in your web browser, no setup or installation required.
 * [Docker for all - Developers, Testers, DevOps, Product Owners + Videos](https://github.com/machzqcq/docker-for-all) Docker Training Videos for all
+* [Play With Docker](http://play-with-docker.com/) - A great way to get started with Docker. Docker runs directly in your browser.
 
 # Where to start - on Windows ?
 
