@@ -582,7 +582,7 @@ desktop!
 * [Glances] (http://nicolargo.github.io/glances/) (A cross-platform curses-based system monitoring tool written in Python) by [@nicolargo](https://github.com/nicolargo)
 * [InfluxDB, cAdvisor, Grafana](https://github.com/vegasbrianc/docker-monitoring) (InfluxDB Time series DB in combination with Grafana and cAdvisor) by [@vegasbrianc][vegasbrianc]
 * [Meros](https://meros.io) Analyzes containers resources, captures logs, remote web SSH terminal and powerful DevOps alerts.
-* [New Relic](https://newrelic.com/docker) New Relics Docker Monitoring tool
+* [New Relic](https://newrelic.com/partner/docker) New Relics Docker Monitoring tool
 * [Prometheus](https://prometheus.io/) (Open-source service monitoring system and time series database)
 * [Ruxit](https://www.dynatrace.com/technologies/cloud-and-microservices/docker-monitoring/) Monitor containerized applications without installing agents or modifying your Run commands
 * [Seagull](https://github.com/tobegit3hub/seagull) (Friendly Web UI to monitor docker daemon.) by [@tobegit3hub](https://github.com/tobegit3hub)
