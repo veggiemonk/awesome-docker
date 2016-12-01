@@ -103,6 +103,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 	- [PaaS](#paas)
 	- [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
 	- [Security](#security)
+	- [Serverless](#serverless)
 	- [Service Discovery](#service-discovery)
 	- [Metadata](#metadata)
 - [Slides](#slides)
@@ -633,7 +634,6 @@ desktop!
 * [Rancher][rancher]: Rancher is an open source project that provides a complete platform for operating Docker in production
 * [Dcw](https://github.com/pbertera/dcw): Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels. 
 * [Dockhero](https://dockhero.io/): Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
-* [IronFunctions](https://github.com/iron-io/functions) The serverless microservices platform FaaS (Funcitons as a Service) which uses Docker containers to run Any language or AWS Lambda functions
 
 ## Remote Container Manager / Orchestration
 
@@ -669,6 +669,12 @@ desktop!
 * [notary](https://github.com/docker/notary) a server and a client for running and interacting with trusted collections. By [@docker][docker]
 * [Twistlock](https://twistlock.com/)  Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
 * [Clair](https://github.com/coreos/clair) Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By [@coreos][CoreOS]
+
+## Serverless
+
+* [IronFunctions](https://github.com/iron-io/functions) - The serverless microservices platform FaaS (Funcitons as a Service) which uses Docker containers to run Any language or AWS Lambda functions
+* [Funker](https://github.com/bfirsh/funker-example-voting-app) - Functions as Docker containers
+* [Docker-Lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
 
 ## Service Discovery
 
