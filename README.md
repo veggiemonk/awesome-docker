@@ -462,6 +462,10 @@ Securely store your Docker images.
 * [TreeScale](https://treescale.com/) - Build and Distriubute container based applications.
 * [Compose Registry](https://www.composeregistry.com/) - Project from [@francescou]Francesco Uliana that stores docker-compose.yml files with stack examples like LAMP/LEMP stacks, Django stacks, Flask stacks and ELK stacks for instance.
 * [Container Compliance](https://github.com/OpenSCAP/container-compliance) Open Source tool for assesing running containers and cold images for vulnerabilites and audits.
+* [Private Docker Registry](https://private-docker-registry.com) Hosted registry service for companies with unlimited private repositories, users, teams and namespaces. Federeated identity with LDAP/AD/OAuth/SAML and VPN Tunneling.
+* [Azure Container Registry](https://azure.microsoft.com/de-de/services/container-registry/) Manage a Docker private registry as a first-class Azure resource
+* [GCE Container Registry](https://cloud.google.com/container-registry/) Fast, private Docker image storage on Google Cloud Platform
+* [Amazon EC2 Container Registry](https://aws.amazon.com/ecr/) Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. 
 
 ## Hosting for containers
 
