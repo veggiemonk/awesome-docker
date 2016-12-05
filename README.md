@@ -122,6 +122,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 
 * [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
+* [Docker Cheat Sheet](http://docker.jens-piegsa.com) by [@JensPiegsa][JensPiegsa]
 * [Docker Printable Refcard][docker-quick-ref] by [@dimonomid][dimonomid]
 * [CenturyLink Labs](https://labs.ctl.io/category/docker/)
 * [Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html) Very complete
@@ -814,6 +815,7 @@ desktop!
 [vegasbrianc]: https://github.com/vegasbrianc
 [microbadger]: https://microbadger.com
 [labelschema]: http://label-schema.org
+[JensPiegsa]: https://github.com/JensPiegsa
 
 # Communities and Meetups
 
