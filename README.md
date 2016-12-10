@@ -203,6 +203,7 @@ by [@prologic][prologic]
 
 ## Cloud Infrastructure
 * [Cloud Infrastructure Automation for Docker Nodes](https://blog.tutum.co/2015/04/29/cloud-infrastructure-automation-for-docker-nodes/)
+* [3 clear trends in Amazon ECS adoption and usage](https://www.datadoghq.com/blog/3-clear-trends-in-ecs-adoption/)
 
 ## Good Tips
 * [24 random docker tips](https://csabapalfi.github.io/random-docker-tips/) by [@csabapalfi](https://github.com/csabapalfi)
