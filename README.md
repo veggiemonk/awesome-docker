@@ -683,6 +683,7 @@ desktop!
 * [IronFunctions](https://github.com/iron-io/functions) - The serverless microservices platform FaaS (Funcitons as a Service) which uses Docker containers to run Any language or AWS Lambda functions
 * [Funker](https://github.com/bfirsh/funker-example-voting-app) - Functions as Docker containers
 * [Docker-Lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
+* [AMP](https://github.com/appcelerator/amp) - The open source Container-as-a-Service & microservice platform for Docker
 
 ## Service Discovery
 
