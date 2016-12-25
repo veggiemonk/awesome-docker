@@ -553,6 +553,7 @@ Securely store your Docker images.
 * [docker-fluentd][fluentd] (the Container to Log Other Containers' Logs) by [@kiyoto][kiyoto]
 * [chaperone-docker](https://github.com/garywiz/chaperone-docker) (A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.)
 * [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) (Build and run Docker containers leveraging NVIDIA GPUs.)
+* [Vektorcloud](https://github.com/vektorcloud) (A collection of minimal, Alpine-based Docker images)
 
 
 ## Dockerfile
