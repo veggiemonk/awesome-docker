@@ -276,6 +276,7 @@ by [@prologic][prologic]
 * [Performance Analysis of Docker on Red Hat Enterprise Linux 7](http://developerblog.redhat.com/2014/08/19/performance-analysis-docker-red-hat-enterprise-linux-7/)
 * [Distrubuted JMeter testing using Docker](http://srivaths.blogspot.fr/2014/08/distrubuted-jmeter-testing-using-docker.html?m=1)
 * [nsinit: per-container resource monitoring of Docker containers on RHEL/Fedora](http://www.breakage.org/2014/09/03/nsinit-per-container-resource-monitoring-of-docker-containers-on-rhelfedora/)
+* [Guide on Key Docker Performance Metrics](https://www.datadoghq.com/blog/how-to-monitor-docker-resource-metrics?ref=awesome)
 
 ## Raspberry Pi & ARM
 * [git push docker containers to linux devices](https://resin.io/) Modern DevOps for IoT, leveraging git and Docker.
