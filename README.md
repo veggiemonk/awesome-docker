@@ -75,7 +75,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 	- [Security](#security)
 	- [Service Discovery](#service-discovery)
 - [Books](#books)
-	- [In english](#in-english)
+	- [English](#in-english)
 	- [Chinese](#chinese)
 	- [German](#german)
 	- [Portuguese](#portuguese)
@@ -294,7 +294,7 @@ by [@prologic][prologic]
 
 # Books
 
-## In English
+## English
 * [Docker Book](https://dockerbook.com/) by James Turnbul ([@kartar][kartar])
 * [Docker Cookbook](http://dockercookbook.github.io/) by Neependra Khare ([@neependra](https://twitter.com/neependra)) (Publisher: Packt)
 * [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do) by Sébastien Goasguen ([@sebgoa][sebgoa]) (Publisher: O'Reilly)
