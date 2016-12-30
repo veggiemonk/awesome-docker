@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.5.4/showdown.min.js"></script>
     <script>
       const converter = new showdown.Converter();
+      converter.setFlavor('github');
       fetch('https://raw.githubusercontent.com/veggiemonk/awesome-docker/master/README.md')
       .then(res => res.text())
       .catch(err => console.error(err))
