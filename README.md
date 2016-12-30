@@ -46,7 +46,7 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 
 # Where to start - on Windows ?
 
-* [Windows Containers Quick Start](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start) Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016
+* [Windows Containers Quick Start](https://docs.microsoft.com/virtualization/windowscontainers/quick_start/quick_start) Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016
 * [Build And Run Your First Docker Windows Server Container](https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/) Walkthrough installing Docker on Windows 10, building a Docker image and running a Windows container
 * Video: [Windows Containers and Docker: The 101](https://www.youtube.com/watch?v=N7SG2wEyQtM) A 20-minute overview, using Docker to run  PowerShell, ASP.NET Core and ASP.NET apps
 * [A Comparative Study of Docker Engine on Windows Server vs Linux](http://collabnix.com/archives/1965) Comparing the feature sets and implementations of Docker on Windows and Linux
@@ -154,7 +154,6 @@ about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerf
 * [Docker for (Java) Developers](https://ro14nd.de/Docker-for-Developers)
 * [Deploying NGINX with Docker](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Eight Docker Development Patterns](http://hokstad.com/docker/patterns)
-* [Rails Development Environment for OS X using Docker](https://allenan.com/docker-rails-dev-environment-for-osx/)
 * [Logging on Docker: What You Need to Know](https://dzone.com/articles/logging-docker-what-you-need) + see the
 [video][loggingDocker] (~50min)
 * [Comparing Five Monitoring Options for Docker](http://rancher.com/comparing-monitoring-options-for-docker-deployments/)
@@ -312,7 +311,7 @@ by [@prologic][prologic]
 * [Docker Up & Running](https://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
 * [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
 * [Docker Security](https://www.openshift.com/promotions/docker-security.html) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
-* [Kubernetes](https://www.openshift.com/promotions/kubernetes.html) by [David Rensin](http://research.google.com/pubs/DavidRensin.html) (Publisher: O'Reilly)
+* [Kubernetes](https://www.openshift.com/promotions/kubernetes.html) by [David Rensin](https://research.google.com/pubs/DavidRensin.html) (Publisher: O'Reilly)
 * [Docker in Production: Lessons from the Trenches](http://www.amazon.com/Docker-Production-Trenches-Joe-Johnston-ebook/dp/B0141W6KYC) by Joe Johnston (Author), John Fiedler (Author), Milos Gajdos (Author), Antoni Batchelli (Author), Justin Cormack (Author)
 * [Mastering Docker](https://www.packtpub.com/virtualization-and-cloud/mastering-docker) by Scott Gallagher (Publisher: Packt)
 * [Learning Docker](https://www.packtpub.com/virtualization-and-cloud/learning-docker) by Pethuru Raj, Jeeva S. Chelladhurai and Vinod Singh (Publisher: Packt)
@@ -330,7 +329,7 @@ by [@prologic][prologic]
 
 ## German
 
-* [Docker: Container-Infrastruktur für Microservices](http://www.bee42.com/dockerbook/) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
+* [Docker: Container-Infrastruktur für Microservices](https://www.bee42.com/dockerbook/) by Peter Roßbach ([@PRossbach](https://twitter.com/PRossbach))
 
 ## Portuguese
 
@@ -627,7 +626,7 @@ desktop!
 * [Centurion](https://github.com/newrelic/centurion): Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings. By [@newrelic](https://github.com/newrelic)
 * [Clocker](https://github.com/brooklyncentral/clocker): Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts, on both Docker and Marathon. It leverages [Calico][calico] and [Weave][weave] for networking and [Brooklyn][brooklyn] for application blueprints. By [@brooklyncentral](https://github.com/brooklyncentral)
 * [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
-* [deploy](https://github.com/Perennials/deploy) - Git and Docker deployment tool. A middle ground between simple Docker composition tools and full blown cluster orchestration. Declarative configuration and short commands for managing (syncing, building, running) of infrastructures of more than a few services. Able to deploy whole preconfigured server or system of services with a single line (without having to scroll the line).
+* [deploy](https://github.com/ttiny/deploy) - Git and Docker deployment tool. A middle ground between simple Docker composition tools and full blown cluster orchestration. Declarative configuration and short commands for managing (syncing, building, running) of infrastructures of more than a few services. Able to deploy whole preconfigured server or system of services with a single line (without having to scroll the line).
 * [Docket](https://github.com/netvarun/docket): Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
 * [Longshoreman](https://github.com/longshoreman/longshoreman): Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool. By [longshoreman](https://github.com/longshoreman)
 
@@ -671,7 +670,7 @@ desktop!
 * [Crane](https://github.com/Dataman-Cloud/crane) (Control plane based on docker built-in swarm) -- [@Dataman-Cloud](https://github.com/Dataman-Cloud)
 * [MCollective Docker Agent](https://github.com/m4ce/mcollective-docker-agent) Uses MCollective to orchestrate your Docker containers and images -- [@m4ce](https://github.com/m4ce)
 * [ElasticKube](https://github.com/ElasticBox/elastickube) open source management platform for Kubernetes.
-* [Mantl](https://github.com/mantl/mantl) Mantl is a modern platform for rapidly deploying globally distributed services [@ciscocloud](http://mantl.io)
+* [Mantl](https://github.com/mantl/mantl) Mantl is a modern platform for rapidly deploying globally distributed services [@mantl](https://github.com/mantl/)
 * [Portainer](http://portainer.io/) - A lightweight management UI for managing your Docker host or Docker Swarm cluster
 
 ## Security
@@ -768,7 +767,7 @@ desktop!
 
 [blockbridge]: https://github.com/blockbridge
 [weave]: https://github.com/weaveworks/weave
-[calico]: https://github.com/projectcalico/calico-containers
+[calico]: https://github.com/projectcalico/calicoctl
 [brooklyn]: http://brooklyn.apache.org/
 [kubernetes]: http://kubernetes.io
 [openshift]: https://www.openshift.org/
@@ -826,7 +825,7 @@ desktop!
 # Communities and Meetups
 
 * [Docker Community](https://www.docker.com/docker-community)
-* [Docker On Line Meetup](http://www.meetup.com/Docker-Online-Meetup/)
+* [Docker On Line Meetup](https://www.meetup.com/Docker-Online-Meetup/)
 * [Docker Regional Meetup List](https://www.docker.com/community/meetup-groups)
 
 ## Other Brazilian Channels
