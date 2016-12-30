@@ -7,17 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="/awesome-docker/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.1/fetch.min.js"></script>
-    <script src="showdown.min.js"></script>
+    <!--<script src="showdown.min.js"></script>-->
+    <script src="/awesome-docker/showdown.min.js"></script>
     <script>
       const converter = new showdown.Converter();
       converter.setFlavor('github');
       converter.setOption('prefixHeaderId', false);
       converter.setOption('simplifiedAutoLink', true);
       converter.setOption('headerReplace', '-');
-      // fetch('https://raw.githubusercontent.com/veggiemonk/awesome-docker/master/README.md')
-      fetch('/README.md')
+      fetch('https://raw.githubusercontent.com/veggiemonk/awesome-docker/master/README.md')
+      //fetch('/README.md')
       .then(res => res.text())
       .catch(err => console.error(err))
       .then( text => {
