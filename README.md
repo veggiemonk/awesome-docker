@@ -164,6 +164,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Logging on Docker: What You Need to Know](https://dzone.com/articles/logging-docker-what-you-need) + see the [video][loggingDocker] (~50min)
 * [Make better software with Docker](https://www.shivering-isles.com/how-docker-helps-to-create-better-software/) A short article about how docker changes the way of writing software. And provide an easy way to convert from a monolite application to a microserviced application
 * [Minimalistic data-only container for Docker Compose](http://dockermeetupsinbordeaux.github.io/docker-compose/data-container/2015/03/01/minimalistic-docker-data-container.html) (Written Mar 1, 2015)
+* [Node.js in Containers Using Docker](https://medium.com/software-engineering/node-js-in-containers-using-docker-48649e4a9d67) Good introduction to `docker` and `docker-compose` (Written Jan, 2017)
 * [Running Docker Containers with Systemd](http://container-solutions.com/running-docker-containers-with-systemd/)
 * [Swarm v. Fleet v. Kubernetes v. Mesos](https://www.oreilly.com/ideas/swarm-v-fleet-v-kubernetes-v-mesos) Comparing different orchestration tools. (written OCT 2015)
 * [The Shortlist of Docker Hosting](https://blog.codeship.com/the-shortlist-of-docker-hosting) There are so many specialized and optimized Docker hosting services available, it’s high time for a review to see what’s on offer (by Chris Ward).
