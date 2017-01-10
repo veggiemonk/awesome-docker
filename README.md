@@ -709,7 +709,6 @@ Securely store your Docker images.
 * [OpenShift by Red Hat](https://twitter.com/openshift)
 * [Project Atomic](https://twitter.com/ProjectAtomic)
 * [The New Stack](https://twitter.com/thenewstack)
-* [TutumCloud](https://twitter.com/tutumcloud)
 * [YLD](https://twitter.com/YLDio)
 
 ## People
