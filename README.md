@@ -118,6 +118,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 ## Main Resources
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
+* [Blog](http://blog.arungupta.me/) of [@arun-gupta](https://github.com/arun-gupta)
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
 * [Blog](http://gliderlabs.com/devlog/) of [@gliderlabs][gliderlabs]
 * [Blog](http://jasonwilder.com/) of [@jwilder][jwilder]
