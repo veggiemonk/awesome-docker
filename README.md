@@ -292,6 +292,7 @@ by [@prologic][prologic]
  * [Vidéo](https://www.youtube.com/watch?v=4uQ6gR_xZhE)
  * [Code source](https://github.com/goldmann/goldmann.pl/tree/master/.presentations/2014-vjbug-docker/demos)
  * [JBoss and Docker Presentation](https://goldmann.pl/presentations/2014-vjbug-docker/ )
+* [ImageLayers](https://imagelayers.io/) - Visualize Docker Images and the layers that compose them.
 
 # Books
 
