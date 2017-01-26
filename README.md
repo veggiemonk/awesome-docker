@@ -793,4 +793,3 @@ by [@prologic][prologic]
 [vimagick]: https://github.com/vimagick
 [weave]: https://github.com/weaveworks/weave
 [wsargent]: https://github.com/wsargent
-
