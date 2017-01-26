@@ -774,8 +774,10 @@ Securely store your Docker images.
 [microbadger]: https://microbadger.com
 [nginxproxy]: https://github.com/jwilder/nginx-proxy
 [noteed]: https://github.com/noteed
+[ondrejmo]: https://github.com/ondrejmo
 [openshift]: https://www.openshift.org/
 [panamax.io]: http://panamax.io/
+[pandrew]: https://github.com/pandrew
 [percheron]: https://github.com/ashmckenzie/percheron
 [progrium]: https://github.com/progrium
 [projwebdev]: http://project-webdev.blogspot.de
@@ -787,6 +789,7 @@ Securely store your Docker images.
 [sindresorhus]: https://github.com/sindresorhus/awesome
 [spm]: https://github.com/sematext/sematext-agent-docker
 [vegasbrianc]: https://github.com/vegasbrianc
+[vimagick]: https://github.com/vimagick
 [weave]: https://github.com/weaveworks/weave
 [wsargent]: https://github.com/wsargent
 
