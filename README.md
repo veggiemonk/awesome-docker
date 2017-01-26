@@ -220,7 +220,7 @@ by [@prologic][prologic]
 * [Production Meteor and Node Using Docker, Part I](https://projectricochet.com/blog/production-meteor-and-node-using-docker-part-i) by [@projectricochet](https://github.com/projectricochet)
 * [Pulling Git into a Docker image without leaving SSH keys behind](http://blog.cloud66.com/pulling-git-into-a-docker-image-without-leaving-ssh-keys-behind/) by [@khash](https://github.com/khash)
 * [Resource Management in Docker](https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/) by [@marekgoldmann](https://twitter.com/marekgoldmann)
-* [Running Production Hadoop Clusters in Docker Containers](http://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
+* [Running Production Hadoop Clusters in Docker Containers](https://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
 * [Using NSEnter with Boot2Docker](https://ro14nd.de/NSEnter-with-Boot2Docker)
 
 ## Newsletter
@@ -419,7 +419,7 @@ by [@prologic][prologic]
 * [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur)
 * [CircleCI](https://circleci.com/) - Push or pull Docker images from your build environment, or build and run containers right on CircleCI.
 * [CodeFresh](https://codefresh.io) - Accelerate your transition to Docker containers
-* [CodeShip](https://pages.codeship.com/docker) - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
+* [CodeShip](https://pages.codeship.com/features/pro) - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
 * [Cyclone](https://github.com/caicloud/cyclone) - A cloud native CI/CD platform built for container workflow by [@caicloud](https://github.com/caicloud).
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 * [Dockunit](https://github.com/dockunit/platform) - Docker based integration tests. A simple Node based utility for running Docker based unit tests. By [@dockunit](https://github.com/dockunit)
@@ -434,7 +434,7 @@ by [@prologic][prologic]
 * [Shippable](https://app.shippable.com/) - A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production.
 * [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository by [@Stratoscale](https://github.com/Stratoscale)
 * [SwarmCI](https://github.com/ghostsquad/swarmci) - Create a distributed, isolated task pipeline in your Docker Swarm.
-* [Watchtower](https://github.com/CenturyLinkLabs/watchtower) - Automatically update running Docker containers by [@CenturyLinkLabs][CenturyLinkLabs]
+* [Watchtower](https://github.com/v2tec/watchtower) - Automatically update running Docker containers by [@CenturyLinkLabs][CenturyLinkLabs]
 
 ## Deployment
 * [Conduit](https://github.com/ehazlett/conduit) - Experimental deployment system for Docker by [@ehazlett](https://github.com/ehazlett)
@@ -565,7 +565,7 @@ Securely store your Docker images.
 * [Dockerana](https://github.com/dockerana/dockerana) - packaged version of Graphite and Grafana, specifically targeted at metrics from Docker.
 * [DoMonit](https://github.com/eon01/DoMonit) - A simple Docker Monitoring wrapper For Docker API
 * [Dynatrace](https://www.dynatrace.com/technologies/cloud-and-microservices/docker-monitoring/) - Monitor containerized applications without installing agents or modifying your Run commands
-* [Glances](http://nicolargo.github.io/glances/) - A cross-platform curses-based system monitoring tool written in Python by [@nicolargo](https://github.com/nicolargo)
+* [Glances](https://nicolargo.github.io/glances/) - A cross-platform curses-based system monitoring tool written in Python by [@nicolargo](https://github.com/nicolargo)
 * [Grafana Docker Dashboard Template](https://grafana.net/dashboards/179) - A template for your Docker, Grafana and Prometheus stack [@vegasbrianc][vegasbrianc]
 * [InfluxDB, cAdvisor, Grafana](https://github.com/vegasbrianc/docker-monitoring) - InfluxDB Time series DB in combination with Grafana and cAdvisor by [@vegasbrianc][vegasbrianc]
 * [Meros](https://meros.io) - Analyzes containers resources, captures logs, remote web SSH terminal and powerful DevOps alerts.
@@ -768,7 +768,7 @@ Securely store your Docker images.
 [jwilder]: https://github.com/jwilder
 [kartar]: https://twitter.com/kartar
 [kiyoto]: https://github.com/kiyoto
-[kubernetes]: http://kubernetes.io
+[kubernetes]: https://kubernetes.io
 [labelschema]: http://label-schema.org
 [loggingDocker]: https://vimeo.com/123341629
 [microbadger]: https://microbadger.com
