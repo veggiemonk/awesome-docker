@@ -2,45 +2,53 @@ We appreciate and recognize [all contributors](https://github.com/veggiemonk/awe
 
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/sindresorhus/awesome/blob/master/code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
+# Table of Contents
+
+- [Awesome Docker contribution guidelines](#contribution-guidelines)
+- [Quality Standard](#quality-standard)
+- [Adding to this list](#adding-to-this-list)
+- [Creating your own awesome list](#creating-your-own-awesome-list)
+- [Adding something to an awesome list](#adding-something-to-an-awesome-list)
+- [Updating your Pull Request](#updating-your-pull-request)
+
 # Contribution Guidelines
 
-- **To add to the list:** Submit a pull request
+(your commit message will be a tweet, keep that in mind :)
+
+- **To add to the list:** Submit a pull request 
 - **To remove from the list:** Submit a pull request
 - want to change something: Submit a pull request
 - want to try something else: Submit a pull request
-- don't know what to do: Submit a pull request
+- don't know what to do: Submit a pull request or open an issue, let us know what's going on.
 
-`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources. I don't feel it should be constraint to docker only resources, so feel free to add other resources about container or deployment in general. It would be nice if it is related or compatible with docker in some way. But if it's awesome, OK!
+`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources. It would be nice if it is related or compatible with docker in some way. But if it's awesome, let's us know why and you're on!
 
-- Each item should be limited to one link
+- Each item should be limited to one link, no duplicates, no redirection (careful with `http` vs `https`!)
 - The link should be the name of the package or project or website
-- Descriptions should be clear and concise (read it out loud to be sure)
-- Descriptions should follow the link, on the same line
+- Description should be clear and concise (read it out loud to be sure)
+- Description should follow the link, on the same line
 - if you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
 
-## Quality standard
+# Quality standard
+
+Note that we can help you achieve those standards, just try your best, be brave. 
+We'll guide you to the best of our abilities.
 
 To be on the list, it would be *nice* if entries adhere to these quality standards:
 
 - Generally useful to the community
-- Clearly stating when a entry is relating to (Linux) containers and not Docker
+- Clearly stating when an entry is relating to (Linux) containers and not Docker
 - Clearly "what is it" --> which category it belongs : article, docker image, dev tools, video, twitter account, ...
 - Clearly stating "what is it for": mention the problem it solves. Just try your best, make it clear for the next person.
 - Solves a real problem (even a small one)
 - if it is a **WIP** (work in progress, not safe for production), mention it. (Remember the time before Docker 1.0 ? ;-) )
 
+If your PR is not merged, we will tell you why so that you may be able to improve it.
 
 # Awesome Related Contribution Guidelines
-
-## Table of Contents
-
-- [Adding to this list](#adding-to-this-list)
-- [Creating your own awesome list](#creating-your-own-awesome-list)
-- [Adding something to an awesome list](#adding-something-to-an-awesome-list)
-- [Updating your Pull Request](#updating-your-pull-request)
 
 ## Adding to this list
 
