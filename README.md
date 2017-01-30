@@ -408,6 +408,7 @@ Securely store your Docker images.
 * [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/)
 * [Rancher][rancher] - Rancher is an open source project that provides a complete platform for operating Docker in production
 * [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software https://tsuru.io/
+* [DataMC](http://datamc.io/) - DataMc is a PaaS for Production ready and fully managed Data Platform
 
 ## Remote Container Manager / Orchestration
 * [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic][prologic]
