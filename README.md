@@ -210,7 +210,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur)
 * [CircleCI](https://circleci.com/) - Push or pull Docker images from your build environment, or build and run containers right on CircleCI.
 * [CodeFresh](https://codefresh.io) - Accelerate your transition to Docker containers
-* [CodeShip](https://pages.codeship.com/features/pro) - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
+* [CodeShip](https://codeship.com/features/pro) - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
 * [Cyclone](https://github.com/caicloud/cyclone) - A cloud native CI/CD platform built for container workflow by [@caicloud](https://github.com/caicloud).
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 * [Dockunit](https://github.com/dockunit/platform) - Docker based integration tests. A simple Node based utility for running Docker based unit tests. By [@dockunit](https://github.com/dockunit)
@@ -477,7 +477,6 @@ Securely store your Docker images.
 * [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
 * [Blog](https://blog.codeship.com/) of [@codeship](https://github.com/codeship)
 * [Blog](https://blog.jessfraz.com/) of [@frazelledazzell][jfrazelle]
-* [CenturyLink Labs](https://labs.ctl.io/category/docker/)
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
 * [Digital Ocean Community](https://www.digitalocean.com/community/search?q=docker&type=tutorials)
