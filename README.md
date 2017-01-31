@@ -203,6 +203,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) - in case of proxy problem by [@jpetazzo][jpetazzo]
 * [Vagga](https://github.com/tailhook/vagga) - Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments by [@tailhook](https://github.com/tailhook/)
 * [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies.
+* [flyimg](http://flyimg.io/) - Docker image resizing, cropping, and compression on the fly. 
 
 ## Continuous Integration / Continuous Delivery
 * [Awesome-ciandcd](https://github.com/ciandcd/awesome-ciandcd) - Not specific to docker but relevant.
