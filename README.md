@@ -573,6 +573,7 @@ by [@prologic][prologic]
 * [Resource Management in Docker](https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/) by [@marekgoldmann](https://twitter.com/marekgoldmann)
 * [Running Production Hadoop Clusters in Docker Containers](https://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
 * [Using NSEnter with Boot2Docker](https://ro14nd.de/NSEnter-with-Boot2Docker)
+* [Helpful shell snippets for Docker, Testing and Bootstrapping](https://www.shivering-isles.com/helpful-shell-snippets-for-docker-testing-and-bootstrapping/)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
@@ -584,6 +585,7 @@ by [@prologic][prologic]
 * [Docker and Phoenix: How to Make Your Continuous Integration More Awesome](https://ariya.io/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome)
 * [Jenkins 2.0 - Screencast Series](http://theremotelab.com/blog/jenkins2.0-screencast-series/) by [Virendra Bhalothia](https://twitter.com/bhalothiaa)
 * [Pushing to ECR Using Jenkins Pipeline Plugin](https://blog.mikesir87.io/2016/04/pushing-to-ecr-using-jenkins-pipeline-plugin/) by [@mikesir87](https://github.com/mikesir87)
+* [TravisCI - Build a CI pipeline for Docker images](https://www.shivering-isles.com/travisci-build-a-ci-pipeline-for-docker-images/) by [@SISHeogorath](https://github.com/SISheogorath)
 
 ## Optimizing Images
 * [Building Docker Images for Static Go Binaries](https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07) by [@kelseyhightower](https://github.com/kelseyhightower)
