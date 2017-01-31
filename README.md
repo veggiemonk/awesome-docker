@@ -419,7 +419,6 @@ Securely store your Docker images.
 * [ContainerShip](https://github.com/containership/containership) A simple container management platform [containership]
 * [CoreOS][coreos] - Linux for Massive Server Deployments https://coreos.com/
 * [Crane](https://github.com/Dataman-Cloud/crane) - Control plane based on docker built-in swarm [@Dataman-Cloud](https://github.com/Dataman-Cloud)
-* [Decking](http://decking.io/) - Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers
 * [Deploying a Containerized App on a Public Node with Mesos](https://docs.mesosphere.com/usage/tutorials/containerized-app/) - Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment
 * [ElasticKube](https://github.com/ElasticBox/elastickube) - Open source management platform for Kubernetes.
 * [Fleet](https://github.com/coreos/fleet) - A Distributed init System providing low-level orchestration [coreos.com]
