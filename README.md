@@ -144,7 +144,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Docket](https://github.com/netvarun/docket) - Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
 * [dockit](https://github.com/humblec/dockit) - Do docker actions and Deploy gluster containers! By [@humblec](https://github.com/humblec)
 * [Longshoreman](https://github.com/longshoreman/longshoreman) - Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool. By [longshoreman](https://github.com/longshoreman)
-* [rocker-compose](https://github.com/grammarly/rocker-compose) - Docker composition tool with idempotency features for deploying apps composed of multiple containers. By [@grammarly](https://github.com/grammarly)
+* [rocker-compose](https://github.com/grammarly/rocker-compose) - Docker composition tool with idempotency features for deploying apps composed of multiple containers. By [@grammarly](grammarly)
 * [Zodiac](https://github.com/CenturyLinkLabs/zodiac) - A lightweight tool for easy deployment and rollback of dockerized applications. By [@CenturyLinkLabs][CenturyLinkLabs]
 
 ## Developer Tools
@@ -152,7 +152,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [bocker](https://github.com/p8952/bocker) (1) - Docker implemented in 100 lines of bash by [p8952](https://github.com/p8952)
 * [Docker Client for JVM](https://github.com/gesellix/docker-client) - A Docker remote api client library for the JVM, written in Groovy by [@gesellix][gesellix]
 * [Docker-PowerShell](https://github.com/Microsoft/Docker-PowerShell) - PowerShell Module for Docker
-* [Docker.DotNet](https://github.com/Microsoft/Docker.DotNet) - C#/.NET HTTP client for the Docker remote API by [@ahmetalpbalkan](https://github.com/ahmetalpbalkan/)
+* [Docker.DotNet](https://github.com/Microsoft/Docker.DotNet) - C#/.NET HTTP client for the Docker remote API by [@ahmetalpbalkan](ahmetalpbalkan)
 * [dockerode](https://github.com/apocas/dockerode) - Docker Remote API node.js module by [@apocas](https://github.com/apocas)
 * [go-dockerclient](https://github.com/fsouza/go-dockerclient/) - Go HTTP client for the Docker remote API by [@fsouza](https://github.com/fsouza/)
 * [is-docker](https://github.com/sindresorhus/is-docker) - Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
@@ -298,7 +298,7 @@ Services to securely store your Docker images.
 ## Networking
 * [Calico-Docker](https://www.projectcalico.org/getting-started/docker/) - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other.
 * [Flannel](https://github.com/coreos/flannel/) - Flannel is a virtual network that gives a subnet to each host for use with container runtimes.
-* [Wagl](https://github.com/ahmetalpbalkan/wagl) - DNS Service Discovery for Docker Swarm (by [@ahmetalpbalkan][ahmetalpbalkan] ) http://ahmetalpbalkan.github.io/wagl/
+* [Wagl](https://github.com/ahmetalpbalkan/wagl) - DNS Service Discovery for Docker Swarm (by [@ahmetalpbalkan][ahmetalpbalkan])
 * [Weave][weave] (The Docker network) - Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
 
 ## PaaS
@@ -367,7 +367,7 @@ Services to securely store your Docker images.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery by [@coreOS][coreos]
 * [proxy](https://github.com/factorish/proxy) - lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
 * [registrator](https://github.com/progrium/registrator) - Service registry bridge for Docker by [@progrium][progrium]
-* [wagl](https://github.com/ahmetalpbalkan/wagl/) - Service discovery for docker swarm using DNS [@ahmetalpbalkan](https://github.com/ahmetalpbalkan)
+* [wagl](https://github.com/ahmetalpbalkan/wagl/) - Service discovery for docker swarm using DNS [@ahmetalpbalkan](ahmetalpbalkan)
 
 ## Services for running containers
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
@@ -626,6 +626,7 @@ Services to securely store your Docker images.
 [gesellix]: https://github.com/gesellix
 [gliderlabs]: https://github.com/gliderlabs
 [gondor]: https://github.com/gondor
+[grammarly]: https://github.com/grammarly
 [ianmiell]: https://github.com/ianmiell
 [JensPiegsa]: https://github.com/JensPiegsa
 [jessblog]: https://blog.jessfraz.com/post/docker-containers-on-the-desktop/
