@@ -4,7 +4,8 @@
 > A curated list of Docker resources and projects
 Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
 
-It's now a GitHub project because it's considerably easier for other people to edit, fix and expand on Docker using GitHub. Just click [README.md][editREADME] to submit a [pull request][editREADME].
+It's now a GitHub project because it's considerably easier for other people to edit, fix and expand on Docker using GitHub.
+Just click [README.md][editREADME] to submit a [pull request][editREADME].
 If this list is not complete, you can [contribute][editREADME] to make it so.
 
 > **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)** for tips!
@@ -12,7 +13,7 @@ If this list is not complete, you can [contribute][editREADME] to make it so.
 #### *If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request][editREADME] to improve this file. Thank you!*
 
 The creators and maintainers of this list do not receive and should not receive any form of payment to accept a change made by any contributor.
-The goal of this repo is to index learning materials and projects, not to advertise for profit.
+The goal of this repo is to index open-source projects, not to advertise for profit.
 
 All the links are monitored and tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot) made by [@dkhamsing](https://github.com/dkhamsing)
 
