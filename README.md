@@ -447,14 +447,6 @@ Services to securely store your Docker images.
 * [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
 
-----
-
-# Slides
-* [Docker Slideshare Account](http://www.slideshare.net/Docker)
-* [Docker Security](http://www.slideshare.net/jpetazzo) with [@jpetazzo][jpetazzo]
-* [Hide your DEV ENV in a container](http://www.slideshare.net/JohanJanssen4/hide-your-development-environment-and-application-in-a-container) by [@johanjanssen42](https://twitter.com/johanjanssen42)
-* [Docker for the new era](https://www.slideshare.net/ramitsurana/docker-for-the-new-era)  by [@ramitsurana][ramitsurana]
-
 # Useful Resources
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
