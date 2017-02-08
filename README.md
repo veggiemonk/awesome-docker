@@ -49,11 +49,6 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Web Interface](#web-interface)
 - [Slides](#slides)
 - [Useful Resources](#useful-resources)
-- [Books](#books)
-	- [English](#in-english)
-	- [Chinese](#chinese)
-	- [German](#german)
-	- [Portuguese](#portuguese)
 - [Videos](#videos)
 	- [Main Account](#main-account)
 	- [Useful videos](#useful-videos)
@@ -516,38 +511,6 @@ Services to securely store your Docker images.
 * [Get Docker up and running on the RaspberryPi in three steps](https://github.com/umiddelb/armhf/wiki/Get-Docker-up-and-running-on-the-RaspberryPi-%28ARMv6%29-in-three-steps)
 * [git push docker containers to linux devices](https://resin.io/) Modern DevOps for IoT, leveraging git and Docker.
 * [Installing, running, using Docker on armhf (ARMv7) devices](https://github.com/umiddelb/armhf/wiki/Installing,-running,-using-docker-on-armhf-(ARMv7)-devices)
-
-# Books
-
-## English
-* [Docker Book](https://dockerbook.com/) by James Turnbul ([@kartar][kartar])
-* [Docker Cookbook](http://dockercookbook.github.io/) by Neependra Khare ([@neependra](https://twitter.com/neependra)) (Publisher: Packt)
-* [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do) by Sébastien Goasguen ([@sebgoa][sebgoa]) (Publisher: O'Reilly)
-* [Docker High Performance](https://www.packtpub.com/networking-and-servers/docker-high-performance) by Allan Espinosa (Publisher: Packt)
-* [Docker in Action](https://www.manning.com/books/docker-in-action) by Jeff Nickoloff ([@allingeek](https://twitter.com/allingeek))
-* [Docker in Practice](https://www.manning.com/books/docker-in-practice) by Ian Miell ([@ianmiell][ianmiell]) and Aidan Hobson Sayers ([@aidanhs](https://github.com/aidanhs)). ==> [Website](http://docker-in-practice.github.io/)
-* [Docker in Production: Lessons from the Trenches](http://www.amazon.com/Docker-Production-Trenches-Joe-Johnston-ebook/dp/B0141W6KYC) by Joe Johnston (Author), John Fiedler (Author), Milos Gajdos (Author), Antoni Batchelli (Author), Justin Cormack (Author)
-* [Docker Security](https://www.openshift.com/promotions/docker-security.html) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
-* [Docker Up & Running](https://newrelic.com/docker-book) by [Karl Matthias](https://twitter.com/relistan) and [Sean P. Kane](https://twitter.com/spkane)
-* [Extending Docker](https://www.packtpub.com/networking-and-servers/extending-docker) by Russ McKendrick (Publisher: Packt)
-* [Kubernetes Up and Running: Dive into the Future of Infrastructure](http://shop.oreilly.com/product/0636920043874.do) by Kelsey Hightower ([@kelseyhightower](https://twitter.com/kelseyhightower)) (Publisher: O'Reilly)
-* [Kubernetes](https://www.openshift.com/promotions/kubernetes.html) by [David Rensin](https://research.google.com/pubs/DavidRensin.html) (Publisher: O'Reilly)
-* [Learning Docker Networking](https://www.packtpub.com/networking-and-servers/learning-docker-networking) by Rajdeep Dua, Vaibhav Kohli and Santosh Kumar Konduri (Publisher: Packt)
-* [Learning Docker](https://www.packtpub.com/virtualization-and-cloud/learning-docker) by Pethuru Raj, Jeeva S. Chelladhurai and Vinod Singh (Publisher: Packt)
-* [Mastering Docker](https://www.packtpub.com/virtualization-and-cloud/mastering-docker) by Scott Gallagher (Publisher: Packt)
-* [Orchestrating Docker](https://www.packtpub.com/virtualization-and-cloud/orchestrating-docker) by Shrikrishna Holla (Publisher: Packt)
-* [Securing Docker](https://www.packtpub.com/virtualization-and-cloud/securing-docker) by Scott Gallagher (Publisher: Packt)
-* [Troubleshooting Docker](https://www.packtpub.com/virtualization-and-cloud/troubleshooting-docker) by John Wooten, Navid Shaikh (Publisher: Packt)
-* [Using Docker](http://shop.oreilly.com/product/0636920035671.do) by Adrian Mouat ([@adrianmouat](https://twitter.com/adrianmouat)) (Publisher: O'Reilly)
-
-## Chinese
-* [The Source Code Analysis of Docker](https://www.amazon.cn/图书/dp/B012ROMRUM) (Chinese) by [Allen Sun](https://github.com/allencloud)
-* [Docker Container and Container Cloud](https://www.amazon.cn/图书/dp/B014ETH1IG) (Chinese) by [Harry Zhang](https://twitter.com/resouer) & Jianbo Sun & Zhejiang University SEL Laboratory
-
-## Portuguese
-* [Containers com Docker do desenvolvimento à produção](https://www.casadocodigo.com.br/products/livro-docker) by Daniel Romero ([@infoslack](https://twitter.com/infoslack))
-* [Aprendendo Docker: Do básico à orquestração de contêineres](http://aprendendodocker.com.br/) by Wellington F. Silva ([@_wsilva](https://twitter.com/_wsilva)) (Publisher: Editora Novatec)
-* [Docker para Desenvolvedores](https://leanpub.com/dockerparadesenvolvedores) by Rafael Gomes ([@gomex](https://twitter.com/gomex)) (Publisher: Leanpub) - 80% finished
 
 # Videos
 
