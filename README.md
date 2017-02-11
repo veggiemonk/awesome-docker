@@ -44,6 +44,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Service Discovery](#service-discovery)
 	- [Storing Images and Registries](#storing-images-and-registries)
 	- [Terminal User Interface](#terminal-user-interface)
+	- [Testing](#testing)
 	- [Useful Images](#useful-images)
 	- [Volume management and plugins](#volume-management-and-plugins)
 	- [Web Interface](#web-interface)
@@ -135,6 +136,11 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [wharfee](https://github.com/j-bennet/wharfee) - Autocompletion and syntax highlighting for Docker commands. by [@j-bennet](https://github.com/j-bennet)
 * [tsaotun](https://github.com/qazbnm456/tsaotun) - Python based Assistance for Docker by [@qazbnm456](https://github.com/qazbnm456)
 
+## Testing
+* [Pumba](https://github.com/gaia-adm/pumba) - Chaos testing tool for Docker. Can be deployed on Kubernets and CoreOS clusters.
+* [elgalu/docker-selenium](https://github.com/elgalu/docker-selenium) - Selenium in Docker with Chrome & Firefox plus video recording support.
+* [SeleniumHQ/docker-selenium](https://github.com/SeleniumHQ/docker-selenium) - Docker images for Selenium Standalone Server, Hub, and Node configurations with Chrome and Firefox.
+
 ## Dev Tools
 * [ahab](https://github.com/instacart/ahab) - Docker event handling with Python by [@instacart](https://github.com/instacart)
 * [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services. Some useful plugins are : [php plugin](https://github.com/athena-oss/plugin-php), [selenium plugin](https://github.com/athena-oss/plugin-selenium) and [proxy plugin](https://github.com/athena-oss/plugin-proxy).
@@ -221,7 +227,6 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [IBM DevOps Services](https://hub.jazz.net) - Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix.
 * [InSpec](https://github.com/chef/inspec) - InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
 * [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - Continuous deployment of a microservices application
-* [Pumba](https://github.com/gaia-adm/pumba) - Chaos testing tool for Docker. Can be deployed on Kubernets and CoreOS clusters.
 * [Semaphore CI](https://semaphoreci.com/product/docker) — A high-performance cloud solution that makes it easy to build, test and ship your containers to production.
 * [Shippable](https://app.shippable.com/) - A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production.
 * [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository by [@Stratoscale](https://github.com/Stratoscale)
