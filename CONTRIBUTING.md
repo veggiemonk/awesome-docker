@@ -15,13 +15,15 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 
 (your commit message will be a tweet, keep that in mind :)
 
-- **To add to the list:** Submit a pull request 
+- **To add to the list:** Submit a pull request
 - **To remove from the list:** Submit a pull request
 - want to change something: Submit a pull request
 - want to try something else: Submit a pull request
 - don't know what to do: Submit a pull request or open an issue, let us know what's going on.
 
-`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources. It would be nice if it is related or compatible with docker in some way. But if it's awesome, let's us know why and you're on!
+`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources.
+It would be nice if it is related or compatible with docker in some way.
+But if it's awesome, let's us know why and you're on!
 
 - Each item should be limited to one link, no duplicates, no redirection (careful with `http` vs `https`!)
 - The link should be the name of the package or project or website
@@ -34,7 +36,7 @@ Please contribute links to packages/projects you have used or are familiar with.
 
 # Quality standard
 
-Note that we can help you achieve those standards, just try your best, be brave. 
+Note that we can help you achieve those standards, just try your best, be brave.
 We'll guide you to the best of our abilities.
 
 To be on the list, it would be *nice* if entries adhere to these quality standards:
