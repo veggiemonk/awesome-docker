@@ -22,7 +22,7 @@ or you can
 #### ping us on twitter:
 
 * [veggiemonk](https://twitter.com/veggiemonk)
-* [vegasbrian](https://twitter.com/idomyowntricks)
+* [vegasbrianc](https://twitter.com/Idomyowntricks)
 * [gesellix](https://twitter.com/gesellix)
 
 `awesome-docker` is a hand-crafted list for high-quality information about docker and its resources.
