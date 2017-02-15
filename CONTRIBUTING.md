@@ -24,6 +24,7 @@ or you can
 * [veggiemonk](https://twitter.com/veggiemonk)
 * [idomyowntricks](https://twitter.com/idomyowntricks)
 * [gesellix](https://twitter.com/gesellix)
+* [dmitrytokarev](https://twitter.com/dmitrytok)
 
 `awesome-docker` is a hand-crafted list for high-quality information about docker and its resources.
 It would be nice if it is related or compatible with docker in some way.
