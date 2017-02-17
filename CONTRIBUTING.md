@@ -54,5 +54,12 @@ To be on the list, it would be *nice* if entries adhere to these quality standar
 - Solves a real problem (even a small one).
 - if it is a **WIP** (work in progress, not safe for production), mention it. (Remember the time before Docker 1.0 ? ;-) )
 
-If your PR is not merged, we will tell you why so that you may be able to improve it. But usually, we are pretty relaxed people, so just come and say hi, we'll figure something out together.
+To be on the list, the project **must** have:
+
+- How to setup the project
+- How to use the project (examples)
+
+
+If your PR is not merged, we will tell you why so that you may be able to improve it. 
+But usually, we are pretty relaxed people, so just come and say hi, we'll figure something out together.
 
