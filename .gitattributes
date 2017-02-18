@@ -1,0 +1,2 @@
+*.css linguist-vendored
+*.* linguist-language=Markdown
