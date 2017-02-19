@@ -499,6 +499,7 @@ Services to securely store your Docker images.
 * [Docker Team](https://www.docker.com/)
 * [Shippable](http://blog.shippable.com/)
 * [WebOps weekly](http://webopsweekly.com/)
+* [DevOpsLinks](http://devopslinks.com)
 
 ## Security
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
