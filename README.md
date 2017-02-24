@@ -124,8 +124,8 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Watchtower](https://github.com/v2tec/watchtower) - Automatically update running Docker containers by [@CenturyLinkLabs][CenturyLinkLabs]
 
 ### CI Services
+* [CodeFresh](https://codefresh.io) - The Fastest CI/CD Platform for Docker Users.
 * [CircleCI](https://circleci.com/) - Push or pull Docker images from your build environment, or build and run containers right on CircleCI.
-* [CodeFresh](https://codefresh.io) - Accelerate your transition to Docker containers
 * [CodeShip](https://codeship.com/features/pro) - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
 * [Semaphore CI](https://semaphoreci.com/product/docker) — A high-performance cloud solution that makes it easy to build, test and ship your containers to production.
 * [Shippable](https://app.shippable.com/) - A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production.
