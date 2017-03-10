@@ -142,7 +142,6 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Longshoreman](https://github.com/longshoreman/longshoreman) - Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool. By [longshoreman](https://github.com/longshoreman)
 * [rocker-compose](https://github.com/grammarly/rocker-compose) - Docker composition tool with idempotency features for deploying apps composed of multiple containers. By [@grammarly](grammarly)
 * [Zodiac](https://github.com/CenturyLinkLabs/zodiac) - A lightweight tool for easy deployment and rollback of dockerized applications. By [@CenturyLinkLabs][CenturyLinkLabs]
-* [docker-box](https://github.com/MicroPyramid/docker-box) - Web interface to run full blown OS containers within seconds instead of setting up virtual machines and you get all the benefits of containers like instantaneous backups(commits), easy start and stop and the awesome feature of pausing your container etc.
 
 ## Developer Tools
 * [ahab](https://github.com/instacart/ahab) - Docker event handling with Python by [@instacart](https://github.com/instacart)
@@ -450,6 +449,7 @@ Services to securely store your Docker images.
 * [DockerUI](https://github.com/kevana/ui-for-docker) - DockerUI is a web interface to interact with the Remote API by [@crosbymichael][crosbymichael]
 * [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
+* [docker-box](https://github.com/MicroPyramid/docker-box) - Web interface to run full blown OS containers within seconds instead of setting up virtual machines and you get all the benefits of containers like instantaneous backups(commits), easy start and stop and the awesome feature of pausing your container etc.
 
 # Useful Resources
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
