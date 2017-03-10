@@ -419,7 +419,7 @@ Services to securely store your Docker images.
 * [draw-compose](https://github.com/Alexis-benoist/draw-compose) - Utility to draw a schema of a docker compose by [@Alexis-benoist](https://github.com/Alexis-benoist)
 * [Dropdock](http://dropdock.io/) - A framework designed for Drupal to build fast, isolated development environments using Docker.
 * [Dupper](https://github.com/athakwani/dupper) - Use git repository as Object Oriented Container. Setup Cloud Development environments with few commands for any git repository by [@athakwani](https://github.com/athakwani/)
-* [DVM](https://github.com/getcarina/dvm) - Docker version manager by [@getcarina](https://github.com/getcarina)
+* [DVM](https://github.com/howtowhale/dvm) - Docker version manager by [@howtowhale](https://github.com/howtowhale)
 * [Eclipse Che](http://www.eclipse.org/che) - Developer workspace server with Docker runtimes, cloud IDE, next-generation Eclipse IDE
 * [forward2docker](https://github.com/bsideup/forward2docker) - Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM by [@bsideup](https://github.com/bsideup)
 * [GoSu](https://github.com/tianon/gosu) - Run this specific application as this specific user and get out of the pipeline (entrypoint script tool) by [@tianon](https://github.com/tianon)
