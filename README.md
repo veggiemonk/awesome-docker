@@ -42,7 +42,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Security](#security)
 	- [Serverless](#serverless)
 	- [Service Discovery](#service-discovery)
-	- [Services for running containers](#services-for-running-containers)
+	- [CaaS - Services for running containers](#services-for-running-containers)
 	- [Terminal User Interface](#terminal-user-interface)
 	- [Testing](#testing)
 	- [Utilities](#utilities)
@@ -367,6 +367,7 @@ Services to securely store your Docker images.
 
 ## Services for running containers
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
+* [Arukas](https://arukas.io/) - Heroku-inspired CaaS
 * [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
 * [ContainerShip Cloud][containership] - Multi-Cloud Container Hosting Automation Platform.
 * [DataMC](http://datamc.io/) - DataMc is a PaaS for Production ready and fully managed Data Platform
@@ -378,6 +379,7 @@ Services to securely store your Docker images.
 * [IBM Bluemix](https://console.ng.bluemix.net/) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
 * [OpenShift Dedicated](https://www.openshift.com/dedicated/index.html) - A hosted [OpenShift][openshift] cluster for running your Docker containers managed by Red Hat.
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
+* [Sloppy.io](https://sloppy.io/) - all-in-one solution for container deployment and hosting – made and hosted in Germany
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
 
 ## Terminal User Interface
