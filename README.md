@@ -42,7 +42,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Security](#security)
 	- [Serverless](#serverless)
 	- [Service Discovery](#service-discovery)
-	- [Services for running containers](#services-for-running-containers)
+	- [CaaS - Services for running containers](#services-for-running-containers)
 	- [Terminal User Interface](#terminal-user-interface)
 	- [Testing](#testing)
 	- [Utilities](#utilities)
@@ -68,7 +68,9 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 # Where to start ?
 * [10-minute Interactive Tutorial](https://docs.docker.com/docker-for-mac/)
 * [Docker Training](http://training.docker.com/)
-* Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
+* Read this complete article: [Basics – Docker, Containers, 
+
+visors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 * Watch the video: [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Docker Curriculum](https://prakhar.me/docker-curriculum/): A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.
@@ -365,8 +367,9 @@ Services to securely store your Docker images.
 * [proxy](https://github.com/factorish/proxy) - lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
 * [registrator](https://github.com/progrium/registrator) - Service registry bridge for Docker by [@progrium][progrium]
 
-## Services for running containers
+## CaaS (Containers as a Service) - Services for running/hosting containers
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
+* [Arukas](https://arukas.io/) - Heroku-inspired CaaS
 * [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
 * [ContainerShip Cloud][containership] - Multi-Cloud Container Hosting Automation Platform.
 * [DataMC](http://datamc.io/) - DataMc is a PaaS for Production ready and fully managed Data Platform
@@ -378,6 +381,7 @@ Services to securely store your Docker images.
 * [IBM Bluemix](https://console.ng.bluemix.net/) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
 * [OpenShift Dedicated](https://www.openshift.com/dedicated/index.html) - A hosted [OpenShift][openshift] cluster for running your Docker containers managed by Red Hat.
 * [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
+* [Sloppy.io](https://sloppy.io/) - all-in-one solution for container deployment and hosting – made and hosted in Germany
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
 
 ## Terminal User Interface
