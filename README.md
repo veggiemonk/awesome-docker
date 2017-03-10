@@ -68,9 +68,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 # Where to start ?
 * [10-minute Interactive Tutorial](https://docs.docker.com/docker-for-mac/)
 * [Docker Training](http://training.docker.com/)
-* Read this complete article: [Basics – Docker, Containers, 
-
-visors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
+* Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 * Watch the video: [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Docker Curriculum](https://prakhar.me/docker-curriculum/): A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.
@@ -367,7 +365,7 @@ Services to securely store your Docker images.
 * [proxy](https://github.com/factorish/proxy) - lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
 * [registrator](https://github.com/progrium/registrator) - Service registry bridge for Docker by [@progrium][progrium]
 
-## CaaS (Containers as a Service) - Services for running/hosting containers
+## Services for running containers
 * [Amazon ECS](http://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
 * [Arukas](https://arukas.io/) - Heroku-inspired CaaS
 * [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
