@@ -574,6 +574,8 @@ Services to securely store your Docker images.
 * [Docker On Line Meetup](https://www.meetup.com/Docker-Online-Meetup/)
 * [Docker Regional Meetup List](https://www.docker.com/community/meetup-groups)
 
+## Russian
++ [Docker Russian-speaking Community](https://t.me/docker_ru)
 
 [ahmetalpbalkan]: https://github.com/ahmetalpbalkan
 [alpine]: https://github.com/gliderlabs/docker-alpine
