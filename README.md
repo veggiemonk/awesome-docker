@@ -405,6 +405,7 @@ Services to securely store your Docker images.
 * [Codenvy](https://codenvy.io) - One-click Docker environments and cloud workspace for development teams
 * [Compose Registry](https://www.composeregistry.com) - A very handy search engine for Compose Files
 * [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files
+* [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics
 * [dexec](https://github.com/docker-exec/dexec) - Command line interface written in Go for running code with Docker Exec images.
 * [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
 * [Docker meets the IDE](http://domeide.github.io/) - Integrating your favorite containers in the editor of your choice by [domeide](https://github.com/domeide)
