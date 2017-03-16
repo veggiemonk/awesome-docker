@@ -83,7 +83,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
 * [How to Whale](https://howtowhale.com/) Learn Docker in your web browser, no setup or installation required.
 * [Docker for all - Developers, Testers, DevOps, Product Owners + Videos](https://github.com/machzqcq/docker-for-all) Docker Training Videos for all
-* [Play With Docker](http://play-with-docker.com/) - A great way to get started with Docker. Docker runs directly in your browser.
+* [Play With Docker](http://labs.play-with-docker.com/) - A great way to get started with Docker. Docker runs directly in your browser.
 * [Katacoda](https://www.katacoda.com/): Learn Docker using Interactive Browser-Based Labs
 
 # Where to start - on Windows ?
@@ -270,7 +270,7 @@ Services to securely store your Docker images.
 * [DoMonit](https://github.com/eon01/DoMonit) - A simple Docker Monitoring wrapper For Docker API
 * [Dynatrace](https://www.dynatrace.com/technologies/cloud-and-microservices/docker-monitoring/) - Monitor containerized applications without installing agents or modifying your Run commands
 * [Glances](https://nicolargo.github.io/glances/) - A cross-platform curses-based system monitoring tool written in Python by [@nicolargo](https://github.com/nicolargo)
-* [Grafana Docker Dashboard Template](https://grafana.net/dashboards/179) - A template for your Docker, Grafana and Prometheus stack [@vegasbrianc][vegasbrianc]
+* [Grafana Docker Dashboard Template](https://grafana.com/dashboards/179) - A template for your Docker, Grafana and Prometheus stack [@vegasbrianc][vegasbrianc]
 * [InfluxDB, cAdvisor, Grafana](https://github.com/vegasbrianc/docker-monitoring) - InfluxDB Time series DB in combination with Grafana and cAdvisor by [@vegasbrianc][vegasbrianc]
 * [LogJam](https://github.com/gocardless/logjam) - Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collection server (such as logstash) by [@gocardless](https://github.com/gocardless)
 * [Logsene for Docker][spm] Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext][sematext]
