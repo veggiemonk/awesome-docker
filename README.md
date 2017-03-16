@@ -384,8 +384,8 @@ Services to securely store your Docker images.
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
 
 ## Terminal User Interface
-* [ctop](https://github.com/yadutaf/ctop) - A command line / text based Linux Containers monitoring tool that works just like you expect by [@yadutaf](https://github.com/yadutaf)
-* [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics
+* [ctop (1)](https://github.com/yadutaf/ctop) - A command line / text based Linux Containers monitoring tool that works just like you expect (Python) by [@yadutaf](https://github.com/yadutaf)
+* [ctop (2)](https://github.com/bcicen/ctop) - Top-like interface for container metrics (Golang) by [@bcicen](https://github.com/bcicen/)
 * [dockercraft](https://github.com/docker/dockercraft) - Docker + Minecraft = Dockercraft by [@docker][docker]
 * [dockersql](https://github.com/crosbymichael/dockersql) - A command line interface to query Docker using SQL by [@crosbymichael][crosbymichael]
 * [dockly](https://github.com/lirantal/dockly) - An interactive shell UI for managing Docker containers by [@lirantal](https://github.com/lirantal)
