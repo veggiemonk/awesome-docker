@@ -307,6 +307,7 @@ Services to securely store your Docker images.
 * [Dokku][dokku] - Docker powered mini-Heroku in around 100 lines of Bash by [@progrium][progrium]
 * [Empire](https://github.com/remind101/empire) - A PaaS built on top of Amazon EC2 Container Service (ECS)
 * [Flynn](https://github.com/flynn/flynn) - A next generation open source platform as a service https://flynn.io/
+* [Nanobox](https://nanobox.io/) - A micro-PaaS (μPaaS) for creating consistent, isolated, development environments deployable anywhere.
 * [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/)
 * [Rancher][rancher] - Rancher is an open source project that provides a complete platform for operating Docker in production
 * [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software https://tsuru.io/
