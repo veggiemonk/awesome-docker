@@ -558,7 +558,6 @@ Services to securely store your Docker images.
 # Interesting Twitter Accounts
 * [CenturyLink Labs](https://twitter.com/CenturyLinkLabs)
 * [Docker Captains Twitter List](https://twitter.com/EltonStoneman/lists/docker-captains)
-* [Docker News](https://twitter.com/dockernews)
 * [Docker](https://twitter.com/docker)
 * [Flux7Labs](https://twitter.com/Flux7Labs)
 * [OpenShift by Red Hat](https://twitter.com/openshift)
