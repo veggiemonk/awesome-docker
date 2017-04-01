@@ -1,5 +1,5 @@
 
-# Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/veggiemonk/awesome-docker.svg?branch=master)](https://travis-ci.org/veggiemonk/awesome-docker) [![Say Thanks](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/veggiemonk)
+# Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Say Thanks](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/veggiemonk)
 
 > A curated list of Docker resources and projects
 Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
@@ -7,6 +7,8 @@ Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindreso
 It's now a GitHub project because it's considerably easier for other people to edit, fix and expand on Docker using GitHub.
 Just click [README.md][editREADME] to submit a [pull request][editREADME].
 If this list is not complete, you can [contribute][editREADME] to make it so.
+
+***You can see the updates from [TWITTER](https://twitter.com/awesome_docker)***
 
 > **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)** for tips!
 
@@ -17,7 +19,7 @@ The goal of this repo is to index open-source projects, not to advertise for pro
 
 All the links are monitored and tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot) made by [@dkhamsing](https://github.com/dkhamsing)
 
-# MENU
+# Contents
 
 - [What is Docker ?](#what-is-docker-)
 - [Where to start ?](#where-to-start-)
