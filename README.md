@@ -208,7 +208,7 @@ Services to securely store your Docker images.
 * [Rescoyl](https://github.com/noteed/rescoyl) - Private Docker registry (free and open source) by [@noteed][noteed]
 * [Sonatype Nexus](https://www.sonatype.com/nexus-repository-oss) - Repository with Universal Support, also for Docker images
 * [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
-* [TreeScale](https://treescale.com/) - Build and Distriubute container based applications.
+* [TreeScale](https://treescale.com/) - Build and Distribute container based applications.
 * [VMWare Harbor](http://vmware.github.io/harbor/) Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.
 
 ## Images
