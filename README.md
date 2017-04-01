@@ -17,7 +17,7 @@ The goal of this repo is to index open-source projects, not to advertise for pro
 
 All the links are monitored and tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot) made by [@dkhamsing](https://github.com/dkhamsing)
 
-# MENU
+# Contents
 
 - [What is Docker ?](#what-is-docker-)
 - [Where to start ?](#where-to-start-)
