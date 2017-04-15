@@ -66,12 +66,14 @@ To be on the list, the project **must** have:
 - How to use the project (examples)
 
 
-If your PR is not merged, we will tell you why so that you may be able to improve it. 
+If your PR is not merged, we will tell you why so that you may be able to improve it.
 But usually, we are pretty relaxed people, so just come and say hi, we'll figure something out together.
 
 # New Collaborators
 
 If you just joined the team of maintainers for this repo, first of all: WELCOME!
+
+If it is your first time maintaining an open source project, read the [best practice guides for maintainers](https://opensource.guide/best-practices/).
 
 Here are the few things you need to know:
 * we don't push directly to master, we create a pull request. Every entry has to be reviewed.
