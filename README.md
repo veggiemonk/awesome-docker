@@ -79,8 +79,8 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Install Docker Toolbox](https://www.docker.com/products/docker-toolbox) Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. Available for both Windows and Mac, the Toolbox installs Docker Client, Machine, Compose (Mac only), Kitematic and VirtualBox.
 * Check out [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
 * [Project Web Dev][projwebdev] : (Article series) How to create your own website based on Docker
-* [Docker Containers on the desktop][jessblog] by [@jfrazelle][jfrazelle]) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles][jfrazelledotfiles] and her [dockerfiles][jfrazelledockerfiles])
-* [Container Hacks and Fun Images][jessvid] by [@jfrazelle][jfrazelle] @ DockerCon 2015 **MUST WATCH VIDEO** (38:50)
+* [Docker Containers on the desktop][jessblog] by [@jessfraz][jessfraz]) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
+* [Container Hacks and Fun Images][jessvid] by [@jessfraz][jessfraz] @ DockerCon 2015 **MUST WATCH VIDEO** (38:50)
 * [Learn Docker](https://github.com/dwyl/learn-docker) Full environment set up, screenshots, step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
 * [How to Whale](https://howtowhale.com/) Learn Docker in your web browser, no setup or installation required.
@@ -184,7 +184,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
 * [Dockerfile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [Dockerfile Example 2](https://github.com/kstaken/dockerfile-examples) by [@kstaken](https://github.com/kstaken)
-* [Dockerfile @jfrazelle][jfrazelledockerfiles] by [@jfrazelle][jfrazelle] **MUST SEE** for a fully containerized desktop!
+* [Dockerfile @jessfraz][jessfrazdockerfiles] by [@jessfraz][jessfraz] **MUST SEE** for a fully containerized desktop!
 * [Vektorcloud](https://github.com/vektorcloud) - A collection of minimal, Alpine-based Docker images
 
 ## Garbage Collection
@@ -472,12 +472,12 @@ Services to securely store your Docker images.
 * [Blog](http://progrium.com/blog/) of [@progrium][progrium]
 * [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
 * [Blog](https://blog.codeship.com/) of [@codeship](https://github.com/codeship)
-* [Blog](https://blog.jessfraz.com/) of [@frazelledazzell][jfrazelle]
+* [Blog](https://blog.jessfraz.com/) of [@frazelledazzell][jessfraz]
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
 * [Docker Cheat Sheet](http://docker.jens-piegsa.com) by [@JensPiegsa][JensPiegsa] *(updated for Docker 1.13)*
 * [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
-* [Docker Containers on the desktop][jessblog] by [@jfrazelle][jfrazelle] The **funniest way** to learn
+* [Docker Containers on the desktop][jessblog] by [@jessfraz][jessfraz] The **funniest way** to learn
 * [Docker Ecosystem](http://comp.photo777.org/wp-content/uploads/2015/09/Docker-ecosystem-8.5.1.pdf) (PDF) __MUST SEE__    find it on [blog](http://comp.photo777.org/docker-ecosystem/) by Bryzgalov Peter.
 * [Docker Ecosystem](https://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
 * [Docker Kubernetes Lab Handbook](https://github.com/xiaopeng163/docker-k8s-lab)
@@ -544,7 +544,7 @@ Services to securely store your Docker images.
 * [Quoi d'neuf Docker](https://www.youtube.com/channel/UCOAhkxpryr_BKybt9wIw-NQ/videos) **FRENCH** chronique vidéo sur Youtube proposant de courtes vidéos (maximum 15 minutes) sur la thématique "Docker et son écosystème" [Site Web](http://www.quoidneufdocker.xyz/)
 
 ## Useful videos
-* [Container Hacks and Fun Images][jessvid] by [@jfrazelle][jfrazelle] @ DockerCon 2015 (**MUST WATCH VIDEO**: 38:50)
+* [Container Hacks and Fun Images][jessvid] by [@jessfraz][jessfraz] @ DockerCon 2015 (**MUST WATCH VIDEO**: 38:50)
 * [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
 * [Deploying and scaling applications with Docker, Swarm, and a tiny bit of Python magic](https://www.youtube.com/watch?v=GpHMTR7P2Ms) (3:11:06) by [@jpetazzo][jpetazzo]
 * [Docker and SELinux by Daniel Walsh from Red Hat ](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
@@ -616,9 +616,9 @@ Services to securely store your Docker images.
 [JensPiegsa]: https://github.com/JensPiegsa
 [jessblog]: https://blog.jessfraz.com/post/docker-containers-on-the-desktop/
 [jessvid]: https://www.youtube.com/watch?v=1qlLUf7KtAw
-[jfrazelle]: https://github.com/jfrazelle
-[jfrazelledockerfiles]: https://github.com/jessfraz/dockerfiles
-[jfrazelledotfiles]: https://github.com/jessfraz/dotfiles
+[jessfraz]: https://github.com/jessfraz
+[jessfrazdockerfiles]: https://github.com/jessfraz/dockerfiles
+[jessfrazdotfiles]: https://github.com/jessfraz/dotfiles
 [jpetazzo]: https://github.com/jpetazzo
 [jwilder]: https://github.com/jwilder
 [kartar]: https://twitter.com/kartar
