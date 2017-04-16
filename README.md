@@ -63,7 +63,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 - [Interesting Twitter Accounts](#interesting-twitter-accounts)
 - [Communities and Meetups](#communities-and-meetups)
 	- [Brazilian](#brazilian)
-	- [Chinise](#chinise)
+	- [Chinese](#chinese)
 	- [English](#english)
 	- [Russian](#russian)
 
