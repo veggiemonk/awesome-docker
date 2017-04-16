@@ -56,7 +56,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Good Tips](#good-tips)
 	- [Newsletter](#newsletter)
 	- [Security](#security)
-	- [Raspberry Pi / ARM](#raspberry-pi-&-arm)
+	- [Raspberry Pi / ARM](#raspberry-pi--arm)
 - [Videos](#videos)
 	- [Main Account](#main-account)
 	- [Useful videos](#useful-videos)
