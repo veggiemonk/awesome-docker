@@ -25,6 +25,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 - [Where to start ?](#where-to-start-)
 - [Tools](#tools)
 	- [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
+		- [CI Services](#ci-services)
 	- [Deployment and Infrastructure](#deployment-and-infrastructure)
 	- [Developer Tools](#developer-tools)
 	- [Development Environments](#development-environments)
@@ -32,11 +33,12 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Dockerfile](#dockerfile)
 	- [Garbage Collection](#garbage-collection)
 	- [Hosting Images (registries)](#hosting-images-registries)
-	- [Image Builder](#image-builder)
 	- [Images](#images)
+	- [Image Builder](#image-builder)
 	- [Linter / Validator](#linter--validator)
 	- [Local Container Manager](#local-container-manager)
 	- [Monitoring & Logging](#monitoring--logging)
+		- [Monitoring & Logging Services](#monitoring--logging-services)
 	- [Networking](#networking)
 	- [PaaS](#paas)
 	- [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
@@ -50,15 +52,20 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Utilities](#utilities)
 	- [Volume management and plugins](#volume-management-and-plugins)
 	- [Web Interface](#web-interface)
-- [Slides](#slides)
 - [Useful Resources](#useful-resources)
+	- [Good Tips](#good-tips)
+	- [Newsletter](#newsletter)
+	- [Security](#security)
+	- [Raspberry Pi / ARM](#raspberry-pi--arm)
 - [Videos](#videos)
 	- [Main Account](#main-account)
 	- [Useful videos](#useful-videos)
-- [Interactive Learning Environments](#interactive-learning-environments)
 - [Interesting Twitter Accounts](#interesting-twitter-accounts)
-	- [People](#people)
 - [Communities and Meetups](#communities-and-meetups)
+	- [Brazilian](#brazilian)
+	- [Chinese](#chinese)
+	- [English](#english)
+	- [Russian](#russian)
 
 
 # What is Docker ?
@@ -67,7 +74,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 
 _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
-# Where to start ?
+# Where to start?
 * [10-minute Interactive Tutorial](https://docs.docker.com/docker-for-mac/)
 * [Docker Training](http://training.docker.com/)
 * Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
@@ -88,7 +95,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Play With Docker](http://labs.play-with-docker.com/) - A great way to get started with Docker. Docker runs directly in your browser.
 * [Katacoda](https://www.katacoda.com/): Learn Docker using Interactive Browser-Based Labs
 
-# Where to start - on Windows ?
+# Where to start? (Windows)
 * [Windows Containers Quick Start](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start) Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016
 * [Build And Run Your First Docker Windows Server Container](https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/) Walkthrough installing Docker on Windows 10, building a Docker image and running a Windows container
 * Video: [Windows Containers and Docker: The 101](https://www.youtube.com/watch?v=N7SG2wEyQtM) A 20-minute overview, using Docker to run  PowerShell, ASP.NET Core and ASP.NET apps
@@ -110,8 +117,8 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 ## Continuous Integration / Continuous Delivery
 * [Awesome-ciandcd](https://github.com/ciandcd/awesome-ciandcd) - Not specific to docker but relevant.
-* [Buddy](https://buddy.works) - The best of Git, build & deployment tools combined into one powerful tool that supercharged our development
-* [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur)
+* [Buddy](https://buddy.works) - The best of Git, build & deployment tools combined into one powerful tool that supercharged our development.
+* [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery by [@harbur](https://github.com/harbur).
 * [Cyclone](https://github.com/caicloud/cyclone) - A cloud native CI/CD platform built for container workflow by [@caicloud](https://github.com/caicloud).
 * [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 * [Dockunit](https://github.com/dockunit/platform) - Docker based integration tests. A simple Node based utility for running Docker based unit tests. By [@dockunit](https://github.com/dockunit)
@@ -119,8 +126,8 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners.
 * [GOCD-Docker](https://github.com/gocd/gocd-docker)Go Server and Agent in docker containers to provision.
 * [InSpec](https://github.com/chef/inspec) - InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
-* [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - Continuous deployment of a microservices application
-* [Screwdriver](http://screwdriver.cd/) - Yahoo's OpenSource buildplatform designed for Continous Delivery
+* [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - Continuous deployment of a microservices application.
+* [Screwdriver](http://screwdriver.cd/) - Yahoo's OpenSource buildplatform designed for Continous Delivery.
 * [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository by [@Stratoscale](https://github.com/Stratoscale)
 * [SwarmCI](https://github.com/ghostsquad/swarmci) - Create a distributed, isolated task pipeline in your Docker Swarm.
 * [Watchtower](https://github.com/v2tec/watchtower) - Automatically update running Docker containers by [@CenturyLinkLabs][CenturyLinkLabs]
@@ -248,7 +255,7 @@ Services to securely store your Docker images.
 * [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies.
 
 ## Local Container Manager
-* [Ansible - manage docker containers](http://docs.ansible.com/ansible/docker_module.html)
+* [Ansible](http://docs.ansible.com/ansible/docker_module.html) - manage docker containers.
 * [Azk](http://www.azk.io/) - Orchestrate development enviornments on your local machine by [@azukiapp](https://github.com/azukiapp)
 * [Beluga](https://github.com/cortexmedia/Beluga) - CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) - Docker for OSX and Windows -- http://boot2docker.io/
