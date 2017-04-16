@@ -61,7 +61,6 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Main Account](#main-account)
 	- [Useful videos](#useful-videos)
 - [Interesting Twitter Accounts](#interesting-twitter-accounts)
-	- [People](#people)
 - [Communities and Meetups](#communities-and-meetups)
 	- [Brazilian](#brazilian)
 	- [Chinise](#chinise)
