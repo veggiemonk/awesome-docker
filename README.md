@@ -2,7 +2,7 @@
 # Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Say Thanks](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/veggiemonk)
 
 > A curated list of Docker resources and projects
-Inspired by [@sindresorhus](https://github.com/sindresorhus)'s [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
+Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
 
 It's now a GitHub project because it's considerably easier for other people to edit, fix and expand on Docker using GitHub.
 Just click [README.md][editREADME] to submit a [pull request][editREADME].
@@ -38,7 +38,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Linter / Validator](#linter--validator)
 	- [Local Container Manager](#local-container-manager)
 	- [Monitoring & Logging](#monitoring--logging)
-		- [Monitoring & Logging Services](#monitoring-&-logging-services)
+		- [Monitoring & Logging Services](#monitoring--logging-services)
 	- [Networking](#networking)
 	- [PaaS](#paas)
 	- [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
