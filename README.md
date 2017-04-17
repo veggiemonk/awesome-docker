@@ -368,7 +368,7 @@ Services to securely store your Docker images.
 * [Twistlock](https://twistlock.com/)  - Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
 
 ## Serverless
-* [AMP](https://github.com/appcelerator/amp) - The open source Container-as-a-Service & microservice platform for Docker
+* [ATOMIQ](https://github.com/atomiqio/atomiq) - The open source unified CaaS/FaaS platform for Docker, batteries included. (formerly AMP by Team Appcelerator)
 * [Docker-Lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
 * [FaaS](https://github.com/alexellis/faas) - Docker Serverless/Functions as a Service (on Docker Swarm)
 * [Funker](https://github.com/bfirsh/funker-example-voting-app) - Functions as Docker containers
