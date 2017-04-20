@@ -58,7 +58,8 @@ To be on the list, it would be *nice* if entries adhere to these quality standar
 - Clearly "what is it" i.e. which category it belongs. Just try your best, we'll help you if needed.
 - Clearly stating "what is it for" i.e. mention the problem it solves. Just try your best, make it clear for the next person.
 - Solves a real problem (even a small one).
-- if it is a **WIP** (work in progress, not safe for production), mention it. (Remember the time before Docker 1.0 ? ;-) )
+- If it is a **WIP** (work in progress, not safe for production), mention it. (Remember the time before Docker 1.0 ? ;-) )
+- Always put the link to the github project instead of the website!
 
 To be on the list, the project **must** have:
 
