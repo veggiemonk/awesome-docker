@@ -109,7 +109,16 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 # Tools
 
-* [Docker](https://github.com/docker/docker)
+
+Moby      = open source development
+
+Docker CE = free product release based on Moby
+
+Docker EE = commercial product release based on Docker CE.
+
+Docker EE is on the same code base as Docker CE, so also built from Moby, with commercial components added, such as "docker data center / universal control plane"
+
+* [Moby](https://github.com/moby/moby)
 * [Docker Images](https://hub.docker.com)
 * [Docker Compose](https://github.com/docker/compose/) (Define and run multi-container applications with Docker)
 * [Docker Machine](https://github.com/docker/machine) (Machine management for a container-centric world)
