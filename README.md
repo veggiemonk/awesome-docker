@@ -21,8 +21,9 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 
 # Contents
 
-- [What is Docker ?](#what-is-docker-)
-- [Where to start ?](#where-to-start-)
+- [What is Docker?](#what-is-docker)
+- [Where to start?](#where-to-start)
+- [Where to start? (Windows)](#where-to-start-windows)
 - [Tools](#tools)
 	- [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
 		- [CI Services](#ci-services)
@@ -55,7 +56,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 - [Useful Resources](#useful-resources)
 	- [Good Tips](#good-tips)
 	- [Newsletter](#newsletter)
-	- [Security](#security)
+	- [Security](#security-1)
 	- [Raspberry Pi / ARM](#raspberry-pi--arm)
 - [Videos](#videos)
 	- [Main Account](#main-account)
@@ -68,7 +69,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Russian](#russian)
 
 
-# What is Docker ?
+# What is Docker?
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Consisting of Docker Engine, a portable, lightweight runtime and packaging tool, and Docker Hub, a cloud service for sharing applications and automating workflows, Docker enables apps to be quickly assembled from components and eliminates the friction between development, QA, and production environments. As a result, IT can ship faster and run the same app, unchanged, on laptops, data center VMs, and any cloud.
 
