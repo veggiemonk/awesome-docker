@@ -327,7 +327,7 @@ Services to securely store your Docker images.
 * [Atlantis](https://github.com/ooyala/atlantis) - Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go
 * [Convox Rack](https://github.com/convox/rack) - Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 * [Dcw](https://github.com/pbertera/dcw) - Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels.
-* [Deis](https://github.com/deis/deis) - Your PaaS, your rules http://deis.io/
+* [Deis](https://github.com/deis/workflow) - The open source PaaS for Kubernetes.
 * [Dokku][dokku] - Docker powered mini-Heroku in around 100 lines of Bash by [@progrium][progrium]
 * [Empire](https://github.com/remind101/empire) - A PaaS built on top of Amazon EC2 Container Service (ECS)
 * [Flynn](https://github.com/flynn/flynn) - A next generation open source platform as a service https://flynn.io/
