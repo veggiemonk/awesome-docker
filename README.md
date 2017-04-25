@@ -217,7 +217,6 @@ Services to securely store your Docker images.
 * [Atomic Registry](http://www.projectatomic.io/registry/) - Red Hat Atomic Registry is an open source enterprise registry based on the Origin and Cockpit projects, enhancing the Docker registry library.
 * [Azure Container Registry](https://azure.microsoft.com/de-de/services/container-registry/) Manage a Docker private registry as a first-class Azure resource
 * [CargoOS](https://cargos.io/) A bare essential OS for running the Docker Engine on bare metal or Cloud.
-* [Carina](https://getcarina.com) Bare-metal container hosting. Developed by Rackspace. Currently in Beta.
 * [Compose Registry](https://www.composeregistry.com/) - Project from [@francescou]Francesco Uliana that stores docker-compose.yml files with stack examples like LAMP/LEMP stacks, Django stacks, Flask stacks and ELK stacks for instance.
 * [Container Compliance](https://github.com/OpenSCAP/container-compliance) Open Source tool for assesing running containers and cold images for vulnerabilites and audits.
 * [Cycle.io](https://cycle.io/) Bare-metal container hosting.
