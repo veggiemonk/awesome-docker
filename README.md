@@ -76,15 +76,15 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 # Where to start?
-* [10-minute Interactive Tutorial](https://docs.docker.com/docker-for-mac/)
-* [Docker Training](http://training.docker.com/)
+* [Play With Docker](http://training.play-with-docker.com/) - A great way to get started with Docker from beginner to advanced users. Docker runs directly in your browser.
+* [Docker Documentation](https://docs.docker.com/)
+* [Docker Training](http://training.docker.com/) - Includes a free self-paced hands-on tutorial (free registration required or sign-in with DockerHub ID)
 * Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 * Watch the video: [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Docker Curriculum](https://prakhar.me/docker-curriculum/): A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.
-* [Install Docker on your machine](https://github.com/wsargent/docker-cheat-sheet#installation) and play with a few [Useful Images](#useful-images)
 * Try [Panamax: Docker Management for Humans][panamax.io] It will install a CoreOS VM with VirtualBox and has nice front end
-* [Install Docker Toolbox](https://www.docker.com/products/docker-toolbox) Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. Available for both Windows and Mac, the Toolbox installs Docker Client, Machine, Compose (Mac only), Kitematic and VirtualBox.
+* [Docker Toolbox](https://docs.docker.com/toolbox/overview/) - It's a **legacy desktop application** for quick setup and launch of a Docker environment on older Mac (10.10 and below) and Windows (8.1 and below) systems. On newer systems it's recommended to use the [Docker for Mac](https://docs.docker.com/docker-for-mac/) or [Docker for Windows](https://docs.docker.com/docker-for-windows/).
 * Check out [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
 * [Project Web Dev][projwebdev] : (Article series) How to create your own website based on Docker
 * [Docker Containers on the desktop][jessblog] by [@jessfraz][jessfraz]) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
@@ -93,7 +93,6 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
 * [How to Whale](https://howtowhale.com/) Learn Docker in your web browser, no setup or installation required.
 * [Docker for all - Developers, Testers, DevOps, Product Owners + Videos](https://github.com/machzqcq/docker-for-all) Docker Training Videos for all
-* [Play With Docker](http://labs.play-with-docker.com/) - A great way to get started with Docker. Docker runs directly in your browser.
 * [Katacoda](https://www.katacoda.com/): Learn Docker using Interactive Browser-Based Labs
 
 # Where to start? (Windows)
