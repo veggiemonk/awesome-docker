@@ -530,7 +530,7 @@ Services to securely store your Docker images.
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
 * [Shippable](http://blog.shippable.com/)
-* [WebOps weekly](http://webopsweekly.com/)
+* [WebOps weekly](https://webopsweekly.com/)
 * [DevOpsLinks](http://devopslinks.com)
 
 ## Security
