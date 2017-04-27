@@ -84,14 +84,14 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Docker Curriculum](https://prakhar.me/docker-curriculum/): A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.
 * Try [Panamax: Docker Management for Humans][panamax.io] It will install a CoreOS VM with VirtualBox and has nice front end
-* [Docker Toolbox](https://docs.docker.com/toolbox/overview/) - It's a **legacy desktop application** for quick setup and launch of a Docker environment on older Mac (10.10 and below) and Windows (8.1 and below) systems. On newer systems it's recommended to use the [Docker for Mac](https://docs.docker.com/docker-for-mac/) or [Docker for Windows](https://docs.docker.com/docker-for-windows/).
+* [Docker Toolbox](https://docs.docker.com/toolbox/overview/) - It's a **legacy desktop application** for quick setup and launch of a Docker environment on older Mac (10.10 and below) and Windows (8.1 and below) systems. On newer systems it's recommended to use the [Docker for Mac][docker-for-mac] or [Docker for Windows][docker-for-windows].
 * Check out [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
 * [Project Web Dev][projwebdev] : (Article series) How to create your own website based on Docker
 * [Docker Containers on the desktop][jessblog] by [@jessfraz][jessfraz]) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
 * [Container Hacks and Fun Images][jessvid] by [@jessfraz][jessfraz] @ DockerCon 2015 **MUST WATCH VIDEO** (38:50)
 * [Learn Docker](https://github.com/dwyl/learn-docker) Full environment set up, screenshots, step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
-* [How to Whale](https://howtowhale.com/) Learn Docker in your web browser, no setup or installation required.
+* [How to Whale](https://github.com/carolynvs/howtowhale) - Learn Docker in your web browser, no setup or installation required by [@carolynvs](https://github.com/carolynvs).
 * [Docker for all - Developers, Testers, DevOps, Product Owners + Videos](https://github.com/machzqcq/docker-for-all) Docker Training Videos for all
 * [Katacoda](https://www.katacoda.com/): Learn Docker using Interactive Browser-Based Labs
 
@@ -489,7 +489,7 @@ Services to securely store your Docker images.
 * [Blog](http://progrium.com/blog/) of [@progrium][progrium]
 * [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
 * [Blog](https://blog.codeship.com/) of [@codeship](https://github.com/codeship)
-* [Blog](https://blog.jessfraz.com/) of [@frazelledazzell][jessfraz]
+* [Blog](https://blog.jessfraz.com/) of [@jessfraz][jessfraz]
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
 * [Docker Cheat Sheet](http://docker.jens-piegsa.com) by [@JensPiegsa][JensPiegsa] *(updated for Docker 1.13)*
@@ -606,6 +606,7 @@ Services to securely store your Docker images.
 
 [ahmetalpbalkan]: https://github.com/ahmetalpbalkan
 [alpine]: https://github.com/gliderlabs/docker-alpine
+[arun-gupta]: https://github.com/arun-gupta
 [blockbridge]: https://github.com/blockbridge
 [brooklyn]: http://brooklyn.apache.org/
 [calico]: https://github.com/projectcalico/calicoctl
@@ -620,6 +621,8 @@ Services to securely store your Docker images.
 [docker-compose]: https://docs.docker.com/compose/
 [docker-quick-ref]: https://github.com/dimonomid/docker-quick-ref
 [docker]: https://github.com/docker
+[docker-for-mac]: https://docs.docker.com/docker-for-mac/
+[docker-for-windows]: https://docs.docker.com/docker-for-windows/
 [docker4dev]: https://www.youtube.com/watch?v=FdkNAjjO5yQ
 [dokku]: https://github.com/dokku/dokku
 [editREADME]: https://github.com/veggiemonk/awesome-docker/edit/master/README.md
