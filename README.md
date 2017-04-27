@@ -379,6 +379,7 @@ Services to securely store your Docker images.
 
 ## Serverless
 * [ATOMIQ](https://github.com/atomiqio/atomiq) - The open source unified CaaS/FaaS platform for Docker, batteries included. (formerly AMP by Team Appcelerator)
+* [Apache OpenWhisk](https://github.com/openwhisk/openwhisk) - serverless distributed event-based programming service that executes functions in response to events at any scale.
 * [Docker-Lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
 * [FaaS](https://github.com/alexellis/faas) - Docker Serverless/Functions as a Service (on Docker Swarm)
 * [Funker](https://github.com/bfirsh/funker-example-voting-app) - Functions as Docker containers
