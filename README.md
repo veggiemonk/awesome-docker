@@ -80,15 +80,12 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Docker Documentation](https://docs.docker.com/)
 * [Docker Training](http://training.docker.com/) - Includes a free self-paced hands-on tutorial (free registration required or sign-in with DockerHub ID)
 * Read this complete article: [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
-* Watch the video: [Docker for Developers][docker4dev] (54:26) by [@jpetazzo][jpetazzo]
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 * [Docker Curriculum](https://prakhar.me/docker-curriculum/): A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.
 * Try [Panamax: Docker Management for Humans][panamax.io] It will install a CoreOS VM with VirtualBox and has nice front end
 * [Docker Toolbox](https://docs.docker.com/toolbox/overview/) - It's a **legacy desktop application** for quick setup and launch of a Docker environment on older Mac (10.10 and below) and Windows (8.1 and below) systems. On newer systems it's recommended to use the [Docker for Mac][docker-for-mac] or [Docker for Windows][docker-for-windows].
 * Check out [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
-* [Project Web Dev][projwebdev] : (Article series) How to create your own website based on Docker
-* [Docker Containers on the desktop][jessblog] by [@jessfraz][jessfraz]) The **funniest way** to learn about docker! (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
-* [Container Hacks and Fun Images][jessvid] by [@jessfraz][jessfraz] @ DockerCon 2015 **MUST WATCH VIDEO** (38:50)
+* [Docker Containers on the Desktop][jessblog] - The **funniest way** to learn about docker by [@jessfraz][jessfraz]) who also gave a [presentation][jessvid] about it @ DockerCon 2015 (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
 * [Learn Docker](https://github.com/dwyl/learn-docker) Full environment set up, screenshots, step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
 * [How to Whale](https://github.com/carolynvs/howtowhale) - Learn Docker in your web browser, no setup or installation required by [@carolynvs](https://github.com/carolynvs).
@@ -493,8 +490,6 @@ Services to securely store your Docker images.
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
 * [Docker Cheat Sheet](http://docker.jens-piegsa.com) by [@JensPiegsa][JensPiegsa] *(updated for Docker 1.13)*
-* [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
-* [Docker Containers on the desktop][jessblog] by [@jessfraz][jessfraz] The **funniest way** to learn
 * [Docker Ecosystem](http://comp.photo777.org/wp-content/uploads/2015/09/Docker-ecosystem-8.5.1.pdf) (PDF) __MUST SEE__    find it on [blog](http://comp.photo777.org/docker-ecosystem/) by Bryzgalov Peter.
 * [Docker Ecosystem](https://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
 * [Docker Kubernetes Lab Handbook](https://github.com/xiaopeng163/docker-k8s-lab)
@@ -561,7 +556,6 @@ Services to securely store your Docker images.
 * [Quoi d'neuf Docker](https://www.youtube.com/channel/UCOAhkxpryr_BKybt9wIw-NQ/videos) **FRENCH** chronique vidéo sur Youtube proposant de courtes vidéos (maximum 15 minutes) sur la thématique "Docker et son écosystème" [Site Web](http://www.quoidneufdocker.xyz/)
 
 ## Useful videos
-* [Container Hacks and Fun Images][jessvid] by [@jessfraz][jessfraz] @ DockerCon 2015 (**MUST WATCH VIDEO**: 38:50)
 * [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
 * [Deploying and scaling applications with Docker, Swarm, and a tiny bit of Python magic](https://www.youtube.com/watch?v=GpHMTR7P2Ms) (3:11:06) by [@jpetazzo][jpetazzo]
 * [Docker and SELinux by Daniel Walsh from Red Hat ](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
