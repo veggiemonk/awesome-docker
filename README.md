@@ -542,6 +542,7 @@ Services to securely store your Docker images.
 * [Security Best Practices for Building Docker Images](https://linux-audit.com/tag/docker/)
 * [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
 * [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/) (written 5 MAY 2015)
+* [CVE Scanning Alpine images with Multi-stage builds in Docker 17.05](https://github.com/tomwillfixit/alpine-cvecheck)
 
 ## Raspberry Pi & ARM
 * [Docker Pirates ARMed with explosive stuff](http://blog.hypriot.com/) Huge resource on clustering, swarm, docker, pre-installed image for SD card on Raspberry Pi
