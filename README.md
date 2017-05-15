@@ -532,6 +532,7 @@ Services to securely store your Docker images.
 
 ## Security
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
+* [CVE Scanning Alpine images with Multi-stage builds in Docker 17.05](https://github.com/tomwillfixit/alpine-cvecheck) by [@tomwillfixit](https://twitter.com/tomwillfixit)
 * [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
 * [Docker Secure Deployment Guidelines](https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines)
 * [Docker Security Cheat Sheet](https://github.com/konstruktoid/Docker/blob/master/Security/CheatSheet.adoc)
