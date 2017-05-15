@@ -378,7 +378,7 @@ Services to securely store your Docker images.
 
 ## Serverless
 * [AMP](https://github.com/appcelerator/amp) - The open source unified CaaS/FaaS platform for Docker, batteries included. By [@Appcelerator](https://github.com/appcelerator/)
-* [Apache OpenWhisk](https://github.com/openwhisk/openwhisk) - serverless distributed event-based programming service that executes functions in response to events at any scale. By [@openwhisk](https://github.com/openwhisk)
+* [Apache OpenWhisk](https://github.com/apache/incubator-openwhisk) - a serverless, open source cloud platform that executes functions in response to events at any scale. By [@apache](https://github.com/apache)
 * [Docker-Lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment. By [@lamb-ci](https://github.com/lambci)
 * [FaaS](https://github.com/alexellis/faas) - Docker Serverless/Functions as a Service (on Docker Swarm). By [@alexellis](https://github.com/alexellis/)
 * [Funker](https://github.com/bfirsh/funker-example-voting-app) - Functions as Docker containers example voting app. By [@bfirsh](https://github.com/bfirsh)
