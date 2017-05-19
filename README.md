@@ -184,7 +184,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [DevLab](https://github.com/TechnologyAdvice/DevLab) - Utility for running containerized development environments
 * [Devstep](https://github.com/fgrehm/devstep) - Development environments powered by Docker and buildpacks by [@fgrehm][fgrehm]
 * [Docker osx dev](https://github.com/brikis98/docker-osx-dev) - A productive development environment with Docker on OS X by [@brikis98](https://github.com/brikis98)
-* [Docker-sync](http://docker-sync.io/) - Tool to improve performance when using Docker on Mac OS X and your volume has several folders and files like gulp projects for instance. By [@EugenMayer](https://github.com/EugenMayer)
+* [Docker-sync](http://docker-sync.io/) - Drastically improves performance ([50-70x](https://github.com/EugenMayer/docker-sync/wiki/4.-Performance)) when using Docker for development on Mac OS X/Windows and Linux while sharing code to the container. By [@EugenMayer](https://github.com/EugenMayer)
 * [Stacker](https://github.com/stacker/stacker-cli) - Docker Compose Templates. Stacker provides an abstraction layer over Docker Compose and a better DX (developer experience).
 * [Vagga](https://github.com/tailhook/vagga) - Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments by [@tailhook](https://github.com/tailhook/)
 
