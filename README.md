@@ -477,6 +477,7 @@ Services to securely store your Docker images.
 * [dockering-on-rails](https://github.com/Electrofenster/dockerding-on-rails) - Simple Web-Interface for Docker with a lot of features by [@Electrofenster](https://github.com/Electrofenster/)
 * [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
+* [docker-box](https://github.com/MicroPyramid/docker-box) - Web interface to run full blown OS containers within seconds instead of setting up virtual machines and you get all the benefits of containers like instantaneous backups(commits), easy start and stop and the awesome feature of pausing your container etc.
 
 # Useful Resources
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
