@@ -523,6 +523,7 @@ Services to securely store your Docker images.
 * [Resource Management in Docker](https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/) by [@marekgoldmann](https://twitter.com/marekgoldmann)
 * [Running Production Hadoop Clusters in Docker Containers](https://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
 * [Using NSEnter with Boot2Docker](https://ro14nd.de/NSEnter-with-Boot2Docker)
+* [Host multiple subdomains/applications on a single host using Docker](http://blog.florianlopes.io/host-multiple-websites-on-single-host-docker/)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
