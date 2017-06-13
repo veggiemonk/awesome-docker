@@ -525,6 +525,7 @@ Services to securely store your Docker images.
 * [Resource Management in Docker](https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/) by [@marekgoldmann](https://twitter.com/marekgoldmann)
 * [Running Production Hadoop Clusters in Docker Containers](https://conferences.oreilly.com/strata/big-data-conference-ca-2015/public/schedule/detail/38521)
 * [Using NSEnter with Boot2Docker](https://ro14nd.de/NSEnter-with-Boot2Docker)
+* [The definitive guide to using Docker as a local development environment](http://augustin-riedinger.fr/en/resources/using-docker-as-a-development-environment-part-1/) by [@aug-riedinger](https://github.com/aug-riedinger)
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
