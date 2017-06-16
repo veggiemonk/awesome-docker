@@ -168,7 +168,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [construi](https://github.com/lstephen/construi) - Run your builds inside a Docker defined environment by [@lstephen](https://github.com/lstephen)
 * [Docker Client for JVM](https://github.com/gesellix/docker-client) - A Docker remote api client library for the JVM, written in Groovy by [@gesellix][gesellix]
 * [docker-it-scala](https://github.com/whisklabs/docker-it-scala) - Docker integration testing kit with Scala by [@whisklabs](https://github.com/whisklabs)
-* [docker-maven-plugin (1)](https://github.com/spotify/docker-maven-plugin) - A Maven plugin for building and pushing Docker images by [@spotify](https://github.com/spotify/)
+* [docker-maven-plugin (1)](https://github.com/spotify/docker-maven-plugin) - A Maven plugin for building and pushing Docker images by [@spotify][spotify]
 * [docker-maven-plugin (2)](https://github.com/fabric8io/docker-maven-plugin) - A Maven plugin for running and creating Docker images by [@fabric8io](https://github.com/fabric8io)
 * [Docker-PowerShell](https://github.com/Microsoft/Docker-PowerShell) - PowerShell Module for Docker
 * [Docker.DotNet](https://github.com/Microsoft/Docker.DotNet) - C#/.NET HTTP client for the Docker remote API by [@ahmetalpbalkan](ahmetalpbalkan)
@@ -206,7 +206,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [caduc](https://github.com/tjamet/caduc) - A docker garbage collector cleaning stuff you did not use recently
 * [Docker Clean](https://github.com/zzrotdesign/docker-clean) - A script that cleans Docker containers, images and volumes by [@zzrotdesign](https://github.com/zzrotdesign)
 * [docker-garby](https://github.com/konstruktoid/docker-garby) - Docker garbage collection script by [@konstruktoid](https://github.com/konstruktoid).
-* [docker-gc](https://github.com/spotify/docker-gc) - A cron job that will delete old stopped containers and unused images by [@spotify](https://github.com/spotify)
+* [docker-gc](https://github.com/spotify/docker-gc) - A cron job that will delete old stopped containers and unused images by [@spotify][spotify]
 * [sherdock](https://github.com/rancher/sherdock) - Automatic GC of images based on regexp by [@rancher][rancher]
 
 ## Hosting Images (registries)
@@ -348,7 +348,7 @@ Services to securely store your Docker images.
 * [Flocker](https://github.com/ClusterHQ/flocker) - Flocker is a data volume manager and multi-host Docker cluster management tool by [@ClusterHQ](https://github.com/ClusterHQ)
 * [gantryd](https://github.com/DevTable/gantryd) - A framework for easy management of docker-based components across machines by [@DevTable](https://github.com/DevTable)
 * [Haven](https://github.com/codeabovelab/haven-platform) - Haven is a simplified container management platform that integrates container, application, cluster, image, and registry managements. By [@codeabovelab](https://github.com/codeabovelab)
-* [Helios](https://github.com/spotify/helios) - A simple platform for deploying and managing containers across an entire fleet of servers by [@spotify](https://github.com/spotify/)
+* [Helios](https://github.com/spotify/helios) - A simple platform for deploying and managing containers across an entire fleet of servers by [@spotify](spotify)
 * [Kontena](https://github.com/kontena/kontena) - Application Containers for Masses https://www.kontena.io/
 * [Kubernetes][kubernetes] - Open source orchestration system for Docker containers by Google [kubernetes] See Also [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana][ramitsurana]
 * [Maestro](https://github.com/toscanini/maestro) - Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit by [@tascanini](https://github.com/toscanini)
@@ -665,6 +665,7 @@ Services to securely store your Docker images.
 [sebgoa]: https://twitter.com/sebgoa
 [sematext]: https://twitter.com/sematext
 [sindresorhus]: https://github.com/sindresorhus/awesome
+[spotify]: https://github.com/spotify
 [spm]: https://github.com/sematext/sematext-agent-docker
 [vegasbrianc]: https://github.com/vegasbrianc
 [vimagick]: https://github.com/vimagick
