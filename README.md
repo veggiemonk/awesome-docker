@@ -346,6 +346,7 @@ Services to securely store your Docker images.
 * [ElasticKube](https://github.com/ElasticBox/elastickube) - Open source management platform for Kubernetes.
 * [Fleet](https://github.com/coreos/fleet) - A Distributed init System providing low-level orchestration [coreos.com]
 * [Flocker](https://github.com/ClusterHQ/flocker) - Flocker is a data volume manager and multi-host Docker cluster management tool by [@ClusterHQ](https://github.com/ClusterHQ)
+* [gantryd](https://github.com/DevTable/gantryd) - A framework for easy management of docker-based components across machines by [@DevTable](https://github.com/DevTable)
 * [Haven](https://github.com/codeabovelab/haven-platform) - Haven is a simplified container management platform that integrates container, application, cluster, image, and registry managements. By [@codeabovelab](https://github.com/codeabovelab)
 * [Kontena](https://github.com/kontena/kontena) - Application Containers for Masses https://www.kontena.io/
 * [Kubernetes][kubernetes] - Open source orchestration system for Docker containers by Google [kubernetes] See Also [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana][ramitsurana]
