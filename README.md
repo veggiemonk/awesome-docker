@@ -485,6 +485,7 @@ Services to securely store your Docker images.
 
 # Useful Resources
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
+* [Awesome Selfhosted](https://github.com/Kickball/awesome-selfhosted) list of Free Software network services and web applications which can be hosted locally by [Kickball](https://github.com/Kickball)
 * [Awesome Sysadmin](https://github.com/n1trux/awesome-sysadmin) by [@n1trux](https://github.com/n1trux)
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
 * [Blog](https://gliderlabs.com/devlog/) of [@gliderlabs][gliderlabs]
