@@ -485,7 +485,7 @@ Services to securely store your Docker images.
 
 # Useful Resources
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
-* [Awesome Selfhosted](https://github.com/Kickball/awesome-selfhosted) list of Free Software network services and web applications which can be hosted locally by [Kickball](https://github.com/Kickball)
+* [Awesome Selfhosted](https://github.com/Kickball/awesome-selfhosted) list of Free Software network services and web applications which can be hosted locally by running in a classical way (setup local web server and run applications from there) or in a Docker container. By [@Kickball](https://github.com/Kickball)
 * [Awesome Sysadmin](https://github.com/n1trux/awesome-sysadmin) by [@n1trux](https://github.com/n1trux)
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
 * [Blog](https://gliderlabs.com/devlog/) of [@gliderlabs][gliderlabs]
@@ -506,7 +506,7 @@ Services to securely store your Docker images.
 * [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 * [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 * [Project Web Dev][projwebdev] : (Article series) How to create your own website based on Docker
-* [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade) a list of SaaS and On premise applications by [@cjbarber](https://github.com/cjbarber) 
+* [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade) a list of SaaS and On premise applications by [@cjbarber](https://github.com/cjbarber)
 * __[Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)__ High quality articles about docker! __MUST SEE__
 
 ## Good Tips
