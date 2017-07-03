@@ -484,6 +484,7 @@ Services to securely store your Docker images.
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
 
 # Useful Resources
+* [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana](https://github.com/ramitsurana)
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
 * [Blog](https://gliderlabs.com/devlog/) of [@gliderlabs][gliderlabs]
