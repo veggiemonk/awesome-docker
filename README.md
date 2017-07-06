@@ -335,7 +335,7 @@ Services to securely store your Docker images.
 
 ## Remote Container Manager / Orchestration
 
-* [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana](https://github.com/ramitsurana)
+* [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana][ramitsurana]
 * [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic][prologic]
 * [blimp](https://github.com/tubesandlube/blimp) - Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more by [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 * [Capitan](https://github.com/byrnedo/capitan) - Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
@@ -486,7 +486,6 @@ Services to securely store your Docker images.
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
 
 # Useful Resources
-* [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana](https://github.com/ramitsurana)
 * [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
 * [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
 * [Blog](https://gliderlabs.com/devlog/) of [@gliderlabs][gliderlabs]
