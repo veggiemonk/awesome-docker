@@ -410,7 +410,6 @@ Services to securely store your Docker images.
 * [Hyper_](https://hyper.sh/) - Secure container hosting service with "nano-containers" and per-second billing.
 * [IBM Bluemix Container Service](https://console.bluemix.net/docs/containers/container_index.html) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
 * [OpenShift Dedicated](https://www.openshift.com/dedicated/index.html) - A hosted [OpenShift][openshift] cluster for running your Docker containers managed by Red Hat.
-* [Orchard](https://www.orchardup.com/) (part of Docker Inc) - Get a Docker host in the cloud, instantly.
 * [Sloppy.io](https://sloppy.io/) - all-in-one solution for container deployment and hosting – made and hosted in Germany
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
 
