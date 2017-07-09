@@ -402,6 +402,7 @@ Services to securely store your Docker images.
 * [Arukas](https://arukas.io/) - Heroku-inspired CaaS
 * [Azure ACS](https://azure.microsoft.com/en-us/services/container-service/) - A management service on Azure Virtual Machines that supports Docker containers.
 * [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
+* [Codenvy](https://codenvy.com) - One-click Docker environments and cloud workspace for development teams
 * [ContainerShip Cloud][containership] - Multi-Cloud Container Hosting Automation Platform.
 * [DataMC](http://datamc.io/) - DataMc is a PaaS for Production ready and fully managed Data Platform
 * [Docker Cloud](https://cloud.docker.com/) - Former Tutum
@@ -438,7 +439,6 @@ Services to securely store your Docker images.
 * [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services.
 * [Chaperone](https://github.com/garywiz/chaperone) - A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package. by [@garywiz](https://github.com/garywiz)
 * [codelift](https://codelift.io/) - CodeLift is an automated Docker image build utility for 'dockerizing' services by [@BoozAllen](https://twitter.com/BoozAllen)
-* [Codenvy](https://codenvy.io) - One-click Docker environments and cloud workspace for development teams
 * [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files
 * [dexec](https://github.com/docker-exec/dexec) - Command line interface written in Go for running code with Docker Exec images.
 * [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
