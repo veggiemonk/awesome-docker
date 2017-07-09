@@ -402,7 +402,7 @@ Services to securely store your Docker images.
 * [Amazon ECS](https://aws.amazon.com/ecs/) - A management service on EC2 that supports Docker containers.
 * [Arukas](https://arukas.io/) - Heroku-inspired CaaS
 * [Azure ACS](https://azure.microsoft.com/en-us/services/container-service/) - A management service on Azure Virtual Machines that supports Docker containers.
-* [Cloud 66](http://www.cloud66.com) - Full-stack hosted container management as a service
+* [Cloud 66](https://www.cloud66.com) - Full-stack hosted container management as a service
 * [Codenvy](https://codenvy.com) - One-click Docker environments and cloud workspace for development teams
 * [ContainerShip Cloud][containership] - Multi-Cloud Container Hosting Automation Platform.
 * [DataMC](http://datamc.io/) - DataMc is a PaaS for Production ready and fully managed Data Platform
