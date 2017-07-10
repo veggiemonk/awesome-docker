@@ -30,11 +30,9 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Deployment and Infrastructure](#deployment-and-infrastructure)
 	- [Developer Tools](#developer-tools)
 	- [Development Environments](#development-environments)
-	- [Docker Compose file](#docker-compose-file)
 	- [Dockerfile](#dockerfile)
 	- [Garbage Collection](#garbage-collection)
 	- [Hosting Images (registries)](#hosting-images-registries)
-	- [Images](#images)
 	- [Image Builder](#image-builder)
 	- [Linter / Validator](#linter--validator)
 	- [Local Container Manager](#local-container-manager)
@@ -190,14 +188,16 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Vagga](https://github.com/tailhook/vagga) - Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments by [@tailhook](https://github.com/tailhook/)
 
 ## Docker Compose file
-* [Docker Compose Example](https://github.com/llitfkitfk/docker-compose-demo) by [@llitfkitfk](https://github.com/llitfkitfk)
 
 ## Dockerfile
+* [chaperone-docker](https://github.com/garywiz/chaperone-docker) - A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.
 * [Collection of Dockerfiles](https://github.com/crosbymichael/Dockerfiles) by [@crosbymichael][crosbymichael]
 * [Collection of Dockerfiles 2](https://github.com/pandrew/dockerfiles) by [@pandrew][pandrew]
 * [Collection of Dockerfiles 3](https://github.com/vimagick/dockerfiles) by [@vimagick][vimagick]
 * [Collection of Dockerfiles 4](https://github.com/ondrejmo/Dockerfiles) by [@ondrejmo][ondrejmo]
 * [Collection of Dockerfiles 5](https://github.com/arun-gupta/docker-images) by [@arun-gupta][arun-gupta]
+* [docker-alpine][alpine] - A super small Docker base image *(5MB)* using Alpine Linux by [@gliderlabs][gliderlabs]
+* [Docker Compose Example](https://github.com/llitfkitfk/docker-compose-demo) by [@llitfkitfk](https://github.com/llitfkitfk)
 * [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
 * [Dockerfile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [Dockerfile Example 2](https://github.com/kstaken/dockerfile-examples) by [@kstaken](https://github.com/kstaken)
@@ -227,18 +227,6 @@ Services to securely store your Docker images.
 * [Sonatype Nexus](https://www.sonatype.com/nexus-repository-oss) - Repository with Universal Support, also for Docker images
 * [TreeScale](https://treescale.com/) - Build and Distribute container based applications.
 * [VMWare Harbor](http://vmware.github.io/harbor/) Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.
-
-## Images
-* [Base Image](https://github.com/phusion/baseimage-docker) by [@phusion](https://github.com/phusion/)
-* [Busybox](https://github.com/jpetazzo/docker-busybox) - with either `buildroot` or Ubuntu's `busybox-static` by [@jpetazzo][jpetazzo]
-* [chaperone-docker](https://github.com/garywiz/chaperone-docker) - A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.
-* [docker-alpine][alpine] - A super small Docker base image *(5MB)* using Alpine Linux by [@gliderlabs][gliderlabs]
-* [docker-fluentd][fluentd] - the Container to Log Other Containers' Logs by [@kiyoto][kiyoto]
-* [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) - Build and run Docker containers leveraging NVIDIA GPUs.
-* [Official Images from Docker Hub](https://github.com/docker-library/official-images)
-* [OpenWRT](http://www.zoobab.com/docker-openwrt-image) by [@zoobab](https://github.com/zoobab)
-* [passenger-docker](https://github.com/phusion/passenger-docker) - Docker base images for Ruby, Python, Node.js and Meteor web apps by [@phusion](https://github.com/phusion)
-* [Phusion Docker Hub Account](https://hub.docker.com/u/phusion/)
 
 ## Image Builder
 * [bocker](https://github.com/icy/bocker) (2) - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
@@ -428,12 +416,8 @@ Services to securely store your Docker images.
 * [tsaotun](https://github.com/qazbnm456/tsaotun) - Python based Assistance for Docker by [@qazbnm456](https://github.com/qazbnm456)
 
 ## Testing
-* [appium-docker-android](https://github.com/appium/appium-docker-android) - Docker images from appium which helps to run tests on real devices.
 * [dgoss](https://github.com/aelsabbahy/goss/tree/master/extras/dgoss) - A fast YAML based tool for validating docker containers.
-* [elgalu/docker-selenium](https://github.com/elgalu/docker-selenium) - Selenium in Docker with Chrome & Firefox plus video recording support.
 * [Pumba](https://github.com/gaia-adm/pumba) - Chaos testing tool for Docker. Can be deployed on Kubernets and CoreOS clusters.
-* [SeleniumHQ/docker-selenium](https://github.com/SeleniumHQ/docker-selenium) - Docker images for Selenium Standalone Server, Hub, and Node configurations with Chrome and Firefox.
-* [zalenium](https://github.com/zalando/zalenium) - A Selenium Grid extension to scale up and down your local grid dynamically with docker containers.
 
 ## Utilities
 * [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services.
