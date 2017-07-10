@@ -364,7 +364,7 @@ Services to securely store your Docker images.
 * [Rancher](https://github.com/rancher/rancher) - An open source project that provides a complete platform for operating Docker in production by [@rancher][rancher].
 * [Serf](https://github.com/hashicorp/serf) - Service orchestration and management tool by [@hashicorp][hashicorp]
 * [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker Management
-* [Docker Swarm](https://github.com/docker/swarm) (Swarm: a Docker-native clustering system)
+* [Swarmpit](http://swarmpit.io/) - Lightweight Docker Swarm orchestration. Swarmpit provides clean way to manage your Docker Swarm cluster with various handful features such Service management, Smart search, Shared access, Private registries and more to come soon.
 
 ## Reverse Proxy
 * [docker-proxy](https://github.com/silarsis/docker-proxy) - Transparent proxy for docker containers, run in a docker container. By [@silarsis](https://github.com/silarsis)
