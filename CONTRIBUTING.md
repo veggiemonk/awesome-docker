@@ -12,16 +12,8 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 # Mission Statement
 
 `awesome-docker` is a hand-crafted list for high-quality information about docker and its resources. It should be related or compatible with docker. If it's just an image built on top of docker, the project possibly belongs to other [awesome lists](https://github.com/sindresorhus/awesome). You can check the [awesome-selfhosted list](https://github.com/Kickball/awesome-selfhosted) or the [awesome-sysadmin list](https://github.com/n1trux/awesome-sysadmin) as well.
-If it's awesome, let's us know why (pull request or issue or chat) and we will help you!
-
-- Each item should be limited to one link, no duplicates, no redirection (careful with `http` vs `https`!)
-- The link should be the name of the package or project or website
-- Description should be clear and concise (read it out loud to be sure)
-- Description should follow the link, on the same line
-- if you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
-
-Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
-
+If it's a **tutorial or a blog post**, they get outdated really quickly so we don't really put them on the list but if it is on a very advanced and/or specific topic, we will consider it!
+If something is awesome, share it (pull request or issue or chat), let's us know why and we will help you!
 
 # Quality Standards
 
@@ -48,7 +40,6 @@ To be on the list, the project **must** have:
 If your PR is not merged, we will tell you why so that you may be able to improve it.
 But usually, we are pretty relaxed people, so just come and say hi, we'll figure something out together.
 
-
 # Contribution Guidelines
 
 ## I want to share a project, what should I do?
@@ -58,6 +49,17 @@ But usually, we are pretty relaxed people, so just come and say hi, we'll figure
 - want to change something: Submit a pull request or open an issue
 - want to try something else: Submit a pull request or open an issue
 - don't know what to do: Submit a pull request or open an issue, let us know what's going on.
+
+### Rules for Pull Request
+
+- Each item should be limited to one link, no duplicates, no redirection (careful with `http` vs `https`!)
+- The link should be the name of the package or project or website
+- Description should be clear and concise (read it out loud to be sure)
+- Description should follow the link, on the same line
+- if you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
+
+Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
+
 
 #### Your commit message will be a tweet so make a beautiful commit message, keep that in mind :)
 
@@ -83,7 +85,8 @@ If you just joined the team of maintainers for this repo, first of all: WELCOME!
 If it is your first time maintaining an open source project, read the [best practice guides for maintainers](https://opensource.guide/best-practices/).
 
 Here are the few things you need to know:
-* we don't push directly to master, we create a pull request. Every entry has to be reviewed.
-* how to tell if a project should be on the list, read this file `CONTRIBUTING.md`
-* to ask a contributor to make a change, just copy paste this message [here](https://github.com/veggiemonk/awesome-docker/pull/289#issuecomment-285608004) and changes a few things like names and stuff. The main idea is to help people get to quality.
-* If something seems weird, if you don't understand what a project does or the documentation is poor, don't hesitate to ask for more (see previous point).
+* we don't push directly to master, we create a pull request. Every entry **MUST** be reviewed!
+* how to tell if a project should be on the list? Read this file `CONTRIBUTING.md`
+* to ask a contributor to make a change, just copy paste this message [here](https://github.com/veggiemonk/awesome-docker/pull/289#issuecomment-285608004) and changes a few things like names and stuff. **The main idea is to help people get to quality.**
+* If something seems weird, if you don't understand what a project does or the documentation is poor, don't hesitate to (nicely) ask for more (see previous point).
+* Say thank you to people who contribute to this project! It may not seems like much but respect and gratitude are important :D
