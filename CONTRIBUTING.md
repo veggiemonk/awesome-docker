@@ -4,37 +4,10 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 
 # Table of Contents
 
-- [Awesome Docker contribution guidelines](#contribution-guidelines)
 - [Mission Statement](#mission-statement)
 - [Quality Standard](#quality-standards)
+- [Awesome Docker contribution guidelines](#contribution-guidelines)
 - [New Collaborators](#new-collaborators)
-
-# Contribution Guidelines
-
-## I want to share a project, what should I do?
-
-- **To add to the list:** Submit a pull request or open an issue
-- **To remove from the list:** Submit a pull request or open an issue
-- want to change something: Submit a pull request or open an issue
-- want to try something else: Submit a pull request or open an issue
-- don't know what to do: Submit a pull request or open an issue, let us know what's going on.
-
-#### Your commit message will be a tweet so make a beautiful commit message, keep that in mind :)
-
-or you can
-
-#### Join the chat:
-
-[![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker)
-
-or you can
-
-#### ping us on twitter:
-
-* [veggiemonk](https://twitter.com/veggiemonk)
-* [idomyowntricks](https://twitter.com/idomyowntricks)
-* [gesellix](https://twitter.com/gesellix)
-* [dmitrytokarev](https://twitter.com/dmitrytok)
 
 # Mission Statement
 
@@ -74,6 +47,34 @@ To be on the list, the project **must** have:
 
 If your PR is not merged, we will tell you why so that you may be able to improve it.
 But usually, we are pretty relaxed people, so just come and say hi, we'll figure something out together.
+
+
+# Contribution Guidelines
+
+## I want to share a project, what should I do?
+
+- **To add to the list:** Submit a pull request or open an issue
+- **To remove from the list:** Submit a pull request or open an issue
+- want to change something: Submit a pull request or open an issue
+- want to try something else: Submit a pull request or open an issue
+- don't know what to do: Submit a pull request or open an issue, let us know what's going on.
+
+#### Your commit message will be a tweet so make a beautiful commit message, keep that in mind :)
+
+or you can
+
+#### Join the chat:
+
+[![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker)
+
+or you can
+
+#### ping us on twitter:
+
+* [veggiemonk](https://twitter.com/veggiemonk)
+* [idomyowntricks](https://twitter.com/idomyowntricks)
+* [gesellix](https://twitter.com/gesellix)
+* [dmitrytokarev](https://twitter.com/dmitrytok)
 
 # New Collaborators
 
