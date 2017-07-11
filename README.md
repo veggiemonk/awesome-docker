@@ -442,7 +442,7 @@ Services to securely store your Docker images.
 * [Eclipse Che](http://www.eclipse.org/che/) - Developer workspace server with Docker runtimes, cloud IDE, next-generation Eclipse IDE
 * [forward2docker](https://github.com/bsideup/forward2docker) - Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM by [@bsideup](https://github.com/bsideup)
 * [GoSu](https://github.com/tianon/gosu) - Run this specific application as this specific user and get out of the pipeline (entrypoint script tool) by [@tianon](https://github.com/tianon)
-* [netshoot](https://github.com/nicolaka/netshoot) - The netshoot continaer has a powerful set of networking tools to help troubleshoot Docker networking issues by [@nicolaka](https://github.com/nicolaka)
+* [netshoot](https://github.com/nicolaka/netshoot) - The netshoot container has a powerful set of networking tools to help troubleshoot Docker networking issues by [@nicolaka](https://github.com/nicolaka)
 * [ns-enter](https://github.com/jpetazzo/nsenter) - no more ssh, enter name spaces of container by [@jpetazzo][jpetazzo]
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
 * [percheron][percheron] - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
