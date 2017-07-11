@@ -5,17 +5,21 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 # Table of Contents
 
 - [Awesome Docker contribution guidelines](#contribution-guidelines)
-- [Quality Standard](#quality-standard)
+- [Mission Statement](#mission-statement)
+- [Quality Standard](#quality-standards)
+- [New Collaborators](#new-collaborators)
 
 # Contribution Guidelines
 
-#### Your commit message will be a tweet so make a beautiful commit message, keep that in mind :)
+## I want to share a project, what should I do?
 
 - **To add to the list:** Submit a pull request or open an issue
 - **To remove from the list:** Submit a pull request or open an issue
 - want to change something: Submit a pull request or open an issue
 - want to try something else: Submit a pull request or open an issue
 - don't know what to do: Submit a pull request or open an issue, let us know what's going on.
+
+#### Your commit message will be a tweet so make a beautiful commit message, keep that in mind :)
 
 or you can
 
@@ -32,9 +36,10 @@ or you can
 * [gesellix](https://twitter.com/gesellix)
 * [dmitrytokarev](https://twitter.com/dmitrytok)
 
-`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources.
-It would be nice if it is related or compatible with docker in some way.
-But if it's awesome, let's us know why and you're good to go!
+# Mission Statement
+
+`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources. It should be related or compatible with docker. If it's just an image built on top of docker, the project possibly belongs to other [awesome lists](https://github.com/sindresorhus/awesome). You can check the [awesome-selfhosted list](https://github.com/Kickball/awesome-selfhosted) or the [awesome-sysadmin list](https://github.com/n1trux/awesome-sysadmin) as well.
+If it's awesome, let's us know why (pull request or issue or chat) and we will help you!
 
 - Each item should be limited to one link, no duplicates, no redirection (careful with `http` vs `https`!)
 - The link should be the name of the package or project or website
@@ -45,7 +50,7 @@ But if it's awesome, let's us know why and you're good to go!
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
 
-# Quality standard
+# Quality Standards
 
 Note that we can help you achieve those standards, just try your best, be brave.
 We'll guide you to the best of our abilities.
