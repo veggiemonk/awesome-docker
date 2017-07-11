@@ -5,31 +5,30 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 # Table of Contents
 
 - [Mission Statement](#mission-statement)
-- [Quality Standard](#quality-standards)
-- [Awesome Docker contribution guidelines](#contribution-guidelines)
+- [Quality Standards](#quality-standards)
+- [Contribution Guidelines](#contribution-guidelines)
 - [New Collaborators](#new-collaborators)
 
 # Mission Statement
 
-`awesome-docker` is a hand-crafted list for high-quality information about docker and its resources. It should be related or compatible with docker. If it's just an image built on top of docker, the project possibly belongs to other [awesome lists](https://github.com/sindresorhus/awesome). You can check the [awesome-selfhosted list](https://github.com/Kickball/awesome-selfhosted) or the [awesome-sysadmin list](https://github.com/n1trux/awesome-sysadmin) as well.
+`awesome-docker` is a hand-crafted list for high-quality information about Docker and its resources. It should be related or compatible with Docker. If it's just an image built on top of Docker, the project possibly belongs to other [awesome lists](https://github.com/sindresorhus/awesome). You can check the [awesome-selfhosted list](https://github.com/Kickball/awesome-selfhosted) or the [awesome-sysadmin list](https://github.com/n1trux/awesome-sysadmin) as well.
 If it's a **tutorial or a blog post**, they get outdated really quickly so we don't really put them on the list but if it is on a very advanced and/or specific topic, we will consider it!
-If something is awesome, share it (pull request or issue or chat), let's us know why and we will help you!
+If something is awesome, share it (pull request or issue or chat), let us know why and we will help you!
 
 # Quality Standards
 
-Note that we can help you achieve those standards, just try your best, be brave.
+Note that we can help you achieve those standards, just try your best and be brave.
 We'll guide you to the best of our abilities.
 
 To be on the list, it would be *nice* if entries adhere to these quality standards:
 
 - Generally useful to the community.
-- A project on github with a beautiful readme and plenty of examples is considered high quality.
-- Clearly stating when an entry is relating to (Linux) containers and not Docker.
-- Clearly "what is it" i.e. which category it belongs. Just try your best, we'll help you if needed.
-- Clearly stating "what is it for" i.e. mention the problem it solves. Just try your best, make it clear for the next person.
-- Solves a real problem (even a small one).
-- If it is a **WIP** (work in progress, not safe for production), mention it. (Remember the time before Docker 1.0 ? ;-) )
-- Always put the link to the github project instead of the website!
+- A project on GitHub with a well documented `README.md` file and plenty of examples is considered high quality.
+- Clearly stating if an entry is related to (Linux) containers and not to Docker. There is an [awesome list](https://github.com/Friz-zy/awesome-linux-containers) for that.
+- Clearly stating "what is it" i.e. which category it belongs to.
+- Clearly stating "what is it for" i.e. mention a real problem it solves (even a small one). Make it clear for the next person.
+- If it is a **WIP** (work in progress, not safe for production), please mention it. (Remember the time before Docker 1.0 ? ;-) )
+- Always put the link to the GitHub project instead of the website!
 
 To be on the list, the project **must** have:
 
@@ -44,11 +43,10 @@ But usually, we are pretty relaxed people, so just come and say hi, we'll figure
 
 ## I want to share a project, what should I do?
 
-- **To add to the list:** Submit a pull request or open an issue
-- **To remove from the list:** Submit a pull request or open an issue
-- want to change something: Submit a pull request or open an issue
-- want to try something else: Submit a pull request or open an issue
-- don't know what to do: Submit a pull request or open an issue, let us know what's going on.
+- **Adding to the list:** Submit a pull request or open an issue
+- **Removing from the list:** Submit a pull request or open an issue
+- Changing something else: Submit a pull request or open an issue
+- Don't know what to do: Open an issue or join our chat, let us know what's going on.
 
 ### Rules for Pull Request
 
@@ -56,16 +54,16 @@ But usually, we are pretty relaxed people, so just come and say hi, we'll figure
 - The link should be the name of the package or project or website
 - Description should be clear and concise (read it out loud to be sure)
 - Description should follow the link, on the same line
-- if you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
+- If you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
 
-#### Your commit message will be a tweet so make a beautiful commit message, keep that in mind :)
+#### Your commit message will be a [tweet](https://twitter.com/awesome_docker) so write a [good commit message](https://chris.beams.io/posts/git-commit/), keep that in mind :)
 
 or you can
 
-#### Join the chat:
+#### join the chat:
 
 [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker)
 
@@ -85,8 +83,8 @@ If you just joined the team of maintainers for this repo, first of all: WELCOME!
 If it is your first time maintaining an open source project, read the [best practice guides for maintainers](https://opensource.guide/best-practices/).
 
 Here are the few things you need to know:
-* we don't push directly to master, we create a pull request. Every entry **MUST** be reviewed!
-* how to tell if a project should be on the list? Read this file `CONTRIBUTING.md`
-* to ask a contributor to make a change, just copy paste this message [here](https://github.com/veggiemonk/awesome-docker/pull/289#issuecomment-285608004) and changes a few things like names and stuff. **The main idea is to help people get to quality.**
-* If something seems weird, if you don't understand what a project does or the documentation is poor, don't hesitate to (nicely) ask for more (see previous point).
+* We don't push directly to the master branch. Every entry **MUST** be reviewed!
+* Each entry should be in accordance to this quality standards and contribution guidelines.
+* To ask a contributor to make a change, just copy paste this message [here](https://github.com/veggiemonk/awesome-docker/pull/289#issuecomment-285608004) and change few things like names and stuff. **The main idea is to help people making great projects.**
+* If something seems weird, i.e. if you don't understand what a project does or the documentation is poor, don't hesitate to (nicely) ask for more explanation (see previous point).
 * Say thank you to people who contribute to this project! It may not seems like much but respect and gratitude are important :D
