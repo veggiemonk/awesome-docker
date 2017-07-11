@@ -48,6 +48,19 @@ But usually, we are pretty relaxed people, so just come and say hi, we'll figure
 - Changing something else: Submit a pull request or open an issue
 - Don't know what to do: Open an issue or join our chat, let us know what's going on.
 
+**join the chat:**
+
+[![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker)
+
+or you can
+
+**ping us on Twitter:**
+
+* [veggiemonk](https://twitter.com/veggiemonk)
+* [idomyowntricks](https://twitter.com/idomyowntricks)
+* [gesellix](https://twitter.com/gesellix)
+* [dmitrytokarev](https://twitter.com/dmitrytok)
+
 ### Rules for Pull Request
 
 - Each item should be limited to one link, no duplicates, no redirection (careful with `http` vs `https`!)
@@ -60,21 +73,6 @@ Please contribute links to packages/projects you have used or are familiar with.
 
 
 #### Your commit message will be a [tweet](https://twitter.com/awesome_docker) so write a [good commit message](https://chris.beams.io/posts/git-commit/), keep that in mind :)
-
-or you can
-
-#### join the chat:
-
-[![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker)
-
-or you can
-
-#### ping us on twitter:
-
-* [veggiemonk](https://twitter.com/veggiemonk)
-* [idomyowntricks](https://twitter.com/idomyowntricks)
-* [gesellix](https://twitter.com/gesellix)
-* [dmitrytokarev](https://twitter.com/dmitrytok)
 
 # New Collaborators
 
