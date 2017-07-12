@@ -20,8 +20,16 @@
 - Go to the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md) and read it again.
 
 
-RULES (because you probably didn't read the guidelines): 
-* ORDER: The entries are in lexical order (English letter order) 
-* CREDIT: Each entry must contains the name of the author with a link to its github account!
-* LINK: the link should be to the source code (https://github/account/project) not the website (https://myproject.io <- no!)
-* MONEY: indicates if one needs a paying subscription to use that project you could just add ($$$) next to the name ([my project - $$$] (link to my project) )
+**RULES (because you probably didn't read the guidelines):**
+- FORMAT
+  - Use the following format: `[Name](Link) - Description.`
+  - Name should be the title of the project
+  - Link should be to the GitHub source code, not to the website
+  - Description should end with a full stop/period
+  - After the description, add the name of the author with a link to its GitHub account like `By [@author](GitHub account)`
+- ORDER: The entries are in lexical order (English letter order) 
+- LABEL (Optional)
+  - $$$ indicates if one needs a paying subscription to use the project.
+  <br>Add $$$ next to the project name like `[Name $$$](Link)`
+  - BETA indicates that the project is in beta phase.
+  <br>Add BETA next to the project name like `[Name BETA](Link)`
