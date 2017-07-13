@@ -4,9 +4,9 @@
 
 <!-- Please fill in the below placeholders -->
 
-**[Insert URL to the list here]**
+**[Insert the URL to be listed]**
 
-**[Explain what the project is about and why it should be included here]**
+**[Explain what the project is about and why it should be listed]**
 
 
 # By submitting this pull request I confirm I've read and complied with the below requirements.
@@ -21,12 +21,15 @@
 
 
 **RULES (because you probably didn't read the guidelines):**
+
+Links will be tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot). Please make sure your URL to be listed is unique (do some search queries), otherwise put a link at the end of `README.md` file.
+ 
 - FORMAT
   - Use the following format: `[Name](Link) - Description.`
-  - Name should be the title of the project
-  - Link should be to the GitHub source code, not to the website
-  - Description should end with a full stop/period
-  - After the description, add the name of the author with a link to its GitHub account like `By [@author](GitHub account)`
+  - `[Name]` should be the title of the project
+  - `(Link)` should be pointing to a GitHub repository, not to a website
+  - `Description.` should end with a full stop/period
+  - For GitHub repositories, add the name of the author with a link to its GitHub account after the description, like `By [@author](GitHub account)`
 - ORDER: The entries are in lexical order (English letter order) 
 - LABEL (Optional)
   - $$$ indicates if one needs a paying subscription to use the project.
