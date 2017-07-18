@@ -13,7 +13,7 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 
 `awesome-docker` is a hand-crafted list for high-quality information about Docker and its resources. It should be related or compatible with Docker. If it's just an image built on top of Docker, the project possibly belongs to other [awesome lists](https://github.com/sindresorhus/awesome). You can check the [awesome-selfhosted list](https://github.com/Kickball/awesome-selfhosted) or the [awesome-sysadmin list](https://github.com/n1trux/awesome-sysadmin) as well.
 If it's a **tutorial or a blog post**, they get outdated really quickly so we don't really put them on the list but if it is on a very advanced and/or specific topic, we will consider it!
-If something is awesome, share it (pull request or issue or chat), let us know why and we will help you!
+If something is awesome, share it (pull request or [issue](https://github.com/veggiemonk/awesome-docker/issues/new) or [chat](https://gitter.im/veggiemonk/awesome-docker)), let us know why and we will help you!
 
 # Quality Standards
 
@@ -43,10 +43,10 @@ But usually, we are pretty relaxed people, so just come and say hi, we'll figure
 
 ## I want to share a project, what should I do?
 
-- **Adding to the list:** Submit a pull request or open an issue
-- **Removing from the list:** Submit a pull request or open an issue
-- Changing something else: Submit a pull request or open an issue
-- Don't know what to do: Open an issue or join our chat, let us know what's going on.
+- **Adding to the list:** Submit a pull request or open an [issue](https://github.com/veggiemonk/awesome-docker/issues/new)
+- **Removing from the list:** Submit a pull request or open an [issue](https://github.com/veggiemonk/awesome-docker/issues/new)
+- Changing something else: Submit a pull request or open an [issue](https://github.com/veggiemonk/awesome-docker/issues/new)
+- Don't know what to do: Open an [issue](https://github.com/veggiemonk/awesome-docker/issues/new) or join our [chat](https://gitter.im/veggiemonk/awesome-docker), let us know what's going on.
 
 **join the chat:**
 
