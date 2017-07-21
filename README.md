@@ -144,7 +144,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [ConcourseCI](https://concourse.ci) - A CI SaaS platform for developers and DevOps teams pipeline oriented.
 * [Semaphore CI](https://semaphoreci.com/product/docker) — A high-performance cloud solution that makes it easy to build, test and ship your containers to production.
 * [Shippable](https://app.shippable.com/) - A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production.
-* [IBM DevOps Services](https://hub.jazz.net) - Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix.
+* [IBM Bluemix Continous Delivery](https://console.bluemix.net/devops/getting-started) - Continuous delivery using a pipeline deployment onto IBM containers on Bluemix.
 * [TravisCI](https://travis-ci.org/) - A Free github projects continuous integration Saas platform for developers and Devops.
 * [Wercker](http://www.wercker.com/) - A Docker-Native continous integration & deployment Automation platform for Kubernetes & Microservice Deployments.
 
@@ -215,7 +215,7 @@ Services to securely store your Docker images.
 * [Amazon EC2 Container Registry](https://aws.amazon.com/ecr/) Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
 * [Atomic Registry](http://www.projectatomic.io/registry/) - Red Hat Atomic Registry is an open source enterprise registry based on the Origin and Cockpit projects, enhancing the Docker registry library.
 * [Azure Container Registry](https://azure.microsoft.com/de-de/services/container-registry/) Manage a Docker private registry as a first-class Azure resource
-* [CargoOS](https://cargos.io/) A bare essential OS for running the Docker Engine on bare metal or Cloud.
+* [CargoOS](https://github.com/RedCoolBeans/cargos-buildroot) - A bare essential OS for running the Docker Engine on bare metal or Cloud. By [@RedCoolBeans](https://github.com/RedCoolBeans)
 * [Cycle.io](https://cycle.io/) Bare-metal container hosting.
 * [Docker Hub](https://hub.docker.com/) provided by Docker Inc.
 * [Docker Registry v2][distribution] - The Docker toolset to pack, ship, store, and deliver content
@@ -251,7 +251,7 @@ Services to securely store your Docker images.
 * [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies by [@jeromepin](https://github.com/jeromepin)
 
 ## Local Container Manager
-* [Ansible](http://docs.ansible.com/ansible/docker_module.html) - manage docker containers.
+* [Ansible](http://docs.ansible.com/ansible/latest/docker_container_module.html) - Manage the life cycle of Docker containers. By RedHat
 * [Azk](http://www.azk.io/) - Orchestrate development enviornments on your local machine by [@azukiapp](https://github.com/azukiapp)
 * [Beluga](https://github.com/cortexmedia/Beluga) - CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
 * [Boot2Docker](https://github.com/boot2docker/boot2docker) - Docker for OSX and Windows
@@ -493,7 +493,6 @@ Services to securely store your Docker images.
 * [Docker Printable Refcard][docker-quick-ref] by [@dimonomid][dimonomid]
 * [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 * [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
-* [Project Web Dev][projwebdev] : (Article series) How to create your own website based on Docker
 * [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade) a list of SaaS and On premise applications by [@cjbarber](https://github.com/cjbarber)
 * __[Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)__ High quality articles about docker! __MUST SEE__
 
@@ -650,7 +649,6 @@ Services to securely store your Docker images.
 [pandrew]: https://github.com/pandrew
 [percheron]: https://github.com/ashmckenzie/percheron
 [progrium]: https://github.com/progrium
-[projwebdev]: http://project-webdev.blogspot.de
 [prologic]: https://github.com/prologic
 [ramitsurana]: https://github.com/ramitsurana
 [rancher]: https://github.com/rancher
