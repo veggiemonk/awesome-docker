@@ -144,7 +144,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [ConcourseCI](https://concourse.ci) - A CI SaaS platform for developers and DevOps teams pipeline oriented.
 * [Semaphore CI](https://semaphoreci.com/product/docker) — A high-performance cloud solution that makes it easy to build, test and ship your containers to production.
 * [Shippable](https://app.shippable.com/) - A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production.
-* [IBM Bluemix Continous Delivery $$$](https://console.bluemix.net/devops/try-toolchains) - Continuous delivery using a pipeline deployment onto IBM containers on Bluemix.
+* [IBM Bluemix Continous Delivery $$$](https://console.bluemix.net/devops/getting-started?auth=false) - Continuous delivery using a pipeline deployment onto IBM containers on Bluemix.
 * [TravisCI](https://travis-ci.org/) - A Free github projects continuous integration Saas platform for developers and Devops.
 * [Wercker](http://www.wercker.com/) - A Docker-Native continous integration & deployment Automation platform for Kubernetes & Microservice Deployments.
 
