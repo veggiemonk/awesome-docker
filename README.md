@@ -2,7 +2,7 @@
 # Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker) [![Say Thanks](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/veggiemonk)
 
 > A curated list of Docker resources and projects
-Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
+> Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
 
 It's now a GitHub project because it's considerably easier for other people to edit, fix and expand on Docker using GitHub.
 Just click [README.md][editREADME] to submit a [pull request][editREADME].
@@ -25,46 +25,46 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 - [Where to start?](#where-to-start)
 - [Where to start? (Windows)](#where-to-start-windows)
 - [Tools](#tools)
-	- [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
-		- [CI Services](#ci-services)
-	- [Deployment and Infrastructure](#deployment-and-infrastructure)
-	- [Developer Tools](#developer-tools)
-	- [Development Environments](#development-environments)
-	- [Dockerfile](#dockerfile)
-	- [Garbage Collection](#garbage-collection)
-	- [Hosting Images (registries)](#hosting-images-registries)
-	- [Image Builder](#image-builder)
-	- [Linter / Validator](#linter--validator)
-	- [Local Container Manager](#local-container-manager)
-	- [Monitoring & Logging](#monitoring--logging)
-		- [Monitoring & Logging Services](#monitoring--logging-services)
-	- [Networking](#networking)
-	- [PaaS](#paas)
-	- [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
-	- [Reverse Proxy](#reverse-proxy)
-	- [Security](#security)
-	- [Serverless](#serverless)
-	- [Service Discovery](#service-discovery)
-	- [CaaS - Services for running containers](#services-for-running-containers)
-	- [Terminal User Interface](#terminal-user-interface)
-	- [Testing](#testing)
-	- [Utilities](#utilities)
-	- [Volume management and plugins](#volume-management-and-plugins)
-	- [Web Interface](#web-interface)
+ - [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
+  - [CI Services](#ci-services)
+ - [Deployment and Infrastructure](#deployment-and-infrastructure)
+ - [Developer Tools](#developer-tools)
+ - [Development Environments](#development-environments)
+ - [Dockerfile](#dockerfile)
+ - [Garbage Collection](#garbage-collection)
+ - [Hosting Images (registries)](#hosting-images-registries)
+ - [Image Builder](#image-builder)
+ - [Linter / Validator](#linter--validator)
+ - [Local Container Manager](#local-container-manager)
+ - [Monitoring & Logging](#monitoring--logging)
+  - [Monitoring & Logging Services](#monitoring--logging-services)
+ - [Networking](#networking)
+ - [PaaS](#paas)
+ - [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
+ - [Reverse Proxy](#reverse-proxy)
+ - [Security](#security)
+ - [Serverless](#serverless)
+ - [Service Discovery](#service-discovery)
+ - [CaaS - Services for running containers](#services-for-running-containers)
+ - [Terminal User Interface](#terminal-user-interface)
+ - [Testing](#testing)
+ - [Utilities](#utilities)
+ - [Volume management and plugins](#volume-management-and-plugins)
+ - [Web Interface](#web-interface)
 - [Useful Resources](#useful-resources)
-	- [Good Tips](#good-tips)
-	- [Newsletter](#newsletter)
-	- [Security](#security-1)
-	- [Raspberry Pi / ARM](#raspberry-pi--arm)
+ - [Good Tips](#good-tips)
+ - [Newsletter](#newsletter)
+ - [Security](#security-1)
+ - [Raspberry Pi / ARM](#raspberry-pi--arm)
 - [Videos](#videos)
-	- [Main Account](#main-account)
-	- [Useful videos](#useful-videos)
+ - [Main Account](#main-account)
+ - [Useful videos](#useful-videos)
 - [Interesting Twitter Accounts](#interesting-twitter-accounts)
 - [Communities and Meetups](#communities-and-meetups)
-	- [Brazilian](#brazilian)
-	- [Chinese](#chinese)
-	- [English](#english)
-	- [Russian](#russian)
+ - [Brazilian](#brazilian)
+ - [Chinese](#chinese)
+ - [English](#english)
+ - [Russian](#russian)
 
 
 # What is Docker?
@@ -335,8 +335,6 @@ Services to securely store your Docker images.
 * [Crane](https://github.com/Dataman-Cloud/crane) - Control plane based on docker built-in swarm [@Dataman-Cloud](https://github.com/Dataman-Cloud)
 * [Deploying a Containerized App on a Public Node with Mesos](https://docs.mesosphere.com/usage/tutorials/containerized-app/) - Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment
 * [ElasticKube](https://github.com/ElasticBox/elastickube) - Open source management platform for Kubernetes
-* [Fleet](https://github.com/coreos/fleet) - A Distributed init System providing low-level orchestration by [@coreos][coreos]
-* [Flocker](https://github.com/ClusterHQ/flocker) - Flocker is a data volume manager and multi-host Docker cluster management tool by [@ClusterHQ](https://github.com/ClusterHQ)
 * [gantryd](https://github.com/DevTable/gantryd) - A framework for easy management of docker-based components across machines by [@DevTable](https://github.com/DevTable)
 * [Haven](https://github.com/codeabovelab/haven-platform) - Haven is a simplified container management platform that integrates container, application, cluster, image, and registry managements. By [@codeabovelab](https://github.com/codeabovelab)
 * [Helios](https://github.com/spotify/helios) - A simple platform for deploying and managing containers across an entire fleet of servers by [@spotify](spotify)
@@ -348,9 +346,7 @@ Services to securely store your Docker images.
 * [MCollective Docker Agent](https://github.com/m4ce/mcollective-docker-agent) - Uses MCollective to orchestrate your Docker containers and images by  [@m4ce](https://github.com/m4ce)
 * [Nomad](https://github.com/hashicorp/nomad) - Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler by [@hashicorp][hashicorp]
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui) - An open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop by [@CenturyLinkLabs][CenturyLinkLabs].
-* [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker host or Docker Swarm cluster (previously [DockerUI](https://github.com/kevana/ui-for-docker) by [@kevana](https://github.com/kevana))
 * [Rancher](https://github.com/rancher/rancher) - An open source project that provides a complete platform for operating Docker in production by [@rancher][rancher].
-* [Serf](https://github.com/hashicorp/serf) - Service orchestration and management tool by [@hashicorp][hashicorp]
 * [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker Management
 * [Swarmpit](https://github.com/swarmpit/swarmpit) - Lightweight Docker Swarm orchestration. Swarmpit provides clean way to manage your Docker Swarm cluster with various handful features such Service management, smart search, shared access and private registries.
 
@@ -448,6 +444,7 @@ Services to securely store your Docker images.
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
 * [percheron][percheron] - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
 * [Powerline-Docker](https://github.com/adrianmo/powerline-docker) - A Powerline segment for showing the status of Docker containers by [@adrianmo](https://github.com/adrianmo)
+* [Serf](https://github.com/hashicorp/serf) - Service orchestration and management tool by [@hashicorp][hashicorp]
 * [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) - in case of proxy problem by [@jpetazzo][jpetazzo]
 * [TrivialRC](https://github.com/vorakl/TrivialRC) - A minimalistic Runtime Configuration system and process manager for containers [@vorakl](https://github.com/vorakl)
 * [udocker](https://github.com/indigo-dc/udocker) - A tool to execute simple docker containers in batch or interactive systems without root privileges by [@inidigo-dc](https://github.com/indigo-dc)
@@ -455,12 +452,13 @@ Services to securely store your Docker images.
 ## Volume management and plugins
 * [Blockbridge](https://github.com/blockbridge/blockbridge-docker-volume) - The Blockbridge plugin is a volume plugin that provides access to an extensible set of container-based persistent storage options. It supports single and multi-host Docker environments with features that include tenant isolation, automated provisioning, encryption, secure deletion, snapshots and QoS. By [@blockbridge][blockbridge]
 * [Convoy](https://github.com/rancher/convoy) - an open-source Docker volume driver that can snapshot, backup and restore Docker volumes anywhere. By [@rancher][rancher]
-* [Docker Unison](https://github.com/leighmcculloch/docker-unison) A docker volume container using Unison for fast two-way folder sync. Created as an alternative to slow boot2docker volumes on OS X. By [@leighmcculloch](https://github.com/leighmcculloch)
-* [Netshare](https://github.com/gondor/docker-volume-netshare) A Docker volume plugin written in Go that supports mounting NFS, AWS EFS & CIFS volumes within a container. By [@gondor][gondor]
 * [Docker Machine NFS](https://github.com/adlogix/docker-machine-nfs) Activates NFS for an existing boot2docker box created through Docker Machine on OS X.
-* [REX-Ray](https://github.com/codedellemc/rexray) Vendor agnostic storage orchestration engine to provide persistent storage for Docker containers as well as Mesos frameworks and tasks.
+* [Docker Unison](https://github.com/leighmcculloch/docker-unison) A docker volume container using Unison for fast two-way folder sync. Created as an alternative to slow boot2docker volumes on 
+OS X. By [@leighmcculloch](https://github.com/leighmcculloch)
+* [Flocker](https://github.com/ClusterHQ/flocker) - Flocker is a data volume manager and multi-host Docker cluster management tool by [@ClusterHQ](https://github.com/ClusterHQ)
 * [Local Persist](https://github.com/CWSpear/local-persist) Specify a mountpoint for your local volumes (created via `docker volume create`) so that files will always persist and so you can mount to different directories in different containers.
-* [Minio](https://github.com/jelastic-jps/minio) - S3 compatible object storage server in Docker containers
+* [Netshare](https://github.com/gondor/docker-volume-netshare) A Docker volume plugin written in Go that supports mounting NFS, AWS EFS & CIFS volumes within a container. By [@gondor][gondor]
+* [REX-Ray](https://github.com/codedellemc/rexray) Vendor agnostic storage orchestration engine to provide persistent storage for Docker containers as well as Mesos frameworks and tasks.
 
 ## Web Interface
 * [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2 by [@klausmeyer](https://github.com/klausmeyer)
@@ -468,6 +466,7 @@ Services to securely store your Docker images.
 * [docker-registry-web](https://github.com/mkuchin/docker-registry-web) - Web UI, authentication service and event recorder for private docker registry v2 by [@mkuchin](https://github.com/mkuchin)
 * [docker-swarm-visualizer](https://github.com/dockersamples/docker-swarm-visualizer) - Visualizes Docker services on a Docker Swarm (for running demos).
 * [dockering-on-rails](https://github.com/Electrofenster/dockerding-on-rails) - Simple Web-Interface for Docker with a lot of features by [@Electrofenster](https://github.com/Electrofenster/)
+* [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker host or Docker Swarm cluster (previously [DockerUI](https://github.com/kevana/ui-for-docker) by [@kevana](https://github.com/kevana))
 * [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
 
