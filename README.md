@@ -164,6 +164,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 ## Developer Tools
 * [ahab](https://github.com/instacart/ahab) - Docker event handling with Python by [@instacart](https://github.com/instacart)
 * [bocker](https://github.com/p8952/bocker) (1) - Docker implemented in 100 lines of bash by [p8952](https://github.com/p8952)
+* [Codefresh](https://codefresh.io) - A build, test, deploy platform written specifically for Docker. View image layers, debug broken images and spin up any commit on-demand.
 * [construi](https://github.com/lstephen/construi) - Run your builds inside a Docker defined environment by [@lstephen](https://github.com/lstephen)
 * [Docker Client for JVM](https://github.com/gesellix/docker-client) - A Docker remote api client library for the JVM, written in Groovy by [@gesellix][gesellix]
 * [docker-it-scala](https://github.com/whisklabs/docker-it-scala) - Docker integration testing kit with Scala by [@whisklabs](https://github.com/whisklabs)
@@ -201,6 +202,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
 * [Dockerfile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
 * [Dockerfile Example 2](https://github.com/kstaken/dockerfile-examples) by [@kstaken](https://github.com/kstaken)
+* [Docker Multi-stage build guide](https://codefresh.io/docker-guides/docker-multi-stage-builds/) by [Codefresh](https://github.com/codefresh-io)
 * [Vektorcloud](https://github.com/vektorcloud) - A collection of minimal, Alpine-based Docker images
 
 ## Garbage Collection
@@ -216,6 +218,7 @@ Services to securely store your Docker images.
 * [Atomic Registry](http://www.projectatomic.io/registry/) - Red Hat Atomic Registry is an open source enterprise registry based on the Origin and Cockpit projects, enhancing the Docker registry library.
 * [Azure Container Registry](https://azure.microsoft.com/de-de/services/container-registry/) Manage a Docker private registry as a first-class Azure resource
 * [CargoOS](https://github.com/RedCoolBeans/cargos-buildroot) - A bare essential OS for running the Docker Engine on bare metal or Cloud. By [@RedCoolBeans](https://github.com/RedCoolBeans)
+* [Codefresh](https://codefresh.io) - A hosted private docker registry integrated with Docker CI/CD. Includes 200 builds/mo free.
 * [Cycle.io](https://cycle.io/) Bare-metal container hosting.
 * [Docker Hub](https://hub.docker.com/) provided by Docker Inc.
 * [Docker Registry v2][distribution] - The Docker toolset to pack, ship, store, and deliver content
@@ -230,6 +233,7 @@ Services to securely store your Docker images.
 ## Image Builder
 * [bocker](https://github.com/icy/bocker) (2) - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
 * [box](https://github.com/box-builder/box) - Build Dockerfile images with a mruby DSL, includes flattening and layer manipulation
+* [Codefresh](https://codefresh.io) - Import dockerfiles, or docker-compose.yml to start building. Includes 200 builds/mo free, a docker registry, CI/CD, and on-demand staging enviornments for every commit. 
 * [container-factory](https://github.com/mutable/container-factory) - Produces Docker images from tarballs of application source code by [@mutable](https://github.com/mutable)
 * [dlayer](https://github.com/wercker/dlayer) - Stats collector for Docker layers by [@wercker](https://github.com/wercker)
 * [docker-companion](https://github.com/mudler/docker-companion) - A command line tool written in Golang to squash and unpack docker images by [@mudler](https://github.com/mudler/)
@@ -312,6 +316,7 @@ Services to securely store your Docker images.
 
 ## PaaS
 * [Atlantis](https://github.com/ooyala/atlantis) - Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go
+* [Codefresh](https://codefresh.io) - Docker CI/CD with a built in PaaS for testing containers together. Spin up any commit on-demand and share with your team.
 * [Convox Rack](https://github.com/convox/rack) - Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 * [Dcw](https://github.com/pbertera/dcw) - Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels.
 * [Dokku][dokku] - Docker powered mini-Heroku that helps you build and manage the lifecycle of applications (originally by [@progrium][progrium])
@@ -480,6 +485,7 @@ Services to securely store your Docker images.
 * [Blog](http://jpetazzo.github.io/) of [@jpetazzo][jpetazzo]
 * [Blog](http://progrium.com/blog/) of [@progrium][progrium]
 * [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
+* [Blog](https://codefresh.io/) of [@codefresh](https://github.com/codefresh-io)
 * [Blog](https://blog.codeship.com/) of [@codeship](https://github.com/codeship)
 * [Blog](https://blog.jessfraz.com/) of [@jessfraz][jessfraz]
 * [Container solutions](http://container-solutions.com/blog/)
@@ -509,6 +515,7 @@ Services to securely store your Docker images.
 * [Docker on Windows behind a firewall](https://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/) by [@kaitoedter](https://twitter.com/kaitoedter)
 * [Docker Tips](http://www.mervine.net/notes/docker-tips) by [@jmervine](https://github.com/jmervine)
 * [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/) (ruby script)
+* [Everyday Docker Hacks](https://codefresh.io/blog/everyday-hacks-docker/) by [@alexei-led](github alexei ledenev)
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm][fgrehm]
 * [Kubernetes Cheatsheet](http://k8s.info/cs.html) - A great resource for managing your Kubernetes installation
 * [Nginx Proxy for Docker](https://blog.danivovich.com/2015/07/09/nginx-proxy-for-docker-containers/) (written 9 JUL 2015)
@@ -520,6 +527,7 @@ Services to securely store your Docker images.
 
 ## Newsletter
 * [Docker Team](https://www.docker.com/)
+* [Codefresh](https://codefresh.io/blog/)
 * [Shippable](http://blog.shippable.com/)
 * [WebOps weekly](https://webopsweekly.com/)
 * [DevOpsLinks](http://devopslinks.com)
@@ -571,6 +579,7 @@ Services to securely store your Docker images.
 
 # Interesting Twitter Accounts
 * [CenturyLink Labs](https://twitter.com/CenturyLinkLabs)
+* [Codefresh](https://twitter.com/codefresh)
 * [Docker Captains Twitter List](https://twitter.com/EltonStoneman/lists/docker-captains)
 * [Docker](https://twitter.com/docker)
 * [Flux7Labs](https://twitter.com/Flux7Labs)
