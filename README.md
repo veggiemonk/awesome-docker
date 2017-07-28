@@ -90,7 +90,7 @@ Icons and tags:
 - Up and coming: ![upcoming]
 - Web Based: ![web]
 - Beta: ![beta]
-- Videa: ![video]
+- Video: ![video]
 - Open Source: ![oss]
 - CLI/Terminal: ![cli]
 - Windows: ![windows]
