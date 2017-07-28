@@ -81,6 +81,22 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Russian](#russian)
 
 
+Icons and tags:
+
+- Ancient: ![ancient]
+- Commercial: ![$]
+- Crush: ![heart]
+- Supporting: ![support]
+- Up and coming: ![upcoming]
+- Web Based: ![web]
+- Beta: ![beta]
+- Videa: ![video]
+- Open Source: ![oss]
+- CLI/Terminal: ![cli]
+- Windows: ![windows]
+
+
+
 # What is Docker?
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Consisting of Docker Engine, a portable, lightweight runtime and packaging tool, and Docker Hub, a cloud service for sharing applications and automating workflows, Docker enables apps to be quickly assembled from components and eliminates the friction between development, QA, and production environments. As a result, IT can ship faster and run the same app, unchanged, on laptops, data center VMs, and any cloud.
@@ -674,3 +690,19 @@ Services to securely store your Docker images.
 [vimagick]: https://github.com/vimagick
 [weave]: https://github.com/weaveworks/weave
 [wsargent]: https://github.com/wsargent
+
+
+[c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg
+[ancient]: ./icons/blind.png         
+[$]: ./icons/dollar.png        
+[heart]: ./icons/heart-red.png     
+[support]: ./icons/lifebuoy.png      
+[upcoming]: ./icons/rocket.png        
+[web]: ./icons/web.png
+[beta]: ./icons/bug.png           
+[video]: ./icons/film.png          
+[heart2]: ./icons/heart.png         
+[oss]: ./icons/linux.png         
+[cli]: ./icons/terminal.png      
+[windows]: ./icons/windows-color.png
+
