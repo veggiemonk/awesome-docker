@@ -24,11 +24,10 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 - [What is Docker?](#what-is-docker)
 	- [Where to start?](#where-to-start)
 	- [Where to start? (Windows)](#where-to-start-windows)
-- [Managing Containers](#)
+- [Container Operations](#)
 	- [Container Composition](#)
 	- [Terminal UI](#) to help manage docker container from a terminal
 	- [Docker Web UI](#) to help manage docker container from a browser
-	- [Workstation Installation](#) <-- For non production usage e.g. macosx
 	- [Deployment and Infrastructure](#)
 	- [Orchestration](#)
 	 <-- might cause an overlap with PaaS, how to differentiate the 2?
@@ -56,6 +55,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Docker Event Hooks / Sidecars](#)
 	- [Serverless](#)
 	- [Testing](#)
+	- [Workstation Installation](#) <-- For non production usage e.g. macosx
 	- [Wrappers](#)
 	 (e.g. dexec, udocker, dray, fugu etc)
 - [Services based on Docker $$$](#)
@@ -91,9 +91,10 @@ Icons and tags:
 - Web Based: ![web]
 - Beta: ![beta]
 - Video: ![video]
-- Open Source: ![oss]
 - CLI/Terminal: ![cli]
 - Windows: ![windows]
+- Linux: ![linux]
+- OSX: ![apple]
 
 
 
@@ -702,7 +703,8 @@ Services to securely store your Docker images.
 [beta]: ./icons/bug.png           
 [video]: ./icons/film.png          
 [heart2]: ./icons/heart.png         
-[oss]: ./icons/linux.png         
 [cli]: ./icons/terminal.png      
 [windows]: ./icons/windows-color.png
+[osx]: ./icons/apple.png  
+[linux]: ./icons/linux.png
 
