@@ -17,7 +17,9 @@ If this list is not complete, you can [contribute][editREADME] to make it so.
 The creators and maintainers of this list do not receive and should not receive any form of payment to accept a change made by any contributor.
 The goal of this repo is to index open-source projects, not to advertise for profit.
 
-All the links are monitored and tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot) made by [@dkhamsing](https://github.com/dkhamsing)
+All the links are monitored and tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot) made by [@dkhamsing](https://github.com/dkhamsing)  
+
+See [Legend](#legend) for icon meanings.
 
 # Contents
 
@@ -55,9 +57,8 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Docker Event Hooks / Sidecars](#)
 	- [Serverless](#)
 	- [Testing](#)
-	- [Workstation Installation](#) <-- For non production usage e.g. macosx
+	- [Workstation Installation](#)
 	- [Wrappers](#)
-	 (e.g. dexec, udocker, dray, fugu etc)
 - [Services based on Docker $$$](#)
     - [CI/CD](#)
 	- [Monitoring](#)
@@ -81,20 +82,18 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Russian](#russian)
 
 
-Icons and tags:
+# Legend
 
 - Ancient: ![ancient]
 - Commercial: ![$]
 - Crush: ![heart]
-- Supporting: ![support]
-- Up and coming: ![upcoming]
 - Web Based: ![web]
 - Beta: ![beta]
 - Video: ![video]
 - CLI/Terminal: ![cli]
 - Windows: ![windows]
 - Linux: ![linux]
-- OSX: ![apple]
+- OSX: ![osx]
 
 
 
