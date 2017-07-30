@@ -34,6 +34,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Garbage Collection](#garbage-collection)
 	- [Hosting Images (registries)](#hosting-images-registries)
 	- [Image Builder](#image-builder)
+	- [Hooks](#hooks)
 	- [Linter / Validator](#linter--validator)
 	- [Local Container Manager](#local-container-manager)
 	- [Monitoring & Logging](#monitoring--logging)
@@ -162,7 +163,6 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Zodiac](https://github.com/CenturyLinkLabs/zodiac) - A lightweight tool for easy deployment and rollback of dockerized applications. By [@CenturyLinkLabs][CenturyLinkLabs]
 
 ## Developer Tools
-* [ahab](https://github.com/instacart/ahab) - Docker event handling with Python by [@instacart](https://github.com/instacart)
 * [bocker](https://github.com/p8952/bocker) (1) - Docker implemented in 100 lines of bash by [p8952](https://github.com/p8952)
 * [construi](https://github.com/lstephen/construi) - Run your builds inside a Docker defined environment by [@lstephen](https://github.com/lstephen)
 * [Docker Client for JVM](https://github.com/gesellix/docker-client) - A Docker remote api client library for the JVM, written in Groovy by [@gesellix][gesellix]
@@ -245,6 +245,16 @@ Services to securely store your Docker images.
 * [SkinnyWhale](https://github.com/djosephsen/skinnywhale) Skinnywhale helps you make smaller (as in megabytes) Docker containers.
 * [Whales](https://github.com/Gueils/whales) - A tool to automatically dockerize your applications by [@icalialabs](https://github.com/IcaliaLabs).
 
+## Hooks
+
+*Applications / containers designed to run side by side with docker and respond to container events*
+
+* [ahab](https://github.com/instacart/ahab) - Docker event handling with Python by [@instacart](https://github.com/instacart)
+* [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic][prologic]
+* [docker-gen](https://github.com/jwilder/docker-gen) - Generate files from docker container meta-data by [@jwilder][jwilder]
+* [Serf](https://github.com/hashicorp/serf) - Service orchestration and management tool by [@hashicorp][hashicorp]
+
+
 ## Linter / Validator
 * [dockerfile_lint](https://github.com/projectatomic/dockerfile_lint) - A rule-based 'linter' for Dockerfiles by [@redhataccess](https://github.com/redhataccess)
 * [Hadolint](https://github.com/lukasmartinelli/hadolint) - A Dockerfile linter written in Haskell by [@lukasmartinelli](https://github.com/lukasmartinelli)
@@ -325,7 +335,6 @@ Services to securely store your Docker images.
 ## Remote Container Manager / Orchestration
 
 * [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana][ramitsurana]
-* [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic][prologic]
 * [blimp](https://github.com/tubesandlube/blimp) - Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more by [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 * [Capitan](https://github.com/byrnedo/capitan) - Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
 * [CloudSlang](http://www.cloudslang.io/) - CloudSlang is a workflow engine to create Docker process automation
@@ -349,7 +358,6 @@ Services to securely store your Docker images.
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui) - An open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop by [@CenturyLinkLabs][CenturyLinkLabs].
 * [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker host or Docker Swarm cluster (previously [DockerUI](https://github.com/kevana/ui-for-docker) by [@kevana](https://github.com/kevana))
 * [Rancher](https://github.com/rancher/rancher) - An open source project that provides a complete platform for operating Docker in production by [@rancher][rancher].
-* [Serf](https://github.com/hashicorp/serf) - Service orchestration and management tool by [@hashicorp][hashicorp]
 * [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker Management
 * [Swarmpit](https://github.com/swarmpit/swarmpit) - Lightweight Docker Swarm orchestration. Swarmpit provides clean way to manage your Docker Swarm cluster with various handful features such Service management, smart search, shared access and private registries.
 
@@ -431,7 +439,6 @@ Services to securely store your Docker images.
 * [Docker Volume Clone Utility](https://github.com/gdiepen/docker-convenience-scripts) - A Docker Utility to Clone Volumes [@gdiepen](https://twitter.com/gdiepen)
 * [docker-compose-search](https://github.com/francescou/docker-compose-search) - A search engine for Docker Compose application stacks by [@francescou](https://github.com/francescou/)
 * [docker-do](https://github.com/benzaita/docker-do) - hassle-free docker run, like `env` but for docker by [@benzaita](https://github.com/benzaita)
-* [docker-gen](https://github.com/jwilder/docker-gen) - Generate files from docker container meta-data by [@jwilder][jwilder]
 * [docker-ls](https://github.com/mayflower/docker-ls) - CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
 * [docker-replay](https://github.com/bcicen/docker-replay) - Generate `docker run`command and options from running containers. By [bcicen](https://github.com/bcicen)
 * [docker-volumes](https://github.com/cpuguy83/docker-volumes) - Docker Volume Manager by [@cpuguy83][cpuguy83]
