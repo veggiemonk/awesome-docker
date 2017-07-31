@@ -84,9 +84,10 @@ See [Legend](#legend) for icon meanings.
 
 # Legend
 
-- Ancient: ![ancient]
+- Legacy: ![legacy]
 - Commercial: ![$]
 - Crush: ![heart]
+- Doc: ![doc]
 - Web Based: ![web]
 - Beta: ![beta]
 - Video: ![video]
@@ -258,6 +259,7 @@ Services to securely store your Docker images.
 * [VMWare Harbor](http://vmware.github.io/harbor/) Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.
 
 ## Image Builder
+* [Building good docker images ![doc]](http://jonathan.bergknoff.com/journal/building-good-docker-images) by [@jbergknoff](https://github.com/jbergknoff)
 * [bocker](https://github.com/icy/bocker) (2) - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
 * [box](https://github.com/box-builder/box) - Build Dockerfile images with a mruby DSL, includes flattening and layer manipulation
 * [container-factory](https://github.com/mutable/container-factory) - Produces Docker images from tarballs of application source code by [@mutable](https://github.com/mutable)
@@ -532,7 +534,6 @@ Services to securely store your Docker images.
 * [6 Million Ways To Log In Docker](https://www.slideshare.net/raychaser/6-million-ways-to-log-in-docker-nyc-docker-meetup-12172014) by [@raychaser](https://twitter.com/raychaser)
 * [A Simple Way to Dockerize Applications](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications/) by [@jwilder][jwilder]
 * [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) by [@jwilder][jwilder]
-* [Building good docker images](http://jonathan.bergknoff.com/journal/building-good-docker-images) by [@jbergknoff](https://github.com/jbergknoff)
 * [Container Best Practices](http://docs.projectatomic.io/container-best-practices/) - Red Hat's Project Atomic created a Container Best Practices guide which applies to everything and is updated regurlary.
 * [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](https://github.com/rochacbruno)
 * [Docker CIFS – How to Mount CIFS as a Docker Volume](https://backdrift.org/docker-cifs-howto-mount-cifs-volume-docker-container)
@@ -693,10 +694,10 @@ Services to securely store your Docker images.
 
 
 [c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg
-[ancient]: ./icons/blind.png         
+[legacy]: ./icons/blind.png         
 [$]: ./icons/dollar.png        
 [heart]: ./icons/heart-red.png     
-[support]: ./icons/lifebuoy.png      
+[doc]: ./icons/lifebuoy.png      
 [upcoming]: ./icons/rocket.png        
 [web]: ./icons/web.png
 [beta]: ./icons/bug.png           
