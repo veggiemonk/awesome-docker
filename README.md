@@ -17,40 +17,55 @@ If this list is not complete, you can [contribute][editREADME] to make it so.
 The creators and maintainers of this list do not receive and should not receive any form of payment to accept a change made by any contributor.
 The goal of this repo is to index open-source projects, not to advertise for profit.
 
-All the links are monitored and tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot) made by [@dkhamsing](https://github.com/dkhamsing)
+All the links are monitored and tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot) made by [@dkhamsing](https://github.com/dkhamsing)  
+
+See [Legend](#legend) for icon meanings.
 
 # Contents
 
 - [What is Docker?](#what-is-docker)
-- [Where to start?](#where-to-start)
-- [Where to start? (Windows)](#where-to-start-windows)
-- [Tools](#tools)
-	- [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
-		- [CI Services](#ci-services)
-	- [Deployment and Infrastructure](#deployment-and-infrastructure)
-	- [Developer Tools](#developer-tools)
-	- [Development Environments](#development-environments)
-	- [Dockerfile](#dockerfile)
-	- [Garbage Collection](#garbage-collection)
-	- [Hosting Images (registries)](#hosting-images-registries)
-	- [Image Builder](#image-builder)
-	- [Linter / Validator](#linter--validator)
-	- [Local Container Manager](#local-container-manager)
-	- [Monitoring & Logging](#monitoring--logging)
-		- [Monitoring & Logging Services](#monitoring--logging-services)
-	- [Networking](#networking)
-	- [PaaS](#paas)
-	- [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
-	- [Reverse Proxy](#reverse-proxy)
-	- [Security](#security)
-	- [Serverless](#serverless)
-	- [Service Discovery](#service-discovery)
-	- [CaaS - Services for running containers](#services-for-running-containers)
-	- [Terminal User Interface](#terminal-user-interface)
-	- [Testing](#testing)
-	- [Utilities](#utilities)
-	- [Volume management and plugins](#volume-management-and-plugins)
-	- [Web Interface](#web-interface)
+	- [Where to start?](#where-to-start)
+	- [Where to start? (Windows)](#where-to-start-windows)
+- [Container Operations](#)
+	- [Container Composition](#)
+	- [Terminal UI](#) to help manage docker container from a terminal
+	- [Docker Web UI](#) to help manage docker container from a browser
+	- [Deployment and Infrastructure](#)
+	- [Orchestration](#)
+	 <-- might cause an overlap with PaaS, how to differentiate the 2?
+	- [CaaS](#)
+		 (do we have any project that is not a paying service there? )
+	- [Monitoring](#)
+	- [Networking](#)
+	- [Reverse Proxy](#)
+	- [Security](#)
+	- [Service Discovery](#)
+	- [Volumes Management / Data](#)
+- [Docker Images](#)
+    - [Building](#)
+    	- [Building Blocks](#)
+		 System tools for lack of a better name: project to help containerize an app --> Inside Container Tools ? please help with the naming because System tools means nothing to me.
+	- [Dockerfile](#)
+		 example to help build lean and clean docker images
+	- [Linting](#)
+	- [Registries](#)
+- [Development with Docker](#)
+	- [API Clients](#)
+	- [CI/CD](#)
+	- [Development Environments](#)
+	- [Garbage Collection](#) to keep your dev env clean
+	- [Docker Event Hooks / Sidecars](#)
+	- [Serverless](#)
+	- [Testing](#)
+	- [Workstation Installation](#)
+	- [Wrappers](#)
+- [Services based on Docker $$$](#)
+    - [CI/CD](#)
+	- [Monitoring](#)
+	- [CaaS](#)
+	- [Registries](#)
+	- [Security (?)](#)
+	- [PaaS](#)
 - [Useful Resources](#useful-resources)
 	- [Good Tips](#good-tips)
 	- [Newsletter](#newsletter)
@@ -65,6 +80,22 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Chinese](#chinese)
 	- [English](#english)
 	- [Russian](#russian)
+
+
+# Legend
+
+- Legacy: ![legacy]
+- Commercial: ![$]
+- Crush: ![heart]
+- Doc: ![doc]
+- Web Based: ![web]
+- Beta: ![beta]
+- Video: ![video]
+- CLI/Terminal: ![cli]
+- Windows: ![windows]
+- Linux: ![linux]
+- OSX: ![osx]
+
 
 
 # What is Docker?
@@ -228,6 +259,7 @@ Services to securely store your Docker images.
 * [VMWare Harbor](http://vmware.github.io/harbor/) Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.
 
 ## Image Builder
+* [Building good docker images ![doc]](http://jonathan.bergknoff.com/journal/building-good-docker-images) by [@jbergknoff](https://github.com/jbergknoff)
 * [bocker](https://github.com/icy/bocker) (2) - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
 * [box](https://github.com/box-builder/box) - Build Dockerfile images with a mruby DSL, includes flattening and layer manipulation
 * [container-factory](https://github.com/mutable/container-factory) - Produces Docker images from tarballs of application source code by [@mutable](https://github.com/mutable)
@@ -502,7 +534,6 @@ Services to securely store your Docker images.
 * [6 Million Ways To Log In Docker](https://www.slideshare.net/raychaser/6-million-ways-to-log-in-docker-nyc-docker-meetup-12172014) by [@raychaser](https://twitter.com/raychaser)
 * [A Simple Way to Dockerize Applications](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications/) by [@jwilder][jwilder]
 * [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/) by [@jwilder][jwilder]
-* [Building good docker images](http://jonathan.bergknoff.com/journal/building-good-docker-images) by [@jbergknoff](https://github.com/jbergknoff)
 * [Container Best Practices](http://docs.projectatomic.io/container-best-practices/) - Red Hat's Project Atomic created a Container Best Practices guide which applies to everything and is updated regurlary.
 * [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](https://github.com/rochacbruno)
 * [Docker CIFS – How to Mount CIFS as a Docker Volume](https://backdrift.org/docker-cifs-howto-mount-cifs-volume-docker-container)
@@ -660,3 +691,20 @@ Services to securely store your Docker images.
 [vimagick]: https://github.com/vimagick
 [weave]: https://github.com/weaveworks/weave
 [wsargent]: https://github.com/wsargent
+
+
+[c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg
+[legacy]: ./icons/blind.png         
+[$]: ./icons/dollar.png        
+[heart]: ./icons/heart-red.png     
+[doc]: ./icons/lifebuoy.png      
+[upcoming]: ./icons/rocket.png        
+[web]: ./icons/web.png
+[beta]: ./icons/bug.png           
+[video]: ./icons/film.png          
+[heart2]: ./icons/heart.png         
+[cli]: ./icons/terminal.png      
+[windows]: ./icons/windows-color.png
+[osx]: ./icons/apple.png  
+[linux]: ./icons/linux.png
+
