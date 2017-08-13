@@ -21,51 +21,69 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 
 # Contents
 
-- [What is Docker?](#what-is-docker)
-- [Where to start?](#where-to-start)
-- [Where to start? (Windows)](#where-to-start-windows)
-- [Tools](#tools)
-	- [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
-		- [CI Services](#ci-services)
-	- [Deployment and Infrastructure](#deployment-and-infrastructure)
-	- [Developer Tools](#developer-tools)
-	- [Development Environments](#development-environments)
-	- [Dockerfile](#dockerfile)
-	- [Garbage Collection](#garbage-collection)
-	- [Hosting Images (registries)](#hosting-images-registries)
-	- [Image Builder](#image-builder)
-	- [Linter / Validator](#linter--validator)
-	- [Local Container Manager](#local-container-manager)
-	- [Monitoring & Logging](#monitoring--logging)
-		- [Monitoring & Logging Services](#monitoring--logging-services)
-	- [Networking](#networking)
-	- [PaaS](#paas)
-	- [Remote Container Manager / Orchestration](#remote-container-manager--orchestration)
-	- [Reverse Proxy](#reverse-proxy)
-	- [Security](#security)
-	- [Serverless](#serverless)
-	- [Service Discovery](#service-discovery)
-	- [CaaS - Services for running containers](#services-for-running-containers)
-	- [Terminal User Interface](#terminal-user-interface)
-	- [Testing](#testing)
-	- [Utilities](#utilities)
-	- [Volume management and plugins](#volume-management-and-plugins)
-	- [Web Interface](#web-interface)
+- Introduction
+  - [What is Docker?](#what-is-docker)
+  - [Where to start?](#where-to-start)
+  - [Where to start? (Windows)](#where-to-start-windows)
+- [Projects](#tools)
+	- Container Operations
+		- Container Composition
+		- [Deployment and Infrastructure](#deployment-and-infrastructure)
+		- [Monitoring](#monitoring--logging)
+		- [Networking](#networking)
+		- [Orchestration](#remote-container-manager--orchestration)
+		- [PaaS](#paas)
+		- [Reverse Proxy](#reverse-proxy)
+		- [Security](#security)
+		- [Service Discovery](#service-discovery)
+		- [Volume management / Data](#volume-management-and-plugins)
+		- User Interface
+			- [Terminal](#terminal-user-interface)
+			- Native
+			- [Web](#web-interface)
+	- Docker Images
+		- [Builder](#image-builder)
+		- [Dockerfile](#dockerfile)
+		- [Linter](#linter--validator)
+		- Inside Container Tools
+		- [Registry](#hosting-images-registries)
+	- Development with Docker
+		- [API Client](#developer-tools)
+		- [CI/CD](#continuous-integration--continuous-delivery)
+		- [Development Environment](#development-environments)
+		- [Garbage Collection](#garbage-collection)
+		- [Serverless](#serverless)
+		- [Testing](#testing)
+		- [Wrappers](#local-container-manager)
+		- [Utilities](#utilities) <- must be split
+	- Legacy tools
+	- Services based on Docker ($$$)
+		- [CI/CD](#ci-services)
+		- [CaaS - Services for running containers](#services-for-running-containers)
+		- [Monitoring](#monitoring--logging-services)
+		- Registries
+		- PaaS
 - [Useful Resources](#useful-resources)
+	- Awesome Lists
+	- [Communities and Meetups](#communities-and-meetups)
+		- [Brazilian](#brazilian)
+		- [Chinese](#chinese)
+		- [English](#english)
+		- [Russian](#russian)
 	- [Good Tips](#good-tips)
+	- [Raspberry Pi / ARM](#raspberry-pi--arm)
 	- [Newsletter](#newsletter)
 	- [Security](#security-1)
-	- [Raspberry Pi / ARM](#raspberry-pi--arm)
-- [Videos](#videos)
-	- [Main Account](#main-account)
-	- [Useful videos](#useful-videos)
-- [Interesting Twitter Accounts](#interesting-twitter-accounts)
-- [Communities and Meetups](#communities-and-meetups)
-	- [Brazilian](#brazilian)
-	- [Chinese](#chinese)
-	- [English](#english)
-	- [Russian](#russian)
+	- [Videos](#videos)
+		- [Main Account](#main-account)
+		- [Useful videos](#useful-videos)
+	- ~~[Interesting Twitter Accounts](#interesting-twitter-accounts)~~
 
+# Legend
+- Commercial 🤑
+- Beta 🤕
+- Terminal 🤓
+- Web Based 😎
 
 # What is Docker?
 
