@@ -5,16 +5,9 @@
 <!-- Please fill in the below placeholders -->
 
 **[Insert the URL to be listed]**
-https://github.com/natanielruiz/dockerface
 
 **[Explain what the project is about and why it should be listed]**
-Dockerface is an easy to install and use deep learning face detection for images and video in a docker container. It is meant for research and open for industry and personal use. It deploys a trained Faster R-CNN network on Caffe through an easy to use docker image. Bring your videos and images, run dockerface and obtain videos and images with bounding boxes of face detections and an easy to use face detection annotation text file.
 
-I also created a new section called Machine Learning. Docker is widely used in the field so it might make more people submit this style of applications to the list.
-
-Cheers!
-
-Nataniel
 
 # By submitting this pull request I confirm I've read and complied with the below requirements.
 
