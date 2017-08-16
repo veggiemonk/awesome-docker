@@ -271,6 +271,8 @@ Services to securely store your Docker images.
 * [Vagrant - Docker provider](https://www.vagrantup.com/docs/docker/basics.html) - Good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example) by [@bubenkoff](https://github.com/bubenkoff)
 * [Vessel](https://github.com/awvessel/vessel) - Automates the setup & use of dockerized development environments by [@awvessel](https://github.com/awvessel)
 
+## Machine Learning
+* [Dockerface](https://github.com/natanielruiz/dockerface) - Easy to install and use deep learning face detection for images and video in a docker container by [@natanielruiz](https://github.com/natanielruiz)
 
 ## Monitoring & Logging
 * [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers. Created by [@Google](https://github.com/google)
