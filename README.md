@@ -72,11 +72,8 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 		- [Russian](#russian)
 	- [Good Tips](#good-tips)
 	- [Raspberry Pi / ARM](#raspberry-pi--arm)
-	- [Newsletter](#newsletter)
 	- [Security](#security-1)
 	- [Videos](#videos)
-		- [Main Account](#main-account)
-		- [Useful videos](#useful-videos)
 	- ~~[Interesting Twitter Accounts](#interesting-twitter-accounts)~~
 
 # Legend
