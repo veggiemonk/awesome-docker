@@ -501,12 +501,6 @@ Services to securely store your Docker images.
 * [wharfee](https://github.com/j-bennet/wharfee) - Autocompletion and syntax highlighting for Docker commands. by [@j-bennet](https://github.com/j-bennet)
 * [tsaotun](https://github.com/qazbnm456/tsaotun) - Python based Assistance for Docker by [@qazbnm456](https://github.com/qazbnm456)
 
-## Utilities
-~~* [codelift](https://codelift.io/) - CodeLift is an automated Docker image build utility for 'dockerizing' services by [@BoozAllen](https://twitter.com/BoozAllen)~~
-~~* [Docker Volume Clone Utility](https://github.com/gdiepen/docker-convenience-scripts) - A Docker Utility to Clone Volumes [@gdiepen](https://twitter.com/gdiepen)~~
-~~* [docker-volumes](https://github.com/cpuguy83/docker-volumes) - Docker Volume Manager by [@cpuguy83][cpuguy83]~~
-* [Squid-in-a-can](https://github.com/jpetazzo/squid-in-a-can) - in case of proxy problem by [@jpetazzo][jpetazzo]
-
 ## Web Interface
 * [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2 by [@klausmeyer](https://github.com/klausmeyer)
 * [Docker Registry UI](https://github.com/atc-/docker-registry-ui) - A web UI for easy private/local Docker Registry integration by [@atc-](https://github.com/atc-)
