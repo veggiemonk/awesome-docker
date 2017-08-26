@@ -26,7 +26,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
   - [Where to start?](#where-to-start)
   - [Where to start? (Windows)](#where-to-start-windows)
 - [Projects](#tools)
-	- Container Operations
+	- [Container Operations](#container-operations)
 		- [Container Composition](#container-composition)
 		- [Deployment and Infrastructure](#deployment-and-infrastructure)
 		- [Monitoring](#monitoring--logging)
@@ -40,21 +40,20 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 		- [User Interface](#user-inteface)
 			- [Terminal](#terminal)
 			- [Web](#web)
-	- Docker Images
+	- [Docker Images](#docker-images)
 		- [Base Tools](#base-tools)
 		- [Builder](#image-builder)
 		- [Dockerfile](#dockerfile)
 		- [Linter](#linter--validator)
-		- Inside Container Tools
 		- [Registry](#hosting-images-registries)
-	- Development with Docker
+	- [Development with Docker](#development-with-docker)
 		- [API Client](#developer-tools)
-		- [CI/CD](#continuous-integration--continuous-delivery)
-		- [Development Environment](#development-environments)
+		- [CI/CD](#cd-cd)
+		- [Development Environment](#development-environment)
 		- [Garbage Collection](#garbage-collection)
 		- [Serverless](#serverless)
 		- [Testing](#testing)
-		- [Wrappers](#local-container-manager)
+		- [Wrappers](#wrappers)
 	- Legacy tools
 	- Services based on Docker ($$$)
 		- [CI/CD](#ci-services)
