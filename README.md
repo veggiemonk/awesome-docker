@@ -38,6 +38,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 		- [Service Discovery](#service-discovery)
 		- [Volume Management / Data](#volume-management--data)
 		- [User Interface](#user-interface)
+			- [Native](#native)
 			- [Terminal](#terminal)
 			- [Web](#web)
 	- [Docker Images](#docker-images)
@@ -136,6 +137,8 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Capitan](https://github.com/byrnedo/capitan) - Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
 * [crowdr](https://github.com/polonskiy/crowdr) - Tool for managing multiple Docker containers (`docker-compose` alternative) by [@polonskiy](https://github.com/polonskiy/)
 * [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files
+* [compose_plantuml](hhttps://github.com/funkwerk/compose_plantuml) -  Generate Plantuml graphs from docker-compose files by [@funkwerk](https://github.com/funkwerk)
+* [docker-compose-graphviz](https://github.com/abesto/docker-compose-graphviz) - Turn a docker-compose.yml files into Graphviz .dot files by [@abesto](https://github.com/abesto)
 * [docker-compose-search](https://github.com/francescou/docker-compose-search) - A search engine for Docker Compose application stacks by [@francescou](https://github.com/francescou/)
 * [draw-compose](https://github.com/Alexis-benoist/draw-compose) - Utility to draw a schema of a docker compose by [@Alexis-benoist](https://github.com/Alexis-benoist)
 * [elsy](https://github.com/cisco/elsy) - An opinionated, multi-language, build tool based on Docker and Docker Compose
@@ -205,6 +208,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Mantl](https://github.com/mantl/mantl) - Mantl is a modern platform for rapidly deploying globally distributed services
 * [Marathon](https://mesosphere.github.io/marathon/docs/) - Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on"
 * [MCollective Docker Agent](https://github.com/m4ce/mcollective-docker-agent) - Uses MCollective to orchestrate your Docker containers and images by  [@m4ce](https://github.com/m4ce)
+* [Nebula](https://github.com/nebula-orchestrator) - A Docker orchestration tool designed to manage massive scale distributed clusters.
 * [Nomad](https://github.com/hashicorp/nomad) - Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler by [@hashicorp][hashicorp]
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui) - An open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop by [@CenturyLinkLabs][CenturyLinkLabs].
 * [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker host or Docker Swarm cluster (previously [DockerUI](https://github.com/kevana/ui-for-docker) by [@kevana](https://github.com/kevana))
@@ -239,12 +243,13 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### Security
 
+* [Aqua Security $$$](https://www.aquasec.com) - Securing container-based applications from Dev to Production on any platform
 * [CIS Docker Benchmark](https://github.com/dev-sec/cis-docker-benchmark) - This [InSpec][inspec] compliance profile implement the CIS Docker 1.12.0 Benchmark in an automated way to provide security best-practice tests around Docker daemon and containers in a production environment. By [@dev-sec](https://github.com/dev-sec)
 * [Clair](https://github.com/coreos/clair) - Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By [@coreos][CoreOS]
 * [docker-bench-security](https://github.com/docker/docker-bench-security) - script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker][docker]
 * [notary](https://github.com/docker/notary) - a server and a client for running and interacting with trusted collections. By [@docker][docker]
 * [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By RedHat
-* [Twistlock](https://www.twistlock.com/) $$$ - Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
+* [Twistlock $$$](https://www.twistlock.com/) - Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
 
 ### Service Discovery
 
@@ -267,7 +272,12 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### User Interface
 
+#### Native 
+
+* [DockStation](https://github.com/DockStation/dockstation) - A developer centric UI to configure, monitor, and manage services and containers [@dock_station](https://twitter.com/dock_station)
+
 #### Terminal
+
 * [ctop (1)](https://github.com/yadutaf/ctop) - A command line / text based Linux Containers monitoring tool that works just like you expect (Python) by [@yadutaf](https://github.com/yadutaf)
 * [ctop (2)](https://github.com/bcicen/ctop) - Top-like interface for container metrics (Golang) by [@bcicen](https://github.com/bcicen/)
 * [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
@@ -286,6 +296,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [tsaotun](https://github.com/qazbnm456/tsaotun) - Python based Assistance for Docker by [@qazbnm456](https://github.com/qazbnm456)
 
 #### Web
+
 * [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2 by [@klausmeyer](https://github.com/klausmeyer)
 * [Docker Registry UI](https://github.com/atcol/docker-registry-ui) - A web UI for easy private/local Docker Registry integration by [@atc-](https://github.com/atcol)
 * [docker-registry-web](https://github.com/mkuchin/docker-registry-web) - Web UI, authentication service and event recorder for private docker registry v2 by [@mkuchin](https://github.com/mkuchin)
@@ -520,6 +531,7 @@ Services to securely store your Docker images.
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
 * [Docker Cheat Sheet](http://docker.jens-piegsa.com) by [@JensPiegsa][JensPiegsa] *(updated for Docker 1.13)*
+* [Docker Cheat Sheet](https://github.com/eon01/DockerCheatSheet) by [@eon01](https://github.com/eon01)
 * [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
 * [Docker Ecosystem](http://comp.photo777.org/wp-content/uploads/2015/09/Docker-ecosystem-8.5.1.pdf) (PDF) __MUST SEE__    find it on [blog](http://comp.photo777.org/docker-ecosystem/) by Bryzgalov Peter.
 * [Docker Ecosystem](https://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
@@ -561,6 +573,7 @@ Services to securely store your Docker images.
 
 
 ## Security
+
 * [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
 * [CVE Scanning Alpine images with Multi-stage builds in Docker 17.05](https://github.com/tomwillfixit/alpine-cvecheck) by [@tomwillfixit](https://twitter.com/tomwillfixit)
 * [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
@@ -617,6 +630,7 @@ Services to securely store your Docker images.
 ## English
 * [Docker Community](https://www.docker.com/docker-community)
 * [Docker On Line Meetup](https://www.meetup.com/Docker-Online-Meetup/)
+* [Docker Reddit Community](https://reddit.com/r/docker)
 * [Docker Regional Meetup List](https://www.docker.com/community/meetup-groups)
 
 ## Russian
