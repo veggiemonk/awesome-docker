@@ -14,9 +14,9 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
   <!--<link rel="stylesheet" href="style.css">-->
   <link rel="stylesheet" href="/awesome-docker/style.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.1/fetch.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.5.5/showdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.7.2/showdown.min.js"></script>
   <script>
+    const md = document.getElementById('md');
     const converter = new showdown.Converter();
     converter.setFlavor('github');
     converter.setOption('ghCompatibleHeaderId', true);
@@ -26,7 +26,7 @@
       .then(res => res.text())
       .catch(err => console.error(err))
       .then(text => {
-        document.getElementById('md').innerHTML = converter.makeHtml(text);
+        md.innerHTML = converter.makeHtml(text);
       });
   </script>
 </head>
