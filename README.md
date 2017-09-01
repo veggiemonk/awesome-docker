@@ -216,6 +216,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Serf](https://github.com/hashicorp/serf) - Service orchestration and management tool by [@hashicorp][hashicorp]
 * [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker Management
 * [Swarmpit](https://github.com/swarmpit/swarmpit) - Lightweight Docker Swarm orchestration. Swarmpit provides clean way to manage your Docker Swarm cluster with various handful features such Service management, smart search, shared access and private registries.
+* [Nebula](https://github.com/nebula-orchestrator) - A Docker orchestration tool designed to manage massive scale distributed clusters. 
 
 ### PaaS
 
