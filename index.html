@@ -15,20 +15,6 @@
   <!--<link rel="stylesheet" href="style.css">-->
   <link rel="stylesheet" href="/awesome-docker/style.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.7.2/showdown.min.js"></script>
-  <script>
-    const md = document.getElementById('md');
-    const converter = new showdown.Converter();
-    converter.setFlavor('github');
-    converter.setOption('ghCompatibleHeaderId', true);
-    converter.setOption('prefixHeaderId', false);
-    converter.setOption('simplifiedAutoLink', true);
-    fetch('https://raw.githubusercontent.com/veggiemonk/awesome-docker/master/README.md')
-      .then(res => res.text())
-      .catch(err => console.error(err))
-      .then(text => {
-        md.innerHTML = converter.makeHtml(text);
-      });
-  </script>
 </head>
 
 <body>
@@ -43,6 +29,20 @@
     <a class="github-button" href="https://github.com/veggiemonk/awesome-docker" data-icon="octicon-star" data-style="mega" data-count-href="/veggiemonk/awesome-docker/stargazers" data-count-api="/repos/veggiemonk/awesome-docker#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star veggiemonk/awesome-docker on GitHub">Star</a>
   </section>
   <section id="md" class="main-content"></section>
+  <script>
+    const md = document.getElementById('md');
+    const converter = new showdown.Converter();
+    converter.setFlavor('github');
+    converter.setOption('ghCompatibleHeaderId', true);
+    converter.setOption('prefixHeaderId', false);
+    converter.setOption('simplifiedAutoLink', true);
+    fetch('https://raw.githubusercontent.com/veggiemonk/awesome-docker/master/README.md')
+      .then(res => res.text())
+      .catch(err => console.error(err))
+      .then(text => {
+        md.innerHTML = converter.makeHtml(text);
+      });
+  </script>
   <!--Place this tag in your head or just before your close body tag. -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
