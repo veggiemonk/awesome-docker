@@ -61,16 +61,15 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 		- [Monitoring](#monitoring-services)
 - [Useful Resources](#useful-resources)
 	- [Awesome Lists](#awesome-lists)
-	- [Communities and Meetups](#communities-and-meetups)
-		- [Brazilian](#brazilian)
-		- [Chinese](#chinese)
-		- [English](#english)
-		- [Russian](#russian)
 	- [Good Tips](#good-tips)
 	- [Raspberry Pi / ARM](#raspberry-pi--arm)
 	- [Security](#security-1)
-	- [Videos](#videos)
-	- ~~[Interesting Twitter Accounts](#interesting-twitter-accounts)~~
+- [Videos](#videos)
+- [Communities and Meetups](#communities-and-meetups)
+	- [Brazilian](#brazilian)
+	- [Chinese](#chinese)
+	- [English](#english)
+	- [Russian](#russian)
 
 # Legend
 - Beta 🤕
