@@ -213,7 +213,6 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker host or Docker Swarm cluster (previously [DockerUI](https://github.com/kevana/ui-for-docker) by [@kevana](https://github.com/kevana))
 * [Rancher](https://github.com/rancher/rancher) - An open source project that provides a complete platform for operating Docker in production by [@rancher][rancher].
 * [Serf](https://github.com/hashicorp/serf) - Service orchestration and management tool by [@hashicorp][hashicorp]
-* [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker Management
 * [Swarmpit](https://github.com/swarmpit/swarmpit) - Lightweight Docker Swarm orchestration. Swarmpit provides clean way to manage your Docker Swarm cluster with various handful features such Service management, smart search, shared access and private registries.
 
 ### PaaS
@@ -274,6 +273,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 #### Native 
 
 * [DockStation](https://github.com/DockStation/dockstation) - A developer centric UI to configure, monitor, and manage services and containers [@dock_station](https://twitter.com/dock_station)
+* [Shipyard](https://github.com/shipyard/shipyard) - Shipyard enables multi-host, Docker cluster management using Docker Swarm.
 
 #### Terminal
 
