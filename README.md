@@ -309,6 +309,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### Base Tools
 
+* [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic][prologic]
 * [Chaperone](https://github.com/garywiz/chaperone) - A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package. by [@garywiz](https://github.com/garywiz)
 * [CoreOS][coreos] - Linux for Massive Server Deployments
 * [docker-alpine][alpine] - A super small Docker base image *(5MB)* using Alpine Linux by [@gliderlabs][gliderlabs]
