@@ -38,7 +38,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 		- [Service Discovery](#service-discovery)
 		- [Volume Management / Data](#volume-management--data)
 		- [User Interface](#user-interface)
-			- [Native](#native)
+			- [Desktop](#desktop)
 			- [Terminal](#terminal)
 			- [Web](#web)
 	- [Docker Images](#docker-images)
