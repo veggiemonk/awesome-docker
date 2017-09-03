@@ -151,6 +151,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### Deployment and Infrastructure
 
+[blackfish](https://gitlab.com/blackfish/blackfish) - a CoreOS VM to build swarm clusters for Dev & Production by [@DataMC](http://datamc.io/)
 * [Centurion](https://github.com/newrelic/centurion) - Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings. By [@newrelic](https://github.com/newrelic)
 * [Clocker](https://github.com/brooklyncentral/clocker) - Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts, on both Docker and Marathon. It leverages [Calico][calico] and [Weave][weave] for networking and [Brooklyn][brooklyn] for application blueprints. By [@brooklyncentral](https://github.com/brooklyncentral)
 * [Conduit](https://github.com/ehazlett/conduit) - Experimental deployment system for Docker by [@ehazlett](https://github.com/ehazlett)
@@ -493,7 +494,6 @@ Services to securely store your Docker images.
 * [Cloud 66](https://www.cloud66.com) - Full-stack hosted container management as a service
 * [Codenvy](https://codenvy.com) - One-click Docker environments and cloud workspace for development teams
 * [ContainerShip Cloud][containership] - Multi-Cloud Container Hosting Automation Platform.
-* [DataMC](http://datamc.io/) - DataMc is a PaaS for Production ready and fully managed Data Platform
 * [Docker Cloud](https://cloud.docker.com/) - Former Tutum
 * [Dockhero](https://dockhero.io/) - Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
 * [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
