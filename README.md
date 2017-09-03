@@ -208,7 +208,6 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui) - An open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop by [@CenturyLinkLabs][CenturyLinkLabs].
 * [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker host or Docker Swarm cluster (previously [DockerUI](https://github.com/kevana/ui-for-docker) by [@kevana](https://github.com/kevana))
 * [Rancher](https://github.com/rancher/rancher) - An open source project that provides a complete platform for operating Docker in production by [@rancher][rancher].
-* [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker Management
 * [Swarmpit](https://github.com/swarmpit/swarmpit) - Lightweight Docker Swarm orchestration. Swarmpit provides clean way to manage your Docker Swarm cluster with various handful features such Service management, smart search, shared access and private registries.
 
 ### PaaS
@@ -268,7 +267,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### User Interface
 
-#### Native 
+#### Desktop 
 
 * [DockStation](https://github.com/DockStation/dockstation) - A developer centric UI to configure, monitor, and manage services and containers [@dock_station](https://twitter.com/dock_station)
 
@@ -302,7 +301,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
 * [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
-
+* [Shipyard](https://github.com/shipyard/shipyard) - Shipyard enables multi-host, Docker cluster management using Docker Swarm.
 
 ## Docker Images
 
