@@ -217,7 +217,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### PaaS
 
-* [Atlantis](https://github.com/ooyala/atlantis) - Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go
+* [Atlantis](https://github.com/ooyala/atlantis) 💀 - Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go
 * [Convox Rack](https://github.com/convox/rack) - Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 * [Dcw](https://github.com/pbertera/dcw) - Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels.
 * [Dokku][dokku] - Docker powered mini-Heroku that helps you build and manage the lifecycle of applications (originally by [@progrium][progrium])
