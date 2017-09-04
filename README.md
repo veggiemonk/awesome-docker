@@ -219,6 +219,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Dokku][dokku] - Docker powered mini-Heroku that helps you build and manage the lifecycle of applications (originally by [@progrium][progrium])
 * [Empire](https://github.com/remind101/empire) - A PaaS built on top of Amazon EC2 Container Service (ECS)
 * [Flynn](https://github.com/flynn/flynn) - A next generation open source platform as a service
+* [Jelastic](https://jelastic.com/) - An advanced PaaS for developers that simplifies clustering and complex cloud deployments with powerful web UI and usage-only pricing
 * [Nanobox 💲](https://github.com/nanobox-io/nanobox) - An application development platform that creates local environments that can then be deployed and scaled in the cloud.
 * [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/)
 * [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software
@@ -502,6 +503,7 @@ Services to securely store your Docker images.
 * [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 * [Hyper_](https://hyper.sh/) - Secure container hosting service with "nano-containers" and per-second billing.
 * [IBM Bluemix Container Service](https://console.bluemix.net/docs/containers/container_index.html) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
+* [Jelastic Cloud](https://jelastic.cloud/) - "Easy-to-use" container hosting platfrom with automatic vertical and horizontal scaling. Available over 50+ hosting providers worldwide.
 * [OpenShift Dedicated](https://www.openshift.com/dedicated/index.html) - A hosted [OpenShift][openshift] cluster for running your Docker containers managed by Red Hat.
 * [Sloppy.io](https://sloppy.io/) - all-in-one solution for container deployment and hosting – made and hosted in Germany
 * [Triton](https://www.joyent.com/) - Elastic container-native infrastructure by Joyent.
@@ -567,6 +569,7 @@ Services to securely store your Docker images.
 * [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/) (ruby script)
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm][fgrehm]
 * [Kubernetes Cheatsheet](http://k8s.info/cs.html) - A great resource for managing your Kubernetes installation
+* [Migration from VMs to Containers](https://blog.jelastic.com/2016/10/11/migration-from-vms-to-containers/) - Decomposition of legacy Java EE applications using containers
 * [Nginx Proxy for Docker](https://blog.danivovich.com/2015/07/09/nginx-proxy-for-docker-containers/) (written 9 JUL 2015)
 * [Production Meteor and Node Using Docker, Part I](https://projectricochet.com/blog/production-meteor-and-node-using-docker-part-i) by [@projectricochet](https://github.com/projectricochet)
 * [Pulling Git into a Docker image without leaving SSH keys behind](http://blog.cloud66.com/pulling-git-into-a-docker-image-without-leaving-ssh-keys-behind/) by [@khash](https://github.com/khash)
