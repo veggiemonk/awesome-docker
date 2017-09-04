@@ -32,7 +32,7 @@ Links will be tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot
   - For GitHub repositories, add the name of the author with a link to its GitHub account after the description, like `By [@author](GitHub account)`
 - ORDER: The entries are in lexical order (English letter order) 
 - LABEL (Optional)
-  - $$$ indicates if one needs a paying subscription to use the project.
-  <br>Add $$$ next to the project name like `[Name $$$](Link)`
-  - BETA indicates that the project is in beta phase.
-  <br>Add BETA next to the project name like `[Name BETA](Link)`
+  - 💲 indicates if one needs a paying subscription to use the project.
+  <br>Add 💲 next to the project name like `[Name 💲](Link)`
+  - 🤕 indicates that the project is in beta phase.
+  <br>Add 🤕 next to the project name like `[Name 🤕](Link)`
