@@ -237,8 +237,8 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### Security
 
-* [bane](https://github.com/jessfraz/bane) - Custom & better AppArmor profile generator for Docker container by [@jessfraz][jessfraz]
 * [Aqua Security 💲](https://www.aquasec.com) - Securing container-based applications from Dev to Production on any platform
+* [bane](https://github.com/jessfraz/bane) - Custom & better AppArmor profile generator for Docker container by [@jessfraz][jessfraz]
 * [CIS Docker Benchmark](https://github.com/dev-sec/cis-docker-benchmark) - This [InSpec][inspec] compliance profile implement the CIS Docker 1.12.0 Benchmark in an automated way to provide security best-practice tests around Docker daemon and containers in a production environment. By [@dev-sec](https://github.com/dev-sec)
 * [Clair](https://github.com/coreos/clair) - Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By [@coreos][CoreOS]
 * [docker-bench-security](https://github.com/docker/docker-bench-security) - script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker][docker]
