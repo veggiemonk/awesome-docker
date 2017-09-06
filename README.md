@@ -251,7 +251,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [docker-consul](https://github.com/gliderlabs/docker-consul) by [@progrium][progrium]
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery by [@coreOS][coreos]
 * [proxy](https://github.com/factorish/proxy) - lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
-* [registrator](https://github.com/progrium/registrator) - Service registry bridge for Docker by [@progrium][progrium]
+* [registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker by [@gliderlabs][gliderlabs]
 
 ### Volume Management / Data
 
