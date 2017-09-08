@@ -270,6 +270,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 #### Desktop
 
 * [DockStation](https://github.com/DockStation/dockstation) - A developer centric UI to configure, monitor, and manage services and containers [@dock_station](https://twitter.com/dock_station)
+* [Dockeron](https://github.com/dockeron/dockeron) - A project built on Electron + Vue.js for Docker on desktop. [@fluency03](https://github.com/fluency03)
 
 #### Terminal
 
