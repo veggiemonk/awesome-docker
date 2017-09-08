@@ -75,8 +75,6 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 - Abandoned 💀
 - Beta 🤕
 - Monetized 💲
-- Terminal 🤓
-- Web Based 😎
 - Website 🖥
 
 # What is Docker?
