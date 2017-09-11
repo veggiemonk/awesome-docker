@@ -72,9 +72,9 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 	- [Russian](#russian)
 
 # Legend
-- Abandoned :skull:
-- Beta :construction:
-- Monetized :heavy_dollar_sign:
+- Abandoned 💀
+- Beta 🚧
+- Monetized 💲
 
 # What is Docker?
 
