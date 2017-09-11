@@ -33,5 +33,5 @@ Links will be tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot
 - ORDER: The entries are in lexical order (English letter order) 
 - LABEL (Optional): Add one of the following icons next to the project name like ```[Name](Link) :icon: - Description.```
   - :heavy_dollar_sign: indicates if one needs a paying subscription to use the project.
-  - :construction: indicates that the project is in work in progress/beta phase.
+  - :construction: indicates that the project is a work in progress/beta release.
   - :skull: indicates that the project is obsolete, but still worth mentioning it.
