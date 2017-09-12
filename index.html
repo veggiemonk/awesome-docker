@@ -14,7 +14,9 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="/awesome-docker/style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@3.1.2/extras/css/emojione.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.7.2/showdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emojione@3.1.2/lib/js/emojione.min.js"></script>
 </head>
 
 <body>
@@ -40,7 +42,7 @@
       .then(res => res.text())
       .catch(err => console.error(err))
       .then(text => {
-        md.innerHTML = converter.makeHtml(text);
+        md.innerHTML = emojione.toImage(converter.makeHtml(text));
       });
   </script>
   <!--Place this tag in your head or just before your close body tag. -->
