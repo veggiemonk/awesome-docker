@@ -200,7 +200,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Mantl](https://github.com/mantl/mantl) - Mantl is a modern platform for rapidly deploying globally distributed services
 * [Marathon](https://mesosphere.github.io/marathon/docs/) - Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on"
 * [Mesos](https://mesos.apache.org/documentation/latest/docker-containerizer/) - Resource/Job scheduler for containers, VM's and physical hosts [@apache](https://mesos.apache.org/)
-* [Mesosphere DC/OS :heavy_dollar_sign:](https://mesosphere.com/product/) - Integrated platform for data and containers built on Apache Mesos by [@mesosphere](https://mesosphere.com)
+* [Mesosphere DC/OS](https://mesosphere.com/product/) :heavy_dollar_sign: - Integrated platform for data and containers built on Apache Mesos by [@mesosphere](https://mesosphere.com)
 * [Nebula](https://github.com/nebula-orchestrator) - A Docker orchestration tool designed to manage massive scale distributed clusters.
 * [Nomad](https://github.com/hashicorp/nomad) - Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler by [@hashicorp][hashicorp]
 * [Panamax](https://github.com/CenturyLinkLabs/panamax-ui) - An open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop by [@CenturyLinkLabs][CenturyLinkLabs].
@@ -216,7 +216,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Empire](https://github.com/remind101/empire) - A PaaS built on top of Amazon EC2 Container Service (ECS)
 * [Flynn](https://github.com/flynn/flynn) - A next generation open source platform as a service
 * [Jelastic](https://jelastic.com/) - An advanced PaaS for developers that simplifies clustering and complex cloud deployments with powerful web UI and usage-only pricing
-* [Nanobox :heavy_dollar_sign:](https://github.com/nanobox-io/nanobox) - An application development platform that creates local environments that can then be deployed and scaled in the cloud.
+* [Nanobox](https://github.com/nanobox-io/nanobox) :heavy_dollar_sign: - An application development platform that creates local environments that can then be deployed and scaled in the cloud.
 * [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/)
 * [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software
 * [Workflow](https://github.com/deis/workflow) - The open source PaaS for Kubernetes by [Deis](https://github.com/deis). Formerly Deis v1.
@@ -234,14 +234,14 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### Security
 
-* [Aqua Security :heavy_dollar_sign:](https://www.aquasec.com) - Securing container-based applications from Dev to Production on any platform
+* [Aqua Security](https://www.aquasec.com) :heavy_dollar_sign: - Securing container-based applications from Dev to Production on any platform
 * [bane](https://github.com/jessfraz/bane) - AppArmor profile generator for Docker containers by [@jessfraz][jessfraz]
 * [CIS Docker Benchmark](https://github.com/dev-sec/cis-docker-benchmark) - This [InSpec][inspec] compliance profile implement the CIS Docker 1.12.0 Benchmark in an automated way to provide security best-practice tests around Docker daemon and containers in a production environment. By [@dev-sec](https://github.com/dev-sec)
 * [Clair](https://github.com/coreos/clair) - Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By [@coreos][CoreOS]
 * [docker-bench-security](https://github.com/docker/docker-bench-security) - script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker][docker]
 * [notary](https://github.com/docker/notary) - a server and a client for running and interacting with trusted collections. By [@docker][docker]
 * [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By RedHat
-* [Twistlock :heavy_dollar_sign:](https://www.twistlock.com/) - Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
+* [Twistlock](https://www.twistlock.com/) :heavy_dollar_sign: - Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
 
 ### Service Discovery
 
@@ -260,9 +260,9 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Docker Machine NFS](https://github.com/adlogix/docker-machine-nfs) Activates NFS for an existing boot2docker box created through Docker Machine on OS X.
 * [Local Persist](https://github.com/CWSpear/local-persist) Specify a mountpoint for your local volumes (created via `docker volume create`) so that files will always persist and so you can mount to different directories in different containers.
 * [Minio](https://github.com/jelastic-jps/minio) - S3 compatible object storage server in Docker containers
-* [portworx :heavy_dollar_sign:](https://portworx.com) - Decentralized storage solution for persistent, shared and replicated volumes.
+* [portworx](https://portworx.com) :heavy_dollar_sign: - Decentralized storage solution for persistent, shared and replicated volumes.
 * [REX-Ray](https://github.com/codedellemc/rexray) Vendor agnostic storage orchestration engine to provide persistent storage for Docker containers as well as Mesos frameworks and tasks.
-* [quobyte :heavy_dollar_sign:](https://www.quobyte.com/) - fully fault-tolerant distributed file system with a docker volume driver
+* [quobyte](https://www.quobyte.com/) :heavy_dollar_sign: - fully fault-tolerant distributed file system with a docker volume driver
 
 ### User Interface
 
