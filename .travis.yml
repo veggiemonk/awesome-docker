@@ -12,5 +12,5 @@ script:
   - awesome_bot README.md --white-list wiki/Installing,slideshare,awesome-docker.svg,edit/master,sindresorhus/awesome,ashmckenzie,shortcircuit.net.au,photo777.org,adrianmouat,redhat,viget,meros,toedter,datadoghq,amazon.cn,blog.codeship.com,swarm-v-fleet,amazon.com,blogs.splunk.com,docs.mesosphere.com,containership.io,gliderlabs.com,twistlock.com,shipyard-project.com,dashboard.tutum.co,vimeo.com,docs.microsoft.com,eclipse.org,codenvy.io,gitter.im,sebgoa.blogspot.be,mindmeister.com
 env:
   global:
-  - secure: T2my1DKr4/sThpf0tO/AI76n4FSAObf6kG5B6iRhtN6xUjOqH5GmqfhzBN17asqxtDCjEPavMKxkxneHWTQdXQPD2Ewhg/bJ5S2AM2YITQcq1dentCFldRaKmjn/Ug9F13caQsf7SCMH1OyL/XpHZxq3rkMoiUFUpC0FUIHQNuo=
-  - secure: Bwr5l4Ej0lJEQcW/t+lMNFW1zwQm4jGw4IcBW2GTNFrEMtQM3VGtZpkHVtM0+hjkiur8dZaiPnnsu9j6kM1/pqmcx8Ip+DDdGIT1Fkudh9GXc5gGYzaHlZD3hLVgYPwxVGqTaxOxa+bCpssTjhqsRwwEqflpcnET3IrC2LhaN44=
+  - GH_USER=moshes-bot
+  - GH_TOKEN=1e43aa4298e8045dcb477636fa52e338eed6cf8a
