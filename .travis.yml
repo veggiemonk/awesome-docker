@@ -13,4 +13,4 @@ script:
 env:
   global:
   - GH_USER=moshes-bot
-  - GH_TOKEN=1e43aa4298e8045dcb477636fa52e338eed6cf8a
+  - GH_TOKEN=fbb949f59a8b45c7832536576322971451218ae2
