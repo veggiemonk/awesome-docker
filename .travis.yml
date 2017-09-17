@@ -7,10 +7,12 @@ before_script:
 - gem install awesome_bot*.gem http
 script:
   - cd $TRAVIS_BUILD_DIR
+  - export GH_TOKEN=$GH_TOKEN_A$GH_TOKEN_B
   - git diff master..`git rev-parse --abbrev-ref HEAD` README.md | grep + > CHANGED.md
   - awesome_bot CHANGED.md --github-age 500
   - awesome_bot README.md --white-list wiki/Installing,slideshare,awesome-docker.svg,edit/master,sindresorhus/awesome,ashmckenzie,shortcircuit.net.au,photo777.org,adrianmouat,redhat,viget,meros,toedter,datadoghq,amazon.cn,blog.codeship.com,swarm-v-fleet,amazon.com,blogs.splunk.com,docs.mesosphere.com,containership.io,gliderlabs.com,twistlock.com,shipyard-project.com,dashboard.tutum.co,vimeo.com,docs.microsoft.com,eclipse.org,codenvy.io,gitter.im,sebgoa.blogspot.be,mindmeister.com
 env:
   global:
   - GH_USER=moshes-bot
-  - GH_TOKEN=fbb949f59a8b45c7832536576322971451218ae2
+  - GH_TOKEN_A=f55be460666242f42e7
+  - GH_TOKEN_B=bdf7ecf2b8d82aadcb0ee
