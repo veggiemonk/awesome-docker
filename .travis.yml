@@ -1,12 +1,16 @@
 language: ruby
 rvm:
-  - 2.3.1
+- 2.3.1
 before_script:
-  - git clone https://github.com/moshe-immerman/awesome_bot.git && cd awesome_bot
-  - gem build awesome_bot.gemspec
-  - gem install awesome_bot*.gem http
+- git clone https://github.com/moshe-immerman/awesome_bot.git && cd awesome_bot
+- gem build awesome_bot.gemspec
+- gem install awesome_bot*.gem http
 script:
   - cd $TRAVIS_BUILD_DIR
   - git diff master..`git rev-parse --abbrev-ref HEAD` README.md | grep + > CHANGED.md
   - awesome_bot CHANGED.md --github-age 500
   - awesome_bot README.md --white-list wiki/Installing,slideshare,awesome-docker.svg,edit/master,sindresorhus/awesome,ashmckenzie,shortcircuit.net.au,photo777.org,adrianmouat,redhat,viget,meros,toedter,datadoghq,amazon.cn,blog.codeship.com,swarm-v-fleet,amazon.com,blogs.splunk.com,docs.mesosphere.com,containership.io,gliderlabs.com,twistlock.com,shipyard-project.com,dashboard.tutum.co,vimeo.com,docs.microsoft.com,eclipse.org,codenvy.io,gitter.im,sebgoa.blogspot.be,mindmeister.com
+env:
+  global:
+  - secure: T2my1DKr4/sThpf0tO/AI76n4FSAObf6kG5B6iRhtN6xUjOqH5GmqfhzBN17asqxtDCjEPavMKxkxneHWTQdXQPD2Ewhg/bJ5S2AM2YITQcq1dentCFldRaKmjn/Ug9F13caQsf7SCMH1OyL/XpHZxq3rkMoiUFUpC0FUIHQNuo=
+  - secure: Bwr5l4Ej0lJEQcW/t+lMNFW1zwQm4jGw4IcBW2GTNFrEMtQM3VGtZpkHVtM0+hjkiur8dZaiPnnsu9j6kM1/pqmcx8Ip+DDdGIT1Fkudh9GXc5gGYzaHlZD3hLVgYPwxVGqTaxOxa+bCpssTjhqsRwwEqflpcnET3IrC2LhaN44=
