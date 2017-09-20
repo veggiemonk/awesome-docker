@@ -462,7 +462,7 @@ Services to securely store your Docker images.
 ### Wrappers
 
 * [Ansible](http://docs.ansible.com/ansible/latest/docker_container_module.html) - Manage the life cycle of Docker containers. By RedHat
-* [Azk](http://www.azk.io/) - Orchestrate development enviornments on your local machine by [@azukiapp](https://github.com/azukiapp)
+* [Azk](https://github.com/azukiapp/azk) - Orchestrate development enviornments on your local machine by [@azukiapp](https://github.com/azukiapp)
 * [Beluga](https://github.com/cortexmedia/Beluga) :skull: - CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
 * [dexec](https://github.com/docker-exec/dexec) - Command line interface written in Go for running code with Docker Exec images.
 * [docker-do](https://github.com/benzaita/docker-do) - hassle-free docker run, like `env` but for docker by [@benzaita](https://github.com/benzaita)
