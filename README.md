@@ -384,7 +384,7 @@ Services to securely store your Docker images.
 * [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) - This is a fully dynamic docker link ambassador. + [Article](https://docs.docker.com/engine/admin/ambassador_pattern_linking/) by [@cpuguy83][cpuguy83]
 * [docker-consul](https://github.com/gliderlabs/docker-consul) by [@progrium][progrium]
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery by [@coreOS][coreos]
-* [istio](https://istio.io/) - An open platform to connect, manage, and secure microservices by [@IstioMesh](istio)
+* [istio](https://github.com/istio/istio) - An open platform to connect, manage, and secure microservices by [@IstioMesh](istio)
 * [proxy](https://github.com/factorish/proxy) - lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
 * [registrator](https://github.com/progrium/registrator) - Service registry bridge for Docker by [@progrium][progrium]
 
