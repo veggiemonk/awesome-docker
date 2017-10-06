@@ -15,7 +15,7 @@
 
 - I have read and understood the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)
 
-- The project submitted is conform to the quality standards outlined in the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)
+- The project submitted conforms to the quality standards outlined in the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)
 
 - Go to the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md) and read it again.
 
