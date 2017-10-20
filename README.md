@@ -193,6 +193,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [clusterdock](https://github.com/clusterdock/clusterdock) - Docker container orchestration to enable the testing of long-running cluster deployments
 * [ContainerShip](https://github.com/containership/containership) A simple container management platform
 * [Crane](https://github.com/Dataman-Cloud/crane) - Control plane based on docker built-in swarm [@Dataman-Cloud](https://github.com/Dataman-Cloud)
+* [Docker Flow Swarm Listener](https://github.com/vfarcic/docker-flow-swarm-listener) :construction: - Docker Flow Swarm Listener project is to listen to Docker Swarm events and send requests when a change occurs.. By [@vfarcic](https://github.com/vfarcic)
 * [gantryd](https://github.com/DevTable/gantryd) :skull: - A framework for easy management of docker-based components across machines by [@DevTable](https://github.com/DevTable)
 * [Haven](https://github.com/codeabovelab/haven-platform) - Haven is a simplified container management platform that integrates container, application, cluster, image, and registry managements. By [@codeabovelab](https://github.com/codeabovelab)
 * [Helios](https://github.com/spotify/helios) - A simple platform for deploying and managing containers across an entire fleet of servers by [@spotify](spotify)
