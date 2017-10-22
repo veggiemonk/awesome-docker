@@ -84,6 +84,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 # Where to start?
 * [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
+* [Dive Into Docker: From "What is Docker?" to "Hello World"](https://www.youtube.com/watch?v=XeSD17YRijk&list=PL-v3vdeWVEsXT-u0JDQZnM90feU3NE3v8) (60:25) by [@nickjanetakis][nickjanetakis]
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
 * [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
 * [Docker Containers on the Desktop][jessblog] - The **funniest way** to learn about docker by [@jessfraz][jessfraz] who also gave a [presentation][jessvid] about it @ DockerCon 2015 (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
@@ -565,6 +566,7 @@ Services to securely store your Docker images.
 
 ## Good Tips
 
+* [50+ Docker related tips, tricks and tutorials](https://nickjanetakis.com/blog/tag/docker) by [@nickjanetakis][nickjanetakis]
 * [10 Things Not To Forget Before Deploying Docker In Production](https://www.slideshare.net/rightscale/docker-meetup-40826948)
 * [24 random docker tips](https://csabapalfi.github.io/random-docker-tips/) by [@csabapalfi](https://github.com/csabapalfi)
 * [6 Million Ways To Log In Docker](https://www.slideshare.net/raychaser/6-million-ways-to-log-in-docker-nyc-docker-meetup-12172014) by [@raychaser](https://twitter.com/raychaser)
@@ -691,6 +693,7 @@ Services to securely store your Docker images.
 [loggingDocker]: https://vimeo.com/123341629
 [microbadger]: https://microbadger.com
 [nginxproxy]: https://github.com/jwilder/nginx-proxy
+[nickjanetakis]: https://twitter.com/nickjanetakis
 [noteed]: https://github.com/noteed
 [ondrejmo]: https://github.com/ondrejmo
 [openshift]: https://www.openshift.org/
