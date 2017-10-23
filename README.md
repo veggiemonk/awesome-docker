@@ -350,17 +350,18 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 ### Dockerfile
 
 * [chaperone-docker](https://github.com/garywiz/chaperone-docker) - A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.
-* [Collection of Dockerfiles](https://github.com/crosbymichael/Dockerfiles) by [@crosbymichael][crosbymichael]
-* [Collection of Dockerfiles 2](https://github.com/pandrew/dockerfiles) by [@pandrew][pandrew]
-* [Collection of Dockerfiles 3](https://github.com/vimagick/dockerfiles) by [@vimagick][vimagick]
-* [Collection of Dockerfiles 4](https://github.com/ondrejmo/Dockerfiles) by [@ondrejmo][ondrejmo]
-* [Collection of Dockerfiles 5](https://github.com/arun-gupta/docker-images) by [@arun-gupta][arun-gupta]
-* [Docker Compose Example](https://github.com/llitfkitfk/docker-compose-demo) by [@llitfkitfk](https://github.com/llitfkitfk)
 * [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
-* [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/) (ruby script)
-* [Dockerfile Example](https://github.com/komljen/dockerfile-examples) by [@komljen](https://github.com/komljen)
-* [Dockerfile Example 2](https://github.com/kstaken/dockerfile-examples) :skull: by [@kstaken](https://github.com/kstaken)
+* [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/)
 * [Vektorcloud](https://github.com/vektorcloud) - A collection of minimal, Alpine-based Docker images
+
+Examples by: * [@crosbymichael](https://github.com/crosbymichael/Dockerfiles)
+[@pandrew](https://github.com/pandrew/dockerfiles)
+[@vimagick](https://github.com/vimagick/dockerfiles)
+[@ondrejmo(https://github.com/ondrejmo/Dockerfiles)
+[@arun-gupta](https://github.com/arun-gupta/docker-images)
+[@llitfkitfk](https://github.com/llitfkitfk/docker-compose-demo)
+[@komljen](https://github.com/komljen/dockerfile-examples)
+[@kstaken](https://github.com/kstaken/dockerfile-examples)
 
 ### Linter
 
