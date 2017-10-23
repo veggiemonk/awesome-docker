@@ -354,10 +354,10 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/)
 * [Vektorcloud](https://github.com/vektorcloud) - A collection of minimal, Alpine-based Docker images
 
-Examples by: * [@crosbymichael](https://github.com/crosbymichael/Dockerfiles)
+Examples by: [@crosbymichael](https://github.com/crosbymichael/Dockerfiles)
 [@pandrew](https://github.com/pandrew/dockerfiles)
 [@vimagick](https://github.com/vimagick/dockerfiles)
-[@ondrejmo(https://github.com/ondrejmo/Dockerfiles)
+[@ondrejmo](https://github.com/ondrejmo/Dockerfiles)
 [@arun-gupta](https://github.com/arun-gupta/docker-images)
 [@llitfkitfk](https://github.com/llitfkitfk/docker-compose-demo)
 [@komljen](https://github.com/komljen/dockerfile-examples)
