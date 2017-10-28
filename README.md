@@ -239,8 +239,8 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### Security
 
-* [Anchor Engine](https://github.com/anchore/anchore) - Analyze images for CVE vulnerabilities and against custom security policies by [@Anchor](https://github.com/anchore)
-* [Anchor Cloud](https://anchore.com/cloud) :heavy_dollar_sign: - Hosted version of Anchor Engine by [@Anchor](https://github.com/anchore)
+* [Anchor Engine](https://github.com/anchore/anchore) - Analyze images for CVE vulnerabilities and against custom security policies by [@Anchor][anchore]
+* [Anchor Cloud](https://anchore.com/cloud) :heavy_dollar_sign: - Hosted version of Anchor Engine by [@Anchor][anchore]
 * [Aqua Security](https://www.aquasec.com) :heavy_dollar_sign: - Securing container-based applications from Dev to Production on any platform
 * [bane](https://github.com/jessfraz/bane) - AppArmor profile generator for Docker containers by [@jessfraz][jessfraz]
 * [CIS Docker Benchmark](https://github.com/dev-sec/cis-docker-benchmark) - This [InSpec][inspec] compliance profile implement the CIS Docker 1.12.0 Benchmark in an automated way to provide security best-practice tests around Docker daemon and containers in a production environment. By [@dev-sec](https://github.com/dev-sec)
@@ -651,6 +651,7 @@ Services to securely store your Docker images.
 
 [ahmetalpbalkan]: https://github.com/ahmetalpbalkan
 [alpine]: https://github.com/gliderlabs/docker-alpine
+[anchore]: https://github.com/anchore
 [arun-gupta]: https://github.com/arun-gupta
 [blockbridge]: https://github.com/blockbridge
 [brooklyn]: http://brooklyn.apache.org/
