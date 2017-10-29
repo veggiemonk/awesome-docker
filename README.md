@@ -87,13 +87,11 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 # Where to start?
 * [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 * [Dive Into Docker: From "What is Docker?" to "Hello World"](https://www.youtube.com/watch?v=XeSD17YRijk&list=PL-v3vdeWVEsXT-u0JDQZnM90feU3NE3v8) (60:25) by [@nickjanetakis][nickjanetakis]
-* [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
-* [Docker Containers on the Desktop][jessblog] - The **funniest way** to learn about docker by [@jessfraz][jessfraz] who also gave a [presentation][jessvid] about it @ DockerCon 2015 (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
 * [Docker Curriculum](https://docker-curriculum.com): A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.
 * [Docker Documentation](https://docs.docker.com/)
 * [Docker for all - Developers, Testers, DevOps, Product Owners + Videos](https://github.com/machzqcq/docker-for-all) Docker Training Videos for all
 * [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
-* [Docker Toolbox](https://docs.docker.com/toolbox/overview/) - It's a **legacy desktop application** for quick setup and launch of a Docker environment on older Mac (10.10 and below) and Windows (8.1 and below) systems. On newer systems it's recommended to use the [Docker for Mac][docker-for-mac] or [Docker for Windows][docker-for-windows].
+* [Docker Toolbox](https://docs.docker.com/toolbox/overview/) :skull: - Quick setup and launch of a Docker environment on older Mac (10.10 and below) and Windows (8.1 and below) systems. On newer systems it's recommended to use the [Docker for Mac][docker-for-mac] or [Docker for Windows][docker-for-windows].
 * [Docker Training](https://training.docker.com/) - Includes a free self-paced hands-on tutorial (free registration required or sign-in with DockerHub ID)
 * [Katacoda](https://www.katacoda.com/): Learn Docker using Interactive Browser-Based Labs
 * [Learn Docker](https://github.com/dwyl/learn-docker) Full environment set up, screenshots, step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
@@ -544,11 +542,8 @@ Services to securely store your Docker images.
 # Useful Resources
 
 * __[Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)__ High quality articles about docker! __MUST SEE__ 
-* Blogs [by @nickjanetakis](https://nickjanetakis.com/blog/tag/docker) [@crosbymichael](http://crosbymichael.com/) [@gliderlabs](https://gliderlabs.com/devlog/) [@jwilder](http://jasonwilder.com/) [@jpetazzo](http://jpetazzo.github.io/) [@progrium](http://progrium.com/blog/) [@sebgoa](http://sebgoa.blogspot.be/) [@codeship](https://blog.codeship.com/) [@jessfraz](https://blog.jessfraz.com/)
-* [Container solutions](http://container-solutions.com/blog/)
-* [Container42](http://container42.com/)
+* Blogs [by @nickjanetakis](https://nickjanetakis.com/blog/tag/docker) [@crosbymichael](http://crosbymichael.com/) [@gliderlabs](https://gliderlabs.com/devlog/) [@jwilder](http://jasonwilder.com/) [@jpetazzo](http://jpetazzo.github.io/) [@progrium](http://progrium.com/blog/) [@sebgoa](http://sebgoa.blogspot.be/) [@codeship](https://blog.codeship.com/) [@jessfraz](https://blog.jessfraz.com/) * [@Container42](http://container42.com/) [Container solutions](http://container-solutions.com/blog/)
 * [Cloud Native Landscape](https://github.com/cncf/landscape)
-* [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 * [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 
 ## Awesome Lists
@@ -562,10 +557,13 @@ Services to securely store your Docker images.
 
 ## Good Tips
 
+* [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
+* [Docker Containers on the Desktop][jessblog] - The **funniest way** to learn about docker by [@jessfraz][jessfraz] who also gave a [presentation][jessvid] about it @ DockerCon 2015 (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
 * [Container Best Practices](http://docs.projectatomic.io/container-best-practices/) - Red Hat's Project Atomic created a Container Best Practices guide which applies to everything and is updated regurlary.
 * [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](https://github.com/rochacbruno)
 * [Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd) by [@King Chung Huang](https://github.com/kinghuang)
 * [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/) by [@fgrehm][fgrehm]
+* [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 
 
 ## Raspberry Pi & ARM
