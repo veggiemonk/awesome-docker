@@ -554,11 +554,10 @@ Services to securely store your Docker images.
 * [Blog](https://blog.jessfraz.com/) of [@jessfraz][jessfraz]
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
+* [Cloud Native Landscape](https://github.com/cncf/landscape)
 * [Docker Cheat Sheet](http://docker.jens-piegsa.com) by [@JensPiegsa][JensPiegsa] *(updated for Docker 1.13)*
 * [Docker Cheat Sheet](https://github.com/eon01/DockerCheatSheet) by [@eon01](https://github.com/eon01)
 * [Docker Cheat Sheet][docker-cheat-sheet] by [@wsargent][wsargent] __MUST SEE__
-* [Docker Ecosystem](http://comp.photo777.org/wp-content/uploads/2015/09/Docker-ecosystem-8.5.1.pdf) (PDF) __MUST SEE__    find it on [blog](http://comp.photo777.org/docker-ecosystem/) by Bryzgalov Peter.
-* [Docker Ecosystem](https://www.mindmeister.com/389671722/docker-ecosystem) (Mind Map) __MUST SEE__
 * [Docker Kubernetes Lab Handbook](https://github.com/xiaopeng163/docker-k8s-lab)
 * [Docker Printable Refcard][docker-quick-ref] by [@dimonomid][dimonomid]
 * [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
