@@ -544,7 +544,7 @@ Services to securely store your Docker images.
 # Useful Resources
 
 * __[Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)__ High quality articles about docker! __MUST SEE__ 
-* Blogs [by @nickjanetakis][nickjanetakis] [@crosbymichael](http://crosbymichael.com/) [@gliderlabs](https://gliderlabs.com/devlog/) [@jwilder](http://jasonwilder.com/) [@jpetazzo](http://jpetazzo.github.io/) [@progrium](http://progrium.com/blog/) [@sebgoa](http://sebgoa.blogspot.be/) [@codeship](https://blog.codeship.com/) [@jessfraz](https://blog.jessfraz.com/)
+* Blogs [by @nickjanetakis](https://nickjanetakis.com/blog/tag/docker) [@crosbymichael](http://crosbymichael.com/) [@gliderlabs](https://gliderlabs.com/devlog/) [@jwilder](http://jasonwilder.com/) [@jpetazzo](http://jpetazzo.github.io/) [@progrium](http://progrium.com/blog/) [@sebgoa](http://sebgoa.blogspot.be/) [@codeship](https://blog.codeship.com/) [@jessfraz](https://blog.jessfraz.com/)
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
 * [Cloud Native Landscape](https://github.com/cncf/landscape)
@@ -562,7 +562,6 @@ Services to securely store your Docker images.
 
 ## Good Tips
 
-* [50+ Docker related tips, tricks and tutorials](https://nickjanetakis.com/blog/tag/docker) by [
 * [Container Best Practices](http://docs.projectatomic.io/container-best-practices/) - Red Hat's Project Atomic created a Container Best Practices guide which applies to everything and is updated regurlary.
 * [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](https://github.com/rochacbruno)
 * [Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd) by [@King Chung Huang](https://github.com/kinghuang)
