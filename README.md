@@ -548,7 +548,6 @@ Services to securely store your Docker images.
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
 * [Cloud Native Landscape](https://github.com/cncf/landscape)
-* [Docker Kubernetes Lab Handbook](https://github.com/xiaopeng163/docker-k8s-lab)
 * [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 * [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 
