@@ -543,21 +543,14 @@ Services to securely store your Docker images.
 
 # Useful Resources
 
-* [Blog](http://crosbymichael.com/) of [@crosbymichael][crosbymichael]
-* [Blog](https://gliderlabs.com/devlog/) of [@gliderlabs][gliderlabs]
-* [Blog](http://jasonwilder.com/) of [@jwilder][jwilder]
-* [Blog](http://jpetazzo.github.io/) of [@jpetazzo][jpetazzo]
-* [Blog](http://progrium.com/blog/) of [@progrium][progrium]
-* [Blog](http://sebgoa.blogspot.be/) of [@sebgoa][sebgoa]
-* [Blog](https://blog.codeship.com/) of [@codeship](https://github.com/codeship)
-* [Blog](https://blog.jessfraz.com/) of [@jessfraz][jessfraz]
+* __[Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)__ High quality articles about docker! __MUST SEE__ 
+* Blogs [by @nickjanetakis][nickjanetakis] [@crosbymichael](http://crosbymichael.com/) [@gliderlabs](https://gliderlabs.com/devlog/) [@jwilder](http://jasonwilder.com/) [@jpetazzo](http://jpetazzo.github.io/) [@progrium](http://progrium.com/blog/) [@sebgoa](http://sebgoa.blogspot.be/) [@codeship](https://blog.codeship.com/) [@jessfraz](https://blog.jessfraz.com/)
 * [Container solutions](http://container-solutions.com/blog/)
 * [Container42](http://container42.com/)
 * [Cloud Native Landscape](https://github.com/cncf/landscape)
 * [Docker Kubernetes Lab Handbook](https://github.com/xiaopeng163/docker-k8s-lab)
 * [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana)
 * [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
-* __[Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)__ High quality articles about docker! __MUST SEE__
 
 ## Awesome Lists
 
@@ -570,7 +563,7 @@ Services to securely store your Docker images.
 
 ## Good Tips
 
-* [50+ Docker related tips, tricks and tutorials](https://nickjanetakis.com/blog/tag/docker) by [@nickjanetakis][nickjanetakis]
+* [50+ Docker related tips, tricks and tutorials](https://nickjanetakis.com/blog/tag/docker) by [
 * [Container Best Practices](http://docs.projectatomic.io/container-best-practices/) - Red Hat's Project Atomic created a Container Best Practices guide which applies to everything and is updated regurlary.
 * [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](https://github.com/rochacbruno)
 * [Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd) by [@King Chung Huang](https://github.com/kinghuang)
