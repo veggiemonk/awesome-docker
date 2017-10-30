@@ -51,7 +51,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 		- [Registry](#registry)
 	- [Development with Docker](#development-with-docker)
 		- [API Client](#api-client)
-		- [CI/CD](#cdcd)
+		- [CI/CD](#cicd)
 		- [Development Environment](#development-environment)
 		- [Garbage Collection](#garbage-collection)
 		- [Serverless](#serverless)
