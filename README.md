@@ -357,14 +357,17 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/)
 * [Vektorcloud](https://github.com/vektorcloud) - A collection of minimal, Alpine-based Docker images
 
-Examples by: [@crosbymichael](https://github.com/crosbymichael/Dockerfiles)
-[@pandrew](https://github.com/pandrew/dockerfiles)
-[@vimagick](https://github.com/vimagick/dockerfiles)
-[@ondrejmo](https://github.com/ondrejmo/Dockerfiles)
-[@arun-gupta](https://github.com/arun-gupta/docker-images)
-[@llitfkitfk](https://github.com/llitfkitfk/docker-compose-demo)
-[@komljen](https://github.com/komljen/dockerfile-examples)
-[@kstaken](https://github.com/kstaken/dockerfile-examples)
+Examples by:
+* [@arun-gupta](https://github.com/arun-gupta/docker-images)
+* [@crosbymichael](https://github.com/crosbymichael/Dockerfiles)
+* [@jessfraz](https://github.com/jessfraz/Dockerfiles)
+* [@komljen](https://github.com/komljen/dockerfile-examples)
+* [@kstaken](https://github.com/kstaken/dockerfile-examples)
+* [@llitfkitfk](https://github.com/llitfkitfk/docker-compose-demo)
+* [@ondrejmo](https://github.com/ondrejmo/Dockerfiles)
+* [@pandrew](https://github.com/pandrew/dockerfiles)
+* [@vimagick](https://github.com/vimagick/dockerfiles)
+
 
 ### Linter
 
@@ -542,9 +545,22 @@ Services to securely store your Docker images.
 # Useful Resources
 
 * __[Valuable Docker Links](http://www.nkode.io/2014/08/24/valuable-docker-links.html)__ High quality articles about docker! __MUST SEE__ 
-* Blogs [by @nickjanetakis](https://nickjanetakis.com/blog/tag/docker) [@crosbymichael](http://crosbymichael.com/) [@gliderlabs](https://gliderlabs.com/devlog/) [@jwilder](http://jasonwilder.com/) [@jpetazzo](http://jpetazzo.github.io/) [@progrium](http://progrium.com/blog/) [@sebgoa](http://sebgoa.blogspot.be/) [@codeship](https://blog.codeship.com/) [@jessfraz](https://blog.jessfraz.com/) * [@Container42](http://container42.com/) [Container solutions](http://container-solutions.com/blog/)
 * [Cloud Native Landscape](https://github.com/cncf/landscape)
 * [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
+
+Blogs by 
+* [@codeship](https://blog.codeship.com/)  
+* [@crosbymichael](http://crosbymichael.com/) 
+* [@jessfraz](https://blog.jessfraz.com/) 
+* [@gliderlabs](https://gliderlabs.com/devlog/) 
+* [@jpetazzo](http://jpetazzo.github.io/) 
+* [@jwilder](http://jasonwilder.com/) 
+* [@nickjanetakis](https://nickjanetakis.com/blog/tag/docker) 
+* [@progrium](http://progrium.com/blog/) 
+* [@sebgoa](http://sebgoa.blogspot.be/) 
+* [Container42](http://container42.com/) 
+* [Container solutions](http://container-solutions.com/blog/)
+
 
 ## Awesome Lists
 
@@ -558,7 +574,7 @@ Services to securely store your Docker images.
 ## Good Tips
 
 * [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) __MUST SEE__
-* [Docker Containers on the Desktop][jessblog] - The **funniest way** to learn about docker by [@jessfraz][jessfraz] who also gave a [presentation][jessvid] about it @ DockerCon 2015 (Tips: checkout her [dotfiles][jessfrazdotfiles] and her [dockerfiles][jessfrazdockerfiles])
+* [Docker Containers on the Desktop][jessblog] - The **funniest way** to learn about docker by [@jessfraz][jessfraz] who also gave a [presentation][jessvid] about it @ DockerCon 2015
 * [Container Best Practices](http://docs.projectatomic.io/container-best-practices/) - Red Hat's Project Atomic created a Container Best Practices guide which applies to everything and is updated regurlary.
 * [Dealing with linked containers dependency in docker-compose](http://brunorocha.org/python/dealing-with-linked-containers-dependency-in-docker-compose.html) by [@rochacbruno](https://github.com/rochacbruno)
 * [Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd) by [@King Chung Huang](https://github.com/kinghuang)
