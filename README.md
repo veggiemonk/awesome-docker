@@ -280,6 +280,8 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 #### Desktop
 
+*Native desktop applications for managing and montoring docker hosts and clusters*
+
 * [Captain](https://getcaptain.co/) - Manage containers from the MacOSX menu bar by [@RickWong](https://github.com/rickwong)
 * [DockStation](https://github.com/DockStation/dockstation) - A developer centric UI to configure, monitor, and manage services and containers [@dock_station](https://twitter.com/dock_station)
 * [Dockeron](https://github.com/dockeron/dockeron) - A project built on Electron + Vue.js for Docker on desktop. [@fluency03](https://github.com/fluency03)
@@ -324,6 +326,8 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 ### Base Tools
 
+*Tools and applications that are either installed inside containers or designed to be run as a [sidecar](https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar)*
+
 * [amicontained](https://github.com/jessfraz/amicontained) - Container introspection tool. Find out what container runtime is being used as well as features available by [@jessfraz][jessfraz]
 * [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic][prologic]
 * [Chaperone](https://github.com/garywiz/chaperone) - A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package. by [@garywiz](https://github.com/garywiz)
@@ -337,6 +341,8 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [TrivialRC](https://github.com/vorakl/TrivialRC) - A minimalistic Runtime Configuration system and process manager for containers [@vorakl](https://github.com/vorakl)
 
 ### Builder
+
+*Applications designed to help or simplify building **new** images*
 
 * [container-factory](https://github.com/mutable/container-factory) - Produces Docker images from tarballs of application source code by [@mutable](https://github.com/mutable)
 * [dlayer](https://github.com/wercker/dlayer) - Stats collector for Docker layers by [@wercker](https://github.com/wercker)
