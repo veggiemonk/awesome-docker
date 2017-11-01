@@ -15,7 +15,7 @@
 
 - I have read and understood the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)
 
-- The project submitted is conform to the quality standards outlined in the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)
+- The project submitted conforms to the quality standards outlined in the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)
 
 - Go to the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md) and read it again.
 
@@ -31,8 +31,7 @@ Links will be tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot
   - `Description.` should end with a full stop/period
   - For GitHub repositories, add the name of the author with a link to its GitHub account after the description, like `By [@author](GitHub account)`
 - ORDER: The entries are in lexical order (English letter order) 
-- LABEL (Optional)
-  - 💲 indicates if one needs a paying subscription to use the project.
-  <br>Add 💲 next to the project name like `[Name 💲](Link)`
-  - 🤕 indicates that the project is in beta phase.
-  <br>Add 🤕 next to the project name like `[Name 🤕](Link)`
+- LABEL (Optional): Add one of the following icons next to the project name like ```[Name](Link) :icon: - Description.```
+  - :heavy_dollar_sign: indicates if one needs a paying subscription to use the project.
+  - :construction: indicates that the project is a work in progress/beta release.
+  - :skull: indicates that the project is obsolete, but still worth mentioning it.
