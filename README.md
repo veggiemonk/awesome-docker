@@ -97,7 +97,12 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 * [Learn Docker](https://github.com/dwyl/learn-docker) Full environment set up, screenshots, step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 * [Play With Docker](http://training.play-with-docker.com/) - PWD is a great way to get started with Docker from beginner to advanced users. Docker runs directly in your browser.
 * [Play With Moby](http://play-with-moby.com/) - PWM is a web based Moby playground which allows you to try different components of the platform in seconds. It gives you the experience of having a free Alpine Linux Virtual Machine in the cloud where you can build and run Moby projects and even create clusters to experiment.
-* **Cheatsheets** by * [@wsargent][docker-cheat-sheet] [@JensPiegsa](http://docker.jens-piegsa.com) [@eon01](https://github.com/eon01/DockerCheatSheet) [@dimonomid][docker-quick-ref] (PDF)
+
+**Cheatsheets** by 
+* [@eon01](https://github.com/eon01/DockerCheatSheet)
+* [@dimonomid][docker-quick-ref] (PDF)
+* [@JensPiegsa](http://docker.jens-piegsa.com) 
+* [@wsargent][docker-cheat-sheet] 
 
 # Where to start? (Windows)
 * [Windows Containers Quick Start](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/index) Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016
