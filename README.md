@@ -551,8 +551,8 @@ Services to securely store your Docker images.
 * [Datadog](https://www.datadoghq.com/) - Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. It includes support for Docker, Kubernetes, and Mesos.
 * [Meros](https://meros.io) - Analyzes containers resources, captures logs, remote web SSH terminal and powerful DevOps alerts.
 * [Prometheus](https://prometheus.io/) - Open-source service monitoring system and time series database
-* [Sysdig](https://www.sysdig.org/) - An open source troubleshooting tool that provides a rich set of real-time, system-level information. It has container-specific features and is very useful in Docker environments.
-* [Site24x7](https://www.site24x7.com/docker-monitoring.html) - Docker MOnitoring for DevOps and IT is a SaaS Pay per Host model
+* [Sysdig Monitor](https://sysdig.com/product/monitor) - Sysdig Monitor can be used as either software or a SaaS service to monitor, alert, and troubleshoot containers. It leverages kernel instrumentation to see system calls throughout your system. It has container-specific features and is very useful in Docker environments.
+* [Site24x7](https://www.site24x7.com/docker-monitoring.html) - Docker Monitoring for DevOps and IT is a SaaS Pay per Host model
 * [SPM for Docker][spm] - Monitoring of host and container metrics, Docker events and logs. Automatic log parser. Anomaly Detection and alerting for metrics and logs. [@sematext][sematext]
 
 # Useful Resources
