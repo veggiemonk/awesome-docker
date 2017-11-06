@@ -324,7 +324,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
 * [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
 * [Seagull](https://github.com/tobegit3hub/seagull) - Friendly Web UI to monitor docker daemon. by [@tobegit3hub](https://github.com/tobegit3hub)
-* [Shipyard](https://github.com/shipyard/shipyard) - Shipyard enables multi-host, Docker cluster management using Docker Swarm.
+* [Shipyard](https://github.com/shipyard/shipyard) :skull: - Shipyard enables multi-host, Docker cluster management using Docker Swarm.
 
 ## Docker Images
 
