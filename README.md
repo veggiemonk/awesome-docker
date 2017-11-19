@@ -535,7 +535,7 @@ Services to securely store your Docker images.
 * [Docker Cloud](https://cloud.docker.com/) - Former Tutum
 * [Dockhero](https://dockhero.io/) - Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
 * [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
-* [Google Container Engine](https://cloud.google.com/container-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
+* [Google Container Engine](https://cloud.google.com/kubernetes-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 * [Hyper_](https://hyper.sh/) - Secure container hosting service with "nano-containers" and per-second billing.
 * [IBM Bluemix Container Service](https://console.bluemix.net/docs/containers/container_index.html) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
 * [Jelastic Cloud](https://jelastic.cloud/) - "Easy-to-use" container hosting platfrom with automatic vertical and horizontal scaling. Available over 50+ hosting providers worldwide.
@@ -650,7 +650,7 @@ Blogs by
 * [Docker Community](https://www.docker.com/docker-community)
 * [Docker On Line Meetup](https://www.meetup.com/Docker-Online-Meetup/)
 * [Docker Reddit Community](https://www.reddit.com/r/docker/)
-* [Docker Regional Meetup List](https://www.docker.com/community/meetup-groups)
+* [Docker Events](https://events.docker.com)
 
 ## Russian
 + [Docker Russian-speaking Community](https://t.me/docker_ru)
