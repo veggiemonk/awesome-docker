@@ -649,7 +649,7 @@ Services to securely store your Docker images.
 * [Docker Community](https://www.docker.com/docker-community)
 * [Docker On Line Meetup](https://www.meetup.com/Docker-Online-Meetup/)
 * [Docker Reddit Community](https://www.reddit.com/r/docker/)
-* [Docker Regional Meetup List](https://www.docker.com/community/meetup-groups)
+* [Docker Events](https://events.docker.com)
 
 ## Russian
 + [Docker Russian-speaking Community](https://t.me/docker_ru)
