@@ -119,8 +119,11 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 # Projects
 
 Moby      = open source development
+
 Docker CE = free product release based on Moby
+
 Docker EE = commercial product release based on Docker CE.
+
 Docker EE is on the same code base as Docker CE, so also built from Moby, with commercial components added, such as "docker data center / universal control plane"
 
 * [Moby](https://github.com/moby/moby)
@@ -472,6 +475,7 @@ Services to securely store your Docker images.
 
 * [caduc](https://github.com/tjamet/caduc) - A docker garbage collector cleaning stuff you did not use recently
 * [Docker Clean](https://github.com/zzrotdesign/docker-clean) - A script that cleans Docker containers, images and volumes by [@zzrotdesign](https://github.com/zzrotdesign)
+* [Docker-cleanup](https://github.com/meltwater/docker-cleanup) - Automatic Docker image, container and volume cleanup by [@meltwater](https://github.com/meltwater)
 * [docker-garby](https://github.com/konstruktoid/docker-garby) - Docker garbage collection script by [@konstruktoid](https://github.com/konstruktoid).
 * [docker-gc](https://github.com/spotify/docker-gc) - A cron job that will delete old stopped containers and unused images by [@spotify][spotify]
 * [sherdock](https://github.com/rancher/sherdock) :skull: - Automatic GC of images based on regexp by [@rancher][rancher]
