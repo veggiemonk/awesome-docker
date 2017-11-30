@@ -379,7 +379,7 @@ Examples by:
 * [@jessfraz](https://github.com/jessfraz/Dockerfiles)
 * [@komljen](https://github.com/komljen/dockerfile-examples)
 * [@kstaken](https://github.com/kstaken/dockerfile-examples)
-* [@llitfkitfk](https://github.com/llitfkitfk/docker-compose-demo)
+* [@awesome-startup]( https://github.com/awesome-startup/docker-compose)
 * [@ondrejmo](https://github.com/ondrejmo/Dockerfiles)
 * [@pandrew](https://github.com/pandrew/dockerfiles)
 * [@vimagick](https://github.com/vimagick/dockerfiles)
