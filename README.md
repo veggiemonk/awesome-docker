@@ -582,7 +582,7 @@ Blogs by
 * [@nickjanetakis](https://nickjanetakis.com/blog/tag/docker) 
 * [@progrium](http://progrium.com/blog/) 
 * [@sebgoa](http://sebgoa.blogspot.be/) 
-* [Container42](http://container42.com/) 
+* [Container42](https://container42.com/)
 * [Container solutions](http://container-solutions.com/blog/)
 
 
