@@ -318,6 +318,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 * [supdock](https://github.com/segersniels/supdock) - :construction: Allows for slightly more visual usage of Docker with an interactive prompt by [@segersniels](https://github.com/segersniels)
 * [wharfee](https://github.com/j-bennet/wharfee) - Autocompletion and syntax highlighting for Docker commands. by [@j-bennet](https://github.com/j-bennet)
 * [tsaotun](https://github.com/qazbnm456/tsaotun) - Python based Assistance for Docker by [@qazbnm456](https://github.com/qazbnm456)
+* [captain](https://github.com/jenssegers/captain) - Easily start and stop docker compose projects, arrrrr. By [@jenssegers][https://github.com/jenssegers]
 
 #### Web
 
