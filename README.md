@@ -297,6 +297,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 
 #### Terminal
 
+* [captain](https://github.com/jenssegers/captain) - Easily start and stop docker compose projects, arrrrr. By [@jenssegers][https://github.com/jenssegers]
 * [ctop (1)](https://github.com/yadutaf/ctop) - A command line / text based Linux Containers monitoring tool that works just like you expect (Python) by [@yadutaf](https://github.com/yadutaf)
 * [ctop (2)](https://github.com/bcicen/ctop) - Top-like interface for container metrics (Golang) by [@bcicen](https://github.com/bcicen/)
 * [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
