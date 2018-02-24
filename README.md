@@ -404,6 +404,10 @@ Examples by:
 * [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter written in Haskell by [@lukasmartinelli](https://github.com/lukasmartinelli)
 * [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies by [@jeromepin](https://github.com/jeromepin)
 
+### Metadata
+
+* [opencontainer](https://github.com/opencontainers/image-spec/blob/master/annotations.md) - A convention and shared namespace for Docker labels defined by OCI Image Spec.
+
 ### Registry
 
 Services to securely store your Docker images.
@@ -720,7 +724,6 @@ Blogs by
 [kartar]: https://twitter.com/kartar
 [kiyoto]: https://github.com/kiyoto
 [kubernetes]: https://kubernetes.io
-[labelschema]: http://label-schema.org
 [loggingDocker]: https://vimeo.com/123341629
 [microbadger]: https://microbadger.com
 [nginxproxy]: https://github.com/jwilder/nginx-proxy
