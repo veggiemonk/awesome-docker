@@ -630,11 +630,11 @@ Blogs by
 * [Docker Security Cheat Sheet](https://github.com/konstruktoid/Docker/blob/master/Security/CheatSheet.adoc)
 * [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](https://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
 * [Docker Securitiy - Quick Reference](https://binarymist.io/publication/docker-security/)
-* [Software Engineering Radio interview of Docker Security Team Lead (Diogo Mónica)](http://www.se-radio.net/2017/05/se-radio-episode-290-diogo-monica-on-docker-security/)
 * [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
 * [Improving Docker Security with Authenticated Volumes](https://www.blockbridge.com/improving-docker-security-with-authenticated-volumes/)
 * [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
 * [Security Best Practices for Building Docker Images](https://linux-audit.com/tag/docker/)
+* [Software Engineering Radio interview of Docker Security Team Lead (Diogo Mónica)](http://www.se-radio.net/2017/05/se-radio-episode-290-diogo-monica-on-docker-security/)
 * [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
 * [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/) (written 5 MAY 2015)
 
