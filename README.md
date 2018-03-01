@@ -151,7 +151,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 - [docker-compose-search](https://github.com/francescou/docker-compose-search) - A search engine for Docker Compose application stacks by [@francescou](https://github.com/francescou/)
 - [draw-compose](https://github.com/Alexis-benoist/draw-compose) - Utility to draw a schema of a docker compose by [@Alexis-benoist](https://github.com/Alexis-benoist)
 - [elsy](https://github.com/cisco/elsy) - An opinionated, multi-language, build tool based on Docker and Docker Compose
-- [habitus](https://github.com/cloud66/habitus) - A Build Flow Tool for Docker http://www.habitus.io by [@cloud66](https://github.com/cloud66)
+- [habitus](https://github.com/cloud66/habitus) - A Build Flow Tool for Docker by [@cloud66](https://github.com/cloud66)
 - [Maestro](https://github.com/toscanini/maestro) :skull: - Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit by [@tascanini](https://github.com/toscanini)
 - [percheron][percheron] :skull: - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
 - [rocker](https://github.com/grammarly/rocker) - Extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc. by [grammarly](grammarly).
@@ -209,7 +209,7 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 - [gantryd](https://github.com/DevTable/gantryd) :skull: - A framework for easy management of docker-based components across machines by [@DevTable](https://github.com/DevTable)
 - [Haven](https://github.com/codeabovelab/haven-platform) - Haven is a simplified container management platform that integrates container, application, cluster, image, and registry managements. By [@codeabovelab](https://github.com/codeabovelab)
 - [Helios](https://github.com/spotify/helios) - A simple platform for deploying and managing containers across an entire fleet of servers by [@spotify](spotify)
-- [Kontena](https://github.com/kontena/kontena) - Application Containers for Masses https://www.kontena.io/
+- [Kontena](https://github.com/kontena/kontena) - Application Containers for Masses [website](https://www.kontena.io/)
 - [Kubernetes](https://github.com/kubernetes/kubernetes) - Open source orchestration system for Docker containers by Google
 - [ManageIQ](https://github.com/ManageIQ/manageiq) - Discover, optimize and control your hybrid IT. By [ManageIQ](https://github.com/ManageIQ)
 - [Mantl](https://github.com/mantl/mantl) - Mantl is a modern platform for rapidly deploying globally distributed services
@@ -299,7 +299,7 @@ Native desktop applications for managing and montoring docker hosts and clusters
 
 #### Terminal
 
-- [captain](https://github.com/jenssegers/captain) - Easily start and stop docker compose projects from any directory. By [@jenssegers][https://github.com/jenssegers]
+- [captain](https://github.com/jenssegers/captain) - Easily start and stop docker compose projects from any directory. By [@jenssegers](https://github.com/jenssegers)
 - [ctop (1)](https://github.com/yadutaf/ctop) - A command line / text based Linux Containers monitoring tool that works just like you expect (Python) by [@yadutaf](https://github.com/yadutaf)
 - [ctop (2)](https://github.com/bcicen/ctop) - Top-like interface for container metrics (Golang) by [@bcicen](https://github.com/bcicen/)
 - [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
@@ -392,7 +392,7 @@ Examples by:
 - [@jessfraz](https://github.com/jessfraz/Dockerfiles)
 - [@komljen](https://github.com/komljen/dockerfile-examples)
 - [@kstaken](https://github.com/kstaken/dockerfile-examples)
-- [@awesome-startup]( https://github.com/awesome-startup/docker-compose)
+- [@awesome-startup](https://github.com/awesome-startup/docker-compose)
 - [@ondrejmo](https://github.com/ondrejmo/Dockerfiles)
 - [@pandrew](https://github.com/pandrew/dockerfiles)
 - [@vimagick](https://github.com/vimagick/dockerfiles)
