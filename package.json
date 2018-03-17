@@ -1,0 +1,37 @@
+{
+  "name": "awesome-docker-website",
+  "version": "1.0.0",
+  "description": "> A curated list of Docker resources and projects Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "convert": "showdown makehtml -i README.md -o README.html --omitExtraWLInCodeBlocks --simplifiedAutoLink --excludeTrailingPunctuationFromURLs --literalMidWordUnderscores --strikethrough --tables --tablesHeaderId --ghCodeBlocks --tasklists --disableForced4SpacesIndentedSublists --simpleLineBreaks --requireSpaceBeforeHeadingText --ghCompatibleHeaderId --ghMentions --backslashEscapesHTMLTags --emoji --splitAdjacentBlockquotes",
+    "package": "parcel build index.html --public-url /awesome-docker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veggiemonk/awesome-docker.git"
+  },
+  "author": "Julien Bisconti <julien.bisconti at gmail dot com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veggiemonk/awesome-docker/issues"
+  },
+  "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "inline-assets": "^1.2.4",
+    "parcel-bundler": "^1.6.2",
+    "showdown": "^1.8.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  }
+}
