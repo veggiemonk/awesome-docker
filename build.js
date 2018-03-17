@@ -42,5 +42,6 @@ console.log('');
 
 new Parcel('index.html', {
   name: 'build',
-  publicURL: '/awesome-docker'
+  // publicURL: '/awesome-docker'
+  publicURL: '/'
 }).bundle();

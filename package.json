@@ -6,8 +6,7 @@
   "scripts": {
     "build": "node build.js",
     "convert": "showdown makehtml -i README.md -o README.html --omitExtraWLInCodeBlocks --simplifiedAutoLink --excludeTrailingPunctuationFromURLs --literalMidWordUnderscores --strikethrough --tables --tablesHeaderId --ghCodeBlocks --tasklists --disableForced4SpacesIndentedSublists --simpleLineBreaks --requireSpaceBeforeHeadingText --ghCompatibleHeaderId --ghMentions --backslashEscapesHTMLTags --emoji --splitAdjacentBlockquotes",
-    "package": "parcel build index.html --public-url /awesome-docker",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "package": "parcel build index.html --public-url /awesome-docker"
   },
   "repository": {
     "type": "git",
