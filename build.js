@@ -27,20 +27,20 @@ const converter = new showdown.Converter({
 // converter.setFlavor('github');
 
 console.log('Loading files...');
-const index = fs.readFileSync('index.tmpl', 'utf8');
+const index = fs.readFileSync('website/index.tmpl', 'utf8');
 const readme = fs.readFileSync('README.md', 'utf8');
 
 console.log('Merging files...');
 const $ = cheerio.load(index);
 $('#md').append(converter.makeHtml(readme));
 
-console.log('Writing main.html');
-fs.writeFileSync('main.html', $.html(), 'utf8');
+console.log('Writing index.html');
+fs.writeFileSync('website/index.html', $.html(), 'utf8');
 
 console.log('Bundling with Parcel.js');
 console.log('');
 
-new Parcel('main.html', {
+new Parcel('website/index.html', {
   name: 'build',
   // publicURL: '/awesome-docker'
   publicURL: '/'

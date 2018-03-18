@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Cache-control" content="public">
+  <meta charset="UTF-8">
+  <title>Awesome-docker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="description" content="A curated list of Docker resources and projects.">
+  <meta name="keywords" content="awesome awesome-list container docker dockerfile tools open source projects">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+  <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="critical.css"> -->
+  <style>
+    html {
+      font-family: sans-serif;
+    }
+
+    section {
+      display: block;
+    }
+
+    a {
+      background-color: transparent;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0.67em 0px;
+    }
+
+    img {
+      border: 0px;
+    }
+
+    svg:not(:root) {
+      overflow: hidden;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 0px;
+      margin: 0px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: rgb(96, 108, 113);
+    }
+
+    a {
+      color: rgb(30, 107, 184);
+      text-decoration: none;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: rgba(255, 255, 255, 0.701961);
+      background-color: rgba(255, 255, 255, 0.0784314);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-top-left-radius: 0.3rem;
+      border-top-right-radius: 0.3rem;
+      border-bottom-right-radius: 0.3rem;
+      border-bottom-left-radius: 0.3rem;
+      transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+      -webkit-transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    }
+
+    @media screen and (min-width: 64em) {
+      .btn {
+        padding: 0.75rem 1rem;
+      }
+    }
+
+    @media screen and (max-width: 64em) and (min-width: 42em) {
+      .btn {
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    @media screen and (max-width: 42em) {
+      .btn {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    .page-header {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      background-color: rgb(21, 153, 87);
+      background-image: linear-gradient(120deg, rgb(21, 87, 153), rgb(21, 153, 87));
+    }
+
+    @media screen and (min-width: 64em) {
+      .page-header {
+        padding: 5rem 6rem;
+      }
+    }
+
+    @media screen and (max-width: 64em) and (min-width: 42em) {
+      .page-header {
+        padding: 3rem 4rem;
+      }
+    }
+
+    @media screen and (max-width: 42em) {
+      .page-header {
+        padding: 2rem 1rem;
+      }
+    }
+
+    .project-name {
+      margin-top: 0px;
+      margin-bottom: 0.1rem;
+    }
+
+    @media screen and (min-width: 64em) {
+      .project-name {
+        font-size: 3.25rem;
+      }
+    }
+
+    @media screen and (max-width: 64em) and (min-width: 42em) {
+      .project-name {
+        font-size: 2.25rem;
+      }
+    }
+
+    @media screen and (max-width: 42em) {
+      .project-name {
+        font-size: 1.75rem;
+      }
+    }
+
+    .project-tagline {
+      margin-bottom: 2rem;
+      font-weight: 400;
+      opacity: 0.7;
+    }
+
+    @media screen and (min-width: 64em) {
+      .project-tagline {
+        font-size: 1.25rem;
+      }
+    }
+
+    @media screen and (max-width: 64em) and (min-width: 42em) {
+      .project-tagline {
+        font-size: 1.15rem;
+      }
+    }
+
+    @media screen and (max-width: 42em) {
+      .project-tagline {
+        font-size: 1rem;
+      }
+    }
+
+    .main-content {
+      word-wrap: break-word;
+    }
+
+    .main-content :first-child {
+      margin-top: 0px;
+    }
+
+    @media screen and (min-width: 64em) {
+      .main-content {
+        max-width: 64rem;
+        padding: 2rem 6rem;
+        margin: 0px auto;
+        font-size: 1.1rem;
+      }
+    }
+
+    @media screen and (max-width: 64em) and (min-width: 42em) {
+      .main-content {
+        padding: 2rem 4rem;
+        font-size: 1.1rem;
+      }
+    }
+
+    @media screen and (max-width: 42em) {
+      .main-content {
+        padding: 2rem 1rem;
+        font-size: 1rem;
+      }
+    }
+
+    .main-content img {
+      max-width: 100%;
+    }
+
+    .main-content h1,
+    .main-content h4 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 400;
+      color: rgb(21, 153, 87);
+    }
+
+    .main-content p {
+      margin-bottom: 1em;
+    }
+
+    .main-content blockquote {
+      padding: 0px 1rem;
+      margin-left: 0px;
+      color: rgb(129, 145, 152);
+      border-left-width: 0.3rem;
+      border-left-style: solid;
+      border-left-color: rgb(220, 230, 240);
+    }
+
+    .main-content blockquote> :first-child {
+      margin-top: 0px;
+    }
+
+    .main-content blockquote> :last-child {
+      margin-bottom: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="page-header">
+    <h1 class="project-name">Awesome-docker</h1>
+    <h2 class="project-tagline">A curated list of Docker resources and projects</h2>
+    <a href="https://github.com/veggiemonk/awesome-docker" class="btn">View on GitHub</a>
+    <br>
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button" href="https://github.com/veggiemonk/awesome-docker" data-icon="octicon-star" data-size="large" data-count-href="/veggiemonk/awesome-docker/stargazers"
+      data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star veggiemonk/awesome-docker on GitHub">Star</a>
+  </section>
+  <section id="md" class="main-content"></section>
+  <!--<script src="index.js"></script> -->
+  <!--Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>

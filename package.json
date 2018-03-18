@@ -4,7 +4,7 @@
   "description": "> A curated list of Docker resources and projects Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
+    "build": "rimraf ./dist/ && node build.js",
     "convert": "showdown makehtml -i README.md -o README.html --omitExtraWLInCodeBlocks --simplifiedAutoLink --excludeTrailingPunctuationFromURLs --literalMidWordUnderscores --strikethrough --tables --tablesHeaderId --ghCodeBlocks --tasklists --disableForced4SpacesIndentedSublists --simpleLineBreaks --requireSpaceBeforeHeadingText --ghCompatibleHeaderId --ghMentions --backslashEscapesHTMLTags --emoji --splitAdjacentBlockquotes",
     "package": "parcel build index.html --public-url /awesome-docker"
   },
@@ -20,8 +20,11 @@
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "criticalcss": "^2.1.0",
     "inline-assets": "^1.2.4",
     "parcel-bundler": "^1.6.2",
+    "request": "^2.85.0",
+    "rimraf": "^2.6.2",
     "showdown": "^1.8.6"
   },
   "devDependencies": {
