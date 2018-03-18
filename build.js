@@ -34,13 +34,13 @@ console.log('Merging files...');
 const $ = cheerio.load(index);
 $('#md').append(converter.makeHtml(readme));
 
-console.log('Writing index.html');
-fs.writeFileSync('index.html', $.html(), 'utf8');
+console.log('Writing main.html');
+fs.writeFileSync('main.html', $.html(), 'utf8');
 
 console.log('Bundling with Parcel.js');
 console.log('');
 
-new Parcel('index.html', {
+new Parcel('main.html', {
   name: 'build',
   // publicURL: '/awesome-docker'
   publicURL: '/'
