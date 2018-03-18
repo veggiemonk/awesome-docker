@@ -6,4 +6,6 @@ node_modules
 .cache
 dist
 package-lock.json
+website/index.merged.html
+website/index.html
 

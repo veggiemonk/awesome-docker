@@ -10,7 +10,7 @@ If this list is not complete, you can [contribute][editREADME] to make it so. He
 
 ***You can see the updates from [TWITTER](https://twitter.com/awesome_docker)***
 
-> **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)** for tips!
+> **Please**, help organize these resources so that they are _easy to find_ and _understand_ for new comers. See how to **[Contribute](https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md)** for tips!
 
 #### *If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request][editREADME] to improve this file. Thank you!*
 
