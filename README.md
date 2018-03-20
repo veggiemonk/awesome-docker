@@ -158,6 +158,8 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 - [rocker](https://github.com/grammarly/rocker) - Extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc. by [grammarly](grammarly).
 - [Stacker](https://github.com/stacker/stacker-cli) - Docker Compose Templates. Stacker provides an abstraction layer over Docker Compose and a better DX (developer experience).
 - [Zodiac](https://github.com/CenturyLinkLabs/zodiac) :skull: - A lightweight tool for easy deployment and rollback of dockerized applications. By [@CenturyLinkLabs][CenturyLinkLabs]
+- [plash](https://github.com/ihucos/plash) - A container run and build engine - runs inside docker.
+
 
 ### Deployment and Infrastructure
 
@@ -170,7 +172,6 @@ Docker EE is on the same code base as Docker CE, so also built from Moby, with c
 - [dockit](https://github.com/humblec/dockit) :skull: - Do docker actions and Deploy gluster containers! By [@humblec](https://github.com/humblec)
 - [Grafeas](https://github.com/Grafeas/Grafeas) - A common API for metadata about containers, from image and build details to security vulnerabilities. By [Grafeas](https://github.com/Grafeas)
 - [Longshoreman](https://github.com/longshoreman/longshoreman) :skull: - Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool. By [longshoreman](https://github.com/longshoreman)
-- [plash](https://github.com/longshoreman/longshoreman) - A container run and build engine - runs inside docker.
 
 ### Monitoring
 
