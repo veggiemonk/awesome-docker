@@ -453,7 +453,6 @@ Services to securely store your Docker images.
 - [go-dockerclient](https://github.com/fsouza/go-dockerclient/) - Go HTTP client for the Docker remote API by [@fsouza](https://github.com/fsouza/)
 - [Gradle Docker plugin](https://github.com/gesellix/gradle-docker-plugin) - A Docker remote api plugin for Gradle by [@gesellix][gesellix]
 - [libcompose](https://github.com/docker/libcompose) - Go library for Docker Compose.
-- [powerstrip](https://github.com/clusterhq/powerstrip) :skull: - A tool for prototyping Docker extensions by [@clusterhq](https://github.com/clusterhq)
 - [sbt-docker-compose](https://github.com/Tapad/sbt-docker-compose) - Integrates Docker Compose functionality into sbt by [@kurtkopchik](https://github.com/kurtkopchik/)
 - [sbt-docker](https://github.com/marcuslonnberg/sbt-docker) - Create Docker images directly from sbt by [@marcuslonnberg](https://github.com/marcuslonnberg)
 
@@ -491,7 +490,6 @@ Services to securely store your Docker images.
 - [EnvCLI](https://github.com/PhilippHeuer/EnvCLI) - Replace your local installation of Node, Go, ... with project-specific docker containers. By [@PhilippHeuer](https://github.com/PhilippHeuer)
 - [forward2docker](https://github.com/bsideup/forward2docker) :skull: - Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM by [@bsideup](https://github.com/bsideup)
 - [Vagga](https://github.com/tailhook/vagga) - Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments by [@tailhook](https://github.com/tailhook/)
-- [Vessel](https://github.com/awvessel/vessel) :skull: - Automates the setup & use of dockerized development environments by [@awvessel](https://github.com/awvessel)
 
 ### Garbage Collection
 
