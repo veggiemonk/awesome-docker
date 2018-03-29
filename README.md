@@ -4,9 +4,8 @@
 > A curated list of Docker resources and projects
 Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
 
-It's now a GitHub project because it's considerably easier for other people to edit, fix and expand on Docker using GitHub.
 Just click [README.md][editREADME] to submit a [pull request][editREADME].
-If this list is not complete, you can [contribute][editREADME] to make it so. Here is a great video tutorial to [contribute on Github](https://egghead.io/lessons/javascript-identifying-how-to-contribute-to-an-open-source-project-on-github)
+If this list is not complete, you can [contribute][editREADME] to make it so. Here is a great video tutorial to learn how to [contribute on Github](https://egghead.io/lessons/javascript-identifying-how-to-contribute-to-an-open-source-project-on-github)
 
 ***You can see the updates from [TWITTER](https://twitter.com/awesome_docker)***
 
@@ -14,8 +13,7 @@ If this list is not complete, you can [contribute][editREADME] to make it so. He
 
 #### *If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request][editREADME] to improve this file. Thank you!*
 
-The creators and maintainers of this list do not receive and should not receive any form of payment to accept a change made by any contributor.
-The goal of this repo is to index open-source projects, not to advertise for profit.
+The creators and maintainers of this list do not receive any form of payment to accept a change made by any contributor. This page is not an official Docker product in any way. It is a list of links to projects and is maintained by volunteers. Everybody is welcome to contribute. The goal of this repo is to index open-source projects, not to advertise for profit.
 
 All the links are monitored and tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot) made by [@dkhamsing](https://github.com/dkhamsing)
 
