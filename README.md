@@ -490,7 +490,6 @@ Services to securely store your Docker images.
 - [EnvCLI](https://github.com/PhilippHeuer/EnvCLI) - Replace your local installation of Node, Go, ... with project-specific docker containers. By [@PhilippHeuer](https://github.com/PhilippHeuer)
 - [forward2docker](https://github.com/bsideup/forward2docker) :skull: - Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM by [@bsideup](https://github.com/bsideup)
 - [Vagga](https://github.com/tailhook/vagga) - Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments by [@tailhook](https://github.com/tailhook/)
-- [Vessel](https://github.com/awvessel/vessel) :skull: - Automates the setup & use of dockerized development environments by [@awvessel](https://github.com/awvessel)
 
 ### Garbage Collection
 
