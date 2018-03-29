@@ -453,7 +453,6 @@ Services to securely store your Docker images.
 - [go-dockerclient](https://github.com/fsouza/go-dockerclient/) - Go HTTP client for the Docker remote API by [@fsouza](https://github.com/fsouza/)
 - [Gradle Docker plugin](https://github.com/gesellix/gradle-docker-plugin) - A Docker remote api plugin for Gradle by [@gesellix][gesellix]
 - [libcompose](https://github.com/docker/libcompose) - Go library for Docker Compose.
-- [powerstrip](https://github.com/clusterhq/powerstrip) :skull: - A tool for prototyping Docker extensions by [@clusterhq](https://github.com/clusterhq)
 - [sbt-docker-compose](https://github.com/Tapad/sbt-docker-compose) - Integrates Docker Compose functionality into sbt by [@kurtkopchik](https://github.com/kurtkopchik/)
 - [sbt-docker](https://github.com/marcuslonnberg/sbt-docker) - Create Docker images directly from sbt by [@marcuslonnberg](https://github.com/marcuslonnberg)
 
