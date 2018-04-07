@@ -2,11 +2,23 @@ const fs = require('fs');
 const showdown = require('showdown');
 const cheerio = require('cheerio');
 const Parcel = require('parcel-bundler');
-const critical = require('critical');
 
 process.env.NODE_ENV = 'production';
 
-const includeReadme = () => {
+process.on('unhandledRejection', error => {
+  console.log('unhandledRejection', error.message);
+});
+
+const readme = 'README.md';
+const template = 'website/index.tmpl.html';
+const merged = 'website/index.html';
+const destination = 'website/index.html';
+
+const includeReadme = ({
+  md = readme,
+  templateHTML = template,
+  dest = merged,
+}) => {
   const converter = new showdown.Converter({
     omitExtraWLInCodeBlocks: true,
     simplifiedAutoLink: true,
@@ -24,62 +36,36 @@ const includeReadme = () => {
     ghMentions: true,
     backslashEscapesHTMLTags: true,
     emoji: true,
-    splitAdjacentBlockquotes: true
+    splitAdjacentBlockquotes: true,
   });
   // converter.setFlavor('github');
 
   console.log('Loading files...');
-  const index = fs.readFileSync('website/index.tmpl.html', 'utf8');
-  const readme = fs.readFileSync('README.md', 'utf8');
+  const indexTemplate = fs.readFileSync(templateHTML, 'utf8');
+  const markdown = fs.readFileSync(md, 'utf8');
 
   console.log('Merging files...');
-  const $ = cheerio.load(index);
-  $('#md').append(converter.makeHtml(readme));
+  const $ = cheerio.load(indexTemplate);
+  $('#md').append(converter.makeHtml(markdown));
 
   console.log('Writing index.html');
-  fs.writeFileSync('website/index.merged.html', $.html(), 'utf8');
-  return { base: 'website/', src: 'index.merged.html' };
+  fs.writeFileSync(dest, $.html(), 'utf8');
+  console.log('DONE 👍');
 };
 
-const css = ({ base, src }) => {
-  console.log('');
-  console.log('Generating critical css above the fold');
-  console.log('');
-  const dimensions = [
-    {
-      height: 200,
-      width: 500
-    },
-    {
-      height: 900,
-      width: 1200
-    }
-  ];
-  const options = {
-    inline: true,
-    base,
-    src,
-    dest: 'index.html',
-    dimensions
-  };
-
-  return critical.generate(options);
-};
-
-const bundle = () => {
+const bundle = (dest = destination) => {
   console.log('');
   console.log('Bundling with Parcel.js');
   console.log('');
 
-  new Parcel('website/index.html', {
+  new Parcel(dest, {
     name: 'build',
-    publicURL: '/'
+    publicURL: '/',
   }).bundle();
 };
 
-const main = async () => {
-  const { base, src } = includeReadme();
-  await css({ base, src });
+const main = () => {
+  includeReadme({});
   bundle();
 };
 

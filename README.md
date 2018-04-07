@@ -19,6 +19,8 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 
 # Contents
 
+<!-- TOC -->
+
 - Introduction
   - [What is Docker?](#what-is-docker)
   - [Where to start?](#where-to-start)
@@ -44,6 +46,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
     - [Builder](#builder)
     - [Dockerfile](#dockerfile)
     - [Linter](#linter)
+    - [Metadata](#metadata)
     - [Registry](#registry)
   - [Development with Docker](#development-with-docker)
     - [API Client](#api-client)
@@ -53,14 +56,14 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
     - [Serverless](#serverless)
     - [Testing](#testing)
     - [Wrappers](#wrappers)
-  - [Services based on Docker ($$$)](#services-based-on-docker-)
+  - [Services based on Docker (:heavy_dollar_sign:)](#services-based-on-docker-heavy_dollar_sign)
     - [CI/CD](#ci-services)
     - [CaaS](#caas)
-    - [Monitoring](#monitoring-services)
+    - [Monitoring Services](#monitoring-services)
 - [Useful Resources](#useful-resources)
   - [Awesome Lists](#awesome-lists)
   - [Good Tips](#good-tips)
-  - [Raspberry Pi / ARM](#raspberry-pi--arm)
+  - [Raspberry Pi & ARM](#raspberry-pi--arm)
   - [Security](#security-1)
   - [Videos](#videos)
 - [Communities and Meetups](#communities-and-meetups)
@@ -68,6 +71,8 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
   - [Chinese](#chinese)
   - [English](#english)
   - [Russian](#russian)
+
+<!-- /TOC -->
 
 # Legend
 
