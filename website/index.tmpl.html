@@ -9,9 +9,185 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <meta name="description" content="A curated list of Docker resources and projects.">
-  <meta name="keywords" content="awesome awesome-list container docker dockerfile tools open source projects">
+  <meta name="keywords" content="free and open-source open source projects for docker moby kubernetes linux awesome awesome-list container tools dockerfile list moby docker-container docker-image docker-environment docker-deployment docker-swarm docker-api docker-monitoring docker-machine docker-security docker-registry">
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    html {
+      font-family: sans-serif;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #606c71
+    }
+
+    section {
+      display: block
+    }
+
+    a {
+      background-color: transparent;
+      color: #1e6bb8;
+      text-decoration: none
+    }
+
+    strong {
+      font-weight: 700
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: .67em 0
+    }
+
+    img {
+      border: 0
+    }
+
+    svg:not(:root) {
+      overflow: hidden
+    }
+
+    .btn {
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: hsla(0, 0%, 100%, .7);
+      background-color: hsla(0, 0%, 100%, .08);
+      border: 1px solid hsla(0, 0%, 100%, .2);
+      border-radius: .3rem
+    }
+
+    .page-header {
+      color: #fff;
+      text-align: center;
+      background-color: #159957;
+      background-image: linear-gradient(120deg, #155799, #159957)
+    }
+
+    .project-name {
+      margin-top: 0;
+      margin-bottom: .1rem
+    }
+
+    .project-tagline {
+      margin-bottom: 2rem;
+      font-weight: 400;
+      opacity: .7
+    }
+
+    .main-content {
+      word-wrap: break-word
+    }
+
+    .main-content :first-child {
+      margin-top: 0
+    }
+
+    .main-content h1,
+    .main-content h4 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 400;
+      color: #159957
+    }
+
+    .main-content p {
+      margin-bottom: 1em
+    }
+
+    .main-content blockquote {
+      padding: 0 1rem;
+      margin-left: 0;
+      color: #819198;
+      border-left: .3rem solid #dce6f0
+    }
+
+    .main-content blockquote>:first-child {
+      margin-top: 0
+    }
+
+    .main-content blockquote>:last-child {
+      margin-bottom: 0
+    }
+
+    .main-content img {
+      max-width: 100%
+    }
+
+    @media screen and (min-width:64em) {
+      .btn {
+        padding: .75rem 1rem
+      }
+      .page-header {
+        padding: 5rem 6rem
+      }
+      .project-name {
+        font-size: 3.25rem
+      }
+      .project-tagline {
+        font-size: 1.25rem
+      }
+      .main-content {
+        max-width: 64rem;
+        padding: 2rem 6rem;
+        margin: 0 auto;
+        font-size: 1.1rem
+      }
+    }
+
+    @media screen and (min-width:42em) and (max-width:64em) {
+      .btn {
+        padding: .6rem .9rem;
+        font-size: .9rem
+      }
+      .page-header {
+        padding: 3rem 4rem
+      }
+      .project-name {
+        font-size: 2.25rem
+      }
+      .project-tagline {
+        font-size: 1.15rem
+      }
+      .main-content {
+        padding: 2rem 4rem;
+        font-size: 1.1rem
+      }
+    }
+
+    @media screen and (max-width:42em) {
+      .btn {
+        display: block;
+        width: 100%;
+        padding: .75rem;
+        font-size: .9rem
+      }
+      .page-header {
+        padding: 2rem 1rem
+      }
+      .project-name {
+        font-size: 1.75rem
+      }
+      .project-tagline {
+        font-size: 1rem
+      }
+      .main-content {
+        padding: 2rem 1rem;
+        font-size: 1rem
+      }
+    }
+  </style>
 </head>
 
 <body>
