@@ -49,17 +49,16 @@ const includeReadme = ({
   const $ = cheerio.load(indexTemplate);
   $('#md').append(converter.makeHtml(markdown));
   $('a').each((i, elem) => {
-    // console.log(elem);
     $(elem).attr(
       'id',
-      `${camelCase(
+      camelCase(
         $(elem)
           .attr('href')
           .replace(/\/|\.|:|#/g, ''),
         {
           pascalCase: true,
         },
-      )}-${i}`,
+      ),
     );
   });
   console.log('Writing index.html');
