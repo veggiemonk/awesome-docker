@@ -61,7 +61,11 @@ const bundle = (dest = destination) => {
   new Parcel(dest, {
     name: 'build',
     publicURL: '/',
-  }).bundle();
+  })
+    .bundle()
+    .then(() => {
+      fs.copyFileSync('website/sitemap.xml', 'dist/sitemap.xml');
+    });
 };
 
 const main = () => {
