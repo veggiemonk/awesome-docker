@@ -2,6 +2,7 @@ const fs = require('fs');
 const showdown = require('showdown');
 const cheerio = require('cheerio');
 const Parcel = require('parcel-bundler');
+const camelCase = require('camelcase');
 
 process.env.NODE_ENV = 'production';
 
@@ -47,7 +48,20 @@ const includeReadme = ({
   console.log('Merging files...');
   const $ = cheerio.load(indexTemplate);
   $('#md').append(converter.makeHtml(markdown));
-
+  $('a').each((i, elem) => {
+    // console.log(elem);
+    $(elem).attr(
+      'id',
+      `${camelCase(
+        $(elem)
+          .attr('href')
+          .replace(/\/|\.|:|#/g, ''),
+        {
+          pascalCase: true,
+        },
+      )}-${i}`,
+    );
+  });
   console.log('Writing index.html');
   fs.writeFileSync(dest, $.html(), 'utf8');
   console.log('DONE 👍');

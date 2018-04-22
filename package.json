@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
+    "camelcase": "^5.0.0",
     "cheerio": "^1.0.0-rc.2",
     "critical": "^1.1.1",
     "parcel-bundler": "^1.6.2",
