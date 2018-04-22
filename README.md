@@ -366,7 +366,7 @@ Tools and applications that are either installed inside containers or designed t
 
 Applications designed to help or simplify building **new** images
 
-- [container-diff](https://github.com/GoogleCloudPlatform/container-diff) - An image tool for comparing and analzying container images by [@GoogleCloudPlatform][GoogleCloudPlatform]
+- [container-diff](https://github.com/GoogleContainerTools/container-diff) - An image tool for comparing and analzying container images by [@GoogleContainerTools/][GoogleContainerTools/]
 - [container-factory](https://github.com/mutable/container-factory) - Produces Docker images from tarballs of application source code by [@mutable](https://github.com/mutable)
 - [copy-docker-image](https://github.com/mdlavin/copy-docker-image) - Copy a Docker image between registries without a full Docker installation by [@mdlavin](https://github.com/mdlavin)
 - [Derrick](https://github.com/alibaba/derrick) - A tool help you to automate the generation of Dockerfile and dockerize application by scanning the code. By [@alibaba](https://github.com/alibaba).
@@ -516,7 +516,7 @@ Services to securely store your Docker images.
 
 ### Testing
 
-- [Container Structure Test](https://github.com/GoogleCloudPlatform/container-structure-test) - A framework to validate the structure of an image by checking the outputs of commands or the contents of the filesystem. By [@GoogleCloudPlatform][GoogleCloudPlatform]
+- [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test) - A framework to validate the structure of an image by checking the outputs of commands or the contents of the filesystem. By [@GoogleContainerTools][GoogleContainerTools]
 - [dgoss](https://github.com/aelsabbahy/goss/tree/master/extras/dgoss) - A fast YAML based tool for validating docker containers.
 - [DockerSpec](https://github.com/zuazo/dockerspec) - A small Ruby Gem to run RSpec and Serverspec, Infrataster and Capybara tests against Dockerfiles or Docker images easily. By [@zuazo](https://github.com/zuazo)
 - [Dockunit](https://github.com/dockunit/platform) :skull: - Docker based integration tests. A simple Node based utility for running Docker based unit tests. By [@dockunit](https://github.com/dockunit)
@@ -575,7 +575,7 @@ Services to securely store your Docker images.
 ### Monitoring Services
 
 - [AppDynamics](https://www.appdynamics.com/community/exchange/extension/docker-monitoring-extension/) - AppDynamics gives enterprises real-time insights into application performance, user performance, and business performance so they can move faster in an increasingly sophisticated, software-driven world.
-- [Axibase Time-Series Database](http://axibase.com/products/axibase-time-series-database/writing-data/docker-cadvisor/) - Long-term retention of container statistics and built-in dashboards for Docker. Collected with native Google cAdvisor storage driver.
+- [Axibase Time-Series Database](https://axibase.com/products/axibase-time-series-database/writing-data/docker-cadvisor/) - Long-term retention of container statistics and built-in dashboards for Docker. Collected with native Google cAdvisor storage driver.
 - [CA Technologies Docker Monitoring](https://www.ca.com/us/products/docker-monitoring.html) - Agile Operations solutions from CA deliver the modern Docker monitoring businesses need to accelerate and optimize the performance of microservices and the dynamic Docker environments running them. Monitor both the Docker environment and apps that run inside them.
 - [Collecting docker logs and stats with Splunk](https://www.splunk.com/blog/2015/08/24/collecting-docker-logs-and-stats-with-splunk.html)
 - [CoScale](https://www.coscale.com/docker-monitoring) - Full stack monitoring for containerized applications and microservices. Powered by anomaly detection to find performance problems faster.
@@ -718,7 +718,7 @@ Blogs by
 [genuinetools]:  https://github.com/genuinetools
 [gliderlabs]: https://github.com/gliderlabs
 [gondor]: https://github.com/gondor
-[GoogleCloudPlatform]: https://github.com/GoogleCloudPlatform
+[GoogleContainerTools]: https://github.com/GoogleContainerTools
 [grammarly]: https://github.com/grammarly
 [hashicorp]: https://github.com/hashicorp
 [ianmiell]: https://github.com/ianmiell
