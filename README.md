@@ -742,7 +742,6 @@ Blogs by
 [noteed]: https://github.com/noteed
 [ondrejmo]: https://github.com/ondrejmo
 [openshift]: https://www.openshift.org/
-[panamax.io]: http://panamax.io/
 [pandrew]: https://github.com/pandrew
 [percheron]: https://github.com/ashmckenzie/percheron
 [progrium]: https://github.com/progrium
