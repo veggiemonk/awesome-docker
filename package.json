@@ -22,6 +22,8 @@
     "camelcase": "^5.0.0",
     "cheerio": "^1.0.0-rc.2",
     "critical": "^1.1.1",
+    "dayjs": "^1.5.24",
+    "node-fetch": "^2.1.2",
     "parcel-bundler": "^1.6.2",
     "rimraf": "^2.6.2",
     "showdown": "^1.8.6"
