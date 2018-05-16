@@ -1,3 +1,9 @@
+# Contributing to awesome-docker
+
+First: if you're unsure or afraid of anything, just ask or submit the issue or pull request anyways. You won't be yelled at for giving your best effort. The worst that can happen is that you'll be politely asked to change something. We appreciate any sort of contributions, and don't want a wall of rules to get in the way of that.
+
+However, for those individuals who want a bit more guidance on the best way to contribute to the project, read on. This document will cover what we're looking for. By addressing all the points we're looking for, it raises the chances we can quickly merge or address your contributions.
+
 We appreciate and recognize [all contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors).
 
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/veggiemonk/awesome-docker/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
