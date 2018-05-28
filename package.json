@@ -6,7 +6,10 @@
   "scripts": {
     "build": "rimraf ./dist/ && node build.js",
     "convert": "showdown makehtml -i README.md -o README.html --omitExtraWLInCodeBlocks --simplifiedAutoLink --excludeTrailingPunctuationFromURLs --literalMidWordUnderscores --strikethrough --tables --tablesHeaderId --ghCodeBlocks --tasklists --disableForced4SpacesIndentedSublists --simpleLineBreaks --requireSpaceBeforeHeadingText --ghCompatibleHeaderId --ghMentions --backslashEscapesHTMLTags --emoji --splitAdjacentBlockquotes",
-    "package": "parcel build index.html --public-url /awesome-docker"
+    "package": "parcel build index.html --public-url /awesome-docker",
+    "fetchdata": "node fetchRepos.js",
+    "table": "node convertRepos.js",
+    "update-repos": "node fetchRepos.js && node convertRepos.js"
   },
   "repository": {
     "type": "git",

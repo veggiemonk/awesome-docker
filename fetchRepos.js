@@ -54,7 +54,10 @@ async function main() {
     await delay(3000);
   }
   if (process.env.DEBUG) console.log({ data });
-  fs.writeFileSync('data/fetched_repo_data.txt', JSON.stringify(data, null, 2));
+  fs.writeFileSync(
+    'data/fetched_repo_data.json',
+    JSON.stringify(data, null, 2),
+  );
 }
 
 main();
