@@ -5,6 +5,10 @@ process.on('unhandledRejection', error => {
   console.log('unhandledRejection', error.message);
 });
 
+if (!process.env.TOKEN) {
+  throw new Error('no github token found');
+}
+
 const readme = 'README.md';
 const API = 'https://api.github.com/';
 const options = {
