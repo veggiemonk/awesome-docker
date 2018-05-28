@@ -1,298 +1,298 @@
 
 | Name        | Description | Homepage | Star | Updated | Language | License | Author |
 | ----------- | ----------- | -------- | ---- | ------- | -------- | :---:   | ------:|
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
-|ERROR |
+|[awesome](https://github.com/sindresorhus/awesome)|:sunglasses: Curated list of awesome lists|-|85773|today|||[sindresorhus](https://github.com/sindresorhus)|
+|[moby](https://github.com/moby/moby)|Moby Project - a collaborative project for the container ecosystem to assemble container-based systems|https://mobyproject.org/|49051|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[moby](https://github.com/moby)|
+|[kubernetes](https://github.com/kubernetes/kubernetes)|Production-Grade Container Scheduling and Management|http://kubernetes.io|36893|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[kubernetes](https://github.com/kubernetes)|
+|[awesome-selfhosted](https://github.com/Kickball/awesome-selfhosted)|This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.|https://reddit.com/r/selfhosted|23602|today|JavaScript|[Other](null)|[Kickball](https://github.com/Kickball)|
+|[etcd](https://github.com/coreos/etcd)|Distributed reliable key-value store for the most critical data of a distributed system|https://coreos.com/etcd/docs/latest|18523|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[coreos](https://github.com/coreos)|
+|[dokku](https://github.com/dokku/dokku)|A docker-powered PaaS that helps you build and manage the lifecycle of applications|http://dokku.viewdocs.io/dokku/|15637|today|Shell|[MIT License](https://api.github.com/licenses/mit)|[dokku](https://github.com/dokku)|
+|[traefik](https://github.com/containous/traefik)|Træfik, a modern reverse proxy|https://traefik.io|15443|today|Go|[MIT License](https://api.github.com/licenses/mit)|[containous](https://github.com/containous)|
+|[drone](https://github.com/drone/drone)|Drone is a Continuous Delivery platform built on Docker, written in Go|https://drone.io|14391|today|Go|[Other](null)|[drone](https://github.com/drone)|
+|[docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet)|Docker Cheat Sheet|-|13419|today|||[wsargent](https://github.com/wsargent)|
+|[compose](https://github.com/docker/compose)|Define and run multi-container applications with Docker|https://docs.docker.com/compose/|12849|today|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[docker](https://github.com/docker)|
+|[awesome-docker](https://github.com/veggiemonk/awesome-docker)|:whale: A curated list of Docker resources and projects|https://awesome-docker.netlify.com/|11336|today||[Other](null)|[veggiemonk](https://github.com/veggiemonk)|
+|[faas](https://github.com/openfaas/faas)|OpenFaaS - Serverless Functions Made Simple for Docker & Kubernetes|https://blog.alexellis.io/introducing-functions-as-a-service/|10237|today|Go|[MIT License](https://api.github.com/licenses/mit)|[openfaas](https://github.com/openfaas)|
+|[glances](https://github.com/nicolargo/glances)|Glances an Eye on your system. A top/htop alternative.|http://nicolargo.github.io/glances/|9967|today|Python|[GNU Lesser General Public License v3.0](https://api.github.com/licenses/lgpl-3.0)|[nicolargo](https://github.com/nicolargo)|
+|[rancher](https://github.com/rancher/rancher)|Complete container management platform|http://rancher.com|8607|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[rancher](https://github.com/rancher)|
+|[istio](https://github.com/istio/istio)|An open platform to connect, manage, and secure microservices.|https://istio.io|8288|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[istio](https://github.com/istio)|
+|[nginx-proxy](https://github.com/jwilder/nginx-proxy)|Automated nginx proxy for Docker containers using docker-gen|-|8151|today|Python|[MIT License](https://api.github.com/licenses/mit)|[jwilder](https://github.com/jwilder)|
+|[portainer](https://github.com/portainer/portainer)|Simple management UI for Docker|http://portainer.io|8049|today|HTML|[zlib License](https://api.github.com/licenses/zlib)|[portainer](https://github.com/portainer)|
+|[cadvisor](https://github.com/google/cadvisor)|Analyzes resource usage and performance characteristics of running containers.|-|7430|today|Go|[Other](null)|[google](https://github.com/google)|
+|[boot2docker](https://github.com/boot2docker/boot2docker)|Lightweight Linux for Docker|-|7420|today|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[boot2docker](https://github.com/boot2docker)|
+|[ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade)|Tools of The Trade, from Hacker News.|-|7191|2 days ago|||[cjbarber](https://github.com/cjbarber)|
+|[ctop](https://github.com/bcicen/ctop)|Top-like interface for container metrics|https://ctop.sh|7004|today|Go|[MIT License](https://api.github.com/licenses/mit)|[bcicen](https://github.com/bcicen)|
+|[awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin)|A curated list of amazingly awesome open source sysadmin resources.|-|6696|today||[Other](null)|[n1trux](https://github.com/n1trux)|
+|[flynn](https://github.com/flynn/flynn)|A next generation open source platform as a service (PaaS)|https://flynn.io|6694|today|Go|[BSD 3-Clause "New" or "Revised" License](https://api.github.com/licenses/bsd-3-clause)|[flynn](https://github.com/flynn)|
+|[dockerfiles](https://github.com/jessfraz/dockerfiles)|Various Dockerfiles I use on the desktop and on servers.|https://blog.jessfraz.com/post/docker-containers-on-the-desktop/|6229|1 day ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[jessfraz](https://github.com/jessfraz)|
+|[dockerfiles](https://github.com/jessfraz/dockerfiles)|Various Dockerfiles I use on the desktop and on servers.|https://blog.jessfraz.com/post/docker-containers-on-the-desktop/|6229|1 day ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[jessfraz](https://github.com/jessfraz)|
+|[nvidia-docker](https://github.com/NVIDIA/nvidia-docker)|Build and run Docker containers leveraging NVIDIA GPUs|-|5806|today|Makefile|[Other](null)|[NVIDIA](https://github.com/NVIDIA)|
+|[swarm](https://github.com/docker/swarm)|Swarm: a Docker-native clustering system|-|5124|today|Go|[Other](null)|[docker](https://github.com/docker)|
+|[weave](https://github.com/weaveworks/weave)|Simple, resilient multi-host Docker networking and more.|https://www.weave.works|5101|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[weaveworks](https://github.com/weaveworks)|
+|[bocker](https://github.com/p8952/bocker)|Docker implemented in around 100 lines of bash|https://www.p8952.info/|4981|today|Shell|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[p8952](https://github.com/p8952)|
+|[dockercraft](https://github.com/docker/dockercraft)|Docker + Minecraft = Dockercraft|-|4861|today|Lua|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[docker](https://github.com/docker)|
+|[fabio](https://github.com/fabiolb/fabio)|Consul Load-Balancing made simple|https://fabiolb.net|4773|today|Go|[MIT License](https://api.github.com/licenses/mit)|[fabiolb](https://github.com/fabiolb)|
+|[machine](https://github.com/docker/machine)|Machine management for a container-centric world|https://docs.docker.com/machine/|4672|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[docker](https://github.com/docker)|
+|[docker-alpine](https://github.com/gliderlabs/docker-alpine)|Alpine Linux Docker image. Win at minimalism!|http://gliderlabs.viewdocs.io/docker-alpine|4466|today|Shell|[BSD 2-Clause "Simplified" License](https://api.github.com/licenses/bsd-2-clause)|[gliderlabs](https://github.com/gliderlabs)|
+|[docker-gc](https://github.com/spotify/docker-gc)|Docker garbage collection of containers and images|-|4222|today|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[spotify](https://github.com/spotify)|
+|[distribution](https://github.com/docker/distribution)|The Docker toolset to pack, ship, store, and deliver content|-|3932|1 day ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[docker](https://github.com/docker)|
+|[mesos](https://github.com/apache/mesos)|Mirror of Apache Mesos|-|3717|today|C++|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[apache](https://github.com/apache)|
+|[docker-bench-security](https://github.com/docker/docker-bench-security)|The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.|-|3711|today|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[docker](https://github.com/docker)|
+|[marathon](https://github.com/mesosphere/marathon)|Deploy and manage containers (including Docker) on top of Apache Mesos at scale.|https://mesosphere.github.io/marathon/|3667|today|Scala|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[mesosphere](https://github.com/mesosphere)|
+|[clair](https://github.com/coreos/clair)|Vulnerability Static Analysis for Containers|-|3647|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[coreos](https://github.com/coreos)|
+|[registrator](https://github.com/gliderlabs/registrator)|Service registry bridge for Docker with pluggable adapters|http://gliderlabs.com/registrator|3630|today|Go|[MIT License](https://api.github.com/licenses/mit)|[gliderlabs](https://github.com/gliderlabs)|
+|[nomad](https://github.com/hashicorp/nomad)|Nomad is a flexible, enterprise-grade cluster scheduler designed to easily integrate into existing workflows. Nomad can run a diverse workload of micro-service, batch, containerized and non-containerized applications. Nomad is easy to operate and scale and integrates seamlessly with Consul and Vault.|https://www.nomadproject.io/|3554|today|Go|[Mozilla Public License 2.0](https://api.github.com/licenses/mpl-2.0)|[hashicorp](https://github.com/hashicorp)|
+|[captainduckduck](https://github.com/githubsaturn/captainduckduck)|Automated Scalable Ready Webserver Package (automated Docker+nginx) - Heroku on Steroids|https://CaptainDuckDuck.com|3253|today|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[githubsaturn](https://github.com/githubsaturn)|
+|[logspout](https://github.com/gliderlabs/logspout)|Log routing for Docker container logs|-|3233|today|Go|[MIT License](https://api.github.com/licenses/mit)|[gliderlabs](https://github.com/gliderlabs)|
+|[incubator-openwhisk](https://github.com/apache/incubator-openwhisk)|Apache OpenWhisk is a serverless event-based programming service and an Apache Incubator project.|http://openwhisk.org|3199|today|Scala|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[apache](https://github.com/apache)|
+|[flannel](https://github.com/coreos/flannel)|flannel is a network fabric for containers, designed for Kubernetes|-|3100|today|Go|[Other](null)|[coreos](https://github.com/coreos)|
+|[mantl](https://github.com/mantl/mantl)|Mantl is a modern platform for rapidly deploying globally distributed services|http://mantl.io|3028|today|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[mantl](https://github.com/mantl)|
+|[docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion)|LetsEncrypt companion container for nginx-proxy|-|2941|today|Shell|[MIT License](https://api.github.com/licenses/mit)|[JrCs](https://github.com/JrCs)|
+|[docker-gen](https://github.com/jwilder/docker-gen)|Generate files from docker container meta-data|-|2833|today|Go|[MIT License](https://api.github.com/licenses/mit)|[jwilder](https://github.com/jwilder)|
+|[tsuru](https://github.com/tsuru/tsuru)|Open source, extensible and Docker-based Platform as a Service (PaaS).|https://tsuru.io|2779|today|Go|[BSD 3-Clause "New" or "Revised" License](https://api.github.com/licenses/bsd-3-clause)|[tsuru](https://github.com/tsuru)|
+|[official-images](https://github.com/docker-library/official-images)|Primary source of truth for the Docker "Official Images" program|https://hub.docker.com/explore/|2766|today|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[docker-library](https://github.com/docker-library)|
+|[docker-jumpstart](https://github.com/odewahn/docker-jumpstart)|A quick introduction to Docker|http://odewahn.github.io/docker-jumpstart|2748|8 days ago|CSS|[Other](null)|[odewahn](https://github.com/odewahn)|
+|[OctoLinker](https://github.com/OctoLinker/OctoLinker)|OctoLinker – Available on Chrome, Firefox and Opera|https://octolinker.github.io|2727|today|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[OctoLinker](https://github.com/OctoLinker)|
+|[awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)|A curated list for awesome kubernetes sources :ship::tada:|https://ramitsurana.github.io/awesome-kubernetes|2696|today|Makefile|[Other](null)|[ramitsurana](https://github.com/ramitsurana)|
+|[landscape](https://github.com/cncf/landscape)|Static Cloud Native Landscapes and Interactive Landscape that filters and sorts hundreds of cloud native projects and products, and shows details including GitHub stars, funding or market cap, first and last commits, contributor counts, headquarters location, and recent tweets.|https://landscape.cncf.io|2660|today|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[cncf](https://github.com/cncf)|
+|[DockerCheatSheet](https://github.com/eon01/DockerCheatSheet)|🐋 Docker Cheat Sheet 🐋|http://PainlessDocker.com|2445|today|||[eon01](https://github.com/eon01)|
+|[empire](https://github.com/remind101/empire)|A PaaS built on top of Amazon EC2 Container Service (ECS)|-|2409|today|Go|[BSD 2-Clause "Simplified" License](https://api.github.com/licenses/bsd-2-clause)|[remind101](https://github.com/remind101)|
+|[dlite](https://github.com/nlf/dlite)|The simplest way to use Docker on OS X|-|2403|2 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[nlf](https://github.com/nlf)|
+|[goss](https://github.com/aelsabbahy/goss)|Quick and Easy server testing/validation|https://goss.rocks|2288|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[aelsabbahy](https://github.com/aelsabbahy)|
+|[docker-lambda](https://github.com/lambci/docker-lambda)|Docker images and test runners that replicate the live AWS Lambda environment|-|2243|1 day ago|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[lambci](https://github.com/lambci)|
+|[docker-swarm-visualizer](https://github.com/dockersamples/docker-swarm-visualizer)|A visualizer for Docker Swarm Mode using the Docker Remote API, Node.JS, and D3|-|2209|today|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[dockersamples](https://github.com/dockersamples)|
+|[functions](https://github.com/iron-io/functions)|IronFunctions - the serverless microservices platform by|https://iron.io|2195|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[iron-io](https://github.com/iron-io)|
+|[gosu](https://github.com/tianon/gosu)|Simple Go-based setuid+setgid+setgroups+exec|-|2190|today|Go|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[tianon](https://github.com/tianon)|
+|[now-cli](https://github.com/zeit/now-cli)|The command-line interface for Now|https://zeit.co/now|2092|today|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[zeit](https://github.com/zeit)|
+|[watchtower](https://github.com/v2tec/watchtower)|Automatically update running Docker containers|-|2048|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[v2tec](https://github.com/v2tec)|
+|[nsenter](https://github.com/jpetazzo/nsenter)|-|-|1960|today|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[jpetazzo](https://github.com/jpetazzo)|
+|[helios](https://github.com/spotify/helios)|Docker container orchestration platform|-|1924|3 days ago|Java|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[spotify](https://github.com/spotify)|
+|[dockerize](https://github.com/jwilder/dockerize)|Utility to simplify running applications in docker containers|-|1869|today|Go||[jwilder](https://github.com/jwilder)|
+|[Portus](https://github.com/SUSE/Portus)|Authorization service and frontend for Docker registry (v2)|http://port.us.org/|1855|today|Ruby|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[SUSE](https://github.com/SUSE)|
+|[gitkube](https://github.com/hasura/gitkube)|Gitkube: Build and deploy docker images to Kubernetes using git push.|https://gitkube.sh|1824|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[hasura](https://github.com/hasura)|
+|[dockerode](https://github.com/apocas/dockerode)|Docker + Node = Dockerode (Node.js module for Docker's Remote API)|-|1801|today|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[apocas](https://github.com/apocas)|
+|[dinghy](https://github.com/codekitchen/dinghy)|faster, friendlier Docker on OS X|-|1782|2 days ago|Ruby|[MIT License](https://api.github.com/licenses/mit)|[codekitchen](https://github.com/codekitchen)|
+|[docker-sync](https://github.com/EugenMayer/docker-sync)|Run your application at full speed while syncing your code for development, finally empowering you to utilize docker for development under OSX/Windows/*Linux|-|1782|today|Ruby|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[EugenMayer](https://github.com/EugenMayer)|
+|[seagull](https://github.com/tobegit3hub/seagull)|Friendly Web UI to manage and monitor docker|-|1736|today|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[tobegit3hub](https://github.com/tobegit3hub)|
+|[centurion](https://github.com/newrelic/centurion)|A mass deployment tool for Docker fleets|-|1707|today|Ruby|[MIT License](https://api.github.com/licenses/mit)|[newrelic](https://github.com/newrelic)|
+|[container-diff](https://github.com/GoogleContainerTools/container-diff)|container-diff: Diff your Docker containers|-|1705|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[GoogleContainerTools](https://github.com/GoogleContainerTools)|
+|[dotfiles](https://github.com/jessfraz/dotfiles)|My dotfiles. Buyer beware ;)|-|1704|today|Shell|[MIT License](https://api.github.com/licenses/mit)|[jessfraz](https://github.com/jessfraz)|
+|[rack](https://github.com/convox/rack)|Open-source PaaS. Built entirely on AWS cloud services for maximum privacy and minimum upkeep.|https://convox.com|1672|1 day ago|Go|[Other](null)|[convox](https://github.com/convox)|
+|[kaniko](https://github.com/GoogleContainerTools/kaniko)|Build Container Images In Kubernetes|-|1547|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[GoogleContainerTools](https://github.com/GoogleContainerTools)|
+|[img](https://github.com/genuinetools/img)|Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.|https://blog.jessfraz.com/post/building-container-images-securely-on-kubernetes/|1503|today|Go|[MIT License](https://api.github.com/licenses/mit)|[genuinetools](https://github.com/genuinetools)|
+|[panamax-ui](https://github.com/CenturyLinkLabs/panamax-ui)|The Web GUI for Panamax|http://panamax.io|1455|2 days ago|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[CenturyLinkLabs](https://github.com/CenturyLinkLabs)|
+|[docker-slim](https://github.com/docker-slim/docker-slim)|DockerSlim (docker-slim): Don't change anything in your Docker container image and minify it by up to 30x making it secure too! (free and open source)|http://dockersl.im|1444|today|Go|[Other](null)|[docker-slim](https://github.com/docker-slim)|
+|[docker-osx-dev](https://github.com/brikis98/docker-osx-dev)|A productive development environment with Docker on OS X|http://www.ybrikman.com/writing/2015/05/19/docker-osx-dev/|1440|2 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[brikis98](https://github.com/brikis98)|
+|[vagga](https://github.com/tailhook/vagga)|Vagga is a containerization tool without daemons|http://vagga.readthedocs.org|1404|1 day ago|Rust|[MIT License](https://api.github.com/licenses/mit)|[tailhook](https://github.com/tailhook)|
+|[notary](https://github.com/theupdateframework/notary)|Notary is a project that allows anyone to have trust over arbitrary collections of data|-|1380|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[theupdateframework](https://github.com/theupdateframework)|
+|[kontena](https://github.com/kontena/kontena)|The developer friendly container and micro services platform. Works on any cloud, easy to setup, simple to use.|https://www.kontena.io/platform|1352|today|Ruby|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[kontena](https://github.com/kontena)|
+|[go-dockerclient](https://github.com/fsouza/go-dockerclient)|Go client for the Docker remote API.|https://godoc.org/github.com/fsouza/go-dockerclient|1289|1 day ago|Go|[Other](null)|[fsouza](https://github.com/fsouza)|
+|[rocker](https://github.com/grammarly/rocker)|Rocker breaks the limits of Dockerfile.|-|1272|today|Go|[Other](null)|[grammarly](https://github.com/grammarly)|
+|[nanobox](https://github.com/nanobox-io/nanobox)|The ideal platform for developers|https://nanobox.io|1230|1 day ago|Go|[Other](null)|[nanobox-io](https://github.com/nanobox-io)|
+|[inspec](https://github.com/inspec/inspec)|InSpec: Auditing and Testing Framework|http://inspec.io|1224|today|Ruby|[Other](null)|[inspec](https://github.com/inspec)|
+|[rexray](https://github.com/rexray/rexray)|REX-Ray is a container storage orchestration engine enabling persistence for cloud native workloads|http://rexray.io|1203|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[rexray](https://github.com/rexray)|
+|[workflow](https://github.com/deis/workflow)|The open source PaaS for Kubernetes.|https://deis.com/workflow/|1135|5 days ago|CSS|[MIT License](https://api.github.com/licenses/mit)|[deis](https://github.com/deis)|
+|[docker-consul](https://github.com/gliderlabs/docker-consul)|Dockerized Consul|-|1021|2 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[gliderlabs](https://github.com/gliderlabs)|
+|[dockly](https://github.com/lirantal/dockly)|Immersive terminal interface for managing docker containers and services|-|1003|today|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[lirantal](https://github.com/lirantal)|
+|[convoy](https://github.com/rancher/convoy)|A Docker volume plugin, managing persistent container volumes.|-|986|1 day ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[rancher](https://github.com/rancher)|
+|[hadolint](https://github.com/hadolint/hadolint)|Dockerfile linter, validate inline bash, written in Haskell|-|964|today|Haskell|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[hadolint](https://github.com/hadolint)|
+|[docker-clean](https://github.com/ZZROTDesign/docker-clean)|A script that cleans docker containers, images, volumes, and networks. |-|957|6 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[ZZROTDesign](https://github.com/ZZROTDesign)|
+|[dry](https://github.com/moncho/dry)|dry - A Docker manager for the terminal @|http://moncho.github.io/dry/|950|today|Go|[MIT License](https://api.github.com/licenses/mit)|[moncho](https://github.com/moncho)|
+|[pumba](https://github.com/alexei-led/pumba)|Chaos testing and network emulation tool for Docker.|https://goo.gl/SUKo6T|900|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[alexei-led](https://github.com/alexei-led)|
+|[dockerfiles](https://github.com/vimagick/dockerfiles)|:whale: A collection of delicious docker recipes|https://hub.docker.com/u/vimagick/|895|today|JavaScript||[vimagick](https://github.com/vimagick)|
+|[docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)|Maven plugin for running and creating Docker images|https://dmp.fabric8.io|862|today|Java|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[fabric8io](https://github.com/fabric8io)|
+|[azk](https://github.com/azukiapp/azk)|azk is a lightweight open source development environment orchestration tool. Instantly & safely run any environment on your local machine.|http://azk.io|854|1 day ago|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[azukiapp](https://github.com/azukiapp)|
+|[habitus](https://github.com/cloud66/habitus)|A Build Flow Tool for Docker|http://www.habitus.io|823|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[cloud66](https://github.com/cloud66)|
+|[falco](https://github.com/draios/falco)|Sysdig Falco: Behavioral Activity Monitoring With Container Support|-|803|1 day ago|C++|[Other](null)|[draios](https://github.com/draios)|
+|[docker-registry-ui](https://github.com/squidnyan/docker-registry-ui)|A web frontend/UI for easy private/local Docker Registry integration|-|773|2 days ago|Groovy|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[squidnyan](https://github.com/squidnyan)|
+|[lando](https://github.com/lando/lando)|You look absolutely beautiful!|https://docs.devwithlando.io|766|today|JavaScript|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[lando](https://github.com/lando)|
+|[docker-mon](https://github.com/icecrime/docker-mon)|Console-based Docker monitoring|-|748|10 days ago|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[icecrime](https://github.com/icecrime)|
+|[dockerfile-maven](https://github.com/spotify/dockerfile-maven)|A set of Maven tools for dealing with Dockerfiles|-|746|today|Java|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[spotify](https://github.com/spotify)|
+|[docker-machine-nfs](https://github.com/adlogix/docker-machine-nfs)|Activates NFS on docker-machine|-|725|9 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[adlogix](https://github.com/adlogix)|
+|[zabbix-docker-monitoring](https://github.com/monitoringartist/zabbix-docker-monitoring)|:whale: Docker/Kubernetes/Mesos/Marathon/Chronos/LXC/LXD/Swarm container monitoring - Docker image, Zabbix template and C module|https://hub.docker.com/r/monitoringartist/zabbix-agent-xxl-limited/|715|1 day ago|C|[GNU General Public License v2.0](https://api.github.com/licenses/gpl-2.0)|[monitoringartist](https://github.com/monitoringartist)|
+|[crane](https://github.com/Dataman-Cloud/crane)|Yet another control plane based on docker built-in swarmkit|https://www.shurenyun.com/product-crane.html|715|2 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[Dataman-Cloud](https://github.com/Dataman-Cloud)|
+|[calicoctl](https://github.com/projectcalico/calicoctl)|Calico CLI tool|http://www.projectcalico.org|705|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[projectcalico](https://github.com/projectcalico)|
+|[container-structure-test](https://github.com/GoogleContainerTools/container-structure-test)|validate the structure of your container images|-|703|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[GoogleContainerTools](https://github.com/GoogleContainerTools)|
+|[sen](https://github.com/TomasTomecek/sen)|Terminal User Interface for docker engine|-|693|2 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[TomasTomecek](https://github.com/TomasTomecek)|
+|[subuser](https://github.com/subuser-security/subuser)|Run programs on linux with selectively restricted permissions.|http://subuser.org|691|6 days ago|Python|[GNU Lesser General Public License v3.0](https://api.github.com/licenses/lgpl-3.0)|[subuser-security](https://github.com/subuser-security)|
+|[awesome-ciandcd](https://github.com/ciandcd/awesome-ciandcd)|continuous integration and continuous delivery|http://www.ciandcd.com|682|today||[GNU General Public License v2.0](https://api.github.com/licenses/gpl-2.0)|[ciandcd](https://github.com/ciandcd)|
+|[dockerfile-examples](https://github.com/kstaken/dockerfile-examples)|Some example dockerfiles for use with Docker|-|663|1 day ago|Shell||[kstaken](https://github.com/kstaken)|
+|[docker-volume-netshare](https://github.com/ContainX/docker-volume-netshare)|Docker NFS, AWS EFS, Ceph & Samba/CIFS Volume Plugin|http://netshare.containx.io|660|2 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[ContainX](https://github.com/ContainX)|
+|[manageiq](https://github.com/ManageIQ/manageiq)|ManageIQ Open-Source Management Platform|manageiq.org|658|today|Ruby|[Other](null)|[ManageIQ](https://github.com/ManageIQ)|
+|[captain](https://github.com/harbur/captain)|Captain - Convert your Git workflow to Docker :whale: containers|-|639|3 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[harbur](https://github.com/harbur)|
+|[maestro](https://github.com/toscanini/maestro)|Container orchestration for Docker environments|-|615|today|Python|[MIT License](https://api.github.com/licenses/mit)|[toscanini](https://github.com/toscanini)|
+|[docket](https://github.com/netvarun/docket)|Docket - Custom docker registry that allows for lightning fast deploys through bittorrent|-|615|8 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[netvarun](https://github.com/netvarun)|
+|[docker-flow-proxy](https://github.com/vfarcic/docker-flow-proxy)|Docker Flow Proxy|http://proxy.dockerflow.com/|612|4 days ago|||[vfarcic](https://github.com/vfarcic)|
+|[armhf](https://github.com/umiddelb/armhf)|interesting stuff about arm devices (Utilite, SolidRun, Odroid)|-|600|4 days ago|Shell||[umiddelb](https://github.com/umiddelb)|
+|[binci](https://github.com/binci/binci)|:whale: Containerize your development workflow.|-|581|2 days ago|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[binci](https://github.com/binci)|
+|[wharfee](https://github.com/j-bennet/wharfee)|A CLI with autocompletion and syntax highlighting for Docker commands.|-|567|2 days ago|Python|[BSD 3-Clause "New" or "Revised" License](https://api.github.com/licenses/bsd-3-clause)|[j-bennet](https://github.com/j-bennet)|
+|[sbt-docker](https://github.com/marcuslonnberg/sbt-docker)|Create Docker images directly from sbt|-|562|4 days ago|Scala|[MIT License](https://api.github.com/licenses/mit)|[marcuslonnberg](https://github.com/marcuslonnberg)|
+|[bane](https://github.com/genuinetools/bane)|Custom & better AppArmor profile generator for Docker containers.|-|561|today|Go|[MIT License](https://api.github.com/licenses/mit)|[genuinetools](https://github.com/genuinetools)|
+|[awesome-linux-containers](https://github.com/Friz-zy/awesome-linux-containers)|A curated list of awesome Linux Containers frameworks, libraries and software|-|542|today||[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[Friz-zy](https://github.com/Friz-zy)|
+|[grafeas](https://github.com/grafeas/grafeas)|Cloud artifact metadata CRUD API and resource specifications|-|540|3 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[grafeas](https://github.com/grafeas)|
+|[cyclone](https://github.com/caicloud/cyclone)|A cloud native CI/CD platform built for container workflow|-|539|1 day ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[caicloud](https://github.com/caicloud)|
+|[Docker.DotNet](https://github.com/Microsoft/Docker.DotNet)|:whale: .NET (C#) Client Library for Docker API|https://www.nuget.org/packages/Docker.DotNet/|538|4 days ago|C#|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[Microsoft](https://github.com/Microsoft)|
+|[libcompose](https://github.com/docker/libcompose)|An experimental go library providing Compose-like functionality|https://godoc.org/github.com/docker/libcompose|515|today|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[docker](https://github.com/docker)|
+|[docker-cleanup](https://github.com/meltwater/docker-cleanup)|Automatic Docker image, container and volume cleanup|-|507|4 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[meltwater](https://github.com/meltwater)|
+|[awesome_bot](https://github.com/dkhamsing/awesome_bot)|:white_check_mark: Validate links in awesome projects|-|486|6 days ago|Ruby|[MIT License](https://api.github.com/licenses/mit)|[dkhamsing](https://github.com/dkhamsing)|
+|[Docker-Secure-Deployment-Guidelines](https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines)|Deployment checklist for securely deploying Docker|-|485|9 days ago|||[GDSSecurity](https://github.com/GDSSecurity)|
+|[dvm](https://github.com/howtowhale/dvm)|Docker Version Manager|https://howtowhale.github.io/dvm/|459|11 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[howtowhale](https://github.com/howtowhale)|
+|[swarmpit](https://github.com/swarmpit/swarmpit)|Lightweight Docker Swarm management UI|http://swarmpit.io|456|1 day ago|Clojure|[Eclipse Public License 1.0](https://api.github.com/licenses/epl-1.0)|[swarmpit](https://github.com/swarmpit)|
+|[reg](https://github.com/genuinetools/reg)|Docker registry v2 command line client.|-|444|2 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[genuinetools](https://github.com/genuinetools)|
+|[clocker](https://github.com/brooklyncentral/clocker)|Apache Brooklyn cloud native infrastructure blueprints|-|427|5 days ago|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[brooklyncentral](https://github.com/brooklyncentral)|
+|[longshoreman](https://github.com/longshoreman/longshoreman)|Automated deployment with Docker.|-|426|12 days ago|JavaScript||[longshoreman](https://github.com/longshoreman)|
+|[rocker-compose](https://github.com/grammarly/rocker-compose)|Docker composition tool with idempotency features for deploying apps composed of multiple containers.|-|420|9 days ago|Go|[Other](null)|[grammarly](https://github.com/grammarly)|
+|[image-spec](https://github.com/opencontainers/image-spec)|OCI Image Format|https://www.opencontainers.org/|420|4 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[opencontainers](https://github.com/opencontainers)|
+|[dockstation](https://github.com/DockStation/dockstation)|DockStation is developer-centric application to managing projects based on Docker. Instead of lots of CLI commands you can monitor, configure, and manage services and containers using just a GUI.|https://dockstation.io/|414|1 day ago||[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[DockStation](https://github.com/DockStation)|
+|[su-exec](https://github.com/ncopa/su-exec)|switch user and group id and exec|-|412|today|C|[MIT License](https://api.github.com/licenses/mit)|[ncopa](https://github.com/ncopa)|
+|[supercronic](https://github.com/aptible/supercronic)|Cron for containers|-|405|3 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[aptible](https://github.com/aptible)|
+|[dockerfile-examples](https://github.com/komljen/dockerfile-examples)|Dockerfile examples|-|402|13 days ago|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[komljen](https://github.com/komljen)|
+|[atlantis](https://github.com/ooyala/atlantis)|Open Source PaaS Built on Docker|-|375|8 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[ooyala](https://github.com/ooyala)|
+|[ctop](https://github.com/yadutaf/ctop)|A command line / text based Linux Containers monitoring tool that works just like you expect.|https://pypi.python.org/pypi/ctop|373|2 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[yadutaf](https://github.com/yadutaf)|
+|[dagda](https://github.com/eliasgranderubio/dagda)|a tool to perform static analysis of known vulnerabilities, trojans, viruses, malware & other malicious threats in docker images/containers and to monitor the docker daemon and running docker containers for detecting anomalous activities|-|364|4 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[eliasgranderubio](https://github.com/eliasgranderubio)|
+|[docker-monitoring](https://github.com/vegasbrianc/docker-monitoring)|Docker-Monitoring based on Cadvisor, InfluxDB, and Grafana|-|364|7 days ago|||[vegasbrianc](https://github.com/vegasbrianc)|
+|[docker-plugin](https://github.com/jenkinsci/docker-plugin)|Jenkins Cloud Plugin for Docker|https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin|363|4 days ago|Java|[MIT License](https://api.github.com/licenses/mit)|[jenkinsci](https://github.com/jenkinsci)|
+|[local-persist](https://github.com/CWSpear/local-persist)|Create named local volumes that persist in the location(s) you want|-|361|3 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[CWSpear](https://github.com/CWSpear)|
+|[mu](https://github.com/stelligent/mu)|A full-stack DevOps on AWS framework|https://getmu.io|358|today|Go|[MIT License](https://api.github.com/licenses/mit)|[stelligent](https://github.com/stelligent)|
+|[dray](https://github.com/CenturyLinkLabs/dray)|An engine for managing the execution of container-based workflows.|http://Dray.it|342|19 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[CenturyLinkLabs](https://github.com/CenturyLinkLabs)|
+|[netshoot](https://github.com/nicolaka/netshoot)|a Docker + Kubernetes network trouble-shooting swiss-army container|-|338|today|Shell||[nicolaka](https://github.com/nicolaka)|
+|[amicontained](https://github.com/genuinetools/amicontained)|Container introspection tool. Find out what container runtime is being used as well as features available.|-|328|2 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[genuinetools](https://github.com/genuinetools)|
+|[atsd-use-cases](https://github.com/axibase/atsd-use-cases)|Axibase Time Series Database: Usage Examples and Research Articles|-|328|today|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[axibase](https://github.com/axibase)|
+|[openscap](https://github.com/OpenSCAP/openscap)|NIST Certified SCAP 1.2 toolkit|https://www.open-scap.org/tools/openscap-base|317|today|XSLT|[GNU Lesser General Public License v2.1](https://api.github.com/licenses/lgpl-2.1)|[OpenSCAP](https://github.com/OpenSCAP)|
+|[udocker](https://github.com/indigo-dc/udocker)|A basic user tool to execute simple docker containers in batch or interactive systems without root privileges|-|308|today|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[indigo-dc](https://github.com/indigo-dc)|
+|[docker-registry-web](https://github.com/mkuchin/docker-registry-web)|Web UI for private docker registry v2|https://hub.docker.com/r/hyper/docker-registry-web/|307|1 day ago|Groovy|[GNU General Public License v2.0](https://api.github.com/licenses/gpl-2.0)|[mkuchin](https://github.com/mkuchin)|
+|[docker-it-scala](https://github.com/whisklabs/docker-it-scala)|Docker integration testing kit with Scala|-|299|5 days ago|Scala|[MIT License](https://api.github.com/licenses/mit)|[whisklabs](https://github.com/whisklabs)|
+|[Dockerfiles](https://github.com/crosbymichael/Dockerfiles)|Collection of Dockerfiles |-|297|46 days ago|Python||[crosbymichael](https://github.com/crosbymichael)|
+|[dexec](https://github.com/docker-exec/dexec)|:whale: Command line interface for running code in many languages via Docker.|https://docker-exec.github.io/|292|2 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[docker-exec](https://github.com/docker-exec)|
+|[dockeron](https://github.com/dockeron/dockeron)|Electron + Vue.js for Docker|-|288|6 days ago|Vue|[MIT License](https://api.github.com/licenses/mit)|[dockeron](https://github.com/dockeron)|
+|[anchore](https://github.com/anchore/anchore)|Legacy Anchore container analysis, inspection and control toolset. See https://github.com/anchore/anchore-engine for newer version that operates as a service with REST API instead of a cli tool.|-|288|4 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[anchore](https://github.com/anchore)|
+|[docker_monitoring_logging_alerting](https://github.com/uschtwill/docker_monitoring_logging_alerting)|Docker host and container monitoring, logging and alerting out of the box using cAdvisor, Prometheus, Grafana for monitoring, Elasticsearch, Kibana and Logstash for logging and elastalert and Alertmanager for alerting. |-|285|3 days ago|Roff|[MIT License](https://api.github.com/licenses/mit)|[uschtwill](https://github.com/uschtwill)|
+|[dockerfilelint](https://github.com/replicatedhq/dockerfilelint)|An opinionated Dockerfile linter.|https://www.fromlatest.io|279|3 days ago|JavaScript||[replicatedhq](https://github.com/replicatedhq)|
+|[gantryd](https://github.com/DevTable/gantryd)|Framework for easy management of docker-based components across machines|-|274|24 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[DevTable](https://github.com/DevTable)|
+|[dockramp](https://github.com/jlhawn/dockramp)|A Client Driven Docker Image Builder|-|264|5 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[jlhawn](https://github.com/jlhawn)|
+|[scar](https://github.com/grycap/scar)|Serverless Container-aware ARchitectures (e.g. Docker in AWS Lambda)|https://grycap.github.io/scar|263|4 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[grycap](https://github.com/grycap)|
+|[docker.el](https://github.com/Silex/docker.el)|Manage docker from Emacs.|-|256|4 days ago|Emacs Lisp||[Silex](https://github.com/Silex)|
+|[Docker-PowerShell](https://github.com/Microsoft/Docker-PowerShell)|PowerShell Module for Docker|-|256|9 days ago|C#|[MIT License](https://api.github.com/licenses/mit)|[Microsoft](https://github.com/Microsoft)|
+|[dockerfile-mode](https://github.com/spotify/dockerfile-mode)|An emacs mode for handling Dockerfiles|-|254|1 day ago|Emacs Lisp|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[spotify](https://github.com/spotify)|
+|[docker-ls](https://github.com/mayflower/docker-ls)|Tools for browsing and manipulating docker registries.|-|238|3 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[mayflower](https://github.com/mayflower)|
+|[containership](https://github.com/containership/containership)|A simple container management platform|https://containership.io|220|21 days ago|JavaScript|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[containership](https://github.com/containership)|
+|[box](https://github.com/box-builder/box)|A Next-Generation Builder for Docker Images|https://box-builder.github.io/box/|220|2 days ago|Go|[Other](null)|[box-builder](https://github.com/box-builder)|
+|[dockerfile_lint](https://github.com/projectatomic/dockerfile_lint)|-|-|218|today|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[projectatomic](https://github.com/projectatomic)|
+|[dockfmt](https://github.com/jessfraz/dockfmt)|Dockerfile format and parser. Like `gofmt` but for Dockerfiles.|-|209|today|Go|[MIT License](https://api.github.com/licenses/mit)|[jessfraz](https://github.com/jessfraz)|
+|[derrick](https://github.com/alibaba/derrick)|🐳A tool to help you dockerizing application in seconds|https://alibaba.github.io/derrick/|206|today|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[alibaba](https://github.com/alibaba)|
+|[devstep](https://github.com/fgrehm/devstep)|Development environments powered by Docker and buildpacks|http://fgrehm.viewdocs.io/devstep|200|99 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[fgrehm](https://github.com/fgrehm)|
+|[dockly](https://github.com/swipely/dockly)|DSL and Gem for building ready-to-launch Docker images|-|199|5 days ago|Ruby|[MIT License](https://api.github.com/licenses/mit)|[swipely](https://github.com/swipely)|
+|[logagent-js](https://github.com/sematext/logagent-js)|Extensible log shipper with input/output plugins, buffering, parsing, data masking, and small memory/CPU footprint|http://sematext.com/logsene|196|today|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[sematext](https://github.com/sematext)|
+|[docker-grand-ambassador](https://github.com/cpuguy83/docker-grand-ambassador)|-|-|193|76 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[cpuguy83](https://github.com/cpuguy83)|
+|[dockerana](https://github.com/dockerana/dockerana)|Docker Monitoring with support for Grafana and Graphite|http://dockerana.com|192|5 days ago|Perl||[dockerana](https://github.com/dockerana)|
+|[docker-proxy](https://github.com/silarsis/docker-proxy)|Transparent proxy for docker containers, run in a docker container|-|189|24 days ago|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[silarsis](https://github.com/silarsis)|
+|[cloud-slang](https://github.com/CloudSlang/cloud-slang)|CloudSlang Language, CLI and Builder|http://cloudslang.io|180|6 days ago|Java|[Other](null)|[CloudSlang](https://github.com/CloudSlang)|
+|[zodiac](https://github.com/CenturyLinkLabs/zodiac)|A lightweight tool for easy deployment and rollback of dockerized applications.|-|177|3 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[CenturyLinkLabs](https://github.com/CenturyLinkLabs)|
+|[docker-images](https://github.com/arun-gupta/docker-images)|Docker Images|-|175|3 days ago|Shell||[arun-gupta](https://github.com/arun-gupta)|
+|[lstags](https://github.com/ivanilves/lstags)|Manipulate Docker images across different registries|-|173|7 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[ivanilves](https://github.com/ivanilves)|
+|[skinnywhale](https://github.com/djosephsen/skinnywhale)|Skinnywhale helps you make smaller (as in megabytes) Docker containers|-|173|27 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[djosephsen](https://github.com/djosephsen)|
+|[swarm-ingress-router](https://github.com/tpbowden/swarm-ingress-router)|Route DNS names to Swarm services based on labels|-|172|47 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[tpbowden](https://github.com/tpbowden)|
+|[Beluga](https://github.com/cortexmedia/Beluga)|Beluga a CLI to deploy docker containers on a single server or low amount of servers.|-|167|25 days ago|Shell||[cortexmedia](https://github.com/cortexmedia)|
+|[docker-unison](https://github.com/leighmcculloch/docker-unison)|A docker data container using Unison for fast folder sync. An alternative to slow boot2docker volumes on OS X.|-|164|2 days ago|Shell|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[leighmcculloch](https://github.com/leighmcculloch)|
+|[haven-platform](https://github.com/codeabovelab/haven-platform)|Haven is an open source Docker container management system. It integrates container, application, cluster, image, and registry management in one single place. |-|161|17 days ago|Java|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[codeabovelab](https://github.com/codeabovelab)|
+|[Docker](https://github.com/konstruktoid/Docker)|Docker playground|-|159|5 days ago|Shell||[konstruktoid](https://github.com/konstruktoid)|
+|[percheron](https://github.com/ashmckenzie/percheron)|Organise your Docker containers with muscle and intelligence|-|158|48 days ago|Ruby|[MIT License](https://api.github.com/licenses/mit)|[ashmckenzie](https://github.com/ashmckenzie)|
+|[muguet](https://github.com/mattallty/muguet)|DNS Server & Reverse proxy for Docker - Compatible with docker-compose, boot2docker and docker-machine|-|154|71 days ago|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[mattallty](https://github.com/mattallty)|
+|[dockerspec](https://github.com/zuazo/dockerspec)|A small Ruby Gem to run RSpec and Serverspec, Infrataster and Capybara tests against Dockerfiles or Docker images easily.|https://rubygems.org/gems/dockerspec|151|5 days ago|Ruby|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[zuazo](https://github.com/zuazo)|
+|[fugu](https://github.com/mattes/fugu)|Swiss Army knife for Docker|-|140|92 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[mattes](https://github.com/mattes)|
+|[chaperone](https://github.com/garywiz/chaperone)|Lightweight process-tree manager for Docker-like containers|-|137|8 days ago|Python|[Other](null)|[garywiz](https://github.com/garywiz)|
+|[runlike](https://github.com/lavie/runlike)|Given an existing docker container, prints the command line necessary to run a copy of it.|-|136|today|Python|[Other](null)|[lavie](https://github.com/lavie)|
+|[sematext-agent-docker](https://github.com/sematext/sematext-agent-docker)|Sematext Docker Agent - host + container metrics, logs & event collector|https://sematext.com/docker|135|today|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[sematext](https://github.com/sematext)|
+|[swirl](https://github.com/cuigh/swirl)|A web UI for Docker, focused on swarm cluster.|-|135|2 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[cuigh](https://github.com/cuigh)|
+|[docker-replay](https://github.com/bcicen/docker-replay)|Generate docker run commands from running containers|-|130|6 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[bcicen](https://github.com/bcicen)|
+|[portainer](https://github.com/duedil-ltd/portainer)|Apache Mesos framework for building Docker images on a cluster of machines|-|127|81 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[duedil-ltd](https://github.com/duedil-ltd)|
+|[composerize](https://github.com/magicmark/composerize)|🏃→🎼  docker run asdlksjfksdf > docker-composerize up|http://composerize.com|126|today|JavaScript||[magicmark](https://github.com/magicmark)|
+|[sbt-docker-compose](https://github.com/Tapad/sbt-docker-compose)|Integrates Docker Compose functionality into sbt|-|125|14 days ago|Scala|[BSD 3-Clause "New" or "Revised" License](https://api.github.com/licenses/bsd-3-clause)|[Tapad](https://github.com/Tapad)|
+|[docker-continuous-deployment](https://github.com/francescou/docker-continuous-deployment)|continuous deployment of a microservices application with Docker|-|122|10 days ago|HTML|[MIT License](https://api.github.com/licenses/mit)|[francescou](https://github.com/francescou)|
+|[logjam](https://github.com/gocardless/logjam)|a log shipping tool|-|121|2 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[gocardless](https://github.com/gocardless)|
+|[docker-quick-ref](https://github.com/dimonomid/docker-quick-ref)|Docker: Printable Quick Reference|-|119|7 days ago|Makefile||[dimonomid](https://github.com/dimonomid)|
+|[ahab](https://github.com/instacart/ahab)|Docker event handling with Python|-|117|2 days ago|Python|[ISC License](https://api.github.com/licenses/isc)|[instacart](https://github.com/instacart)|
+|[sherdock](https://github.com/rancher/sherdock)|Docker Image Manager|-|111|151 days ago|JavaScript||[rancher](https://github.com/rancher)|
+|[cis-docker-benchmark](https://github.com/dev-sec/cis-docker-benchmark)|CIS Docker Benchmark - InSpec Profile|dev-sec.io|109|2 days ago|Ruby|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[dev-sec](https://github.com/dev-sec)|
+|[dockit](https://github.com/humblec/dockit)|Do docker actions and Deploy gluster containers!|-|103|6 days ago|Python|[GNU General Public License v2.0](https://api.github.com/licenses/gpl-2.0)|[humblec](https://github.com/humblec)|
+|[europa](https://github.com/puppetlabs/europa)|Puppet Container Registry|https://puppet.com/products/puppet-container-registry|100|33 days ago|Java|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[puppetlabs](https://github.com/puppetlabs)|
+|[conduit](https://github.com/ehazlett/conduit)|Deployment system for Docker|-|98|6 days ago|Go||[ehazlett](https://github.com/ehazlett)|
+|[gocd-docker](https://github.com/gocd/gocd-docker)|Deprecated. See: https://github.com/gocd/docker-gocd-server|https://hub.docker.com/r/gocd/gocd-server/|98|89 days ago||[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[gocd](https://github.com/gocd)|
+|[whales](https://github.com/Gueils/whales)|:whale: Tool to automatically dockerize your application. |http://www.whales.mx|96|16 days ago|Ruby|[MIT License](https://api.github.com/licenses/mit)|[Gueils](https://github.com/Gueils)|
+|[vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example)|Example of basic vagrant docker provider usage |-|94|5 days ago||[MIT License](https://api.github.com/licenses/mit)|[bubenkoff](https://github.com/bubenkoff)|
+|[docker-flow-swarm-listener](https://github.com/vfarcic/docker-flow-swarm-listener)|Docker Flow Swarm Listener|http://swarmlistener.dockerflow.com/|91|4 days ago|||[vfarcic](https://github.com/vfarcic)|
+|[dockersql](https://github.com/crosbymichael/dockersql)|Query your docker via SQL|-|85|6 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[crosbymichael](https://github.com/crosbymichael)|
+|[lifeboat](https://github.com/jplhomer/lifeboat)|Docker Compose UI: Lifeboat is an easy way to launch projects with a graphical interface|https://uselifeboat.com/|81|today|JavaScript||[jplhomer](https://github.com/jplhomer)|
+|[forward2docker](https://github.com/bsideup/forward2docker)|Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker or Docker Machine VM|-|77|16 days ago|Go||[bsideup](https://github.com/bsideup)|
+|[crowdr](https://github.com/polonskiy/crowdr)|Crowdr is a tool for managing multiple Docker containers|-|75|220 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[polonskiy](https://github.com/polonskiy)|
+|[amp](https://github.com/appcelerator/amp)|** THIS PROJECT IS STOPPED ** An open source CaaS for Docker, batteries included.|http://appcelerator.io|74|25 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[appcelerator](https://github.com/appcelerator)|
+|[rapid](https://github.com/ozlerhakan/rapid)|:whale: A lightweight Docker Developer Interface for Docker Remote API|-|72|2 days ago|Java|[MIT License](https://api.github.com/licenses/mit)|[ozlerhakan](https://github.com/ozlerhakan)|
+|[gradle-docker-plugin](https://github.com/gesellix/gradle-docker-plugin)|Gradle Docker plugin|-|71|44 days ago|Groovy|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[gesellix](https://github.com/gesellix)|
+|[blockbridge-docker-volume](https://github.com/blockbridge/blockbridge-docker-volume)|Blockbridge volume plugin for Docker|-|71|8 days ago|Ruby|[BSD 3-Clause "New" or "Revised" License](https://api.github.com/licenses/bsd-3-clause)|[blockbridge](https://github.com/blockbridge)|
+|[dlayer](https://github.com/wercker/dlayer)|Stats collector for Docker layers|-|70|2 days ago|Go||[wercker](https://github.com/wercker)|
+|[bocker](https://github.com/icy/bocker)|Write Dockerfile completely in Bash. Extensible and simple.|https://github.com/icy/bocker|68|2 days ago|Shell||[icy](https://github.com/icy)|
+|[athena](https://github.com/athena-oss/athena)|An automation platform with a plugin architecture that allows you to easily create and share services.|https://athena-oss.github.io/athena/|67|6 days ago|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[athena-oss](https://github.com/athena-oss)|
+|[docker-make](https://github.com/CtripCloud/docker-make)|build,tag,and push a bunch of related docker images via a single command|-|66|13 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[CtripCloud](https://github.com/CtripCloud)|
+|[learn-docker](https://github.com/dwyl/learn-docker)|:ship: Learn how to use docker.io containers to consistently deploy your apps on any infrastructure.|-|66|22 days ago|Nginx||[dwyl](https://github.com/dwyl)|
+|[docker-alertd](https://github.com/deltaskelta/docker-alertd)|Monitor docker stats and send alerts|-|66|34 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[deltaskelta](https://github.com/deltaskelta)|
+|[docker-fluentd](https://github.com/kiyoto/docker-fluentd)|Docker container to collect other docker container logs with Fluentd|-|65|39 days ago|||[kiyoto](https://github.com/kiyoto)|
+|[docker-for-all](https://github.com/machzqcq/docker-for-all)|Docker applied in development, devops, testing, product management etc.|-|63|34 days ago|Ruby|[MIT License](https://api.github.com/licenses/mit)|[machzqcq](https://github.com/machzqcq)|
+|[docker-client](https://github.com/gesellix/docker-client)|A Docker client for Java written in Kotlin and Groovy|https://www.gesellix.net|55|18 days ago|Groovy|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[gesellix](https://github.com/gesellix)|
+|[container-factory](https://github.com/mutable/container-factory)|container-factory produces Docker images from tarballs of application source code|http://www.containerfactory.io|54|82 days ago|Go|[ISC License](https://api.github.com/licenses/isc)|[mutable](https://github.com/mutable)|
+|[DoMonit](https://github.com/eon01/DoMonit)|A Deadly Simple Docker Monitoring Wrapper For Docker API|https://medium.com/@eon01/monitoring-docker-with-python-domonit-34440b8c6830|53|13 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[eon01](https://github.com/eon01)|
+|[is-docker](https://github.com/sindresorhus/is-docker)|Check if the process is running inside a Docker container|-|52|18 days ago|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[sindresorhus](https://github.com/sindresorhus)|
+|[proxy](https://github.com/factorish/proxy)|lightweight nginx based load balancer self using service discovery provided by registrator.|-|49|27 days ago|HTML|[Other](null)|[factorish](https://github.com/factorish)|
+|[stacker-cli](https://github.com/stacker/stacker-cli)|Docker Compose Templates|-|48|52 days ago|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[stacker](https://github.com/stacker)|
+|[captain](https://github.com/jenssegers/captain)|⚓️ Easily start and stop docker compose projects|-|48|2 days ago|Go||[jenssegers](https://github.com/jenssegers)|
+|[docker-registry-browser](https://github.com/klausmeyer/docker-registry-browser)|🐳 Web Interface for the Docker Registry HTTP API V2 written in Ruby on Rails.|https://hub.docker.com/r/klausmeyer/docker-registry-browser/|47|2 days ago|Ruby|[MIT License](https://api.github.com/licenses/mit)|[klausmeyer](https://github.com/klausmeyer)|
+|[draw-compose](https://github.com/Alexis-benoist/draw-compose)|Render Docker compose files.|-|47|2 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[Alexis-benoist](https://github.com/Alexis-benoist)|
+|[deploy](https://github.com/ttiny/deploy)|Git and Docker deployment tool.|-|45|26 days ago|JavaScript||[ttiny](https://github.com/ttiny)|
+|[chaperone-docker](https://github.com/garywiz/chaperone-docker)|Docker base images which use the chaperone lightweight process manager.|-|45|2 days ago|JavaScript|[Other](null)|[garywiz](https://github.com/garywiz)|
+|[autodock](https://github.com/prologic/autodock)|autodock is a Daemon for Docker Automation that helps to build automated Docker based infrastructure by integrating with Docker events|https://github.com/prologic/autodock|44|8 days ago|Go|[Other](null)|[prologic](https://github.com/prologic)|
+|[platform](https://github.com/dockunit/platform)|Dockunit platform website.|https://dockunit.io|43|35 days ago|JavaScript||[dockunit](https://github.com/dockunit)|
+|[swarmci](https://github.com/ghostsquad/swarmci)|Swarm CI - Docker Swarm-based CI system or enhancement to existing systems.|-|42|3 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[ghostsquad](https://github.com/ghostsquad)|
+|[docker-compose](https://github.com/awesome-startup/docker-compose)|Docker Compose Sample|-|42|108 days ago|JavaScript||[awesome-startup](https://github.com/awesome-startup)|
+|[h2o-proxy](https://github.com/zchee/h2o-proxy)|Automated H2O reverse proxy for Docker containers. An alternative jwilder/nginx-proxy.|https://registry.hub.docker.com/u/zchee/h2o-proxy/|37|78 days ago||[MIT License](https://api.github.com/licenses/mit)|[zchee](https://github.com/zchee)|
+|[elsy](https://github.com/cisco/elsy)|An opinionated, multi-language, build tool based on Docker and Docker Compose|-|37|4 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[cisco](https://github.com/cisco)|
+|[docker-flow-monitor](https://github.com/docker-flow/docker-flow-monitor)|-|-|36|1 day ago|Go|[MIT License](https://api.github.com/licenses/mit)|[docker-flow](https://github.com/docker-flow)|
+|[docker-zabbix](https://github.com/gomex/docker-zabbix)|Add and monitor running docker containers in Zabbix Server|-|34|11 days ago|Python|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[gomex](https://github.com/gomex)|
+|[docker-vm](https://github.com/shyiko/docker-vm)|A simple and transparent alternative to boot2docker (backed by Vagrant)|-|33|299 days ago|Shell||[shyiko](https://github.com/shyiko)|
+|[dockerfiles](https://github.com/pandrew/dockerfiles)|-|-|33|37 days ago|Ruby||[pandrew](https://github.com/pandrew)|
+|[proco](https://github.com/shiwaforce/proco)|Proco will help you to organise and manage Docker, Docker-Compose, Kubernetes projects of any complexity using simple YAML config files to shorten the route from finding your project to initialising it in your local environment.|https://pocok.io|33|2 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[shiwaforce](https://github.com/shiwaforce)|
+|[docker-compose-graphviz](https://github.com/abesto/docker-compose-graphviz)|Turn a docker-compose.yml files into Graphviz .dot files|-|31|5 days ago|Go||[abesto](https://github.com/abesto)|
+|[whale-linter](https://github.com/jeromepin/whale-linter)|A simple non professional Dockerfile linter|-|30|1 day ago|Python|[MIT License](https://api.github.com/licenses/mit)|[jeromepin](https://github.com/jeromepin)|
+|[minio](https://github.com/jelastic-jps/minio)|Minio Cluster - S3 Compatible Object Storage|-|30|5 days ago|JavaScript||[jelastic-jps](https://github.com/jelastic-jps)|
+|[tsaotun](https://github.com/qazbnm456/tsaotun)|Tsaotun - Python based Assistance for Docker|-|30|2 days ago|Python|[Other](null)|[qazbnm456](https://github.com/qazbnm456)|
+|[powerline-docker](https://github.com/adrianmo/powerline-docker)|A Powerline segment for showing the status of your Docker containers|-|30|52 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[adrianmo](https://github.com/adrianmo)|
+|[compose_plantuml](https://github.com/funkwerk/compose_plantuml)|Generate Plantuml graphs from docker-compose files|-|29|68 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[funkwerk](https://github.com/funkwerk)|
+|[docker-garby](https://github.com/konstruktoid/docker-garby)|Just another Docker maintenance script, managing garbage collection of Docker containers and images.|-|28|150 days ago|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[konstruktoid](https://github.com/konstruktoid)|
+|[scuba](https://github.com/JonathonReinhart/scuba)|Simple Container-Utilizing Build Apparatus|-|27|69 days ago|Python|[MIT License](https://api.github.com/licenses/mit)|[JonathonReinhart](https://github.com/JonathonReinhart)|
+|[plash](https://github.com/ihucos/plash)|A container build and runtime system|http://plash.io/|22|today|Python|[MIT License](https://api.github.com/licenses/mit)|[ihucos](https://github.com/ihucos)|
+|[Dockerfiles](https://github.com/ondrejmo/Dockerfiles)|These are Dockerfiles I've created for programs without official docker image.|-|22|today|Shell||[ondrejmo](https://github.com/ondrejmo)|
+|[docker-companion](https://github.com/mudler/docker-companion)|squash and unpack Docker images, in Golang|-|22|2 days ago|Go|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[mudler](https://github.com/mudler)|
+|[TrivialRC](https://github.com/vorakl/TrivialRC)|A minimalistic RC system and process manager for containers and applications|http://trivialrc.vorakl.name/|22|196 days ago|Shell|[MIT License](https://api.github.com/licenses/mit)|[vorakl](https://github.com/vorakl)|
+|[skipper](https://github.com/Stratoscale/skipper)|Easily dockerize your Git repository|-|21|21 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[Stratoscale](https://github.com/Stratoscale)|
+|[construi](https://github.com/lstephen/construi)|Use Docker to define your build environment.|-|19|103 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[lstephen](https://github.com/lstephen)|
+|[clusterdock](https://github.com/clusterdock/clusterdock)|clusterdock is a framework for creating Docker-based container clusters|http://clusterdock.rtfd.io|18|6 days ago|Python|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[clusterdock](https://github.com/clusterdock)|
+|[Docker-Arch](https://github.com/Ph3nol/Docker-Arch)|Generate Web/CLI projects Dockerized development environments, from 1 simple YAML file.|https://ph3nol.github.io/Docker-Arch/|18|4 days ago|PHP|[MIT License](https://api.github.com/licenses/mit)|[Ph3nol](https://github.com/Ph3nol)|
+|[blimp](https://github.com/tubesandlube/blimp)|Mechanism to easily move a container from one Docker host to another|http://tubesandlube.github.io/blimp|17|227 days ago|Perl||[tubesandlube](https://github.com/tubesandlube)|
+|[funker-example-voting-app](https://github.com/bfirsh/funker-example-voting-app)|An example app using Funker|-|16|5 days ago|JavaScript|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[bfirsh](https://github.com/bfirsh)|
+|[capitan](https://github.com/byrnedo/capitan)|Capitan is a tool for managing multiple Docker containers|-|16|349 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[byrnedo](https://github.com/byrnedo)|
+|[docker-do](https://github.com/benzaita/docker-do)|hassle-free `docker run`|-|15|386 days ago|Shell||[benzaita](https://github.com/benzaita)|
+|[cleanreg](https://github.com/hcguersoy/cleanreg)|A small tool to clean up Docker Registries (v2).|-|15|15 days ago|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[hcguersoy](https://github.com/hcguersoy)|
+|[swarm-router](https://github.com/flavioaiello/swarm-router)|A «zero config» service name based router for docker swarm mode with a fresh and more secure approach|https://hub.docker.com/r/flavioaiello/swarm-router/|15|23 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[flavioaiello](https://github.com/flavioaiello)|
+|[dockerding-on-rails](https://github.com/Electrofenster/dockerding-on-rails)|Simple Web-Interface for Docker with a lot of features|-|13|234 days ago|Ruby|[MIT License](https://api.github.com/licenses/mit)|[Electrofenster](https://github.com/Electrofenster)|
+|[turbo](https://github.com/ramitsurana/turbo)|Simple and Powerfull Utility for Docker|http://ramitsurana.github.io/turbo|12|136 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[ramitsurana](https://github.com/ramitsurana)|
+|[rescoyl](https://github.com/noteed/rescoyl)|Private Docker registry|-|10|116 days ago|Haskell|[Other](null)|[noteed](https://github.com/noteed)|
+|[docker-missing-tools](https://github.com/nandoquintana/docker-missing-tools)|Docker missing tools|-|10|27 days ago|Shell||[nandoquintana](https://github.com/nandoquintana)|
+|[caduc](https://github.com/tjamet/caduc)|Event based Continuous Docker Cleaner|-|9|3 days ago|Python|[GNU General Public License v3.0](https://api.github.com/licenses/gpl-3.0)|[tjamet](https://github.com/tjamet)|
+|[copy-docker-image](https://github.com/mdlavin/copy-docker-image)|Copy a Docker image between registries without a full Docker installation|-|9|102 days ago|Go||[mdlavin](https://github.com/mdlavin)|
+|[supdock](https://github.com/segersniels/supdock)|What's Up, Dock(er)?|-|8|12 days ago|JavaScript||[segersniels](https://github.com/segersniels)|
+|[depcon](https://github.com/gondor/depcon)|Docker blue-green/deployment/management supporting Mesos/Marathon and Compose.  THIS IS A FORK - SEE ORIGINAL REPO|http://depcon.containx.io|7|243 days ago|Go|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[gondor](https://github.com/gondor)|
+|[alpine-cvecheck](https://github.com/tomwillfixit/alpine-cvecheck)|Code used to CVE check Alpine based images|-|6|124 days ago|Shell||[tomwillfixit](https://github.com/tomwillfixit)|
+|[multidocker](https://github.com/marty90/multidocker)|Creates a system where users are forced to login in dedicated independent docker containers.|-|6|6 days ago|Shell|[Apache License 2.0](https://api.github.com/licenses/apache-2.0)|[marty90](https://github.com/marty90)|
+|[EnvCLI](https://github.com/PhilippHeuer/EnvCLI)|Replace your local installation of Node, Go, ... with project-specific docker containers. If you have a new machine you just have to install docker and envcli to get started.|-|5|2 days ago|Go|[MIT License](https://api.github.com/licenses/mit)|[PhilippHeuer](https://github.com/PhilippHeuer)|
+|[dcw](https://github.com/pbertera/dcw)|Docker Compose Wrapper (a poor man's PAAS management tool)|-|5|237 days ago|Shell||[pbertera](https://github.com/pbertera)|
+|[cargos-buildroot](https://github.com/RedCoolBeans/cargos-buildroot)|-|https://cargos.io/|4|5 days ago|Makefile|[GNU General Public License v2.0](https://api.github.com/licenses/gpl-2.0)|[RedCoolBeans](https://github.com/RedCoolBeans)|
+|[DockerSurfer](https://github.com/Simone-Erba/DockerSurfer)|A tool for browse and analyze Docker Registries|http://dockersurfer.com/|2|64 days ago|JavaScript||[Simone-Erba](https://github.com/Simone-Erba)|
+|[dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin)|:whale: Dext plugin to search the Docker Registry for Docker images.|-|1|563 days ago|JavaScript|[MIT License](https://api.github.com/licenses/mit)|[vutran](https://github.com/vutran)|
