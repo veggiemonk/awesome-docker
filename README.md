@@ -371,6 +371,7 @@ Tools and applications that are either installed inside containers or designed t
 
 Applications designed to help or simplify building **new** images
 
+- [buildah](https://github.com/projectatomic/buildah) - A tool that facilitates building OCI images by [@projectAtomic][projectatomic]
 - [container-diff](https://github.com/GoogleContainerTools/container-diff) - An image tool for comparing and analzying container images by [@GoogleContainerTools][GoogleContainerTools]
 - [container-factory](https://github.com/mutable/container-factory) - Produces Docker images from tarballs of application source code by [@mutable](https://github.com/mutable)
 - [copy-docker-image](https://github.com/mdlavin/copy-docker-image) - Copy a Docker image between registries without a full Docker installation by [@mdlavin](https://github.com/mdlavin)
@@ -413,7 +414,7 @@ Examples by:
 
 ### Linter
 
-- [dockerfile_lint](https://github.com/projectatomic/dockerfile_lint) - A rule-based 'linter' for Dockerfiles by [@redhataccess](https://github.com/redhataccess)
+- [dockerfile_lint](https://github.com/projectatomic/dockerfile_lint) - A rule-based 'linter' for Dockerfiles by [@projectatomic][projectatomic]
 - [Dockerfilelint](https://github.com/replicatedhq/dockerfilelint) - A node module that analyzes a Dockerfile and looks for common traps, mistakes and helps enforce best practices by [@replicatedhq](https://github.com/replicatedhq)
 - [dockfmt](https://github.com/jessfraz/dockfmt) :construction: - Dockerfile formatter and parser by [@jessfraz][jessfraz]
 - [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions; by [@lukasmartinelli](https://github.com/lukasmartinelli)
@@ -752,6 +753,7 @@ Blogs by
 [pandrew]: https://github.com/pandrew
 [percheron]: https://github.com/ashmckenzie/percheron
 [progrium]: https://github.com/progrium
+[projectatomic]: https://github.com/projectatomic
 [prologic]: https://github.com/prologic
 [ramitsurana]: https://github.com/ramitsurana
 [rancher]: https://github.com/rancher
