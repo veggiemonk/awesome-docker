@@ -23,10 +23,13 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 
 <!-- TOC -->
 
-- Introduction
-  - [What is Docker?](#what-is-docker)
-  - [Where to start?](#where-to-start)
-  - [Where to start? (Windows)](#where-to-start-windows)
+- [Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/veggiemonk/awesome-docker) [![Say Thanks](https://img.shields.io/badge/SayThanks.io-☼-1EAEDB.svg)](https://saythanks.io/to/veggiemonk)](#awesome-docker-awesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome-join-the-chat-at-httpsgitterimveggiemonkawesome-dockerhttpsbadgesgitterimjoinchatsvghttpsgitterimveggiemonkawesome-docker-say-thankshttpsimgshieldsiobadgesaythanksio--1eaedbsvghttpssaythanksiotoveggiemonk)
+      - [*If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request][editREADME] to improve this file. Thank you!*](#if-you-see-a-link-here-that-is-not-any-longer-a-good-fit-you-can-fix-it-by-submitting-a-pull-requesteditreadme-to-improve-this-file-thank-you)
+- [Contents](#contents)
+- [Legend](#legend)
+- [What is Docker](#what-is-docker)
+- [Where to start](#where-to-start)
+- [Where to start (Windows)](#where-to-start-windows)
 - [Projects](#projects)
   - [Container Operations](#container-operations)
     - [Container Composition](#container-composition)
@@ -59,7 +62,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
     - [Testing](#testing)
     - [Wrappers](#wrappers)
   - [Services based on Docker (:heavy_dollar_sign:)](#services-based-on-docker-heavy_dollar_sign)
-    - [CI/CD](#ci-services)
+    - [CI Services](#ci-services)
     - [CaaS](#caas)
     - [Monitoring Services](#monitoring-services)
 - [Useful Resources](#useful-resources)
@@ -179,7 +182,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 ### Monitoring
 
 - [Axibase Collector](https://github.com/axibase/atsd-use-cases/tree/master/Solutions/docker) - Axibase Collector streams performance counters, configuration changes and lifecycle events from the Docker engine(s) into Axibase Time Series Database for roll-up dashboards and integration with upstream monitoring systems.
-- [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers. Created by [@Google](https://github.com/google)
+- [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers. Created by [@Google][google]
 - [Docker-Alertd](https://github.com/deltaskelta/docker-alertd) - Monitor and send alerts based on docker container resource usage/statistics
 - [Docker-Flow-Monitor](https://github.com/docker-flow/docker-flow-monitor) - Reconfigures Prometheus when a new service is updated or deployed automatically by [@vfarcic][vfarcic]
 - [Docker-Fluentd][fluentd] - Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd by [@kiyoto][kiyoto]
@@ -266,6 +269,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 - [Clair](https://github.com/coreos/clair) - Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By [@coreos][CoreOS]
 - [Dagda](https://github.com/eliasgranderubio/dagda) - Dagda is a tool to perform static analysis of known vulnerabilities, trojans, viruses, malware & other malicious threats in docker images/containers and to monitor the docker daemon and running docker containers for detecting anomalous activities. By [@eliasgranderubio](https://github.com/eliasgranderubio)
 - [docker-bench-security](https://github.com/docker/docker-bench-security) - script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker][docker]
+- [docker-explorer](https://github.com/google/docker-explorer) - A tool to help forensicate offline docker acquisitions by [@Google][google]
 - [notary](https://github.com/theupdateframework/notary) - a server and a client for running and interacting with trusted collections. By [@TUF](https://github.com/theupdateframework)
 - [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By RedHat
 - [Sysdig Falco](https://github.com/draios/falco) - Sysdig Falco is an open source container security monitor. It can monitor application, container, host, and network activity and alert on unauthorized activity.
@@ -726,6 +730,7 @@ Blogs by
 [genuinetools]:  https://github.com/genuinetools
 [gliderlabs]: https://github.com/gliderlabs
 [gondor]: https://github.com/gondor
+[google]: https://github.com/google
 [GoogleContainerTools]: https://github.com/GoogleContainerTools
 [grammarly]: https://github.com/grammarly
 [hashicorp]: https://github.com/hashicorp
