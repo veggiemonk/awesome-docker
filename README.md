@@ -22,11 +22,6 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 # Contents
 
 <!-- TOC -->
-
-- [Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/veggiemonk/awesome-docker) [![Say Thanks](https://img.shields.io/badge/SayThanks.io-☼-1EAEDB.svg)](https://saythanks.io/to/veggiemonk)](#awesome-docker-awesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome-join-the-chat-at-httpsgitterimveggiemonkawesome-dockerhttpsbadgesgitterimjoinchatsvghttpsgitterimveggiemonkawesome-docker-say-thankshttpsimgshieldsiobadgesaythanksio--1eaedbsvghttpssaythanksiotoveggiemonk)
-      - [*If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request][editREADME] to improve this file. Thank you!*](#if-you-see-a-link-here-that-is-not-any-longer-a-good-fit-you-can-fix-it-by-submitting-a-pull-requesteditreadme-to-improve-this-file-thank-you)
-- [Contents](#contents)
-- [Legend](#legend)
 - [What is Docker](#what-is-docker)
 - [Where to start](#where-to-start)
 - [Where to start (Windows)](#where-to-start-windows)
