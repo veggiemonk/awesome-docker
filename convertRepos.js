@@ -1,6 +1,10 @@
 const fs = require('fs');
 const dayjs = require('dayjs');
 
+process.on('unhandledRejection', error => {
+  console.log('unhandledRejection', error.message);
+});
+
 function getLastUpdate(updated) {
   const updt = Number(dayjs(updated).diff(dayjs(), 'days'));
   if (updt < 0) {
