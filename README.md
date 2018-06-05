@@ -408,7 +408,7 @@ Examples by:
 - [@komljen](https://github.com/komljen/dockerfile-examples)
 - [@kstaken](https://github.com/kstaken/dockerfile-examples)
 - [@ondrejmo](https://github.com/ondrejmo/Dockerfiles)
-- [@pandrew](https://github.com/pandrew/dockerfiles)
+- [@pandrew](https://gitlab.com/pandrew/dockerfiles)
 - [@vimagick](https://github.com/vimagick/dockerfiles)
 
 ### Linter
