@@ -611,7 +611,7 @@ Blogs by
 - [@nickjanetakis](https://nickjanetakis.com/blog/tag/docker-tips-tricks-and-tutorials)
 - [@progrium](http://progrium.com/blog/)
 - [@sebgoa](http://sebgoa.blogspot.be/)
-- [Container solutions](http://container-solutions.com/blog/)
+- [Container solutions](https://container-solutions.com/blog/)
 - [Container42](https://container42.com/)
 
 ## Awesome Lists
