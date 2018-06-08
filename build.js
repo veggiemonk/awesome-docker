@@ -2,7 +2,6 @@ const fs = require('fs');
 const showdown = require('showdown');
 const cheerio = require('cheerio');
 const Parcel = require('parcel-bundler');
-const camelCase = require('camelcase');
 
 process.env.NODE_ENV = 'production';
 
@@ -19,7 +18,7 @@ const includeReadme = ({
   md = readme,
   templateHTML = template,
   dest = merged,
-}) => {
+} = {}) => {
   const converter = new showdown.Converter({
     omitExtraWLInCodeBlocks: true,
     simplifiedAutoLink: true,
@@ -48,19 +47,6 @@ const includeReadme = ({
   console.log('Merging files...');
   const $ = cheerio.load(indexTemplate);
   $('#md').append(converter.makeHtml(markdown));
-  $('a').each((i, elem) => {
-    $(elem).attr(
-      'id',
-      camelCase(
-        $(elem)
-          .attr('href')
-          .replace(/\/|\.|:|#/g, ''),
-        {
-          pascalCase: true,
-        },
-      ),
-    );
-  });
   console.log('Writing index.html');
   fs.writeFileSync(dest, $.html(), 'utf8');
   console.log('DONE 👍');
@@ -82,7 +68,7 @@ const bundle = (dest = destination) => {
 };
 
 const main = () => {
-  includeReadme({});
+  includeReadme();
   bundle();
 };
 
