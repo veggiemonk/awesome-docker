@@ -1,7 +1,6 @@
 const fs = require('fs');
 const cheerio = require('cheerio');
 const dayjs = require('dayjs');
-const icons = require('./icons');
 
 const getLatestFilename = fs.readFileSync('data/latest', 'utf-8');
 console.log(getLatestFilename);
@@ -38,6 +37,22 @@ const getLastUpdate = updated => {
   return updated;
 };
 
+const mapHomePage = h => {
+  if (h === 'manageiq.org') return 'https://manageiq.org';
+  else if (h === 'dev-sec.io') return 'https://dev-sec.io';
+  return h;
+};
+
+const mapLicense = l => {
+  if (l === 'GNU Lesser General Public License v3.0') return 'GNU LGPL v3.0';
+  else if (l === 'GNU General Public License v2.0') return 'GNU GPL v2.0';
+  else if (l === 'GNU General Public License v3.0') return 'GNU GPL v3.0';
+  else if (l === 'BSD 3-Clause "New" or "Revised" License')
+    return 'BSD 3-Clause';
+  else if (l === 'BSD 2-Clause "Simplified" License') return 'BSD 2-Clause';
+  return l;
+};
+
 const formatEntry = (
   {
     name,
@@ -62,19 +77,19 @@ const formatEntry = (
       updated,
     )}</p>`,
     (homepage &&
-      `<a href="${homepage}" class="link ${valueNames[2]}">🔗 website</a>`) ||
+      `<a href="${mapHomePage(homepage)}" class="link ${
+        valueNames[2]
+      }">website</a>`) ||
       '<p></p>',
     `<p class="${
       valueNames[3]
     } timestamp" data-timestamp="${stargazers}">⭐️${stargazers}</p>`,
-    (language &&
-      `<p class="${valueNames[5]}">${icons[language] ||
-        '💻'}${language}</p>`) ||
-      '<p></p>',
+    (language && `<p class="${valueNames[5]}">💻${language}</p>`) || '<p></p>',
     (license &&
-      `<a href="${license.url}" class="link ${valueNames[6]}">📃 ${
-        license.name
-      }</a>`) ||
+      license.url !== null &&
+      `<a href="${license.url}" class="link ${valueNames[6]}">${mapLicense(
+        license.name,
+      )}</a>`) ||
       '<p></p>',
     owner &&
       `<p>Made by </p><a href="${owner.html_url}" class="link ${
@@ -102,21 +117,6 @@ function main() {
     ].join(''),
   );
 
-  $('body').append(
-    '<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.js"></script>',
-  );
-
-  $('body').append(
-    [
-      '<script>',
-      `const userList = new List('md', {`,
-      ` valueNames:  ['name','description','homepage','star','updated','language','license','author'],`,
-      // ` page: 20,`,
-      // ` pagination: true,`,
-      `});`,
-      '</script>',
-    ].join(''),
-  );
   console.log('Writing table.html');
   fs.writeFileSync(destination, $.html(), 'utf8');
   console.log('DONE 👍');

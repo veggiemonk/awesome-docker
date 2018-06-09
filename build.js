@@ -2,6 +2,7 @@ const fs = require('fs');
 const showdown = require('showdown');
 const cheerio = require('cheerio');
 const Parcel = require('parcel-bundler');
+const sm = require('sitemap');
 
 process.env.NODE_ENV = 'production';
 
@@ -63,7 +64,29 @@ const bundle = (dest = destination) => {
   })
     .bundle()
     .then(() => {
-      fs.copyFileSync('website/sitemap.xml', 'dist/sitemap.xml');
+      // Creates a sitemap object given the input configuration with URLs
+      const sitemap = sm.createSitemap({
+        hostname: 'https://awesome-docker.netlify.com/',
+        cacheTime: 6000000, // 600 sec (10 min) cache purge period
+        urls: [
+          {
+            url: '/',
+            changefreq: 'daily',
+            priority: 0.8,
+            lastmodrealtime: true,
+            lastmodfile: 'dist/index.html',
+          },
+          {
+            url: '/table.html',
+            changefreq: 'weekly',
+            priority: 0.8,
+            lastmodrealtime: true,
+            lastmodfile: 'dist/table.html',
+          },
+        ],
+      });
+      fs.writeFileSync('dist/sitemap.xml', sitemap.toString());
+      // fs.copyFileSync('website/sitemap.xml', 'dist/sitemap.xml');
     });
 };
 

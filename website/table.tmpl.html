@@ -13,6 +13,10 @@
   <meta name="google-site-verification" content="_yiugvz0gCtfsBLyLl1LnkALXb6D4ofiwCyV1XOlYBM" />
   <link rel="icon" type="image/png" href="favicon.png">
   <style>
+    :root {
+  --main-list-header: #5dbcd2;
+  --main-list-footer: #5dbcd2;
+}
 * {
   box-sizing: border-box
 }
@@ -55,10 +59,6 @@ img {
   border: 0
 }
 
-svg:not(:root) {
-  overflow: hidden
-}
-
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -86,6 +86,168 @@ svg:not(:root) {
   opacity: .7
 }
 
+/*******************************************************/
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+}
+
+/*******************************************************/
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+.searchbar > .search {
+  border-radius: .25rem;
+  padding: .5rem 1rem .5rem 1rem;
+  margin: 1rem 0 1rem 0;
+  width: 18rem;
+  font-size: 2.5rem;
+}
+
+/*******************************************************/
+
+.sortbtn {
+  display: grid;
+  grid-template-columns: repeat(4, 6.5rem);
+  justify-content: right;
+  padding-right: 1rem;
+}
+
+.sortbtn :first-child {
+  grid-row: span 4;
+  align-self: center;
+}
+
+.sort {
+  border-radius: 6px;
+  border: 1px solid white;
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--main-list-header);
+  height: 2rem;
+}
+
+.sort:hover {
+  text-decoration: none;
+  background-color: #1b8aba;
+}
+
+.sort:focus {
+  outline: none;
+}
+
+.sort:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px;
+}
+
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: 13px;
+  right: -5px;
+}
+
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px;
+}
+
+/*******************************************************/
+
+.list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  line-height: 1;
+  padding: 1rem;
+  margin: 0;
+}
+
+.list > li {
+  display: grid;
+  grid-template-rows: 2rem 1fr 2rem 2rem 2rem;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+}
+
+li > .description,
+li > .name,
+li > .updated {
+  grid-column: span 2;
+}
+
+.list li > * {
+  text-align: center;
+  margin: 0;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.list li > :first-child {
+  color: white;
+  background-color: var(--main-list-header);
+  border-radius: 1rem 1rem 0 0;
+}
+.list li > .description {
+  border-bottom: 1px solid var(--main-list-header);
+  word-wrap: break-word;
+  padding: 1rem;
+}
+.list li > .updated {
+  border-bottom: 1px solid var(--main-list-header);
+}
+
+.list > li > :nth-last-child(3),
+.list > li > :nth-last-child(4) {
+  align-self: flex-end;
+}
+
+.list > li > :last-child {
+  color: white;
+  background-color: var(--main-list-footer);
+  border-radius: 0 0 1rem 0;
+  padding: .5rem 0 .5rem 0;
+}
+.list > li > :nth-last-child(2) {
+  color: white;
+  background-color: var(--main-list-footer);
+  border-radius: 0 0 0 1rem;
+  padding: .5rem 0 .5rem 0;
+}
+
+/*******************************************************/
+
 @media screen and (min-width:64em) {
   .btn {
     padding: .75rem 1rem
@@ -100,7 +262,8 @@ svg:not(:root) {
     font-size: 1.25rem
   }
   .main-content {
-    font-size: 1.1rem
+    font-size: 1.1rem;
+    margin: 0 8rem 0 8rem;
   }
 }
 
@@ -142,9 +305,18 @@ svg:not(:root) {
   .main-content {
     font-size: 1rem
   }
+  .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .sortbtn {
+    display: grid;
+    grid-template-columns: repeat(3, 6.5rem);
+    justify-content: center;
+  }
 }
   </style>
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body>
@@ -158,9 +330,9 @@ svg:not(:root) {
       data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star veggiemonk/awesome-docker on GitHub">Star</a>
   </section>
   <section id="md" class="main-content"></section>
-  <!--<script src="index.js"></script> -->
+  <script src="index.js"></script>
   <!--Place this tag in your head or just before your close body tag. -->
-  <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
 </html>
