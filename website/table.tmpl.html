@@ -86,42 +86,6 @@ svg:not(:root) {
   opacity: .7
 }
 
-.main-content>ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
-  grid-gap: 20px;
-  align-items: stretch;
-  line-height: 1;
-  padding: 20px;
-}
-
-.main-content>ul>li {
-  display: grid;
-  /* width: 300px; */
-  /* max-width: 100%; */
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  border: 1px solid #ccc;
-  /* height: 300px; */
-  /* grid-template-columns: 280px; */
-  border-radius: 20px;
-  padding: 10px;
-  text-align: center;
-}
-
-.main-content>ul>li>* {
-  margin: 0 0 0 0;
-}
-
-.main-content img {
-  max-width: 100%
-}
-
-.list li {
-  list-style: none;
-  padding: 5px 10px;
-  border: 1px solid #eee;
-}
-
 .sort {
   border-radius: 6px;
   border: none;
@@ -191,7 +155,6 @@ svg:not(:root) {
     font-size: 1.25rem
   }
   .main-content {
-    margin: 0 auto;
     font-size: 1.1rem
   }
 }
@@ -236,6 +199,7 @@ svg:not(:root) {
   }
 }
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
