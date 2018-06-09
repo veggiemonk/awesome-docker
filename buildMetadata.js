@@ -22,7 +22,7 @@ const GITHUB_METADATA_FILE = `data/${dayjs().format(
   'YYYY-MM-DDTHH.mm.ss',
 )}-fetched_repo_data.json`;
 const GITHUB_REPOS = 'data/list_repos.json';
-const METADATA_TABLE = 'data/table.md';
+// const METADATA_TABLE = 'data/table.md';
 // --- HTTP ---
 const API = 'https://api.github.com/';
 const options = {
@@ -73,41 +73,41 @@ const ProgressBar = (i, batchSize, total) => {
   );
 };
 
-const getLastUpdate = updated => {
-  const updt = Number(dayjs(updated).diff(dayjs(), 'days'));
-  if (updt < 0) {
-    if (Math.abs(updt) === 1) return `1 day ago`;
-    return `${Math.abs(updt)} days ago`;
-  } else if (updt === 0) return 'today';
-  return updated;
-};
+// const getLastUpdate = updated => {
+//   const updt = Number(dayjs(updated).diff(dayjs(), 'days'));
+//   if (updt < 0) {
+//     if (Math.abs(updt) === 1) return `1 day ago`;
+//     return `${Math.abs(updt)} days ago`;
+//   } else if (updt === 0) return 'today';
+//   return updated;
+// };
 
-const createLine = data => {
-  const {
-    name,
-    html_url: repoURL,
-    description,
-    homepage,
-    stargazers_count: stargazers,
-    updated_at: updated,
-    language,
-    license,
-    owner,
-  } = data;
-  if (!data || !name) return '|ERROR |';
+// const createLine = data => {
+//   const {
+//     name,
+//     html_url: repoURL,
+//     description,
+//     homepage,
+//     stargazers_count: stargazers,
+//     updated_at: updated,
+//     language,
+//     license,
+//     owner,
+//   } = data;
+//   if (!data || !name) return '|ERROR |';
 
-  const lineData = [
-    `[${name}](${repoURL})`,
-    description || '-',
-    homepage || '-',
-    stargazers,
-    getLastUpdate(updated),
-    language,
-    license && `[${license.name}](${license.url})`,
-    owner && `[${owner.login}](${owner.html_url})`,
-  ];
-  return `|${lineData.join('|')}|`;
-};
+//   const lineData = [
+//     `[${name}](${repoURL})`,
+//     description || '-',
+//     homepage || '-',
+//     stargazers,
+//     getLastUpdate(updated),
+//     language,
+//     license && `[${license.name}](${license.url})`,
+//     owner && `[${owner.login}](${owner.html_url})`,
+//   ];
+//   return `|${lineData.join('|')}|`;
+// };
 
 async function batchFetchRepoMetadata(githubRepos) {
   const repos = githubRepos.map(removeHost);
@@ -118,37 +118,31 @@ async function batchFetchRepoMetadata(githubRepos) {
     const batch = repos.slice(i, i + BATCH_SIZE);
     if (process.env.DEBUG) console.log({ batch });
     const res = await fetchAll(batch);
-    fs.appendFile(
-      GITHUB_METADATA_FILE,
-      JSON.stringify(res, null, 2),
-      printError,
-    );
     metadata.push(...res);
     ProgressBar(i, BATCH_SIZE, repos.length);
-    // poor's man rate limiting so github don't blacklist us
-    // also the file has the time to append the data
+    // poor man's rate limiting so github don't ban us
     await delay(DELAY);
   }
   ProgressBar(repos.length, BATCH_SIZE, repos.length);
   return metadata;
 }
 
-const convertToTable = data => {
-  const header = `
-# Repository Metadata
+// const convertToTable = data => {
+//   const header = `
+// # Repository Metadata
 
-| Name        | Description | Homepage | Star | Updated | Language | License | Author |
-| ----------- | ----------- | -------- | ---- | ------- | -------- | :---:   | ------:|`;
-  const table = [header]
-    .concat(
-      data
-        .sort((a, b) => Number(b.stargazers_count) - Number(a.stargazers_count))
-        .map(createLine),
-    )
-    .join('\n');
+// | Name        | Description | Homepage | Star | Updated | Language | License | Author |
+// | ----------- | ----------- | -------- | ---- | ------- | -------- | :---:   | ------:|`;
+//   const table = [header]
+//     .concat(
+//       data
+//         .sort((a, b) => Number(b.stargazers_count) - Number(a.stargazers_count))
+//         .map(createLine),
+//     )
+//     .join('\n');
 
-  return writeFile(METADATA_TABLE, table);
-};
+//   return writeFile(METADATA_TABLE, table);
+// };
 
 async function main() {
   try {
@@ -162,11 +156,15 @@ async function main() {
 
     const metadata = batchFetchRepoMetadata(githubRepos);
 
-    console.log('✅ fetching metadata');
+    await writeFile(
+      GITHUB_METADATA_FILE,
+      JSON.stringify(metadata, null, 2),
+      printError,
+    );
+    console.log('✅ metadata saved');
 
-    await convertToTable(metadata);
-
-    console.log('✅ writing metadata table');
+    // await convertToTable(metadata);
+    // console.log('✅ writing metadata table');
   } catch (err) {
     printError(err);
   }

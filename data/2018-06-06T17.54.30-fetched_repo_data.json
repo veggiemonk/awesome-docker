@@ -1123,9 +1123,7 @@
     },
     "network_count": 1333,
     "subscribers_count": 300
-  }
-][
-  {
+},{
     "id": 19360616,
     "node_id": "MDEwOlJlcG9zaXRvcnkxOTM2MDYxNg==",
     "name": "swarm",
@@ -2226,9 +2224,7 @@
     },
     "network_count": 7,
     "subscribers_count": 4
-  }
-][
-  {
+},{
     "id": 67536560,
     "node_id": "MDEwOlJlcG9zaXRvcnk2NzUzNjU2MA==",
     "name": "elsy",
@@ -3467,9 +3463,7 @@
     },
     "network_count": 65,
     "subscribers_count": 40
-  }
-][
-  {
+},{
     "id": 27701139,
     "node_id": "MDEwOlJlcG9zaXRvcnkyNzcwMTEzOQ==",
     "name": "conduit",
@@ -4808,9 +4802,7 @@
     },
     "network_count": 9,
     "subscribers_count": 4
-  }
-][
-  {
+},{
     "id": 85515090,
     "node_id": "MDEwOlJlcG9zaXRvcnk4NTUxNTA5MA==",
     "name": "docker-flow-monitor",
@@ -5977,9 +5969,7 @@
     },
     "network_count": 11,
     "subscribers_count": 6
-  }
-][
-  {
+},{
     "id": 21704134,
     "node_id": "MDEwOlJlcG9zaXRvcnkyMTcwNDEzNA==",
     "name": "flannel",
@@ -7378,9 +7368,7 @@
     },
     "network_count": 31,
     "subscribers_count": 10
-  }
-][
-  {
+},{
     "id": 72737874,
     "node_id": "MDEwOlJlcG9zaXRvcnk3MjczNzg3NA==",
     "name": "haven-platform",
@@ -8639,9 +8627,7 @@
     },
     "network_count": 152,
     "subscribers_count": 88
-  }
-][
-  {
+},{
     "id": 26337322,
     "node_id": "MDEwOlJlcG9zaXRvcnkyNjMzNzMyMg==",
     "name": "rancher",
@@ -9854,9 +9840,7 @@
     },
     "network_count": 363,
     "subscribers_count": 205
-  }
-][
-  {
+},{
     "id": 52381034,
     "node_id": "MDEwOlJlcG9zaXRvcnk1MjM4MTAzNA==",
     "name": "workflow",
@@ -11167,9 +11151,7 @@
     },
     "network_count": 2,
     "subscribers_count": 2
-  }
-][
-  {
+},{
     "id": 42408804,
     "node_id": "MDEwOlJlcG9zaXRvcnk0MjQwODgwNA==",
     "name": "traefik",
@@ -12408,9 +12390,7 @@
     },
     "network_count": 122,
     "subscribers_count": 52
-  }
-][
-  {
+},{
     "id": 49986046,
     "node_id": "MDEwOlJlcG9zaXRvcnk0OTk4NjA0Ng==",
     "name": "falco",
@@ -13629,9 +13609,7 @@
     },
     "network_count": 98,
     "subscribers_count": 31
-  }
-][
-  {
+},{
     "id": 34205411,
     "node_id": "MDEwOlJlcG9zaXRvcnkzNDIwNTQxMQ==",
     "name": "docker-unison",
@@ -14772,9 +14750,7 @@
     },
     "network_count": 31,
     "subscribers_count": 19
-  }
-][
-  {
+},{
     "id": 77419377,
     "node_id": "MDEwOlJlcG9zaXRvcnk3NzQxOTM3Nw==",
     "name": "ctop",
@@ -15887,9 +15863,7 @@
     },
     "network_count": 41,
     "subscribers_count": 36
-  }
-][
-  {
+},{
     "id": 42531199,
     "node_id": "MDEwOlJlcG9zaXRvcnk0MjUzMTE5OQ==",
     "name": "dvm",
@@ -17002,9 +16976,7 @@
     },
     "network_count": 1,
     "subscribers_count": 3
-  }
-][
-  {
+},{
     "id": 34074446,
     "node_id": "MDEwOlJlcG9zaXRvcnkzNDA3NDQ0Ng==",
     "name": "wharfee",
@@ -18137,9 +18109,7 @@
     },
     "network_count": 369,
     "subscribers_count": 109
-  }
-][
-  {
+},{
     "id": 51555295,
     "node_id": "MDEwOlJlcG9zaXRvcnk1MTU1NTI5NQ==",
     "name": "rapid",
@@ -19212,9 +19182,7 @@
     },
     "network_count": 4,
     "subscribers_count": 9
-  }
-][
-  {
+},{
     "id": 100341708,
     "node_id": "MDEwOlJlcG9zaXRvcnkxMDAzNDE3MDg=",
     "name": "lstags",
@@ -20387,9 +20355,7 @@
     },
     "network_count": 36,
     "subscribers_count": 26
-  }
-][
-  {
+},{
     "id": 39589297,
     "node_id": "MDEwOlJlcG9zaXRvcnkzOTU4OTI5Nw==",
     "name": "dlayer",
@@ -21582,9 +21548,7 @@
     },
     "network_count": 16,
     "subscribers_count": 43
-  }
-][
-  {
+},{
     "id": 36849312,
     "node_id": "MDEwOlJlcG9zaXRvcnkzNjg0OTMxMg==",
     "name": "runlike",
@@ -22659,9 +22623,7 @@
     },
     "network_count": 399,
     "subscribers_count": 52
-  }
-][
-  {
+},{
     "id": 49360444,
     "node_id": "MDEwOlJlcG9zaXRvcnk0OTM2MDQ0NA==",
     "name": "Dockerfiles",
@@ -23802,9 +23764,7 @@
     },
     "network_count": 5,
     "subscribers_count": 5
-  }
-][
-  {
+},{
     "id": 29760781,
     "node_id": "MDEwOlJlcG9zaXRvcnkyOTc2MDc4MQ==",
     "name": "docket",
@@ -25003,9 +24963,7 @@
     },
     "network_count": 139,
     "subscribers_count": 103
-  }
-][
-  {
+},{
     "id": 12467623,
     "node_id": "MDEwOlJlcG9zaXRvcnkxMjQ2NzYyMw==",
     "name": "dockerode",
@@ -26164,9 +26122,7 @@
     },
     "network_count": 246,
     "subscribers_count": 56
-  }
-][
-  {
+},{
     "id": 16607898,
     "node_id": "MDEwOlJlcG9zaXRvcnkxNjYwNzg5OA==",
     "name": "drone",
@@ -27365,9 +27321,7 @@
     },
     "network_count": 4,
     "subscribers_count": 1
-  }
-][
-  {
+},{
     "id": 18931097,
     "node_id": "MDEwOlJlcG9zaXRvcnkxODkzMTA5Nw==",
     "name": "devstep",
@@ -28408,9 +28362,7 @@
     },
     "network_count": 9,
     "subscribers_count": 11
-  }
-][
-  {
+},{
     "id": 78498440,
     "node_id": "MDEwOlJlcG9zaXRvcnk3ODQ5ODQ0MA==",
     "name": "lando",
@@ -29603,9 +29555,7 @@
     },
     "network_count": 618,
     "subscribers_count": 225
-  }
-][
-  {
+},{
     "id": 59715467,
     "node_id": "MDEwOlJlcG9zaXRvcnk1OTcxNTQ2Nw==",
     "name": "docker-lambda",
@@ -30778,9 +30728,7 @@
     },
     "network_count": 65,
     "subscribers_count": 40
-  }
-][
-  {
+},{
     "id": 13003799,
     "node_id": "MDEwOlJlcG9zaXRvcnkxMzAwMzc5OQ==",
     "name": "azk",
@@ -31947,9 +31895,7 @@
     },
     "network_count": 36,
     "subscribers_count": 12
-  }
-][
-  {
+},{
     "id": 72878982,
     "node_id": "MDEwOlJlcG9zaXRvcnk3Mjg3ODk4Mg==",
     "name": "landscape",
@@ -33242,9 +33188,7 @@
     },
     "network_count": 66,
     "subscribers_count": 69
-  }
-][
-  {
+},{
     "id": 30508772,
     "node_id": "MDEwOlJlcG9zaXRvcnkzMDUwODc3Mg==",
     "name": "Docker",
@@ -34399,9 +34343,7 @@
     },
     "network_count": 343,
     "subscribers_count": 167
-  }
-][
-  {
+},{
     "id": 23929024,
     "node_id": "MDEwOlJlcG9zaXRvcnkyMzkyOTAyNA==",
     "name": "dockerfiles",

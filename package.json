@@ -23,9 +23,11 @@
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "critical": "^1.3.2",
-    "dayjs": "^1.6.4",
+    "critical": "^1.3.3",
+    "dayjs": "^1.6.6",
     "draftlog": "^1.0.12",
+    "jsdom": "^11.11.0",
+    "list.js": "^1.5.0",
     "node-fetch": "^2.1.2",
     "parcel-bundler": "^1.8.1",
     "rimraf": "^2.6.2",
@@ -39,6 +41,6 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.13.0"
+    "prettier": "^1.13.4"
   }
 }

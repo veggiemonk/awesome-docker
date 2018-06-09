@@ -85,19 +85,22 @@ async function main() {
 
     const repos = githubRepos.map(removeHost);
 
+    const metadata = [];
     /* eslint-disable no-await-in-loop */
     for (let i = 0; i < repos.length; i += BATCH_SIZE) {
       const batch = repos.slice(i, i + BATCH_SIZE);
       if (process.env.DEBUG) console.log({ batch });
       const res = await Promise.all(batch.map(async path => get(path)));
-      fs.appendFile(
-        GITHUB_METADATA_FILE,
-        JSON.stringify(res, null, 2),
-        err => err && console.error(err),
-      );
+      metadata.push(...res);
       ProgressBar(i, BATCH_SIZE, repos.length);
       await delay(DELAY);
     }
+
+    fs.writeFile(
+      GITHUB_METADATA_FILE,
+      JSON.stringify(metadata, null, 2),
+      err => err && console.error(err),
+    );
     ProgressBar(repos.length, BATCH_SIZE, repos.length);
   } catch (err) {
     console.error('ERROR:', err);
