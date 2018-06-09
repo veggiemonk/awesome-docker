@@ -8,8 +8,7 @@
     "convert": "showdown makehtml -i README.md -o README.html --omitExtraWLInCodeBlocks --simplifiedAutoLink --excludeTrailingPunctuationFromURLs --literalMidWordUnderscores --strikethrough --tables --tablesHeaderId --ghCodeBlocks --tasklists --disableForced4SpacesIndentedSublists --simpleLineBreaks --requireSpaceBeforeHeadingText --ghCompatibleHeaderId --ghMentions --backslashEscapesHTMLTags --emoji --splitAdjacentBlockquotes",
     "package": "parcel build index.html --public-url /awesome-docker",
     "fetchdata": "node fetchRepos.js",
-    "table": "node convertRepos.js",
-    "update-repos": "node fetchRepos.js && node convertRepos.js"
+    "table": "node buildTable.js"
   },
   "repository": {
     "type": "git",

@@ -1,88 +1,163 @@
 :root {
-  --main-list-header: #5DBCD2;
-  --main-list-footer: #5DBCD2;
+  --main-list-header: #5dbcd2;
+  --main-list-footer: #5dbcd2;
 }
-ul {
+
+.container {
   display: grid;
-grid-gap: 20px;
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-line-height: 1;
-padding: 20px;
-margin: 0;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
 }
 
-li {
-display: grid;
-grid-template-rows: 40px 1fr 30px;
-grid-template-columns: 1fr 1fr;
-list-style: none;
-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-border: 1px solid #ccc;
-border-radius: 20px;
-text-align: center;
+/*******************************************************/
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+.searchbar > .search {
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  margin: 20px 0 20px 0;
+  width: 300px;
 }
 
-li > .description, li> .name, li> .updated {
+/*******************************************************/
+
+.sortbtn {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 1fr);
+  grid-template-columns: 100px 100px 100px 100px;
+  justify-content: center;
+}
+
+.sortbtn :first-child {
+  grid-row: span 3;
+  align-self: center;
+}
+
+.sort {
+  border-radius: 6px;
+  border: 1px solid white;
+  color: #fff;
+  text-decoration: none;
+  background-color: #28a8e0;
+  height: 30px;
+}
+
+.sort:hover {
+  text-decoration: none;
+  background-color: #1b8aba;
+}
+
+.sort:focus {
+  outline: none;
+}
+
+.sort:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px;
+}
+
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: 13px;
+  right: -5px;
+}
+
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px;
+}
+
+/*******************************************************/
+
+.list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  line-height: 1;
+  padding: 20px;
+  margin: 0;
+}
+
+.list > li {
+  display: grid;
+  grid-template-rows: 40px 1fr 30px;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+li > .description,
+li > .name,
+li > .updated {
   grid-column: span 2;
 }
 
-li > * {
-margin: 0;
-padding-top: 5px;
-padding-bottom: 5px;
+.list li > * {
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .language > svg {
-  height: 20px;
+  height: 1.5rem;
 }
 
-li > :first-child {
+.list li > :first-child {
   color: white;
   background-color: var(--main-list-header);
   border-radius: 20px 20px 0 0;
   padding-top: 10px;
-
 }
-li > .description {
+.list li > .description {
   border-bottom: 1px solid black;
 }
 
-li > :last-child {
+.list > li > :nth-last-child(3),
+.list > li > :nth-last-child(4) {
+  align-self: flex-end;
+}
+
+.list > li > :last-child {
   color: white;
   background-color: var(--main-list-footer);
   border-radius: 0 0 20px 0;
   padding: 10px 0 10px 0;
 }
-li > :nth-last-child(2) {
+.list > li > :nth-last-child(2) {
   color: white;
   background-color: var(--main-list-footer);
   border-radius: 0 0 0 20px;
   padding: 10px 0 10px 0;
 }
 
-
-/*
-.main-content>ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
-  grid-gap: 20px;
-  align-items: stretch;
-  line-height: 1;
-  padding: 20px;
-  margin: 0;
+.pagination li {
+  display:inline-block;
+  padding:5px;
 }
-
-.main-content>ul>li {
-  display: grid;
-  list-style: none;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  border: 1px solid #ccc;
-  grid-template-rows: 40px 1fr 30px 30px 30px 30px 30px;
-  border-radius: 20px;
-  padding: 10px;
-  text-align: center;
-}
-
-.main-content img {
-  max-width: 100%
-} */
