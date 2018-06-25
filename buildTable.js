@@ -12,9 +12,7 @@ process.on('unhandledRejection', error => {
   console.log('unhandledRejection', error.message);
 });
 
-// const table = 'data/table.md';
 const templateHTML = 'website/table.tmpl.html';
-// const merged = 'website/table.html';
 const destination = 'website/table.html';
 
 const valueNames = [
@@ -60,7 +58,7 @@ const formatEntry = (
     description,
     homepage,
     stargazers_count: stargazers,
-    updated_at: updated,
+    pushed_at: updated,
     language,
     license,
     owner,
@@ -73,7 +71,7 @@ const formatEntry = (
     `<p class="${valueNames[1]}">${description || '-'}</p>`,
     `<p class="${
       valueNames[4]
-    } timestamp" data-timestamp="${updated}">Last update: ${getLastUpdate(
+    } timestamp" data-timestamp="${updated}">Last code update: ${getLastUpdate(
       updated,
     )}</p>`,
     (homepage &&
@@ -109,7 +107,6 @@ function main() {
       `<div class="container">`,
       `<div class="searchbar" ><input class="search" placeholder="Search" /></div>`,
       `<div class="sortbtn" ><p>Sort by</p>${btn.join('')}</div>`,
-      // `<ul class="pagination"></ul>`,
       `</div>`,
       '<ul class="list">',
       metaData.map(formatEntry).join(''),

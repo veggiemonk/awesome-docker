@@ -101,7 +101,7 @@ async function main() {
       printError,
     );
 
-    const metadata = batchFetchRepoMetadata(githubRepos);
+    const metadata = await batchFetchRepoMetadata(githubRepos);
 
     await writeFile(
       GITHUB_METADATA_FILE,

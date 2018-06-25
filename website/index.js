@@ -7,7 +7,7 @@ const main = () => {
       'description',
       'homepage',
       'star',
-      'updated',
+      { name: 'updated', attr: 'data-timestamp' },
       'language',
       'license',
       'author',
