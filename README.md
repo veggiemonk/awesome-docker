@@ -706,7 +706,7 @@ Blogs by
 [calico]: https://github.com/projectcalico/calicoctl
 [CenturyLinkLabs]: https://github.com/CenturyLinkLabs
 [containership]: https://containership.io
-[ContainX](https://github.com/ContainX)
+[ContainX]: https://github.com/ContainX
 [coreos]: https://github.com/coreos
 [cpuguy83]: https://github.com/cpuguy83
 [crosbymichael]: https://github.com/crosbymichael
