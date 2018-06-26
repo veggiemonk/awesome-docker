@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Cache-control" content="public">
+  <meta charset="UTF-8">
+  <title>Awesome-docker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5DBCD2">
+  <meta name="description" content="A curated list of Docker resources and projects.">
+  <meta name="keywords" content="free and open-source open source projects for docker moby kubernetes linux awesome awesome-list container tools dockerfile list moby docker-container docker-image docker-environment docker-deployment docker-swarm docker-api docker-monitoring docker-machine docker-security docker-registry">
+  <meta name="google-site-verification" content="_yiugvz0gCtfsBLyLl1LnkALXb6D4ofiwCyV1XOlYBM" />
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    :root {
+  --main-list-header: #5dbcd2;
+  --main-list-footer: #5dbcd2;
+}
+* {
+  box-sizing: border-box
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606c71
+}
+
+section {
+  display: block
+}
+
+a {
+  background-color: transparent;
+  color: #5DBCD2;
+  text-decoration: none
+}
+
+strong {
+  font-weight: 700
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+img {
+  border: 0
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: hsla(0, 0%, 100%, .7);
+  background-color: hsla(0, 0%, 100%, .08);
+  border: 1px solid hsla(0, 0%, 100%, .2);
+  border-radius: .3rem
+}
+
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: #5DBCD2;
+  background-image: linear-gradient(120deg, #155799, #5DBCD2)
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: .1rem
+}
+
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  opacity: .7
+}
+
+/*******************************************************/
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+}
+
+/*******************************************************/
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+.searchbar > .search {
+  border-radius: .25rem;
+  padding: .5rem 1rem .5rem 1rem;
+  margin: 1rem 0 1rem 0;
+  width: 18rem;
+  font-size: 2.5rem;
+}
+
+/*******************************************************/
+
+.sortbtn {
+  display: grid;
+  grid-template-columns: repeat(4, 6.5rem);
+  justify-content: right;
+  padding-right: 1rem;
+}
+
+.sortbtn :first-child {
+  grid-row: span 4;
+  align-self: center;
+}
+
+.sort {
+  border-radius: 6px;
+  border: 1px solid white;
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--main-list-header);
+  height: 2rem;
+}
+
+.sort:hover {
+  text-decoration: none;
+  background-color: #1b8aba;
+}
+
+.sort:focus {
+  outline: none;
+}
+
+.sort:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px;
+}
+
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: 13px;
+  right: -5px;
+}
+
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px;
+}
+
+/*******************************************************/
+
+.list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  line-height: 1;
+  padding: 1rem;
+  margin: 0;
+}
+
+.list > li {
+  display: grid;
+  grid-template-rows: 2rem 1fr 2rem 2rem 2rem;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+}
+
+li > .description,
+li > .name,
+li > .updated {
+  grid-column: span 2;
+}
+
+.list li > * {
+  text-align: center;
+  margin: 0;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.list li > :first-child {
+  color: white;
+  background-color: var(--main-list-header);
+  border-radius: 1rem 1rem 0 0;
+}
+.list li > .description {
+  border-bottom: 1px solid var(--main-list-header);
+  word-wrap: break-word;
+  padding: 1rem;
+}
+.list li > .updated {
+  border-bottom: 1px solid var(--main-list-header);
+}
+
+.list > li > :nth-last-child(3),
+.list > li > :nth-last-child(4) {
+  align-self: flex-end;
+}
+
+.list > li > :last-child {
+  color: white;
+  background-color: var(--main-list-footer);
+  border-radius: 0 0 1rem 0;
+  padding: .5rem 0 .5rem 0;
+}
+.list > li > :nth-last-child(2) {
+  color: white;
+  background-color: var(--main-list-footer);
+  border-radius: 0 0 0 1rem;
+  padding: .5rem 0 .5rem 0;
+}
+
+/*******************************************************/
+
+@media screen and (min-width:64em) {
+  .btn {
+    padding: .75rem 1rem
+  }
+  .page-header {
+    padding: 5rem 6rem
+  }
+  .project-name {
+    font-size: 3.25rem
+  }
+  .project-tagline {
+    font-size: 1.25rem
+  }
+  .main-content {
+    font-size: 1.1rem;
+    margin: 0 8rem 0 8rem;
+  }
+}
+
+@media screen and (min-width:42em) and (max-width:64em) {
+  .btn {
+    padding: .6rem .9rem;
+    font-size: .9rem
+  }
+  .page-header {
+    padding: 3rem 4rem
+  }
+  .project-name {
+    font-size: 2.25rem
+  }
+  .project-tagline {
+    font-size: 1.15rem
+  }
+  .main-content {
+    font-size: 1.1rem
+  }
+}
+
+@media screen and (max-width:42em) {
+  .btn {
+    display: block;
+    width: 100%;
+    padding: .75rem;
+    font-size: .9rem
+  }
+  .page-header {
+    padding: 2rem 1rem
+  }
+  .project-name {
+    font-size: 1.75rem
+  }
+  .project-tagline {
+    font-size: 1rem
+  }
+  .main-content {
+    font-size: 1rem
+  }
+  .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .sortbtn {
+    display: grid;
+    grid-template-columns: repeat(3, 6.5rem);
+    justify-content: center;
+  }
+}
+  </style>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+  <section class="page-header">
+    <h1 class="project-name">Awesome-docker</h1>
+    <h2 class="project-tagline">A curated list of Docker resources and projects</h2>
+    <a href="https://github.com/veggiemonk/awesome-docker" class="btn">View on GitHub</a>
+    <br>
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button" href="https://github.com/veggiemonk/awesome-docker" data-icon="octicon-star" data-size="large" data-count-href="/veggiemonk/awesome-docker/stargazers"
+      data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star veggiemonk/awesome-docker on GitHub">Star</a>
+  </section>
+  <section id="md" class="main-content"></section>
+  <script src="index.js"></script>
+  <!--Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>

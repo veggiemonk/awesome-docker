@@ -1,36 +1,33 @@
 {
   "name": "awesome-docker-website",
   "version": "1.0.0",
-  "description": "> A curated list of Docker resources and projects Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.",
+  "description": "A curated list of Docker resources and projects Inspired by @sindresorhus and improved by amazing contributors",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf ./dist/ && node build.js",
-    "convert": "showdown makehtml -i README.md -o README.html --omitExtraWLInCodeBlocks --simplifiedAutoLink --excludeTrailingPunctuationFromURLs --literalMidWordUnderscores --strikethrough --tables --tablesHeaderId --ghCodeBlocks --tasklists --disableForced4SpacesIndentedSublists --simpleLineBreaks --requireSpaceBeforeHeadingText --ghCompatibleHeaderId --ghMentions --backslashEscapesHTMLTags --emoji --splitAdjacentBlockquotes",
-    "package": "parcel build index.html --public-url /awesome-docker",
-    "fetchdata": "node fetchRepos.js",
-    "table": "node convertRepos.js",
-    "update-repos": "node fetchRepos.js && node convertRepos.js"
+    "build": "node buildTable.js && rimraf ./dist/ && node build.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/veggiemonk/awesome-docker.git"
   },
   "author": "Julien Bisconti <julien.bisconti at gmail dot com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/veggiemonk/awesome-docker/issues"
   },
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
-    "camelcase": "^5.0.0",
     "cheerio": "^1.0.0-rc.2",
-    "critical": "^1.3.2",
-    "dayjs": "^1.6.4",
+    "critical": "^1.3.3",
+    "dayjs": "^1.6.6",
     "draftlog": "^1.0.12",
+    "jsdom": "^11.11.0",
+    "list.js": "^1.5.0",
     "node-fetch": "^2.1.2",
     "parcel-bundler": "^1.8.1",
     "rimraf": "^2.6.2",
-    "showdown": "^1.8.6"
+    "showdown": "^1.8.6",
+    "sitemap": "^1.13.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
@@ -40,6 +37,6 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.13.0"
+    "prettier": "^1.13.5"
   }
 }

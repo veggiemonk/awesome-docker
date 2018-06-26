@@ -21,6 +21,7 @@ const README = 'README.md';
 const GITHUB_METADATA_FILE = `data/${dayjs().format(
   'YYYY-MM-DDTHH.mm.ss',
 )}-fetched_repo_data.json`;
+const LATEST_FILENAME = 'data/latest';
 const GITHUB_REPOS = 'data/list_repos.json';
 // --- HTTP ---
 const API = 'https://api.github.com/';
@@ -33,31 +34,36 @@ const options = {
   },
 };
 
-// --- UTILS ---
-function get(path, opt) {
-  return fetch(`${API}repos/${path}`, {
-    ...options,
-    ...opt,
-  })
-    .catch(err => console.error(err))
-    .then(r => {
-      if (r.ok) return r.json();
-      throw new Error('Network response was not ok.');
-    })
-    .catch(err => console.error(err));
-}
+const removeHost = x => x.slice('https://github.com/'.length, x.length);
+const readFile = promisify(fs.readFile);
+const writeFile = promisify(fs.writeFile);
+const printError = err => err && console.error('❌ ERROR', err);
+const barLine = console.draft('Starting batch...');
+
 const delay = ms =>
   new Promise(resolve => {
     setTimeout(() => resolve(), ms);
   });
+
+const get = (path, opt) =>
+  fetch(`${API}repos/${path}`, {
+    ...options,
+    ...opt,
+  })
+    .catch(printError)
+    .then(response => {
+      if (response.ok) return response.json();
+      throw new Error('Network response was not ok.');
+    })
+    .catch(printError);
+
+const fetchAll = batch => Promise.all(batch.map(async path => get(path)));
 
 const extractAllRepos = markdown => {
   const re = /https:\/\/github\.com\/([a-zA-Z0-9-._]+)\/([a-zA-Z0-9-._]+)/g;
   const md = markdown.match(re);
   return [...new Set(md)];
 };
-
-const barLine = console.draft('Starting batch...');
 
 const ProgressBar = (i, batchSize, total) => {
   const progress = Math.round((i / total) * 100);
@@ -67,43 +73,47 @@ const ProgressBar = (i, batchSize, total) => {
   );
 };
 
-const removeHost = x => x.slice('https://github.com/'.length, x.length);
+async function batchFetchRepoMetadata(githubRepos) {
+  const repos = githubRepos.map(removeHost);
 
-const readFile = promisify(fs.readFile);
-
-// ------------------------------------------------------------
+  const metadata = [];
+  /* eslint-disable no-await-in-loop */
+  for (let i = 0; i < repos.length; i += BATCH_SIZE) {
+    const batch = repos.slice(i, i + BATCH_SIZE);
+    if (process.env.DEBUG) console.log({ batch });
+    const res = await fetchAll(batch);
+    metadata.push(...res);
+    ProgressBar(i, BATCH_SIZE, repos.length);
+    // poor man's rate limiting so github don't ban us
+    await delay(DELAY);
+  }
+  ProgressBar(repos.length, BATCH_SIZE, repos.length);
+  return metadata;
+}
 
 async function main() {
   try {
     const markdown = await readFile(README, { encoding: 'utf8' });
     const githubRepos = extractAllRepos(markdown);
-    fs.writeFile(
+    await writeFile(
       GITHUB_REPOS,
       JSON.stringify(githubRepos, null, 2),
-      err => err && console.error('FILE ERROR', err),
+      printError,
     );
 
-    const repos = githubRepos.map(removeHost);
+    const metadata = await batchFetchRepoMetadata(githubRepos);
 
-    const metadata = [];
-    /* eslint-disable no-await-in-loop */
-    for (let i = 0; i < repos.length; i += BATCH_SIZE) {
-      const batch = repos.slice(i, i + BATCH_SIZE);
-      if (process.env.DEBUG) console.log({ batch });
-      const res = await Promise.all(batch.map(async path => get(path)));
-      metadata.push(...res);
-      ProgressBar(i, BATCH_SIZE, repos.length);
-      await delay(DELAY);
-    }
-
-    fs.writeFile(
+    await writeFile(
       GITHUB_METADATA_FILE,
       JSON.stringify(metadata, null, 2),
-      err => err && console.error(err),
+      printError,
     );
-    ProgressBar(repos.length, BATCH_SIZE, repos.length);
+    console.log('✅ metadata saved');
+
+    // save the latest
+    fs.writeFile(LATEST_FILENAME, GITHUB_METADATA_FILE, printError);
   } catch (err) {
-    console.error('ERROR:', err);
+    printError(err);
   }
 }
 
