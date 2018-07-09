@@ -344,6 +344,8 @@ Native desktop applications for managing and montoring docker hosts and clusters
 - [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
 - [Seagull](https://github.com/tobegit3hub/seagull) - Friendly Web UI to monitor docker daemon. by [@tobegit3hub](https://github.com/tobegit3hub)
 - [Swirl](https://github.com/cuigh/swirl) - Swirl is a web management tool for Docker, focused on swarm cluster By [@cuigh](https://github.com/cuigh/)
+- [NexClipper](https://github.com/TheNexCloud/NexClipper) - Simple web UI for container monitoring by [@Nexcloud](https://github.com/TheNexCloud)
+
 
 ## Docker Images
 
