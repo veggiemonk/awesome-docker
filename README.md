@@ -88,7 +88,7 @@ _Source:_ [What is Docker](https://www.docker.com/what-docker)
 
 # Where to start
 
-- [Basics – Docker, Containers, Hypervisors, CoreOS](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
+- [Basics – Docker, Containers, Hypervisors, CoreOS](https://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 - [Dive Into Docker: From "What is Docker?" to "Hello World"](https://www.youtube.com/watch?v=XeSD17YRijk&list=PL-v3vdeWVEsXT-u0JDQZnM90feU3NE3v8) (60:25) by [@nickjanetakis][nickjanetakis]
 - [Docker Curriculum](https://docker-curriculum.com): A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.
 - [Docker Documentation](https://docs.docker.com/)
