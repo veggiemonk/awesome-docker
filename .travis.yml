@@ -4,10 +4,6 @@ sudo: false
 
 language: node_js
 
-# Only clone the most recent commit.
-git:
-  depth: 1
-
 # keep cache of the deps
 cache:
   directories:
