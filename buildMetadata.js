@@ -57,7 +57,7 @@ const delay = ms =>
   });
 
 const get = (pathURL, opt) => {
-  LOG(` Fetching ${pathURL}`);
+  LOG.debug(` Fetching ${pathURL}`);
   return fetch(`${API}repos/${pathURL}`, {
     ...options,
     ...opt,
