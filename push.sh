@@ -14,7 +14,7 @@ echo 'Adding data files'
 git add data/*
 
 echo 'Commiting files'
-git commit -m 'Automated update repository metadata'
+git commit -m 'Automated update repository metadata [skip ci]'
 
 echo 'Pushing changes'
 git push https://$GITHUB_USER:$GITHUB_TOKEN@github.com/veggiemonk/awesome-docker master >/dev/null 2>&1
