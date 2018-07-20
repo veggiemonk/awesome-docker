@@ -4,18 +4,26 @@ const dayjs = require('dayjs');
 
 require('draftlog').into(console);
 
+const LOG = {
+  error: (...args) => console.error('❌ ERROR', { ...args }),
+  debug: (...args) => {
+    if (process.env.DEBUG) console.log('💡 DEBUG: ', { ...args });
+  },
+};
+
 process.on('unhandledRejection', error => {
-  console.log('unhandledRejection', error.message);
+  LOG.error('unhandledRejection', error.message);
 });
 
 if (!process.env.TOKEN) {
-  console.log('❌  no credentials found.');
+  LOG.error('no credentials found.');
   process.exit(1);
 }
 
 // --- ENV VAR ---
 const BATCH_SIZE = parseInt(process.env.BATCH_SIZE, 10) || 10;
 const DELAY = parseInt(process.env.DELAY, 10) || 3000;
+
 // --- FILENAME ---
 const README = 'README.md';
 const DATA_FOLDER = 'data';
@@ -24,6 +32,7 @@ const GITHUB_METADATA_FILE = `${DATA_FOLDER}/${dayjs().format(
 )}-fetched_repo_data.json`;
 const LATEST_FILENAME = `${DATA_FOLDER}/latest`;
 const GITHUB_REPOS = `${DATA_FOLDER}/list_repos.json`;
+
 // --- HTTP ---
 const API = 'https://api.github.com/';
 const options = {
@@ -38,12 +47,10 @@ const options = {
 const removeHost = x => x.slice('https://github.com/'.length, x.length);
 const barLine = console.draft('Starting batch...');
 const handleFailure = err => {
-  console.error('❌ ERROR', err);
+  LOG.error(err);
   process.exit(1);
 };
-const LOG = (...logs) => {
-  if (process.env.DEBUG) console.log(...logs);
-};
+
 const delay = ms =>
   new Promise(resolve => {
     setTimeout(() => resolve(), ms);
@@ -86,9 +93,9 @@ async function batchFetchRepoMetadata(githubRepos) {
   /* eslint-disable no-await-in-loop */
   for (let i = 0; i < repos.length; i += BATCH_SIZE) {
     const batch = repos.slice(i, i + BATCH_SIZE);
-    LOG({ batch });
+    LOG.debug({ batch });
     const res = await fetchAll(batch);
-    LOG('batch fetched...');
+    LOG.debug('batch fetched...');
     metadata.push(...res);
     ProgressBar(i, BATCH_SIZE, repos.length);
     // poor man's rate limiting so github don't ban us
@@ -99,7 +106,7 @@ async function batchFetchRepoMetadata(githubRepos) {
 }
 
 function shouldUpdate(fileLatestUpdate) {
-  LOG({ fileLatestUpdate });
+  LOG.debug({ fileLatestUpdate });
   if (!fileLatestUpdate) return true;
 
   const hours = fileLatestUpdate.slice(
@@ -109,7 +116,9 @@ function shouldUpdate(fileLatestUpdate) {
   const latestUpdate = dayjs(
     fileLatestUpdate.slice('data/'.length, 'data/YYYY-MM-DD'.length),
   ).add(hours, 'hour');
-  LOG({ latestUpdate: latestUpdate.format() });
+
+  LOG.debug({ latestUpdate: latestUpdate.format() });
+
   const isMoreThanOneDay = dayjs().diff(latestUpdate, 'hours') >= 1;
   return isMoreThanOneDay;
 }
@@ -117,37 +126,36 @@ function shouldUpdate(fileLatestUpdate) {
 async function main() {
   try {
     const getLatest = await fs.readFile(LATEST_FILENAME, 'utf8');
-    LOG('Checking if updating is needed');
+
+    LOG.debug('Checking if updating is needed');
     if (!shouldUpdate(getLatest)) {
-      console.log('Last update was less than a day ago 😅. Exiting...');
+      LOG.debug('Last update was less than a day ago 😅. Exiting...');
       process.exit(1);
     }
+
     const markdown = await fs.readFile(README, 'utf8');
     const githubRepos = extractAllRepos(markdown);
-    LOG('writing repo list to disk...');
+    LOG.debug('writing repo list to disk...');
     await fs.outputJSON(GITHUB_REPOS, githubRepos, { spaces: 2 });
 
-    LOG('fetching data...');
+    LOG.debug('fetching data...');
     const metadata = await batchFetchRepoMetadata(githubRepos);
 
-    LOG('writing metadata to disk...');
+    LOG.debug('writing metadata to disk...');
     await fs.outputJSON(GITHUB_METADATA_FILE, metadata, { spaces: 2 });
-    LOG('✅ metadata saved');
+    LOG.debug('✅ metadata saved');
 
-    LOG('removing latest...');
+    LOG.debug('removing latest...');
     await fs.remove(LATEST_FILENAME);
 
-    LOG('writing latest...');
+    LOG.debug('writing latest...');
     await fs.outputFile(LATEST_FILENAME, GITHUB_METADATA_FILE);
+    LOG.debug('✅ late update time saved', {
+      LATEST_FILENAME,
+      GITHUB_METADATA_FILE,
+    });
 
-    if (process.env.DEBUG) {
-      console.log('✅ late update time saved', {
-        LATEST_FILENAME,
-        GITHUB_METADATA_FILE,
-      });
-    }
-
-    console.log('gracefully shutting down.');
+    LOG.debug('gracefully shutting down.');
     process.exit();
   } catch (err) {
     handleFailure(err);
