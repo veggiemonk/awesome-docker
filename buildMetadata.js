@@ -23,6 +23,8 @@ if (!process.env.TOKEN) {
 // --- ENV VAR ---
 const BATCH_SIZE = parseInt(process.env.BATCH_SIZE, 10) || 10;
 const DELAY = parseInt(process.env.DELAY, 10) || 3000;
+const INTERVAL = parseInt(process.env.INTERVAL, 10) || 1;
+const INTERVAL_UNIT = process.env.INTERVAL_UNIT || 'days';
 
 // --- FILENAME ---
 const README = 'README.md';
@@ -105,30 +107,29 @@ async function batchFetchRepoMetadata(githubRepos) {
   return metadata;
 }
 
-function shouldUpdate(fileLatestUpdate) {
-  LOG.debug({ fileLatestUpdate });
-  if (!fileLatestUpdate) return true;
+function shouldUpdate(lastUpdateTime) {
+  LOG.debug({ lastUpdateTime });
+  if (!lastUpdateTime) return true;
 
-  const hours = fileLatestUpdate.slice(
+  const hours = lastUpdateTime.slice(
     'data/YYYY-MM-DDT'.length,
     'data/YYYY-MM-DDTHH'.length,
   );
   const latestUpdate = dayjs(
-    fileLatestUpdate.slice('data/'.length, 'data/YYYY-MM-DD'.length),
+    lastUpdateTime.slice('data/'.length, 'data/YYYY-MM-DD'.length),
   ).add(hours, 'hour');
 
   LOG.debug({ latestUpdate: latestUpdate.format() });
 
-  const isMoreThanOneDay = dayjs().diff(latestUpdate, 'hours') >= 1;
-  return isMoreThanOneDay;
+  return dayjs().diff(latestUpdate, INTERVAL_UNIT) >= INTERVAL;
 }
 
 async function main() {
   try {
-    const getLatest = await fs.readFile(LATEST_FILENAME, 'utf8');
+    const lastUpdateTime = await fs.readFile(LATEST_FILENAME, 'utf8');
 
     LOG.debug('Checking if updating is needed');
-    if (!shouldUpdate(getLatest)) {
+    if (!shouldUpdate(lastUpdateTime)) {
       LOG.debug('Last update was less than a day ago 😅. Exiting...');
       process.exit(1);
     }
