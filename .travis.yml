@@ -1,7 +1,24 @@
-language: ruby
-rvm:
-  - 2.2
+# This is a weird way of telling Travis to use the fast container-based test
+# runner instead of the slow VM-based runner.
+sudo: false
+
+language: node_js
+
+# Only clone the most recent commit.
+git:
+  depth: 1
+
+# keep cache of the deps
+cache:
+  directories:
+    - "node_modules"
+
+before_install:
+  - rvm install 2.2
+
 before_script:
   - gem install awesome_bot
+
 script:
-  - awesome_bot README.md --white-list wiki/Installing,slideshare,awesome-docker.svg,edit/master,sindresorhus/awesome,ashmckenzie,shortcircuit.net.au,photo777.org,adrianmouat,redhat,viget,meros,toedter,datadoghq,amazon.cn,blog.codeship.com,swarm-v-fleet,amazon.com,blogs.splunk.com,docs.mesosphere.com,containership.io,gliderlabs.com,twistlock.com,shipyard-project.com,dashboard.tutum.co,vimeo.com,docs.microsoft.com,eclipse.org,codenvy.io,gitter.im,sebgoa.blogspot.be,mindmeister.com,events.docker,blog.sixeyed
+  - awesome_bot README.md --white-list edit/master,sindresorhus/awesome,www.udacity.com,screwdriver.cd,veggiemonk/awesome-docker,vimeo.com
+  - TOKEN=$GITHUB_TOKEN node buildMetadata.js && ./push.sh
