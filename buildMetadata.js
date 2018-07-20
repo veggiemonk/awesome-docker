@@ -131,7 +131,7 @@ async function main() {
     LOG.debug('Checking if updating is needed');
     if (!shouldUpdate(lastUpdateTime)) {
       LOG.debug('Last update was less than a day ago 😅. Exiting...');
-      process.exit(1);
+      process.exit();
     }
 
     const markdown = await fs.readFile(README, 'utf8');
