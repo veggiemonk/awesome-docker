@@ -2,9 +2,9 @@
   "name": "awesome-docker-website",
   "version": "1.0.0",
   "description": "A curated list of Docker resources and projects Inspired by @sindresorhus and improved by amazing contributors",
-  "main": "index.js",
+  "main": "build.js",
   "scripts": {
-    "build": "node buildTable.js && rimraf ./dist/ && node build.js"
+    "build": "rimraf ./dist/ && node build.js"
   },
   "repository": {
     "type": "git",
@@ -17,27 +17,26 @@
   },
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "critical": "^1.3.3",
-    "dayjs": "^1.6.6",
-    "draftlog": "^1.0.12",
+    "cheerio": "1.0.0-rc.2",
+    "critical": "1.3.3",
+    "dayjs": "1.6.6",
+    "draftlog": "1.0.12",
     "fs-extra": "7.0.0",
-    "jsdom": "^11.11.0",
-    "list.js": "^1.5.0",
-    "node-fetch": "^2.1.2",
-    "parcel-bundler": "^1.8.1",
-    "rimraf": "^2.6.2",
-    "showdown": "^1.8.6",
-    "sitemap": "^1.13.0"
+    "list.js": "1.5.0",
+    "node-fetch": "2.1.2",
+    "parcel-bundler": "1.8.1",
+    "rimraf": "2.6.2",
+    "showdown": "1.8.6",
+    "sitemap": "1.13.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.13.5"
+    "babel-eslint": "8.2.6",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.13.7"
   }
 }
