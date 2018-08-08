@@ -1,0 +1,1497 @@
+{
+  "https://github.com/sindresorhus/awesome": {
+    "url": "https://github.com/sindresorhus/awesome",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/veggiemonk/awesome-docker": {
+    "url": "https://github.com/veggiemonk/awesome-docker",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/dkhamsing/awesome_bot": {
+    "url": "https://github.com/dkhamsing/awesome_bot",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/machzqcq/docker-for-all": {
+    "url": "https://github.com/machzqcq/docker-for-all",
+    "status": "active",
+    "category": 30
+  },
+  "https://github.com/odewahn/docker-jumpstart": {
+    "url": "https://github.com/odewahn/docker-jumpstart",
+    "status": "active",
+    "category": 30
+  },
+  "https://github.com/dwyl/learn-docker": {
+    "url": "https://github.com/dwyl/learn-docker",
+    "status": "active",
+    "category": 30
+  },
+  "https://github.com/eon01/DockerCheatSheet": {
+    "url": "https://github.com/eon01/DockerCheatSheet",
+    "status": "active",
+    "category": 30
+  },
+  "https://github.com/moby/moby": {
+    "url": "https://github.com/moby/moby",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/docker/compose": {
+    "url": "https://github.com/docker/compose",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/docker/machine": {
+    "url": "https://github.com/docker/machine",
+    "status": "active",
+    "category": 1
+  },
+  "https://github.com/docker/swarm": {
+    "url": "https://github.com/docker/swarm",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/icy/bocker": {
+    "url": "https://github.com/icy/bocker",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/p8952/bocker": {
+    "url": "https://github.com/p8952/bocker",
+    "status": "archived",
+    "category": 2
+  },
+  "https://github.com/box-builder/box": {
+    "url": "https://github.com/box-builder/box",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/byrnedo/capitan": {
+    "url": "https://github.com/byrnedo/capitan",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/funkwerk/compose_plantuml": {
+    "url": "https://github.com/funkwerk/compose_plantuml",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/magicmark/composerize": {
+    "url": "https://github.com/magicmark/composerize",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/polonskiy/crowdr": {
+    "url": "https://github.com/polonskiy/crowdr",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/abesto/docker-compose-graphviz": {
+    "url": "https://github.com/abesto/docker-compose-graphviz",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/Alexis-benoist/draw-compose": {
+    "url": "https://github.com/Alexis-benoist/draw-compose",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/cisco/elsy": {
+    "url": "https://github.com/cisco/elsy",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/cloud66-oss/habitus": {
+    "url": "https://github.com/cloud66-oss/habitus",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/toscanini/maestro": {
+    "url": "https://github.com/toscanini/maestro",
+    "status": "archived",
+    "category": 2
+  },
+  "https://github.com/ihucos/plash": {
+    "url": "https://github.com/ihucos/plash",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/grammarly/rocker-compose": {
+    "url": "https://github.com/grammarly/rocker-compose",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/grammarly/rocker": {
+    "url": "https://github.com/grammarly/rocker",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/stacker/stacker-cli": {
+    "url": "https://github.com/stacker/stacker-cli",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/CenturyLinkLabs/zodiac": {
+    "url": "https://github.com/CenturyLinkLabs/zodiac",
+    "status": "archived",
+    "category": 2
+  },
+  "https://github.com/newrelic/centurion": {
+    "url": "https://github.com/newrelic/centurion",
+    "status": "active",
+    "category": 3
+  },
+  "https://github.com/brooklyncentral/clocker": {
+    "url": "https://github.com/brooklyncentral/clocker",
+    "status": "active",
+    "category": 3
+  },
+  "https://github.com/ehazlett/conduit": {
+    "url": "https://github.com/ehazlett/conduit",
+    "status": "active",
+    "category": 3
+  },
+  "https://github.com/ContainX/depcon": {
+    "url": "https://github.com/ContainX/depcon",
+    "status": "active",
+    "category": 3
+  },
+  "https://github.com/ttiny/deploy": {
+    "url": "https://github.com/ttiny/deploy",
+    "status": "archived",
+    "category": 3
+  },
+  "https://github.com/humblec/dockit": {
+    "url": "https://github.com/humblec/dockit",
+    "status": "archived",
+    "category": 3
+  },
+  "https://github.com/hasura/gitkube": {
+    "url": "https://github.com/hasura/gitkube",
+    "status": "active",
+    "category": 3
+  },
+  "https://github.com/grafeas/grafeas": {
+    "url": "https://github.com/grafeas/grafeas",
+    "status": "active",
+    "category": 3
+  },
+  "https://github.com/longshoreman/longshoreman": {
+    "url": "https://github.com/longshoreman/longshoreman",
+    "status": "archived",
+    "category": 3
+  },
+  "https://github.com/axibase/atsd-use-cases": {
+    "url": "https://github.com/axibase/atsd-use-cases",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/google/cadvisor": {
+    "url": "https://github.com/google/cadvisor",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/deltaskelta/docker-alertd": {
+    "url": "https://github.com/deltaskelta/docker-alertd",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/docker-flow/docker-flow-monitor": {
+    "url": "https://github.com/docker-flow/docker-flow-monitor",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/dockerana/dockerana": {
+    "url": "https://github.com/dockerana/dockerana",
+    "status": "archived",
+    "category": 4
+  },
+  "https://github.com/nicolargo/glances": {
+    "url": "https://github.com/nicolargo/glances",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/vegasbrianc/docker-monitoring": {
+    "url": "https://github.com/vegasbrianc/docker-monitoring",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/gocardless/logjam": {
+    "url": "https://github.com/gocardless/logjam",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/sematext/logagent-js": {
+    "url": "https://github.com/sematext/logagent-js",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/gliderlabs/logspout": {
+    "url": "https://github.com/gliderlabs/logspout",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/uschtwill/docker_monitoring_logging_alerting": {
+    "url": "https://github.com/uschtwill/docker_monitoring_logging_alerting",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/monitoringartist/Zabbix-Docker-Monitoring": {
+    "url": "https://github.com/monitoringartist/Zabbix-Docker-Monitoring",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/gomex/docker-zabbix": {
+    "url": "https://github.com/gomex/docker-zabbix",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/coreos/flannel": {
+    "url": "https://github.com/coreos/flannel",
+    "status": "active",
+    "category": 5
+  },
+  "https://github.com/nicolaka/netshoot": {
+    "url": "https://github.com/nicolaka/netshoot",
+    "status": "active",
+    "category": 5
+  },
+  "https://github.com/athena-oss/athena": {
+    "url": "https://github.com/athena-oss/athena",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/tubesandlube/blimp": {
+    "url": "https://github.com/tubesandlube/blimp",
+    "status": "archived",
+    "category": 6
+  },
+  "https://github.com/CloudSlang/cloud-slang": {
+    "url": "https://github.com/CloudSlang/cloud-slang",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/clusterdock/clusterdock": {
+    "url": "https://github.com/clusterdock/clusterdock",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/containership/containership": {
+    "url": "https://github.com/containership/containership",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/Dataman-Cloud/crane": {
+    "url": "https://github.com/Dataman-Cloud/crane",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/vfarcic/docker-flow-swarm-listener": {
+    "url": "https://github.com/vfarcic/docker-flow-swarm-listener",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/DevTable/gantryd": {
+    "url": "https://github.com/DevTable/gantryd",
+    "status": "archived",
+    "category": 6
+  },
+  "https://github.com/codeabovelab/haven-platform": {
+    "url": "https://github.com/codeabovelab/haven-platform",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/spotify/helios": {
+    "url": "https://github.com/spotify/helios",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/kontena/kontena": {
+    "url": "https://github.com/kontena/kontena",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/kubernetes/kubernetes": {
+    "url": "https://github.com/kubernetes/kubernetes",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/ManageIQ/manageiq": {
+    "url": "https://github.com/ManageIQ/manageiq",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/mantl/mantl": {
+    "url": "https://github.com/mantl/mantl",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/mesosphere/marathon": {
+    "url": "https://github.com/mesosphere/marathon",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/apache/mesos": {
+    "url": "https://github.com/apache/mesos",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/hashicorp/nomad": {
+    "url": "https://github.com/hashicorp/nomad",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/CenturyLinkLabs/panamax-ui": {
+    "url": "https://github.com/CenturyLinkLabs/panamax-ui",
+    "status": "archived",
+    "category": 6
+  },
+  "https://github.com/rancher/rancher": {
+    "url": "https://github.com/rancher/rancher",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/swarmpit/swarmpit": {
+    "url": "https://github.com/swarmpit/swarmpit",
+    "status": "active",
+    "category": 6
+  },
+  "https://github.com/ooyala/atlantis": {
+    "url": "https://github.com/ooyala/atlantis",
+    "status": "archived",
+    "category": 7
+  },
+  "https://github.com/githubsaturn/captainduckduck": {
+    "url": "https://github.com/githubsaturn/captainduckduck",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/convox/rack": {
+    "url": "https://github.com/convox/rack",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/pbertera/dcw": {
+    "url": "https://github.com/pbertera/dcw",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/remind101/empire": {
+    "url": "https://github.com/remind101/empire",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/flynn/flynn": {
+    "url": "https://github.com/flynn/flynn",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/nanobox-io/nanobox": {
+    "url": "https://github.com/nanobox-io/nanobox",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/tsuru/tsuru": {
+    "url": "https://github.com/tsuru/tsuru",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/deis/workflow": {
+    "url": "https://github.com/deis/workflow",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/zeit/now-cli": {
+    "url": "https://github.com/zeit/now-cli",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/vfarcic/docker-flow-proxy": {
+    "url": "https://github.com/vfarcic/docker-flow-proxy",
+    "status": "active",
+    "category": 8
+  },
+  "https://github.com/silarsis/docker-proxy": {
+    "url": "https://github.com/silarsis/docker-proxy",
+    "status": "archived",
+    "category": 8
+  },
+  "https://github.com/fabiolb/fabio": {
+    "url": "https://github.com/fabiolb/fabio",
+    "status": "active",
+    "category": 8
+  },
+  "https://github.com/zchee/h2o-proxy": {
+    "url": "https://github.com/zchee/h2o-proxy",
+    "status": "archived",
+    "category": 8
+  },
+  "https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion": {
+    "url": "https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion",
+    "status": "active",
+    "category": 8
+  },
+  "https://github.com/mattallty/muguet": {
+    "url": "https://github.com/mattallty/muguet",
+    "status": "active",
+    "category": 8
+  },
+  "https://github.com/tpbowden/swarm-ingress-router": {
+    "url": "https://github.com/tpbowden/swarm-ingress-router",
+    "status": "active",
+    "category": 8
+  },
+  "https://github.com/flavioaiello/swarm-router": {
+    "url": "https://github.com/flavioaiello/swarm-router",
+    "status": "active",
+    "category": 8
+  },
+  "https://github.com/containous/traefik": {
+    "url": "https://github.com/containous/traefik",
+    "status": "active",
+    "category": 8
+  },
+  "https://github.com/anchore/anchore": {
+    "url": "https://github.com/anchore/anchore",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/genuinetools/bane": {
+    "url": "https://github.com/genuinetools/bane",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/dev-sec/cis-docker-benchmark": {
+    "url": "https://github.com/dev-sec/cis-docker-benchmark",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/coreos/clair": {
+    "url": "https://github.com/coreos/clair",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/eliasgranderubio/dagda": {
+    "url": "https://github.com/eliasgranderubio/dagda",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/docker/docker-bench-security": {
+    "url": "https://github.com/docker/docker-bench-security",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/google/docker-explorer": {
+    "url": "https://github.com/google/docker-explorer",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/theupdateframework/notary": {
+    "url": "https://github.com/theupdateframework/notary",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/OpenSCAP/openscap": {
+    "url": "https://github.com/OpenSCAP/openscap",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/draios/falco": {
+    "url": "https://github.com/draios/falco",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/cpuguy83/docker-grand-ambassador": {
+    "url": "https://github.com/cpuguy83/docker-grand-ambassador",
+    "status": "archived",
+    "category": 10
+  },
+  "https://github.com/gliderlabs/docker-consul": {
+    "url": "https://github.com/gliderlabs/docker-consul",
+    "status": "active",
+    "category": 10
+  },
+  "https://github.com/coreos/etcd": {
+    "url": "https://github.com/coreos/etcd",
+    "status": "active",
+    "category": 10
+  },
+  "https://github.com/istio/istio": {
+    "url": "https://github.com/istio/istio",
+    "status": "active",
+    "category": 10
+  },
+  "https://github.com/factorish/proxy": {
+    "url": "https://github.com/factorish/proxy",
+    "status": "archived",
+    "category": 10
+  },
+  "https://github.com/gliderlabs/registrator": {
+    "url": "https://github.com/gliderlabs/registrator",
+    "status": "active",
+    "category": 10
+  },
+  "https://github.com/blockbridge/blockbridge-docker-volume": {
+    "url": "https://github.com/blockbridge/blockbridge-docker-volume",
+    "status": "active",
+    "category": 11
+  },
+  "https://github.com/rancher/convoy": {
+    "url": "https://github.com/rancher/convoy",
+    "status": "active",
+    "category": 11
+  },
+  "https://github.com/adlogix/docker-machine-nfs": {
+    "url": "https://github.com/adlogix/docker-machine-nfs",
+    "status": "active",
+    "category": 11
+  },
+  "https://github.com/leighmcculloch/docker-unison": {
+    "url": "https://github.com/leighmcculloch/docker-unison",
+    "status": "active",
+    "category": 11
+  },
+  "https://github.com/CWSpear/local-persist": {
+    "url": "https://github.com/CWSpear/local-persist",
+    "status": "active",
+    "category": 11
+  },
+  "https://github.com/jelastic-jps/minio": {
+    "url": "https://github.com/jelastic-jps/minio",
+    "status": "active",
+    "category": 11
+  },
+  "https://github.com/ContainX/docker-volume-netshare": {
+    "url": "https://github.com/ContainX/docker-volume-netshare",
+    "status": "active",
+    "category": 11
+  },
+  "https://github.com/rexray/rexray": {
+    "url": "https://github.com/rexray/rexray",
+    "status": "active",
+    "category": 11
+  },
+  "https://github.com/dockeron/dockeron": {
+    "url": "https://github.com/dockeron/dockeron",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/DockStation/dockstation": {
+    "url": "https://github.com/DockStation/dockstation",
+    "status": "active",
+    "category": 12
+  },
+  "https://github.com/jplhomer/lifeboat": {
+    "url": "https://github.com/jplhomer/lifeboat",
+    "status": "active",
+    "category": 12
+  },
+  "https://github.com/jenssegers/captain": {
+    "url": "https://github.com/jenssegers/captain",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/yadutaf/ctop": {
+    "url": "https://github.com/yadutaf/ctop",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/bcicen/ctop": {
+    "url": "https://github.com/bcicen/ctop",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/vutran/dext-docker-registry-plugin": {
+    "url": "https://github.com/vutran/dext-docker-registry-plugin",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/mayflower/docker-ls": {
+    "url": "https://github.com/mayflower/docker-ls",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/icecrime/docker-mon": {
+    "url": "https://github.com/icecrime/docker-mon",
+    "status": "archived",
+    "category": 13
+  },
+  "https://github.com/Silex/docker.el": {
+    "url": "https://github.com/Silex/docker.el",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/docker/dockercraft": {
+    "url": "https://github.com/docker/dockercraft",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/spotify/dockerfile-mode": {
+    "url": "https://github.com/spotify/dockerfile-mode",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/crosbymichael/dockersql": {
+    "url": "https://github.com/crosbymichael/dockersql",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/lirantal/dockly": {
+    "url": "https://github.com/lirantal/dockly",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/moncho/dry": {
+    "url": "https://github.com/moncho/dry",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/howtowhale/dvm": {
+    "url": "https://github.com/howtowhale/dvm",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/marty90/multidocker": {
+    "url": "https://github.com/marty90/multidocker",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/jpetazzo/nsenter": {
+    "url": "https://github.com/jpetazzo/nsenter",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/adrianmo/powerline-docker": {
+    "url": "https://github.com/adrianmo/powerline-docker",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/shiwaforce/proco": {
+    "url": "https://github.com/shiwaforce/proco",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/genuinetools/reg": {
+    "url": "https://github.com/genuinetools/reg",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/JonathonReinhart/scuba": {
+    "url": "https://github.com/JonathonReinhart/scuba",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/TomasTomecek/sen": {
+    "url": "https://github.com/TomasTomecek/sen",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/segersniels/supdock": {
+    "url": "https://github.com/segersniels/supdock",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/qazbnm456/tsaotun": {
+    "url": "https://github.com/qazbnm456/tsaotun",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/j-bennet/wharfee": {
+    "url": "https://github.com/j-bennet/wharfee",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/klausmeyer/docker-registry-browser": {
+    "url": "https://github.com/klausmeyer/docker-registry-browser",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/squidnyan/docker-registry-ui": {
+    "url": "https://github.com/squidnyan/docker-registry-ui",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/mkuchin/docker-registry-web": {
+    "url": "https://github.com/mkuchin/docker-registry-web",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/dockersamples/docker-swarm-visualizer": {
+    "url": "https://github.com/dockersamples/docker-swarm-visualizer",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/Electrofenster/dockerding-on-rails": {
+    "url": "https://github.com/Electrofenster/dockerding-on-rails",
+    "status": "archived",
+    "category": 14
+  },
+  "https://github.com/Simone-Erba/DockerSurfer": {
+    "url": "https://github.com/Simone-Erba/DockerSurfer",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/TheNexCloud/NexClipper": {
+    "url": "https://github.com/TheNexCloud/NexClipper",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/OctoLinker/OctoLinker": {
+    "url": "https://github.com/OctoLinker/OctoLinker",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/portainer/portainer": {
+    "url": "https://github.com/portainer/portainer",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/SUSE/Portus": {
+    "url": "https://github.com/SUSE/Portus",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/ozlerhakan/rapid": {
+    "url": "https://github.com/ozlerhakan/rapid",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/tobegit3hub/seagull": {
+    "url": "https://github.com/tobegit3hub/seagull",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/cuigh/swirl": {
+    "url": "https://github.com/cuigh/swirl",
+    "status": "active",
+    "category": 14
+  },
+  "https://github.com/genuinetools/amicontained": {
+    "url": "https://github.com/genuinetools/amicontained",
+    "status": "active",
+    "category": 15
+  },
+  "https://github.com/prologic/autodock": {
+    "url": "https://github.com/prologic/autodock",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/garywiz/chaperone": {
+    "url": "https://github.com/garywiz/chaperone",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/jwilder/docker-gen": {
+    "url": "https://github.com/jwilder/docker-gen",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/jwilder/dockerize": {
+    "url": "https://github.com/jwilder/dockerize",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/tianon/gosu": {
+    "url": "https://github.com/tianon/gosu",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/sindresorhus/is-docker": {
+    "url": "https://github.com/sindresorhus/is-docker",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/ivanilves/lstags": {
+    "url": "https://github.com/ivanilves/lstags",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/NVIDIA/nvidia-docker": {
+    "url": "https://github.com/NVIDIA/nvidia-docker",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/ncopa/su-exec": {
+    "url": "https://github.com/ncopa/su-exec",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/aptible/supercronic": {
+    "url": "https://github.com/aptible/supercronic",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/vorakl/TrivialRC": {
+    "url": "https://github.com/vorakl/TrivialRC",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/projectatomic/buildah": {
+    "url": "https://github.com/projectatomic/buildah",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/GoogleContainerTools/container-diff": {
+    "url": "https://github.com/GoogleContainerTools/container-diff",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/mutable/container-factory": {
+    "url": "https://github.com/mutable/container-factory",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/mdlavin/copy-docker-image": {
+    "url": "https://github.com/mdlavin/copy-docker-image",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/alibaba/derrick": {
+    "url": "https://github.com/alibaba/derrick",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/wercker/dlayer": {
+    "url": "https://github.com/wercker/dlayer",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/mudler/docker-companion": {
+    "url": "https://github.com/mudler/docker-companion",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/CtripCloud/docker-make": {
+    "url": "https://github.com/CtripCloud/docker-make",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/bcicen/docker-replay": {
+    "url": "https://github.com/bcicen/docker-replay",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/docker-slim/docker-slim": {
+    "url": "https://github.com/docker-slim/docker-slim",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/swipely/dockly": {
+    "url": "https://github.com/swipely/dockly",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/jlhawn/dockramp": {
+    "url": "https://github.com/jlhawn/dockramp",
+    "status": "archived",
+    "category": 17
+  },
+  "https://github.com/genuinetools/img": {
+    "url": "https://github.com/genuinetools/img",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/GoogleContainerTools/kaniko": {
+    "url": "https://github.com/GoogleContainerTools/kaniko",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/duedil-ltd/portainer": {
+    "url": "https://github.com/duedil-ltd/portainer",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/lavie/runlike": {
+    "url": "https://github.com/lavie/runlike",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/djosephsen/skinnywhale": {
+    "url": "https://github.com/djosephsen/skinnywhale",
+    "status": "archived",
+    "category": 17
+  },
+  "https://github.com/P3GLEG/Whaler": {
+    "url": "https://github.com/P3GLEG/Whaler",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/Gueils/whales": {
+    "url": "https://github.com/Gueils/whales",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/garywiz/chaperone-docker": {
+    "url": "https://github.com/garywiz/chaperone-docker",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/arun-gupta/docker-images": {
+    "url": "https://github.com/arun-gupta/docker-images",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/awesome-startup/docker-compose": {
+    "url": "https://github.com/awesome-startup/docker-compose",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/crosbymichael/Dockerfiles": {
+    "url": "https://github.com/crosbymichael/Dockerfiles",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/jessfraz/Dockerfiles": {
+    "url": "https://github.com/jessfraz/Dockerfiles",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/komljen/dockerfile-examples": {
+    "url": "https://github.com/komljen/dockerfile-examples",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/kstaken/dockerfile-examples": {
+    "url": "https://github.com/kstaken/dockerfile-examples",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/ondrejmo/Dockerfiles": {
+    "url": "https://github.com/ondrejmo/Dockerfiles",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/vimagick/dockerfiles": {
+    "url": "https://github.com/vimagick/dockerfiles",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/projectatomic/dockerfile_lint": {
+    "url": "https://github.com/projectatomic/dockerfile_lint",
+    "status": "active",
+    "category": 19
+  },
+  "https://github.com/replicatedhq/dockerfilelint": {
+    "url": "https://github.com/replicatedhq/dockerfilelint",
+    "status": "active",
+    "category": 19
+  },
+  "https://github.com/jessfraz/dockfmt": {
+    "url": "https://github.com/jessfraz/dockfmt",
+    "status": "active",
+    "category": 19
+  },
+  "https://github.com/hadolint/hadolint": {
+    "url": "https://github.com/hadolint/hadolint",
+    "status": "active",
+    "category": 19
+  },
+  "https://github.com/jeromepin/whale-linter": {
+    "url": "https://github.com/jeromepin/whale-linter",
+    "status": "active",
+    "category": 19
+  },
+  "https://github.com/opencontainers/image-spec": {
+    "url": "https://github.com/opencontainers/image-spec",
+    "status": "active",
+    "category": 20
+  },
+  "https://github.com/RedCoolBeans/cargos-buildroot": {
+    "url": "https://github.com/RedCoolBeans/cargos-buildroot",
+    "status": "active",
+    "category": 21
+  },
+  "https://github.com/hcguersoy/cleanreg": {
+    "url": "https://github.com/hcguersoy/cleanreg",
+    "status": "active",
+    "category": 21
+  },
+  "https://github.com/netvarun/docket": {
+    "url": "https://github.com/netvarun/docket",
+    "status": "active",
+    "category": 21
+  },
+  "https://github.com/puppetlabs/europa": {
+    "url": "https://github.com/puppetlabs/europa",
+    "status": "active",
+    "category": 21
+  },
+  "https://github.com/noteed/rescoyl": {
+    "url": "https://github.com/noteed/rescoyl",
+    "status": "active",
+    "category": 21
+  },
+  "https://github.com/instacart/ahab": {
+    "url": "https://github.com/instacart/ahab",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/gesellix/docker-client": {
+    "url": "https://github.com/gesellix/docker-client",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/whisklabs/docker-it-scala": {
+    "url": "https://github.com/whisklabs/docker-it-scala",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/fabric8io/docker-maven-plugin": {
+    "url": "https://github.com/fabric8io/docker-maven-plugin",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/Microsoft/Docker-PowerShell": {
+    "url": "https://github.com/Microsoft/Docker-PowerShell",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/Microsoft/Docker.DotNet": {
+    "url": "https://github.com/Microsoft/Docker.DotNet",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/spotify/dockerfile-maven": {
+    "url": "https://github.com/spotify/dockerfile-maven",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/apocas/dockerode": {
+    "url": "https://github.com/apocas/dockerode",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/eon01/DoMonit": {
+    "url": "https://github.com/eon01/DoMonit",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/fsouza/go-dockerclient": {
+    "url": "https://github.com/fsouza/go-dockerclient",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/gesellix/gradle-docker-plugin": {
+    "url": "https://github.com/gesellix/gradle-docker-plugin",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/docker/libcompose": {
+    "url": "https://github.com/docker/libcompose",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/Tapad/sbt-docker-compose": {
+    "url": "https://github.com/Tapad/sbt-docker-compose",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/marcuslonnberg/sbt-docker": {
+    "url": "https://github.com/marcuslonnberg/sbt-docker",
+    "status": "active",
+    "category": 23
+  },
+  "https://github.com/harbur/captain": {
+    "url": "https://github.com/harbur/captain",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/caicloud/cyclone": {
+    "url": "https://github.com/caicloud/cyclone",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/jenkinsci/docker-plugin": {
+    "url": "https://github.com/jenkinsci/docker-plugin",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/drone/drone": {
+    "url": "https://github.com/drone/drone",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/gocd/gocd-docker": {
+    "url": "https://github.com/gocd/gocd-docker",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/francescou/docker-continuous-deployment": {
+    "url": "https://github.com/francescou/docker-continuous-deployment",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/stelligent/mu": {
+    "url": "https://github.com/stelligent/mu",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/Stratoscale/skipper": {
+    "url": "https://github.com/Stratoscale/skipper",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/ghostsquad/swarmci": {
+    "url": "https://github.com/ghostsquad/swarmci",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/v2tec/watchtower": {
+    "url": "https://github.com/v2tec/watchtower",
+    "status": "active",
+    "category": 24
+  },
+  "https://github.com/binci/binci": {
+    "url": "https://github.com/binci/binci",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/boot2docker/boot2docker": {
+    "url": "https://github.com/boot2docker/boot2docker",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/lstephen/construi": {
+    "url": "https://github.com/lstephen/construi",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/fgrehm/devstep": {
+    "url": "https://github.com/fgrehm/devstep",
+    "status": "archived",
+    "category": 25
+  },
+  "https://github.com/codekitchen/dinghy": {
+    "url": "https://github.com/codekitchen/dinghy",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/nlf/dlite": {
+    "url": "https://github.com/nlf/dlite",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/dnephin/dobi": {
+    "url": "https://github.com/dnephin/dobi",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/nandoquintana/docker-missing-tools": {
+    "url": "https://github.com/nandoquintana/docker-missing-tools",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/brikis98/docker-osx-dev": {
+    "url": "https://github.com/brikis98/docker-osx-dev",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/Ph3nol/Docker-Arch": {
+    "url": "https://github.com/Ph3nol/Docker-Arch",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/EugenMayer/docker-sync": {
+    "url": "https://github.com/EugenMayer/docker-sync",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/shyiko/docker-vm": {
+    "url": "https://github.com/shyiko/docker-vm",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/PhilippHeuer/EnvCLI": {
+    "url": "https://github.com/PhilippHeuer/EnvCLI",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/bsideup/forward2docker": {
+    "url": "https://github.com/bsideup/forward2docker",
+    "status": "archived",
+    "category": 25
+  },
+  "https://github.com/lando/lando": {
+    "url": "https://github.com/lando/lando",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/tailhook/vagga": {
+    "url": "https://github.com/tailhook/vagga",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/tjamet/caduc": {
+    "url": "https://github.com/tjamet/caduc",
+    "status": "active",
+    "category": 26
+  },
+  "https://github.com/zzrotdesign/docker-clean": {
+    "url": "https://github.com/zzrotdesign/docker-clean",
+    "status": "active",
+    "category": 26
+  },
+  "https://github.com/meltwater/docker-cleanup": {
+    "url": "https://github.com/meltwater/docker-cleanup",
+    "status": "active",
+    "category": 26
+  },
+  "https://github.com/Yelp/docker-custodian": {
+    "url": "https://github.com/Yelp/docker-custodian",
+    "status": "active",
+    "category": 26
+  },
+  "https://github.com/konstruktoid/docker-garby": {
+    "url": "https://github.com/konstruktoid/docker-garby",
+    "status": "active",
+    "category": 26
+  },
+  "https://github.com/spotify/docker-gc": {
+    "url": "https://github.com/spotify/docker-gc",
+    "status": "active",
+    "category": 26
+  },
+  "https://github.com/rancher/sherdock": {
+    "url": "https://github.com/rancher/sherdock",
+    "status": "archived",
+    "category": 26
+  },
+  "https://github.com/appcelerator/amp": {
+    "url": "https://github.com/appcelerator/amp",
+    "status": "active",
+    "category": 27
+  },
+  "https://github.com/apache/incubator-openwhisk": {
+    "url": "https://github.com/apache/incubator-openwhisk",
+    "status": "active",
+    "category": 27
+  },
+  "https://github.com/lambci/docker-lambda": {
+    "url": "https://github.com/lambci/docker-lambda",
+    "status": "active",
+    "category": 27
+  },
+  "https://github.com/bfirsh/funker-example-voting-app": {
+    "url": "https://github.com/bfirsh/funker-example-voting-app",
+    "status": "active",
+    "category": 27
+  },
+  "https://github.com/iron-io/functions": {
+    "url": "https://github.com/iron-io/functions",
+    "status": "active",
+    "category": 27
+  },
+  "https://github.com/openfaas/faas": {
+    "url": "https://github.com/openfaas/faas",
+    "status": "active",
+    "category": 27
+  },
+  "https://github.com/grycap/scar": {
+    "url": "https://github.com/grycap/scar",
+    "status": "active",
+    "category": 27
+  },
+  "https://github.com/GoogleContainerTools/container-structure-test": {
+    "url": "https://github.com/GoogleContainerTools/container-structure-test",
+    "status": "active",
+    "category": 28
+  },
+  "https://github.com/aelsabbahy/goss": {
+    "url": "https://github.com/aelsabbahy/goss",
+    "status": "active",
+    "category": 28
+  },
+  "https://github.com/zuazo/dockerspec": {
+    "url": "https://github.com/zuazo/dockerspec",
+    "status": "active",
+    "category": 28
+  },
+  "https://github.com/dockunit/platform": {
+    "url": "https://github.com/dockunit/platform",
+    "status": "archived",
+    "category": 28
+  },
+  "https://github.com/alexei-led/pumba": {
+    "url": "https://github.com/alexei-led/pumba",
+    "status": "active",
+    "category": 28
+  },
+  "https://github.com/azukiapp/azk": {
+    "url": "https://github.com/azukiapp/azk",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/cortexmedia/Beluga": {
+    "url": "https://github.com/cortexmedia/Beluga",
+    "status": "archived",
+    "category": 29
+  },
+  "https://github.com/docker-exec/dexec": {
+    "url": "https://github.com/docker-exec/dexec",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/benzaita/docker-do": {
+    "url": "https://github.com/benzaita/docker-do",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/CenturyLinkLabs/dray": {
+    "url": "https://github.com/CenturyLinkLabs/dray",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/mattes/fugu": {
+    "url": "https://github.com/mattes/fugu",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/subuser-security/subuser": {
+    "url": "https://github.com/subuser-security/subuser",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/ramitsurana/turbo": {
+    "url": "https://github.com/ramitsurana/turbo",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/indigo-dc/udocker": {
+    "url": "https://github.com/indigo-dc/udocker",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/bubenkoff/vagrant-docker-example": {
+    "url": "https://github.com/bubenkoff/vagrant-docker-example",
+    "status": "active",
+    "category": 29
+  },
+  "https://github.com/cncf/landscape": {
+    "url": "https://github.com/cncf/landscape",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/ciandcd/awesome-ciandcd": {
+    "url": "https://github.com/ciandcd/awesome-ciandcd",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/ramitsurana/awesome-kubernetes": {
+    "url": "https://github.com/ramitsurana/awesome-kubernetes",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/Friz-zy/awesome-linux-containers": {
+    "url": "https://github.com/Friz-zy/awesome-linux-containers",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/Kickball/awesome-selfhosted": {
+    "url": "https://github.com/Kickball/awesome-selfhosted",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/n1trux/awesome-sysadmin": {
+    "url": "https://github.com/n1trux/awesome-sysadmin",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/cjbarber/ToolsOfTheTrade": {
+    "url": "https://github.com/cjbarber/ToolsOfTheTrade",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/umiddelb/armhf": {
+    "url": "https://github.com/umiddelb/armhf",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/tomwillfixit/alpine-cvecheck": {
+    "url": "https://github.com/tomwillfixit/alpine-cvecheck",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines": {
+    "url": "https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/konstruktoid/Docker": {
+    "url": "https://github.com/konstruktoid/Docker",
+    "status": "active",
+    "category": 9
+  },
+  "https://github.com/docker-library/official-images": {
+    "url": "https://github.com/docker-library/official-images",
+    "status": "active",
+    "category": 15
+  },
+  "https://github.com/gliderlabs/docker-alpine": {
+    "url": "https://github.com/gliderlabs/docker-alpine",
+    "status": "active",
+    "category": 16
+  },
+  "https://github.com/projectcalico/calicoctl": {
+    "url": "https://github.com/projectcalico/calicoctl",
+    "status": "active",
+    "category": 5
+  },
+  "https://github.com/docker/distribution": {
+    "url": "https://github.com/docker/distribution",
+    "status": "active",
+    "category": 21
+  },
+  "https://github.com/wsargent/docker-cheat-sheet": {
+    "url": "https://github.com/wsargent/docker-cheat-sheet",
+    "status": "active",
+    "category": 30
+  },
+  "https://github.com/dimonomid/docker-quick-ref": {
+    "url": "https://github.com/dimonomid/docker-quick-ref",
+    "status": "active",
+    "category": 30
+  },
+  "https://github.com/dokku/dokku": {
+    "url": "https://github.com/dokku/dokku",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/kiyoto/docker-fluentd": {
+    "url": "https://github.com/kiyoto/docker-fluentd",
+    "status": "active",
+    "category": 0
+  },
+  "https://github.com/inspec/inspec": {
+    "url": "https://github.com/inspec/inspec",
+    "status": "active",
+    "category": 28
+  },
+  "https://github.com/jessfraz/dockerfiles": {
+    "url": "https://github.com/jessfraz/dockerfiles",
+    "status": "active",
+    "category": 18
+  },
+  "https://github.com/jwilder/nginx-proxy": {
+    "url": "https://github.com/jwilder/nginx-proxy",
+    "status": "active",
+    "category": 8
+  },
+  "https://github.com/ashmckenzie/percheron": {
+    "url": "https://github.com/ashmckenzie/percheron",
+    "status": "archived",
+    "category": 2
+  },
+  "https://github.com/sematext/sematext-agent-docker": {
+    "url": "https://github.com/sematext/sematext-agent-docker",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/weaveworks/weave": {
+    "url": "https://github.com/weaveworks/weave",
+    "status": "active",
+    "category": 5
+  }
+}

@@ -34,7 +34,7 @@ const README = 'README.md';
 const DATE = dayjs().format('YYYY-MM-DDTHH.mm.ss');
 const GITHUB_METADATA_FILE = `${DATA_FOLDER}/${DATE}-fetched_repo_data.json`;
 const LATEST_FILENAME = `${DATA_FOLDER}/latest`;
-const GITHUB_REPOS = `${DATA_FOLDER}/list_repos.json`;
+const GITHUB_REPOS = `${DATA_FOLDER}/repository.json`;
 
 // --- HTTP ---
 const API = 'https://api.github.com/';
