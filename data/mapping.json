@@ -1229,8 +1229,8 @@
     "status": "active",
     "category": 26
   },
-  "https://github.com/zzrotdesign/docker-clean": {
-    "url": "https://github.com/zzrotdesign/docker-clean",
+  "https://github.com/ZZROTDesign/docker-clean": {
+    "url": "https://github.com/ZZROTDesign/docker-clean",
     "status": "active",
     "category": 26
   },
@@ -1493,5 +1493,20 @@
     "url": "https://github.com/weaveworks/weave",
     "status": "active",
     "category": 5
+  },
+  "https://github.com/avirshup/DockerMake": {
+    "url": "https://github.com/avirshup/DockerMake",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/oracle/smith": {
+    "url": "https://github.com/oracle/smith",
+    "status": "active",
+    "category": 17
+  },
+  "https://github.com/oracle/crashcart": {
+    "url": "https://github.com/oracle/crashcart",
+    "status": "active",
+    "category": 25
   }
 }
