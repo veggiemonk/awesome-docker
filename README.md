@@ -84,7 +84,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Consisting of Docker Engine, a portable, lightweight runtime and packaging tool, and Docker Hub, a cloud service for sharing applications and automating workflows, Docker enables apps to be quickly assembled from components and eliminates the friction between development, QA, and production environments. As a result, IT can ship faster and run the same app, unchanged, on laptops, data center VMs, and any cloud.
 
-_Source:_ [What is Docker](https://www.docker.com/what-docker)
+_Source:_ [What is Docker](https://www.docker.com/why-docker)
 
 # Where to start
 
@@ -447,7 +447,7 @@ Services to securely store your Docker images.
 - [Rescoyl](https://github.com/noteed/rescoyl) - Private Docker registry (free and open source) by [@noteed](https://github.com/noteed)
 - [Sonatype Nexus](https://www.sonatype.com/nexus-repository-oss) - Repository with Universal Support, also for Docker images
 - [TreeScale](https://github.com/treescale) - Build and Distribute container based applications. By [@tigranbs](https://github.com/tigranbs)
-- [VMWare Harbor](http://vmware.github.io/harbor/) Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.
+- [VMWare Harbor](https://github.com/goharbor/harbor) Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.
 
 ## Development with Docker
 
@@ -519,7 +519,7 @@ Services to securely store your Docker images.
 
 ### Serverless
 
-- [AMP](https://github.com/appcelerator/amp) - The open source unified CaaS/FaaS platform for Docker, batteries included. By [@Appcelerator](https://github.com/appcelerator/)
+- [AMP](https://github.com/appcelerator-archive/amp) - The open source unified CaaS/FaaS platform for Docker, batteries included. By [@Appcelerator](https://github.com/appcelerator-archive)
 - [Apache OpenWhisk](https://github.com/apache/incubator-openwhisk) - a serverless, open source cloud platform that executes functions in response to events at any scale. By [@apache](https://github.com/apache)
 - [Docker-Lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment. By [@lamb-ci](https://github.com/lambci)
 - [Funker](https://github.com/bfirsh/funker-example-voting-app) - Functions as Docker containers example voting app. By [@bfirsh](https://github.com/bfirsh)
@@ -723,7 +723,7 @@ Blogs by
 [jwilder]: https://github.com/jwilder
 [kubernetes]: https://kubernetes.io
 [nginxproxy]: https://github.com/jwilder/nginx-proxy
-[openshift]: https://www.openshift.org/
+[openshift]: https://www.okd.io
 [oracle]: https://github.com/oracle
 [progrium]: https://github.com/progrium
 [projectatomic]: https://github.com/projectatomic
