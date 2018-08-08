@@ -1,4 +1,5 @@
 const fs = require('fs-extra');
+const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 const dayjs = require('dayjs');
 const showdown = require('showdown');
@@ -25,11 +26,14 @@ const README = 'README.md';
 const WEBSITE_FOLDER = 'website';
 const DATA_FOLDER = 'data';
 const LATEST_FILENAME = `${DATA_FOLDER}/latest`;
+const MAPPING = `${DATA_FOLDER}/mapping.json`;
+const CATEGORY = `${DATA_FOLDER}/category.json`;
 const indexTemplate = `${WEBSITE_FOLDER}/index.tmpl.html`;
 const indexDestination = `${WEBSITE_FOLDER}/index.html`;
 const tableTemplate = `${WEBSITE_FOLDER}/table.tmpl.html`;
 const tableDestination = `${WEBSITE_FOLDER}/table.html`;
 
+// --- CONFIG
 const valueNames = [
   'name',
   'description',
@@ -60,6 +64,25 @@ const sitemapOpts = {
       lastmodfile: 'dist/table.html',
     },
   ],
+};
+
+// --- FORMAT
+const loadEmoji = () =>
+  fetch('https://api.github.com/emojis')
+    .then(r => r.json())
+    .catch(handleFailure);
+
+let emojiMapURL = {};
+
+const emojify = text => {
+  if (!text) return text;
+  const colonWrapped = /(:[\w\-+]+:)/g;
+  const result = text.replace(colonWrapped, match => {
+    const name = match.replace(/:/g, '');
+    const url = emojiMapURL[name];
+    return `<img src="${url}" class="emoji" alt="${name}" />`;
+  });
+  return result || text;
 };
 
 const getLastUpdate = updated => {
@@ -94,17 +117,24 @@ const formatEntry = (
     description,
     homepage,
     stargazers_count: stargazers,
+    // subscribers_count: watchers,
     pushed_at: updated,
+    // open_issues: issues,
+    // forks,
     language,
     license,
     owner,
+    categoryName,
+    // categoryDescription,
+    // status,
+    // ownerType,
   },
   i,
 ) =>
   [
     `<li data-id="${i}">`,
     `<a href="${repoURL}" class="link ${valueNames[0]}">${name}</a>`,
-    `<p class="${valueNames[1]}">${description || '-'}</p>`,
+    `<p class="${valueNames[1]}">${emojify(description) || '-'}</p>`,
     `<p class="${
       valueNames[4]
     } timestamp" data-timestamp="${updated}">Last code update: ${getLastUpdate(
@@ -117,7 +147,7 @@ const formatEntry = (
       '<p></p>',
     `<p class="${
       valueNames[3]
-    } timestamp" data-timestamp="${stargazers}">⭐️${stargazers}</p>`,
+    } timestamp" title="Stars on GitHub" data-timestamp="${stargazers}">⭐️${stargazers}</p>`,
     (language && `<p class="${valueNames[5]}">${language}</p>`) || '<p></p>',
     (license &&
       license.url !== null &&
@@ -125,37 +155,76 @@ const formatEntry = (
         license.name,
       )}</a>`) ||
       '<p></p>',
+    `<p title="Category">${categoryName}</p>`,
     owner &&
-      `<p>Made by </p><a href="${owner.html_url}" class="link ${
-        valueNames[7]
-      }">${owner.login}</a>`,
+      `<a href="${owner.html_url}" class="link ${valueNames[7]}">${
+        owner.login
+      }</a>`,
     '</li>',
   ].join('');
+
+const buttonHTLM = valueNames
+  .filter(x => !['description', 'homepage'].includes(x))
+  .map(v => `<button class="sort" data-sort="${v}">${v} </button>`)
+  .join('');
+
+const processMetadata = metaData =>
+  [
+    `<div class="container">`,
+    `<div class="searchbar" ><input class="search" placeholder="Search" /></div>`,
+    `<div class="sortbtn" ><p>Sort by</p>${buttonHTLM}</div>`,
+    `</div>`,
+    '<ul class="list">',
+    Object.values(metaData)
+      .map(formatEntry)
+      .join(''),
+    '</ul>',
+  ].join('');
+
+const normalizedMetadata = ([mapping, category, data]) =>
+  data.reduce((acc, repo) => {
+    const m = mapping[repo.html_url];
+    if (!m) {
+      console.log('MISSING:', { repo: repo.html_url });
+      return acc;
+    }
+    const c = m && category[m.category];
+    if (!c) {
+      console.log('CATEGORY MISSING', { mapping: m });
+      return acc;
+    }
+    return {
+      ...acc,
+      ...{
+        [repo.html_url.toLowerCase()]: {
+          ...repo,
+          ownerType: repo.owner && repo.owner.type,
+          categoryName: c.name,
+          categoryDescription: c.description,
+          status: m.status,
+        },
+      },
+    };
+  }, {});
 
 async function processTable() {
   try {
     LOG.debug('Loading files...', { LATEST_FILENAME, tableTemplate });
     const latestFilename = await fs.readFile(LATEST_FILENAME, 'utf8');
     LOG.debug({ latestFilename });
-    const metaData = await fs.readJson(latestFilename, 'utf-8');
 
+    const data = await Promise.all([
+      fs.readJSON(MAPPING),
+      fs.readJSON(CATEGORY),
+      fs.readJSON(latestFilename),
+    ]);
+
+    const metaData = normalizedMetadata(data);
+    LOG.debug({ metaData });
     const template = await fs.readFile(tableTemplate, 'utf8');
+    LOG.debug('Processing template');
     const $ = cheerio.load(template);
-    const btn = valueNames.map(
-      v => `<button class="sort" data-sort="${v}">${v} </button>`,
-    );
-    $('#md').append(
-      [
-        `<div class="container">`,
-        `<div class="searchbar" ><input class="search" placeholder="Search" /></div>`,
-        `<div class="sortbtn" ><p>Sort by</p>${btn.join('')}</div>`,
-        `</div>`,
-        '<ul class="list">',
-        metaData.map(formatEntry).join(''),
-        '</ul>',
-      ].join(''),
-    );
-
+    $('#md').append(processMetadata(metaData));
     LOG.debug('Writing table.html');
     await fs.outputFile(tableDestination, $.html(), 'utf8');
     LOG.debug('✅  DONE 👍');
@@ -193,7 +262,6 @@ async function processIndex() {
 
     LOG.debug('Merging files...');
     const $ = cheerio.load(template);
-
     $('#md').append(converter.makeHtml(markdown));
 
     LOG.debug('Writing index.html');
@@ -224,6 +292,7 @@ const bundle = () => {
 };
 
 async function main() {
+  emojiMapURL = await loadEmoji();
   await processTable();
   await processIndex();
   await bundle();

@@ -1,0 +1,157 @@
+[
+  {
+    "id": 0,
+    "name": "Others",
+    "description": "Awesome projects"
+  },
+  {
+    "id": 1,
+    "name": "Container Operations",
+    "description": "description"
+  },
+  {
+    "id": 2,
+    "name": "Container Composition",
+    "description": "description"
+  },
+  {
+    "id": 3,
+    "name": "Deployment and Infrastructure",
+    "description": "description"
+  },
+  {
+    "id": 4,
+    "name": "Monitoring",
+    "description": "description"
+  },
+  {
+    "id": 5,
+    "name": "Networking",
+    "description": "description"
+  },
+  {
+    "id": 6,
+    "name": "Orchestration",
+    "description": "description"
+  },
+  {
+    "id": 7,
+    "name": "PaaS",
+    "description": "description"
+  },
+  {
+    "id": 8,
+    "name": "Reverse Proxy",
+    "description": "description"
+  },
+  {
+    "id": 9,
+    "name": "Security",
+    "description": "description"
+  },
+  {
+    "id": 10,
+    "name": "Service Discovery",
+    "description": "description"
+  },
+  {
+    "id": 11,
+    "name": "Volume Management / Data",
+    "description": "description"
+  },
+  {
+    "id": 12,
+    "name": "User Interface / Desktop",
+    "description": "description"
+  },
+  {
+    "id": 13,
+    "name": "User Interface / Terminal",
+    "description": "description"
+  },
+  {
+    "id": 14,
+    "name": "User Interface / Web",
+    "description": "description"
+  },
+  {
+    "id": 15,
+    "name": "Docker Images",
+    "description": "description"
+  },
+  {
+    "id": 16,
+    "name": "Base Tools",
+    "description": "description"
+  },
+  {
+    "id": 17,
+    "name": "Builder",
+    "description": "description"
+  },
+  {
+    "id": 18,
+    "name": "Dockerfile",
+    "description": "description"
+  },
+  {
+    "id": 19,
+    "name": "Linter",
+    "description": "description"
+  },
+  {
+    "id": 20,
+    "name": "Metadata",
+    "description": "description"
+  },
+  {
+    "id": 21,
+    "name": "Registry",
+    "description": "description"
+  },
+  {
+    "id": 22,
+    "name": "Development with Docker",
+    "description": "description"
+  },
+  {
+    "id": 23,
+    "name": "API Client",
+    "description": "description"
+  },
+  {
+    "id": 24,
+    "name": "CI/CD",
+    "description": "description"
+  },
+  {
+    "id": 25,
+    "name": "Development Environment",
+    "description": "description"
+  },
+  {
+    "id": 26,
+    "name": "Garbage Collection",
+    "description": "description"
+  },
+  {
+    "id": 27,
+    "name": "Serverless",
+    "description": "description"
+  },
+  {
+    "id": 28,
+    "name": "Testing",
+    "description": "description"
+  },
+  {
+    "id": 29,
+    "name": "Wrappers",
+    "description": "description"
+  },
+  {
+    "id": 30,
+    "name": "Where to start",
+    "description": "description"
+  }
+]
