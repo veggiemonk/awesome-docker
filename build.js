@@ -80,7 +80,7 @@ const emojify = text => {
   const result = text.replace(colonWrapped, match => {
     const name = match.replace(/:/g, '');
     const url = emojiMapURL[name];
-    return `<img src="${url}" class="emoji" alt="${name}" />`;
+    return url ? `<img src="${url}" class="emoji" alt="${name}" />` : match;
   });
   return result || text;
 };
@@ -117,17 +117,11 @@ const formatEntry = (
     description,
     homepage,
     stargazers_count: stargazers,
-    // subscribers_count: watchers,
     pushed_at: updated,
-    // open_issues: issues,
-    // forks,
     language,
     license,
     owner,
     categoryName,
-    // categoryDescription,
-    // status,
-    // ownerType,
   },
   i,
 ) =>
@@ -171,8 +165,8 @@ const buttonHTLM = valueNames
 const processMetadata = metaData =>
   [
     `<div class="container">`,
-    `<div class="searchbar" ><input class="search" placeholder="Search" /></div>`,
-    `<div class="sortbtn" ><p>Sort by</p>${buttonHTLM}</div>`,
+    `<div class="searchbar"><input class="search" placeholder="Search" /></div>`,
+    `<div class="sortbtn"><p>Sort by</p>${buttonHTLM}</div>`,
     `</div>`,
     '<ul class="list">',
     Object.values(metaData)
