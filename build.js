@@ -141,7 +141,7 @@ const formatEntry = (
       '<p></p>',
     `<p class="${
       valueNames[3]
-    } timestamp" title="Stars on GitHub" data-timestamp="${stargazers}">⭐️${stargazers}</p>`,
+    } timestamp" title="Stars on GitHub" data-stars="${stargazers}">⭐️${stargazers}</p>`,
     (language && `<p class="${valueNames[5]}">${language}</p>`) || '<p></p>',
     (license &&
       license.url !== null &&
