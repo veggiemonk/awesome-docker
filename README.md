@@ -269,7 +269,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [notary](https://github.com/theupdateframework/notary) - a server and a client for running and interacting with trusted collections. By [@TUF](https://github.com/theupdateframework)
 - [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By [OpenSCAP](https://github.com/OpenSCAP)
 - [Sysdig Falco](https://github.com/draios/falco) - Sysdig Falco is an open source container security monitor. It can monitor application, container, host, and network activity and alert on unauthorized activity.
-- [Sysdig Secure](https://sysdig.com/product/secure/) :heavy_dollar_sign: - Sysdig Secure addresses run-time security through behavioral monitoring and defense, and provides deep forensics based on open source Sysdig for incident response.
+- [Sysdig Secure](https://sysdig.com/products/secure/) :heavy_dollar_sign: - Sysdig Secure addresses run-time security through behavioral monitoring and defense, and provides deep forensics based on open source Sysdig for incident response.
 - [Twistlock](https://www.twistlock.com/) :heavy_dollar_sign: - Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
 
 ### Service Discovery
@@ -598,7 +598,7 @@ Services to securely store your Docker images.
 - [Prometheus](https://prometheus.io/) - Open-source service monitoring system and time series database
 - [Site24x7](https://www.site24x7.com/docker-monitoring.html) - Docker Monitoring for DevOps and IT is a SaaS Pay per Host model
 - [SPM for Docker](https://github.com/sematext/sematext-agent-docker) - Monitoring of host and container metrics, Docker events and logs. Automatic log parser. Anomaly Detection and alerting for metrics and logs. [@sematext](https://github.com/sematext)
-- [Sysdig Monitor](https://sysdig.com/product/monitor/) - Sysdig Monitor can be used as either software or a SaaS service to monitor, alert, and troubleshoot containers using system calls. It has container-specific features for Docker and Kubernetes.
+- [Sysdig Monitor](https://sysdig.com/products/monitor/) - Sysdig Monitor can be used as either software or a SaaS service to monitor, alert, and troubleshoot containers using system calls. It has container-specific features for Docker and Kubernetes.
 
 # Useful Resources
 
