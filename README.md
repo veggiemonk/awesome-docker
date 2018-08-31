@@ -606,7 +606,7 @@ Services to securely store your Docker images.
 - [Cloud Native Landscape](https://github.com/cncf/landscape)
 - [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 - [Programming Community Curated Resources for learning Docker](https://hackr.io/tutorials/learn-docker)
-
+- [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
 Blogs by
 
 - [@codeship](https://blog.codeship.com/)
