@@ -87,7 +87,7 @@
   {
     "id": 17,
     "name": "Builder",
-    "description": "description"
+    "description": "Applications designed to help or simplify building new images"
   },
   {
     "id": 18,
@@ -107,7 +107,7 @@
   {
     "id": 21,
     "name": "Registry",
-    "description": "description"
+    "description": "Services to securely store your Docker images"
   },
   {
     "id": 22,

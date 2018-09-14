@@ -244,6 +244,11 @@
     "status": "active",
     "category": 4
   },
+  "https://github.com/monitoringartist/zabbix-docker-monitoring": {
+    "url": "https://github.com/monitoringartist/Zabbix-Docker-Monitoring",
+    "status": "active",
+    "category": 4
+  },
   "https://github.com/gomex/docker-zabbix": {
     "url": "https://github.com/gomex/docker-zabbix",
     "status": "active",
@@ -514,8 +519,8 @@
     "status": "active",
     "category": 10
   },
-  "https://github.com/coreos/etcd": {
-    "url": "https://github.com/coreos/etcd",
+  "https://github.com/etcd-io/etcd": {
+    "url": "https://github.com/etcd-io/etcd",
     "status": "active",
     "category": 10
   },
@@ -669,8 +674,8 @@
     "status": "active",
     "category": 13
   },
-  "https://github.com/shiwaforce/proco": {
-    "url": "https://github.com/shiwaforce/proco",
+  "https://github.com/shiwaforce/poco": {
+    "url": "https://github.com/shiwaforce/poco",
     "status": "active",
     "category": 13
   },
@@ -1264,6 +1269,11 @@
     "status": "active",
     "category": 27
   },
+  "https://github.com/appcelerator-archive/amp": {
+    "url": "https://github.com/appcelerator-archive/amp",
+    "status": "active",
+    "category": 27
+  },
   "https://github.com/apache/incubator-openwhisk": {
     "url": "https://github.com/apache/incubator-openwhisk",
     "status": "active",
@@ -1508,5 +1518,35 @@
     "url": "https://github.com/oracle/crashcart",
     "status": "active",
     "category": 25
+  },
+  "https://github.com/NexClipper/NexClipper": {
+    "url": "https://github.com/NexClipper/NexClipper",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/exoframejs/exoframe": {
+    "url": "https://github.com/exoframejs/exoframe",
+    "status": "active",
+    "category": 7
+  },
+  "https://github.com/iamsoorena/goinside": {
+    "url": "https://github.com/iamsoorena/goinside",
+    "status": "active",
+    "category": 13
+  },
+  "https://github.com/EnvCLI/EnvCLI": {
+    "url": "https://github.com/EnvCLI/EnvCLI",
+    "status": "active",
+    "category": 25
+  },
+  "https://github.com/goharbor/harbor": {
+    "url": "https://github.com/goharbor/harbor",
+    "status": "active",
+    "category": 21
+  },
+  "https://github.com/ianmiell/shutit": {
+    "url": "https://github.com/ianmiell/shutit",
+    "status": "active",
+    "category": 29
   }
 }
