@@ -173,7 +173,7 @@
   "https://github.com/ncopa/su-exec",
   "https://github.com/aptible/supercronic",
   "https://github.com/vorakl/TrivialRC",
-  "https://github.com/projectatomic/buildah",
+  "https://github.com/containers/buildah",
   "https://github.com/GoogleContainerTools/container-diff",
   "https://github.com/mutable/container-factory",
   "https://github.com/mdlavin/copy-docker-image",
