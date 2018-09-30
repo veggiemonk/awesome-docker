@@ -13,11 +13,11 @@
 
 **Please read it multiple times. I spent a lot of time on these guidelines and most people miss a lot.**
 
-- I have read and understood the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)
+- I have read and understood the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md)
 
-- The project submitted conforms to the quality standards outlined in the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md)
+- The project submitted conforms to the quality standards outlined in the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md)
 
-- Go to the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/CONTRIBUTING.md) and read it again.
+- Go to the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md) and read it again.
 
 
 **RULES (because you probably didn't read the guidelines):**
