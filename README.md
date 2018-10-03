@@ -338,7 +338,7 @@ Native desktop applications for managing and montoring docker hosts and clusters
 #### Web
 
 - [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2 by [@klausmeyer](https://github.com/klausmeyer)
-- [Docker Registry UI](https://github.com/squidnyan/docker-registry-ui) - A web UI for easy private/local Docker Registry integration by [@squidnyan](https://github.com/squidnyan)
+- [Docker Registry UI](https://github.com/atcol/docker-registry-ui) - A web UI for easy private/local Docker Registry integration by [@atcol](https://github.com/atcol)
 - [docker-registry-web](https://github.com/mkuchin/docker-registry-web) - Web UI, authentication service and event recorder for private docker registry v2 by [@mkuchin](https://github.com/mkuchin)
 - [docker-swarm-visualizer](https://github.com/dockersamples/docker-swarm-visualizer) - Visualizes Docker services on a Docker Swarm (for running demos).
 - [dockering-on-rails](https://github.com/Electrofenster/dockerding-on-rails) :skull: - Simple Web-Interface for Docker with a lot of features by [@Electrofenster](https://github.com/Electrofenster/)
