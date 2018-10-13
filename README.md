@@ -706,6 +706,10 @@ Blogs by
 
 - [Docker Russian-speaking Community](https://t.me/docker_ru)
 
+## Spanish
+
+- [Docker Tips](https://dockertips.com/)
+
 [anchore]: https://github.com/anchore
 [CONTRIBUTING]: https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md
 [calico]: https://github.com/projectcalico/calicoctl
