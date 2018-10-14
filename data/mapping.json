@@ -504,8 +504,8 @@
     "status": "active",
     "category": 9
   },
-  "https://github.com/draios/falco": {
-    "url": "https://github.com/draios/falco",
+  "https://github.com/falcosecurity/falco": {
+    "url": "https://github.com/falcosecurity/falco",
     "status": "active",
     "category": 9
   },
@@ -714,8 +714,8 @@
     "status": "active",
     "category": 14
   },
-  "https://github.com/squidnyan/docker-registry-ui": {
-    "url": "https://github.com/squidnyan/docker-registry-ui",
+  "https://github.com/atcol/docker-registry-ui": {
+    "url": "https://github.com/atcol/docker-registry-ui",
     "status": "active",
     "category": 14
   },
@@ -834,8 +834,8 @@
     "status": "active",
     "category": 16
   },
-  "https://github.com/projectatomic/buildah": {
-    "url": "https://github.com/projectatomic/buildah",
+  "https://github.com/containers/buildah": {
+    "url": "https://github.com/containers/buildah",
     "status": "active",
     "category": 17
   },
@@ -1548,5 +1548,20 @@
     "url": "https://github.com/ianmiell/shutit",
     "status": "active",
     "category": 29
+  },
+  "https://github.com/roquie/smalte": {
+    "url": "https://github.com/roquie/smalte",
+    "status": "active",
+    "category": 2
+  },
+  "https://github.com/stefanprodan/dockprom":{
+    "url": "https://github.com/stefanprodan/dockprom",
+    "status": "active",
+    "category": 4
+  },
+  "https://github.com/jeroenpeeters/docker-ssh": {
+    "url": "https://github.com/jeroenpeeters/docker-ssh",
+    "status": "active",
+    "category": 13
   }
 }
