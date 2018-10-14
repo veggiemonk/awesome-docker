@@ -107,7 +107,7 @@
   "https://github.com/google/docker-explorer",
   "https://github.com/theupdateframework/notary",
   "https://github.com/OpenSCAP/openscap",
-  "https://github.com/draios/falco",
+  "https://github.com/falcosecurity/falco",
   "https://github.com/cpuguy83/docker-grand-ambassador",
   "https://github.com/gliderlabs/docker-consul",
   "https://github.com/etcd-io/etcd",
