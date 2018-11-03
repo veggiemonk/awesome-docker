@@ -95,7 +95,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [Docker for all - Developers, Testers, DevOps, Product Owners + Videos](https://github.com/machzqcq/docker-for-all) Docker Training Videos for all
 - [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/): a quick introduction
 - [Docker Toolbox](https://docs.docker.com/toolbox/overview/) :skull: - Quick setup and launch of a Docker environment on older Mac (10.10 and below) and Windows (8.1 and below) systems. On newer systems it's recommended to use the [Docker for Mac](https://docs.docker.com/docker-for-mac/) or [Docker for Windows][docker-for-windows].
-- [Docker Training](https://training.docker.com/) - Includes a free self-paced hands-on tutorial (free registration required or sign-in with DockerHub ID)
+- [Docker Training](https://success.docker.com/training) :heavy_dollar_sign:
 - [Katacoda](https://www.katacoda.com/): Learn Docker using Interactive Browser-Based Labs
 - [Learn Docker](https://github.com/dwyl/learn-docker) Full environment set up, screenshots, step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 - [Play With Docker](https://training.play-with-docker.com/) - PWD is a great way to get started with Docker from beginner to advanced users. Docker runs directly in your browser.
@@ -107,7 +107,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [@eon01](https://github.com/eon01/DockerCheatSheet)
 - [@dimonomid](https://github.com/dimonomid/docker-quick-ref) (PDF)
 - [@JensPiegsa](http://docker.jens-piegsa.com)
-- [@wsargent](https://github.com/wsargent/docker-cheat-sheet)
+- [@wsargent](https://github.com/wsargent/docker-cheat-sheet) (Most popular)
 
 # Where to start (Windows)
 
@@ -598,7 +598,6 @@ Services to securely store your Docker images.
 - [Axibase Time-Series Database](https://axibase.com/products/axibase-time-series-database/writing-data/docker-cadvisor/) - Long-term retention of container statistics and built-in dashboards for Docker. Collected with native Google cAdvisor storage driver.
 - [CA Technologies Docker Monitoring](https://www.ca.com/us/products/docker-monitoring.html) - Agile Operations solutions from CA deliver the modern Docker monitoring businesses need to accelerate and optimize the performance of microservices and the dynamic Docker environments running them. Monitor both the Docker environment and apps that run inside them.
 - [Collecting docker logs and stats with Splunk](https://www.splunk.com/blog/2015/08/24/collecting-docker-logs-and-stats-with-splunk.html)
-- [CoScale](https://www.coscale.com/docker-monitoring) - Full stack monitoring for containerized applications and microservices. Powered by anomaly detection to find performance problems faster.
 - [Datadog](https://www.datadoghq.com/) - Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. It includes support for Docker, Kubernetes, and Mesos.
 - [Prometheus](https://prometheus.io/) - Open-source service monitoring system and time series database
 - [Site24x7](https://www.site24x7.com/docker-monitoring.html) - Docker Monitoring for DevOps and IT is a SaaS Pay per Host model
@@ -612,6 +611,7 @@ Services to securely store your Docker images.
 - [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 - [Programming Community Curated Resources for learning Docker](https://hackr.io/tutorials/learn-docker)
 - [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
+
 Blogs by
 
 - [@codeship](https://blog.codeship.com/)
@@ -648,7 +648,7 @@ Blogs by
 
 - [Docker Pirates ARMed with explosive stuff](http://blog.hypriot.com/) Huge resource on clustering, swarm, docker, pre-installed image for SD card on Raspberry Pi
 - [Get Docker up and running on the RaspberryPi in three steps](https://github.com/umiddelb/armhf/wiki/Get-Docker-up-and-running-on-the-RaspberryPi-%28ARMv6%29-in-three-steps)
-- [git push docker containers to linux devices](https://resin.io/) Modern DevOps for IoT, leveraging git and Docker.
+- [git push docker containers to linux devices](https://www.balena.io) Modern DevOps for IoT, leveraging git and Docker.
 - [Installing, running, using Docker on armhf (ARMv7) devices](https://github.com/umiddelb/armhf/wiki/Installing,-running,-using-docker-on-armhf-%28ARMv7%29-devices)
 
 ## Security
