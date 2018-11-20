@@ -476,6 +476,8 @@ Services to securely store your Docker images.
 - [libcompose](https://github.com/docker/libcompose) - Go library for Docker Compose.
 - [sbt-docker-compose](https://github.com/Tapad/sbt-docker-compose) - Integrates Docker Compose functionality into sbt by [@kurtkopchik](https://github.com/kurtkopchik/)
 - [sbt-docker](https://github.com/marcuslonnberg/sbt-docker) - Create Docker images directly from sbt by [@marcuslonnberg](https://github.com/marcuslonnberg)
+- [docker-client](https://github.com/spotify/docker-client) - Java client for the Docker remote API by [@spotify](https://github.com/spotify)
+- [clj-docker-client](https://github.com/lispyclouds/clj-docker-client) :construction: - Idiomatic Clojure client for the Docker remote API
 
 ### CI/CD
 
