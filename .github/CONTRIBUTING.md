@@ -73,6 +73,7 @@ or you can
 - The link should be the name of the package or project or website
 - Description should be clear and concise (read it out loud to be sure)
 - Description should follow the link, on the same line
+- Entries are listed alphabetically, please respect the order
 - If you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
