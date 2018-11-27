@@ -364,6 +364,7 @@ Tools and applications that are either installed inside containers or designed t
 - [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic](https://github.com/prologic)
 - [Chaperone](https://github.com/garywiz/chaperone) - A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package. by [@garywiz](https://github.com/garywiz)
 - [CoreOS][coreos] - Linux for Massive Server Deployments
+- [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system, by [@GoogleContainerTools][GoogleContainerTools]
 - [docker-alpine](https://github.com/gliderlabs/docker-alpine) - A super small Docker base image *(5MB)* using Alpine Linux by [@gliderlabs][gliderlabs]
 - [docker-gen](https://github.com/jwilder/docker-gen) - Generate files from docker container meta-data by [@jwilder][jwilder]
 - [dockerize](https://github.com/jwilder/dockerize) - Utility to simplify running applications in docker containers by [@jwilder][jwilder]
