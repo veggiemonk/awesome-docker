@@ -235,6 +235,7 @@
   "https://github.com/fsouza/go-dockerclient",
   "https://github.com/gesellix/gradle-docker-plugin",
   "https://github.com/docker/libcompose",
+  "https://github.com/greenled/portainer-stack-utils",
   "https://github.com/Tapad/sbt-docker-compose",
   "https://github.com/marcuslonnberg/sbt-docker",
   "https://github.com/harbur/captain",
