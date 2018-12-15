@@ -230,6 +230,7 @@
   "https://github.com/gesellix/docker-client",
   "https://github.com/spotify/docker-client",
   "https://github.com/whisklabs/docker-it-scala",
+  "https://github.com/amihaiemil/docker-java-api",
   "https://github.com/fabric8io/docker-maven-plugin",
   "https://github.com/Microsoft/Docker-PowerShell",
   "https://github.com/Microsoft/Docker.DotNet",
