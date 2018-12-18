@@ -631,7 +631,6 @@ Blogs by
 - [@jpetazzo](http://jpetazzo.github.io/)
 - [@jwilder](http://jasonwilder.com/)
 - [@nickjanetakis](https://nickjanetakis.com/blog/tag/docker-tips-tricks-and-tutorials)
-- [@progrium](http://progrium.com/blog/)
 - [@sebgoa](http://sebgoa.blogspot.com/)
 - [Container solutions](https://container-solutions.com/blog/)
 - [Container42](https://container42.com/)
