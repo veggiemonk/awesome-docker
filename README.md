@@ -415,6 +415,7 @@ Applications designed to help or simplify building **new** images
 - [chaperone-docker](https://github.com/garywiz/chaperone-docker) - A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.
 - [Dockerfile Generator](http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/)
 - [Dockerfile Project](http://dockerfile.github.io/) : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
+- [dockmoor](https://github.com/MeneDev/dockmoor) : Manage docker image references and help to create reproducible builds with Docker.
 - [Vektorcloud](https://github.com/vektorcloud) - A collection of minimal, Alpine-based Docker images
 
 Examples by:
