@@ -600,7 +600,6 @@ Services to securely store your Docker images.
 - [Dockhero](https://dockhero.io/) - Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
 - [Giant Swarm](https://giantswarm.io/) - Simple microservice infrastructure. Deploy your containers in seconds.
 - [Google Container Engine](https://cloud.google.com/kubernetes-engine/docs/) - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
-- [Hyper_](https://hyper.sh/) - Secure container hosting service with "nano-containers" and per-second billing.
 - [IBM Bluemix Container Service](https://console.bluemix.net/docs/containers/container_index.html) - Run Docker containers in a hosted cloud environment on IBM Bluemix.
 - [Jelastic Cloud](https://jelastic.cloud/) - "Easy-to-use" container hosting platfrom with automatic vertical and horizontal scaling. Available over 50+ hosting providers worldwide.
 - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/) - A hosted [OpenShift][openshift] cluster for running your Docker containers managed by Red Hat.
