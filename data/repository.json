@@ -98,6 +98,7 @@
   "https://github.com/zchee/h2o-proxy",
   "https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion",
   "https://github.com/mattallty/muguet",
+  "https://github.com/jc21/nginx-proxy-manager",
   "https://github.com/tpbowden/swarm-ingress-router",
   "https://github.com/flavioaiello/swarm-router",
   "https://github.com/containous/traefik",
