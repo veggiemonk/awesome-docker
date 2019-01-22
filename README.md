@@ -161,7 +161,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 ### Deployment and Infrastructure
 
 - [blackfish](https://gitlab.com/blackfish/blackfish) - a CoreOS VM to build swarm clusters for Dev & Production by [@blackfish](https://gitlab.com/blackfish/)
-- [BosnD](https://gitlab.com/n0r1sk/bosnd) - BosnD, the boatswain daemon - A dynamic configuration file writer & service reloader for dynamically changing container environments. 
+- [BosnD](https://gitlab.com/n0r1sk/bosnd) - BosnD, the boatswain daemon - A dynamic configuration file writer & service reloader for dynamically changing container environments.
 - [Centurion](https://github.com/newrelic/centurion) - Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings. By [@newrelic](https://github.com/newrelic)
 - [Clocker](https://github.com/brooklyncentral/clocker) - Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts, on both Docker and Marathon. It leverages [Calico][calico] and [Weave][weave] for networking and [Brooklyn](http://brooklyn.apache.org/) for application blueprints. By [@brooklyncentral](https://github.com/brooklyncentral)
 - [Conduit](https://github.com/ehazlett/conduit) - Experimental deployment system for Docker by [@ehazlett](https://github.com/ehazlett)
@@ -230,7 +230,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 ### PaaS
 
 - [Atlantis](https://github.com/ooyala/atlantis) :skull: - Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go
-- [CaptainDuckDuck](https://github.com/githubsaturn/captainduckduck) - Open source Heroku-like platform with a one-liner installer and a GUI for managing apps - with serveral one-click databases and apps.
+- [caprover](https://github.com/caprover/caprover) - [previously known as CaptainDuckDuck] Automated Scalable Webserver Package (automated Docker+nginx) - Heroku on Steroids
 - [Convox Rack](https://github.com/convox/rack) - Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 - [Dcw](https://github.com/pbertera/dcw) - Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels.
 - [Dokku](https://github.com/dokku/dokku) - Docker powered mini-Heroku that helps you build and manage the lifecycle of applications (originally by [@progrium][progrium])
@@ -277,7 +277,6 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 
 ### Service Discovery
 
-- [Docker Grand Ambassador](https://github.com/cpuguy83/docker-grand-ambassador) :skull: - This is a fully dynamic docker link ambassador. + [Article](https://docs.docker.com/engine/admin/ambassador_pattern_linking/) by [@cpuguy83](https://github.com/cpuguy83)
 - [docker-consul](https://github.com/gliderlabs/docker-consul) by [@progrium][progrium]
 - [etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system by [@etcd-io](https://github.com/etcd-io) (former part of CoreOS)
 - [istio](https://github.com/istio/istio) - An open platform to connect, manage, and secure microservices by [@IstioMesh](istio)
@@ -386,13 +385,12 @@ Applications designed to help or simplify building **new** images
 - [container-diff](https://github.com/GoogleContainerTools/container-diff) - An image tool for comparing and analzying container images by [@GoogleContainerTools][GoogleContainerTools]
 - [container-factory](https://github.com/mutable/container-factory) - Produces Docker images from tarballs of application source code by [@mutable](https://github.com/mutable)
 - [copy-docker-image](https://github.com/mdlavin/copy-docker-image) - Copy a Docker image between registries without a full Docker installation by [@mdlavin](https://github.com/mdlavin)
-- [dapp](https://github.com/flant/dapp) - Fast and small incremental builds for CI/CD.
 - [Derrick](https://github.com/alibaba/derrick) - A tool help you to automate the generation of Dockerfile and dockerize application by scanning the code. By [@alibaba](https://github.com/alibaba).
 - [dlayer](https://github.com/wercker/dlayer) - Stats collector for Docker layers by [@wercker](https://github.com/wercker)
 - [docker-companion](https://github.com/mudler/docker-companion) - A command line tool written in Golang to squash and unpack docker images by [@mudler](https://github.com/mudler/)
-- [DockerMake](https://github.com/avirshup/DockerMake) - A reproducible Docker image build system for complex software stacks. By [@avirshup](https://github.com/avirshup)
 - [docker-make](https://github.com/CtripCloud/docker-make) - Build, tag,and push a bunch of related docker images via a single command.
 - [docker-replay](https://github.com/bcicen/docker-replay) - Generate `docker run`command and options from running containers. By [bcicen](https://github.com/bcicen)
+- [DockerMake](https://github.com/avirshup/DockerMake) - A reproducible Docker image build system for complex software stacks. By [@avirshup](https://github.com/avirshup)
 - [DockerSlim](https://github.com/docker-slim/docker-slim) shrinks fat Docker images creating the smallest possible images.
 - [Dockly](https://github.com/swipely/dockly) - Dockly is a gem made to ease the pain of packaging an application in Docker by [@swipely](https://github.com/swipely/)
 - [dockramp](https://github.com/jlhawn/dockramp) :skull: - Proof of Concept: A Client Driven Docker Image Builder by [@jlhawn](https://github.com/jlhawn)
@@ -405,6 +403,7 @@ Applications designed to help or simplify building **new** images
 - [runlike](https://github.com/lavie/runlike) - Generate `docker run`command and options from running containers by [@lavie](https://github.com/lavie)
 - [SkinnyWhale](https://github.com/djosephsen/skinnywhale) :skull: - Skinnywhale helps you make smaller (as in megabytes) Docker containers.
 - [Smith](https://github.com/oracle/smith) - A Micocontainer Builder and can perform multi-stage builds after the image is built [Oracle][oracle]
+- [werf](https://github.com/flant/werf) - Werf (previously known as dapp) helps to implement and support Continuous Integration and Continuous Delivery by [@flant](https://github.com/flant)
 - [Whaler](https://github.com/P3GLEG/Whaler) - Program to reverse Docker images into Dockerfiles by [@P3GLEG](https://github.com/P3GLEG/).
 - [Whales](https://github.com/Gueils/whales) - A tool to automatically dockerize your applications by [@icalialabs](https://github.com/IcaliaLabs).
 
