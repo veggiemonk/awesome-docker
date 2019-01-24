@@ -24,7 +24,3 @@ action "Shell" {
     GIT_USERNAME = "veggiemonk"
   }
 }
-
-workflow "New workflow 1" {
-  on = "push"
-}
