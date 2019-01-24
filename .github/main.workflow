@@ -23,4 +23,5 @@ action "Shell" {
     "GIT_EMAIL" = "alex.blaine@layder.io"
     GIT_USERNAME = "veggiemonk"
   }
+  runs = "sh -c \"$@\""
 }
