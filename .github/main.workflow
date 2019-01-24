@@ -16,7 +16,7 @@ action "npm run build" {
 
 action "Shell" {
   uses = "veggiemonk/bin/git@master"
-  args = "status"
+  args = "TOKEN=$GITHUB_TOKEN node buildMetadata.js && ./push.sh"
   needs = ["npm run build"]
   secrets = ["GITHUB_TOKEN"]
   env = {
