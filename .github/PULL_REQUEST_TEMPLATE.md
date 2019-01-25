@@ -1,37 +1,39 @@
 
 <!-- Congrats on creating an Awesome Docker entry! 🎉 -->
 
+# Quality Standards
 
-<!-- Please fill in the below placeholders -->
+Note that we can help you achieve those standards, just try your best and be brave.
+We'll guide you to the best of our abilities.
 
-**[Insert the URL to be listed]**
+To be on the list, it would be **nice** if entries adhere to these quality standards:
 
-**[Explain what the project is about and why it should be listed]**
+- It should take less than 20 sec to find what is the project, how to install it and how to use it.
+- Generally useful to the community.
+- A project on GitHub with a well documented `README.md` file and plenty of examples is considered high quality.
+- Clearly stating if an entry is related to (Linux) containers and not to Docker. There is an [awesome list](https://github.com/Friz-zy/awesome-linux-containers) for that.
+- Clearly stating "what is it" i.e. which category it belongs to.
+- Clearly stating "what is it for" i.e. mention a real problem it solves (even a small one). Make it clear for the next person.
+- If it is a **WIP** (work in progress, not safe for production), please mention it. (Remember the time before Docker 1.0 ? ;-) )
+- Always put the link to the GitHub project instead of the website!
 
+To be on the list, the project **must** have:
 
-# By submitting this pull request I confirm I've read and complied with the below requirements.
+- How to setup/install the project
+- How to use the project (examples)
 
-**Please read it multiple times. I spent a lot of time on these guidelines and most people miss a lot.**
+If your PR is not merged, we will tell you why so that you may be able to improve it.
+But usually, we are pretty relaxed people, so just come and say hi, we'll figure something out together.
 
-- I have read and understood the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md)
+# Rules for Pull Request
 
-- The project submitted conforms to the quality standards outlined in the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md)
+- Each item should be limited to one link, no duplicates, no redirection (careful with `http` vs `https`!)
+- The link should be the name of the package or project or website
+- Description should be clear and concise (read it out loud to be sure)
+- Description should follow the link, on the same line
+- Entries are listed alphabetically, please respect the order
+- If you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
 
-- Go to the [contribution guidelines](https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md) and read it again.
+Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
-
-**RULES (because you probably didn't read the guidelines):**
-
-Links will be tested with [awesome_bot](https://github.com/dkhamsing/awesome_bot). Please make sure your URL to be listed is unique (do some search queries), otherwise put a link at the end of `README.md` file.
- 
-- FORMAT
-  - Use the following format: `[Name](Link) - Description.`
-  - `[Name]` should be the title of the project
-  - `(Link)` should be pointing to a GitHub repository, not to a website
-  - `Description.` should end with a full stop/period
-  - For GitHub repositories, add the name of the author with a link to its GitHub account after the description, like `By [@author](GitHub account)`
-- ORDER: The entries are in lexical order (English letter order) 
-- LABEL (Optional): Add one of the following icons next to the project name like ```[Name](Link) :icon: - Description.```
-  - :heavy_dollar_sign: indicates if one needs a paying subscription to use the project.
-  - :construction: indicates that the project is a work in progress/beta release.
-  - :skull: indicates that the project is obsolete, but still worth mentioning it.
+#### Your commit message will be a [tweet](https://twitter.com/awesome_docker) so write a [good commit message](https://chris.beams.io/posts/git-commit/), keep that in mind :)

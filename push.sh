@@ -4,8 +4,8 @@
 set -e
 
 # Set git credentials
-git config --global user.email "info@veggiemonk.ovh"
-git config --global user.name "veggiemonk-bot"
+git config --global user.email "$GIT_EMAIL"
+git config --global user.name "$GIT_USERNAME"
 
 # let git know where to apply the changes
 git checkout master
@@ -21,6 +21,6 @@ echo "Commiting files"
 git commit -m "Automated update repository metadata [skip ci]"
 
 echo "Pushing changes"
-git push https://$GITHUB_USER:$GITHUB_TOKEN@github.com/veggiemonk/awesome-docker master >/dev/null 2>&1
+git push https://"$GITHUB_USER:$GITHUB_TOKEN"@github.com/veggiemonk/awesome-docker master >/dev/null 2>&1
 
 echo "Done."
