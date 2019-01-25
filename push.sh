@@ -18,7 +18,7 @@ files=$(git diff --cached --numstat | wc -l | tr -d '[:space:]');
 [[ $files -eq 0 ]] && echo "nothing to push, exiting..." && exit
 
 echo "Commiting files"
-git commit -m "Automated update repository metadata [skip ci]"
+git commit -m "Automated update repository metadata [skip-ci]"
 
 echo "Pushing changes"
 git push https://"$GIT_USER:$GITHUB_TOKEN"@github.com/veggiemonk/awesome-docker master >/dev/null 2>&1

@@ -23,10 +23,10 @@ action "npm run build" {
 }
 
 action "Build metadata" {
-  uses = "veggiemonk/bin/git@master"
-  runs = "sh -c \"$@\""
-  args = "node buildMetadata.js"
   needs = ["npm run build"]
+  uses = "actions/npm@master"
+  runs = "sh -c \"node $*\""
+  args = "buildMetadata.js"
   secrets = ["GITHUB_TOKEN"]
   env = {
     GIT_EMAIL = "alex.blaine@layder.io"
