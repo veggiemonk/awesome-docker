@@ -8,6 +8,7 @@ action "skip-commit" {
   env = {
     COMMIT_FILTER = "skip-ci"
   }
+
 }
 
 action "npm install" {
