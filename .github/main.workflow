@@ -25,7 +25,8 @@ action "npm run build" {
 action "Build metadata" {
   needs = ["npm run build"]
   uses = "actions/npm@master"
-  runs = "sh -c 'node buildMetadata.js'"
+  runs = "sh -l -c"
+  args = ["node buildMetadata.js"]
   secrets = ["GITHUB_TOKEN"]
   env = {
     GIT_EMAIL = "alex.blaine@layder.io"
