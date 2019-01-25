@@ -4,7 +4,7 @@ workflow "New workflow" {
 }
 
 action "skip-commit" {
-  uses = "veggiemonk/skip-commit@f92ccae2d4e62d0c0fb4c32c20cac536d9d88b35"
+  uses = "veggiemonk/skip-commit@449e94fa83e7918c4079f37322205e17b868f993"
   env = {
     COMMIT_FILTER = "skip-ci"
   }
