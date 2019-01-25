@@ -6,7 +6,7 @@ workflow "New workflow" {
 action "skip-commit" {
   uses = "veggiemonk/skip-commit@master"
   env = {
-    COMMIT_FILTER = "\\[skip-ci\\]"
+    COMMIT_FILTER = "skip-ci"
   }
 }
 
@@ -43,6 +43,6 @@ action "push changes" {
   env = {
     GIT_EMAIL = "alex.blaine@layder.io"
     GIT_USERNAME = "veggiemonk-bot"
-    GITHUB_USER = "veggiemonk"
+    GIT_USER = "veggiemonk"
   }
 }
