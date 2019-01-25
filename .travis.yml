@@ -21,4 +21,4 @@ before_script:
 
 script:
   - awesome_bot README.md --white-list edit/master,sindresorhus/awesome,www.udacity.com,screwdriver.cd,veggiemonk/awesome-docker,vimeo.com,cycle.io
-  - TOKEN=$GITHUB_TOKEN node buildMetadata.js && ./push.sh
+  - node buildMetadata.js && ./push.sh

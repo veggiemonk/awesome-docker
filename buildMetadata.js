@@ -17,10 +17,12 @@ const handleFailure = err => {
 
 process.on('unhandledRejection', handleFailure);
 
-if (!process.env.TOKEN) {
+if (!process.env.GITHUB_TOKEN) {
   LOG.error('no credentials found.');
   process.exit(1);
 }
+
+const TOKEN = process.env.GITHUB_TOKEN
 
 // --- ENV VAR ---
 const BATCH_SIZE = parseInt(process.env.BATCH_SIZE, 10) || 10;
@@ -35,6 +37,7 @@ const DATE = dayjs().format('YYYY-MM-DDTHH.mm.ss');
 const GITHUB_METADATA_FILE = `${DATA_FOLDER}/${DATE}-fetched_repo_data.json`;
 const LATEST_FILENAME = `${DATA_FOLDER}/latest`;
 const GITHUB_REPOS = `${DATA_FOLDER}/repository.json`;
+const Authorization = `token ${TOKEN}`
 
 // --- HTTP ---
 const API = 'https://api.github.com/';
@@ -43,7 +46,7 @@ const options = {
   headers: {
     'User-Agent': 'awesome-docker script listing',
     'Content-Type': 'application/json',
-    Authorization: `token ${process.env.TOKEN}`,
+    Authorization,
   },
 };
 
