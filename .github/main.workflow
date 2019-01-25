@@ -35,7 +35,7 @@ action "Build metadata" {
 }
 
 action "push changes" {
-  uses = "actions/bin/shell@master"
+  uses = "veggiemonk/bin/git@master"
   needs = ["Build metadata"]
   runs = "sh -c $@"
   args = "push.sh"
