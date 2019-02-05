@@ -682,6 +682,7 @@ Blogs by
 
 ## Videos
 
+- [CI/CD Pipeline with Docker, AWS ECS Fargate, Node.js and GitHub Actions](https://dtr.ee/2DURIVu) - Building a dev pipeline using Docker, GitHub Actions, Node.js, and AWS ECS Fargate.
 - [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
 - [Deploying and scaling applications with Docker, Swarm, and a tiny bit of Python magic](https://www.youtube.com/watch?v=GpHMTR7P2Ms) (3:11:06) by [@jpetazzo][jpetazzo]
 - [Docker and SELinux by Daniel Walsh from Red Hat](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
