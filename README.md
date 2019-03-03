@@ -430,6 +430,7 @@ Examples by:
 
 ### Linter
 
+- [docker-image-size-limit](https://github.com/wemake-services/docker-image-size-limit) - A tool to keep an eye on your docker images size.
 - [dockerfile_lint](https://github.com/projectatomic/dockerfile_lint) - A rule-based 'linter' for Dockerfiles by [@projectatomic](https://github.com/projectatomic)
 - [Dockerfilelint](https://github.com/replicatedhq/dockerfilelint) - A node module that analyzes a Dockerfile and looks for common traps, mistakes and helps enforce best practices by [@replicatedhq](https://github.com/replicatedhq)
 - [dockfmt](https://github.com/jessfraz/dockfmt) :construction: - Dockerfile formatter and parser by [@jessfraz][jessfraz]
