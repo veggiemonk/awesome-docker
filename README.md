@@ -653,7 +653,6 @@ Services to securely store your Docker images.
 
 ## Security
 
-- [Top ten most popular docker images each contain at least 30 vulnerabilities](https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities)
 - [Bringing new security features to Docker](https://opensource.com/business/14/9/security-for-docker)
 - [CVE Scanning Alpine images with Multi-stage builds in Docker 17.05](https://github.com/tomwillfixit/alpine-cvecheck) by [@tomwillfixit](https://twitter.com/tomwillfixit)
 - [Docker and SELinux](http://www.projectatomic.io/docs/docker-and-selinux/)
@@ -666,6 +665,7 @@ Services to securely store your Docker images.
 - [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
 - [Security Best Practices for Building Docker Images](https://linux-audit.com/tag/docker/)
 - [Software Engineering Radio interview of Docker Security Team Lead (Diogo Mónica)](http://www.se-radio.net/2017/05/se-radio-episode-290-diogo-monica-on-docker-security/)
+- [Top ten most popular docker images each contain at least 30 vulnerabilities](https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities)
 - [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
 - [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/) (written 5 MAY 2015)
 
