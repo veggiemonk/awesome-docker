@@ -626,6 +626,7 @@ Services to securely store your Docker images.
 - [Programming Community Curated Resources for learning Docker](https://hackr.io/tutorials/learn-docker)
 - [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
 - [Docker Community on Hashnode](https://hashnode.com/n/docker)
+- [Docker in Practice, Second Edition](https://www.manning.com/books/docker-in-practice-second-edition) 
 
 ## Awesome Lists
 
