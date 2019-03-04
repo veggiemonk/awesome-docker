@@ -218,6 +218,7 @@
   "https://github.com/kstaken/dockerfile-examples",
   "https://github.com/ondrejmo/Dockerfiles",
   "https://github.com/vimagick/dockerfiles",
+  "https://github.com/wemake-services/docker-image-size-limit",
   "https://github.com/projectatomic/dockerfile_lint",
   "https://github.com/replicatedhq/dockerfilelint",
   "https://github.com/jessfraz/dockfmt",
