@@ -668,8 +668,8 @@ Services to securely store your Docker images.
 - [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
 - [Security Best Practices for Building Docker Images](https://linux-audit.com/tag/docker/)
 - [Software Engineering Radio interview of Docker Security Team Lead (Diogo Mónica)](http://www.se-radio.net/2017/05/se-radio-episode-290-diogo-monica-on-docker-security/)
+- [Ten Docker Image Security Best Practices Cheat Sheet](https://snyk.io/blog/10-docker-image-security-best-practices/)
 - [Top ten most popular docker images each contain at least 30 vulnerabilities](https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities/)
-- [Ten Docker Image Security Best Practices Cheat Sheet](https://snyk.io/blog/10-docker-image-security-best-practices)
 - [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
 - [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/) (written 5 MAY 2015)
 
