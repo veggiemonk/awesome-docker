@@ -506,7 +506,7 @@ Services to securely store your Docker images.
 - [Screwdriver :heavy_dollar_sign:](https://screwdriver.cd/) - Yahoo's OpenSource buildplatform designed for Continous Delivery.
 - [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository by [@Stratoscale](https://github.com/Stratoscale)
 - [SwarmCI](https://github.com/ghostsquad/swarmci) - Create a distributed, isolated task pipeline in your Docker Swarm.
-- [Watchtower](https://github.com/v2tec/watchtower) - Automatically update running Docker containers by [@CenturyLinkLabs][centurylinklabs]
+- [Watchtower](https://github.com/containrrr/watchtower) - Automatically update running Docker containers by [@CenturyLinkLabs][centurylinklabs]
 
 ### Development Environment
 
@@ -584,7 +584,7 @@ Services to securely store your Docker images.
 
 - [CircleCI](https://circleci.com/) :heavy_dollar_sign: - Push or pull Docker images from your build environment, or build and run containers right on CircleCI.
 - [CodeFresh](https://codefresh.io) :heavy_dollar_sign: - Everything you need to build, test, and share your Docker applications. Provides automated end to end testing.
-- [CodeShip](https://codeship.com/features/pro) :heavy_dollar_sign: - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
+- [CodeShip](https://cms.codeship.com/features/pro) :heavy_dollar_sign: - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
 - [ConcourseCI](https://concourse-ci.org) :heavy_dollar_sign: - A CI SaaS platform for developers and DevOps teams pipeline oriented.
 - [IBM Bluemix Continous Delivery](https://console.bluemix.net/devops/getting-started?auth=false) :heavy_dollar_sign: - Continuous delivery using a pipeline deployment onto IBM containers on Bluemix.
 - [Semaphore CI](https://semaphoreci.com/) :heavy_dollar_sign: — A high-performance cloud solution that makes it easy to build, test and ship your containers to production.
