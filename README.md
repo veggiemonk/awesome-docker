@@ -587,7 +587,6 @@ Services to securely store your Docker images.
 - [CodeFresh](https://codefresh.io) :heavy_dollar_sign: - Everything you need to build, test, and share your Docker applications. Provides automated end to end testing.
 - [CodeShip](https://cms.codeship.com/features/pro) :heavy_dollar_sign: - Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security.
 - [ConcourseCI](https://concourse-ci.org) :heavy_dollar_sign: - A CI SaaS platform for developers and DevOps teams pipeline oriented.
-- [IBM Bluemix Continous Delivery](https://console.bluemix.net/devops/getting-started?auth=false) :heavy_dollar_sign: - Continuous delivery using a pipeline deployment onto IBM containers on Bluemix.
 - [Semaphore CI](https://semaphoreci.com/) :heavy_dollar_sign: — A high-performance cloud solution that makes it easy to build, test and ship your containers to production.
 - [Shippable](https://app.shippable.com/) :heavy_dollar_sign: - A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production.
 - [TravisCI](https://travis-ci.org/) :heavy_dollar_sign: - A Free github projects continuous integration Saas platform for developers and Devops.
@@ -604,7 +603,6 @@ Services to securely store your Docker images.
 - [Dockhero](https://dockhero.io/) :heavy_dollar_sign: - Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
 - [Giant Swarm](https://giantswarm.io/) :heavy_dollar_sign: - Simple microservice infrastructure. Deploy your containers in seconds.
 - [Google Container Engine](https://cloud.google.com/kubernetes-engine/docs/) :heavy_dollar_sign: - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
-- [IBM Bluemix Container Service](https://console.bluemix.net/docs/containers/container_index.html) :heavy_dollar_sign: - Run Docker containers in a hosted cloud environment on IBM Bluemix.
 - [Jelastic Cloud](https://jelastic.cloud/) :heavy_dollar_sign: - "Easy-to-use" container hosting platfrom with automatic vertical and horizontal scaling. Available over 50+ hosting providers worldwide.
 - [Mesosphere DC/OS](https://mesosphere.com/product/) :heavy_dollar_sign: - Integrated platform for data and containers built on Apache Mesos by [@mesosphere](https://mesosphere.com)
 - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/) :heavy_dollar_sign: - A hosted [OpenShift][openshift] cluster for running your Docker containers managed by Red Hat.
