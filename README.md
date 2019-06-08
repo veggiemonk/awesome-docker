@@ -514,6 +514,7 @@ Services to securely store your Docker images.
 
 ### Development Environment
 
+- [batect](https://github.com/charleskorn/batect) - build and testing environments as code tool: Dockerised build and testing environments made easy
 - [Binci](https://github.com/binci/binci) - Containerize your development workflow. (formerly DevLab by [@TechnologyAdvice](https://github.com/TechnologyAdvice))
 - [Boot2Docker](https://github.com/boot2docker/boot2docker) - Docker for OSX and Windows
 - [construi](https://github.com/lstephen/construi) - Run your builds inside a Docker defined environment by [@lstephen](https://github.com/lstephen)
