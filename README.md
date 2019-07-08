@@ -636,6 +636,7 @@ Services to securely store your Docker images.
 - [Docker Community on Hashnode](https://hashnode.com/n/docker)
 - [Docker in Practice, Second Edition](https://www.manning.com/books/docker-in-practice-second-edition)
 - [Docker dev bookmarks](https://www.bookmarks.dev/search?q=docker) - use the tag [docker](https://www.bookmarks.dev/tagged/docker)
+- [Docker packaging guide for Python](https://pythonspeed.com/docker/) - a series of detailed articles on the specifics of Docker packaging for Python.
 
 ## Awesome Lists
 
