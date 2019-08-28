@@ -17,25 +17,25 @@
   },
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
-    "cheerio": "1.0.0-rc.2",
-    "dayjs": "1.8.0",
+    "cheerio": "1.0.0-rc.3",
+    "dayjs": "1.8.16",
     "draftlog": "1.0.12",
-    "fs-extra": "7.0.1",
+    "fs-extra": "8.1.0",
     "list.js": "1.5.0",
-    "node-fetch": "2.3.0",
-    "parcel-bundler": "1.11.0",
+    "node-fetch": "2.6.0",
+    "parcel-bundler": "1.12.3",
     "rimraf": "2.6.3",
     "showdown": "1.9.0",
-    "sitemap": "2.1.0"
+    "sitemap": "4.1.1"
   },
   "devDependencies": {
-    "babel-eslint": "10.0.1",
-    "eslint": "5.12.1",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-config-prettier": "3.6.0",
-    "eslint-plugin-import": "2.15.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-prettier": "3.0.1",
-    "prettier": "1.16.1"
+    "babel-eslint": "10.0.3",
+    "eslint": "6.2.2",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.1.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2"
   }
 }
