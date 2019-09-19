@@ -633,7 +633,7 @@ Services to securely store your Docker images.
 
 # Useful Resources
 
-- **[Valuable Docker Links](https://www.nkode.io/2014/08/24/valuable-docker-links.html)** High quality articles about docker! **MUST SEE**
+- **[Valuable Docker Links](https://nanekratzke.de/2014/08/24/valuable-docker-links.html)** High quality articles about docker! **MUST SEE**
 - [Cloud Native Landscape](https://github.com/cncf/landscape)
 - [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 - [Programming Community Curated Resources for learning Docker](https://hackr.io/tutorials/learn-docker)
