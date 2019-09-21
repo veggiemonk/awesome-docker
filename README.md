@@ -1,4 +1,4 @@
-# Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker) [![Say Thanks](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/veggiemonk)
+# Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Join the chat at https://gitter.im/veggiemonk/awesome-docker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veggiemonk/awesome-docker)
 
 > A curated list of Docker resources and projects
 > Inspired by [@sindresorhus](https://github.com/sindresorhus)' [awesome][sindresorhus] and improved by these **[amazing contributors](https://github.com/veggiemonk/awesome-docker/graphs/contributors)**.
@@ -633,7 +633,7 @@ Services to securely store your Docker images.
 
 # Useful Resources
 
-- **[Valuable Docker Links](https://nanekratzke.de/2014/08/24/valuable-docker-links.html)** High quality articles about docker! **MUST SEE**
+- **[Valuable Docker Links](http://nane.kratzke.pages.mylab.th-luebeck.de/about/blog/2014/08/24/valuable-docker-links/)** High quality articles about docker! **MUST SEE**
 - [Cloud Native Landscape](https://github.com/cncf/landscape)
 - [Docker Weekly](https://blog.docker.com/docker-weekly-archives/) Huge resource
 - [Programming Community Curated Resources for learning Docker](https://hackr.io/tutorials/learn-docker)
