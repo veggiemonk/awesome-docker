@@ -67,6 +67,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
   - [Raspberry Pi & ARM](#raspberry-pi--arm)
   - [Security](#security-1)
   - [Videos](#videos)
+  - [Books](#books)
 - [Communities and Meetups](#communities-and-meetups)
   - [Brazilian](#brazilian)
   - [Chinese](#chinese)
@@ -704,6 +705,10 @@ Services to securely store your Docker images.
 - [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615) Free Udacity course
 - [State of containers: a debate with CoreOS, VMware and Google](https://www.youtube.com/watch?v=IiITP3yIRd8) (27:38)
 - [SysAdminCasts: Introduction to Docker](https://sysadmincasts.com/episodes/31-introduction-to-docker) (15:49)
+
+## Books
+
+- [Learn Docker in a Month of Lunches](https://www.manning.com/books/learn-docker-in-a-month-of-lunches) by Elton Stoneman.
 
 # Communities and Meetups
 
