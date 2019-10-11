@@ -658,7 +658,7 @@ Services to securely store your Docker images.
 
 ## Demos and Examples
 
-- [webstack-micro](https://github.com/ferbs/webstack-micro) Demo web app built with Docker Compose, showing how to set up an API Gateway, centralized authentication, background workers, and WebSockets.
+- [Webstack-micro](https://github.com/ferbs/webstack-micro) Demo web app showing how Docker Compose might be used to set up an API Gateway, centralized authentication, background workers, and WebSockets as containerized services.
 
 
 ## Good Tips
