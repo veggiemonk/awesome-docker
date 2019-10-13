@@ -613,7 +613,7 @@ Services to securely store your Docker images.
 - [ContainerShip Cloud](https://containership.io) :heavy_dollar_sign: - Multi-Cloud Container Hosting Automation Platform.
 - [Docker Cloud](https://cloud.docker.com/) :heavy_dollar_sign: - Former Tutum
 - [Dockhero](https://dockhero.io/) :heavy_dollar_sign: - Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
-- [Giant Swarm](https://giantswarm.io/) :heavy_dollar_sign: - Simple microservice infrastructure. Deploy your containers in seconds.
+- [Giant Swarm](https://www.giantswarm.io/) :heavy_dollar_sign: - Simple microservice infrastructure. Deploy your containers in seconds.
 - [Google Container Engine](https://cloud.google.com/kubernetes-engine/docs/) :heavy_dollar_sign: - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 - [Jelastic Cloud](https://jelastic.cloud/) :heavy_dollar_sign: - "Easy-to-use" container hosting platfrom with automatic vertical and horizontal scaling. Available over 50+ hosting providers worldwide.
 - [Mesosphere DC/OS](https://d2iq.com/solutions/mesosphere) :heavy_dollar_sign: - Integrated platform for data and containers built on Apache Mesos by [@mesosphere](https://d2iq.com)
