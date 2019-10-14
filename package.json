@@ -23,19 +23,19 @@
     "fs-extra": "8.1.0",
     "list.js": "1.5.0",
     "node-fetch": "2.6.0",
-    "parcel-bundler": "1.12.3",
-    "rimraf": "2.6.3",
+    "parcel-bundler": "1.12.4",
+    "rimraf": "3.0.0",
     "showdown": "1.9.0",
-    "sitemap": "4.1.1"
+    "sitemap": "5.0.0"
   },
   "devDependencies": {
     "babel-eslint": "10.0.3",
-    "eslint": "6.2.2",
+    "eslint": "6.5.1",
     "eslint-config-airbnb-base": "14.0.0",
-    "eslint-config-prettier": "6.1.0",
+    "eslint-config-prettier": "6.4.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-prettier": "3.1.1",
     "prettier": "1.18.2"
   }
 }
