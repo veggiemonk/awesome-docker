@@ -450,6 +450,7 @@ Examples by:
 - [dockfmt](https://github.com/jessfraz/dockfmt) :construction: - Dockerfile formatter and parser by [@jessfraz][jessfraz]
 - [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions; by [@lukasmartinelli](https://github.com/lukasmartinelli)
 - [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies by [@jeromepin](https://github.com/jeromepin)
+- [FROM:latest](https://www.fromlatest.io) - FROM:latest, An opinionated Dockerfile linter. Review your Dockerfile to see if you have implemented the best practices by [@replicatedhq](https://github.com/replicatedhq/dockerfilelint)
 
 ### Metadata
 
