@@ -25,7 +25,7 @@
     "node-fetch": "2.6.0",
     "parcel-bundler": "1.12.4",
     "rimraf": "3.0.0",
-    "showdown": "1.9.0",
+    "showdown": "1.9.1",
     "sitemap": "5.1.0"
   },
   "devDependencies": {
