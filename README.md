@@ -448,9 +448,9 @@ Examples by:
 - [dockerfile_lint](https://github.com/projectatomic/dockerfile_lint) - A rule-based 'linter' for Dockerfiles by [@projectatomic](https://github.com/projectatomic)
 - [Dockerfilelint](https://github.com/replicatedhq/dockerfilelint) - A node module that analyzes a Dockerfile and looks for common traps, mistakes and helps enforce best practices by [@replicatedhq](https://github.com/replicatedhq)
 - [dockfmt](https://github.com/jessfraz/dockfmt) :construction: - Dockerfile formatter and parser by [@jessfraz][jessfraz]
+- [FROM:latest](https://github.com/replicatedhq/dockerfilelint) - An opinionated Dockerfile linter [@replicatedhq](https://github.com/replicatedhq)
 - [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions; by [@lukasmartinelli](https://github.com/lukasmartinelli)
 - [Whale-linter](https://github.com/jeromepin/whale-linter) - A simple and small Dockerfile linter written in Python3+ without dependencies by [@jeromepin](https://github.com/jeromepin)
-- [FROM:latest](https://www.fromlatest.io) - FROM:latest, An opinionated Dockerfile linter. Review your Dockerfile to see if you have implemented the best practices by [@replicatedhq](https://github.com/replicatedhq/dockerfilelint)
 
 ### Metadata
 
