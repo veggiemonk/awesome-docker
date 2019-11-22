@@ -612,7 +612,6 @@ Services to securely store your Docker images.
 - [Azure AKS](https://azure.microsoft.com/en-us/services/kubernetes-service/) :heavy_dollar_sign: - Simplify Kubernetes management, deployment, and operations. Use a fully managed Kubernetes container orchestration service.
 - [Cloud 66](https://www.cloud66.com) :heavy_dollar_sign: - Full-stack hosted container management as a service
 - [Codenvy](https://codenvy.com) :heavy_dollar_sign: - One-click Docker environments and cloud workspace for development teams
-- [ContainerShip Cloud](https://containership.io) :heavy_dollar_sign: - Multi-Cloud Container Hosting Automation Platform.
 - [Docker Cloud](https://cloud.docker.com/) :heavy_dollar_sign: - Former Tutum
 - [Dockhero](https://dockhero.io/) :heavy_dollar_sign: - Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
 - [Giant Swarm](https://www.giantswarm.io/) :heavy_dollar_sign: - Simple microservice infrastructure. Deploy your containers in seconds.
