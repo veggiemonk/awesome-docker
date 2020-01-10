@@ -11,7 +11,7 @@ git:
 # keep cache of the deps
 cache:
   directories:
-    - "node_modules"
+    - 'node_modules'
 
 before_install:
   - rvm install 2.2
@@ -21,4 +21,3 @@ before_script:
 
 script:
   - awesome_bot README.md --white-list edit/master,sindresorhus/awesome,www.udacity.com,screwdriver.cd,veggiemonk/awesome-docker,vimeo.com,cycle.io,www.youtube.com
-  - node buildMetadata.js && ./push.sh
