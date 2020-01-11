@@ -18,11 +18,8 @@
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
     "cheerio": "1.0.0-rc.3",
-    "dayjs": "1.8.19",
     "draftlog": "1.0.12",
     "fs-extra": "8.1.0",
-    "list.js": "1.5.0",
-    "node-fetch": "2.6.0",
     "parcel-bundler": "1.12.4",
     "rimraf": "3.0.0",
     "showdown": "1.9.1",
