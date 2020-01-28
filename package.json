@@ -21,7 +21,7 @@
     "draftlog": "1.0.12",
     "fs-extra": "8.1.0",
     "parcel-bundler": "1.12.4",
-    "rimraf": "3.0.0",
+    "rimraf": "3.0.1",
     "showdown": "1.9.1",
     "sitemap": "5.1.0"
   },
