@@ -225,7 +225,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [gantryd](https://github.com/DevTable/gantryd) :skull: - A framework for easy management of docker-based components across machines by [@DevTable](https://github.com/DevTable)
 - [Haven](https://github.com/codeabovelab/haven-platform) - Haven is a simplified container management platform that integrates container, application, cluster, image, and registry managements. By [@codeabovelab](https://github.com/codeabovelab)
 - [Helios](https://github.com/spotify/helios) :skull: - A simple platform for deploying and managing containers across an entire fleet of servers by [@spotify][spotify]
-- [Kontena](https://github.com/kontena/kontena) - Application Containers for Masses [website](https://www.kontena.io/)
+- [Kontena](https://github.com/kontena/kontena) :skull: - The developer friendly container and micro services platform. Works on any cloud, easy to setup, simple to use.
 - [Kubernetes](https://github.com/kubernetes/kubernetes) - Open source orchestration system for Docker containers by Google
 - [ManageIQ](https://github.com/ManageIQ/manageiq) - Discover, optimize and control your hybrid IT. By [ManageIQ](https://github.com/ManageIQ)
 - [Mantl](https://github.com/mantl/mantl) - Mantl is a modern platform for rapidly deploying globally distributed services
