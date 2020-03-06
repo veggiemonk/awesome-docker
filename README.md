@@ -769,7 +769,7 @@ Services to securely store your Docker images.
 [jwilder]: https://github.com/jwilder
 [kubernetes]: https://kubernetes.io
 [nvidia]: https://github.com/nvidia
-[nginxproxy]: https://github.com/jwilder/nginx-proxy
+[nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://www.okd.io
 [oracle]: https://github.com/oracle
 [progrium]: https://github.com/progrium
