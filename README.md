@@ -57,7 +57,7 @@ All the links are monitored and tested with [awesome_bot](https://github.com/dkh
     - [Serverless](#serverless)
     - [Testing](#testing)
     - [Wrappers](#wrappers)
-  - [Services based on Docker (:heavy_dollar_sign:)](#services-based-on-docker-heavydollarsign)
+  - [Services based on Docker (:heavy_dollar_sign:)](#services-based-on-docker-heavy_dollar_sign)
     - [CI Services](#ci-services)
     - [CaaS](#caas)
     - [Monitoring Services](#monitoring-services)
