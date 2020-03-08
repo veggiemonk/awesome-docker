@@ -2,7 +2,8 @@ const fs = require('fs-extra');
 const cheerio = require('cheerio');
 const showdown = require('showdown');
 const Parcel = require('parcel-bundler');
-const sm = require('sitemap');
+// const sm = require('sitemap');
+const { SitemapStream, streamToPromise } = require('sitemap');
 
 process.env.NODE_ENV = 'production';
 
@@ -24,20 +25,6 @@ const README = 'README.md';
 const WEBSITE_FOLDER = 'website';
 const indexTemplate = `${WEBSITE_FOLDER}/index.tmpl.html`;
 const indexDestination = `${WEBSITE_FOLDER}/index.html`;
-
-const sitemapOpts = {
-  hostname: 'https://awesome-docker.netlify.com/',
-  cacheTime: 6000000, // 600 sec (10 min) cache purge period
-  urls: [
-    {
-      url: '/',
-      changefreq: 'daily',
-      priority: 0.8,
-      lastmodrealtime: true,
-      lastmodfile: 'dist/index.html',
-    },
-  ],
-};
 
 async function processIndex() {
   const converter = new showdown.Converter({
@@ -88,11 +75,25 @@ const bundle = () => {
     publicURL: '/',
   })
     .bundle()
-    .then(() =>
+    .then(() => {
+      const smStream = new SitemapStream({ hostname: 'https://awesome-docker.netlify.com/' });
+      smStream.write({
+        url: '/',
+        changefreq: 'daily',
+        priority: 0.8,
+        lastmodrealtime: true,
+        lastmodfile: 'dist/index.html',
+      });
+
+      smStream.end();
+      return streamToPromise(smStream);
+    })
+    .then(sm =>
       // Creates a sitemap object given the input configuration with URLs
       fs.outputFile(
         'dist/sitemap.xml',
-        sm.createSitemap(sitemapOpts).toString(),
+        // sm.createSitemap(sitemapOpts).toString(),
+        sm.toString()
       ),
     );
 };
