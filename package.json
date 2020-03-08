@@ -23,7 +23,7 @@
     "parcel-bundler": "1.12.4",
     "rimraf": "3.0.2",
     "showdown": "1.9.1",
-    "sitemap": "5.1.0"
+    "sitemap": "6.0.0"
   },
   "devDependencies": {
     "babel-eslint": "10.1.0",
