@@ -3,7 +3,7 @@ name: Check links
 on:
   push:
     paths:
-      - '.github/workflows/check_links.yml'
+      - '.github/workflows/check_links.yaml'
       - 'README.md'
 
 jobs:
@@ -17,12 +17,6 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
-      # - uses: actions/cache@v1
-      #   with:
-      #     path: vendor/bundle
-      #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-gems-
       - name: Awesome bot checking
         run: |
           gem install awesome_bot
