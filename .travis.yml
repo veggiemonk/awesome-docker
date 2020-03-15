@@ -4,4 +4,4 @@ rvm:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot --allow-redirect --skip-save-results -w vimeo.com,github.com/sindresorhus/awesome README.md
+  - awesome_bot --allow-redirect --skip-save-results -w vimeo.com,github.com/sindresorhus,github.com/sindresorhus/awesome README.md
