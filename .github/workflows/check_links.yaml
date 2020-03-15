@@ -1,0 +1,29 @@
+name: Check links
+
+on:
+  push:
+    paths:
+      - '.github/workflows/check_links.yml'
+      - 'README.md'
+
+jobs:
+  check_links:
+    runs-on: ubuntu-latest
+    name: Check links
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      # - uses: actions/cache@v1
+      #   with:
+      #     path: vendor/bundle
+      #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-gems-
+      - name: Awesome bot checking
+        run: |
+          gem install awesome_bot
+          awesome_bot README.md --white-list edit/master,sindresorhus/awesome,www.udacity.com,screwdriver.cd,veggiemonk/awesome-docker,vimeo.com,cycle.io,www.youtube.com

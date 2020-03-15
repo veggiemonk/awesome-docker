@@ -76,7 +76,9 @@ const bundle = () => {
   })
     .bundle()
     .then(() => {
-      const smStream = new SitemapStream({ hostname: 'https://awesome-docker.netlify.com/' });
+      const smStream = new SitemapStream({
+        hostname: 'https://awesome-docker.netlify.com/',
+      });
       smStream.write({
         url: '/',
         changefreq: 'daily',
@@ -93,7 +95,7 @@ const bundle = () => {
       fs.outputFile(
         'dist/sitemap.xml',
         // sm.createSitemap(sitemapOpts).toString(),
-        sm.toString()
+        sm.toString(),
       ),
     );
 };
