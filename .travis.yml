@@ -1,23 +1,7 @@
-# This is a weird way of telling Travis to use the fast container-based test
-# runner instead of the slow VM-based runner.
-sudo: false
-
-language: node_js
-
-# Only clone the most recent commit.
-git:
-  depth: 1
-
-# keep cache of the deps
-cache:
-  directories:
-    - 'node_modules'
-
-before_install:
-  - rvm install 2.2
-
+language: ruby
+rvm:
+  - 2.6.5
 before_script:
   - gem install awesome_bot
-
 script:
-  - awesome_bot README.md --white-list edit/master,sindresorhus/awesome,www.udacity.com,screwdriver.cd,veggiemonk/awesome-docker,vimeo.com,cycle.io,www.youtube.com
+  - awesome_bot README.md
