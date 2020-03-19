@@ -19,7 +19,7 @@
   "dependencies": {
     "cheerio": "1.0.0-rc.3",
     "draftlog": "1.0.12",
-    "fs-extra": "8.1.0",
+    "fs-extra": "9.0.0",
     "parcel-bundler": "1.12.4",
     "rimraf": "3.0.2",
     "showdown": "1.9.1",
