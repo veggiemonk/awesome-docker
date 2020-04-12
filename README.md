@@ -101,6 +101,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [Katacoda](https://www.katacoda.com/courses/docker): Learn Docker using Interactive Browser-Based Labs
 - [Learn Docker](https://github.com/dwyl/learn-docker): step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 - [Play With Docker](https://training.play-with-docker.com/): PWD is a great way to get started with Docker from beginner to advanced users. Docker runs directly in your browser.
+- [Practical Guide about Docker Commands in Spanish](https://github.com/brunocascio/docker-espanol) This spanish guide contains the use of basic docker commands with real life examples.
 - [Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/) The landscape for container technologies is larger than just docker. Without a good handle on the terminology, It can be difficult to grasp the key differences between docker and (pick your favorites, CRI-O, rkt, lxc/lxd) or understand what the Open Container Initiative is doing to standardize container technology.
 
 **Cheatsheets** by
