@@ -1,5 +1,6 @@
 const fs = require('fs-extra');
 const fetch = require('node-fetch');
+const exclude = require('./exclude_in_test.json');
 
 function envvar_undefined(variable_name) {
   throw new Error(`${variable_name} must be defined`);
@@ -37,16 +38,13 @@ const make_GQL_options = (query) => ({
 const LOG = {
   error: (...args) => console.error('❌ ERROR', args),
   error_string: (...args) =>
-    console.error(
-      '❌ ERROR',
-      args.map((a) => JSON.stringify(a)),
-    ),
+    console.error('❌ ERROR', JSON.stringify({ ...args }, null, '  ')),
   debug: (...args) => {
     if (process.env.DEBUG) console.log('>>> DEBUG: ', { ...args });
   },
   debug_string: (...args) => {
     if (process.env.DEBUG)
-      console.log('>>> DEBUG: ', JSON.stringify({ ...args }));
+      console.log('>>> DEBUG: ', JSON.stringify({ ...args }, null, '  '));
   },
 };
 
@@ -60,7 +58,8 @@ process.on('unhandledRejection', handleFailure);
 const extract_all_links = (markdown) => {
   // if you have a problem and you try to solve it with a regex,
   // now you have two problems
-  const re = /(((https:(?:\/\/)?)(?:[-;:&=+$,\w]+@)?[A-Za-z0-9.-]+|(?:www\.|[-;:&=+$,\w]+@)[A-Za-z0-9.-]+)((?:\/[+~%/.\w\-_]*)?\??(?:[-+=&;%@.\w_]*)#?(?:[.!/\\\w]*))?)/g;
+  // TODO: replace this mess with a mardown parser ?
+  const re = /(((https:(?:\/\/)?)(?:[-;:&=+$,\w]+@)?[A-Za-z0-9.-]+|(?:www\.|[-;:&=+$,\w]+@)[A-Za-z0-9.-]+)((?:\/[+~%/.\w\-_]*)?\??(?:[-+=&;%@.\w_]*)#?(?:[.!/@\-\\\w]*))?)/g;
   return markdown.match(re);
 };
 
@@ -139,10 +138,12 @@ const generate_GQL_query = (arr) =>
 
 async function main() {
   const markdown = await fs.readFile(README, 'utf8');
-  const links = extract_all_links(markdown);
+  let links = extract_all_links(markdown);
+  links = links.filter((l) => !exclude[l]); // exclude websites
+
   const duplicates = find_duplicates(links);
   if (duplicates.length > 0) {
-    LOG.error('duplicates', duplicates);
+    LOG.error_string({ duplicates });
   }
   const [github_links, other_links] = partition(links, (link) =>
     link.startsWith('https://github.com'),
@@ -155,7 +156,7 @@ async function main() {
     BATCH_SIZE: 8,
   });
   if (other_links_error.length > 0) {
-    LOG.error('other_links_error', other_links_error);
+    LOG.error({ other_links_error });
   }
 
   const repos = extract_repos(github_links);
