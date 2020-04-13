@@ -1,4 +1,4 @@
-{
-    "https://vimeo.com": "https://vimeo.com",
-    "https://travis-ci.org/veggiemonk/awesome-docker.svg": "https://travis-ci.org/veggiemonk/awesome-docker.svg"
-}
+[
+    "https://vimeo.com",
+    "https://travis-ci.org/veggiemonk/awesome-docker.svg"
+]

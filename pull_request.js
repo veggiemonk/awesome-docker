@@ -136,6 +136,18 @@ const generate_GQL_query = (arr) =>
 // };
 // =============================================================
 
+const exclude_length = exclude.length;
+const exclude_from_list = (link) => {
+  let is_excluded = false;
+  for (let i = 0; i < exclude_length; i += 1) {
+    if (link.startsWith(exclude[i])) {
+      is_excluded = true;
+      break;
+    }
+  }
+  return is_excluded;
+};
+
 async function main() {
   const has_error = {
     show: false,
@@ -145,8 +157,8 @@ async function main() {
   };
   const markdown = await fs.readFile(README, 'utf8');
   let links = extract_all_links(markdown);
-  links = links.filter((l) => !(exclude[l] && l.startsWith(exclude[l]))); // exclude websites
-
+  links = links.filter((l) => !exclude_from_list(l)); // exclude websites
+  LOG.debug_string({ links });
   const duplicates = find_duplicates(links);
   if (duplicates.length > 0) {
     has_error.show = true;
