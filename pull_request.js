@@ -35,9 +35,12 @@ const make_GQL_options = (query) => ({
 });
 
 const LOG = {
-  error: (...args) => console.error('❌ ERROR', { ...args }),
+  error: (...args) => console.error('❌ ERROR', args),
   error_string: (...args) =>
-    console.error('❌ ERROR', JSON.stringify({ ...args })),
+    console.error(
+      '❌ ERROR',
+      args.map((a) => JSON.stringify(a)),
+    ),
   debug: (...args) => {
     if (process.env.DEBUG) console.log('>>> DEBUG: ', { ...args });
   },
@@ -139,7 +142,7 @@ async function main() {
   const links = extract_all_links(markdown);
   const duplicates = find_duplicates(links);
   if (duplicates.length > 0) {
-    LOG.error_string({ duplicates });
+    LOG.error('duplicates', duplicates);
   }
   const [github_links, other_links] = partition(links, (link) =>
     link.startsWith('https://github.com'),
@@ -152,7 +155,7 @@ async function main() {
     BATCH_SIZE: 8,
   });
   if (other_links_error.length > 0) {
-    LOG.error_string({ other_links_error });
+    LOG.error('other_links_error', other_links_error);
   }
 
   const repos = extract_repos(github_links);
