@@ -6,7 +6,7 @@ function envvar_undefined(variable_name) {
   throw new Error(`${variable_name} must be defined`);
 }
 console.log({
-  DEBUG: process.env.DEBUG,
+  DEBUG: process.env.DEBUG || false,
 });
 
 const README = 'README.md';
