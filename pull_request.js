@@ -145,7 +145,7 @@ async function main() {
   };
   const markdown = await fs.readFile(README, 'utf8');
   let links = extract_all_links(markdown);
-  links = links.filter((l) => !exclude[l]); // exclude websites
+  links = links.filter((l) => !(exclude[l] && l.startsWith(exclude[l]))); // exclude websites
 
   const duplicates = find_duplicates(links);
   if (duplicates.length > 0) {
