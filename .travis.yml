@@ -1,7 +1,2 @@
-language: ruby
-rvm:
-  - 2.6.5
-before_script:
-  - gem install awesome_bot
-script:
-  - awesome_bot --allow-redirect --skip-save-results -w api.netlify.com,travis-ci.org,vimeo.com,github.com/sindresorhus,github.com/sindresorhus/awesome README.md
+language: node_js
+cache: npm
