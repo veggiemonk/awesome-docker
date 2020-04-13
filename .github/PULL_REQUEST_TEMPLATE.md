@@ -1,5 +1,6 @@
-
 <!-- Congrats on creating an Awesome Docker entry! 🎉 -->
+
+<!-- **Remember that entries are ordered alphabetically** -->
 
 # Quality Standards
 
