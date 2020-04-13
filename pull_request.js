@@ -68,7 +68,7 @@ const find_duplicates = (arr) => {
   const dup = [];
   arr.forEach((e) => {
     if (hm[e]) dup.push(e);
-    else hm[e] = null;
+    else hm[e] = true;
   });
   return dup;
 };
@@ -93,9 +93,9 @@ async function batch_fetch({ arr, get, post_filter_func, BATCH_SIZE = 8 }) {
   /* eslint-disable no-await-in-loop */
   for (let i = 0; i < arr.length; i += BATCH_SIZE) {
     const batch = arr.slice(i, i + BATCH_SIZE);
-    LOG.debug({ batch });
+    LOG.debug_string({ batch });
     let res = await Promise.all(batch.map(get));
-    LOG.debug('batch fetched...');
+    console.log(`batch fetched...${i + BATCH_SIZE}`);
     res = post_filter_func ? res.filter(post_filter_func) : res;
     LOG.debug_string({ res });
     result.push(...res);
@@ -159,25 +159,35 @@ async function main() {
   let links = extract_all_links(markdown);
   links = links.filter((l) => !exclude_from_list(l)); // exclude websites
   LOG.debug_string({ links });
+
+  console.log(`total links to check ${links.length}`);
+
+  console.log('checking for duplicates links...');
+
   const duplicates = find_duplicates(links);
   if (duplicates.length > 0) {
     has_error.show = true;
     has_error.duplicates = duplicates;
   }
-  const [github_links, other_links] = partition(links, (link) =>
+  LOG.debug_string({ duplicates });
+  const [github_links, external_links] = partition(links, (link) =>
     link.startsWith('https://github.com'),
   );
 
-  const other_links_error = await batch_fetch({
-    arr: other_links,
+  console.log(`checking ${external_links.length} external links...`);
+
+  const external_links_error = await batch_fetch({
+    arr: external_links,
     get: fetch_link,
     post_filter_func: (x) => !x[1].ok,
     BATCH_SIZE: 8,
   });
-  if (other_links_error.length > 0) {
+  if (external_links_error.length > 0) {
     has_error.show = true;
-    has_error.other_links_error = other_links_error;
+    has_error.other_links_error = external_links_error;
   }
+
+  console.log(`checking ${github_links.length} GitHub repositories...`);
 
   const repos = extract_repos(github_links);
   const query = generate_GQL_query(repos);
@@ -185,22 +195,21 @@ async function main() {
   const gql_response = await fetch(GITHUB_GQL_API, options).then((r) =>
     r.json(),
   );
-
-  const { data } = gql_response;
   if (gql_response.errors) {
     has_error.show = true;
     has_error.github_repos = gql_response.errors;
   }
+
+  console.log({
+    TEST_PASSED: has_error.show,
+    GITHUB_REPOSITORY: github_links.length,
+    EXTERNAL_LINKS: external_links.length,
+  });
+
   if (has_error.show) {
     LOG.error_string(has_error);
     process.exit(1);
   }
-
-  // const repos_fetched = Object.entries(data)
-  //   .map(([, /* k , */ v]) => v.nameWithOwner)
-  //   .sort((a, b) => b - a);
-
-  console.log({ repos_fetched: data.length });
 }
 
 console.log('starting...');
