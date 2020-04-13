@@ -4,7 +4,8 @@
   "description": "A curated list of Docker resources and projects Inspired by @sindresorhus and improved by amazing contributors",
   "main": "build.js",
   "scripts": {
-    "build": "rimraf ./dist/ && node build.js"
+    "build": "rimraf ./dist/ && node build.js",
+    "test": "node pull_request.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,11 @@
   },
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
+    "awesome-readme-to-data": "0.0.3",
     "cheerio": "1.0.0-rc.3",
     "draftlog": "1.0.12",
     "fs-extra": "9.0.0",
+    "node-fetch": "2.6.0",
     "parcel-bundler": "1.12.4",
     "rimraf": "3.0.2",
     "showdown": "1.9.1",
