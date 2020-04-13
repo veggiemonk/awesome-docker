@@ -1,22 +1,24 @@
 module.exports = {
   env: {
     browser: true,
-    node: true
+    node: true,
   },
   extends: [
     'airbnb-base',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'prettier'
+    'prettier',
+    'eslint:recommended',
   ],
   plugins: ['import', 'prettier'],
   rules: {
+    camelcase: 0,
     'import/order': [
       'error',
       {
         groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
-        'newlines-between': 'never'
-      }
+        'newlines-between': 'never',
+      },
     ],
     'no-console': 0,
     'prefer-template': 2,
@@ -24,8 +26,8 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        trailingComma: 'all'
-      }
-    ]
-  }
+        trailingComma: 'all',
+      },
+    ],
+  },
 };
