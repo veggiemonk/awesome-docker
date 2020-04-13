@@ -137,13 +137,20 @@ const generate_GQL_query = (arr) =>
 // =============================================================
 
 async function main() {
+  const has_error = {
+    show: false,
+    duplicates: '',
+    other_links_error: '',
+    github_repos: '',
+  };
   const markdown = await fs.readFile(README, 'utf8');
   let links = extract_all_links(markdown);
   links = links.filter((l) => !exclude[l]); // exclude websites
 
   const duplicates = find_duplicates(links);
   if (duplicates.length > 0) {
-    LOG.error_string({ duplicates });
+    has_error.show = true;
+    has_error.duplicates = duplicates;
   }
   const [github_links, other_links] = partition(links, (link) =>
     link.startsWith('https://github.com'),
@@ -156,7 +163,8 @@ async function main() {
     BATCH_SIZE: 8,
   });
   if (other_links_error.length > 0) {
-    LOG.error({ other_links_error });
+    has_error.show = true;
+    has_error.other_links_error = other_links_error;
   }
 
   const repos = extract_repos(github_links);
@@ -168,13 +176,19 @@ async function main() {
 
   const { data } = gql_response;
   if (gql_response.errors) {
-    LOG.error_string({ errors: gql_response.errors });
+    has_error.show = true;
+    has_error.github_repos = gql_response.errors;
   }
-  const repos_fetched = Object.entries(data)
-    .map(([, /* k , */ v]) => v.nameWithOwner)
-    .sort((a, b) => b - a);
+  if (has_error.show) {
+    LOG.error_string(has_error);
+    process.exit(1);
+  }
 
-  console.log({ repos_fetched: repos_fetched.length });
+  // const repos_fetched = Object.entries(data)
+  //   .map(([, /* k , */ v]) => v.nameWithOwner)
+  //   .sort((a, b) => b - a);
+
+  console.log({ repos_fetched: data.length });
 }
 
 console.log('starting...');
