@@ -538,7 +538,7 @@ Services to securely store your Docker images.
 - [GOCD-Docker](https://github.com/gocd/gocd-docker) :skull: - Go Server and Agent in docker containers to provision.
 - [Microservices Continuous Deployment](https://github.com/francescou/docker-continuous-deployment) - Continuous deployment of a microservices application.
 - [mu](https://github.com/stelligent/mu) - Tool to configure CI/CD of your container applications via AWS CodePipeline, CodeBuild and ECS [@Stelligent](https://github.com/stelligent)
-- [Ouroboros] :skull: (https://github.com/pyouroboros/ouroboros) - Automatically update running Docker containers with notifications
+- [Ouroboros](https://github.com/pyouroboros/ouroboros) :skull: - Automatically update running Docker containers with notifications
 - [Popper](https://github.com/systemslab/popper) - Github actions workflow (HCL syntax) execution engine.
 - [Screwdriver :heavy_dollar_sign:](https://screwdriver.cd/) - Yahoo's OpenSource buildplatform designed for Continous Delivery.
 - [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository by [@Stratoscale](https://github.com/Stratoscale)
