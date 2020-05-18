@@ -330,6 +330,7 @@ Native desktop applications for managing and montoring docker hosts and clusters
 - [Dockeron](https://github.com/dockeron/dockeron) - A project built on Electron + Vue.js for Docker on desktop. [@fluency03](https://github.com/fluency03)
 - [DockStation](https://github.com/DockStation/dockstation) - A developer centric UI to configure, monitor, and manage services and containers [@dock_station](https://twitter.com/dock_station)
 - [Lifeboat](https://github.com/jplhomer/lifeboat) - An easy way to launch Docker projects with a graphical interface on your Mac. [@jplhomer](https://github.com/jplhomer)
+- [DockerStacks](https://github.com/sfx101/docker-stacks) - Local LAMP/LEMP Development Studio [@sfx101](https://github.com/sfx101)
 
 #### Terminal
 
