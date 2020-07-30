@@ -773,6 +773,12 @@ Services to securely store your Docker images.
 
 - [Docker Tips](https://dockertips.com/)
 
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/veggiemonk/awesome-docker.svg)](https://starchart.cc/veggiemonk/awesome-docker)
+ 
+
 [contributing]: https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md
 [calico]: https://github.com/projectcalico/calicoctl
 [centurylinklabs]: https://github.com/CenturyLinkLabs
