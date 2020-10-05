@@ -34,6 +34,7 @@ All the links are monitored and tested with a home baked [Node.js script](https:
     - [Orchestration](#orchestration)
     - [PaaS](#paas)
     - [Reverse Proxy](#reverse-proxy)
+    - [Runtime](#runtime)
     - [Security](#security)
     - [Service Discovery](#service-discovery)
     - [Volume Management / Data](#volume-management--data)
@@ -73,6 +74,7 @@ All the links are monitored and tested with a home baked [Node.js script](https:
   - [English](#english)
   - [Russian](#russian)
   - [Spanish](#spanish)
+  - [Stargazers over time](#stargazers-over-time)
 
 <!-- /TOC -->
 
@@ -506,7 +508,7 @@ Services to securely store your Docker images.
 - [Private Docker Registry :heavy_dollar_sign:](https://private-docker-registry.com) - Dedicated Conainer Registry Service with unlimited private repositories, users, teams, namespaces together with enterprise grade authentication LDAP/AD/OAuth/SAML.
 - [Quay.io :heavy_dollar_sign:](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 - [Rescoyl](https://github.com/noteed/rescoyl) - Private Docker registry (free and open source) by [@noteed](https://github.com/noteed)
-- [Sonatype Nexus](https://www.sonatype.com/nexus-repository-oss) - Repository with Universal Support, also for Docker images
+- [Sonatype Nexus](https://www.sonatype.com/nexus/repository-oss) - Repository with Universal Support, also for Docker images
 - [TreeScale](https://github.com/treescale) - Build and Distribute container based applications. By [@tigranbs](https://github.com/tigranbs)
 
 ## Development with Docker
@@ -616,7 +618,7 @@ Services to securely store your Docker images.
 
 ### Wrappers
 
-- [Ansible](https://docs.ansible.com/ansible/latest/modules/docker_container_module.html) - Manage the life cycle of Docker containers. By RedHat
+- [Ansible](https://docs.ansible.com/ansible/latest/collections/community/general/docker_container_module.html) - Manage the life cycle of Docker containers. By RedHat
 - [Azk](https://github.com/azukiapp/azk) - Orchestrate development environments on your local machine by [@azukiapp](https://github.com/azukiapp)
 - [Beluga](https://github.com/cortexmedia/Beluga) :skull: - CLI to deploy docker containers on a single server or low amount of servers. By [@cortextmedia](https://github.com/cortexmedia)
 - [dexec](https://github.com/docker-exec/dexec) - Command line interface written in Go for running code with Docker Exec images.
@@ -645,7 +647,6 @@ Services to securely store your Docker images.
 ### CaaS
 
 - [Amazon ECS](https://aws.amazon.com/ecs/) :heavy_dollar_sign: - A management service on EC2 that supports Docker containers.
-- [Arukas](https://arukas.io/) :heavy_dollar_sign: - Heroku-inspired CaaS
 - [Azure AKS](https://azure.microsoft.com/en-us/services/kubernetes-service/) :heavy_dollar_sign: - Simplify Kubernetes management, deployment, and operations. Use a fully managed Kubernetes container orchestration service.
 - [Cloud 66](https://www.cloud66.com) :heavy_dollar_sign: - Full-stack hosted container management as a service
 - [Codenvy](https://codenvy.com) :heavy_dollar_sign: - One-click Docker environments and cloud workspace for development teams
