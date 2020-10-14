@@ -324,7 +324,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [portworx](https://portworx.com) :heavy_dollar_sign: - Decentralized storage solution for persistent, shared and replicated volumes.
 - [quobyte](https://www.quobyte.com/) :heavy_dollar_sign: - fully fault-tolerant distributed file system with a docker volume driver
 - [REX-Ray](https://github.com/rexray/rexray) provides a vendor agnostic storage orchestration engine. The primary design goal is to provide persistent storage for Docker, Kubernetes, and Mesos. By[@thecodeteam](https://github.com/thecodeteam) (DELL Technologies)
-- [Storidge](https://github.com/Storidge/quick-start#step-1-install-cio-software) :heavy_dollar_sign: - Software-defined Persistent Storage for Kubernetes and Docker Swarm
+- [Storidge](https://github.com/Storidge/quick-start) :heavy_dollar_sign: - Software-defined Persistent Storage for Kubernetes and Docker Swarm
 
 ### User Interface
 
