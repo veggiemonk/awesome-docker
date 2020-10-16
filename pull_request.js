@@ -154,6 +154,7 @@ async function main() {
     duplicates: '',
     other_links_error: '',
     github_repos: '',
+    query: '',
   };
   const markdown = await fs.readFile(README, 'utf8');
   let links = extract_all_links(markdown);
@@ -192,16 +193,18 @@ async function main() {
   const repos = extract_repos(github_links);
   const query = generate_GQL_query(repos);
   const options = make_GQL_options(query);
-  const gql_response = await fetch(GITHUB_GQL_API, options).then((r) =>
-    r.json(),
-  );
+  const gql_response = await fetch(GITHUB_GQL_API, options)
+    .then((r) => r.json())
+    .catch((err) => console.error(err));
+
   if (gql_response.errors) {
     has_error.show = true;
     has_error.github_repos = gql_response.errors;
+    has_error.query = query;
   }
 
   console.log({
-    TEST_PASSED: has_error.show,
+    TEST_PASSED: !has_error.show,
     GITHUB_REPOSITORY: github_links.length,
     EXTERNAL_LINKS: external_links.length,
   });
