@@ -391,6 +391,7 @@ Native desktop applications for managing and montoring docker hosts and clusters
 - [Swarmpit](https://github.com/swarmpit/swarmpit) - Swarmpit provides simple and easy to use interface for your Docker Swarm cluster. You can manage your stacks, services, secrets, volumes, networks etc.
 - [Swirl](https://github.com/cuigh/swirl) - Swirl is a web management tool for Docker, focused on swarm cluster By [@cuigh](https://github.com/cuigh/)
 - [Theia](https://github.com/eclipse-theia/theia) - Extensible platform to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies.
+- [Yacht (alpha)](https://github.com/SelfhostedPro/Yacht) - A Web UI for docker that focuses on templates and ease of use in order to make deployments as easy as possible.
 
 ## Docker Images
 
