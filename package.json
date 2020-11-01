@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf ./dist/ && node build.js",
     "test:test": "jest",
-    "test": "node pull_request.js"
+    "test": "node pr_check_gql.js"
   },
   "repository": {
     "type": "git",
