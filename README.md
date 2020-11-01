@@ -295,6 +295,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [Deepfence Threat Mapper](https://github.com/deepfence/ThreatMapper) - Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless. By [@deepfence](deepfence)
 - [docker-bench-security](https://github.com/docker/docker-bench-security) - script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker][docker]
 - [docker-explorer](https://github.com/google/docker-explorer) - A tool to help forensicate offline docker acquisitions by [@Google][google]
+- [docker-lock](https://github.com/safe-waters/docker-lock) - A cli-plugin for docker to automatically manage image digests by tracking them in a separate Lockfile. By [@safe-waters][safe-waters]
 - [notary](https://github.com/theupdateframework/notary) - a server and a client for running and interacting with trusted collections. By [@TUF](https://github.com/theupdateframework)
 - [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By [OpenSCAP](https://github.com/OpenSCAP)
 - [Phonito Security](https://phonito.io/?b=b) :heavy_dollar_sign: - a Docker vulnerability scanner with constant Kubernetes monitoring and pipeline integration.
@@ -302,7 +303,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [Sysdig Falco](https://github.com/falcosecurity/falco) - Sysdig Falco is an open source container security monitor. It can monitor application, container, host, and network activity and alert on unauthorized activity.
 - [Sysdig Secure](https://sysdig.com/products/kubernetes-security/runtime-security/) :heavy_dollar_sign: - Sysdig Secure addresses run-time security through behavioral monitoring and defense, and provides deep forensics based on open source Sysdig for incident response.
 - [Trend Micro DeepSecurity](https://www.trendmicro.com/en_us/business/products/hybrid-cloud/deep-security.html) :heavy_dollar_sign: - Trend Micro DeepSecurity offers runtime protection for container workloads and hosts as well as preruntime scanning of images to identify vulnerabilities, malware and content such as hardcoded secrets.
-- [Trivy] (https://github.com/aquasecurity/trivy) - Aqua Security's open source simple and comprehensive vulnerability scanner for containers (suitable for CI).
+- [Trivy](https://github.com/aquasecurity/trivy) - Aqua Security's open source simple and comprehensive vulnerability scanner for containers (suitable for CI).
 
 ### Service Discovery
 
@@ -822,6 +823,7 @@ Services to securely store your Docker images.
 [progrium]: https://github.com/progrium
 [ramitsurana]: https://github.com/ramitsurana
 [rancher]: https://github.com/rancher
+[safe-waters]: https://github.com/safe-waters
 [sindresorhus]: https://github.com/sindresorhus/awesome
 [spotify]: https://github.com/spotify
 [tomastomecek]: https://github.com/TomasTomecek
