@@ -1,6 +1,15 @@
 <!-- Congrats on creating an Awesome Docker entry! 🎉 -->
 
-<!-- **Remember that entries are ordered alphabetically** -->
+<!-- 
+TLDR: 
+ * all entries sorted alphabetically,  
+ * If paying service add :heavy_dollar_sign:
+ * If WIP add :construction: 
+ * clear and short description of the project
+ * project MUST have: How to setup/install
+ * project MUST have: How to use (examples)
+ * we can help you get there :)
+-->
 
 # Quality Standards
 
@@ -32,7 +41,7 @@ But usually, we are pretty relaxed people, so just come and say hi, we'll figure
 - The link should be the name of the package or project or website
 - Description should be clear and concise (read it out loud to be sure)
 - Description should follow the link, on the same line
-- Entries are listed alphabetically, please respect the order
+- **Entries are listed alphabetically**, please respect the order
 - If you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
