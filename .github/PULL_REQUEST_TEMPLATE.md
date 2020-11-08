@@ -2,6 +2,17 @@
 
 <!-- **Remember that entries are ordered alphabetically** -->
 
+<!-- 
+TLDR: 
+ * all entries sorted alphabetically,  
+ * If paying service add :heavy_dollar_sign:
+ * If WIP add :construction: 
+ * clear and short description of the project
+ * project MUST have: How to setup/install
+ * project MUST have: How to use (examples)
+ * we can help you get there :)
+-->
+
 # Quality Standards
 
 Note that we can help you achieve those standards, just try your best and be brave.
