@@ -17,7 +17,6 @@ const LINKS_OPTIONS = {
   },
 };
 
-
 const LOG = {
   error: (...args) => console.error('❌ ERROR', args),
   error_string: (...args) =>
@@ -86,12 +85,6 @@ async function batch_fetch({ arr, get, post_filter_func, BATCH_SIZE = 8 }) {
   return result;
 }
 
-const extract_repos = (arr) =>
-  arr
-    .map((e) => e.substr('https://github.com/'.length).split('/'))
-    .filter((r) => r.length === 2 && r[1] !== '');
-
-
 const exclude_length = exclude.length;
 const exclude_from_list = (link) => {
   let is_excluded = false;
@@ -143,6 +136,8 @@ async function main() {
   }
 
   console.log(`checking ${github_links.length} GitHub repositories...`);
+
+  console.log(`skipping GitHub repository check. Run "npm run test" to execute them manually.`);
 
   console.log({
     TEST_PASSED: !has_error.show,
