@@ -1,17 +1,54 @@
 const fs = require('fs-extra');
+const fetch = require('node-fetch');
 const helper = require('./common');
+
+function envvar_undefined(variable_name) {
+    throw new Error(`${variable_name} must be defined`);
+}
 
 console.log({
     DEBUG: process.env.DEBUG || false,
 });
 
 const README = 'README.md';
+const GITHUB_GQL_API = 'https://api.github.com/graphql';
+const TOKEN = process.env.GITHUB_TOKEN || envvar_undefined('GITHUB_TOKEN');
+
+const Authorization = `token ${TOKEN}`;
+
+const make_GQL_options = (query) => ({
+    method: 'POST',
+    headers: {
+        Authorization,
+        'Content-Type': 'application/json',
+        'user-agent':
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+    },
+    body: JSON.stringify({ query }),
+});
+
+const extract_repos = (arr) =>
+    arr
+        .map((e) => e.substr('https://github.com/'.length).split('/'))
+        .filter((r) => r.length === 2 && r[1] !== '');
+
+const generate_GQL_query = (arr) =>
+    `query AWESOME_REPOS{ ${arr
+        .map(
+            ([owner, name]) =>
+                `repo_${owner.replace(/(-|\.)/g, '_')}_${name.replace(
+                    /(-|\.)/g,
+                    '_',
+                )}: repository(owner: "${owner}", name:"${name}"){ nameWithOwner } `,
+        )
+        .join('')} }`;
 
 async function main() {
     const has_error = {
         show: false,
         duplicates: '',
         other_links_error: '',
+        github_repos: '',
     };
     const markdown = await fs.readFile(README, 'utf8');
     let links = helper.extract_all_links(markdown);
@@ -47,12 +84,20 @@ async function main() {
 
     console.log(`checking ${github_links.length} GitHub repositories...`);
 
-    console.log(
-        `skipping GitHub repository check. Run "npm run test" to execute them manually.`,
+    const repos = extract_repos(github_links);
+    const query = generate_GQL_query(repos);
+    const options = make_GQL_options(query);
+    const gql_response = await fetch(GITHUB_GQL_API, options).then((r) =>
+        r.json(),
     );
+    if (gql_response.errors) {
+        has_error.show = true;
+        has_error.github_repos = gql_response.errors;
+    }
 
     console.log({
-        TEST_PASSED: !has_error.show,
+        TEST_PASSED: has_error.show,
+        GITHUB_REPOSITORY: github_links.length,
         EXTERNAL_LINKS: external_links.length,
     });
 
