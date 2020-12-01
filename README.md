@@ -330,6 +330,13 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 
 ### User Interface
 
+#### IDE integrations
+
+- JetBrains IDEs (IntelliJ IDEA, GoLand, WebStorm, CLion etc.) has [built-in Docker plugin](https://www.jetbrains.com/help/idea/docker.html#managing-images)
+- Eclipse [Docker Tooling plugin](https://www.eclipse.org/community/eclipse_newsletter/2016/july/article2.php)
+- [docker.vim](https://github.com/skanehira/docker.vim) - Manage docker containers and images in Vim. By [@skanehira]
+- [docker.el](https://github.com/Silex/docker.el) Manage docker from Emacs by [@Silex](https://github.com/Silex)
+
 #### Desktop
 
 Native desktop applications for managing and montoring docker hosts and clusters
@@ -353,7 +360,6 @@ Native desktop applications for managing and montoring docker hosts and clusters
 - [docker-ls](https://github.com/mayflower/docker-ls) - CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
 - [docker-ssh](https://github.com/jeroenpeeters/docker-ssh) - SSH Server for Docker containers ~ Because every container should be accessible. By [@jeroenpeeters](https://github.com/jeroenpeeters)
 - [Docker-mon](https://github.com/icecrime/docker-mon) :skull: - Console-based Docker monitoring by [@icecrime](https://github.com/icecrime)
-- [docker.el](https://github.com/Silex/docker.el) Manage docker from Emacs by [Silex](https://github.com/Silex)
 - [dockercraft](https://github.com/docker/dockercraft) - Docker + Minecraft = Dockercraft by [@docker][docker]
 - [dockerfile-mode](https://github.com/spotify/dockerfile-mode) An emacs mode for handling Dockerfiles by [@spotify][spotify]
 - [docker pushrm](https://github.com/christian-korneck/docker-pushrm) - A Docker CLI plugin that lets you push the README.md file from the current directory to Docker Hub. Also supports Quay and Harbor. By [@christian-korneck](https://github.com/christian-korneck)
