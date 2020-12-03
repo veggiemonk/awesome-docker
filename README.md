@@ -151,7 +151,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [bocker](https://github.com/icy/bocker) (2) - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
 - [bocker](https://github.com/p8952/bocker) (1) :skull: - Docker implemented in 100 lines of bash by [p8952](https://github.com/p8952)
 - [box](https://github.com/box-builder/box) - Build Dockerfile images with a mruby DSL, includes flattening and layer manipulation
-- [Capitan](https://github.com/byrnedo/capitan) - Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
+- [Capitan](https://github.com/byrnedo/capitan) - Composable docker orchestration with added scripting support by [@byrnedo].
 - [compose_plantuml](https://github.com/funkwerk/compose_plantuml) :skull: - Generate Plantuml graphs from docker-compose files by [@funkwerk](https://github.com/funkwerk)
 - [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files
 - [crowdr](https://github.com/polonskiy/crowdr) - Tool for managing multiple Docker containers (`docker-compose` alternative) by [@polonskiy](https://github.com/polonskiy/)
@@ -330,15 +330,24 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 
 ### User Interface
 
+#### IDE integrations
+
+- JetBrains IDEs (IntelliJ IDEA, GoLand, WebStorm, CLion etc.) has [built-in Docker plugin](https://www.jetbrains.com/help/idea/docker.html#managing-images)
+- Eclipse [Docker Tooling plugin](https://www.eclipse.org/community/eclipse_newsletter/2016/july/article2.php)
+- [docker.vim](https://github.com/skanehira/docker.vim) - Manage docker containers and images in Vim. By [@skanehira]
+- [docker.el](https://github.com/Silex/docker.el) Manage docker from Emacs by [@Silex](https://github.com/Silex)
+
 #### Desktop
 
 Native desktop applications for managing and montoring docker hosts and clusters
 
 - [Captain](https://getcaptain.co/) - Manage containers from the MacOSX menu bar by [@RickWong](https://github.com/rickwong)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) - Official native app. Only for Windows and MacOS
 - [Dockeron](https://github.com/dockeron/dockeron) - A project built on Electron + Vue.js for Docker on desktop. [@fluency03](https://github.com/fluency03)
 - [DockerStacks](http://docker-stacks.com/) - Local LAMP/LEMP Development Studio [@sfx101](https://github.com/sfx101)
 - [DockStation](https://github.com/DockStation/dockstation) - A developer centric UI to configure, monitor, and manage services and containers [@dock_station](https://twitter.com/dock_station)
 - [Lifeboat](https://github.com/jplhomer/lifeboat) - An easy way to launch Docker projects with a graphical interface on your Mac. [@jplhomer](https://github.com/jplhomer)
+- [Simple Docker UI](https://github.com/felixgborrego/simple-docker-ui) - built on Electron. By [@felixgborrego](https://github.com/felixgborrego/)
 
 #### Terminal
 
@@ -347,16 +356,17 @@ Native desktop applications for managing and montoring docker hosts and clusters
 - [ctop (2)](https://github.com/bcicen/ctop) - Top-like interface for container metrics (Golang) by [@bcicen](https://github.com/bcicen/)
 - [dext-docker-registry-plugin](https://github.com/vutran/dext-docker-registry-plugin) - Search the Docker Registry with the Dext smart launcher.
 - [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image. By [wagoodman](https://github.com/wagoodman).
+- [dockdash](https://github.com/byrnedo/dockdash) detailed stats. By [@byrnedo] 
 - [docker-ls](https://github.com/mayflower/docker-ls) - CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
 - [docker-ssh](https://github.com/jeroenpeeters/docker-ssh) - SSH Server for Docker containers ~ Because every container should be accessible. By [@jeroenpeeters](https://github.com/jeroenpeeters)
 - [Docker-mon](https://github.com/icecrime/docker-mon) :skull: - Console-based Docker monitoring by [@icecrime](https://github.com/icecrime)
-- [docker.el](https://github.com/Silex/docker.el) Manage docker from Emacs by [Silex](https://github.com/Silex)
 - [dockercraft](https://github.com/docker/dockercraft) - Docker + Minecraft = Dockercraft by [@docker][docker]
 - [dockerfile-mode](https://github.com/spotify/dockerfile-mode) An emacs mode for handling Dockerfiles by [@spotify][spotify]
 - [docker pushrm](https://github.com/christian-korneck/docker-pushrm) - A Docker CLI plugin that lets you push the README.md file from the current directory to Docker Hub. Also supports Quay and Harbor. By [@christian-korneck](https://github.com/christian-korneck)
 - [dockersql](https://github.com/crosbymichael/dockersql) - A command line interface to query Docker using SQL by [@crosbymichael](https://github.com/crosbymichael)
 - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer helps you get started with home server apps running in Docker by ([GhostWriters](https://github.com/GhostWriters))
 - [dockly](https://github.com/lirantal/dockly) - An interactive shell UI for managing Docker containers by [@lirantal](https://github.com/lirantal)
+- [docui](https://github.com/skanehira/docui) - An interactive shell UI for managing Docker containers. Also works in Windows. By [@skanehira]
 - [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers by [@moncho](https://github.com/moncho)
 - [DVM](https://github.com/howtowhale/dvm) - Docker version manager by [@howtowhale](https://github.com/howtowhale)
 - [goinside](https://github.com/iamsoorena/goinside) - Get inside a running docker container easily. by [@iamsoorena](https://github.com/iamsoorena)
@@ -376,6 +386,7 @@ Native desktop applications for managing and montoring docker hosts and clusters
 
 #### Web
 
+- [Admiral](https://github.com/vmware/admiral) Admiral™ is a highly scalable and very lightweight Container Management platform for deploying and managing container based applications. By [VMWare]
 - [Container Web TTY](https://github.com/wrfly/container-web-tty) - Connect your containers via a web-tty [@wrfly](https://github.com/wrfly)
 - [Docker Compose UI](https://github.com/francescou/docker-compose-ui) - Manage docker-compose via HTTP. docker-compose-ui runs in a Docker container, mounts the hosts docker socket and exposes a RESTful API and AngularJS GUI
 - [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2 by [@klausmeyer](https://github.com/klausmeyer)
@@ -386,6 +397,7 @@ Native desktop applications for managing and montoring docker hosts and clusters
 - [dockering-on-rails](https://github.com/Electrofenster/dockerding-on-rails) :skull: - Simple Web-Interface for Docker with a lot of features by [@Electrofenster](https://github.com/Electrofenster/)
 - [DockerSurfer](https://github.com/Simone-Erba/DockerSurfer) :skull: - A web service for analyze and browse dependencies between Docker images in the Docker registry, by [@Simone-Erba](https://github.com/Simone-Erba/)
 - [Kubevious](https://github.com/kubevious/kubevious) - A highly visual web UI for Kubernetes which renders configuration and state in an application centric way by [@rubenhak](https://github.com/rubenhak).
+- [netdata](https://github.com/netdata/netdata) - Real-time performance monitoring
 - [OctoLinker](https://github.com/OctoLinker/OctoLinker) - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
 - [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker hosts or Docker Swarm clusters by [@portainer](https://github.com/portainer)
 - [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
@@ -505,7 +517,7 @@ Services to securely store your Docker images.
 - [Docket](https://github.com/netvarun/docket) - Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
 - [GCE Container Registry :heavy_dollar_sign:](https://cloud.google.com/container-registry/) Fast, private Docker image storage on Google Cloud Platform
 - [GitLab Container Registry](https://docs.gitlab.com/ce/user/project/container_registry.html) - Repositories focused on using it images in GitLab CI
-- [Harbor](https://github.com/goharbor/harbor) An open source trusted cloud native registry project that stores, signs, and scans content. Supports replication, user management, access control and activity auditing. By [CNCF](Sandbox) formerly [VMWare](https://github.com/vmware)
+- [Harbor](https://github.com/goharbor/harbor) An open source trusted cloud native registry project that stores, signs, and scans content. Supports replication, user management, access control and activity auditing. By [CNCF](Sandbox) formerly [VMWare]
 - [JFrog Artifactory :heavy_dollar_sign:](https://jfrog.com/artifactory/) - Artifact Repository Manager, can be used as private Docker Registry as well
 - [Kraken](https://github.com/uber/kraken) - Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds.
 - [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
@@ -694,6 +706,7 @@ Services to securely store your Docker images.
 ## Awesome Lists
 
 - [Awesome CI/CD](https://github.com/cicdops/awesome-ciandcd) - Not specific to docker but relevant.
+- [Awesome Compose](https://github.com/docker/awesome-compose) - Docker Compose samples
 - [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana][ramitsurana]
 - [Awesome Linux Container](https://github.com/Friz-zy/awesome-linux-containers) more general about container than this repo, by [@Friz-zy](https://github.com/Friz-zy).
 - [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) list of Free Software network services and web applications which can be hosted locally by running in a classical way (setup local web server and run applications from there) or in a Docker container. By [@Kickball](https://github.com/Kickball)
@@ -832,3 +845,6 @@ Services to securely store your Docker images.
 [tomastomecek]: https://github.com/TomasTomecek
 [vegasbrianc]: https://github.com/vegasbrianc
 [weave]: https://github.com/weaveworks/weave
+[VMWare]: https://github.com/vmware
+[@byrnedo]: https://github.com/byrnedo
+[@skanehira]: https://github.com/skanehira
