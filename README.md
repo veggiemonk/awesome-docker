@@ -703,7 +703,7 @@ Services to securely store your Docker images.
 - **[Valuable Docker Links](http://nane.kratzke.pages.mylab.th-luebeck.de/about/blog/2014/08/24/valuable-docker-links/)** High quality articles about docker! **MUST SEE**
 - [Become a Docker Power User with Visual Studio Code](https://www.thebyte.io/become-docker-power-user-with-vs-code) - :heavy_dollar_sign: A training course to help you become a Docker Power user with Visual Studio Code
 - [Cloud Native Landscape](https://github.com/cncf/landscape)
-- [Docker Weekly](https://www.docker.com/blog/docker-weekly-archives/) Huge resource
+- [Docker Newsletter](https://www.docker.com/newsletter-subscription) Docker newsletter for regular updates
 - [Programming Community Curated Resources for learning Docker](https://hackr.io/tutorials/learn-docker)
 - [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
 - [Docker Community on Hashnode](https://hashnode.com/n/docker)
