@@ -262,6 +262,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [Nanobox](https://github.com/nanobox-io/nanobox) :heavy_dollar_sign: - An application development platform that creates local environments that can then be deployed and scaled in the cloud.
 - [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/en)
 - [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software
+- [Krane](https://github.com/krane/krane) - Toolset for managing container workloads on remote servers
 
 ### Reverse Proxy
 
