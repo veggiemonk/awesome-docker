@@ -678,6 +678,7 @@ Services to securely store your Docker images.
 ### CaaS
 
 - [Amazon ECS](https://aws.amazon.com/ecs/) :heavy_dollar_sign: - A management service on EC2 that supports Docker containers.
+- [Appfleet](https://appfleet.com/) :heavy_dollar_sign: - Edge platform to deploy and manage containerized services globally. The system will route the traffic to the closest location for lower latency.
 - [Azure AKS](https://azure.microsoft.com/en-us/services/kubernetes-service/) :heavy_dollar_sign: - Simplify Kubernetes management, deployment, and operations. Use a fully managed Kubernetes container orchestration service.
 - [Cloud 66](https://www.cloud66.com) :heavy_dollar_sign: - Full-stack hosted container management as a service
 - [Codenvy](https://codenvy.com) :heavy_dollar_sign: - One-click Docker environments and cloud workspace for development teams
