@@ -78,6 +78,7 @@ All the links are monitored and tested with a home baked [Node.js script](https:
   - [Russian](#russian)
   - [Spanish](#spanish)
   - [Stargazers over time](#stargazers-over-time)
+- [Other](#other)
 
 <!-- /TOC -->
 
@@ -865,3 +866,10 @@ Services to securely store your Docker images.
 [VMWare]: https://github.com/vmware
 [@byrnedo]: https://github.com/byrnedo
 [@skanehira]: https://github.com/skanehira
+
+
+# Other
+
+- Docker CLI cheat sheet on [coffee mug](https://remembertheapi.com/products/docker-cli-cheat-sheet-black-mugs), [mousepad](https://remembertheapi.com/products/docker-cli-cheat-sheet-mousepad), [spiral notebook](https://remembertheapi.com/products/docker-cli-cheat-sheet-spiral-notebook-ruled-line)
+- Dockerfile cheat sheet on [coffee mug](https://remembertheapi.com/products/dockerfile-cheat-sheet-black-mugs), [mousepad](https://remembertheapi.com/products/dockerfile-cheat-sheet-mousepad), [spiral notebook](https://remembertheapi.com/products/dockerfile-cheat-sheet-spiral-notebook-ruled-line)
+
