@@ -870,6 +870,5 @@ Services to securely store your Docker images.
 
 # Physical products
 
-- Docker CLI cheat sheet on [coffee mug](https://remembertheapi.com/products/docker-cli-cheat-sheet-black-mugs), [mousepad](https://remembertheapi.com/products/docker-cli-cheat-sheet-mousepad), [spiral notebook](https://remembertheapi.com/products/docker-cli-cheat-sheet-spiral-notebook-ruled-line)
-- Dockerfile cheat sheet on [coffee mug](https://remembertheapi.com/products/dockerfile-cheat-sheet-black-mugs), [mousepad](https://remembertheapi.com/products/dockerfile-cheat-sheet-mousepad), [spiral notebook](https://remembertheapi.com/products/dockerfile-cheat-sheet-spiral-notebook-ruled-line)
+- Docker cheat sheets on [coffee mugs, mousepads, spiral notebooks](https://remembertheapi.com/apps/omega-search/?q=docker) :heavy_dollar_sign:
 
