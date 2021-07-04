@@ -151,7 +151,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 
 ### Container Composition
 
-- [bocker](https://github.com/icy/bocker) (2) - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
+- [bocker](https://github.com/icy/bocker) (2) :skull: - Write Dockerfile completely in Bash. Extensible and simple. --> Reusable by [@icy](https://github.com/icy)
 - [bocker](https://github.com/p8952/bocker) (1) :skull: - Docker implemented in 100 lines of bash by [p8952](https://github.com/p8952)
 - [box](https://github.com/box-builder/box) - Build Dockerfile images with a mruby DSL, includes flattening and layer manipulation
 - [Capitan](https://github.com/byrnedo/capitan) - Composable docker orchestration with added scripting support by [@byrnedo].
@@ -712,7 +712,7 @@ Services to securely store your Docker images.
 - [Cloud Native Landscape](https://github.com/cncf/landscape)
 - [Docker Certification](https://intellipaat.com/docker-training-course/) :heavy_dollar_sign: will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.
 - [Docker Community on Hashnode](https://hashnode.com/n/docker)
-- [Docker dev bookmarks](https://www.bookmarks.dev/search?q=docker) - use the tag [docker](https://www.bookmarks.dev/tagged/docker)
+- [Docker dev bookmarks](https://www.codever.land/search?q=docker) - use the tag [docker](https://www.codever.land/bookmarks/t/docker)
 - [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
 - [Docker in Practice, Second Edition](https://www.manning.com/books/docker-in-practice-second-edition)
 - [Docker Newsletter](https://www.docker.com/newsletter-subscription) Docker newsletter for regular updates
