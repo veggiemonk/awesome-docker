@@ -1,8 +1,6 @@
 const fs = require('fs-extra');
 const cheerio = require('cheerio');
 const showdown = require('showdown');
-const Parcel = require('parcel-bundler');
-const { SitemapStream, streamToPromise } = require('sitemap');
 
 process.env.NODE_ENV = 'production';
 
@@ -46,44 +44,8 @@ async function processIndex() {
   }
 }
 
-const bundle = () => {
-  LOG.debug('---');
-  LOG.debug('📦  Bundling with Parcel.js');
-  LOG.debug('---');
-
-  new Parcel(indexDestination, {
-    name: 'build',
-    publicURL: '/',
-  })
-    .bundle()
-    .then(() => {
-      const smStream = new SitemapStream({
-        hostname: 'https://awesome-docker.netlify.com/',
-      });
-      smStream.write({
-        url: '/',
-        changefreq: 'daily',
-        priority: 0.8,
-        lastmodrealtime: true,
-        lastmodfile: 'dist/index.html',
-      });
-
-      smStream.end();
-      return streamToPromise(smStream);
-    })
-    .then((sm) =>
-      // Creates a sitemap object given the input configuration with URLs
-      fs.outputFile(
-        'dist/sitemap.xml',
-        // sm.createSitemap(sitemapOpts).toString(),
-        sm.toString(),
-      ),
-    );
-};
-
 async function main() {
   await processIndex();
-  await bundle();
 }
 
 main();
