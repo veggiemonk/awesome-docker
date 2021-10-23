@@ -1,6 +1,6 @@
-const fs = require('fs-extra');
-const fetch = require('node-fetch');
-const helper = require('./common');
+import fs from 'fs-extra';
+import fetch from 'node-fetch';
+import helper from './common.mjs';
 
 function envvar_undefined(variable_name) {
     throw new Error(`${variable_name} must be defined`);
