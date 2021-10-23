@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import exclude from './exclude_in_test.json';
+const exclude = require('./exclude_in_test.json');
 
 const LINKS_OPTIONS = {
   redirect: 'error',
