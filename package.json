@@ -5,8 +5,8 @@
   "main": "build.js",
   "scripts": {
     "build": "rimraf ./dist/ && node build.js",
-    "test-pr": "node tests/pull_request.js",
-    "test": "node tests/test_all.js"
+    "test-pr": "node tests/pull_request.mjs",
+    "test": "node tests/test_all.mjs"
   },
   "repository": {
     "type": "git",
