@@ -90,7 +90,7 @@ const exclude_from_list = (link) => {
   return is_excluded;
 };
 
-module.exports = {
+export {
   LOG,
   handleFailure,
   extract_all_links,
