@@ -5,8 +5,8 @@
   "main": "build.js",
   "scripts": {
     "build": "rimraf ./dist/ && node build.js",
-    "test-pr": "node tests/pull_request.js",
-    "test": "node tests/test_all.js"
+    "test-pr": "node tests/pull_request.mjs",
+    "test": "node tests/test_all.mjs"
   },
   "repository": {
     "type": "git",
@@ -19,24 +19,11 @@
   },
   "homepage": "https://github.com/veggiemonk/awesome-docker#readme",
   "dependencies": {
-    "cheerio": "1.0.0-rc.3",
-    "draftlog": "1.0.12",
-    "fs-extra": "9.0.1",
-    "node-fetch": "2.6.1",
-    "parcel-bundler": "1.12.4",
+    "cheerio": "1.0.0-rc.10",
+    "draftlog": "1.0.13",
+    "fs-extra": "10.0.0",
+    "node-fetch": "3.0.0",
     "rimraf": "3.0.2",
-    "showdown": "1.9.1",
-    "sitemap": "6.3.2"
-  },
-  "devDependencies": {
-    "babel-eslint": "10.1.0",
-    "eslint": "7.10.0",
-    "eslint-config-airbnb-base": "14.2.0",
-    "eslint-config-prettier": "6.12.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jsx-a11y": "6.3.1",
-    "eslint-plugin-prettier": "3.1.4",
-    "minimist": "1.2.5",
-    "prettier": "2.1.2"
+    "showdown": "^1.9.0"
   }
 }

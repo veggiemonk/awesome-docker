@@ -1,5 +1,5 @@
-const fs = require('fs-extra');
-const helper = require('./common');
+import fs from 'fs-extra';
+import helper from './common.mjs';
 
 console.log({
     DEBUG: process.env.DEBUG || false,

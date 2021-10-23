@@ -1,5 +1,5 @@
-const fetch = require('node-fetch');
-const exclude = require('./exclude_in_test.json');
+import fetch from 'node-fetch';
+import {readFileSync} from 'fs';
 
 const LINKS_OPTIONS = {
   redirect: 'error',
@@ -78,6 +78,8 @@ async function batch_fetch({ arr, get, post_filter_func, BATCH_SIZE = 8 }) {
   return result;
 }
 
+const data = readFileSync('./tests/exclude_in_test.json')
+const exclude = JSON.parse(data)
 const exclude_length = exclude.length;
 const exclude_from_list = (link) => {
   let is_excluded = false;
@@ -90,7 +92,7 @@ const exclude_from_list = (link) => {
   return is_excluded;
 };
 
-module.exports = {
+export default {
   LOG,
   handleFailure,
   extract_all_links,
