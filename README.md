@@ -719,6 +719,7 @@ Services to securely store your Docker images.
 - [Learn Docker in a Month of Lunches](https://www.manning.com/books/learn-docker-in-a-month-of-lunches)
 - [Learn Docker](https://blog.coursesity.com/best-docker-tutorials/) - Learn Docker - curated list of the top online docker tutorials and courses.
 - [Programming Community Curated Resources for learning Docker](https://hackr.io/tutorials/learn-docker)
+- [Bootstrapping Microservices with Docker, Kubernetes, and Terraform](https://www.manning.com/books/bootstrapping-microservices-with-docker-kubernetes-and-terraform)
 
 
 ## Awesome Lists
@@ -791,6 +792,11 @@ Services to securely store your Docker images.
 - [Performance Analysis of Docker - Jeremy Eder](https://www.youtube.com/watch?v=6f2E6PKYb0w) (1:36:58)
 - [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615) Free Udacity course
 - [State of containers: a debate with CoreOS, VMware and Google](https://www.youtube.com/watch?v=IiITP3yIRd8) (27:38)
+- [Continuous delivery for microservices with Docker and Terraform](https://www.youtube.com/watch?v=nyMvl_-i98w&list=PLQRyiBCWmqp6fPN9kO2rrLB-wNQsxIiLu&index=16) (1:02:16)
+- [Mission Impossible: DevSecOps](https://youtu.be/GSG5XewRx2E) (1:43:13)
+- [How to secure an AWS S3 bucket](https://youtu.be/ZaD_tgmblFY) (1:04:19)
+- [How To Run Docker Containers More Securely](https://youtu.be/Zw4hZOLlgGg) (58:35)
+- [Docker Image Pipelines and Patterns Explained by Stephen Kuenzli](https://youtu.be/GSG5XewRx2E) (1:42:04)
 
 
 # Communities and Meetups
