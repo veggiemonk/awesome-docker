@@ -780,23 +780,24 @@ Services to securely store your Docker images.
 - [Docker for Developers](https://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26) by [@jpetazzo][jpetazzo] <== Good introduction, context, demo
 - [Docker from scratch](https://www.youtube.com/playlist?list=PLLhEJK7fQIxD-btrjrqdEfQHbkZnQrmqE) (1:22:01) on YouTube by Paris Nakita Kejser
 - [Docker: How to Use Your Own Private Registry](https://www.youtube.com/watch?v=CAewZCBT4PI) (15:01)
+- [Docker Image Pipelines and Patterns Explained by Stephen Kuenzli](https://youtu.be/GSG5XewRx2E) (1:42:04)
 - [Docker in Production](https://www.youtube.com/watch?v=Glk5d5WP6MI) by [@jpetazzo][jpetazzo] (36:05)
 - [Docker Primer to Docker Compose](https://www.youtube.com/watch?v=G-s2GXGAjTk) (1:56:45) on YouTube by LoginRadius
 - [Docker Registry from scratch](https://www.youtube.com/playlist?list=PLLhEJK7fQIxAz3d4Fj3edq7UcxEhdTCBm) (44:40) on YouTube by Paris Nakita Kejser
 - [Docker Swarm from scratch](https://www.youtube.com/playlist?list=PLLhEJK7fQIxAY4gZd1Wl-GsLvg-e9Ap1e) (1:41:28) on YouTube by Paris Nakita Kejser
 - [Extending Docker with Plugins](https://vimeo.com/110835013) (15:21)
 - [From Local Docker Development to Production Deployments](https://www.youtube.com/watch?v=7CZFpHUPqXw) by [@jpetazzo][jpetazzo] @ AWS re:Invent 2015
+- [How To Run Docker Containers More Securely](https://youtu.be/Zw4hZOLlgGg) (58:35)
+- [How to secure an AWS S3 bucket](https://youtu.be/ZaD_tgmblFY) (1:04:19)
 - [Immutable Infrastructure with Docker and EC2 by Michael Bryzek (Gilt)](https://www.youtube.com/watch?v=GaHzdqFithc) (42:04)
 - [Introduction to Docker and containers](https://www.youtube.com/watch?v=ZVaRK10HBjo) (3:09:00) by [@jpetazzo][jpetazzo]
 - [Logging on Docker: What You Need to Know](https://vimeo.com/123341629) (51:27)
+- [Mission Impossible: DevSecOps](https://youtu.be/GSG5XewRx2E) (1:43:13)
 - [Performance Analysis of Docker - Jeremy Eder](https://www.youtube.com/watch?v=6f2E6PKYb0w) (1:36:58)
 - [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615) Free Udacity course
 - [State of containers: a debate with CoreOS, VMware and Google](https://www.youtube.com/watch?v=IiITP3yIRd8) (27:38)
 - [Continuous delivery for microservices with Docker and Terraform](https://www.youtube.com/watch?v=nyMvl_-i98w&list=PLQRyiBCWmqp6fPN9kO2rrLB-wNQsxIiLu&index=16) (1:02:16)
-- [Mission Impossible: DevSecOps](https://youtu.be/GSG5XewRx2E) (1:43:13)
-- [How to secure an AWS S3 bucket](https://youtu.be/ZaD_tgmblFY) (1:04:19)
-- [How To Run Docker Containers More Securely](https://youtu.be/Zw4hZOLlgGg) (58:35)
-- [Docker Image Pipelines and Patterns Explained by Stephen Kuenzli](https://youtu.be/GSG5XewRx2E) (1:42:04)
+
 
 
 # Communities and Meetups
