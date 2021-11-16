@@ -39,6 +39,7 @@ All the links are monitored and tested with a home baked [Node.js script](https:
     - [Service Discovery](#service-discovery)
     - [Volume Management / Data](#volume-management--data)
     - [User Interface](#user-interface)
+      - [IDE integrations](#ide-integrations)
       - [Desktop](#desktop)
       - [Terminal](#terminal)
         - [Terminal UI](#terminal-ui)
@@ -60,7 +61,7 @@ All the links are monitored and tested with a home baked [Node.js script](https:
     - [Serverless](#serverless)
     - [Testing](#testing)
     - [Wrappers](#wrappers)
-  - [Services based on Docker (:heavy_dollar_sign:)](#services-based-on-docker-heavy_dollar_sign)
+  - [Services based on Docker (mostly :heavy_dollar_sign:)](#services-based-on-docker-mostly-heavy_dollar_sign)
     - [CI Services](#ci-services)
     - [CaaS](#caas)
     - [Monitoring Services](#monitoring-services)
@@ -78,6 +79,7 @@ All the links are monitored and tested with a home baked [Node.js script](https:
   - [Russian](#russian)
   - [Spanish](#spanish)
   - [Stargazers over time](#stargazers-over-time)
+  - [Contributor over time](#contributor-over-time)
 
 <!-- /TOC -->
 
@@ -171,7 +173,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [rocker-compose](https://github.com/grammarly/rocker-compose) :skull: - Docker composition tool with idempotency features for deploying apps composed of multiple containers. By[@grammarly](grammarly).
 - [rocker](https://github.com/grammarly/rocker) :skull: - Extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc. by [@grammarly](grammarly).
 - [Smalte](https://github.com/roquie/smalte) – Dynamically configure applications that require static configuration in docker container. By [@roquie](https://github.com/roquie)
-- [Stacker](https://github.com/stacker/stacker-cli) - Docker Compose Templates. Stacker provides an abstraction layer over Docker Compose and a better DX (developer experience).
+- [Stacker](https://github.com/stacker/stacker-cli) :skull: - Docker Compose Templates. Stacker provides an abstraction layer over Docker Compose and a better DX (developer experience).
 - [Stitchocker](https://github.com/alexaandrov/stitchocker) - A lightweight and fast command line utility for conveniently grouping your docker-compose multiple container services. By [@alexaandrov](https://github.com/alexaandrov)
 - [Zodiac](https://github.com/CenturyLinkLabs/zodiac) :skull: - A lightweight tool for easy deployment and rollback of dockerized applications. By [@CenturyLinkLabs][centurylinklabs]
 
