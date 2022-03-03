@@ -175,6 +175,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [Smalte](https://github.com/roquie/smalte) – Dynamically configure applications that require static configuration in docker container. By [@roquie](https://github.com/roquie)
 - [Stacker](https://github.com/stacker/stacker-cli) :skull: - Docker Compose Templates. Stacker provides an abstraction layer over Docker Compose and a better DX (developer experience).
 - [Stitchocker](https://github.com/alexaandrov/stitchocker) - A lightweight and fast command line utility for conveniently grouping your docker-compose multiple container services. By [@alexaandrov](https://github.com/alexaandrov)
+- [Nuxx](https://github.com/nuxxapp/nuxx) - Visually generate docker-compose.yaml code with drag-n-drop UI. By [@corpulent](https://github.com/corpulent)
 - [Zodiac](https://github.com/CenturyLinkLabs/zodiac) :skull: - A lightweight tool for easy deployment and rollback of dockerized applications. By [@CenturyLinkLabs][centurylinklabs]
 
 ### Deployment and Infrastructure
