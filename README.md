@@ -167,6 +167,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker)
 - [habitus](https://github.com/cloud66-oss/habitus) - A Build Flow Tool for Docker by [@cloud66](https://github.com/cloud66)
 - [kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes
 - [Maestro](https://github.com/toscanini/maestro) :skull: - Maestro provides the ability to easily launch, orchestrate and manage multiple Docker containers as single unit by [@tascanini](https://github.com/toscanini)
+- [Nuxx](https://github.com/nuxxapp/nuxx) - Visually generate docker-compose.yaml code with drag-n-drop UI. By [@corpulent](https://github.com/corpulent)
 - [percheron](https://github.com/ashmckenzie/percheron) :skull: - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
 - [plash](https://github.com/ihucos/plash) - A container run and build engine - runs inside docker.
 - [podman-compose](https://github.com/containers/podman-compose) - a script to run docker-compose.yml using podman by [@containers][containers]
