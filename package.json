@@ -24,6 +24,6 @@
     "fs-extra": "10.1.0",
     "node-fetch": "3.2.3",
     "rimraf": "3.0.2",
-    "showdown": "^2.0.3"
+    "showdown": "^2.1.0"
   }
 }
