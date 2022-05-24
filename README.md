@@ -804,7 +804,7 @@ Services to securely store your Docker images.
 - [Performance Analysis of Docker - Jeremy Eder](https://www.youtube.com/watch?v=6f2E6PKYb0w) (1:36:58)
 - [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615) Free Udacity course
 - [State of containers: a debate with CoreOS, VMware and Google](https://www.youtube.com/watch?v=IiITP3yIRd8) (27:38)
-
+- [List of online courses (free and paid) about Docker](https://skillcombo.com/topic/docker/)
 
 # Communities and Meetups
 
