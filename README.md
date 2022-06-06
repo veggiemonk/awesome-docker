@@ -407,6 +407,7 @@ Native desktop applications for managing and montoring docker hosts and clusters
 #### Web
 
 - [Admiral](https://github.com/vmware/admiral) Admiral™ is a highly scalable and very lightweight Container Management platform for deploying and managing container based applications. By [VMWare]
+- [CASA](https://github.com/knrdl/casa) - Outsource the administration of a handful of containers to your co-workers, by [@knrdl](https://github.com/knrdl)
 - [Container Web TTY](https://github.com/wrfly/container-web-tty) - Connect your containers via a web-tty [@wrfly](https://github.com/wrfly)
 - [Docker Compose UI](https://github.com/francescou/docker-compose-ui) - Manage docker-compose via HTTP. docker-compose-ui runs in a Docker container, mounts the hosts docker socket and exposes a RESTful API and AngularJS GUI
 - [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2 by [@klausmeyer](https://github.com/klausmeyer)
