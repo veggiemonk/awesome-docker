@@ -206,6 +206,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [Dockerana](https://github.com/dockerana/dockerana) :skull: - packaged version of Graphite and Grafana, specifically targeted at metrics from Docker.
 - [DockProc](https://gitlab.com/n0r1sk/dockproc) - I/O monitoring for containers on processlevel.
 - [dockprom](https://github.com/stefanprodan/dockprom) - Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager by [@stefanprodan](https://github.com/stefanprodan)
+- [Doku](https://github.com/amerkurev/doku) - Doku is a simple web-based application that allows you to monitor Docker disk usage. [@amerkurev](https://github.com/amerkurev)
 - [Dozzle](https://github.com/amir20/dozzle) - Monitor container logs in real-time with a browser or mobile device. [@amir20](https://github.com/amir20)
 - [Dynatrace](https://www.dynatrace.com/solutions/container-monitoring/) :heavy_dollar_sign: - Monitor containerized applications without installing agents or modifying your Run commands
 - [Glances](https://github.com/nicolargo/glances) - A cross-platform curses-based system monitoring tool written in Python by [@nicolargo](https://github.com/nicolargo)
