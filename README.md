@@ -159,6 +159,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [compose_plantuml](https://github.com/funkwerk/compose_plantuml) :skull: - Generate Plantuml graphs from docker-compose files by [@funkwerk](https://github.com/funkwerk)
 -   [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files
 -   [crowdr](https://github.com/polonskiy/crowdr) - Tool for managing multiple Docker containers (`docker-compose` alternative) by [@polonskiy](https://github.com/polonskiy/)
+-   [ctk](https://github.com/ctk-hq/ctk) :construction: - Visual composer for container based workloads. By [@corpulent](https://github.com/corpulent)
 -   [docker-compose-graphviz](https://github.com/abesto/docker-compose-graphviz) :skull: - Turn a docker-compose.yml files into Graphviz .dot files by [@abesto](https://github.com/abesto)
 -   [docker-config-update](https://github.com/sudo-bmitch/docker-config-update) - Utility to update docker configs and secrets for deploying in a compose file by [@sudo-bmitch](https://github.com/sudo-bmitch)
 -   [draw-compose](https://github.com/Alexis-benoist/draw-compose) :skull: - Utility to draw a schema of a docker compose by [@Alexis-benoist](https://github.com/Alexis-benoist)
@@ -166,7 +167,6 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [habitus](https://github.com/cloud66-oss/habitus) - A Build Flow Tool for Docker by [@cloud66](https://github.com/cloud66)
 -   [kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes
 -   [Maestro](https://github.com/toscanini/maestro) :skull: - Maestro provides the ability to easily launch, orchestrate and manage multiple Docker containers as single unit by [@tascanini](https://github.com/toscanini)
--   [Nuxx](https://github.com/nuxxapp/nuxx) - Visually generate docker-compose.yaml code with drag-n-drop UI. By [@corpulent](https://github.com/corpulent)
 -   [percheron](https://github.com/ashmckenzie/percheron) :skull: - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
 -   [plash](https://github.com/ihucos/plash) - A container run and build engine - runs inside docker.
 -   [podman-compose](https://github.com/containers/podman-compose) - a script to run docker-compose.yml using podman by [@containers][containers]
