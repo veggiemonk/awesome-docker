@@ -219,7 +219,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [SwarmAlert](https://github.com/gpulido/SwarmAlert) - Monitors a Docker Swarm and sends Pushover alerts when it finds a container with no healthy service task running.
 -   [Zabbix Docker module](https://github.com/monitoringartist/Zabbix-Docker-Monitoring) - Zabbix module that provides discovery of running containers, CPU/memory/blk IO/net container metrics. Systemd Docker and LXC execution driver is also supported. It's a dynamically linked shared object library, so its performance is (~10x) better, than any script solution.
 -   [Zabbix Docker](https://github.com/gomex/docker-zabbix) - Monitor containers automatically using zabbix LLD feature.
--   [Sidekick](https://github.com/runsidekick/sidekick) - Collect traces and generate logs on-demand without stopping & redeploying your applications.
+-   [Sidekick](https://github.com/runsidekick/sidekick) - Open source live application debugger like Chrome DevTools for your backend. Collect traces and generate logs on-demand without stopping & redeploying your applications.
 
 ### Networking
 
