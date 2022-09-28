@@ -222,7 +222,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 
 ### Networking
 
--   [Calico-Docker][calico] - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other.
+-   [Calico][calico] - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other.
 -   [Flannel](https://github.com/coreos/flannel/) - Flannel is a virtual network that gives a subnet to each host for use with container runtimes. By [@coreos][coreos]
 -   [Freeflow](https://github.com/Microsoft/Freeflow) - High performance container overlay networks on Linux. Enabling RDMA (on both InfiniBand and RoCE) and accelerating TCP to bare metal performance. By [@Microsoft](https://github.com/Microsoft)
 -   [netshoot](https://github.com/nicolaka/netshoot) - The netshoot container has a powerful set of networking tools to help troubleshoot Docker networking issues by [@nicolaka](https://github.com/nicolaka)
@@ -840,7 +840,7 @@ Services to securely store your Docker images.
 
 [contributing]: https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md
 [akito]: https://github.com/theAkito
-[calico]: https://github.com/projectcalico/calicoctl
+[calico]: https://github.com/projectcalico/calico
 [centurylinklabs]: https://github.com/CenturyLinkLabs
 [containx]: https://github.com/ContainX
 [containers]: https://github.com/containers
