@@ -1,8 +1,9 @@
 import fetch from 'node-fetch';
+import { isRedirect } from 'node-fetch';
 import {readFileSync} from 'fs';
 
 const LINKS_OPTIONS = {
-  redirect: 'error',
+  redirect: 'manual',
   headers: {
     'Content-Type': 'application/json',
     'user-agent':
@@ -56,8 +57,9 @@ const partition = (arr, func) => {
 
 async function fetch_link(url) {
   try {
-    const { ok, statusText, redirected } = await fetch(url, LINKS_OPTIONS);
-    return [url, { ok, status: statusText, redirected }];
+    const { headers, ok, status, statusText } = await fetch(url, LINKS_OPTIONS);
+    const redirect = isRedirect(status) ? { redirect: { src: url, dst: headers.get("location") } } : {};
+    return [url, { ok, status: statusText, ...redirect }];
   } catch (error) {
     return [url, { ok: false, status: error.message }];
   }
