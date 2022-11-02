@@ -9,12 +9,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
-      - uses: actions/setup-node@56899e050abffc08c2b3b61f3ec6a79a9dc3223d
+      - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791
+      - uses: actions/setup-node@8c91899e586c5b171469028077307d293428b516
         with:
           node-version: 12
 
-      - uses: actions/cache@0781355a23dac32fd3bac414512f4b903437991a
+      - uses: actions/cache@9b0c1fce7a93df8e3bb8926b0d6e9d89e92f20a7
         id: cache
         with:
           path: ~/.npm
