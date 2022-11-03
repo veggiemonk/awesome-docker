@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791
       - uses: actions/setup-node@8c91899e586c5b171469028077307d293428b516
         with:
-          node-version: 12
+          node-version: 18
 
       - uses: actions/cache@9b0c1fce7a93df8e3bb8926b0d6e9d89e92f20a7
         id: cache
