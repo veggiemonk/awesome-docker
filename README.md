@@ -385,18 +385,18 @@ Native desktop applications for managing and montoring docker hosts and clusters
 -   [dcp](https://github.com/exdx/dcp) - A simple tool for copying files from container filesystems. By [@exdx](https://github.com/exdx)
 -   [docker-ls](https://github.com/mayflower/docker-ls) - CLI tools for browsing and manipulating docker registries by [@mayflower](https://github.com/mayflower)
 -   [docker pushrm](https://github.com/christian-korneck/docker-pushrm) - A Docker CLI plugin that lets you push the README.md file from the current directory to Docker Hub. Also supports Quay and Harbor. By [@christian-korneck](https://github.com/christian-korneck)
--   [dockersql](https://github.com/crosbymichael/dockersql) - A command line interface to query Docker using SQL by [@crosbymichael](https://github.com/crosbymichael)
+-   [dockersql](https://github.com/crosbymichael/dockersql) - :skull: A command line interface to query Docker using SQL by [@crosbymichael](https://github.com/crosbymichael)
 -   [DVM](https://github.com/howtowhale/dvm) - Docker version manager by [@howtowhale](https://github.com/howtowhale)
 -   [goinside](https://github.com/iamsoorena/goinside) - Get inside a running docker container easily. by [@iamsoorena](https://github.com/iamsoorena)
 -   [ns-enter](https://github.com/jpetazzo/nsenter) - :skull: no more ssh, enter name spaces of container by [@jpetazzo][jpetazzo]
 -   [Pdocker](https://github.com/g31s/Pdocker) - A simple tool to manage and maintain Docker for personal projects by [@g31s](g31s)
 -   [proco](https://github.com/shiwaforce/poco) - Proco will help you to organise and manage Docker, Docker-Compose, Kubernetes projects of any complexity using simple YAML config files to shorten the route from finding your project to initialising it in your local environment. by [@shiwaforce](https://github.com/shiwaforce)
--   [reg](https://github.com/genuinetools/reg) - Docker registry v2 command line client by [@genuinetools][genuinetools]
+-   [reg](https://github.com/genuinetools/reg) - :skull: Docker registry v2 command line client by [@genuinetools][genuinetools]
 -   [scuba](https://github.com/JonathonReinhart/scuba) - Transparently use Docker containers to encapsulate software build environments, by [@JonathonReinhart](https://github.com/JonathonReinhart)
 -   [skopeo](https://github.com/containers/skopeo) - Work with remote images registries - retrieving information, images, signing content by [@containers][containers]
 -   [supdock](https://github.com/segersniels/supdock) - Allows for slightly more visual usage of Docker with an interactive prompt. By [@segersniels](https://github.com/segersniels)
 -   [tsaotun](https://github.com/qazbnm456/tsaotun) - Python based Assistance for Docker by [@qazbnm456](https://github.com/qazbnm456)
--   [wharfee](https://github.com/j-bennet/wharfee) - Autocompletion and syntax highlighting for Docker commands. by [@j-bennet](https://github.com/j-bennet)
+-   [wharfee](https://github.com/j-bennet/wharfee) - :skull: Autocompletion and syntax highlighting for Docker commands. by [@j-bennet](https://github.com/j-bennet)
 
 ##### Other
 
