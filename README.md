@@ -788,6 +788,7 @@ Services to securely store your Docker images.
 -   [Ten Docker Image Security Best Practices Cheat Sheet](https://snyk.io/blog/10-docker-image-security-best-practices/)
 -   [Top ten most popular docker images each contain at least 30 vulnerabilities](https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities/)
 -   [Tuning Docker with the newest security enhancements](https://opensource.com/business/15/3/docker-security-tuning)
+-   [10 best practices to containerize Node.js web applications with Docker](https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/)
 
 ## Videos
 
