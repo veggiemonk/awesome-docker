@@ -731,9 +731,9 @@ Services to securely store your Docker images.
 -   [Become a Docker Power User with Visual Studio Code](https://www.thebyte.io/become-docker-power-user-with-vs-code) - :heavy_dollar_sign: A training course to help you become a Docker Power user with Visual Studio Code
 -   [Cloud Native Landscape](https://github.com/cncf/landscape)
 -   [Discover Docker courses](https://bestcourses.io/results?q=docker&size=n_20_n) - Easily discover Docker courses from various popular online learning platforms.
--   [Docker Certification](https://intellipaat.com/docker-training-course/) :heavy_dollar_sign: will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.
+-   [Docker Certification](https://intellipaat.com/docker-training-course/?US) :heavy_dollar_sign: will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.
 -   [Docker Community on Hashnode](https://hashnode.com/n/docker)
--   [Docker dev bookmarks](https://www.codever.land/search?q=docker) - use the tag [docker](https://www.codever.land/bookmarks/t/docker)
+-   [Docker dev bookmarks](https://www.codever.dev/search?q=docker) - use the tag [docker](https://www.codever.dev/bookmarks/t/docker)
 -   [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
 -   [Docker in Practice, Second Edition](https://www.manning.com/books/docker-in-practice-second-edition)
 -   [Docker Newsletter](https://www.docker.com/newsletter-subscription/) Docker newsletter for regular updates
