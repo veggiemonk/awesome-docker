@@ -879,6 +879,7 @@ Services to securely store your Docker images.
 [nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://www.okd.io
 [oracle]: https://github.com/oracle
+[powerman]: https://github.com/powerman
 [progrium]: https://github.com/progrium
 [ramitsurana]: https://github.com/ramitsurana
 [rancher]: https://github.com/rancher
