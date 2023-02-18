@@ -448,7 +448,7 @@ Tools and applications that are either installed inside containers or designed t
 -   [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system, by [@GoogleContainerTools][googlecontainertools]
 -   [docker-alpine](https://github.com/gliderlabs/docker-alpine) - A super small Docker base image _(5MB)_ using Alpine Linux by [@gliderlabs][gliderlabs]
 -   [docker-gen](https://github.com/jwilder/docker-gen) - Generate files from docker container meta-data by [@jwilder][jwilder]
--   [dockerize](https://github.com/jwilder/dockerize) - Utility to simplify running applications in docker containers by [@jwilder][jwilder]
+-   [dockerize](https://github.com/powerman/dockerize) - Utility to simplify running applications in docker containers by [@jwilder][jwilder], [@powerman][powerman]
 -   [GoSu](https://github.com/tianon/gosu) - Run this specific application as this specific user and get out of the pipeline (entrypoint script tool) by [@tianon](https://github.com/tianon)
 -   [is-docker](https://github.com/sindresorhus/is-docker) - Check if the process is running inside a Docker container by [@sindresorhus][sindresorhus]
 -   [lstags](https://github.com/ivanilves/lstags) - sync Docker images across registries by [@ivanilves](https://github.com/ivanilves)
@@ -879,6 +879,7 @@ Services to securely store your Docker images.
 [nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://www.okd.io
 [oracle]: https://github.com/oracle
+[powerman]: https://github.com/powerman
 [progrium]: https://github.com/progrium
 [ramitsurana]: https://github.com/ramitsurana
 [rancher]: https://github.com/rancher
