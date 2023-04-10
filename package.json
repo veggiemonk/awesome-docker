@@ -23,7 +23,7 @@
     "draftlog": "1.0.13",
     "fs-extra": "11.1.1",
     "node-fetch": "3.3.1",
-    "rimraf": "4.4.1",
+    "rimraf": "5.0.0",
     "showdown": "^2.1.0"
   }
 }
