@@ -235,6 +235,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 
 ### Orchestration
 
+-   [Ansible Linux Docker](https://github.com/Peco602/ansible-linux-docker) - Run Ansible from a Linux container. By [@Peco602][peco602]
 -   [athena](https://github.com/athena-oss/athena) - An automation platform with a plugin architecture that allows you to easily create and share services.
 -   [blimp](https://github.com/tubesandlube/blimp) :skull: - Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more by [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
 -   [CloudSlang](https://github.com/CloudSlang/cloud-slang) - CloudSlang is a workflow engine to create Docker process automation
@@ -314,6 +315,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [docker-bench-security](https://github.com/docker/docker-bench-security) - script that checks for dozens of common best-practices around deploying Docker containers in production. By [@docker][docker]
 -   [docker-explorer](https://github.com/google/docker-explorer) - A tool to help forensicate offline docker acquisitions by [@Google][google]
 -   [docker-lock](https://github.com/safe-waters/docker-lock) - A cli-plugin for docker to automatically manage image digests by tracking them in a separate Lockfile. By [@safe-waters][safe-waters]
+-   [dvwassl](https://github.com/Peco602/dvwassl) - SSL-enabled Damn Vulnerable Web App to test Web Application Firewalls. By [@Peco602][peco602]
 -   [KICS](https://github.com/checkmarx/kics) - an infrastructure-as-code scanning tool, find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle. Can be extended for additional policies. By [Checkmarx](https://github.com/Checkmarx)
 -   [notary](https://github.com/theupdateframework/notary) - a server and a client for running and interacting with trusted collections. By [@TUF](https://github.com/theupdateframework)
 -   [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By [OpenSCAP](https://github.com/OpenSCAP)
@@ -638,6 +640,7 @@ Services to securely store your Docker images.
 -   [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
 -   [Kitt](https://github.com/senges/kitt) - A portable and disposable Shell environment, based on Docker and Nix. By [@senges](https://github.com/senges)
 -   [Lando](https://github.com/lando/lando) - Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects. By [Tandem](https://thinktandem.io/)
+-   [Rust Universal Compiler](https://github.com/Peco602/rust-universal-compiler) - Container solution to compile Rust projects for Linux, macOS and Windows. By [@Peco602][peco602]
 -   [Vagga](https://github.com/tailhook/vagga) - Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments by [@tailhook](https://github.com/tailhook/)
 -   [Zsh-in-Docker](https://github.com/deluan/zsh-in-docker) - Install Zsh, Oh-My-Zsh and plugins inside a Docker container with one line! By [Deluan](https://www.deluan.com)
 
@@ -883,6 +886,7 @@ Services to securely store your Docker images.
 [nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://www.okd.io
 [oracle]: https://github.com/oracle
+[peco602]: https://github.com/Peco602
 [powerman]: https://github.com/powerman
 [progrium]: https://github.com/progrium
 [ramitsurana]: https://github.com/ramitsurana
