@@ -445,7 +445,6 @@ Native desktop applications for managing and montoring docker hosts and clusters
 Tools and applications that are either installed inside containers or designed to be run as a [sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)
 
 -   [amicontained](https://github.com/genuinetools/amicontained) - Container introspection tool. Find out what container runtime is being used as well as features available by [@genuinetools][genuinetools]
--   [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic](https://github.com/prologic)
 -   [Chaperone](https://github.com/garywiz/chaperone) - A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package. by [@garywiz](https://github.com/garywiz)
 -   [ckron](https://github.com/nicomt/ckron) - A cron-style job scheduler for docker, by [@nicomt](https://github.com/nicomt)
 -   [CoreOS][coreos] - Linux for Massive Server Deployments
@@ -788,7 +787,6 @@ Services to securely store your Docker images.
 -   [CVE Scanning Alpine images with Multi-stage builds in Docker 17.05](https://github.com/tomwillfixit/alpine-cvecheck) by [@tomwillfixit](https://twitter.com/tomwillfixit)
 -   [Docker Secure Deployment Guidelines](https://github.com/AonCyberLabs/Docker-Secure-Deployment-Guidelines)
 -   [Docker Security - Quick Reference](https://binarymist.io/publication/docker-security/)
--   [Docker Security Cheat Sheet](https://github.com/konstruktoid/Docker/blob/master/Security/CheatSheet.adoc)
 -   [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](https://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
 -   [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
 -   [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
@@ -826,7 +824,6 @@ Services to securely store your Docker images.
 
 ## Brazilian
 
--   [Docker BR on Slack](http://docker-br.herokuapp.com) - Auto invite url
 -   [Docker BR on Telegram](https://telegram.me/dockerbr)
 
 ## Chinese
