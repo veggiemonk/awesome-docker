@@ -509,6 +509,7 @@ Applications designed to help or simplify building **new** images
 
 Examples by:
 
+-   [@0xy](https://gitlab.com/0xy/dockerfiles)
 -   [@arun-gupta](https://github.com/arun-gupta/docker-images)
 -   [@awesome-startup](https://github.com/awesome-startup/docker-compose)
 -   [@crosbymichael](https://github.com/crosbymichael/Dockerfiles)
@@ -516,7 +517,6 @@ Examples by:
 -   [@komljen](https://github.com/komljen/dockerfile-examples)
 -   [@kstaken](https://github.com/kstaken/dockerfile-examples)
 -   [@ondrejmo](https://github.com/ondrejmo/Dockerfiles)
--   [@pandrew](https://gitlab.com/pandrew/dockerfiles)
 -   [@vimagick](https://github.com/vimagick/dockerfiles)
 
 ### Linter
@@ -540,7 +540,7 @@ Services to securely store your Docker images.
 -   [Azure Container Registry :heavy_dollar_sign:](https://azure.microsoft.com/en-us/products/container-registry/#overview) - Manage a Docker private registry as a first-class Azure resource
 -   [CargoOS](https://github.com/RedCoolBeans/cargos-buildroot) - A bare essential OS for running the Docker Engine on bare metal or Cloud. By [@RedCoolBeans](https://github.com/RedCoolBeans)
 -   [cleanreg](https://github.com/hcguersoy/cleanreg) - A small tool to delete image manifests from a Docker Registry implementing the API v2, dereferencing them for the GC by [@hcguersoy](https://github.com/hcguersoy)
--   [Cloudsmith :heavy_dollar_sign:](https://cloudsmith.com/docker-registry/) - A fully managed package management SaaS, with first-class support for public and private Docker registries (and many others, incl. Helm charts for the Kubernetes ecosystem). Has a generous free-tier and is also completely free for open-source.
+-   [Cloudsmith :heavy_dollar_sign:](https://cloudsmith.com/product/formats/docker-registry) - A fully managed package management SaaS, with first-class support for public and private Docker registries (and many others, incl. Helm charts for the Kubernetes ecosystem). Has a generous free-tier and is also completely free for open-source.
 -   [Container Registry Service :heavy_dollar_sign:](https://container-registry.com/) - Harbor based Container Management Solution as a Service for teams and organizations. Free tier offers 1 GB storage for private repositories.
 -   [Cycle.io :heavy_dollar_sign:](https://cycle.io/) - Bare-metal container hosting.
 -   [DigitalOcean :heavy_dollar_sign:](https://www.digitalocean.com/products/container-registry) - DigitalOcean Container Registry.
@@ -548,7 +548,7 @@ Services to securely store your Docker images.
 -   [Docker Registry v2][distribution] - The Docker toolset to pack, ship, store, and deliver content
 -   [Docket](https://github.com/netvarun/docket) - Custom docker registry that allows for lightning fast deploys through bittorrent by [@netvarun](https://github.com/netvarun/)
 -   [Dragonfly](https://github.com/dragonflyoss/Dragonfly2) - Provide efficient, stable and secure file distribution and image acceleration based on p2p technology.
--   [GCE Container Registry :heavy_dollar_sign:](https://cloud.google.com/container-registry/) Fast, private Docker image storage on Google Cloud Platform
+-   [GCE Container Registry :heavy_dollar_sign:](https://cloud.google.com/artifact-registry) Fast, private Docker image storage on Google Cloud Platform
 -   [GitLab Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/) - Registry focused on using its images in GitLab CI
 -   [Harbor](https://github.com/goharbor/harbor) An open source trusted cloud native registry project that stores, signs, and scans content. Supports replication, user management, access control and activity auditing. By [CNCF](https://www.cncf.io) formerly [VMWare][vmware]
 -   [JFrog Artifactory :heavy_dollar_sign:](https://jfrog.com/artifactory/) - Artifact Repository Manager, can be used as private Docker Registry as well
@@ -557,7 +557,7 @@ Services to securely store your Docker images.
 -   [Quay.io :heavy_dollar_sign:](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 -   [Registryo](https://github.com/inmagik/registryo) - UI and token based authentication server for onpremise docker registry
 -   [Rescoyl](https://github.com/noteed/rescoyl) - Private Docker registry (free and open source) by [@noteed](https://github.com/noteed)
--   [Sonatype Nexus Repository](https://www.sonatype.com/products/nexus-repository) - Manage binaries and build artifacts across your software supply chain.
+-   [Sonatype Nexus Repository](https://www.sonatype.com/products/sonatype-nexus-repository) - Manage binaries and build artifacts across your software supply chain.
 -   [TreeScale](https://github.com/treescale) - Build and Distribute container based applications. By [@tigranbs](https://github.com/tigranbs)
 
 ## Development with Docker
@@ -671,7 +671,7 @@ Services to securely store your Docker images.
 -   [dgoss](https://github.com/aelsabbahy/goss/tree/master/extras/dgoss) - A fast YAML based tool for validating docker containers.
 -   [DockerSpec](https://github.com/zuazo/dockerspec) - A small Ruby Gem to run RSpec and Serverspec, Infrataster and Capybara tests against Dockerfiles or Docker images easily. By [@zuazo](https://github.com/zuazo)
 -   [Dockunit](https://github.com/dockunit/platform) :skull: - Docker based integration tests. A simple Node based utility for running Docker based unit tests. By [@dockunit](https://github.com/dockunit)
--   [EZDC](https://github.com/lynchborg/ezdc) - Golang test harness for easily setting up tests that rely on services in a docker-compose.yml. By [@byrnedo](https://github.com/byrnedo)
+-   [EZDC](https://github.com/lynchborg/ezdc) - Golang test harness for easily setting up tests that rely on services in a docker-compose.yml. By [@byrnedo]
 -   [InSpec][inspec] - InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements. By [@chef](https://github.com/chef)
 -   [Kurtosis](https://github.com/kurtosis-tech/kurtosis) - A composable build system for multi-container test environments that provides developers with: a powerful Python-like SDK for environment configuration, a compile-time validator to verify environment behavior & setup, and a runtime for environment execution, monitoring, & debugging capabilities. By [Kurtosis](https://www.kurtosis.com/)
 -   [Pull Dog](https://github.com/apps/pull-dog) - A GitHub app that automatically creates Docker-based test environments for your pull requests, from your docker-compose files. Not open source.
