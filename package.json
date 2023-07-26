@@ -22,7 +22,7 @@
     "cheerio": "1.0.0-rc.12",
     "draftlog": "1.0.13",
     "fs-extra": "11.1.1",
-    "node-fetch": "3.3.1",
+    "node-fetch": "3.3.2",
     "rimraf": "5.0.1",
     "showdown": "^2.1.0"
   }
