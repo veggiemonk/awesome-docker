@@ -559,7 +559,7 @@ Services to securely store your Docker images.
 -   [Registryo](https://github.com/inmagik/registryo) - UI and token based authentication server for onpremise docker registry
 -   [Rescoyl](https://github.com/noteed/rescoyl) - Private Docker registry (free and open source) by [@noteed](https://github.com/noteed)
 -   [Sonatype Nexus Repository](https://www.sonatype.com/products/sonatype-nexus-repository) - Manage binaries and build artifacts across your software supply chain.
--   [TreeScale](https://github.com/treescale) - Build and Distribute container based applications. By [@tigranbs](https://github.com/tigranbs)
+-   [Alin.io](https://alin.io) - Build and Distribute container based applications. By [@tigranbs](https://github.com/tigranbs)
 
 ## Development with Docker
 
