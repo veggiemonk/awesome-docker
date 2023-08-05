@@ -537,6 +537,7 @@ Examples by:
 
 Services to securely store your Docker images.
 
+-   [Alin.io](https://alin.io) - Build and Distribute container based applications. By [@tigranbs](https://github.com/tigranbs)
 -   [Amazon Elastic Container Registry :heavy_dollar_sign:](https://aws.amazon.com/ecr/) - Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
 -   [Azure Container Registry :heavy_dollar_sign:](https://azure.microsoft.com/en-us/products/container-registry/#overview) - Manage a Docker private registry as a first-class Azure resource
 -   [CargoOS](https://github.com/RedCoolBeans/cargos-buildroot) - A bare essential OS for running the Docker Engine on bare metal or Cloud. By [@RedCoolBeans](https://github.com/RedCoolBeans)
@@ -559,7 +560,6 @@ Services to securely store your Docker images.
 -   [Registryo](https://github.com/inmagik/registryo) - UI and token based authentication server for onpremise docker registry
 -   [Rescoyl](https://github.com/noteed/rescoyl) - Private Docker registry (free and open source) by [@noteed](https://github.com/noteed)
 -   [Sonatype Nexus Repository](https://www.sonatype.com/products/sonatype-nexus-repository) - Manage binaries and build artifacts across your software supply chain.
--   [TreeScale](https://github.com/treescale) - Build and Distribute container based applications. By [@tigranbs](https://github.com/tigranbs)
 
 ## Development with Docker
 
