@@ -595,7 +595,6 @@ Services to securely store your Docker images.
 -   [Depot :heavy_dollar_sign:](https://depot.dev) - Build Docker images fast, in the cloud. Blazing fast compute, automatic intelligent caching, and zero configuration. [Done in seconds](https://depot.dev/#benchmarks).
 -   [Diun](https://github.com/crazy-max/diun) - Receive notifications when an image or repository is updated on a Docker registry by [@crazy-max].
 -   [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
--   [Dockupdater](https://github.com/dockupdater/dockupdater) - Automatically keep your docker services and your docker containers up-to-date
 -   [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
 -   [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner) - GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners.
 -   [GOCD-Docker](https://github.com/gocd/gocd-docker) :skull: - Go Server and Agent in docker containers to provision.
