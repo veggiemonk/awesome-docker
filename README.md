@@ -805,7 +805,7 @@ Services to securely store your Docker images.
 -   [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](https://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
 -   [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
 -   [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
--   [Security Best Practices for Building Docker Images](https://linux-audit.com/tag/docker/)
+-   [Security Best Practices for Building Docker Images](https://linux-audit.com/tags/docker/)
 -   [Software Engineering Radio interview of Docker Security Team Lead (Diogo Mónica)](https://www.se-radio.net/2017/05/se-radio-episode-290-diogo-monica-on-docker-security/)
 -   [Ten Docker Image Security Best Practices Cheat Sheet](https://snyk.io/blog/10-docker-image-security-best-practices/)
 -   [Top ten most popular docker images each contain at least 30 vulnerabilities](https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities/)
