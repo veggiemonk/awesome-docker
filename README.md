@@ -806,7 +806,7 @@ Services to securely store your Docker images.
 -   [CVE Scanning Alpine images with Multi-stage builds in Docker 17.05](https://github.com/tomwillfixit/alpine-cvecheck) by [@tomwillfixit](https://twitter.com/tomwillfixit)
 -   [Docker Secure Deployment Guidelines](https://github.com/AonCyberLabs/Docker-Secure-Deployment-Guidelines)
 -   [Docker Security - Quick Reference](https://binarymist.io/publication/docker-security/)
--   [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](https://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
+-   [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](https://www.slideshare.net/slideshow/docker-security-are-your-containers-tightly-secured-to-the-ship/43834790)
 -   [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
 -   [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
 -   [Security Best Practices for Building Docker Images](https://linux-audit.com/tags/docker/)
