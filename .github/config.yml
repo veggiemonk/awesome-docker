@@ -16,6 +16,6 @@ newPRWelcomeComment: >
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-  Congrats on merging your first pull request! Checkout the twitter account (https://twitter.com/awesome_docker) to see your PR :D
+  Congrats on merging your first pull request!
 
 # It is recommend to include as many gifs and emojis as possible
