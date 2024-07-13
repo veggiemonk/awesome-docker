@@ -7,8 +7,6 @@ It contains a lot of tips and guidelines to help keep things organized.
 Just click [README.md][editreadme] to submit a [pull request][editreadme].
 If this list is not complete, you can [contribute][editreadme] to make it so. Here is a great video tutorial to learn how to [contribute on Github](https://egghead.io/lessons/javascript-identifying-how-to-contribute-to-an-open-source-project-on-github).
 
-**_You can see the updates on [TWITTER](https://twitter.com/awesome_docker)_**
-
 > **Please**, help organize these resources so that they are _easy to find_ and _understand_ for newcomers. See how to **[Contribute][contributing]** for tips!
 
 **_If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request][editreadme] to improve this file. Thank you!_**
