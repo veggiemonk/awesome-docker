@@ -101,6 +101,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [Docker Documentation](https://docs.docker.com/): the official documentation.
 -   [Docker for beginners](https://github.com/groda/big_data/blob/master/docker_for_beginners.md): A tutorial for beginners who need to learn the basics of Docker—from "Hello world!" to basic interactions with containers, with simple explanations of the underlying concepts.
 -   [Docker for novices](https://www.youtube.com/watch?v=xsjSadjKXns) An introduction to Docker for developers and testers who have never used it. (Video 1h40, recorded linux.conf.au 2019 — Christchurch, New Zealand) by Alex Clews.
+-   [Docker Hands-on Labs](https://labex.io/skilltrees/docker) A structured Docker skill tree with 100 beginner-friendly hands-on labs by LabEx.
 -   [Docker katas](https://github.com/eficode-academy/docker-katas) A series of labs that will take you from "Hello Docker" to deploying a containerized web application to a server.
 -  [Docker Latest Tutorial](https://www.techgeekbuzz.com/tutorial/docker/what-is-docker/) — This is a series of latest docker tutorial, where you can learn what is docker, docker lifecycle, how to run Nginx Web Server in Docker?, how to run mysql on docker container, how to use Python on doceker and many other important topics.
 -   [Docker simplified in 55 seconds](https://www.youtube.com/watch?v=vP_4DlOH1G4): An animated high-level introduction to Docker. Think of it as a visual tl;dr that makes it easier to dive into more complex learning materials.
