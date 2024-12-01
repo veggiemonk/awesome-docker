@@ -883,7 +883,7 @@ Services to securely store your Docker images.
 [deepfence]: https://github.com/deepfence
 [distribution]: https://github.com/docker/distribution
 [docker-flow]: https://github.com/docker-flow
-[docker-for-windows]: https://docs.docker.com/desktop/install/windows-install/
+[docker-for-windows]: https://docs.docker.com/desktop/setup/install/windows-install/
 [docker]: https://github.com/docker
 [editreadme]: https://github.com/veggiemonk/awesome-docker/edit/master/README.md
 [fgrehm]: https://github.com/fgrehm
