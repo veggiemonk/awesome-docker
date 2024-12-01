@@ -77,7 +77,6 @@ All the links are monitored and tested with a home baked [Node.js script](https:
   - [Russian](#russian)
   - [Spanish](#spanish)
   - [Stargazers over time](#stargazers-over-time)
-  - [Contributor over time](#contributor-over-time)
 
 <!-- /TOC -->
 
@@ -870,8 +869,6 @@ Services to securely store your Docker images.
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/veggiemonk/awesome-docker.svg)](https://starchart.cc/veggiemonk/awesome-docker)
-
-## Contributor over time
 
 [contributing]: https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md
 [akito]: https://github.com/theAkito
