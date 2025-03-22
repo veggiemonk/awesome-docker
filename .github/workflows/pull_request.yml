@@ -11,12 +11,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@4.2.2
-      - uses: actions/setup-node@4.3.0
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-node@v4.3.0
         with:
           node-version: lts/*
 
-      - uses: actions/cache@4.2.3
+      - uses: actions/cache@v4.2.3
         id: cache
         with:
           path: ~/.npm
