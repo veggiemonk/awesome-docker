@@ -428,7 +428,7 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 
 #### Web
 
--   [Admiral](https://github.com/vmware/admiral) Admiral™ is a highly scalable and very lightweight Container Management platform for deploying and managing container based applications. By [VMWare][vmware]
+-   [Admiral](https://github.com/vmware/admiral) :skull: Admiral™ is a highly scalable and very lightweight Container Management platform for deploying and managing container based applications. By [VMWare][vmware]
 -   [CASA](https://github.com/knrdl/casa) - Outsource the administration of a handful of containers to your co-workers, by [@knrdl](https://github.com/knrdl)
 -   [Container Web TTY](https://github.com/wrfly/container-web-tty) - Connect your containers via a web-tty [@wrfly](https://github.com/wrfly)
 -   [dockemon](https://github.com/ProductiveOps/dokemon) - Docker Container Management GUI by [@productiveops](https://github.com/ProductiveOps)
