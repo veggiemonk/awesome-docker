@@ -197,6 +197,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [swarm-ansible](https://github.com/LombardiDaniel/swarm-ansible?tab=readme-ov-file) - Swarm-Ansible bootstraps a production-ready swarm cluster using ansible. Comes with tools to automate CI, help monitoring and traefik pre-configured for SSL certificates and simple-auth. Comes with a private registry and more!
 -   [SwarmManagement](https://github.com/hansehe/SwarmManagement) - Swarm Management is a python application, installed with pip. The application makes it easy to manage a Docker Swarm by configuring a single yaml file describing which stacks to deploy, and which networks, configs or secrets to create.
 -   [werf](https://github.com/werf/werf) - werf is a CI/CD tool for building Docker images efficiently and deploying them to Kubernetes using GitOps by [@flant](https://github.com/flant)
+-   [docker-to-iac](https://github.com/deploystackio/docker-to-iac) - Docker run and commit ([docs](https://deploystack.io/docs/docker-to-iac)) to Infrastructure as Code templates translation for AWS, Render.com and DigitalOcean.
 
 ### Monitoring
 
