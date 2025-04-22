@@ -190,6 +190,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [Conduit](https://github.com/ehazlett/conduit) - Experimental deployment system for Docker by [@ehazlett](https://github.com/ehazlett)
 -   [depcon](https://github.com/ContainX/depcon) - Depcon is written in Go and allows you to easily deploy Docker containers to Apache Mesos/Marathon, Amazon ECS and Kubernetes. By [@ContainX][containx]
 -   [deploy](https://github.com/ttiny/deploy) :skull: - Git and Docker deployment tool. A middle ground between simple Docker composition tools and full blown cluster orchestration by [@ttiny](https://github.com/ttiny)
+-   [docker-to-iac](https://github.com/deploystackio/docker-to-iac) - Docker run and commit ([docs](https://deploystack.io/docs/docker-to-iac)) to Infrastructure as Code templates translation for AWS, Render.com and DigitalOcean.
 -   [dockit](https://github.com/humblec/dockit) :skull: - Do docker actions and Deploy gluster containers! By [@humblec](https://github.com/humblec)
 -   [gitkube](https://github.com/hasura/gitkube) - Gitkube is a tool for building and deploying docker images on Kubernetes using `git push`. By [@Hasura](https://github.com/hasura/).
 -   [Grafeas](https://github.com/grafeas/grafeas) - A common API for metadata about containers, from image and build details to security vulnerabilities. By [grafeas](https://github.com/grafeas)
@@ -197,7 +198,6 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [swarm-ansible](https://github.com/LombardiDaniel/swarm-ansible?tab=readme-ov-file) - Swarm-Ansible bootstraps a production-ready swarm cluster using ansible. Comes with tools to automate CI, help monitoring and traefik pre-configured for SSL certificates and simple-auth. Comes with a private registry and more!
 -   [SwarmManagement](https://github.com/hansehe/SwarmManagement) - Swarm Management is a python application, installed with pip. The application makes it easy to manage a Docker Swarm by configuring a single yaml file describing which stacks to deploy, and which networks, configs or secrets to create.
 -   [werf](https://github.com/werf/werf) - werf is a CI/CD tool for building Docker images efficiently and deploying them to Kubernetes using GitOps by [@flant](https://github.com/flant)
--   [docker-to-iac](https://github.com/deploystackio/docker-to-iac) - Docker run and commit ([docs](https://deploystack.io/docs/docker-to-iac)) to Infrastructure as Code templates translation for AWS, Render.com and DigitalOcean.
 
 ### Monitoring
 
