@@ -348,6 +348,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [Convoy](https://github.com/rancher/convoy) :skull: - an open-source Docker volume driver that can snapshot, backup and restore Docker volumes anywhere. By [@rancher][rancher]
 -   [Docker Machine NFS](https://github.com/adlogix/docker-machine-nfs) :skull: - Activates NFS for an existing boot2docker box created through Docker Machine on OS X.
 -   [Docker Unison](https://github.com/leighmcculloch/docker-unison) - :skull: A docker volume container using Unison for fast two-way folder sync. Created as an alternative to slow boot2docker volumes on OS X. By [@leighmcculloch](https://github.com/leighmcculloch)
+-   - [Label Backup](https://github.com/resulgg/label-backup) - A lightweight, Docker-aware backup agent that automatically discovers and backs up containerized databases (PostgreSQL, MySQL, MongoDB, Redis) based on Docker labels. Supports local storage and S3-compatible destinations with flexible scheduling via cron expressions.
 -   [Docker Volume Backup](https://github.com/offen/docker-volume-backup) Backup Docker volumes locally or to any S3 compatible storage. By [@offen](https://github.com/offen)
 -   [Local Persist](https://github.com/MatchbookLab/local-persist) Specify a mountpoint for your local volumes (created via `docker volume create`) so that files will always persist and so you can mount to different directories in different containers.
 -   [Minio](https://github.com/minio/minio) - S3 compatible object storage server in Docker containers
