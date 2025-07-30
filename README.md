@@ -309,6 +309,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 
 ### Security
 
+- [docker-scanner](https://github.com/jaberansariali/docker-scanner) - Multi-engine vulnerability scanner and orchestrator for Docker and container images (Python-based; integrates Trivy, Snyk, Grype, Syft, Docker Scout).
 -   [Anchor](https://github.com/SongStitch/anchor/) - A tool to ensure reproducible builds by pinning dependencies inside your Dockerfiles [@SongStitch](https://github.com/songStitch/)
 -   [Anchor Enterprise](https://anchore.com/) :heavy_dollar_sign: - Analyze images for CVE vulnerabilities and against custom security policies by [@Anchor](https://github.com/anchore)
 -   [Aqua Security](https://www.aquasec.com) :heavy_dollar_sign: - Securing container-based applications from Dev to Production on any platform
