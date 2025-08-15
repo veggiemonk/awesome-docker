@@ -744,6 +744,7 @@ Services to securely store your Docker images.
 -   [Giant Swarm](https://www.giantswarm.io/) :heavy_dollar_sign: - Simple microservice infrastructure. Deploy your containers in seconds.
 -   [Google Container Engine](https://cloud.google.com/kubernetes-engine/docs/) :heavy_dollar_sign: - Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 -   [Mesosphere DC/OS Platform](https://d2iq.com/products/dcos) :heavy_dollar_sign: - Integrated platform for data and containers built on Apache Mesos by [@mesosphere](https://d2iq.com)
+-   [Phala Cloud](https://cloud.phala.network) :heavy_dollar_sign: - Serverless container deployment with confidential computing and familiar Docker Compose workflow. Deploy containers with hardware-enforced security and privacy.
 -   [Red Hat CodeReady Workspaces](https://developers.redhat.com/products/openshift-dev-spaces/overview) - A collaborative Kubernetes-native solution for rapid application development that delivers consistent developer environments on Red Hat OpenShift to allow anyone with a browser to contribute code in under two minutes.
 -   [Red Hat OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated) :heavy_dollar_sign: - Fully-managed Red Hat® OpenShift® service on Amazon Web Services and Google Cloud
 -   [Triton](https://www.joyent.com/) :heavy_dollar_sign: - Elastic container-native infrastructure by Joyent.
