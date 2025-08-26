@@ -578,6 +578,7 @@ Services to securely store your Docker images.
 -   [Kraken](https://github.com/uber/kraken) - Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds.
 -   [Quay.io :heavy_dollar_sign:](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
 -   [Registryo](https://github.com/inmagik/registryo) - UI and token based authentication server for onpremise docker registry
+-   [RepoFlow](https://www.repoflow.io) - A simple and easy-to-use package management platform with Docker support alongside other formats like PyPI, Maven, npm, and Helm. Includes smart search, built-in Docker image scanning, and a great free option for both self-hosted and cloud use.
 -   [Rescoyl](https://github.com/noteed/rescoyl) - Private Docker registry (free and open source) by [@noteed](https://github.com/noteed)
 -   [Sonatype Nexus Repository](https://www.sonatype.com/products/sonatype-nexus-repository) - Manage binaries and build artifacts across your software supply chain.
 
