@@ -337,7 +337,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 ### Service Discovery
 
 -   [docker-consul](https://github.com/gliderlabs/docker-consul) by [@progrium][progrium]
--   [docker-dns](https://github.com/bytesharky/docker-dns) - Lightweight DNS forwarder for Docker containers, resolves container names with custom suffixes (e.g. `.docker`) on the host to simplify service discovery.
+-   [docker-dns](https://github.com/bytesharky/docker-dns) - Lightweight DNS forwarder for Docker containers, resolves container names with custom suffixes (e.g. `.docker`) on the host to simplify service discovery by [@bytesharky](https://github.com/bytesharky)
 -   [etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system by [@etcd-io](https://github.com/etcd-io) (former part of CoreOS)
 -   [istio](https://github.com/istio/istio) - An open platform to connect, manage, and secure microservices by [@istio](https://github.com/istio)
 -   [proxy](https://github.com/factorish/proxy) :skull: - lightweight nginx based load balancer self using service discovery provided by registrator. by [@factorish](https://github.com/factorish)
