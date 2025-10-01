@@ -39,7 +39,7 @@ const generate_GQL_query = (arr) =>
                 `repo_${owner.replace(/(-|\.)/g, '_')}_${name.replace(
                     /(-|\.)/g,
                     '_',
-                )}: repository(owner: "${owner}", name:"${name}"){ nameWithOwner } `,
+                )}: repository(owner: "${owner}", name:"${name}"){ nameWithOwner isArchived } `,
         )
         .join('')} }`;
 
@@ -93,6 +93,22 @@ async function main() {
     if (gql_response.errors) {
         has_error.show = true;
         has_error.github_repos = gql_response.errors;
+    }
+
+    // Check for archived repositories
+    console.log('checking for archived repositories...');
+    const archived_repos = [];
+    if (gql_response.data) {
+        for (const [key, repo] of Object.entries(gql_response.data)) {
+            if (repo && repo.isArchived) {
+                archived_repos.push(repo.nameWithOwner);
+            }
+        }
+    }
+    if (archived_repos.length > 0) {
+        console.warn(`⚠️  Found ${archived_repos.length} archived repositories that should be marked with :skull:`);
+        console.warn('Archived repos:', archived_repos);
+        // Don't fail the build, just warn
     }
 
     console.log({

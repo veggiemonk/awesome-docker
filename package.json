@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rimraf ./dist/ && node build.js",
     "test-pr": "node tests/pull_request.mjs",
-    "test": "node tests/test_all.mjs"
+    "test": "node tests/test_all.mjs",
+    "health-check": "node tests/health_check.mjs"
   },
   "repository": {
     "type": "git",

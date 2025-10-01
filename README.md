@@ -100,11 +100,11 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [Docker Documentation](https://docs.docker.com/): the official documentation.
 -   [Docker for beginners](https://github.com/groda/big_data/blob/master/docker_for_beginners.md): A tutorial for beginners who need to learn the basics of Docker—from "Hello world!" to basic interactions with containers, with simple explanations of the underlying concepts.
 -   [Docker for novices](https://www.youtube.com/watch?v=xsjSadjKXns) An introduction to Docker for developers and testers who have never used it. (Video 1h40, recorded linux.conf.au 2019 — Christchurch, New Zealand) by Alex Clews.
--   [Docker Hands-on Labs](https://labex.io/learn/docker) A structured Docker skill tree with 100 beginner-friendly hands-on labs by LabEx.
+
 -   [Docker katas](https://github.com/eficode-academy/docker-katas) A series of labs that will take you from "Hello Docker" to deploying a containerized web application to a server.
 -   [Docker simplified in 55 seconds](https://www.youtube.com/watch?v=vP_4DlOH1G4): An animated high-level introduction to Docker. Think of it as a visual tl;dr that makes it easier to dive into more complex learning materials.
 -   [Docker Training](https://training.mirantis.com) :heavy_dollar_sign:
--   [Docker Tutorial for Beginners (Updated 2019 version)](https://hashnode.com/post/docker-tutorial-for-beginners-cjrj2hg5001s2ufs1nker9he2) —In this Docker tutorial, you'll learn all the basics and learn how you can containerize Node.js and Go applications. Even if you aren't familiar with these languages it should be easy for you to follow this tutorial and use any other language.
+
 -   [Introduction à Docker](https://blog.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/) A dedicated section to master Docker on a French site about DevSecOps: From the basics to best practices, including optimizing, securing your containers... 
 -   [Learn Docker](https://github.com/dwyl/learn-docker): step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 -   [Learn Docker (Visually)](https://pagertree.com/learn/docker/overview) - A beginner-focused high-level overview of all the major components of Docker and how they fit together. Lots of high-quality images, examples, and resources.
@@ -395,7 +395,7 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 -   [goManageDocker](https://github.com/ajayd-san/gomanagedocker) - TUI tool to view and manage your docker objects blazingly fast with sensible keybindings, also supports VIM navigation out of the box by [@ajay-dsan](https://github.com/ajayd-san)
 -   [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker. A simple terminal UI for both docker and docker-compose, written in Go with the gocui library. By [@jesseduffield](https://github.com/jesseduffield)
 -   [lazyjournal](https://github.com/Lifailon/lazyjournal) - A interface for reading and filtering the logs output of Docker and Podman containers like [Dozzle](dozzle) but for the terminal with support for fuzzy find, regex and output coloring
--   [oxker](https://github.com/mrjackwills/oxker) - A simple tui to view & control docker containers. Written in [Rust](https://www.rust-lang.org/), making heavy use of [ratatui](https://github.com/tui-rs-revival/ratatui) & [Bollard](https://github.com/fussybeaver/bollard), by [@mrjackwills](https://github.com/mrjackwills)
+-   [oxker](https://github.com/mrjackwills/oxker) - A simple tui to view & control docker containers. Written in [Rust](https://rust-lang.org/), making heavy use of [ratatui](https://github.com/tui-rs-revival/ratatui) & [Bollard](https://github.com/fussybeaver/bollard), by [@mrjackwills](https://github.com/mrjackwills)
 -   [sen](https://github.com/TomasTomecek/sen) - :skull: Terminal user interface for docker engine, by [@TomasTomecek][tomastomecek]
 
 ##### CLI tools
@@ -769,7 +769,7 @@ Services to securely store your Docker images.
 -   [Cloud Native Landscape](https://github.com/cncf/landscape)
 -   [Docker Blog](https://www.docker.com/blog/) - regular updates about Docker, the community and tools
 -   [Docker Certification](https://intellipaat.com/docker-training-course/?US) :heavy_dollar_sign: will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.
--   [Docker Community on Hashnode](https://hashnode.com/n/docker)
+
 -   [Docker dev bookmarks](https://www.codever.dev/search?q=docker) - use the tag [docker](https://www.codever.dev/bookmarks/t/docker)
 -   [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
 -   [Docker in Practice, Second Edition](https://www.manning.com/books/docker-in-practice-second-edition)
