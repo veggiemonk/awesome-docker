@@ -9,6 +9,8 @@ const LINKS_OPTIONS = {
     'user-agent':
       'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
   },
+  timeout: 60000, // 1m
+  signal: AbortSignal.timeout(60000),
 };
 
 const LOG = {

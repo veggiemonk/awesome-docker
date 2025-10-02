@@ -2,18 +2,16 @@
 
 <!-- **Remember that entries are ordered alphabetically** -->
 
-<!-- 
-TLDR: 
- * all entries sorted alphabetically,  
+# TLDR
+ * all entries sorted alphabetically (from A to Z),
  * If paying service add :heavy_dollar_sign:
  * If WIP add :construction: 
  * clear and short description of the project
  * project MUST have: How to setup/install
  * project MUST have: How to use (examples)
  * we can help you get there :)
--->
 
-# Quality Standards
+## Quality Standards
 
 Note that we can help you achieve those standards, just try your best and be brave.
 We'll guide you to the best of our abilities.
@@ -48,4 +46,3 @@ But usually, we are pretty relaxed people, so just come and say hi, we'll figure
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
-#### Your commit message will be a [tweet](https://twitter.com/awesome_docker) so write a [good commit message](https://chris.beams.io/posts/git-commit/), keep that in mind :)

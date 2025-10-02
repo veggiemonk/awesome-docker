@@ -1,0 +1,84 @@
+name: Weekly Health Report
+
+on:
+  schedule:
+    # Run every Monday at 9 AM UTC
+    - cron: "0 9 * * 1"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # ratchet:actions/checkout@v5.0.0
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # ratchet:actions/setup-node@v5.0.0
+        with:
+          node-version: lts/*
+
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # ratchet:actions/cache@v4.3.0
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install Dependencies
+        run: npm ci --ignore-scripts --no-audit --no-progress --prefer-offline
+
+      - name: Run Health Check
+        run: node tests/health_check.mjs
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Health Report
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # ratchet:actions/upload-artifact@v4
+        with:
+          name: health-report
+          path: HEALTH_REPORT.md
+
+      - name: Create Issue with Health Report
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # ratchet:actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+
+            // Read the health report
+            const report = fs.readFileSync('HEALTH_REPORT.md', 'utf8');
+
+            // Check if there's already an open issue
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'health-report',
+              per_page: 1
+            });
+
+            const issueBody = report + '\n\n---\n*This report is auto-generated weekly. See [health_check.mjs](https://github.com/veggiemonk/awesome-docker/blob/master/tests/health_check.mjs) for details.*';
+
+            if (issues.data.length > 0) {
+              // Update existing issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues.data[0].number,
+                body: issueBody
+              });
+              console.log(`Updated issue #${issues.data[0].number}`);
+            } else {
+              // Create new issue
+              const issue = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '🏥 Weekly Health Report - Repository Maintenance Needed',
+                body: issueBody,
+                labels: ['health-report', 'maintenance']
+              });
+              console.log(`Created issue #${issue.data.number}`);
+            }
