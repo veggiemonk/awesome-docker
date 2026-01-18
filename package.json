@@ -22,7 +22,7 @@
   "dependencies": {
     "cheerio": "1.1.2",
     "draftlog": "1.0.13",
-    "fs-extra": "11.3.2",
+    "fs-extra": "11.3.3",
     "node-fetch": "3.3.2",
     "rimraf": "6.1.2",
     "showdown": "^2.1.0"
