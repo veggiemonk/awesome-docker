@@ -385,10 +385,12 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 ##### Terminal UI
 -   [ctop (1)](https://github.com/yadutaf/ctop) - :skull: A command line / text based Linux Containers monitoring tool that works just like you expect (Python) by [@yadutaf](https://github.com/yadutaf)
 -   [ctop (2)](https://github.com/bcicen/ctop) - :skull: Top-like interface for container metrics (Golang) by [@bcicen](https://github.com/bcicen/)
+-   [d4s](https://github.com/jr-k/d4s) - A fast, keyboard-driven terminal UI to manage Docker containers, Compose stacks, and Swarm services with the ergonomics of K9s by [@jr-k](https://github.com/jr-k/)
 -   [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image. By [wagoodman](https://github.com/wagoodman).
 -   [dockdash](https://github.com/byrnedo/dockdash) detailed stats. By [@byrnedo]
 -   [Docker-mon](https://github.com/icecrime/docker-mon) :skull: - Console-based Docker monitoring by [@icecrime](https://github.com/icecrime)
 -   [dockly](https://github.com/lirantal/dockly) - An interactive shell UI for managing Docker containers by [@lirantal](https://github.com/lirantal)
+-   [DockMate](https://github.com/shubh-io/dockmate) - Lightweight terminal-based Docker and Podman manager with a text-based user interface, by [@shubh-io](https://github.com/shubh-io).
 -   [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer helps you get started with home server apps running in Docker by [GhostWriters](https://github.com/GhostWriters)
 -   [docui](https://github.com/skanehira/docui) - :skull: An interactive shell UI for managing Docker containers. Also works in Windows. By [@skanehira]
 -   [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers by [@moncho](https://github.com/moncho)
