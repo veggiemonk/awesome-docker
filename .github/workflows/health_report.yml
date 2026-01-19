@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: lts/*
 
-      - uses: actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb # ratchet:actions/cache@v5.0.1
+      - uses: actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7 # ratchet:actions/cache@v5.0.2
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
