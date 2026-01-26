@@ -106,7 +106,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [Docker Training](https://training.mirantis.com) :heavy_dollar_sign:
 -   [Dockerlings](https://github.com/furkan/dockerlings): Learn docker from inside your terminal, with a modern TUI and bite sized exercises (by [furkan](https://github.com/furkan))
 
--   [Introduction à Docker](https://blog.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/) A dedicated section to master Docker on a French site about DevSecOps: From the basics to best practices, including optimizing, securing your containers... 
+-   [Introduction à Docker](https://blog.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/) A dedicated section to master Docker on a French site about DevSecOps: From the basics to best practices, including optimizing, securing your containers...
 -   [Learn Docker](https://github.com/dwyl/learn-docker): step-by-step tutorial and more resources (video, articles, cheat sheets) by [@dwyl](https://github.com/dwyl)
 -   [Learn Docker (Visually)](https://pagertree.com/learn/docker/overview) - A beginner-focused high-level overview of all the major components of Docker and how they fit together. Lots of high-quality images, examples, and resources.
 -   [Play With Docker](https://training.play-with-docker.com/): PWD is a great way to get started with Docker from beginner to advanced users. Docker runs directly in your browser.
@@ -167,6 +167,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [elsy](https://github.com/cisco/elsy) - An opinionated, multi-language, build tool based on Docker and Docker Compose
 -   [habitus](https://github.com/cloud66-oss/habitus) - A Build Flow Tool for Docker by [@cloud66](https://github.com/cloud66)
 -   [kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes
+-   [LLM Harbor](https://github.com/av/harbor) - A CLI and companion app to effortlessly run LLM backends, APIs, frontends, and services with one command. By [@av](https://github.com/av)
 -   [Maestro](https://github.com/toscanini/maestro) :skull: - Maestro provides the ability to easily launch, orchestrate and manage multiple Docker containers as single unit by [@tascanini](https://github.com/toscanini)
 -   [percheron](https://github.com/ashmckenzie/percheron) :skull: - Organise your Docker containers with muscle and intelligence by [@ashmckenzie](https://github.com/ashmckenzie)
 -   [plash](https://github.com/ihucos/plash) - A container run and build engine - runs inside docker.
