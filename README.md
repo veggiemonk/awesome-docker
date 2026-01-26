@@ -226,6 +226,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [Zabbix Docker module](https://github.com/monitoringartist/Zabbix-Docker-Monitoring) - Zabbix module that provides discovery of running containers, CPU/memory/blk IO/net container metrics. Systemd Docker and LXC execution driver is also supported. It's a dynamically linked shared object library, so its performance is (~10x) better, than any script solution.
 - [Zabbix Docker](https://github.com/gomex/docker-zabbix) - Monitor containers automatically using zabbix LLD feature.
 
+- [What Broke Today](https://whatbroke.today) - AI-powered outage aggregator tracking 100+ cloud services with real-time Telegram alerts. Helps DevOps teams monitor third-party service dependencies.
 ### Networking
 
 -   [Calico][calico] - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other.
