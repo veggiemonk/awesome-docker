@@ -182,6 +182,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 ### Deployment and Infrastructure
 
 -   [awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 150+ open-source web apps with one Docker command
+-   [n01d-docker](https://github.com/bad-antics/n01d-docker) - Security-focused Docker Compose stack collection for homelab and pentesting. Includes monitoring, networking, and security tools with one-command deployment. By [@bad-antics](https://github.com/bad-antics)
 -   [blackfish](https://gitlab.com/blackfish/blackfish) - a CoreOS VM to build swarm clusters for Dev & Production by [@blackfish](https://gitlab.com/blackfish/)
 -   [BosnD](https://gitlab.com/n0r1sk/bosnd) - BosnD, the boatswain daemon - A dynamic configuration file writer & service reloader for dynamically changing container environments.
 -   [Centurion](https://github.com/newrelic/centurion) - Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings. By [@newrelic](https://github.com/newrelic)
