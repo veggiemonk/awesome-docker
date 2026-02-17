@@ -315,6 +315,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [Anchor Enterprise](https://anchore.com/) :heavy_dollar_sign: - Analyze images for CVE vulnerabilities and against custom security policies by [@Anchor](https://github.com/anchore)
 -   [Aqua Security](https://www.aquasec.com) :heavy_dollar_sign: - Securing container-based applications from Dev to Production on any platform
 -   [bane](https://github.com/genuinetools/bane) - AppArmor profile generator for Docker containers by [@genuinetools][genuinetools]
+-   [buildcage](https://github.com/dash14/buildcage) - Restricts outbound network access during Docker builds to prevent supply chain attacks, working as a drop-in BuildKit remote driver for Docker Buildx, with ready-to-use GitHub Actions by [@dash14](https://github.com/dash14)
 -   [CetusGuard](https://github.com/hectorm/cetusguard) - CetusGuard is a tool that protects the Docker daemon socket by filtering calls to its API endpoints
 -   [CIS Docker Benchmark](https://github.com/dev-sec/cis-docker-benchmark) - This [InSpec][inspec] compliance profile implement the CIS Docker 1.12.0 Benchmark in an automated way to provide security best-practice tests around Docker daemon and containers in a production environment. By [@dev-sec](https://github.com/dev-sec)
 -   [Checkov](https://github.com/bridgecrewio/checkov) - Static analysis for infrastructure as code manifests (Terraform, Kubernetes, Cloudformation, Helm, Dockerfile, Kustomize) find security misconfiguration and fix them. By [@bridgecrew](https://github.com/bridgecrewio)
