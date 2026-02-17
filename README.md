@@ -282,7 +282,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 
 ### Reverse Proxy
 
--   [bunkerized-nginx](https://github.com/bunkerity/bunkerized-nginx) - Web app hosting and reverse proxy secure by default. By [@bunkerity](https://github.com/bunkerity)
+-   [BunkerWeb](https://github.com/bunkerity/bunkerweb) - Open-source and next-gen Web Application Firewall (WAF). By [Bunkerity](https://www.bunkerity.com)
 -   [caddy-docker-proxy](https://github.com/lucaslorentz/caddy-docker-proxy) - Caddy-based reverse proxy, configured with service or container labels. By [@lucaslorentz](https://github.com/lucaslorentz)
 -   [caddy-docker-upstreams](https://github.com/invzhi/caddy-docker-upstreams) - Docker upstreams module for Caddy, configured with container labels. By [@invzhi](https://github.com/invzhi)
 -   [Docker Dnsmasq Updater](https://github.com/moonbuggy/docker-dnsmasq-updater) - Update a remote dnsmasq server with Docker container hostnames.
