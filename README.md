@@ -329,6 +329,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 -   [docker-lock](https://github.com/safe-waters/docker-lock) - A cli-plugin for docker to automatically manage image digests by tracking them in a separate Lockfile. By [@safe-waters][safe-waters]
 -   [dvwassl](https://github.com/Peco602/dvwassl) - SSL-enabled Damn Vulnerable Web App to test Web Application Firewalls. By [@Peco602][peco602]
 -   [KICS](https://github.com/checkmarx/kics) - an infrastructure-as-code scanning tool, find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle. Can be extended for additional policies. By [Checkmarx](https://github.com/Checkmarx)
+-   [KeyEnv](https://github.com/keyenv/keyenv) - CLI-first secrets manager that replaces .env files with encrypted, team-synced secrets using AES-256-GCM. Supports per-project environments and audit trails. By [@keyenv](https://github.com/keyenv)
 -   [notary](https://github.com/theupdateframework/notary) - a server and a client for running and interacting with trusted collections. By [@TUF](https://github.com/theupdateframework)
 -   [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By [OpenSCAP](https://github.com/OpenSCAP)
 -   [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud) :heavy_dollar_sign: - (previously Twistlock Security Suite) detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
