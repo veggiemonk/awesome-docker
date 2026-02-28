@@ -30,7 +30,7 @@ jobs:
         run: go build -o awesome-docker ./cmd/awesome-docker
 
       - name: Build website
-        run: ./awesome-docker build
+        run: make website
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # ratchet:actions/upload-pages-artifact@v4
