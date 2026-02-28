@@ -20,6 +20,9 @@ jobs:
       - name: Build
         run: go build -o awesome-docker ./cmd/awesome-docker
 
+      - name: Build website
+        run: ./awesome-docker build
+
       - name: Validate
         run: ./awesome-docker validate
         env:

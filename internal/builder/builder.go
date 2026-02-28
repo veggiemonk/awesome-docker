@@ -8,6 +8,7 @@ import (
 
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/extension"
+	"github.com/yuin/goldmark/parser"
 	"github.com/yuin/goldmark/renderer/html"
 )
 
@@ -27,6 +28,7 @@ func Build(markdownPath, templatePath, outputPath string) error {
 	// Convert markdown to HTML
 	gm := goldmark.New(
 		goldmark.WithExtensions(extension.GFM),
+		goldmark.WithParserOptions(parser.WithAutoHeadingID()),
 		goldmark.WithRendererOptions(html.WithUnsafe()),
 	)
 	var buf bytes.Buffer

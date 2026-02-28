@@ -131,3 +131,42 @@ func TestBuildFailsWithoutPlaceholder(t *testing.T) {
 		t.Fatal("expected Build to fail when template has no supported placeholder")
 	}
 }
+
+func TestBuildAddsHeadingIDs(t *testing.T) {
+	dir := t.TempDir()
+
+	md := "# Getting Started\n\n## Next Step\n"
+	mdPath := filepath.Join(dir, "README.md")
+	if err := os.WriteFile(mdPath, []byte(md), 0o644); err != nil {
+		t.Fatal(err)
+	}
+
+	tmpl := `<!DOCTYPE html>
+<html>
+<body>
+<section id="md" class="main-content"></section>
+</body>
+</html>`
+	tmplPath := filepath.Join(dir, "template.html")
+	if err := os.WriteFile(tmplPath, []byte(tmpl), 0o644); err != nil {
+		t.Fatal(err)
+	}
+
+	outPath := filepath.Join(dir, "index.html")
+	if err := Build(mdPath, tmplPath, outPath); err != nil {
+		t.Fatalf("Build failed: %v", err)
+	}
+
+	content, err := os.ReadFile(outPath)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	html := string(content)
+	if !strings.Contains(html, `id="getting-started"`) {
+		t.Error("expected auto-generated heading id for h1")
+	}
+	if !strings.Contains(html, `id="next-step"`) {
+		t.Error("expected auto-generated heading id for h2")
+	}
+}
