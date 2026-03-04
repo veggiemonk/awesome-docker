@@ -694,6 +694,7 @@ Services to securely store your Docker images.
 -   [An Annotated Docker Config for Frontend Web Development](https://nystudio107.com/blog/an-annotated-docker-config-for-frontend-web-development) A local development environment with Docker allows you to shrink-wrap the devops your project needs as config, making onboarding frictionless.
 -   [Local Docker DB](https://github.com/alexmacarthur/local-docker-db) a list of docker-compose samples for a lot of databases by [alexmacarthur](https://github.com/alexmacarthur)
 -   [Webstack-micro](https://github.com/ferbs/webstack-micro) Demo web app showing how Docker Compose might be used to set up an API Gateway, centralized authentication, background workers, and WebSockets as containerized services.
+-   [JARVIS](https://github.com/hyhmrright/JARVIS) - Self-hosted AI assistant platform with complete Docker Compose orchestration (PostgreSQL, Redis, Qdrant, MinIO, backend, frontend). One-command deployment with RAG, multi-LLM support, and plugin SDK.
 
 ## Good Tips
 
