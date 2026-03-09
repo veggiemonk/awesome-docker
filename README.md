@@ -186,6 +186,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [DockProc](https://gitlab.com/n0r1sk/dockproc) - I/O monitoring for containers on processlevel.
 - [dockprom](https://github.com/stefanprodan/dockprom) - Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager.
 - [Doku](https://github.com/amerkurev/doku) - Doku is a simple web-based application that allows you to monitor Docker disk usage. [amerkurev](https://github.com/amerkurev).
+- [Drydock](https://github.com/CodesWhat/drydock) - Container update monitoring with web dashboard, 23 registry providers, 20 notification triggers, and distributed agent architecture. By [CodesWhat](https://github.com/CodesWhat).
 - [Dozzle](dozzle) - Monitor container logs in real-time with a browser or mobile device. [amir20](https://github.com/amir20).
 - [Dynatrace](https://docs.dynatrace.com/docs/observe/infrastructure-observability/container-platform-monitoring) - :heavy_dollar_sign: Monitor containerized applications without installing agents or modifying your Run commands.
 - [Glances](https://github.com/nicolargo/glances) - A cross-platform curses-based system monitoring tool written in Python.
@@ -549,7 +550,6 @@ Services to securely store your Docker images.
 - [dockcheck](https://github.com/mag37/dockcheck) - A script checking updates for docker images without pulling then auto-update selected/all containers. With notifications, pruning and more.
 - [Docker plugin for Jenkins](https://github.com/jenkinsci/docker-plugin/) - The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.
 - [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
-- [Drydock](https://github.com/CodesWhat/drydock) - Open-source container update monitoring with web dashboard, 15 registries, 16 notification triggers, and security scanning. Drop-in WUD replacement. By [CodesWhat](https://github.com/CodesWhat).
 - [Gantry](https://github.com/shizunge/gantry) - Automatically update selected Docker swarm services.
 - [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner) - GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners.
 - [Jaypore CI](https://github.com/theSage21/jaypore_ci) - Simple, very flexible, powerful CI / CD / automation system configured in Python. Offline and local first.
