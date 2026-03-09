@@ -186,8 +186,8 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [DockProc](https://gitlab.com/n0r1sk/dockproc) - I/O monitoring for containers on processlevel.
 - [dockprom](https://github.com/stefanprodan/dockprom) - Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager.
 - [Doku](https://github.com/amerkurev/doku) - Doku is a simple web-based application that allows you to monitor Docker disk usage. [amerkurev](https://github.com/amerkurev).
-- [Drydock](https://github.com/CodesWhat/drydock) - Container update monitoring with web dashboard, 23 registry providers, 20 notification triggers, and distributed agent architecture. By [CodesWhat](https://github.com/CodesWhat).
 - [Dozzle](dozzle) - Monitor container logs in real-time with a browser or mobile device. [amir20](https://github.com/amir20).
+- [Drydock](https://github.com/CodesWhat/drydock) - Container update monitoring with web dashboard, 23 registry providers, 20 notification triggers, and distributed agent architecture. By [CodesWhat](https://github.com/CodesWhat).
 - [Dynatrace](https://docs.dynatrace.com/docs/observe/infrastructure-observability/container-platform-monitoring) - :heavy_dollar_sign: Monitor containerized applications without installing agents or modifying your Run commands.
 - [Glances](https://github.com/nicolargo/glances) - A cross-platform curses-based system monitoring tool written in Python.
 - [Grafana Docker Dashboard Template](https://grafana.com/grafana/dashboards/179-docker-prometheus-monitoring/) - A template for your Docker, Grafana and Prometheus stack [vegasbrianc][vegasbrianc].
