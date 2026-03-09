@@ -478,6 +478,7 @@ Examples by:
 ### Linter
 
 - [Dockadvisor](https://github.com/deckrun/dockadvisor) - Lightweight Dockerfile linter with 60+ rules, quality scoring, and security checks.
+- [Dockerfile Linter](https://releaserun.com/tools/dockerfile-linter/) - Free browser-based Dockerfile linter with security checks, best practice rules, and actionable fix suggestions. No install required.
 - [docker-image-size-limit](https://github.com/wemake-services/docker-image-size-limit) - A tool to keep an eye on your docker images size.
 - [Dockerfile Linter action](https://github.com/buddy-works/dockerfile-linter) - The linter lets you verify Dockerfile syntax to make sure it follows the best practices for building efficient Docker images.
 - [FROM:latest](https://github.com/replicatedhq/dockerfilelint) - An opinionated Dockerfile linter.
