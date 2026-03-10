@@ -44,9 +44,11 @@ type HealthEntry struct {
 	Stars      int       `yaml:"stars,omitempty"`
 	Forks      int       `yaml:"forks,omitempty"`
 	LastPush   time.Time `yaml:"last_push,omitempty"`
-	HasLicense bool      `yaml:"has_license,omitempty"`
-	HasReadme  bool      `yaml:"has_readme,omitempty"`
-	CheckedAt  time.Time `yaml:"checked_at"`
+	HasLicense  bool      `yaml:"has_license,omitempty"`
+	HasReadme   bool      `yaml:"has_readme,omitempty"`
+	CheckedAt   time.Time `yaml:"checked_at"`
+	Category    string    `yaml:"category,omitempty"`
+	Description string    `yaml:"description,omitempty"`
 }
 
 // HealthCache is the full YAML cache file.

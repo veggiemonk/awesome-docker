@@ -23,13 +23,15 @@ const (
 
 // ScoredEntry is a repo with its computed health status.
 type ScoredEntry struct {
-	URL        string
-	Name       string
-	Status     Status
-	Stars      int
-	Forks      int
-	HasLicense bool
-	LastPush   time.Time
+	URL         string
+	Name        string
+	Status      Status
+	Stars       int
+	Forks       int
+	HasLicense  bool
+	LastPush    time.Time
+	Category    string
+	Description string
 }
 
 // ReportSummary contains grouped status counts.
@@ -94,14 +96,16 @@ func ToCacheEntries(scored []ScoredEntry) []cache.HealthEntry {
 	now := time.Now().UTC()
 	for i, s := range scored {
 		entries[i] = cache.HealthEntry{
-			URL:        s.URL,
-			Name:       s.Name,
-			Status:     string(s.Status),
-			Stars:      s.Stars,
-			Forks:      s.Forks,
-			HasLicense: s.HasLicense,
-			LastPush:   s.LastPush,
-			CheckedAt:  now,
+			URL:         s.URL,
+			Name:        s.Name,
+			Status:      string(s.Status),
+			Stars:       s.Stars,
+			Forks:       s.Forks,
+			HasLicense:  s.HasLicense,
+			LastPush:    s.LastPush,
+			CheckedAt:   now,
+			Category:    s.Category,
+			Description: s.Description,
 		}
 	}
 	return entries

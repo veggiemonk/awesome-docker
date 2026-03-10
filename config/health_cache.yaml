@@ -4,2119 +4,3007 @@ entries:
       status: stale
       stars: 31
       last_push: 2017-06-07T09:46:56Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: Composable docker orchestration with added scripting support by [byrnedo].
     - url: https://github.com/magicmark/composerize
       name: magicmark/composerize
       status: healthy
-      stars: 3701
+      stars: 3703
       forks: 247
       last_push: 2026-01-17T12:14:28Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: Convert docker run commands into docker-compose files.
     - url: https://github.com/polonskiy/crowdr
       name: polonskiy/crowdr
       status: stale
       stars: 98
       forks: 9
       last_push: 2020-10-09T07:57:52Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: Tool for managing multiple Docker containers (`docker-compose` alternative).
     - url: https://github.com/ctk-hq/ctk
       name: ctk-hq/ctk
       status: healthy
       stars: 298
       forks: 27
       last_push: 2026-02-15T22:53:00Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: Visual composer for container based workloads. By [corpulent](https://github.com/corpulent).
     - url: https://github.com/sudo-bmitch/docker-config-update
       name: sudo-bmitch/docker-config-update
       status: stale
       stars: 51
       forks: 8
       last_push: 2023-03-30T13:03:12Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: Utility to update docker configs and secrets for deploying in a compose file.
     - url: https://github.com/cisco/elsy
       name: cisco/elsy
       status: stale
       stars: 80
       forks: 22
       last_push: 2022-01-18T13:38:49Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: An opinionated, multi-language, build tool based on Docker and Docker Compose.
     - url: https://github.com/cloud66-oss/habitus
       name: cloud66-oss/habitus
       status: stale
-      stars: 1390
-      forks: 82
+      stars: 1392
+      forks: 81
       last_push: 2020-02-05T17:10:30Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: A Build Flow Tool for Docker.
     - url: https://github.com/kubernetes/kompose
       name: kubernetes/kompose
       status: healthy
-      stars: 10459
-      forks: 793
+      stars: 10464
+      forks: 794
       last_push: 2026-02-27T14:23:27Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: Go from Docker Compose to Kubernetes.
     - url: https://github.com/av/harbor
       name: av/harbor
       status: healthy
-      stars: 2470
-      forks: 164
-      last_push: 2026-02-15T00:04:21Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 2485
+      forks: 166
+      last_push: 2026-03-08T14:30:46Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: A CLI and companion app to effortlessly run LLM backends, APIs, frontends, and services with one command. By [av](https://github.com/av).
     - url: https://github.com/ihucos/plash
       name: ihucos/plash
       status: healthy
       stars: 387
       forks: 15
       last_push: 2025-03-20T15:47:21Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: A container run and build engine - runs inside docker.
     - url: https://github.com/containers/podman-compose
       name: containers/podman-compose
       status: healthy
-      stars: 5973
-      forks: 576
-      last_push: 2026-02-26T23:05:51Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 5990
+      forks: 577
+      last_push: 2026-03-05T16:25:54Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: A script to run docker-compose.yml using podman.
     - url: https://github.com/alexaandrov/stitchocker
       name: alexaandrov/stitchocker
       status: inactive
       stars: 30
-      forks: 3
+      forks: 2
       last_push: 2024-03-14T13:50:30Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Container Composition
+      description: A lightweight and fast command line utility for conveniently grouping your docker-compose multiple container services. By [alexaandrov](https://github.com/alexaandrov).
     - url: https://github.com/ethibox/awesome-stacks
       name: ethibox/awesome-stacks
       status: healthy
-      stars: 1245
+      stars: 1250
       forks: 162
-      last_push: 2026-02-25T16:10:25Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T14:40:12Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Deploy 150+ open-source web apps with one Docker command.
     - url: https://github.com/newrelic/centurion
       name: newrelic/centurion
       status: archived
       stars: 1757
       forks: 112
       last_push: 2025-09-11T20:47:50Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings. By [newrelic](https://github.com/newrelic).
     - url: https://github.com/brooklyncentral/clocker
       name: brooklyncentral/clocker
       status: stale
       stars: 429
-      forks: 65
+      forks: 64
       last_push: 2018-10-24T15:29:12Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts, on both Docker and Marathon. It leverages [Calico][calico] and [Weave][weave] for networking and [Brooklyn](https://brooklyn.apache.org/) for application blueprints. By [brooklyncentral](https://github.com/brooklyncentral).
     - url: https://github.com/ehazlett/conduit
       name: ehazlett/conduit
       status: stale
       stars: 108
       forks: 11
       last_push: 2016-11-07T18:20:56Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Experimental deployment system for Docker.
     - url: https://github.com/ContainX/depcon
       name: ContainX/depcon
       status: stale
       stars: 93
       forks: 15
       last_push: 2018-06-05T04:40:23Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Depcon is written in Go and allows you to easily deploy Docker containers to Apache Mesos/Marathon, Amazon ECS and Kubernetes. By [ContainX][containx].
     - url: https://github.com/deploystackio/docker-to-iac
       name: deploystackio/docker-to-iac
       status: healthy
       stars: 23
-      last_push: 2026-02-25T22:52:42Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-02T06:11:33Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Translate docker run and commit into Infrastructure as Code templates for AWS, Render.com and DigitalOcean.
     - url: https://github.com/hasura/gitkube
       name: hasura/gitkube
       status: stale
       stars: 3850
       forks: 203
       last_push: 2023-08-31T07:48:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Gitkube is a tool for building and deploying docker images on Kubernetes using `git push`. By [Hasura](https://github.com/hasura/).
     - url: https://github.com/grafeas/grafeas
       name: grafeas/grafeas
       status: healthy
       stars: 1564
       forks: 307
       last_push: 2026-02-13T21:53:15Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: A common API for metadata about containers, from image and build details to security vulnerabilities. By [grafeas](https://github.com/grafeas).
     - url: https://github.com/LombardiDaniel/swarm-ansible
       name: LombardiDaniel/swarm-ansible
       status: healthy
-      stars: 58
+      stars: 59
       forks: 4
       last_push: 2026-01-24T22:01:08Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
     - url: https://github.com/hansehe/SwarmManagement
       name: hansehe/SwarmManagement
       status: healthy
       stars: 21
       forks: 1
       last_push: 2025-05-13T15:24:25Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Swarm Management is a python application, installed with pip. The application makes it easy to manage a Docker Swarm by configuring a single yaml file describing which stacks to deploy, and which networks, configs or secrets to create.
     - url: https://github.com/werf/werf
       name: werf/werf
       status: healthy
-      stars: 4659
+      stars: 4661
       forks: 230
-      last_push: 2026-02-27T21:26:34Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-06T15:47:09Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Deployment and Infrastructure
+      description: Werf is a CI/CD tool for building Docker images efficiently and deploying them to Kubernetes using GitOps.
     - url: https://github.com/willfarrell/docker-autoheal
       name: willfarrell/docker-autoheal
       status: healthy
-      stars: 1800
-      forks: 253
+      stars: 1801
+      forks: 254
       last_push: 2025-09-09T16:33:25Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Monitor and restart unhealthy docker containers automatically.
     - url: https://github.com/google/cadvisor
       name: google/cadvisor
       status: healthy
-      stars: 18913
-      forks: 2460
-      last_push: 2026-02-19T21:28:50Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 18952
+      forks: 2461
+      last_push: 2026-03-02T18:35:32Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Analyzes resource usage and performance characteristics of running containers.
     - url: https://github.com/bluewave-labs/checkmate
       name: bluewave-labs/checkmate
       status: healthy
-      stars: 9321
-      forks: 674
-      last_push: 2026-02-27T16:58:09Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 9372
+      forks: 680
+      last_push: 2026-03-07T01:22:01Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations.
     - url: https://github.com/zorak1103/dlia
       name: zorak1103/dlia
       status: healthy
       stars: 3
-      last_push: 2026-02-27T11:12:38Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-07T04:03:52Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: DLIA is an AI-powered Docker log monitoring agent that uses Large Language Models (LLMs) to intelligently analyze container logs, detect anomalies, and provide contextual insights over time. By [zorak1103](https://github.com/zorak1103).
     - url: https://github.com/deltaskelta/docker-alertd
       name: deltaskelta/docker-alertd
       status: stale
       stars: 108
       forks: 12
       last_push: 2017-11-15T04:40:06Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Monitor and send alerts based on docker container resource usage/statistics.
     - url: https://github.com/docker-flow/docker-flow-monitor
       name: docker-flow/docker-flow-monitor
       status: stale
       stars: 88
       forks: 38
       last_push: 2021-03-17T14:33:01Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Reconfigures Prometheus when a new service is updated or deployed automatically.
     - url: https://github.com/stefanprodan/dockprom
       name: stefanprodan/dockprom
       status: healthy
-      stars: 6484
-      forks: 1769
-      last_push: 2025-07-04T04:18:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 6488
+      forks: 1768
+      last_push: 2026-03-06T05:28:07Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager.
     - url: https://github.com/amerkurev/doku
       name: amerkurev/doku
       status: healthy
-      stars: 408
+      stars: 410
       forks: 18
       last_push: 2025-12-26T09:13:21Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Doku is a simple web-based application that allows you to monitor Docker disk usage. [amerkurev](https://github.com/amerkurev).
     - url: https://github.com/nicolargo/glances
       name: nicolargo/glances
       status: healthy
-      stars: 31804
-      forks: 1688
-      last_push: 2026-02-27T09:35:02Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 31995
+      forks: 1695
+      last_push: 2026-03-07T15:24:35Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: A cross-platform curses-based system monitoring tool written in Python.
     - url: https://github.com/dromara/hertzbeat
       name: dromara/hertzbeat
       status: healthy
-      stars: 7103
+      stars: 7114
       forks: 1255
-      last_push: 2026-02-27T16:10:50Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T12:09:09Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: An open-source real-time monitoring system with custom-monitor and agentless.
     - url: https://github.com/vegasbrianc/docker-monitoring
       name: vegasbrianc/docker-monitoring
       status: stale
       stars: 473
       forks: 129
       last_push: 2018-06-10T20:53:49Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: InfluxDB Time series DB in combination with Grafana and cAdvisor.
     - url: https://github.com/gliderlabs/logspout
       name: gliderlabs/logspout
       status: stale
-      stars: 4700
-      forks: 669
+      stars: 4701
+      forks: 668
       last_push: 2023-07-11T20:36:12Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Log routing for Docker container logs.
     - url: https://github.com/decryptus/monit-docker
       name: decryptus/monit-docker
       status: stale
       stars: 34
       forks: 5
       last_push: 2023-01-16T11:31:14Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Monitor docker containers resources usage or status and execute docker commands or inside containers. [decryptus][decryptus].
     - url: https://github.com/NexClipper/NexClipper
       name: NexClipper/NexClipper
       status: stale
-      stars: 566
+      stars: 565
       forks: 72
       last_push: 2023-05-05T02:21:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: NexClipper is the container monitoring and performance management solution specialized in Docker, Apache Mesos, Marathon, DC/OS, Mesosphere, Kubernetes.
     - url: https://github.com/uschtwill/docker_monitoring_logging_alerting
       name: uschtwill/docker_monitoring_logging_alerting
       status: stale
-      stars: 540
+      stars: 539
       forks: 119
       last_push: 2018-09-13T07:36:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Docker host and container monitoring, logging and alerting out of the box using cAdvisor, Prometheus, Grafana for monitoring, Elasticsearch, Kibana and Logstash for logging and elastalert and Alertmanager for alerting. Set up in 5 Minutes. Secure mode for production use with built-in [Automated Nginx Reverse Proxy (jwilder's)][nginxproxy].
     - url: https://github.com/runsidekick/sidekick
       name: runsidekick/sidekick
       status: stale
       stars: 1611
       forks: 67
       last_push: 2023-06-29T12:18:38Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Open source live application debugger like Chrome DevTools for your backend. Collect traces and generate logs on-demand without stopping & redeploying your applications.
     - url: https://github.com/gpulido/SwarmAlert
       name: gpulido/SwarmAlert
       status: stale
       stars: 22
       forks: 2
       last_push: 2019-11-27T12:17:14Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Monitors a Docker Swarm and sends Pushover alerts when it finds a container with no healthy service task running.
     - url: https://github.com/gomex/docker-zabbix
       name: gomex/docker-zabbix
       status: stale
       stars: 53
       forks: 12
       last_push: 2017-07-28T14:29:08Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Monitor containers automatically using zabbix LLD feature.
     - url: https://github.com/monitoringartist/Zabbix-Docker-Monitoring
       name: monitoringartist/Zabbix-Docker-Monitoring
       status: stale
       stars: 1197
       forks: 265
       last_push: 2022-02-22T17:01:39Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Monitoring
+      description: Zabbix module that provides discovery of running containers, CPU/memory/blk IO/net container metrics. Systemd Docker and LXC execution driver is also supported. It's a dynamically linked shared object library, so its performance is (~10x) better, than any script solution.
     - url: https://github.com/coreos/flannel
       name: coreos/flannel
       status: healthy
-      stars: 9406
-      forks: 2898
-      last_push: 2026-02-23T14:17:42Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 9410
+      forks: 2902
+      last_push: 2026-03-06T12:10:23Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
     - url: https://github.com/Microsoft/Freeflow
       name: Microsoft/Freeflow
       status: stale
       stars: 632
       forks: 96
       last_push: 2023-06-12T19:30:22Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Networking
+      description: High performance container overlay networks on Linux. Enabling RDMA (on both InfiniBand and RoCE) and accelerating TCP to bare metal performance. By [Microsoft](https://github.com/Microsoft).
     - url: https://github.com/jason5ng32/MyIP
       name: jason5ng32/MyIP
       status: healthy
-      stars: 9859
+      stars: 9895
       forks: 1072
       last_push: 2026-02-10T07:38:47Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Networking
+      description: All in one IP Toolbox. Easy to check all your IPs, IP geolocation, check for DNS leaks, examine WebRTC connections, speed test, ping test, MTR test, check website availability, whois search and more. By [jason5ng32](https://github.com/jason5ng32).
     - url: https://github.com/nicolaka/netshoot
       name: nicolaka/netshoot
       status: healthy
-      stars: 10421
+      stars: 10445
       forks: 1085
-      last_push: 2026-01-28T16:42:51Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-05T17:23:33Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Networking
+      description: The netshoot container has a powerful set of networking tools to help troubleshoot Docker networking issues.
     - url: https://github.com/jpetazzo/pipework
       name: jpetazzo/pipework
       status: inactive
-      stars: 4251
+      stars: 4252
       forks: 727
       last_push: 2024-11-04T17:31:57Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Networking
+      description: Software-Defined Networking for Linux Containers, Pipework works with "plain" LXC containers, and with the awesome Docker. By [jpetazzo][jpetazzo].
     - url: https://github.com/Peco602/ansible-linux-docker
       name: Peco602/ansible-linux-docker
       status: stale
       stars: 37
       forks: 4
       last_push: 2023-06-21T09:34:02Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Run Ansible from a Linux container. By [Peco602][peco602].
     - url: https://github.com/athena-oss/athena
       name: athena-oss/athena
       status: stale
       stars: 96
       forks: 25
       last_push: 2017-07-06T08:26:12Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: An automation platform with a plugin architecture that allows you to easily create and share services.
     - url: https://github.com/CloudSlang/cloud-slang
       name: CloudSlang/cloud-slang
       status: healthy
       stars: 240
       forks: 83
-      last_push: 2026-02-18T13:38:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-04T10:56:48Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: CloudSlang is a workflow engine to create Docker process automation.
     - url: https://github.com/clusterdock/clusterdock
       name: clusterdock/clusterdock
       status: stale
       stars: 29
       forks: 8
       last_push: 2023-05-16T18:05:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Docker container orchestration to enable the testing of long-running cluster deployments.
     - url: https://github.com/Dataman-Cloud/crane
       name: Dataman-Cloud/crane
       status: stale
-      stars: 749
+      stars: 748
       forks: 164
       last_push: 2023-08-31T09:46:38Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Control plane based on docker built-in swarm [Dataman-Cloud](https://github.com/Dataman-Cloud).
     - url: https://github.com/docker-flow/docker-flow-swarm-listener
       name: docker-flow/docker-flow-swarm-listener
       status: stale
       stars: 69
       forks: 50
       last_push: 2019-05-20T19:40:37Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Docker Flow Swarm Listener project is to listen to Docker Swarm events and send requests when a change occurs. By [docker-flow][docker-flow].
     - url: https://github.com/Wowu/docker-rollout
       name: Wowu/docker-rollout
       status: healthy
-      stars: 3104
+      stars: 3111
       forks: 93
       last_push: 2025-07-25T17:57:48Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Zero downtime deployment for Docker Compose services.
     - url: https://github.com/codeabovelab/haven-platform
       name: codeabovelab/haven-platform
       status: stale
-      stars: 296
+      stars: 297
       forks: 41
       last_push: 2018-07-06T11:21:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Haven is a simplified container management platform that integrates container, application, cluster, image, and registry managements. By [codeabovelab](https://github.com/codeabovelab).
     - url: https://github.com/kubernetes/kubernetes
       name: kubernetes/kubernetes
       status: healthy
-      stars: 120812
-      forks: 42554
-      last_push: 2026-02-27T20:09:31Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 120996
+      forks: 42620
+      last_push: 2026-03-07T08:41:59Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Open source orchestration system for Docker containers by Google.
     - url: https://github.com/ManageIQ/manageiq
       name: ManageIQ/manageiq
       status: healthy
-      stars: 1387
-      forks: 923
-      last_push: 2026-02-27T17:24:52Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 1392
+      forks: 922
+      last_push: 2026-03-05T20:13:05Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Discover, optimize and control your hybrid IT. By [ManageIQ](https://github.com/ManageIQ).
     - url: https://github.com/apache/mesos
       name: apache/mesos
       status: inactive
-      stars: 5365
+      stars: 5364
       forks: 1669
       last_push: 2024-08-23T18:59:16Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Resource/Job scheduler for containers, VM's and physical hosts [apache](https://mesos.apache.org/).
     - url: https://github.com/hashicorp/nomad
       name: hashicorp/nomad
       status: healthy
-      stars: 16237
+      stars: 16262
       forks: 2059
-      last_push: 2026-02-27T21:40:19Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T09:06:18Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler.
     - url: https://github.com/rancher/rancher
       name: rancher/rancher
       status: healthy
-      stars: 25387
-      forks: 3170
-      last_push: 2026-02-27T21:04:04Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 25400
+      forks: 3173
+      last_push: 2026-03-06T22:49:23Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: An open source project that provides a complete platform for operating Docker in production.
     - url: https://github.com/redherd-project/redherd-framework
       name: redherd-project/redherd-framework
       status: stale
       stars: 74
       forks: 17
       last_push: 2023-04-25T18:54:33Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: RedHerd is a collaborative and serverless framework for orchestrating a geographically distributed group of assets capable of simulating complex offensive cyberspace operations. By [RedHerdProject](https://github.com/redherd-project).
     - url: https://github.com/crazy-max/swarm-cronjob
       name: crazy-max/swarm-cronjob
       status: healthy
-      stars: 862
+      stars: 861
       forks: 74
-      last_push: 2026-02-27T07:02:23Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-06T07:02:33Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Orchestration
+      description: Create jobs on a time-based schedule on Swarm by [crazy-max].
     - url: https://github.com/caprover/caprover
       name: caprover/caprover
       status: healthy
-      stars: 14878
-      forks: 964
+      stars: 14892
+      forks: 966
       last_push: 2026-01-31T15:42:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: '[Previously known as CaptainDuckDuck] Automated Scalable Webserver Package (automated Docker+nginx) - Heroku on Steroids.'
     - url: https://github.com/convox/rack
       name: convox/rack
       status: healthy
-      stars: 1893
+      stars: 1892
       forks: 177
       last_push: 2026-02-12T19:55:53Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
     - url: https://github.com/pbertera/dcw
       name: pbertera/dcw
       status: stale
       stars: 17
       forks: 3
       last_push: 2017-03-29T07:55:37Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: 'Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels.'
     - url: https://github.com/dokku/dokku
       name: dokku/dokku
       status: healthy
-      stars: 31878
-      forks: 2021
-      last_push: 2026-02-27T13:54:30Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 31896
+      forks: 2022
+      last_push: 2026-03-07T18:31:36Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: Docker powered mini-Heroku that helps you build and manage the lifecycle of applications (originally by [progrium][progrium]).
     - url: https://github.com/remind101/empire
       name: remind101/empire
       status: stale
-      stars: 2682
+      stars: 2681
       forks: 156
       last_push: 2023-11-25T17:16:08Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: A PaaS built on top of Amazon EC2 Container Service (ECS).
     - url: https://github.com/exoframejs/exoframe
       name: exoframejs/exoframe
       status: healthy
-      stars: 1147
+      stars: 1146
       forks: 59
       last_push: 2026-02-22T16:24:52Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: A self-hosted tool that allows simple one-command deployments using Docker.
     - url: https://github.com/teamhephy/workflow
       name: teamhephy/workflow
       status: stale
       stars: 419
       forks: 36
       last_push: 2023-09-27T17:30:49Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: Open source PaaS for Kubernetes that adds a developer-friendly layer to any Kubernetes cluster, making it easy to deploy and manage applications. Fork of [Deis Workflow](https://github.com/deis/workflow).
     - url: https://github.com/krane/krane
       name: krane/krane
       status: stale
       stars: 80
       forks: 8
       last_push: 2023-05-11T20:39:00Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: Toolset for managing container workloads on remote servers.
     - url: https://github.com/nanobox-io/nanobox
       name: nanobox-io/nanobox
       status: stale
-      stars: 1624
+      stars: 1625
       forks: 90
       last_push: 2019-10-21T20:03:10Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: An application development platform that creates local environments that can then be deployed and scaled in the cloud.
     - url: https://github.com/tsuru/tsuru
       name: tsuru/tsuru
       status: healthy
-      stars: 5252
+      stars: 5259
       forks: 550
-      last_push: 2026-02-25T21:15:57Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-05T03:11:24Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > PaaS
+      description: Tsuru is an extensible and open source Platform as a Service software.
     - url: https://github.com/bunkerity/bunkerweb
       name: bunkerity/bunkerweb
       status: healthy
-      stars: 10066
-      forks: 565
-      last_push: 2026-02-27T08:50:00Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 10112
+      forks: 568
+      last_push: 2026-03-06T17:15:47Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: Open-source and next-gen Web Application Firewall (WAF). By [Bunkerity](https://www.bunkerity.com).
     - url: https://github.com/lucaslorentz/caddy-docker-proxy
       name: lucaslorentz/caddy-docker-proxy
       status: healthy
-      stars: 4300
-      forks: 210
-      last_push: 2026-02-25T20:22:54Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 4315
+      forks: 211
+      last_push: 2026-03-08T07:04:18Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: Caddy-based reverse proxy, configured with service or container labels. By [lucaslorentz](https://github.com/lucaslorentz).
     - url: https://github.com/invzhi/caddy-docker-upstreams
       name: invzhi/caddy-docker-upstreams
       status: healthy
       stars: 36
       forks: 8
       last_push: 2025-09-08T05:17:01Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: Docker upstreams module for Caddy, configured with container labels. By [invzhi](https://github.com/invzhi).
     - url: https://github.com/moonbuggy/docker-dnsmasq-updater
       name: moonbuggy/docker-dnsmasq-updater
       status: inactive
       stars: 35
       forks: 2
       last_push: 2025-02-09T00:21:52Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: Update a remote dnsmasq server with Docker container hostnames.
     - url: https://github.com/docker-flow/docker-flow-proxy
       name: docker-flow/docker-flow-proxy
       status: healthy
-      stars: 321
+      stars: 320
       forks: 189
       last_push: 2025-12-05T02:29:16Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: Reconfigures proxy every time a new service is deployed, or when a service is scaled. By [docker-flow][docker-flow].
     - url: https://github.com/fabiolb/fabio
       name: fabiolb/fabio
       status: healthy
-      stars: 7332
+      stars: 7333
       forks: 624
       last_push: 2026-02-23T02:48:11Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: A fast, modern, zero-conf load balancing HTTP(S) router for deploying microservices managed by consul. By [magiconair](https://github.com/magiconair) (Frank Schroeder).
     - url: https://github.com/nginx-proxy/docker-letsencrypt-nginx-proxy-companion
       name: nginx-proxy/docker-letsencrypt-nginx-proxy-companion
       status: healthy
       stars: 7698
-      forks: 835
-      last_push: 2026-02-15T12:34:13Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      forks: 834
+      last_push: 2026-03-02T17:04:31Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: A lightweight companion container for the nginx-proxy. It allow the creation/renewal of Let's Encrypt certificates automatically. By [JrCs](https://github.com/JrCs).
     - url: https://github.com/Yundera/mesh-router
       name: Yundera/mesh-router
       status: healthy
       stars: 8
-      last_push: 2026-02-27T21:23:25Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-02T15:37:53Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: Free domain(nsl.sh) provider for Docker containers with automatic HTTPS routing. Uses Wireguard VPN to securely route subdomain requests across networks. Ideal for self-hosted NAS and cloud deployments. By [Yundera](https://github.com/Yundera).
     - url: https://github.com/jc21/nginx-proxy-manager
       name: jc21/nginx-proxy-manager
       status: healthy
-      stars: 31873
-      forks: 3627
-      last_push: 2026-02-27T00:35:00Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 32001
+      forks: 3639
+      last_push: 2026-03-06T14:15:08Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: A beautiful web interface for proxying web based services with SSL. By [jc21](https://github.com/jc21).
     - url: https://github.com/Safe3/openresty-manager
       name: Safe3/openresty-manager
       status: healthy
-      stars: 1317
-      forks: 97
+      stars: 1322
+      forks: 98
       last_push: 2026-01-25T10:38:42Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: The easiest using, powerful and beautiful OpenResty Manager(Nginx Enhanced Version), open source alternative to OpenResty Edge. By [Safe3](https://github.com/Safe3/).
     - url: https://github.com/flavioaiello/swarm-router
       name: flavioaiello/swarm-router
       status: healthy
       stars: 73
       forks: 12
       last_push: 2025-09-15T06:12:30Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: A «zero config» service name based router for docker swarm mode with a fresh and more secure approach. By [flavioaiello](https://github.com/flavioaiello).
     - url: https://github.com/containous/traefik
       name: containous/traefik
       status: healthy
-      stars: 61956
-      forks: 5848
-      last_push: 2026-02-27T15:30:05Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 62086
+      forks: 5865
+      last_push: 2026-03-06T16:16:05Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Reverse Proxy
+      description: Automated reverse proxy and load-balancer for Docker, Mesos, Consul, Etcd... By [EmileVauge](https://github.com/emilevauge).
     - url: https://github.com/cri-o/cri-o
       name: cri-o/cri-o
       status: healthy
-      stars: 5579
-      forks: 1147
-      last_push: 2026-02-27T21:48:13Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 5588
+      forks: 1151
+      last_push: 2026-03-08T00:16:02Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Runtime
+      description: Open Container Initiative-based implementation of Kubernetes Container Runtime Interface by [cri-o](https://github.com/cri-o).
     - url: https://github.com/lxc/lxc
       name: lxc/lxc
       status: healthy
-      stars: 5115
+      stars: 5126
       forks: 1162
-      last_push: 2026-02-26T19:40:10Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-02T14:26:30Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Runtime
+      description: LXC - Linux Containers.
     - url: https://github.com/containers/libpod
       name: containers/libpod
       status: healthy
-      stars: 30828
-      forks: 2995
-      last_push: 2026-02-26T02:13:27Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 30937
+      forks: 3006
+      last_push: 2026-03-06T15:57:05Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Runtime
+      description: Libpod is a library used to create container pods. Home of Podman.
     - url: https://github.com/brauner/rlxc
       name: brauner/rlxc
       status: stale
       stars: 18
       forks: 3
       last_push: 2021-06-30T13:12:28Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Runtime
+      description: LXC binary written in Rust.
     - url: https://github.com/opencontainers/runtime-tools
       name: opencontainers/runtime-tools
       status: healthy
-      stars: 472
+      stars: 473
       forks: 159
       last_push: 2025-12-05T00:49:12Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Runtime
+      description: Oci-runtime-tool is a collection of tools for working with the OCI runtime specification.
     - url: https://github.com/SongStitch/anchor
       name: SongStitch/anchor
       status: inactive
       stars: 24
       last_push: 2025-01-15T23:09:06Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
     - url: https://github.com/genuinetools/bane
       name: genuinetools/bane
       status: stale
-      stars: 1225
+      stars: 1224
       forks: 91
       last_push: 2020-09-17T20:10:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: AppArmor profile generator for Docker containers.
     - url: https://github.com/dash14/buildcage
       name: dash14/buildcage
       status: healthy
-      stars: 3
-      last_push: 2026-02-23T08:57:48Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 4
+      last_push: 2026-03-08T16:59:17Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Restricts outbound network access during Docker builds to prevent supply chain attacks, working as a drop-in BuildKit remote driver for Docker Buildx, with ready-to-use GitHub Actions.
     - url: https://github.com/hectorm/cetusguard
       name: hectorm/cetusguard
       status: healthy
       stars: 82
       forks: 2
-      last_push: 2026-02-09T12:53:32Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-01T11:42:56Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: CetusGuard is a tool that protects the Docker daemon socket by filtering calls to its API endpoints.
     - url: https://github.com/bridgecrewio/checkov
       name: bridgecrewio/checkov
       status: healthy
-      stars: 8487
-      forks: 1306
-      last_push: 2026-02-24T10:20:12Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 8510
+      forks: 1307
+      last_push: 2026-03-08T07:40:01Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Static analysis for infrastructure as code manifests (Terraform, Kubernetes, Cloudformation, Helm, Dockerfile, Kustomize) find security misconfiguration and fix them. By [bridgecrew](https://github.com/bridgecrewio).
     - url: https://github.com/dev-sec/cis-docker-benchmark
       name: dev-sec/cis-docker-benchmark
       status: stale
       stars: 524
       forks: 118
       last_push: 2023-05-02T12:59:10Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: This [InSpec][inspec] compliance profile implement the CIS Docker 1.12.0 Benchmark in an automated way to provide security best-practice tests around Docker daemon and containers in a production environment. By [dev-sec](https://github.com/dev-sec).
     - url: https://github.com/quay/clair
       name: quay/clair
       status: healthy
-      stars: 10932
+      stars: 10940
       forks: 1195
-      last_push: 2026-02-25T21:52:05Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-06T23:17:06Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By [coreos][coreos].
     - url: https://github.com/wolffcatskyy/crowdsec-blocklist-import
       name: wolffcatskyy/crowdsec-blocklist-import
       status: healthy
-      stars: 175
+      stars: 179
       forks: 4
-      last_push: 2026-02-26T20:00:21Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-07T18:44:39Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Aggregates 36 free threat intelligence feeds into 120k+ malicious IPs for CrowdSec bouncers, providing 10-20x more blocks than default lists. By [wolffcatskyy](https://github.com/wolffcatskyy).
     - url: https://github.com/eliasgranderubio/dagda
       name: eliasgranderubio/dagda
       status: stale
-      stars: 1219
+      stars: 1220
       forks: 169
       last_push: 2023-05-23T02:03:43Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Dagda is a tool to perform static analysis of known vulnerabilities, trojans, viruses, malware & other malicious threats in docker images/containers and to monitor the docker daemon and running docker containers for detecting anomalous activities. By [eliasgranderubio](https://github.com/eliasgranderubio).
     - url: https://github.com/deepfence/ThreatMapper
       name: deepfence/ThreatMapper
       status: healthy
       stars: 5235
       forks: 640
-      last_push: 2026-01-08T17:51:41Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T03:35:58Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless. By [deepfence][deepfence].
     - url: https://github.com/docker/docker-bench-security
       name: docker/docker-bench-security
       status: inactive
-      stars: 9599
-      forks: 1036
+      stars: 9600
+      forks: 1038
       last_push: 2024-10-21T07:26:06Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Script that checks for dozens of common best-practices around deploying Docker containers in production. By [docker][docker].
     - url: https://github.com/google/docker-explorer
       name: google/docker-explorer
       status: inactive
-      stars: 552
+      stars: 553
       forks: 45
       last_push: 2024-10-04T07:44:31Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: A tool to help forensicate offline docker acquisitions.
     - url: https://github.com/Peco602/dvwassl
       name: Peco602/dvwassl
       status: stale
       stars: 6
       forks: 4
       last_push: 2023-04-30T17:03:01Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: SSL-enabled Damn Vulnerable Web App to test Web Application Firewalls. By [Peco602][peco602].
     - url: https://github.com/checkmarx/kics
       name: checkmarx/kics
       status: healthy
-      stars: 2575
-      forks: 360
-      last_push: 2026-02-27T12:39:43Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 2581
+      forks: 361
+      last_push: 2026-03-06T15:34:55Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: An infrastructure-as-code scanning tool, find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle. Can be extended for additional policies. By [Checkmarx](https://github.com/Checkmarx).
     - url: https://github.com/theupdateframework/notary
       name: theupdateframework/notary
       status: archived
-      stars: 3288
+      stars: 3287
       forks: 520
       last_push: 2024-08-07T19:02:32Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: A server and a client for running and interacting with trusted collections. By [TUF](https://github.com/theupdateframework).
     - url: https://github.com/OpenSCAP/openscap
       name: OpenSCAP/openscap
       status: healthy
-      stars: 1672
-      forks: 421
+      stars: 1676
+      forks: 424
       last_push: 2026-02-27T12:44:50Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By [OpenSCAP](https://github.com/OpenSCAP).
     - url: https://github.com/dormstern/segspec
       name: dormstern/segspec
       status: healthy
       stars: 15
       last_push: 2026-02-23T11:39:00Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Extracts network dependencies from Docker Compose, Kubernetes manifests, Helm charts, and other config files to generate Kubernetes NetworkPolicies with evidence tracing. By [dormstern](https://github.com/dormstern).
     - url: https://github.com/anchore/syft
       name: anchore/syft
       status: healthy
-      stars: 8429
-      forks: 776
-      last_push: 2026-02-27T19:38:05Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 8454
+      forks: 779
+      last_push: 2026-03-08T08:12:44Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: CLI tool and library for generating a Software Bill of Materials (SBOM) from container images and filesystems.
     - url: https://github.com/falcosecurity/falco
       name: falcosecurity/falco
       status: healthy
-      stars: 8694
-      forks: 989
-      last_push: 2026-02-27T12:34:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 8712
+      forks: 990
+      last_push: 2026-03-02T17:54:20Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Sysdig Falco is an open source container security monitor. It can monitor application, container, host, and network activity and alert on unauthorized activity.
     - url: https://github.com/aquasecurity/trivy
       name: aquasecurity/trivy
       status: healthy
-      stars: 32289
-      forks: 2977
-      last_push: 2026-02-26T18:00:30Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 33020
+      forks: 76
+      last_push: 2026-03-06T06:42:06Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Security
+      description: Aqua Security's open source simple and comprehensive vulnerability scanner for containers (suitable for CI).
     - url: https://github.com/bytesharky/docker-dns
       name: bytesharky/docker-dns
       status: healthy
       stars: 3
       forks: 1
       last_push: 2025-12-26T02:44:43Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Service Discovery
+      description: Lightweight DNS forwarder for Docker containers, resolves container names with custom suffixes (e.g. `.docker`) on the host to simplify service discovery.
     - url: https://github.com/etcd-io/etcd
       name: etcd-io/etcd
       status: healthy
-      stars: 51580
-      forks: 10330
-      last_push: 2026-02-27T21:04:29Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 51631
+      forks: 10336
+      last_push: 2026-03-06T20:11:02Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Service Discovery
+      description: Distributed reliable key-value store for the most critical data of a distributed system by [etcd-io](https://github.com/etcd-io) (former part of CoreOS).
     - url: https://github.com/istio/istio
       name: istio/istio
       status: healthy
-      stars: 38054
-      forks: 8250
-      last_push: 2026-02-27T22:16:29Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 38089
+      forks: 8260
+      last_push: 2026-03-08T16:55:04Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Service Discovery
+      description: An open platform to connect, manage, and secure microservices.
     - url: https://github.com/gliderlabs/registrator
       name: gliderlabs/registrator
       status: healthy
-      stars: 4677
+      stars: 4675
       forks: 909
       last_push: 2025-05-22T04:16:52Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Service Discovery
+      description: Service registry bridge for Docker by [gliderlabs][gliderlabs] and [progrium][progrium].
     - url: https://github.com/minio/minio
       name: minio/minio
       status: archived
-      stars: 60392
-      forks: 7138
+      stars: 60448
+      forks: 7197
       last_push: 2026-02-12T20:18:51Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Volume Management / Data
+      description: S3 compatible object storage server in Docker containers.
     - url: https://github.com/Storidge/quick-start
       name: Storidge/quick-start
       status: stale
       stars: 1
       forks: 1
       last_push: 2019-09-09T21:42:15Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > Volume Management / Data
+      description: Software-defined Persistent Storage for Kubernetes and Docker Swarm.
     - url: https://github.com/AbianS/docker-db-manager
       name: AbianS/docker-db-manager
       status: healthy
       stars: 155
       forks: 5
       last_push: 2025-11-26T09:24:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Desktop
+      description: Desktop app for managing Docker database containers with visual interface and one-click operations.
     - url: https://github.com/felixgborrego/simple-docker-ui
       name: felixgborrego/simple-docker-ui
       status: inactive
-      stars: 607
+      stars: 606
       forks: 96
       last_push: 2024-09-06T09:31:07Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Desktop
+      description: Built on Electron. By [felixgborrego](https://github.com/felixgborrego/).
     - url: https://github.com/slonopotamus/stevedore
       name: slonopotamus/stevedore
       status: healthy
-      stars: 368
+      stars: 369
       forks: 13
       last_push: 2026-02-27T11:51:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Desktop
+      description: Good Docker Desktop replacement for Windows. Both Linux and Windows Containers are supported. [slonopotamus](https://github.com/slonopotamus).
     - url: https://github.com/jr-k/d4s
       name: jr-k/d4s
       status: healthy
-      stars: 51
+      stars: 55
       forks: 4
-      last_push: 2026-02-24T00:58:30Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-04T21:15:58Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: A fast, keyboard-driven terminal UI to manage Docker containers, Compose stacks, and Swarm services with the ergonomics of K9s.
     - url: https://github.com/wagoodman/dive
       name: wagoodman/dive
       status: healthy
-      stars: 53433
-      forks: 1949
+      stars: 53505
+      forks: 1953
       last_push: 2025-12-15T17:20:36Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: A tool for exploring each layer in a docker image. By [wagoodman](https://github.com/wagoodman).
     - url: https://github.com/lirantal/dockly
       name: lirantal/dockly
       status: healthy
-      stars: 4011
-      forks: 163
+      stars: 4014
+      forks: 164
       last_push: 2026-02-01T19:31:17Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: An interactive shell UI for managing Docker containers.
     - url: https://github.com/shubh-io/dockmate
       name: shubh-io/dockmate
       status: healthy
-      stars: 276
+      stars: 278
       forks: 5
       last_push: 2026-01-14T06:52:19Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: Lightweight terminal-based Docker and Podman manager with a text-based user interface,.
     - url: https://github.com/GhostWriters/DockSTARTer
       name: GhostWriters/DockSTARTer
       status: healthy
-      stars: 2543
+      stars: 2545
       forks: 291
-      last_push: 2026-02-25T19:44:53Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-01T14:12:50Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: DockSTARTer helps you get started with home server apps running in Docker by [GhostWriters](https://github.com/GhostWriters).
     - url: https://github.com/durableprogramming/dprs
       name: durableprogramming/dprs
       status: healthy
       stars: 36
       forks: 1
-      last_push: 2026-02-12T20:14:04Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-05T15:59:19Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: A developer-focused TUI for managing Docker containers with real-time log streaming and container management. Built with Rust. By [durableprogramming](https://github.com/durableprogramming).
     - url: https://github.com/moncho/dry
       name: moncho/dry
       status: healthy
-      stars: 3222
-      forks: 102
-      last_push: 2026-02-27T23:13:28Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 3227
+      forks: 103
+      last_push: 2026-03-08T10:25:15Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: An interactive CLI for Docker containers.
     - url: https://github.com/ajayd-san/gomanagedocker
       name: ajayd-san/gomanagedocker
       status: inactive
       stars: 632
       forks: 26
       last_push: 2024-12-28T07:44:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: TUI tool to view and manage your docker objects blazingly fast with sensible keybindings, also supports VIM navigation out of the box.
     - url: https://github.com/jesseduffield/lazydocker
       name: jesseduffield/lazydocker
       status: healthy
-      stars: 49901
-      forks: 1577
+      stars: 50030
+      forks: 1578
       last_push: 2026-01-17T06:16:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: The lazier way to manage everything docker. A simple terminal UI for both docker and docker-compose, written in Go with the gocui library. By [jesseduffield](https://github.com/jesseduffield).
     - url: https://github.com/Lifailon/lazyjournal
       name: Lifailon/lazyjournal
       status: healthy
-      stars: 1132
-      forks: 27
-      last_push: 2026-02-25T09:43:40Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 1175
+      forks: 28
+      last_push: 2026-03-06T14:14:51Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: A interface for reading and filtering the logs output of Docker and Podman containers like [Dozzle](dozzle) but for the terminal with support for fuzzy find, regex and output coloring.
     - url: https://github.com/mrjackwills/oxker
       name: mrjackwills/oxker
       status: healthy
-      stars: 1536
-      forks: 41
+      stars: 1552
+      forks: 43
       last_push: 2026-02-23T15:18:34Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Terminal UI
+      description: A simple tui to view & control docker containers. Written in [Rust](https://rust-lang.org/), making heavy use of [ratatui](https://github.com/tui-rs-revival/ratatui) & [Bollard](https://github.com/fussybeaver/bollard),.
     - url: https://github.com/jenssegers/captain
       name: jenssegers/captain
       status: stale
       stars: 244
-      forks: 11
+      forks: 10
       last_push: 2022-12-08T07:39:21Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Easily start and stop docker compose projects from any directory. By [jenssegers](https://github.com/jenssegers).
     - url: https://github.com/Falldog/dcinja
       name: Falldog/dcinja
       status: healthy
       stars: 13
       forks: 3
       last_push: 2025-06-26T12:33:01Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: The powerful and smallest binary size of template engine for docker command line environment. By [Falldog](https://github.com/Falldog).
     - url: https://github.com/exdx/dcp
       name: exdx/dcp
       status: stale
       stars: 114
       forks: 3
       last_push: 2023-07-24T01:09:54Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: A simple tool for copying files from container filesystems. By [exdx](https://github.com/exdx).
     - url: https://github.com/FabienD/docker-stack
       name: FabienD/docker-stack
       status: healthy
       stars: 22
       forks: 2
-      last_push: 2026-02-04T08:56:30Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-01T10:58:51Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Dctl is a Cli tool that helps developers by allowing them to execute all docker compose commands anywhere in the terminal, and more. By [FabienD](https://github.com/FabienD).
     - url: https://github.com/s0rg/decompose
       name: s0rg/decompose
       status: healthy
-      stars: 123
+      stars: 126
       forks: 6
       last_push: 2025-12-19T20:03:44Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Reverse-engineering tool for docker environments. By [s0rg](https://github.com/s0rg).
     - url: https://github.com/christian-korneck/docker-pushrm
       name: christian-korneck/docker-pushrm
       status: inactive
       stars: 148
       forks: 3
       last_push: 2024-06-10T21:42:09Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: A Docker CLI plugin that lets you push the README.md file from the current directory to Docker Hub. Also supports Quay and Harbor. By [christian-korneck](https://github.com/christian-korneck).
     - url: https://github.com/lucabello/docker-captain
       name: lucabello/docker-captain
       status: healthy
       stars: 2
-      last_push: 2026-02-21T00:13:43Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-07T00:13:26Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: A friendly CLI to manage multiple Docker Compose deployments with style — powered by Typer, Rich, questionary, and sh.
     - url: https://github.com/mayflower/docker-ls
       name: mayflower/docker-ls
       status: archived
       stars: 456
       forks: 68
       last_push: 2023-08-31T06:44:18Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: CLI tools for browsing and manipulating docker registries.
     - url: https://github.com/howtowhale/dvm
       name: howtowhale/dvm
       status: stale
-      stars: 524
+      stars: 525
       forks: 50
       last_push: 2022-03-30T13:23:11Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Docker version manager.
     - url: https://github.com/iamsoorena/goinside
       name: iamsoorena/goinside
       status: stale
       stars: 30
       forks: 2
       last_push: 2020-10-17T20:31:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Get inside a running docker container easily.
     - url: https://github.com/g31s/Pdocker
       name: g31s/Pdocker
       status: stale
       stars: 7
       forks: 2
       last_push: 2021-02-27T06:42:13Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: A simple tool to manage and maintain Docker for personal projects.
     - url: https://github.com/shiwaforce/poco
       name: shiwaforce/poco
       status: healthy
-      stars: 109
+      stars: 111
       forks: 6
-      last_push: 2026-02-24T16:23:44Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-02-28T12:31:09Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Proco will help you to organise and manage Docker, Docker-Compose, Kubernetes projects of any complexity using simple YAML config files to shorten the route from finding your project to initialising it in your local environment.
     - url: https://github.com/JonathonReinhart/scuba
       name: JonathonReinhart/scuba
       status: healthy
       stars: 96
       forks: 17
       last_push: 2026-01-26T04:03:05Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Transparently use Docker containers to encapsulate software build environments,.
     - url: https://github.com/containers/skopeo
       name: containers/skopeo
       status: healthy
-      stars: 10502
-      forks: 907
-      last_push: 2026-02-27T15:31:34Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 10538
+      forks: 908
+      last_push: 2026-03-08T00:58:49Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Work with remote images registries - retrieving information, images, signing content.
     - url: https://github.com/segersniels/supdock
       name: segersniels/supdock
       status: healthy
       stars: 86
       forks: 3
       last_push: 2026-02-23T13:29:54Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Allows for slightly more visual usage of Docker with an interactive prompt. By [segersniels](https://github.com/segersniels).
     - url: https://github.com/qazbnm456/tsaotun
       name: qazbnm456/tsaotun
       status: stale
-      stars: 58
+      stars: 59
       forks: 3
       last_push: 2022-10-04T06:53:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > CLI tools
+      description: Python based Assistance for Docker.
     - url: https://github.com/vutran/dext-docker-registry-plugin
       name: vutran/dext-docker-registry-plugin
       status: stale
       stars: 4
       forks: 1
       last_push: 2017-01-10T03:04:36Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Other
+      description: Search the Docker Registry with the Dext smart launcher. By [vutran](https://github.com/vutran).
     - url: https://github.com/jeroenpeeters/docker-ssh
       name: jeroenpeeters/docker-ssh
       status: stale
-      stars: 660
+      stars: 659
       forks: 89
       last_push: 2018-04-11T20:24:08Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Other
+      description: SSH Server for Docker containers ~ Because every container should be accessible. By [jeroenpeeters](https://github.com/jeroenpeeters).
     - url: https://github.com/marty90/multidocker
       name: marty90/multidocker
       status: stale
       stars: 56
       forks: 9
       last_push: 2018-11-27T15:12:56Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Other
+      description: Create a secure multi-user Docker machine, where each user is segregated into an indepentent container.
     - url: https://github.com/adrianmo/powerline-docker
       name: adrianmo/powerline-docker
       status: stale
       stars: 61
       forks: 6
       last_push: 2017-06-30T09:11:44Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Terminal > Other
+      description: A Powerline segment for showing the status of Docker containers.
     - url: https://github.com/knrdl/casa
       name: knrdl/casa
       status: healthy
       stars: 84
       forks: 5
-      last_push: 2026-02-26T16:33:07Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-02T14:26:48Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Outsource the administration of a handful of containers to your co-workers,.
     - url: https://github.com/wrfly/container-web-tty
       name: wrfly/container-web-tty
       status: healthy
       stars: 258
       forks: 46
-      last_push: 2026-02-07T06:18:34Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-02T16:34:06Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Connect your containers via a web-tty [wrfly](https://github.com/wrfly).
     - url: https://github.com/ProductiveOps/dokemon
       name: ProductiveOps/dokemon
       status: stale
-      stars: 758
+      stars: 759
       forks: 36
       last_push: 2024-02-21T10:51:14Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Docker Container Management GUI.
     - url: https://github.com/klausmeyer/docker-registry-browser
       name: klausmeyer/docker-registry-browser
       status: healthy
       stars: 675
       forks: 61
       last_push: 2026-02-21T09:06:10Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Web Interface for the Docker Registry HTTP API v2.
     - url: https://github.com/mkuchin/docker-registry-web
       name: mkuchin/docker-registry-web
       status: stale
       stars: 548
       forks: 133
       last_push: 2022-02-08T08:42:02Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Web UI, authentication service and event recorder for private docker registry v2.
     - url: https://github.com/dockersamples/docker-swarm-visualizer
       name: dockersamples/docker-swarm-visualizer
       status: inactive
       stars: 3348
-      forks: 594
+      forks: 596
       last_push: 2024-10-26T07:12:05Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Visualizes Docker services on a Docker Swarm (for running demos).
     - url: https://github.com/louislam/dockge
       name: louislam/dockge
       status: healthy
-      stars: 22251
-      forks: 705
+      stars: 22365
+      forks: 707
       last_push: 2026-01-21T10:51:44Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
     - url: https://github.com/mbecker20/komodo
       name: mbecker20/komodo
       status: healthy
-      stars: 10397
-      forks: 276
-      last_push: 2026-02-27T22:21:17Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 10494
+      forks: 277
+      last_push: 2026-03-08T14:48:23Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: A tool to build and deploy software on many servers.
     - url: https://github.com/kubevious/kubevious
       name: kubevious/kubevious
       status: stale
-      stars: 1693
+      stars: 1692
       forks: 95
       last_push: 2024-01-15T18:42:38Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: A highly visual web UI for Kubernetes which renders configuration and state in an application centric way.
     - url: https://github.com/hywax/mafl
       name: hywax/mafl
       status: healthy
-      stars: 671
+      stars: 675
       forks: 52
       last_push: 2025-10-26T02:26:26Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Minimalistic flexible homepage.
     - url: https://github.com/netdata/netdata
       name: netdata/netdata
       status: healthy
-      stars: 77906
-      forks: 6359
-      last_push: 2026-02-27T21:54:35Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 77993
+      forks: 6360
+      last_push: 2026-03-08T10:17:43Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Real-time performance monitoring.
     - url: https://github.com/OctoLinker/OctoLinker
       name: OctoLinker/OctoLinker
       status: stale
-      stars: 5351
+      stars: 5352
       forks: 283
       last_push: 2023-10-02T12:33:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
     - url: https://github.com/portainer/portainer
       name: portainer/portainer
       status: healthy
-      stars: 36692
-      forks: 2779
-      last_push: 2026-02-27T13:23:22Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 36781
+      forks: 2787
+      last_push: 2026-03-07T13:14:38Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: A lightweight management UI for managing your Docker hosts or Docker Swarm clusters.
     - url: https://github.com/ozlerhakan/rapid
       name: ozlerhakan/rapid
       status: stale
       stars: 147
       forks: 24
       last_push: 2021-09-21T08:44:39Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: A simple query dashboard to use Docker Remote API.
     - url: https://github.com/tobegit3hub/seagull
       name: tobegit3hub/seagull
       status: stale
       stars: 1939
       forks: 268
       last_push: 2017-11-22T02:11:23Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Friendly Web UI to monitor docker daemon.
     - url: https://github.com/swarmpit/swarmpit
       name: swarmpit/swarmpit
       status: healthy
-      stars: 3407
+      stars: 3410
       forks: 312
-      last_push: 2026-01-25T16:08:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-04T00:04:24Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Swarmpit provides simple and easy to use interface for your Docker Swarm cluster. You can manage your stacks, services, secrets, volumes, networks etc.
     - url: https://github.com/cuigh/swirl
       name: cuigh/swirl
       status: stale
-      stars: 667
+      stars: 668
       forks: 83
       last_push: 2023-05-16T02:47:48Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Swirl is a web management tool for Docker, focused on swarm cluster By [cuigh](https://github.com/cuigh/).
     - url: https://github.com/eclipse-theia/theia
       name: eclipse-theia/theia
       status: healthy
-      stars: 21381
-      forks: 2799
-      last_push: 2026-02-27T22:10:02Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 21393
+      forks: 2801
+      last_push: 2026-03-07T09:12:05Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: Extensible platform to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies.
     - url: https://github.com/fr4nsys/usulnet
       name: fr4nsys/usulnet
       status: healthy
-      stars: 71
-      forks: 2
+      stars: 77
+      forks: 3
       last_push: 2026-02-23T23:00:19Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Container Operations > User Interface > Web
+      description: A complete and modern Docker management platform designed for sysadmin, devops with enterprise grade tools, cve scanner, ssh, rdp on web and much more. By [fr4nsys](https://github.com/fr4nsys).
     - url: https://github.com/genuinetools/amicontained
       name: genuinetools/amicontained
       status: stale
-      stars: 1072
+      stars: 1073
       forks: 71
       last_push: 2020-12-09T04:37:59Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Container introspection tool. Find out what container runtime is being used as well as features available.
     - url: https://github.com/garywiz/chaperone
       name: garywiz/chaperone
       status: stale
-      stars: 178
+      stars: 179
       forks: 31
       last_push: 2020-07-16T21:30:27Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package.
     - url: https://github.com/nicomt/ckron
       name: nicomt/ckron
       status: healthy
       stars: 56
       forks: 6
       last_push: 2026-02-15T17:58:14Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: A cron-style job scheduler for docker,.
     - url: https://github.com/GoogleContainerTools/distroless
       name: GoogleContainerTools/distroless
       status: healthy
-      stars: 22291
-      forks: 1361
-      last_push: 2026-02-27T21:06:10Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 22329
+      forks: 1360
+      last_push: 2026-03-06T14:09:42Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Language focused docker images, minus the operating system,.
     - url: https://github.com/gliderlabs/docker-alpine
       name: gliderlabs/docker-alpine
       status: stale
-      stars: 5719
+      stars: 5720
       forks: 530
       last_push: 2021-04-01T08:02:51Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: A super small Docker base image _(5MB)_ using Alpine Linux.
     - url: https://github.com/jwilder/docker-gen
       name: jwilder/docker-gen
       status: healthy
-      stars: 4616
+      stars: 4620
       forks: 615
-      last_push: 2026-02-13T13:22:38Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-07T14:15:15Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Generate files from docker container meta-data.
     - url: https://github.com/powerman/dockerize
       name: powerman/dockerize
       status: healthy
       stars: 195
       forks: 17
-      last_push: 2026-02-23T15:53:51Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-05T18:12:32Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Utility to simplify running applications in docker containers by [jwilder][jwilder], [powerman][powerman].
     - url: https://github.com/tianon/gosu
       name: tianon/gosu
       status: healthy
-      stars: 4947
+      stars: 4952
       forks: 356
-      last_push: 2026-02-21T00:14:55Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-04T18:27:37Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Run this specific application as this specific user and get out of the pipeline (entrypoint script tool).
     - url: https://github.com/sindresorhus/is-docker
       name: sindresorhus/is-docker
       status: healthy
-      stars: 231
+      stars: 233
       forks: 16
       last_push: 2025-09-15T21:04:10Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Check if the process is running inside a Docker container.
     - url: https://github.com/ivanilves/lstags
       name: ivanilves/lstags
       status: stale
       stars: 340
       forks: 26
       last_push: 2023-05-11T20:38:37Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Sync Docker images across registries.
     - url: https://github.com/tarampampam/microcheck
       name: tarampampam/microcheck
       status: healthy
-      stars: 127
+      stars: 130
       forks: 2
       last_push: 2026-02-24T19:11:41Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Lightweight health check utilities for Docker containers (75 KB instead of 9.3 MB for httpcheck versus cURL) in pure C - http(s), port checks, and parallel execution are included.
     - url: https://github.com/mcuadros/ofelia
       name: mcuadros/ofelia
       status: healthy
-      stars: 3731
+      stars: 3742
       forks: 204
-      last_push: 2026-02-27T07:34:07Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T01:55:37Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
     - url: https://github.com/beyondssl/sparkview-container
       name: beyondssl/sparkview-container
       status: healthy
       stars: 20
       forks: 2
       last_push: 2025-09-22T06:59:43Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Access VMs, desktops, servers or applications anytime and from anywhere, without complex and costly client roll-outs or user management.
     - url: https://github.com/ncopa/su-exec
       name: ncopa/su-exec
       status: healthy
-      stars: 1017
+      stars: 1019
       forks: 103
       last_push: 2025-10-07T13:49:01Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: This is a simple tool that will simply execute a program with different privileges. The program will be executed directly and not run as a child, like su and sudo does, which avoids TTY and signal issues. Why reinvent gosu? This does more or less exactly the same thing as gosu but it is only 10kb instead of 1.8MB. By [ncopa](https://github.com/ncopa).
     - url: https://github.com/theAkito/sue
       name: theAkito/sue
       status: stale
       stars: 13
       forks: 1
       last_push: 2022-04-26T21:10:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Executes a program as a user different from the user running sue. This is a maintainable alternative to ncopa/su-exec, which is the better tianon/gosu. This one is far better (higher performance, smaller size), than the original gosu, however it is far easier to maintain, than su-exec, which is written in plain C. Made by [Akito][akito].
     - url: https://github.com/aptible/supercronic
       name: aptible/supercronic
       status: healthy
-      stars: 2383
+      stars: 2391
       forks: 141
-      last_push: 2026-02-11T20:22:54Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-06T13:28:13Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: Crontab-compatible job runner, designed specifically to run in containers.
     - url: https://github.com/vorakl/TrivialRC
       name: vorakl/TrivialRC
       status: stale
-      stars: 31
+      stars: 32
       forks: 5
       last_push: 2023-12-20T00:39:55Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Base Tools
+      description: A minimalistic Runtime Configuration system and process manager for containers [vorakl](https://github.com/vorakl).
     - url: https://github.com/ansible-community/ansible-bender
       name: ansible-community/ansible-bender
       status: healthy
-      stars: 692
+      stars: 694
       forks: 74
       last_push: 2026-01-07T23:21:32Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: A tool utilising `ansible` and `buildah`.
     - url: https://github.com/containers/buildah
       name: containers/buildah
       status: healthy
-      stars: 8633
-      forks: 879
-      last_push: 2026-02-27T18:52:32Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 8662
+      forks: 882
+      last_push: 2026-03-08T17:53:57Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: A tool that facilitates building OCI images.
     - url: https://github.com/moby/buildkit
       name: moby/buildkit
       status: healthy
-      stars: 9795
-      forks: 1373
-      last_push: 2026-02-27T15:45:57Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 9817
+      forks: 1379
+      last_push: 2026-03-06T22:37:08Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit.
     - url: https://github.com/cekit/cekit
       name: cekit/cekit
       status: healthy
       stars: 113
       forks: 44
       last_push: 2026-01-30T15:06:33Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: A tool used by openshift to build base images using different build engines.
     - url: https://github.com/mutable/container-factory
       name: mutable/container-factory
       status: stale
       stars: 64
       forks: 3
       last_push: 2015-05-06T16:07:53Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Produces Docker images from tarballs of application source code.
     - url: https://github.com/mdlavin/copy-docker-image
       name: mdlavin/copy-docker-image
       status: stale
       stars: 38
       forks: 16
       last_push: 2018-08-29T08:27:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Copy a Docker image between registries without a full Docker installation.
     - url: https://github.com/alibaba/derrick
       name: alibaba/derrick
       status: stale
-      stars: 694
+      stars: 693
       forks: 109
       last_push: 2023-03-06T22:40:17Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: A tool help you to automate the generation of Dockerfile and dockerize application by scanning the code. By [alibaba](https://github.com/alibaba).
     - url: https://github.com/orisano/dlayer
       name: orisano/dlayer
       status: healthy
       stars: 445
       forks: 12
-      last_push: 2026-02-11T11:03:36Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-02T09:11:34Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Docker layer analyzer.
     - url: https://github.com/mudler/docker-companion
       name: mudler/docker-companion
       status: healthy
       stars: 47
       forks: 9
       last_push: 2025-05-28T08:17:46Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: A command line tool written in Golang to squash and unpack docker images.
     - url: https://github.com/CtripCloud/docker-make
       name: CtripCloud/docker-make
       status: stale
       stars: 99
       forks: 20
       last_push: 2019-11-22T08:32:26Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Build, tag,and push a bunch of related docker images via a single command.
     - url: https://github.com/orf/docker-repack
       name: orf/docker-repack
       status: healthy
       stars: 151
       forks: 3
       last_push: 2025-04-24T06:46:00Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Repacks a Docker image into a smaller, more efficient version that makes it significantly faster to pull. By [orf](https://github.com/orf).
     - url: https://github.com/bcicen/docker-replay
       name: bcicen/docker-replay
       status: stale
       stars: 203
       forks: 13
       last_push: 2018-10-13T13:09:28Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Generate `docker run`command and options from running containers. By [bcicen](https://github.com/bcicen).
     - url: https://github.com/swipely/dockly
       name: swipely/dockly
       status: stale
       stars: 228
       forks: 10
       last_push: 2023-02-15T15:26:17Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Dockly is a gem made to ease the pain of packaging an application in Docker.
     - url: https://github.com/utensils/essex
       name: utensils/essex
       status: healthy
       stars: 38
       last_push: 2025-03-18T21:33:36Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: 'Boilerplate for Docker Based Projects: Essex is a CLI utility written in bash to quickly setup clean and consistent Docker projects with Makefile driven workflows. [jamesbrink](https://github.com/jamesbrink).'
     - url: https://github.com/NVIDIA/hpc-container-maker
       name: NVIDIA/hpc-container-maker
       status: healthy
-      stars: 508
+      stars: 510
       forks: 100
       last_push: 2026-02-19T23:22:06Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Generates Dockerfiles from a high level Python recipe, including building blocks for High-Performance Computing components.
     - url: https://github.com/genuinetools/img
       name: genuinetools/img
       status: inactive
       stars: 3990
       forks: 234
       last_push: 2024-05-19T22:07:07Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
     - url: https://github.com/duedil-ltd/portainer
       name: duedil-ltd/portainer
       status: stale
       stars: 134
       forks: 16
       last_push: 2017-02-28T17:15:49Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Apache Mesos framework for building Docker images.
     - url: https://github.com/cybersecsi/RAUDI
       name: cybersecsi/RAUDI
       status: healthy
       stars: 560
       forks: 34
-      last_push: 2026-02-26T09:33:46Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-05T01:57:28Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: A tool to automatically update (and optionally push to Docker Hub) Docker Images for 3rd party software whenever theres is a new release/update/commit. By [SecSI](https://github.com/cybersecsi).
     - url: https://github.com/lavie/runlike
       name: lavie/runlike
       status: healthy
-      stars: 2916
-      forks: 162
+      stars: 2919
+      forks: 163
       last_push: 2025-12-04T12:36:39Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Generate `docker run`command and options from running containers.
     - url: https://github.com/theAkito/userdef
       name: theAkito/userdef
       status: stale
       stars: 11
       last_push: 2023-10-14T20:34:12Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: An advanced `adduser` for your Alpine based Docker images. Made by [Akito][akito].
     - url: https://github.com/P3GLEG/Whaler
       name: P3GLEG/Whaler
       status: healthy
       stars: 1185
       forks: 101
       last_push: 2025-09-17T03:56:52Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: Program to reverse Docker images into Dockerfiles.
     - url: https://github.com/Gueils/whales
       name: Gueils/whales
       status: stale
       stars: 391
       forks: 20
       last_push: 2019-05-27T13:20:14Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Builder
+      description: A tool to automatically dockerize your applications.
     - url: https://github.com/garywiz/chaperone-docker
       name: garywiz/chaperone-docker
       status: stale
       stars: 66
       forks: 11
       last_push: 2018-10-05T07:48:36Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Dockerfile
+      description: A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits.
     - url: https://github.com/patrickhoefler/dockerfilegraph
       name: patrickhoefler/dockerfilegraph
       status: healthy
       stars: 255
       forks: 17
-      last_push: 2026-02-26T05:40:58Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T00:49:58Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Dockerfile
+      description: Visualize your multi-stage Dockerfiles. By [PatrickHoefler](https://github.com/patrickhoefler).
     - url: https://github.com/Dockershelf/dockershelf
       name: Dockershelf/dockershelf
       status: healthy
       stars: 97
       forks: 13
-      last_push: 2026-01-22T01:03:39Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-05T01:03:36Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Dockerfile
+      description: A repository that serves as a collector for docker recipes that are universal, efficient and slim. Images are updated, tested and published daily via a Travis cron job.
     - url: https://github.com/deckrun/dockadvisor
       name: deckrun/dockadvisor
       status: healthy
-      stars: 178
+      stars: 186
       forks: 6
       last_push: 2026-01-12T09:26:02Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Linter
+      description: Lightweight Dockerfile linter with 60+ rules, quality scoring, and security checks.
     - url: https://github.com/wemake-services/docker-image-size-limit
       name: wemake-services/docker-image-size-limit
       status: healthy
       stars: 130
       forks: 5
-      last_push: 2026-02-27T11:53:07Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-06T23:18:34Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Linter
+      description: A tool to keep an eye on your docker images size.
     - url: https://github.com/buddy-works/dockerfile-linter
       name: buddy-works/dockerfile-linter
       status: stale
       stars: 46
       forks: 3
       last_push: 2023-03-04T05:06:08Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Linter
+      description: The linter lets you verify Dockerfile syntax to make sure it follows the best practices for building efficient Docker images.
     - url: https://github.com/replicatedhq/dockerfilelint
       name: replicatedhq/dockerfilelint
       status: stale
-      stars: 1031
+      stars: 1029
       forks: 83
       last_push: 2023-09-27T20:58:01Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Linter
+      description: An opinionated Dockerfile linter.
     - url: https://github.com/hadolint/hadolint
       name: hadolint/hadolint
       status: healthy
-      stars: 11966
+      stars: 11985
       forks: 487
-      last_push: 2026-01-27T13:27:01Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-02T08:58:07Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Linter
+      description: A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions;.
     - url: https://github.com/RedCoolBeans/cargos-buildroot
       name: RedCoolBeans/cargos-buildroot
       status: stale
       stars: 11
       forks: 2
       last_push: 2017-04-02T14:59:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Registry
+      description: A bare essential OS for running the Docker Engine on bare metal or Cloud. By [RedCoolBeans](https://github.com/RedCoolBeans).
     - url: https://github.com/hcguersoy/cleanreg
       name: hcguersoy/cleanreg
       status: stale
       stars: 59
       forks: 18
       last_push: 2022-09-03T17:43:40Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Registry
+      description: A small tool to delete image manifests from a Docker Registry implementing the API v2, dereferencing them for the GC.
     - url: https://github.com/netvarun/docket
       name: netvarun/docket
       status: stale
       stars: 709
       forks: 33
       last_push: 2020-09-02T02:35:17Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Registry
+      description: Custom docker registry that allows for lightning fast deploys through bittorrent.
     - url: https://github.com/dragonflyoss/Dragonfly2
       name: dragonflyoss/Dragonfly2
       status: healthy
-      stars: 3049
-      forks: 373
-      last_push: 2026-02-25T02:37:31Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 3070
+      forks: 377
+      last_push: 2026-03-05T12:44:54Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Registry
+      description: Provide efficient, stable and secure file distribution and image acceleration based on p2p technology.
     - url: https://github.com/uber/kraken
       name: uber/kraken
       status: healthy
-      stars: 6653
+      stars: 6659
       forks: 468
-      last_push: 2026-02-25T13:57:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-05T13:24:04Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Registry
+      description: Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds.
     - url: https://github.com/jhstatewide/nscr
       name: jhstatewide/nscr
       status: healthy
       stars: 1
       last_push: 2025-10-27T14:37:18Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Registry
+      description: A light-weight, self-contained container registry that's easy to run and maintain.
     - url: https://github.com/inmagik/registryo
       name: inmagik/registryo
       status: healthy
       stars: 15
       last_push: 2025-12-17T10:20:47Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Registry
+      description: UI and token based authentication server for onpremise docker registry.
     - url: https://github.com/noteed/rescoyl
       name: noteed/rescoyl
       status: stale
       stars: 18
       forks: 4
       last_push: 2017-04-08T19:17:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Docker Images > Registry
+      description: Private Docker registry (free and open source).
     - url: https://github.com/instacart/ahab
       name: instacart/ahab
       status: stale
       stars: 137
       forks: 7
       last_push: 2018-11-16T21:54:44Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: Docker event handling with Python.
     - url: https://github.com/lispyclouds/contajners
       name: lispyclouds/contajners
       status: healthy
       stars: 145
       forks: 8
       last_push: 2026-02-20T09:07:36Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: An idiomatic, data-driven, REPL friendly Clojure client for OCI container engines. By [lispyclouds][lispyclouds].
     - url: https://github.com/gesellix/docker-client
       name: gesellix/docker-client
       status: healthy
       stars: 119
       forks: 28
-      last_push: 2026-02-27T16:52:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T12:34:16Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: A Docker remote api client library for the JVM, written in Groovy.
     - url: https://github.com/dgongut/docker-controller-bot
       name: dgongut/docker-controller-bot
       status: healthy
-      stars: 240
+      stars: 241
       forks: 31
       last_push: 2026-02-04T15:58:07Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: Telegram bot to control docker containers. By [dgongut](https://github.com/dgongut/).
     - url: https://github.com/whisklabs/docker-it-scala
       name: whisklabs/docker-it-scala
       status: stale
       stars: 433
       forks: 90
       last_push: 2024-02-14T12:56:54Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: Docker integration testing kit with Scala.
     - url: https://github.com/amihaiemil/docker-java-api
       name: amihaiemil/docker-java-api
       status: stale
       stars: 274
       forks: 55
       last_push: 2021-06-04T01:21:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: Lightweight, truly object-oriented, Java client for Docker's API. By [amihaiemil](https://github.com/amihaiemil).
     - url: https://github.com/fabric8io/docker-maven-plugin
       name: fabric8io/docker-maven-plugin
       status: healthy
-      stars: 1928
+      stars: 1929
       forks: 656
       last_push: 2026-02-24T15:30:08Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: A Maven plugin for running and creating Docker images.
     - url: https://github.com/Microsoft/Docker.DotNet
       name: Microsoft/Docker.DotNet
       status: healthy
-      stars: 2403
-      forks: 407
+      stars: 2405
+      forks: 409
       last_push: 2025-08-28T14:08:51Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: C#/.NET HTTP client for the Docker remote API.
     - url: https://github.com/ChangemakerStudios/Docker.Registry.DotNet
       name: ChangemakerStudios/Docker.Registry.DotNet
       status: healthy
       stars: 42
       forks: 21
       last_push: 2025-10-06T03:43:52Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: .NET (C#) Client Library for interacting with a Docker Registry API (v2) [rquackenbush](https://github.com/rquackenbush).
     - url: https://github.com/apocas/dockerode
       name: apocas/dockerode
       status: healthy
-      stars: 4827
+      stars: 4834
       forks: 486
-      last_push: 2026-01-09T08:49:53Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-02-28T03:51:43Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: Docker Remote API node.js module.
     - url: https://github.com/eon01/DoMonit
       name: eon01/DoMonit
       status: stale
       stars: 76
       forks: 15
       last_push: 2021-06-01T21:57:21Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: A simple Docker Monitoring wrapper For Docker API.
     - url: https://github.com/fsouza/go-dockerclient
       name: fsouza/go-dockerclient
       status: healthy
       stars: 2236
-      forks: 555
-      last_push: 2026-02-26T03:52:11Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      forks: 556
+      last_push: 2026-03-06T04:10:21Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
     - url: https://github.com/gesellix/gradle-docker-plugin
       name: gesellix/gradle-docker-plugin
       status: healthy
       stars: 81
       forks: 17
-      last_push: 2026-02-27T14:32:37Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T12:36:04Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: A Docker remote api plugin for Gradle.
     - url: https://github.com/greenled/portainer-stack-utils
       name: greenled/portainer-stack-utils
       status: healthy
       stars: 74
       forks: 16
       last_push: 2025-12-05T02:34:50Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: Bash script to deploy/update/undeploy Docker stacks in a Portainer instance from a docker-compose yaml file. By [greenled](https://github.com/greenled).
     - url: https://github.com/marcuslonnberg/sbt-docker
       name: marcuslonnberg/sbt-docker
       status: inactive
       stars: 733
       forks: 112
       last_push: 2024-12-12T15:18:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > API Client
+      description: Create Docker images directly from sbt.
     - url: https://github.com/harbur/captain
       name: harbur/captain
       status: healthy
       stars: 776
       forks: 48
       last_push: 2025-05-25T00:09:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Convert your Git workflow to Docker containers ready for Continuous Delivery.
     - url: https://github.com/caicloud/cyclone
       name: caicloud/cyclone
       status: stale
-      stars: 1074
+      stars: 1073
       forks: 171
       last_push: 2023-10-24T12:08:27Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Powerful workflow engine and end-to-end pipeline solutions implemented with native Kubernetes resources.
     - url: https://github.com/DefangLabs/defang
       name: DefangLabs/defang
       status: healthy
       stars: 146
       forks: 24
-      last_push: 2026-02-27T19:16:01Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-08T06:20:54Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Deploy Docker Compose to your favorite cloud in minutes.
     - url: https://github.com/crazy-max/diun
       name: crazy-max/diun
       status: healthy
-      stars: 4428
-      forks: 144
-      last_push: 2026-02-27T07:02:29Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 4457
+      forks: 143
+      last_push: 2026-03-08T17:42:13Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Receive notifications when an image or repository is updated on a Docker registry by [crazy-max].
     - url: https://github.com/mag37/dockcheck
       name: mag37/dockcheck
       status: healthy
-      stars: 2221
-      forks: 77
-      last_push: 2026-02-06T17:07:58Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 2237
+      forks: 80
+      last_push: 2026-03-05T18:27:54Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: A script checking updates for docker images without pulling then auto-update selected/all containers. With notifications, pruning and more.
     - url: https://github.com/jenkinsci/docker-plugin
       name: jenkinsci/docker-plugin
       status: healthy
-      stars: 498
+      stars: 499
       forks: 325
-      last_push: 2026-01-16T13:00:38Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-02-28T10:00:57Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
     - url: https://github.com/drone/drone
       name: drone/drone
       status: healthy
-      stars: 33826
-      forks: 2894
-      last_push: 2026-02-27T08:17:22Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 33861
+      forks: 2896
+      last_push: 2026-03-07T12:23:43Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Continuous integration server built on Docker and configured using YAML files.
     - url: https://github.com/CodesWhat/drydock
       name: CodesWhat/drydock
       status: healthy
-      stars: 93
-      forks: 4
-      last_push: 2026-02-24T04:20:32Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 111
+      forks: 5
+      last_push: 2026-03-08T18:03:39Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Open-source container update monitoring with web dashboard, 15 registries, 16 notification triggers, and security scanning. Drop-in WUD replacement. By [CodesWhat](https://github.com/CodesWhat).
     - url: https://github.com/shizunge/gantry
       name: shizunge/gantry
       status: healthy
-      stars: 86
+      stars: 84
       forks: 4
-      last_push: 2026-02-24T05:29:27Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-06T03:39:21Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Automatically update selected Docker swarm services.
     - url: https://github.com/theSage21/jaypore_ci
       name: theSage21/jaypore_ci
-      status: stale
+      status: healthy
       stars: 38
       forks: 4
-      last_push: 2023-06-03T17:03:43Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-07T17:18:09Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Simple, very flexible, powerful CI / CD / automation system configured in Python. Offline and local first.
     - url: https://github.com/Kraken-CI/kraken
       name: Kraken-CI/kraken
       status: healthy
       stars: 160
       forks: 20
       last_push: 2026-01-15T13:00:32Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing. One of its executors is Docker. Developed.
     - url: https://github.com/francescou/docker-continuous-deployment
       name: francescou/docker-continuous-deployment
       status: stale
       stars: 145
       forks: 38
       last_push: 2017-08-01T17:25:15Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Continuous deployment of a microservices application.
     - url: https://github.com/stelligent/mu
       name: stelligent/mu
       status: stale
       stars: 965
       forks: 133
       last_push: 2020-06-18T14:09:29Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Tool to configure CI/CD of your container applications via AWS CodePipeline, CodeBuild and ECS [Stelligent](https://github.com/stelligent).
     - url: https://github.com/systemslab/popper
       name: systemslab/popper
       status: stale
       stars: 307
       forks: 62
       last_push: 2022-03-29T22:02:27Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Github actions workflow (HCL syntax) execution engine.
     - url: https://github.com/Stratoscale/skipper
       name: Stratoscale/skipper
       status: healthy
       stars: 50
       forks: 22
       last_push: 2025-05-13T13:33:39Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Easily dockerize your Git repository.
     - url: https://github.com/ghostsquad/swarmci
       name: ghostsquad/swarmci
       status: stale
       stars: 58
       forks: 6
       last_push: 2017-02-24T02:14:18Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > CI/CD
+      description: Create a distributed, isolated task pipeline in your Docker Swarm.
     - url: https://github.com/binci/binci
       name: binci/binci
       status: stale
       stars: 673
       forks: 24
       last_push: 2022-12-06T20:24:40Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Containerize your development workflow. (formerly DevLab by [TechnologyAdvice](https://github.com/TechnologyAdvice)).
     - url: https://github.com/coder/coder
       name: coder/coder
       status: healthy
-      stars: 12338
-      forks: 1177
-      last_push: 2026-02-27T23:34:35Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 12417
+      forks: 1194
+      last_push: 2026-03-08T17:58:52Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Remote development machines powered by Terraform or Docker.
     - url: https://github.com/lstephen/construi
       name: lstephen/construi
       status: stale
       stars: 24
       forks: 5
       last_push: 2022-12-08T06:36:04Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Run your builds inside a Docker defined environment.
     - url: https://github.com/whatwedo/dde
       name: whatwedo/dde
       status: healthy
       stars: 46
       forks: 9
       last_push: 2026-02-20T12:25:04Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Local development environment toolset based on Docker. By [whatwedo](https://github.com/whatwedo).
     - url: https://github.com/bibendi/dip
       name: bibendi/dip
       status: inactive
-      stars: 1322
+      stars: 1324
       forks: 50
       last_push: 2024-12-25T09:38:57Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: CLI utility for straightforward provisioning and interacting with an application configured by docker-compose. By [bibendi](https://github.com/bibendi).
     - url: https://github.com/dnephin/dobi
       name: dnephin/dobi
       status: stale
       stars: 315
       forks: 34
       last_push: 2023-11-10T06:32:19Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: A build automation tool for Docker applications. By [dnephin](https://github.com/dnephin).
     - url: https://github.com/nandoquintana/docker-missing-tools
       name: nandoquintana/docker-missing-tools
       status: stale
       stars: 30
       forks: 6
       last_push: 2018-05-01T13:10:10Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: A set of bash commands to shortcut typical docker dev-ops. An alternative to creating typical helper scripts like "build.sh" and "deploy.sh" inside code repositories. By [NandoQuintana](https://github.com/nandoquintana).
     - url: https://github.com/Ph3nol/Docker-Arch
       name: Ph3nol/Docker-Arch
       status: stale
       stars: 31
       forks: 2
       last_push: 2018-09-24T06:43:08Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Generate Web/CLI projects Dockerized development environments, from 1 simple YAML file. By [Ph3nol](https://github.com/ph3nol).
     - url: https://github.com/EugenMayer/docker-sync
       name: EugenMayer/docker-sync
       status: healthy
-      stars: 3565
+      stars: 3564
       forks: 285
       last_push: 2025-11-30T20:06:16Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Drastically improves performance ([50-70x](https://github.com/EugenMayer/docker-sync/wiki/4.-Performance)) when using Docker for development on Mac OS X/Windows and Linux while sharing code to the container. By [EugenMayer](https://github.com/EugenMayer).
     - url: https://github.com/shyiko/docker-vm
       name: shyiko/docker-vm
       status: stale
       stars: 43
       forks: 8
       last_push: 2016-09-24T17:45:47Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Simple and transparent alternative to boot2docker (backed by Vagrant).
     - url: https://github.com/matifali/dockerdl
       name: matifali/dockerdl
       status: healthy
       stars: 86
       forks: 11
       last_push: 2025-12-29T19:27:19Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Deep Learning Docker Images. Don't waste time setting up a deep learning env when you can get a deep learning environment with everything pre-installed.
     - url: https://github.com/eclipse/che
       name: eclipse/che
       status: healthy
-      stars: 7128
-      forks: 1199
-      last_push: 2026-02-27T12:40:18Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 7129
+      forks: 1200
+      last_push: 2026-03-06T15:10:49Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Developer workspace server with Docker runtimes, cloud IDE, next-generation Eclipse IDE.
     - url: https://github.com/EnvCLI/EnvCLI
       name: EnvCLI/EnvCLI
       status: healthy
       stars: 116
       forks: 4
       last_push: 2025-06-16T20:36:16Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Replace your local installation of Node, Go, ... with project-specific docker containers. By [EnvCLI](https://github.com/EnvCLI).
     - url: https://github.com/hpsaturn/esp32s3-linux
       name: hpsaturn/esp32s3-linux
       status: healthy
       stars: 78
       forks: 9
       last_push: 2025-04-05T08:38:16Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Container solution to compile Linux and develop it for ESP32 microcontrollers - By [Hpsaturn](https://github.com/hpsaturn).
     - url: https://github.com/moshebe/gebug
       name: moshebe/gebug
       status: healthy
       stars: 634
       forks: 17
-      last_push: 2026-02-27T21:45:21Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-06T21:42:46Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
     - url: https://github.com/senges/kitt
       name: senges/kitt
       status: stale
       stars: 20
       forks: 1
       last_push: 2023-02-23T14:01:05Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: A portable and disposable Shell environment, based on Docker and Nix. By [senges](https://github.com/senges).
     - url: https://github.com/lando/lando
       name: lando/lando
       status: healthy
-      stars: 4220
-      forks: 530
+      stars: 4222
+      forks: 527
       last_push: 2026-02-24T21:10:02Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects. By [Tandem](https://www.thinktandem.io/).
     - url: https://github.com/Peco602/rust-universal-compiler
       name: Peco602/rust-universal-compiler
       status: stale
       stars: 33
       forks: 2
       last_push: 2023-04-30T17:04:02Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Container solution to compile Rust projects for Linux, macOS and Windows. By [Peco602][peco602].
     - url: https://github.com/uniget-org/cli
       name: uniget-org/cli
       status: healthy
       stars: 20
       last_push: 2026-02-12T08:35:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Uni(versal)get, the installer and updater for container tools and beyond (formerly docker-setup). By [nicholasdille](https://github.com/nicholasdille).
     - url: https://github.com/tailhook/vagga
       name: tailhook/vagga
       status: stale
-      stars: 1895
+      stars: 1896
       forks: 96
       last_push: 2023-03-31T06:13:55Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.
     - url: https://github.com/deluan/zsh-in-docker
       name: deluan/zsh-in-docker
       status: inactive
-      stars: 1094
+      stars: 1096
       forks: 119
       last_push: 2024-09-30T19:07:49Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Development Environment
+      description: Install Zsh, Oh-My-Zsh and plugins inside a Docker container with one line! By [Deluan](https://www.deluan.com).
     - url: https://github.com/tjamet/caduc
       name: tjamet/caduc
       status: stale
       stars: 21
       forks: 1
       last_push: 2019-01-07T16:07:50Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Garbage Collection
+      description: A docker garbage collector cleaning stuff you did not use recently.
     - url: https://github.com/ZZROTDesign/docker-clean
       name: ZZROTDesign/docker-clean
       status: stale
       stars: 1304
       forks: 90
       last_push: 2018-01-16T16:29:41Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Garbage Collection
+      description: A script that cleans Docker containers, images and volumes.
     - url: https://github.com/Yelp/docker-custodian
       name: Yelp/docker-custodian
       status: inactive
       stars: 374
       forks: 49
       last_push: 2024-08-14T08:08:10Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Garbage Collection
+      description: Keep docker hosts tidy. By [Yelp](https://github.com/Yelp).
     - url: https://github.com/pdacity/docker_gc
       name: pdacity/docker_gc
       status: stale
-      stars: 127
+      stars: 128
       forks: 22
       last_push: 2024-02-09T17:50:47Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Garbage Collection
+      description: Image for automatic removing unused Docker Swarm objects. Also works just as Docker Service.
     - url: https://github.com/stepchowfun/docuum
       name: stepchowfun/docuum
       status: healthy
-      stars: 683
-      forks: 42
-      last_push: 2025-12-12T02:03:33Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 684
+      forks: 43
+      last_push: 2026-03-07T22:59:03Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Garbage Collection
+      description: Least recently used (LRU) eviction of Docker images.
     - url: https://github.com/apache/openwhisk
       name: apache/openwhisk
       status: healthy
-      stars: 6756
-      forks: 1173
+      stars: 6757
+      forks: 1174
       last_push: 2026-01-24T05:17:06Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Serverless
+      description: A serverless, open source cloud platform that executes functions in response to events at any scale. By [apache](https://github.com/apache).
     - url: https://github.com/bfirsh/funker-example-voting-app
       name: bfirsh/funker-example-voting-app
       status: stale
       stars: 26
       forks: 8
       last_push: 2016-11-29T11:51:39Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Serverless
+      description: Functions as Docker containers example voting app. By [bfirsh](https://github.com/bfirsh).
     - url: https://github.com/iron-io/functions
       name: iron-io/functions
       status: stale
       stars: 3220
       forks: 224
       last_push: 2023-09-15T01:37:58Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Serverless
+      description: The serverless microservices platform FaaS (Functions as a Service) which uses Docker containers to run Any language or AWS Lambda functions.
     - url: https://github.com/openfaas/faas
       name: openfaas/faas
       status: healthy
-      stars: 26102
+      stars: 26105
       forks: 1970
       last_push: 2026-02-22T08:49:51Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Serverless
+      description: A complete serverless functions framework for Docker and Kubernetes. By [OpenFaaS](https://github.com/openfaas).
     - url: https://github.com/grycap/scar
       name: grycap/scar
       status: stale
-      stars: 600
+      stars: 599
       forks: 47
       last_push: 2023-05-22T11:01:11Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Serverless
+      description: Serverless Container-aware Architectures (SCAR) is a serverless framework that allows easy deployment and execution of containers (e.g. Docker) in Serverless environments (e.g. Lambda).
     - url: https://github.com/GoogleContainerTools/container-structure-test
       name: GoogleContainerTools/container-structure-test
       status: healthy
-      stars: 2460
+      stars: 2462
       forks: 207
       last_push: 2026-02-20T23:41:16Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Testing
+      description: A framework to validate the structure of an image by checking the outputs of commands or the contents of the filesystem. By [GoogleContainerTools][googlecontainertools].
     - url: https://github.com/zuazo/dockerspec
       name: zuazo/dockerspec
       status: stale
       stars: 181
       forks: 8
       last_push: 2017-08-30T20:40:57Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Testing
+      description: A small Ruby Gem to run RSpec and Serverspec, Infrataster and Capybara tests against Dockerfiles or Docker images easily. By [zuazo](https://github.com/zuazo).
     - url: https://github.com/lynchborg/ezdc
       name: lynchborg/ezdc
       status: stale
       stars: 12
       last_push: 2024-02-12T08:42:24Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Testing
+      description: Golang test harness for easily setting up tests that rely on services in a docker-compose.yml. By [byrnedo].
     - url: https://github.com/kurtosis-tech/kurtosis
       name: kurtosis-tech/kurtosis
       status: healthy
-      stars: 523
-      forks: 88
-      last_push: 2026-02-27T07:48:41Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 526
+      forks: 90
+      last_push: 2026-03-06T11:06:13Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Testing
+      description: 'A composable build system for multi-container test environments that provides developers with: a powerful Python-like SDK for environment configuration, a compile-time validator to verify environment behavior & setup, and a runtime for environment execution, monitoring, & debugging capabilities. By [Kurtosis](https://www.kurtosis.com/).'
     - url: https://github.com/alexei-led/pumba
       name: alexei-led/pumba
       status: healthy
-      stars: 2980
+      stars: 3000
       forks: 201
-      last_push: 2026-02-27T19:58:45Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-01T21:26:21Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Testing
+      description: Chaos testing tool for Docker. Can be deployed on kubernetes and CoreOS cluster. By [alexei-led](https://github.com/alexei-led).
     - url: https://github.com/docker-exec/dexec
       name: docker-exec/dexec
       status: stale
       stars: 332
       forks: 14
       last_push: 2021-05-13T06:04:19Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: Command line interface written in Go for running code with Docker Exec images.
     - url: https://github.com/benzaita/dockerized-cli
       name: benzaita/dockerized-cli
       status: stale
       stars: 65
       forks: 5
       last_push: 2024-02-27T13:49:38Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: Seamlessly execute commands in a container.
     - url: https://github.com/CenturyLinkLabs/dray
       name: CenturyLinkLabs/dray
       status: stale
       stars: 386
       forks: 37
       last_push: 2020-01-24T17:34:58Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: An engine for managing the execution of container-based workflows.
     - url: https://github.com/artsy/hokusai
       name: artsy/hokusai
       status: healthy
       stars: 98
       forks: 25
-      last_push: 2026-02-06T19:41:17Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      last_push: 2026-03-06T10:57:58Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: A Docker + Kubernetes CLI for application developers; used to containerize an application and to manage its lifecycle throughout development, testing, and release cycles. From [artsy](https://github.com/artsy).
     - url: https://github.com/livecycle/preevy
       name: livecycle/preevy
       status: healthy
-      stars: 2189
+      stars: 2191
       forks: 87
       last_push: 2026-02-06T07:38:46Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: Preview environments for Docker and Docker Compose projects. Test your changes and get feedback from devs and non-devs (Product/Design) by deploying pull requests to the your cloud provider as part of your CI pipeline.
     - url: https://github.com/ianmiell/shutit
       name: ianmiell/shutit
       status: stale
-      stars: 2145
+      stars: 2144
       forks: 110
       last_push: 2022-08-14T14:43:18Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: Tool for building and maintaining complex Docker deployments.
     - url: https://github.com/subuser-security/subuser
       name: subuser-security/subuser
       status: inactive
       stars: 894
       forks: 63
       last_push: 2025-02-23T11:31:31Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: Makes it easy to securely and portably run graphical desktop applications in Docker.
     - url: https://github.com/christippett/terraform-cloudinit-container-server
       name: christippett/terraform-cloudinit-container-server
       status: stale
       stars: 120
       forks: 30
       last_push: 2022-08-19T06:41:50Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: Terraform module for deploying a single Docker image or `docker-compose.yaml` file to any Cloud™ VM.
     - url: https://github.com/ramitsurana/turbo
       name: ramitsurana/turbo
       status: stale
       stars: 27
       forks: 12
       last_push: 2021-12-22T19:03:53Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: Simple and Powerful utility for docker. By [ramitsurana][ramitsurana].
     - url: https://github.com/indigo-dc/udocker
       name: indigo-dc/udocker
       status: healthy
-      stars: 1703
+      stars: 1709
       forks: 164
       last_push: 2025-08-13T17:21:57Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Development with Docker > Wrappers
+      description: A tool to execute simple docker containers in batch or interactive systems without root privileges.
     - url: https://github.com/Appdynamics/docker-monitoring-extension
       name: Appdynamics/docker-monitoring-extension
       status: inactive
       stars: 5
       forks: 6
       last_push: 2024-10-02T10:48:59Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Services based on Docker (mostly :heavy_dollar_sign:) > Monitoring Services
+      description: Docker Monitoring extension gathers metrics from the Docker Remote API, either using Unix Socket or TCP.
     - url: https://github.com/sematext/sematext-agent-docker
       name: sematext/sematext-agent-docker
       status: stale
       stars: 208
       forks: 32
       last_push: 2023-12-09T18:07:20Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Projects > Services based on Docker (mostly :heavy_dollar_sign:) > Monitoring Services
+      description: Monitoring of host and container metrics, Docker events and logs. Automatic log parser. Anomaly Detection and alerting for metrics and logs. [sematext](https://github.com/sematext).
     - url: https://github.com/cicdops/awesome-ciandcd
       name: cicdops/awesome-ciandcd
       status: inactive
-      stars: 1985
-      forks: 224
+      stars: 1987
+      forks: 225
       last_push: 2024-04-01T18:08:23Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Useful Resources > Awesome Lists
+      description: Not specific to docker but relevant.
     - url: https://github.com/docker/awesome-compose
       name: docker/awesome-compose
       status: healthy
-      stars: 44126
-      forks: 8054
-      last_push: 2026-02-27T05:54:59Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      stars: 44283
+      forks: 8070
+      last_push: 2026-03-05T09:59:09Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Useful Resources > Awesome Lists
+      description: Docker Compose samples.
     - url: https://github.com/hexops/dockerfile
       name: hexops/dockerfile
       status: stale
-      stars: 4092
+      stars: 4091
       forks: 155
       last_push: 2021-08-08T04:42:37Z
-      checked_at: 2026-02-27T23:43:36.588325Z
+      has_license: true
+      checked_at: 2026-03-08T18:26:00.233336Z
+      category: Useful Resources > Good Tips
+      description: This repository has best-practices for writing Dockerfiles.

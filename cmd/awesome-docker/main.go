@@ -14,6 +14,7 @@ import (
 	"github.com/veggiemonk/awesome-docker/internal/linter"
 	"github.com/veggiemonk/awesome-docker/internal/parser"
 	"github.com/veggiemonk/awesome-docker/internal/scorer"
+	"github.com/veggiemonk/awesome-docker/internal/tui"
 )
 
 const (
@@ -49,6 +50,7 @@ func main() {
 		reportCmd(),
 		validateCmd(),
 		ciCmd(),
+		browseCmd(),
 	)
 
 	if err := root.Execute(); err != nil {
@@ -79,6 +81,24 @@ func collectURLs(sections []parser.Section, urls *[]string) {
 			*urls = append(*urls, e.URL)
 		}
 		collectURLs(s.Children, urls)
+	}
+}
+
+type entryMeta struct {
+	Category    string
+	Description string
+}
+
+func collectEntriesWithCategory(sections []parser.Section, parentPath string, out map[string]entryMeta) {
+	for _, s := range sections {
+		path := s.Title
+		if parentPath != "" {
+			path = parentPath + " > " + s.Title
+		}
+		for _, e := range s.Entries {
+			out[e.URL] = entryMeta{Category: path, Description: e.Description}
+		}
+		collectEntriesWithCategory(s.Children, path, out)
 	}
 }
 
@@ -159,6 +179,16 @@ func runHealth(ctx context.Context) error {
 	}
 
 	scored := scorer.ScoreAll(infos)
+
+	meta := make(map[string]entryMeta)
+	collectEntriesWithCategory(doc.Sections, "", meta)
+	for i := range scored {
+		if m, ok := meta[scored[i].URL]; ok {
+			scored[i].Category = m.Category
+			scored[i].Description = m.Description
+		}
+	}
+
 	cacheEntries := scorer.ToCacheEntries(scored)
 
 	hc, err := cache.LoadHealthCache(healthCachePath)
@@ -186,12 +216,15 @@ func scoredFromCache() ([]scorer.ScoredEntry, error) {
 	scored := make([]scorer.ScoredEntry, 0, len(hc.Entries))
 	for _, e := range hc.Entries {
 		scored = append(scored, scorer.ScoredEntry{
-			URL:        e.URL,
-			Name:       e.Name,
-			Status:     scorer.Status(e.Status),
-			Stars:      e.Stars,
-			HasLicense: e.HasLicense,
-			LastPush:   e.LastPush,
+			URL:         e.URL,
+			Name:        e.Name,
+			Status:      scorer.Status(e.Status),
+			Stars:       e.Stars,
+			Forks:       e.Forks,
+			HasLicense:  e.HasLicense,
+			LastPush:    e.LastPush,
+			Category:    e.Category,
+			Description: e.Description,
 		})
 	}
 	return scored, nil
@@ -626,5 +659,25 @@ func ciHealthReportCmd() *cobra.Command {
 	cmd.Flags().StringVar(&issueFile, "issue-file", "health_report.txt", "Path to write health issue markdown body")
 	cmd.Flags().StringVar(&githubOutput, "github-output", "", "Path to GitHub output file (typically $GITHUB_OUTPUT)")
 	cmd.Flags().BoolVar(&strict, "strict", false, "Return non-zero when health/report fails")
+	return cmd
+}
+
+func browseCmd() *cobra.Command {
+	var cachePath string
+	cmd := &cobra.Command{
+		Use:   "browse",
+		Short: "Interactive TUI browser for awesome-docker resources",
+		RunE: func(cmd *cobra.Command, args []string) error {
+			hc, err := cache.LoadHealthCache(cachePath)
+			if err != nil {
+				return fmt.Errorf("load cache: %w", err)
+			}
+			if len(hc.Entries) == 0 {
+				return fmt.Errorf("no cache data; run 'awesome-docker health' first")
+			}
+			return tui.Run(hc.Entries)
+		},
+	}
+	cmd.Flags().StringVar(&cachePath, "cache", healthCachePath, "Path to health cache YAML")
 	return cmd
 }

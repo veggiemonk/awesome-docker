@@ -125,6 +125,9 @@ report-json-file: $(HEALTH_REPORT_JSON) ## Generate HEALTH_REPORT.json from cach
 
 health-report: health report-file ## Refresh health cache then generate HEALTH_REPORT.md
 
+browse: build ## Launch interactive TUI browser
+	./$(BINARY) browse
+
 workflow-dev: fmt test lint check-pr website ## Full local development workflow
 
 workflow-pr: fmt test validate ## Recommended workflow before opening a PR
