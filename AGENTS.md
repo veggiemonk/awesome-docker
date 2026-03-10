@@ -73,6 +73,7 @@
 - Prefer project/repository URLs over marketing pages
 - Keep entries alphabetically ordered within each section
 - Keep descriptions concise and concrete
-- Use `:heavy_dollar_sign:` only for paid/commercial services
+- Use `:yen:` only for paid/commercial services
+- Use `:ice_cube:` for stale projects (2+ years inactive)
 - Remove archived/deprecated projects instead of tagging them
 - Avoid duplicate links and redirect variants

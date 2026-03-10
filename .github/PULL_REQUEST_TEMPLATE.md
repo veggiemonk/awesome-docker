@@ -25,4 +25,4 @@ Describe what changed and why.
 - [ ] Links point to project repositories (no duplicates or redirects)
 - [ ] Descriptions are concise and specific
 - [ ] Archived/deprecated projects were removed instead of tagged
-- [ ] Used `:heavy_dollar_sign:` only when applicable
+- [ ] Used `:yen:` only when applicable

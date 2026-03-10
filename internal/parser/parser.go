@@ -23,8 +23,9 @@ var markerDefs = []struct {
 	marker Marker
 }{
 	{text: ":skull:", marker: MarkerAbandoned},
-	{text: ":heavy_dollar_sign:", marker: MarkerPaid},
+	{text: ":yen:", marker: MarkerPaid},
 	{text: ":construction:", marker: MarkerWIP},
+	{text: ":ice_cube:", marker: MarkerStale},
 }
 
 // ParseEntry parses a single markdown list line into an Entry.

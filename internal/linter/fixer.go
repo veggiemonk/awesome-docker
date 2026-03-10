@@ -39,9 +39,11 @@ func FormatEntry(e parser.Entry) string {
 		case parser.MarkerAbandoned:
 			markers = append(markers, ":skull:")
 		case parser.MarkerPaid:
-			markers = append(markers, ":heavy_dollar_sign:")
+			markers = append(markers, ":yen:")
 		case parser.MarkerWIP:
 			markers = append(markers, ":construction:")
+		case parser.MarkerStale:
+			markers = append(markers, ":ice_cube:")
 		}
 	}
 	if len(markers) > 0 {
