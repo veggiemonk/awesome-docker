@@ -19,6 +19,9 @@ const (
 	panelList
 )
 
+const entryHeight = 5 // lines rendered per entry in the list panel
+const scrollOff = 4   // minimum lines/entries kept visible above and below cursor
+
 // Model is the top-level Bubbletea model.
 type Model struct {
 	roots    []*TreeNode
@@ -172,6 +175,36 @@ func (m Model) handleTreeKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 			m.adjustTreeScroll()
 			m.updateCurrentEntries()
 		}
+	case "ctrl+d", "pgdown":
+		half := m.treePanelHeight() / 2
+		if half < 1 {
+			half = 1
+		}
+		m.treeCursor += half
+		if m.treeCursor >= len(m.flatTree) {
+			m.treeCursor = len(m.flatTree) - 1
+		}
+		m.adjustTreeScroll()
+		m.updateCurrentEntries()
+	case "ctrl+u", "pgup":
+		half := m.treePanelHeight() / 2
+		if half < 1 {
+			half = 1
+		}
+		m.treeCursor -= half
+		if m.treeCursor < 0 {
+			m.treeCursor = 0
+		}
+		m.adjustTreeScroll()
+		m.updateCurrentEntries()
+	case "g", "home":
+		m.treeCursor = 0
+		m.adjustTreeScroll()
+		m.updateCurrentEntries()
+	case "G", "end":
+		m.treeCursor = len(m.flatTree) - 1
+		m.adjustTreeScroll()
+		m.updateCurrentEntries()
 	case "right", "l":
 		if m.treeCursor < len(m.flatTree) {
 			node := m.flatTree[m.treeCursor].Node
@@ -200,11 +233,18 @@ func (m Model) handleTreeKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 
 func (m *Model) adjustTreeScroll() {
 	visible := m.treePanelHeight()
-	if m.treeCursor < m.treeOffset {
-		m.treeOffset = m.treeCursor
+	off := scrollOff
+	if off > visible/2 {
+		off = visible / 2
 	}
-	if m.treeCursor >= m.treeOffset+visible {
-		m.treeOffset = m.treeCursor - visible + 1
+	if m.treeCursor < m.treeOffset+off {
+		m.treeOffset = m.treeCursor - off
+	}
+	if m.treeCursor >= m.treeOffset+visible-off {
+		m.treeOffset = m.treeCursor - visible + off + 1
+	}
+	if m.treeOffset < 0 {
+		m.treeOffset = 0
 	}
 }
 
@@ -228,6 +268,32 @@ func (m Model) handleListKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 			m.listCursor++
 			m.adjustListScroll()
 		}
+	case "ctrl+d", "pgdown":
+		half := m.visibleListEntries() / 2
+		if half < 1 {
+			half = 1
+		}
+		m.listCursor += half
+		if m.listCursor >= len(m.currentEntries) {
+			m.listCursor = len(m.currentEntries) - 1
+		}
+		m.adjustListScroll()
+	case "ctrl+u", "pgup":
+		half := m.visibleListEntries() / 2
+		if half < 1 {
+			half = 1
+		}
+		m.listCursor -= half
+		if m.listCursor < 0 {
+			m.listCursor = 0
+		}
+		m.adjustListScroll()
+	case "g", "home":
+		m.listCursor = 0
+		m.adjustListScroll()
+	case "G", "end":
+		m.listCursor = len(m.currentEntries) - 1
+		m.adjustListScroll()
 	case "enter":
 		if m.listCursor < len(m.currentEntries) {
 			return m, openURL(m.currentEntries[m.listCursor].URL)
@@ -252,18 +318,28 @@ func (m *Model) updateCurrentEntries() {
 	m.listOffset = 0
 }
 
+func (m Model) visibleListEntries() int {
+	v := m.listPanelHeight() / entryHeight
+	if v < 1 {
+		return 1
+	}
+	return v
+}
+
 func (m *Model) adjustListScroll() {
-	visibleRows := m.listPanelHeight()
-	entryHeight := 5 // lines per entry
-	visible := visibleRows / entryHeight
-	if visible < 1 {
-		visible = 1
+	visible := m.visibleListEntries()
+	off := scrollOff
+	if off > visible/2 {
+		off = visible / 2
 	}
-	if m.listCursor < m.listOffset {
-		m.listOffset = m.listCursor
+	if m.listCursor < m.listOffset+off {
+		m.listOffset = m.listCursor - off
 	}
-	if m.listCursor >= m.listOffset+visible {
-		m.listOffset = m.listCursor - visible + 1
+	if m.listCursor >= m.listOffset+visible-off {
+		m.listOffset = m.listCursor - visible + off + 1
+	}
+	if m.listOffset < 0 {
+		m.listOffset = 0
 	}
 }
 
@@ -282,9 +358,9 @@ func (m Model) View() tea.View {
 		return tea.NewView("Loading...")
 	}
 
-	treeWidth := m.width*3/10 - 2 // 30% minus borders
+	treeWidth := m.width*3/10 - 2        // 30% minus borders
 	listWidth := m.width - treeWidth - 6 // remaining minus borders/gaps
-	contentHeight := m.height - 3 // minus footer
+	contentHeight := m.height - 3        // minus footer
 
 	if treeWidth < 10 {
 		treeWidth = 10
@@ -389,7 +465,6 @@ func (m Model) renderList(width, height int) string {
 	}
 
 	linesUsed := 2
-	entryHeight := 5
 
 	visible := (height - 2) / entryHeight
 	if visible < 1 {
@@ -410,29 +485,43 @@ func (m Model) renderList(width, height int) string {
 		e := m.currentEntries[idx]
 		selected := idx == m.listCursor
 
+		// Use a safe width that accounts for Unicode characters (★, ⑂)
+		// that some terminals render as 2 columns but lipgloss counts as 1.
+		safeWidth := width - 2
+
 		// Line 1: name + stars + forks
 		stats := fmt.Sprintf("★ %d", e.Stars)
 		if e.Forks > 0 {
 			stats += fmt.Sprintf("  ⑂ %d", e.Forks)
 		}
-		nameStr := entryNameStyle.Render(e.Name)
+		name := e.Name
+		statsW := lipgloss.Width(stats)
+		maxName := safeWidth - statsW - 2 // 2 for minimum gap
+		if maxName < 4 {
+			maxName = 4
+		}
+		if lipgloss.Width(name) > maxName {
+			name = truncateToWidth(name, maxName-1) + "…"
+		}
+		nameStr := entryNameStyle.Render(name)
 		statsStr := entryDescStyle.Render(stats)
-		padding := width - lipgloss.Width(nameStr) - lipgloss.Width(statsStr)
+		padding := safeWidth - lipgloss.Width(nameStr) - lipgloss.Width(statsStr)
 		if padding < 1 {
 			padding = 1
 		}
 		line1 := nameStr + strings.Repeat(" ", padding) + statsStr
 
 		// Line 2: URL
-		line2 := entryURLStyle.Render(e.URL)
-		if len(e.URL) > width {
-			line2 = entryURLStyle.Render(e.URL[:width-1] + "…")
+		url := e.URL
+		if lipgloss.Width(url) > safeWidth {
+			url = truncateToWidth(url, safeWidth-1) + "…"
 		}
+		line2 := entryURLStyle.Render(url)
 
 		// Line 3: description
 		desc := e.Description
-		if len(desc) > width {
-			desc = desc[:width-3] + "..."
+		if lipgloss.Width(desc) > safeWidth {
+			desc = truncateToWidth(desc, safeWidth-3) + "..."
 		}
 		line3 := entryDescStyle.Render(desc)
 
@@ -445,7 +534,11 @@ func (m Model) renderList(width, height int) string {
 		line4 := statusStr + entryDescStyle.Render(lastPush)
 
 		// Line 5: separator
-		line5 := entryDescStyle.Render(strings.Repeat("─", width))
+		sepWidth := safeWidth
+		if sepWidth < 1 {
+			sepWidth = 1
+		}
+		line5 := entryDescStyle.Render(strings.Repeat("─", sepWidth))
 
 		entry := fmt.Sprintf("%s\n%s\n%s\n%s\n%s", line1, line2, line3, line4, line5)
 
@@ -471,7 +564,7 @@ func (m Model) renderFooter() string {
 	if m.filtering {
 		return filterPromptStyle.Render("/") + entryDescStyle.Render(m.filterText+"█")
 	}
-	help := " Tab:switch  j/k:nav  Enter:expand/open  /:filter  q:quit"
+	help := " Tab:switch  j/k:nav  PgDn/PgUp:page  g/G:top/bottom  Enter:expand/open  /:filter  q:quit"
 	return footerStyle.Render(help)
 }
 
@@ -491,4 +584,20 @@ func openURL(url string) tea.Cmd {
 		}
 		return openURLMsg{err: cmd.Run()}
 	}
+}
+
+// truncateToWidth truncates s to at most maxWidth visible columns.
+func truncateToWidth(s string, maxWidth int) string {
+	if maxWidth <= 0 {
+		return ""
+	}
+	w := 0
+	for i, r := range s {
+		rw := lipgloss.Width(string(r))
+		if w+rw > maxWidth {
+			return s[:i]
+		}
+		w += rw
+	}
+	return s
 }

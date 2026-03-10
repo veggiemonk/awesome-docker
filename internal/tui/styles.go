@@ -13,7 +13,7 @@ var (
 				BorderForeground(lipgloss.Color("#555555"))
 
 	// Tree styles
-	treeSelectedStyle = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("#FF79C6"))
+	treeSelectedStyle = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("#FF79C6")).Background(lipgloss.Color("#3B2D50"))
 	treeNormalStyle   = lipgloss.NewStyle().Foreground(lipgloss.Color("#CCCCCC"))
 
 	// Entry styles
@@ -29,7 +29,7 @@ var (
 	statusDeadStyle     = lipgloss.NewStyle().Foreground(lipgloss.Color("#666666")).Strikethrough(true)
 
 	// Selected entry
-	entrySelectedStyle = lipgloss.NewStyle().Background(lipgloss.Color("#333333"))
+	entrySelectedStyle = lipgloss.NewStyle().Background(lipgloss.Color("#44475A"))
 
 	// Header
 	headerStyle = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("#BD93F9")).Padding(0, 1)
