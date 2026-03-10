@@ -44,7 +44,7 @@ func TestParseEntryWithMarkers(t *testing.T) {
 }
 
 func TestParseEntryMultipleMarkers(t *testing.T) {
-	line := `- [SomeProject](https://example.com) - A project. :heavy_dollar_sign: :construction:`
+	line := `- [SomeProject](https://example.com) - A project. :yen: :construction:`
 	entry, err := ParseEntry(line, 1)
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
@@ -90,7 +90,7 @@ func TestParseDocument(t *testing.T) {
 
 ## Services
 
-- [ServiceC](https://example.com/c) - Does C. :heavy_dollar_sign:
+- [ServiceC](https://example.com/c) - Does C. :yen:
 `
 	doc, err := Parse(strings.NewReader(input))
 	if err != nil {

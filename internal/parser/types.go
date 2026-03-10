@@ -5,8 +5,9 @@ type Marker int
 
 const (
 	MarkerAbandoned Marker = iota // :skull:
-	MarkerPaid                    // :heavy_dollar_sign:
+	MarkerPaid                    // :yen:
 	MarkerWIP                     // :construction:
+	MarkerStale                   // :ice_cube:
 )
 
 // Entry is a single link entry in the README.
