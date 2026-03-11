@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	charm.land/bubbletea/v2 v2.0.1
-	charm.land/lipgloss/v2 v2.0.0
+	charm.land/lipgloss/v2 v2.0.2
 	github.com/shurcooL/githubv4 v0.0.0-20260209031235-2402fdf4a9ed
 	github.com/spf13/cobra v1.10.2
 	github.com/yuin/goldmark v1.7.16
@@ -30,5 +30,5 @@ require (
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
 )
