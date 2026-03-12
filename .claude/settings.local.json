@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "Bash(go:*)",
+      "Bash(./awesome-docker:*)",
+      "Bash(tmux send-keys:*)",
+      "Bash(tmux capture-pane:*)",
+      "Bash(tmux:*)"
+    ]
+  }
+}
