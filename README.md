@@ -150,6 +150,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files.
 - [crowdr](https://github.com/polonskiy/crowdr) :ice_cube: - Tool for managing multiple Docker containers (`docker-compose` alternative).
 - [ctk](https://github.com/ctk-hq/ctk) - Visual composer for container based workloads. By [corpulent](https://github.com/corpulent).
+- [Diction Server](https://github.com/omachala/diction) - Docker Compose stack providing a self-hosted Whisper speech-to-text API gateway for the Diction iOS voice keyboard. By [omachala](https://github.com/omachala).
 - [docker-config-update](https://github.com/sudo-bmitch/docker-config-update) :ice_cube: - Utility to update docker configs and secrets for deploying in a compose file.
 - [elsy](https://github.com/cisco/elsy) :ice_cube: - An opinionated, multi-language, build tool based on Docker and Docker Compose.
 - [habitus](https://github.com/cloud66-oss/habitus) :ice_cube: - A Build Flow Tool for Docker.
