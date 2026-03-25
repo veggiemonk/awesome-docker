@@ -411,6 +411,7 @@ Tools and applications that are either installed inside containers or designed t
 - [amicontained](https://github.com/genuinetools/amicontained) :ice_cube: - Container introspection tool. Find out what container runtime is being used as well as features available.
 - [Chaperone](https://github.com/garywiz/chaperone) :ice_cube: - A single PID1 process designed for docker containers. Does user management, log management, startup, zombie reaping, all in one small package.
 - [ckron](https://github.com/nicomt/ckron) - A cron-style job scheduler for docker,.
+- [crw](https://github.com/us/crw) - Web scraper and crawler for AI agents with built-in MCP server. Firecrawl-compatible API.
 -   [CoreOS][coreos] - Linux for Massive Server Deployments
 - [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system,.
 - [docker-alpine](https://github.com/gliderlabs/docker-alpine) :ice_cube: - A super small Docker base image _(5MB)_ using Alpine Linux.
