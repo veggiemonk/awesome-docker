@@ -383,6 +383,7 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 
 - [Arcane](https://github.com/getarcaneapp/arcane) - An easy and modern Docker management platform, built with everybody in mind. By [getarcaneapp](https://github.com/getarcaneapp).
 - [CASA](https://github.com/knrdl/casa) - Outsource the administration of a handful of containers to your co-workers,.
+- [CashPilot](https://github.com/GeiserX/CashPilot) - Self-hosted passive income dashboard that deploys and manages bandwidth-sharing Docker containers with earnings tracking. By [@GeiserX](https://github.com/GeiserX).
 - [Container Web TTY](https://github.com/wrfly/container-web-tty) - Connect your containers via a web-tty [wrfly](https://github.com/wrfly).
 - [dockemon](https://github.com/ProductiveOps/dokemon) :ice_cube: - Docker Container Management GUI.
 - [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2.
