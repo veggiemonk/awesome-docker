@@ -139,6 +139,94 @@ Some text here.
 	}
 }
 
+func TestSortFile(t *testing.T) {
+	content := `# Awesome Docker
+
+## Tools
+
+- [Zebra](https://example.com/zebra) - a tool by [@author](https://github.com/author)
+- [Alpha](https://example.com/alpha) - another tool
+
+## Other
+
+Some text here.
+`
+	tmp, err := os.CreateTemp("", "readme-sort-*.md")
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer os.Remove(tmp.Name())
+
+	if _, err := tmp.WriteString(content); err != nil {
+		t.Fatal(err)
+	}
+	tmp.Close()
+
+	count, err := SortFile(tmp.Name())
+	if err != nil {
+		t.Fatal(err)
+	}
+	if count == 0 {
+		t.Fatal("expected fixes, got 0")
+	}
+
+	data, err := os.ReadFile(tmp.Name())
+	if err != nil {
+		t.Fatal(err)
+	}
+	result := string(data)
+
+	// Check sorting: Alpha should come before Zebra
+	alphaIdx := strings.Index(result, "[Alpha]")
+	zebraIdx := strings.Index(result, "[Zebra]")
+	if alphaIdx > zebraIdx {
+		t.Error("expected Alpha before Zebra after sort")
+	}
+
+	// SortFile must NOT capitalize descriptions
+	if strings.Contains(result, "- A tool") {
+		t.Errorf("SortFile should not capitalize descriptions, got:\n%s", result)
+	}
+
+	// SortFile must NOT remove attribution
+	if !strings.Contains(result, "@author") {
+		t.Errorf("SortFile should preserve attribution, got:\n%s", result)
+	}
+
+	// SortFile must NOT add periods
+	if strings.Contains(result, "another tool.") {
+		t.Errorf("SortFile should not add periods, got:\n%s", result)
+	}
+}
+
+func TestSortFileIdempotent(t *testing.T) {
+	content := `# Awesome Docker
+
+## Tools
+
+- [Alpha](https://example.com/alpha) - A tool.
+- [Bravo](https://example.com/bravo) - B tool.
+`
+	tmp, err := os.CreateTemp("", "readme-sort-idem-*.md")
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer os.Remove(tmp.Name())
+
+	if _, err := tmp.WriteString(content); err != nil {
+		t.Fatal(err)
+	}
+	tmp.Close()
+
+	count, err := SortFile(tmp.Name())
+	if err != nil {
+		t.Fatal(err)
+	}
+	if count != 0 {
+		t.Fatalf("expected no changes on already-sorted file, got %d", count)
+	}
+}
+
 func TestFixFileSortsAcrossBlankLinesAndIsIdempotent(t *testing.T) {
 	content := `# Awesome Docker
 

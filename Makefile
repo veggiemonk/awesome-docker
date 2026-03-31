@@ -19,7 +19,7 @@ HEALTH_INPUTS := README.md config/exclude.yaml
 .PHONY: help \
 	build rebuild clean \
 	fmt test test-race \
-	lint lint-fix check check-pr validate website \
+	lint lint-fix fix-order check check-pr validate website \
 	guard-github-token health health-cache \
 	report report-json report-file report-json-file health-report \
 	workflow-dev workflow-pr workflow-maint workflow-ci
@@ -77,6 +77,9 @@ lint: build ## Validate README formatting/content rules
 
 lint-fix: build ## Auto-fix lint issues when possible
 	./$(BINARY) lint --fix
+
+fix-order: build ## Sort README entries alphabetically
+	./$(BINARY) fix-order
 
 check: build ## Check links (GitHub checks enabled when GITHUB_TOKEN is set)
 	./$(BINARY) check

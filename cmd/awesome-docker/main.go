@@ -44,6 +44,7 @@ func main() {
 	root.AddCommand(
 		versionCmd(),
 		lintCmd(),
+		fixOrderCmd(),
 		checkCmd(),
 		healthCmd(),
 		buildCmd(),
@@ -312,6 +313,25 @@ func buildHealthReportIssueBody(report string, healthErr error) string {
 	b.WriteString("\n---\n")
 	b.WriteString("*Auto-generated weekly by awesome-docker ci health-report*\n")
 	return b.String()
+}
+
+func fixOrderCmd() *cobra.Command {
+	return &cobra.Command{
+		Use:   "fix-order",
+		Short: "Sort README entries alphabetically within each section",
+		RunE: func(cmd *cobra.Command, args []string) error {
+			count, err := linter.SortFile(readmePath)
+			if err != nil {
+				return fmt.Errorf("fix-order: %w", err)
+			}
+			if count == 0 {
+				fmt.Println("Already sorted, no changes needed")
+			} else {
+				fmt.Printf("Sorted %d lines in %s\n", count, readmePath)
+			}
+			return nil
+		},
+	}
 }
 
 func lintCmd() *cobra.Command {

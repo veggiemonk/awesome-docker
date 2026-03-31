@@ -145,3 +145,84 @@ func FixFile(path string) (int, error) {
 	w.WriteString("\n")
 	return fixCount, w.Flush()
 }
+
+// SortFile reads the README, sorts entries alphabetically within each section,
+// and writes the result back. Unlike FixFile, it does not modify descriptions
+// (no capitalization, period, or attribution changes).
+func SortFile(path string) (int, error) {
+	f, err := os.Open(path)
+	if err != nil {
+		return 0, err
+	}
+	defer f.Close()
+
+	var lines []string
+	scanner := bufio.NewScanner(f)
+	for scanner.Scan() {
+		lines = append(lines, scanner.Text())
+	}
+	if err := scanner.Err(); err != nil {
+		return 0, err
+	}
+
+	fixCount := 0
+
+	var headingLines []int
+	for i, line := range lines {
+		if sectionHeadingRe.MatchString(line) {
+			headingLines = append(headingLines, i)
+		}
+	}
+
+	for i, headingIdx := range headingLines {
+		start := headingIdx + 1
+		end := len(lines)
+		if i+1 < len(headingLines) {
+			end = headingLines[i+1]
+		}
+
+		var entryPositions []int
+		var entries []parser.Entry
+		for lineIdx := start; lineIdx < end; lineIdx++ {
+			entry, err := parser.ParseEntry(lines[lineIdx], lineIdx+1)
+			if err != nil {
+				continue
+			}
+			entryPositions = append(entryPositions, lineIdx)
+			entries = append(entries, entry)
+		}
+		if len(entries) == 0 {
+			continue
+		}
+
+		sorted := SortEntries(entries)
+		for j, e := range sorted {
+			lineIdx := entryPositions[j]
+			// Use the original Raw line from the sorted entry to preserve formatting
+			if lines[lineIdx] != e.Raw {
+				fixCount++
+				lines[lineIdx] = e.Raw
+			}
+		}
+	}
+
+	if fixCount == 0 {
+		return 0, nil
+	}
+
+	out, err := os.Create(path)
+	if err != nil {
+		return 0, err
+	}
+	defer out.Close()
+
+	w := bufio.NewWriter(out)
+	for i, line := range lines {
+		w.WriteString(line)
+		if i < len(lines)-1 {
+			w.WriteString("\n")
+		}
+	}
+	w.WriteString("\n")
+	return fixCount, w.Flush()
+}
