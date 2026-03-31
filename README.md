@@ -520,6 +520,7 @@ Services to securely store your Docker images.
 -   [Harbor](https://github.com/goharbor/harbor) An open source trusted cloud native registry project that stores, signs, and scans content. Supports replication, user management, access control and activity auditing. By [CNCF](https://www.cncf.io) formerly [VMWare][vmware]
 - [JFrog Artifactory :yen:](https://jfrog.com/artifactory/) - Artifact Repository Manager, can be used as private Docker Registry as well.
 - [Kraken](https://github.com/uber/kraken) - Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds.
+- [NORA](https://github.com/getnora-io/nora) - Lightweight multi-protocol artifact registry supporting Docker, Maven, npm, Cargo and PyPI in a single 32MB binary. Pull-through cache, Web UI, Prometheus metrics, RBAC auth.
 - [nscr](https://github.com/jhstatewide/nscr) - A light-weight, self-contained container registry that's easy to run and maintain.
 - [Quay.io :yen:](https://quay.io/) - Secure hosting for private Docker repositories.
 - [Registryo](https://github.com/inmagik/registryo) - UI and token based authentication server for onpremise docker registry.
