@@ -154,6 +154,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [elsy](https://github.com/cisco/elsy) :ice_cube: - An opinionated, multi-language, build tool based on Docker and Docker Compose.
 - [habitus](https://github.com/cloud66-oss/habitus) :ice_cube: - A Build Flow Tool for Docker.
 - [kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes.
+- [MakeuownTools](https://github.com/2363186247/MakeuownTools) - A blazing-fast, client-side Docker Compose generator for self-hosted apps.
 - [LLM Harbor](https://github.com/av/harbor) - A CLI and companion app to effortlessly run LLM backends, APIs, frontends, and services with one command. By [av](https://github.com/av).
 - [plash](https://github.com/ihucos/plash) - A container run and build engine - runs inside docker.
 - [podman-compose](https://github.com/containers/podman-compose) - A script to run docker-compose.yml using podman.
