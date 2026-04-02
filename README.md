@@ -163,6 +163,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 ### Deployment and Infrastructure
 
 - [awesome-stacks](https://github.com/ethibox/awesome-stacks) - Deploy 150+ open-source web apps with one Docker command.
+- [Open WebUI Ultimate Stack](https://github.com/BitWise-0x/open-webui-ultimate-stack) - Production-ready Docker stack for Open WebUI with 35+ pre-built tools, RAG (pgvector), private search (SearXNG), OCR, TTS, and ComfyUI workflows. By [BitWise-0x](https://github.com/BitWise-0x).
 - [blackfish](https://gitlab.com/blackfish/blackfish) - A CoreOS VM to build swarm clusters for Dev & Production.
 - [BosnD](https://gitlab.com/n0r1sk/bosnd) - BosnD, the boatswain daemon - A dynamic configuration file writer & service reloader for dynamically changing container environments.
 - [Clocker](https://github.com/brooklyncentral/clocker) :ice_cube: - Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts, on both Docker and Marathon. It leverages [Calico][calico] and [Weave][weave] for networking and [Brooklyn](https://brooklyn.apache.org/) for application blueprints. By [brooklyncentral](https://github.com/brooklyncentral).
