@@ -404,6 +404,7 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 - [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker hosts or Docker Swarm clusters.
 - [Rapid Dashboard](https://github.com/ozlerhakan/rapid) :ice_cube: - A simple query dashboard to use Docker Remote API.
 - [Seagull](https://github.com/tobegit3hub/seagull) :ice_cube: - Friendly Web UI to monitor docker daemon.
+- [Silos Dashboard](https://github.com/cheapestinference/silos) - Open-source web dashboard for managing AI agents (OpenClaw) with shared browser, multi-channel support, and real-time chat. By [@cheapestinference](https://github.com/cheapestinference).
 - [Swarmpit](https://github.com/swarmpit/swarmpit) - Swarmpit provides simple and easy to use interface for your Docker Swarm cluster. You can manage your stacks, services, secrets, volumes, networks etc.
 - [Swirl](https://github.com/cuigh/swirl) :ice_cube: - Swirl is a web management tool for Docker, focused on swarm cluster By [cuigh](https://github.com/cuigh/).
 - [Theia](https://github.com/eclipse-theia/theia) - Extensible platform to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies.
