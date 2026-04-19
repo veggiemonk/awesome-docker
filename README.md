@@ -247,6 +247,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [Krane](https://github.com/krane/krane) :ice_cube: - Toolset for managing container workloads on remote servers.
 - [Nanobox](https://github.com/nanobox-io/nanobox) :ice_cube: - :yen: An application development platform that creates local environments that can then be deployed and scaled in the cloud.
 -   [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/en)
+- [Qovery](https://www.qovery.com) - Enterprise Kubernetes management platform that deploys Dockerized applications on AWS, GCP, Azure, and Scaleway. Includes Terraform provider, CLI, API, and an [AI Agent Skill](https://github.com/Qovery/qovery-skills) that creates Dockerfiles and deploys from AI coding tools. By [Qovery](https://github.com/Qovery).
 - [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software.
 
 ### Reverse Proxy
