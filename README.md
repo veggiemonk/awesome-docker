@@ -297,6 +297,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images, filesystems and SBOMs. By [Anchore](https://github.com/anchore).
 - [KICS](https://github.com/checkmarx/kics) - An infrastructure-as-code scanning tool, find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle. Can be extended for additional policies. By [Checkmarx](https://github.com/Checkmarx).
 - [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By [OpenSCAP](https://github.com/OpenSCAP).
+- [pindock](https://github.com/deadnews/pindock) - Pin and update Docker image digests in Dockerfiles and compose files. By [deadnews](https://github.com/deadnews).
 - [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud) - :yen: (Previously Twistlock Security Suite) detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
 - [segspec](https://github.com/dormstern/segspec) - Extracts network dependencies from Docker Compose, Kubernetes manifests, Helm charts, and other config files to generate Kubernetes NetworkPolicies with evidence tracing. By [dormstern](https://github.com/dormstern).
 - [Syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials (SBOM) from container images and filesystems. By [Anchore](https://github.com/anchore).
