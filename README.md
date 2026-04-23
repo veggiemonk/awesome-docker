@@ -492,6 +492,7 @@ Examples by:
 - [Dockerfile Linter action](https://github.com/buddy-works/dockerfile-linter) :ice_cube: - The linter lets you verify Dockerfile syntax to make sure it follows the best practices for building efficient Docker images.
 - [FROM:latest](https://github.com/replicatedhq/dockerfilelint) :ice_cube: - An opinionated Dockerfile linter.
 - [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions;.
+- [YAML Validator](https://yamlvalidator.dev), [(chrome extension)](https://chromewebstore.google.com/detail/yaml-validator/gjgbohnlhijomhfiflapnlnmcpckgigg) - Online YAML validator and formatter with Docker Compose JSON Schema validation. The Chrome extension also adds YAML code folding on GitHub.
 
 ### Metadata
 
