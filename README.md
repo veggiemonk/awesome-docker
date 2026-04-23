@@ -643,6 +643,8 @@ Services to securely store your Docker images.
 - [udocker](https://github.com/indigo-dc/udocker) - A tool to execute simple docker containers in batch or interactive systems without root privileges.
 - [Vagrant - Docker provider](https://developer.hashicorp.com/vagrant/docs/providers/docker/basics) - Good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example).
 
+- [ANIMA Docker ROS 2](https://github.com/RobotFlow-Labs/anima-docker-ros2) - Browser-first ROS 2 desktop with noVNC, Gazebo simulation, and Foxglove visualization. One command to a complete robotics dev environment. By [@RobotFlowLabs](https://github.com/RobotFlow-Labs)
+
 ## Services based on Docker (mostly :yen:)
 
 ### CI Services
