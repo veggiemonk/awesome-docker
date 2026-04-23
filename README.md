@@ -361,6 +361,7 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 - [oxker](https://github.com/mrjackwills/oxker) - A simple tui to view & control docker containers. Written in [Rust](https://rust-lang.org/), making heavy use of [ratatui](https://github.com/tui-rs-revival/ratatui) & [Bollard](https://github.com/fussybeaver/bollard),.
 - [swarmcli](https://github.com/Eldara-Tech/swarmcli) - Swarm Management at the speed of thought — with real-time log streaming, instant shell access to containers, seamless port forwarding, and on-demand secret reveal capabilities, giving you full control over your Docker Swarm without breaking your flow.
 - [tdocker](https://github.com/pivovarit/tdocker) - A `docker ps` replacement for everyday container operations by [@pivovarit](https://github.com/pivovarit).
+- [wharf](https://github.com/idesyatov/wharf) - A k9s-inspired TUI for Docker Compose with vim-style navigation, real-time CPU/MEM monitoring with braille charts, container file browser, SSH remote host support, and command mode. By [@idesyatov](https://github.com/idesyatov)
 
 ##### CLI tools
 
