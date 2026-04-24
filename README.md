@@ -205,6 +205,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [Sidekick](https://github.com/runsidekick/sidekick) :ice_cube: - Open source live application debugger like Chrome DevTools for your backend. Collect traces and generate logs on-demand without stopping & redeploying your applications.
 - [SwarmAlert](https://github.com/gpulido/SwarmAlert) :ice_cube: - Monitors a Docker Swarm and sends Pushover alerts when it finds a container with no healthy service task running.
 - [Wiremap](https://github.com/codeofmario/wiremap) - A self-hosted visual Docker network topology explorer with real-time log streaming, live stats, embedded terminal, and container inspection. By [codeofmario](https://github.com/codeofmario).
+- [KubeStellar Console](https://github.com/kubestellar/console) - AI-powered multi-cluster Kubernetes dashboard with real-time observability, CNCF project integrations (Prometheus, Grafana, Argo, Kyverno, and 20+ others), and edge/cloud cluster management. By [kubestellar](https://github.com/kubestellar).
 - [Zabbix Docker](https://github.com/gomex/docker-zabbix) :ice_cube: - Monitor containers automatically using zabbix LLD feature.
 - [Zabbix Docker module](https://github.com/monitoringartist/Zabbix-Docker-Monitoring) :ice_cube: - Zabbix module that provides discovery of running containers, CPU/memory/blk IO/net container metrics. Systemd Docker and LXC execution driver is also supported. It's a dynamically linked shared object library, so its performance is (~10x) better, than any script solution.
 ### Networking
