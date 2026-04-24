@@ -247,6 +247,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [Krane](https://github.com/krane/krane) :ice_cube: - Toolset for managing container workloads on remote servers.
 - [Nanobox](https://github.com/nanobox-io/nanobox) :ice_cube: - :yen: An application development platform that creates local environments that can then be deployed and scaled in the cloud.
 -   [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/en)
+- [SnapDeploy](https://snapdeploy.dev/) - A Docker-native container hosting platform with auto-sleep/wake, GitHub auto-deploy, and framework detection. Free tier available.
 - [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software.
 
 ### Reverse Proxy
