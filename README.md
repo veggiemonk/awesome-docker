@@ -400,6 +400,7 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 - [dockge](https://github.com/louislam/dockge) - Easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
 - [Komodo](https://github.com/mbecker20/komodo) - A tool to build and deploy software on many servers.
 - [Kubevious](https://github.com/kubevious/kubevious) :ice_cube: - A highly visual web UI for Kubernetes which renders configuration and state in an application centric way.
+- [KubeStellar Console](https://github.com/kubestellar/console) - AI-powered multi-cluster Kubernetes dashboard with real-time observability, CNCF integrations, and Docker container monitoring. [Demo](https://console.kubestellar.io)
 - [Mafl](https://github.com/hywax/mafl) - Minimalistic flexible homepage.
 - [netdata](https://github.com/netdata/netdata) - Real-time performance monitoring.
 - [OctoLinker](https://github.com/OctoLinker/OctoLinker) :ice_cube: - A browser extension for GitHub that makes the image name in a `Dockerfile` clickable and redirect you to the related Docker Hub page.
