@@ -642,6 +642,7 @@ Services to securely store your Docker images.
 - [Terraform cloud-init config](https://github.com/christippett/terraform-cloudinit-container-server) :ice_cube: - Terraform module for deploying a single Docker image or `docker-compose.yaml` file to any Cloud™ VM.
 - [Turbo](https://github.com/ramitsurana/turbo) :ice_cube: - Simple and Powerful utility for docker. By [ramitsurana][ramitsurana].
 - [udocker](https://github.com/indigo-dc/udocker) - A tool to execute simple docker containers in batch or interactive systems without root privileges.
+- [meatloaf](https://github.com/Atum246/meatloaf) - AI Agent Sandbox Runtime. CLI tool that gives AI agents the ability to build, run, test, and ship apps in Docker sandboxes. 🥩
 - [Vagrant - Docker provider](https://developer.hashicorp.com/vagrant/docs/providers/docker/basics) - Good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example).
 
 ## Services based on Docker (mostly :yen:)
