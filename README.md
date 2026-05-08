@@ -240,6 +240,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [caprover](https://github.com/caprover/caprover) - [Previously known as CaptainDuckDuck] Automated Scalable Webserver Package (automated Docker+nginx) - Heroku on Steroids.
 - [Convox Rack](https://github.com/convox/rack) - Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 - [Dcw](https://github.com/pbertera/dcw) :ice_cube: - Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels.
+- [DeployBase](https://deploybase.io) :yen: - A managed cloud hosting platform for effortless application deployment with automated SSL, backups, and scaling.
 - [Dokku](https://github.com/dokku/dokku) - Docker powered mini-Heroku that helps you build and manage the lifecycle of applications (originally by [progrium][progrium]).
 - [Empire](https://github.com/remind101/empire) :ice_cube: - A PaaS built on top of Amazon EC2 Container Service (ECS).
 - [Exoframe](https://github.com/exoframejs/exoframe) - A self-hosted tool that allows simple one-command deployments using Docker.
