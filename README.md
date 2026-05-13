@@ -674,6 +674,7 @@ Services to securely store your Docker images.
 - [Broadcom Docker Monitoring](https://www.broadcom.com/info/aiops/docker-monitoring) - :yen: Agile Operations solutions from Broadcom deliver the modern Docker monitoring businesses need to accelerate and optimize the performance of microservices and the dynamic Docker environments running them. Monitor both the Docker environment and apps that run inside them. (former CA Technologies).
 -   [Collecting docker logs and stats with Splunk](https://www.splunk.com/en_us/blog/tips-and-tricks/collecting-docker-logs-and-stats-with-splunk.html)
 - [Datadog](https://www.datadoghq.com/) - :yen: Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. It includes support for Docker, Kubernetes, and Mesos.
+- [Middleware](https://middleware.io/) - :yen: Middleware is a unified observability platform for monitoring docker containers, infrastructure, logs, traces, and application workloads from a single interface.
 - [Prometheus](https://prometheus.io/) - :yen: Open-source service monitoring system and time series database.
 - [Site24x7](https://www.site24x7.com/docker-monitoring.html) - :yen: Docker Monitoring for DevOps and IT is a SaaS Pay per Host model.
 - [SPM for Docker](https://github.com/sematext/sematext-agent-docker) :ice_cube: - :yen: Monitoring of host and container metrics, Docker events and logs. Automatic log parser. Anomaly Detection and alerting for metrics and logs. [sematext](https://github.com/sematext).
