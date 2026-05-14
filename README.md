@@ -580,6 +580,7 @@ Services to securely store your Docker images.
 - [Binci](https://github.com/binci/binci) :ice_cube: - Containerize your development workflow. (formerly DevLab by [TechnologyAdvice](https://github.com/TechnologyAdvice)).
 - [Bytebase](https://github.com/bytebase/bytebase) - Database DevOps and CI/CD for MySQL, PostgreSQL, and more, with SQL review, schema migration, and access control. By [Bytebase](https://github.com/bytebase).
 - [coder](https://github.com/coder/coder) - Remote development machines powered by Terraform or Docker.
+- [CodingBooth](https://github.com/NawaMan/CodingBooth) - Per-project dev environments via a `.booth/` folder in the repo. Maps host UID/GID into the container, runs as terminal, Jupyter, browser-based VS Code, or full Linux desktop variants, and ships a curated catalog of 130+ language / IDE / AI-tool templates.
 - [construi](https://github.com/lstephen/construi) :ice_cube: - Run your builds inside a Docker defined environment.
 - [dde](https://github.com/whatwedo/dde) - Local development environment toolset based on Docker. By [whatwedo](https://github.com/whatwedo).
 - [DIP](https://github.com/bibendi/dip) - CLI utility for straightforward provisioning and interacting with an application configured by docker-compose. By [bibendi](https://github.com/bibendi).
