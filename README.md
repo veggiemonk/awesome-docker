@@ -571,6 +571,7 @@ Services to securely store your Docker images.
 - [mu](https://github.com/stelligent/mu) :ice_cube: - Tool to configure CI/CD of your container applications via AWS CodePipeline, CodeBuild and ECS [Stelligent](https://github.com/stelligent).
 - [Popper](https://github.com/systemslab/popper) :ice_cube: - Github actions workflow (HCL syntax) execution engine.
 - [Screwdriver :yen:](https://screwdriver.cd/) - Yahoo's OpenSource buildplatform designed for Continous Delivery.
+* [Self Hosted Runner](https://github.com/youssefbrr/self-hosted-runner) - Dockerized solution for setting up a self-hosted GitHub Actions runner with support for Linux, macOS, and Windows. By [youssefbrr](https://github.com/youssefbrr).
 - [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository.
 - [SwarmCI](https://github.com/ghostsquad/swarmci) :ice_cube: - Create a distributed, isolated task pipeline in your Docker Swarm.
 - [Tekton CD](https://tekton.dev/) - A cloud-native pipeline resource.
