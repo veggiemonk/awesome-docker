@@ -1,21 +1,20 @@
 ---
 name: Add a project
-about: Add a new project to the list
-title: "add: [PROJECT_NAME] in [SECTION_NAME]"
+about: Suggest a project for the list
+title: "add: [PROJECT] in [SECTION]"
 labels: pending-evaluation
-assignees: ''
-
 ---
+# IF THE PROJECT JUST RUNS IN DOCKER, AUTOMATICALLY DENIED
 
-Category:
-Repository link:
-Description (one sentence):
-Author:
-Why this should be in the list:
-Notes (`:yen:` if relevant):
+- [ ] I HAVE READ .github/CONTRIBUTING.md
 
-Or directly write it:
+Write the sentence: *"This project exists to ____."*
+
+If the blank doesn't contain **Docker, container, image, registry, Dockerfile, Compose, Swarm, BuildKit, or OCI**, it probably doesn't belong here.
 
 ```markdown
 [REPO](https://github.com/AUTHOR/REPO) - DESCRIPTION.
 ```
+
+
+Note: the project will be added faster if you create a PR (recommended!).

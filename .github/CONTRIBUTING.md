@@ -11,7 +11,6 @@ Please read and follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 - New high-quality projects that are **for Docker** (see the test below)
 - Fixes to descriptions, ordering, or categorization
 - Removal of broken, archived, deprecated, or duplicate entries
-- Improvements to the Go CLI and GitHub workflows
 
 ## The "for Docker" Test (read this before submitting)
 
@@ -42,9 +41,8 @@ software ever written. Before opening a PR, apply this test:
 
 ### One-sentence sanity check
 
-Write the sentence: *"This project exists to ____."* If the blank doesn't
-contain **Docker, container, image, registry, Dockerfile, Compose, Swarm,
-BuildKit, or OCI** — it probably doesn't belong here.
+Write the sentence: *"This project exists to ____."*
+If the blank doesn't contain **Docker, container, image, registry, Dockerfile, Compose, Swarm, BuildKit, or OCI** — it probably doesn't belong here.
 
 ## README Entry Rules
 
@@ -57,7 +55,7 @@ BuildKit, or OCI** — it probably doesn't belong here.
   could be any monitoring tool, and a reviewer can't tell whether the project
   passes the test above.
 - Use `:yen:` for paid/commercial services.
-- Use `:ice_cube:` for stale projects (2+ years inactive).
+- The project has been active in the last 2 years.
 - Do not use `:skull:`; archived/deprecated projects should be removed.
 - Avoid duplicate links and redirect variants.
 
@@ -84,7 +82,6 @@ make test
 - Explain what changed and why.
 - If adding entries, include the target category.
 - If removing entries, explain why (archived, broken, duplicate, etc.).
-- Fill in the PR template checklist.
 
 ## Maintainer Notes
 
