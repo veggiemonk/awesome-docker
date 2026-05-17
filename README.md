@@ -252,7 +252,7 @@ Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Comm
 - [Cloud Run Compose](https://docs.cloud.google.com/run/docs/deploy-run-compose) - :yen: Deploy `docker-compose.yaml` files directly to Google Cloud Run as a managed service.
 - [Convox Rack](https://github.com/convox/rack) - Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 - [docker-to-iac](https://github.com/deploystackio/docker-to-iac) - Translate docker run and commit into Infrastructure as Code templates for AWS, Render.com and DigitalOcean.
-- [Dokku](https://github.com/dokku/dokku) - Docker powered mini-Heroku that helps you build and manage the lifecycle of applications
+- [Dokku](https://github.com/dokku/dokku) - Docker powered mini-Heroku that helps you build and manage the lifecycle of applications.
 - [Exoframe](https://github.com/exoframejs/exoframe) - A self-hosted tool that allows simple one-command deployments using Docker.
 - [Giant Swarm](https://www.giantswarm.io/) - :yen: Simple microservice infrastructure. Deploy your containers in seconds.
 - [Google Container Engine](https://docs.cloud.google.com/kubernetes-engine/docs) - :yen: Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
@@ -553,7 +553,6 @@ Tools and applications that are either installed inside containers or designed t
 - [Cloud Native Landscape](https://github.com/cncf/landscape)
 - [Docker Blog](https://www.docker.com/blog/) - Regular updates about Docker, the community and tools.
 - [Docker Certification](https://intellipaat.com/docker-training-course/?US) - :yen: Will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.
-
 - [Docker dev bookmarks](https://www.codever.dev/search?q=docker) - Use the tag [docker](https://www.codever.dev/bookmarks/t/docker).
 - [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
 - [Docker in Practice, Second Edition](https://www.manning.com/books/docker-in-practice-second-edition)
@@ -579,8 +578,8 @@ Tools and applications that are either installed inside containers or designed t
 
 ## Good Tips
 
-- [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016) **MUST SEE**
-- [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) - The **funniest way** to learn about docker
+- [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016).
+- [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
 - [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.flexera.com/blog/finops/)
 - [Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)
 - [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
@@ -661,13 +660,8 @@ Tools and applications that are either installed inside containers or designed t
 [distribution]: https://github.com/docker/distribution
 [docker-for-windows]: https://docs.docker.com/desktop/setup/install/windows-install/
 [editreadme]: https://github.com/veggiemonk/awesome-docker/edit/master/README.md
-[fgrehm]: https://github.com/fgrehm
-[jessfraz]: https://github.com/jessfraz
-[jpetazzo]: https://github.com/jpetazzo
 [kubernetes]: https://kubernetes.io
 [nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://okd.io/
-[progrium]: https://github.com/progrium
-[ramitsurana]: https://github.com/ramitsurana
 [sindresorhus]: https://github.com/sindresorhus/awesome
 
