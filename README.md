@@ -181,7 +181,7 @@ Services to securely store your Docker images.
 - [Docker Registry v2][distribution] - The Docker toolset to pack, ship, store, and deliver content
 - [Docket](https://github.com/netvarun/docket) - :ice_cube: Custom docker registry that allows for lightning fast deploys through bittorrent.
 - [Dragonfly](https://github.com/dragonflyoss/Dragonfly2) - Provide efficient, stable and secure file distribution and image acceleration based on p2p technology.
-- [GCP Artifact Registry](https://cloud.google.com/artifact-registry/docs) - :yen: Fast, private Docker image storage on Google Cloud Platform.
+- [GCP Artifact Registry](https://docs.cloud.google.com/artifact-registry/docs) - :yen: Fast, private Docker image storage on Google Cloud Platform.
 - [Gitea Container Registry](https://docs.gitea.com/usage/packages/container) - Integrated Docker registry in Gitea, ideal for private, small-scale image hosting.
 - [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) - GitHub's solution for storing and managing Docker images, with tight integration into GitHub Actions.
 - [GitLab Container Registry](https://docs.gitlab.com/user/packages/container_registry/) - Registry focused on using its images in GitLab CI.
@@ -266,6 +266,7 @@ Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Comm
 - [caprover](https://github.com/caprover/caprover) - [Previously known as CaptainDuckDuck] Automated Scalable Webserver Package (automated Docker+nginx) - Heroku on Steroids.
 - [Clocker](https://github.com/brooklyncentral/clocker) - :ice_cube: Clocker creates and manages a Docker cloud infrastructure. Clocker supports single-click deployments and runtime management of multi-node applications that run as containers distributed across multiple hosts, on both Docker and Marathon. It leverages [Calico][calico] and [Weave][weave] for networking and [Brooklyn](https://brooklyn.apache.org/) for application blueprints. By [brooklyncentral](https://github.com/brooklyncentral).
 - [Cloud 66](https://www.cloud66.com) - :yen: Full-stack hosted container management as a service.
+- [Cloud Run Compose](https://docs.cloud.google.com/run/docs/deploy-run-compose) - :yen: Deploy `docker-compose.yaml` files directly to Google Cloud Run as a managed service.
 - [Conduit](https://github.com/ehazlett/conduit) - :ice_cube: Experimental deployment system for Docker.
 - [Convox Rack](https://github.com/convox/rack) - Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
 - [Dcw](https://github.com/pbertera/dcw) - :ice_cube: Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels.
@@ -470,7 +471,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Buddy](https://buddy.works) - :yen: The best of Git, build & deployment tools combined into one powerful tool that supercharged our development.
 - [Captain](https://github.com/harbur/captain) - Convert your Git workflow to Docker containers ready for Continuous Delivery.
 - [CircleCI](https://circleci.com/) - :yen: Push or pull Docker images from your build environment, or build and run containers right on CircleCI.
-- [CodeFresh](https://codefresh.io) - :yen: End-to-end build, test, and share for Docker applications, with automated testing.
+- [CodeFresh](https://octopus.com/codefresh) - :yen: End-to-end build, test, and share for Docker applications, with automated testing.
 - [ConcourseCI](https://concourse-ci.org) - :yen: Pipeline-oriented CI SaaS platform for DevOps teams.
 - [Defang](https://github.com/DefangLabs/defang) - Deploy Docker Compose to your favorite cloud in minutes.
 - [Depot](https://depot.dev) - :yen: Build Docker images fast, in the cloud. Blazing fast compute, automatic intelligent caching, and zero configuration.
