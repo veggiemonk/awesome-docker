@@ -99,6 +99,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 
 ## Engine & Runtime
 
+- [colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup.
 - [containerd](https://github.com/containerd/containerd) - An open and reliable container runtime.
 - [cri-o](https://github.com/cri-o/cri-o) - Open Container Initiative-based implementation of Kubernetes Container Runtime Interface.
 - [gVisor](https://github.com/google/gvisor) - Application Kernel for Containers.
@@ -107,6 +108,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [podman](https://github.com/containers/libpod) - Libpod is a library used to create container pods. Home of Podman.
 - [runc](https://github.com/opencontainers/runc) - CLI tool for spawning and running containers according to the OCI specification.
 - [runtime-tools](https://github.com/opencontainers/runtime-tools) - Oci-runtime-tool is a collection of tools for working with the OCI runtime specification.
+- [youki](https://github.com/youki-dev/youki) - Container runtime written in Rust, implementing the OCI runtime specification.
 
 ## Building Images
 
@@ -185,6 +187,7 @@ Services to securely store your Docker images.
 - [GitLab Container Registry](https://docs.gitlab.com/user/packages/container_registry/) - Registry focused on using its images in GitLab CI.
 - [Harbor](https://github.com/goharbor/harbor) An open source trusted cloud native registry project that stores, signs, and scans content. Supports replication, user management, access control and activity auditing.
 - [JFrog Artifactory](https://jfrog.com/artifactory/) - :yen: Artifact Repository Manager, can be used as private Docker Registry as well.
+- [kontain.me](https://github.com/imjasonh/kontain.me) - On-demand container image registry that builds and serves images when they are pulled.
 - [Kraken](https://github.com/uber/kraken) - Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds.
 - [NORA](https://github.com/getnora-io/nora) - Lightweight multi-protocol artifact registry supporting Docker, Maven, npm, Cargo and PyPI in a single 32MB binary. Pull-through cache, Web UI, Prometheus metrics, RBAC auth.
 - [nscr](https://github.com/jhstatewide/nscr) - A light-weight, self-contained container registry that's easy to run and maintain.
@@ -199,6 +202,7 @@ Services to securely store your Docker images.
 Daemonless command-line tools for inspecting, copying, and manipulating images in OCI/Docker registries.
 
 - [crane](https://github.com/google/go-containerregistry/tree/main/cmd/crane) - Lightweight CLI to manipulate registry images, from `go-containerregistry`.
+- [go-containerregistry](https://github.com/google/go-containerregistry) - Go library and CLI tools (`crane`, `gcrane`, `registry`) for working with container registries.
 - [oras](https://github.com/oras-project/oras) - Push and pull arbitrary OCI artifacts to and from any OCI registry.
 - [regctl](https://github.com/regclient/regclient) - Daemonless registry client; copy, inspect, modify, and sign OCI images.
 - [skopeo](https://github.com/containers/skopeo) - Work with remote image registries: retrieve information, copy images, sign content.
