@@ -7,6 +7,8 @@ If this list is not complete, you can contribute to make it so.
 
 **The project has to be for Docker, not just using Docker.**
 
+> Rule of thumb: if removing the Docker integration wouldn't kill the project's value proposition, it doesn't belong in the this list.
+
 > **Please**, help organize these resources so that they are _easy to find_ and _understand_ for newcomers. See how to **[Contribute][contributing]** for tips!
 
 **_If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request][editreadme] to improve this file. Thank you!_**
