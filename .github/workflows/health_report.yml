@@ -35,7 +35,7 @@ jobs:
 
       - name: Create/Update Issue with Health Report
         if: steps.report.outputs.has_report == 'true'
-        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # ratchet:actions/github-script@v8
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # ratchet:actions/github-script@v9.0.0
         with:
           script: |
             const fs = require('fs');

@@ -298,6 +298,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 - [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images, filesystems and SBOMs. By [Anchore](https://github.com/anchore).
 - [KICS](https://github.com/checkmarx/kics) - An infrastructure-as-code scanning tool, find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle. Can be extended for additional policies. By [Checkmarx](https://github.com/Checkmarx).
 - [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By [OpenSCAP](https://github.com/OpenSCAP).
+- [pindock](https://github.com/deadnews/pindock) - Pin and update Docker image digests in Dockerfiles and compose files. By [deadnews](https://github.com/deadnews).
 - [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud) - :yen: (Previously Twistlock Security Suite) detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
 - [segspec](https://github.com/dormstern/segspec) - Extracts network dependencies from Docker Compose, Kubernetes manifests, Helm charts, and other config files to generate Kubernetes NetworkPolicies with evidence tracing. By [dormstern](https://github.com/dormstern).
 - [Syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials (SBOM) from container images and filesystems. By [Anchore](https://github.com/anchore).
@@ -354,12 +355,14 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer helps you get started with home server apps running in Docker by [GhostWriters](https://github.com/GhostWriters).
 - [dprs](https://github.com/durableprogramming/dprs) - A developer-focused TUI for managing Docker containers with real-time log streaming and container management. Built with Rust. By [durableprogramming](https://github.com/durableprogramming).
 - [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers.
+- [easydocker](https://github.com/joao-zanutto/easydocker) - A Terminal UI highly inpired by k9s levaraging beatiful BubbleTea graphics. By [joao-zanutto](https://github.com/joao-zanutto).
 - [goManageDocker](https://github.com/ajayd-san/gomanagedocker) - TUI tool to view and manage your docker objects blazingly fast with sensible keybindings, also supports VIM navigation out of the box.
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker. A simple terminal UI for both docker and docker-compose, written in Go with the gocui library. By [jesseduffield](https://github.com/jesseduffield).
 - [lazyjournal](https://github.com/Lifailon/lazyjournal) - A interface for reading and filtering the logs output of Docker and Podman containers like [Dozzle](dozzle) but for the terminal with support for fuzzy find, regex and output coloring.
 - [oxker](https://github.com/mrjackwills/oxker) - A simple tui to view & control docker containers. Written in [Rust](https://rust-lang.org/), making heavy use of [ratatui](https://github.com/tui-rs-revival/ratatui) & [Bollard](https://github.com/fussybeaver/bollard),.
 - [swarmcli](https://github.com/Eldara-Tech/swarmcli) - Swarm Management at the speed of thought — with real-time log streaming, instant shell access to containers, seamless port forwarding, and on-demand secret reveal capabilities, giving you full control over your Docker Swarm without breaking your flow.
 - [tdocker](https://github.com/pivovarit/tdocker) - A `docker ps` replacement for everyday container operations by [@pivovarit](https://github.com/pivovarit).
+- [wharf](https://github.com/idesyatov/wharf) - A k9s-inspired TUI for Docker Compose with vim-style navigation, real-time CPU/MEM monitoring with braille charts, container file browser, SSH remote host support, and command mode. By [@idesyatov](https://github.com/idesyatov)
 
 ##### CLI tools
 
@@ -576,6 +579,7 @@ Services to securely store your Docker images.
 ### Development Environment
 
 - [Binci](https://github.com/binci/binci) :ice_cube: - Containerize your development workflow. (formerly DevLab by [TechnologyAdvice](https://github.com/TechnologyAdvice)).
+- [Bytebase](https://github.com/bytebase/bytebase) - Database DevOps and CI/CD for MySQL, PostgreSQL, and more, with SQL review, schema migration, and access control. By [Bytebase](https://github.com/bytebase).
 - [coder](https://github.com/coder/coder) - Remote development machines powered by Terraform or Docker.
 - [construi](https://github.com/lstephen/construi) :ice_cube: - Run your builds inside a Docker defined environment.
 - [dde](https://github.com/whatwedo/dde) - Local development environment toolset based on Docker. By [whatwedo](https://github.com/whatwedo).
@@ -678,7 +682,6 @@ Services to securely store your Docker images.
 
 # Useful Resources
 
--   **[Valuable Docker Links](http://nane.kratzke.pages.mylab.th-luebeck.de/about/blog/2014/08/24/valuable-docker-links/)** High quality articles about docker! **MUST SEE**
 -   [Cloud Native Landscape](https://github.com/cncf/landscape)
 - [Docker Blog](https://www.docker.com/blog/) - Regular updates about Docker, the community and tools.
 -   [Docker Certification](https://intellipaat.com/docker-training-course/?US) :yen: will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.
