@@ -32,11 +32,14 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
     - [Engine \& Runtime](#engine--runtime)
     - [Building Images](#building-images)
         - [Builder](#builder)
+        - [Base Images](#base-images)
         - [Dockerfile](#dockerfile)
         - [Linter](#linter)
     - [Image Lifecycle](#image-lifecycle)
         - [Registry](#registry)
+        - [Registry CLI](#registry-cli)
         - [Image Scanning \& SBOM](#image-scanning--sbom)
+        - [Supply Chain](#supply-chain)
     - [Running Containers](#running-containers)
         - [Composition](#composition)
         - [Orchestration](#orchestration)
@@ -112,16 +115,21 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 Applications designed to help or simplify building **new** images
 
 - [ansible-bender](https://github.com/ansible-community/ansible-bender) - A tool utilising `ansible` and `buildah`.
+- [apko](https://github.com/chainguard-dev/apko) - Declarative OCI image builder from apk packages; reproducible by design.
 - [buildah](https://github.com/containers/buildah) - A tool that facilitates building OCI images.
 - [BuildKit](https://github.com/moby/buildkit) - Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit.
+- [buildx](https://github.com/docker/buildx) - Official Docker CLI plugin for multi-platform builds backed by BuildKit.
 - [cekit](https://github.com/cekit/cekit) - A tool used by openshift to build base images using different build engines.
 - [dlayer](https://github.com/orisano/dlayer) - Docker layer analyzer.
 - [docker-companion](https://github.com/mudler/docker-companion) - A command line tool written in Golang to squash and unpack docker images.
 - [docker-repack](https://github.com/orf/docker-repack) - Repacks a Docker image into a smaller, more efficient version that makes it significantly faster to pull.
 - [DockerSlim](https://github.com/docker-slim/docker-slim) shrinks fat Docker images creating the smallest possible images.
+- [earthly](https://github.com/earthly/earthly) - Containerized build automation with Dockerfile-meets-Makefile syntax.
 - [essex](https://github.com/utensils/essex) - Boilerplate for Docker Based Projects: Essex is a CLI utility written in bash to quickly setup clean and consistent Docker projects with Makefile driven workflows.
 - [HPC Container Maker](https://github.com/NVIDIA/hpc-container-maker) - Generates Dockerfiles from a high level Python recipe, including building blocks for High-Performance Computing components.
 - [img](https://github.com/genuinetools/img) - Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
+- [ko](https://github.com/ko-build/ko) - Build and deploy Go applications as container images without a Dockerfile.
+- [nix2container](https://github.com/nlewo/nix2container) - Build OCI images with Nix without `docker load` round-trips.
 - [packer](https://developer.hashicorp.com/packer/integrations/hashicorp/docker/latest/components/builder/docker) - Hashicorp tool to build machine images including docker image integrated with configuration management tools like chef, puppet, ansible.
 - [portainer](https://github.com/duedil-ltd/portainer) - :ice_cube: Apache Mesos framework for building Docker images.
 - [Production-Ready Python Containers](https://pythonspeed.com/products/pythoncontainer/) - :yen: A template for creating production-ready Docker images for Python applications.
@@ -129,6 +137,16 @@ Applications designed to help or simplify building **new** images
 - [runlike](https://github.com/lavie/runlike) - Generate `docker run`command and options from running containers.
 - [userdef](https://github.com/theAkito/userdef) - :ice_cube: An advanced `adduser` for your Alpine based Docker images.
 - [Whaler](https://github.com/P3GLEG/Whaler) - Program to reverse Docker images into Dockerfiles.
+
+
+### Base Images
+
+Minimal, hardened, or purpose-built container base images.
+
+- [Chainguard Images](https://github.com/chainguard-images/images) - Minimal, signed, SBOM-attested container images built on Wolfi.
+- [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system.
+- [melange](https://github.com/chainguard-dev/melange) - Build apk packages from declarative YAML for use with apko.
+- [Wolfi](https://github.com/wolfi-dev/os) - Undistro Linux designed for containers; glibc-based, signed, daily SBOMs.
 
 
 ### Dockerfile
@@ -176,6 +194,15 @@ Services to securely store your Docker images.
 - [Rescoyl](https://github.com/noteed/rescoyl) - :ice_cube: Private Docker registry (free and open source).
 - [Sonatype Nexus Repository](https://www.sonatype.com/products/sonatype-nexus-repository) - Manage binaries and build artifacts across your software supply chain.
 
+### Registry CLI
+
+Daemonless command-line tools for inspecting, copying, and manipulating images in OCI/Docker registries.
+
+- [crane](https://github.com/google/go-containerregistry/tree/main/cmd/crane) - Lightweight CLI to manipulate registry images, from `go-containerregistry`.
+- [oras](https://github.com/oras-project/oras) - Push and pull arbitrary OCI artifacts to and from any OCI registry.
+- [regctl](https://github.com/regclient/regclient) - Daemonless registry client; copy, inspect, modify, and sign OCI images.
+- [skopeo](https://github.com/containers/skopeo) - Work with remote image registries: retrieve information, copy images, sign content.
+
 ### Image Scanning & SBOM
 
 Image vulnerability scanners, SBOM generators, and digest pinning tools. Commercial entries marked `:yen:`.
@@ -183,11 +210,21 @@ Image vulnerability scanners, SBOM generators, and digest pinning tools. Commerc
 - [Anchor](https://github.com/SongStitch/anchor/) - A tool to ensure reproducible builds by pinning dependencies inside your Dockerfiles.
 - [Anchor Enterprise](https://anchore.com/) - :yen: Analyze images for CVE vulnerabilities and against custom security policies.
 - [Clair](https://github.com/quay/clair) - Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers.
+- [Docker Scout](https://github.com/docker/scout-cli) - Official Docker CLI for SBOM generation, vulnerability analysis, and policy evaluation.
 - [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images, filesystems and SBOMs. By [Anchore](https://github.com/anchore).
 - [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images.
 - [pindock](https://github.com/deadnews/pindock) - Pin and update Docker image digests in Dockerfiles and compose files.
 - [Syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials (SBOM) from container images and filesystems.
 - [Trivy](https://github.com/aquasecurity/trivy) - Aqua Security's open source simple and comprehensive vulnerability scanner for containers (suitable for CI).
+
+### Supply Chain
+
+Signing, attestation, and provenance for container images.
+
+- [cosign](https://github.com/sigstore/cosign) - Container signing, verification, and transparency log for OCI artifacts.
+- [in-toto](https://github.com/in-toto/in-toto) - Framework for supply chain attestations; underpins SLSA and cosign provenance.
+- [policy-controller](https://github.com/sigstore/policy-controller) - Kubernetes admission controller enforcing cosign signatures on container images.
+- [witness](https://github.com/in-toto/witness) - Generate and verify in-toto attestations across the build pipeline.
 
 ## Running Containers
 
@@ -333,6 +370,7 @@ Container hardening, runtime security, policy, compliance, and forensics. Self-h
 - [Den](https://github.com/us/den) - Self-hosted sandbox runtime for AI agents with Docker containers, security hardening, REST API and WebSocket support. By [us](https://github.com/us).
 - [docker-bench-security](https://github.com/docker/docker-bench-security) - Script that checks for dozens of common best-practices around deploying Docker containers in production.
 - [docker-explorer](https://github.com/google/docker-explorer) - A tool to help forensicate offline docker acquisitions.
+- [docker-socket-proxy](https://github.com/Tecnativa/docker-socket-proxy) - HAProxy-based fine-grained filter for the Docker API socket; widely used to expose a restricted socket to reverse proxies and homelab stacks.
 - [KICS](https://github.com/checkmarx/kics) - An infrastructure-as-code scanning tool, find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle. Can be extended for additional policies.
 - [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud) - :yen: (Previously Twistlock Security Suite) detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.
 - [segspec](https://github.com/dormstern/segspec) - Extracts network dependencies from Docker Compose, Kubernetes manifests, Helm charts, and other config files to generate Kubernetes NetworkPolicies with evidence tracing. By [dormstern](https://github.com/dormstern).
@@ -380,7 +418,6 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [Powerline-Docker](https://github.com/adrianmo/powerline-docker) - :ice_cube: A Powerline segment for showing the status of Docker containers.
 - [proco](https://github.com/shiwaforce/poco) - Proco will help you to organise and manage Docker, Docker-Compose, Kubernetes projects of any complexity using simple YAML config files to shorten the route from finding your project to initialising it in your local environment.
 - [scuba](https://github.com/JonathonReinhart/scuba) - Transparently use Docker containers to encapsulate software build environments,.
-- [skopeo](https://github.com/containers/skopeo) - Work with remote images registries - retrieving information, images, signing content.
 - [supdock](https://github.com/segersniels/supdock) - Allows for slightly more visual usage of Docker with an interactive prompt.
 - [swarmcli](https://github.com/Eldara-Tech/swarmcli) - Swarm Management at the speed of thought — with real-time log streaming, instant shell access to containers, seamless port forwarding, and on-demand secret reveal capabilities, giving you full control over your Docker Swarm without breaking your flow.
 - [tdocker](https://github.com/pivovarit/tdocker) - A `docker ps` replacement for everyday container operations.
@@ -485,9 +522,9 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 
 Tools and applications that are either installed inside containers or designed to be run as a [sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)
 
+- [cdebug](https://github.com/iximiuz/cdebug) - Swiss-army knife for debugging running containers via ephemeral sidecars; works with Docker, containerd, and Kubernetes.
 - [ckron](https://github.com/nicomt/ckron) - A cron-style job scheduler for docker,.
 - [CoreOS][coreos] - Linux for Massive Server Deployments
-- [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system,.
 - [docker-gen](https://github.com/jwilder/docker-gen) - Generate files from docker container meta-data.
 - [dockerize](https://github.com/powerman/dockerize) - Utility to simplify running applications in docker containers.
 - [GoSu](https://github.com/tianon/gosu) - Run this specific application as this specific user and get out of the pipeline (entrypoint script tool).
