@@ -18,11 +18,11 @@ const (
 // LinkResult holds the result of checking a single URL.
 type LinkResult struct {
 	URL         string
-	OK          bool
-	StatusCode  int
-	Redirected  bool
 	RedirectURL string
 	Error       string
+	StatusCode  int
+	OK          bool
+	Redirected  bool
 }
 
 func shouldFallbackToGET(statusCode int) bool {

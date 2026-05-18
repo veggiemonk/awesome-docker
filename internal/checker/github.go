@@ -13,15 +13,15 @@ import (
 
 // RepoInfo holds metadata about a GitHub repository.
 type RepoInfo struct {
+	PushedAt   time.Time
 	Owner      string
 	Name       string
 	URL        string
+	Stars      int
+	Forks      int
 	IsArchived bool
 	IsDisabled bool
 	IsPrivate  bool
-	PushedAt   time.Time
-	Stars      int
-	Forks      int
 	HasLicense bool
 }
 
@@ -104,15 +104,13 @@ func NewGitHubChecker(token string) *GitHubChecker {
 func (gc *GitHubChecker) CheckRepo(ctx context.Context, owner, name string) (RepoInfo, error) {
 	var query struct {
 		Repository struct {
+			PushedAt       time.Time
+			LicenseInfo    *struct{ Name string }
+			StargazerCount int
+			ForkCount      int
 			IsArchived     bool
 			IsDisabled     bool
 			IsPrivate      bool
-			PushedAt       time.Time
-			StargazerCount int
-			ForkCount      int
-			LicenseInfo    *struct {
-				Name string
-			}
 		} `graphql:"repository(owner: $owner, name: $name)"`
 	}
 

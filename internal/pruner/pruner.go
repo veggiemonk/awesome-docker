@@ -42,9 +42,10 @@ func TargetURLs(hc *cache.HealthCache, statuses []string) map[string]cache.Healt
 		want[strings.TrimSpace(strings.ToLower(s))] = true
 	}
 	out := make(map[string]cache.HealthEntry)
-	for _, e := range hc.Entries {
+	for i := range hc.Entries {
+		e := &hc.Entries[i]
 		if want[strings.ToLower(e.Status)] {
-			out[normalizeURL(e.URL)] = e
+			out[normalizeURL(e.URL)] = *e
 		}
 	}
 	return out
@@ -115,11 +116,12 @@ func PruneCache(path string, hc *cache.HealthCache, targets map[string]cache.Hea
 		return 0, nil
 	}
 	kept := hc.Entries[:0]
-	for _, e := range hc.Entries {
+	for i := range hc.Entries {
+		e := &hc.Entries[i]
 		if _, drop := targets[normalizeURL(e.URL)]; drop {
 			continue
 		}
-		kept = append(kept, e)
+		kept = append(kept, *e)
 	}
 	dropped := len(hc.Entries) - len(kept)
 	hc.Entries = kept

@@ -1,10 +1,12 @@
 package tui
 
 import (
+	"context"
 	"fmt"
 	"os/exec"
 	"runtime"
 	"strings"
+	"time"
 	"unicode/utf8"
 
 	tea "charm.land/bubbletea/v2"
@@ -19,25 +21,25 @@ const (
 	panelList
 )
 
-const entryHeight = 5 // lines rendered per entry in the list panel
-const scrollOff = 4   // minimum lines/entries kept visible above and below cursor
+const (
+	entryHeight = 5 // lines rendered per entry in the list panel
+	scrollOff   = 4 // minimum lines/entries kept visible above and below cursor
+)
 
 // Model is the top-level Bubbletea model.
 type Model struct {
-	roots    []*TreeNode
-	flatTree []FlatNode
-
+	filterText     string
+	roots          []*TreeNode
+	flatTree       []FlatNode
+	currentEntries []cache.HealthEntry
 	activePanel    panel
 	treeCursor     int
 	treeOffset     int
 	listCursor     int
 	listOffset     int
-	currentEntries []cache.HealthEntry
-
-	filtering  bool
-	filterText string
-
-	width, height int
+	width          int
+	height         int
+	filtering      bool
 }
 
 // New creates a new Model from health cache entries.
@@ -135,11 +137,13 @@ func (m *Model) applyFilter() {
 	query := strings.ToLower(m.filterText)
 	var filtered []cache.HealthEntry
 	for _, root := range m.roots {
-		for _, e := range root.AllEntries() {
+		entries := root.AllEntries()
+		for i := range entries {
+			e := &entries[i]
 			if strings.Contains(strings.ToLower(e.Name), query) ||
 				strings.Contains(strings.ToLower(e.Description), query) ||
 				strings.Contains(strings.ToLower(e.Category), query) {
-				filtered = append(filtered, e)
+				filtered = append(filtered, *e)
 			}
 		}
 	}
@@ -242,7 +246,8 @@ func (m *Model) adjustTreeScroll() {
 func (m Model) treePanelHeight() int {
 	h := max(
 		// header, footer, borders, title
-		m.height-6, 1)
+		m.height-6, 1,
+	)
 	return h
 }
 
@@ -467,7 +472,8 @@ func (m Model) renderList(width, height int) string {
 		statsW := lipgloss.Width(stats)
 		maxName := max(
 			// 2 for minimum gap
-			safeWidth-statsW-2, 4)
+			safeWidth-statsW-2, 4,
+		)
 		if lipgloss.Width(name) > maxName {
 			name = truncateToWidth(name, maxName-1) + "…"
 		}
@@ -494,7 +500,7 @@ func (m Model) renderList(width, height int) string {
 		statusStr := statusStyle(e.Status).Render(e.Status)
 		lastPush := ""
 		if !e.LastPush.IsZero() {
-			lastPush = fmt.Sprintf("  Last push: %s", e.LastPush.Format("2006-01-02"))
+			lastPush = "  Last push: " + e.LastPush.Format("2006-01-02")
 		}
 		line4 := statusStr + entryDescStyle.Render(lastPush)
 
@@ -535,14 +541,16 @@ type openURLMsg struct{ err error }
 
 func openURL(url string) tea.Cmd {
 	return func() tea.Msg {
+		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+		defer cancel()
 		var cmd *exec.Cmd
 		switch runtime.GOOS {
 		case "darwin":
-			cmd = exec.Command("open", url)
+			cmd = exec.CommandContext(ctx, "open", url)
 		case "windows":
-			cmd = exec.Command("cmd", "/c", "start", url)
+			cmd = exec.CommandContext(ctx, "cmd", "/c", "start", url)
 		default:
-			cmd = exec.Command("xdg-open", url)
+			cmd = exec.CommandContext(ctx, "xdg-open", url)
 		}
 		return openURLMsg{err: cmd.Run()}
 	}

@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"os"
 	"strconv"
@@ -28,11 +29,11 @@ const (
 )
 
 type checkSummary struct {
-	ExternalTotal int
-	GitHubTotal   int
 	Broken        []checker.LinkResult
 	Redirected    []checker.LinkResult
 	GitHubErrors  []error
+	ExternalTotal int
+	GitHubTotal   int
 	GitHubSkipped bool
 }
 
@@ -156,7 +157,7 @@ func runLinkChecks(prMode bool) (checkSummary, error) {
 func runHealth(ctx context.Context) error {
 	token := os.Getenv("GITHUB_TOKEN")
 	if token == "" {
-		return fmt.Errorf("GITHUB_TOKEN environment variable is required")
+		return errors.New("GITHUB_TOKEN environment variable is required")
 	}
 
 	doc, err := parseReadme()
@@ -176,9 +177,12 @@ func runHealth(ctx context.Context) error {
 	}
 	if len(infos) == 0 {
 		if len(errs) > 0 {
-			return fmt.Errorf("failed to fetch GitHub metadata for all repositories (%d errors); check network/DNS and GITHUB_TOKEN", len(errs))
+			return fmt.Errorf(
+				"failed to fetch GitHub metadata for all repositories (%d errors); check network/DNS and GITHUB_TOKEN",
+				len(errs),
+			)
 		}
-		return fmt.Errorf("no GitHub repositories found in README")
+		return errors.New("no GitHub repositories found in README")
 	}
 
 	scored := scorer.ScoreAll(infos)
@@ -213,11 +217,12 @@ func scoredFromCache() ([]scorer.ScoredEntry, error) {
 		return nil, fmt.Errorf("load cache: %w", err)
 	}
 	if len(hc.Entries) == 0 {
-		return nil, fmt.Errorf("no cache data, run 'health' first")
+		return nil, errors.New("no cache data, run 'health' first")
 	}
 
 	scored := make([]scorer.ScoredEntry, 0, len(hc.Entries))
-	for _, e := range hc.Entries {
+	for i := range hc.Entries {
+		e := &hc.Entries[i]
 		scored = append(scored, scorer.ScoredEntry{
 			URL:         e.URL,
 			Name:        e.Name,
@@ -411,7 +416,11 @@ func checkCmd() *cobra.Command {
 				}
 			}
 			if len(summary.Broken) > 0 && len(summary.GitHubErrors) > 0 {
-				return fmt.Errorf("found %d broken links and %d GitHub API errors", len(summary.Broken), len(summary.GitHubErrors))
+				return fmt.Errorf(
+					"found %d broken links and %d GitHub API errors",
+					len(summary.Broken),
+					len(summary.GitHubErrors),
+				)
 			}
 			if len(summary.Broken) > 0 {
 				return fmt.Errorf("found %d broken links", len(summary.Broken))
@@ -562,20 +571,40 @@ func ciBrokenLinksCmd() *cobra.Command {
 				}
 			}
 
-			if err := writeGitHubOutput(githubOutput, "has_errors", strconv.FormatBool(hasErrors)); err != nil {
+			if err := writeGitHubOutput(
+				githubOutput,
+				"has_errors",
+				strconv.FormatBool(hasErrors),
+			); err != nil {
 				return err
 			}
-			if err := writeGitHubOutput(githubOutput, "check_exit_code", strconv.Itoa(exitCode)); err != nil {
+			if err := writeGitHubOutput(
+				githubOutput,
+				"check_exit_code",
+				strconv.Itoa(exitCode),
+			); err != nil {
 				return err
 			}
-			if err := writeGitHubOutput(githubOutput, "broken_count", strconv.Itoa(len(summary.Broken))); err != nil {
+			if err := writeGitHubOutput(
+				githubOutput,
+				"broken_count",
+				strconv.Itoa(len(summary.Broken)),
+			); err != nil {
 				return err
 			}
-			if err := writeGitHubOutput(githubOutput, "github_error_count", strconv.Itoa(len(summary.GitHubErrors))); err != nil {
+			if err := writeGitHubOutput(
+				githubOutput,
+				"github_error_count",
+				strconv.Itoa(len(summary.GitHubErrors)),
+			); err != nil {
 				return err
 			}
 			if runErr != nil {
-				if err := writeGitHubOutput(githubOutput, "run_error", sanitizeOutputValue(runErr.Error())); err != nil {
+				if err := writeGitHubOutput(
+					githubOutput,
+					"run_error",
+					sanitizeOutputValue(runErr.Error()),
+				); err != nil {
 					return err
 				}
 			}
@@ -584,7 +613,11 @@ func ciBrokenLinksCmd() *cobra.Command {
 				fmt.Printf("CI broken-links run error: %v\n", runErr)
 			}
 			if hasErrors {
-				fmt.Printf("CI broken-links found %d broken links and %d GitHub errors\n", len(summary.Broken), len(summary.GitHubErrors))
+				fmt.Printf(
+					"CI broken-links found %d broken links and %d GitHub errors\n",
+					len(summary.Broken),
+					len(summary.GitHubErrors),
+				)
 			} else {
 				fmt.Println("CI broken-links found no errors")
 			}
@@ -594,7 +627,11 @@ func ciBrokenLinksCmd() *cobra.Command {
 					return runErr
 				}
 				if hasErrors {
-					return fmt.Errorf("found %d broken links and %d GitHub API errors", len(summary.Broken), len(summary.GitHubErrors))
+					return fmt.Errorf(
+						"found %d broken links and %d GitHub API errors",
+						len(summary.Broken),
+						len(summary.GitHubErrors),
+					)
 				}
 			}
 			return nil
@@ -602,7 +639,8 @@ func ciBrokenLinksCmd() *cobra.Command {
 	}
 
 	cmd.Flags().StringVar(&issueFile, "issue-file", "broken_links_issue.md", "Path to write issue markdown body")
-	cmd.Flags().StringVar(&githubOutput, "github-output", "", "Path to GitHub output file (typically $GITHUB_OUTPUT)")
+	cmd.Flags().
+		StringVar(&githubOutput, "github-output", "", "Path to GitHub output file (typically $GITHUB_OUTPUT)")
 	cmd.Flags().BoolVar(&strict, "strict", false, "Return non-zero when errors are found")
 	return cmd
 }
@@ -631,25 +669,49 @@ func ciHealthReportCmd() *cobra.Command {
 				}
 			}
 
-			if err := writeGitHubOutput(githubOutput, "has_report", strconv.FormatBool(hasReport)); err != nil {
+			if err := writeGitHubOutput(
+				githubOutput,
+				"has_report",
+				strconv.FormatBool(hasReport),
+			); err != nil {
 				return err
 			}
-			if err := writeGitHubOutput(githubOutput, "health_ok", strconv.FormatBool(healthOK)); err != nil {
+			if err := writeGitHubOutput(
+				githubOutput,
+				"health_ok",
+				strconv.FormatBool(healthOK),
+			); err != nil {
 				return err
 			}
-			if err := writeGitHubOutput(githubOutput, "report_ok", strconv.FormatBool(reportOK)); err != nil {
+			if err := writeGitHubOutput(
+				githubOutput,
+				"report_ok",
+				strconv.FormatBool(reportOK),
+			); err != nil {
 				return err
 			}
-			if err := writeGitHubOutput(githubOutput, "has_errors", strconv.FormatBool(hasErrors)); err != nil {
+			if err := writeGitHubOutput(
+				githubOutput,
+				"has_errors",
+				strconv.FormatBool(hasErrors),
+			); err != nil {
 				return err
 			}
 			if healthErr != nil {
-				if err := writeGitHubOutput(githubOutput, "health_error", sanitizeOutputValue(healthErr.Error())); err != nil {
+				if err := writeGitHubOutput(
+					githubOutput,
+					"health_error",
+					sanitizeOutputValue(healthErr.Error()),
+				); err != nil {
 					return err
 				}
 			}
 			if reportErr != nil {
-				if err := writeGitHubOutput(githubOutput, "report_error", sanitizeOutputValue(reportErr.Error())); err != nil {
+				if err := writeGitHubOutput(
+					githubOutput,
+					"report_error",
+					sanitizeOutputValue(reportErr.Error()),
+				); err != nil {
 					return err
 				}
 			}
@@ -679,7 +741,8 @@ func ciHealthReportCmd() *cobra.Command {
 	}
 
 	cmd.Flags().StringVar(&issueFile, "issue-file", "health_report.txt", "Path to write health issue markdown body")
-	cmd.Flags().StringVar(&githubOutput, "github-output", "", "Path to GitHub output file (typically $GITHUB_OUTPUT)")
+	cmd.Flags().
+		StringVar(&githubOutput, "github-output", "", "Path to GitHub output file (typically $GITHUB_OUTPUT)")
 	cmd.Flags().BoolVar(&strict, "strict", false, "Return non-zero when health/report fails")
 	return cmd
 }
@@ -695,7 +758,7 @@ func browseCmd() *cobra.Command {
 				return fmt.Errorf("load cache: %w", err)
 			}
 			if len(hc.Entries) == 0 {
-				return fmt.Errorf("no cache data; run 'awesome-docker health' first")
+				return errors.New("no cache data; run 'awesome-docker health' first")
 			}
 			return tui.Run(hc.Entries)
 		},
@@ -751,7 +814,7 @@ Use --dry-run to preview what would be removed without writing files.`,
 					return fmt.Errorf("load cache: %w", err)
 				}
 				if len(hc.Entries) == 0 {
-					return fmt.Errorf("no cache data; run 'awesome-docker health' first")
+					return errors.New("no cache data; run 'awesome-docker health' first")
 				}
 				targets = pruner.TargetURLs(hc, statuses)
 			}
@@ -782,7 +845,10 @@ Use --dry-run to preview what would be removed without writing files.`,
 				fmt.Printf("  - [%s] %s (%s)\n", r.Status, r.Name, r.URL)
 			}
 			if len(res.NotFound) > 0 {
-				fmt.Printf("\n%d target URLs not found in README (already pruned or URL drift):\n", len(res.NotFound))
+				fmt.Printf(
+					"\n%d target URLs not found in README (already pruned or URL drift):\n",
+					len(res.NotFound),
+				)
 				for _, u := range res.NotFound {
 					fmt.Printf("  %s\n", u)
 				}
@@ -802,9 +868,11 @@ Use --dry-run to preview what would be removed without writing files.`,
 			return nil
 		},
 	}
-	cmd.Flags().StringSliceVar(&statuses, "status", []string{"archived", "stale"}, "Comma-separated health statuses to prune (archived,stale,inactive,dead)")
+	cmd.Flags().
+		StringSliceVar(&statuses, "status", []string{"archived", "stale"}, "Comma-separated health statuses to prune (archived,stale,inactive,dead)")
 	cmd.Flags().BoolVar(&dryRun, "dry-run", false, "Print what would be removed without writing files")
 	cmd.Flags().BoolVar(&keepCache, "keep-cache", false, "Do not remove pruned URLs from the health cache")
-	cmd.Flags().StringVar(&fromReport, "from-report", "", "Read target URLs from a markdown health report file instead of the cache")
+	cmd.Flags().
+		StringVar(&fromReport, "from-report", "", "Read target URLs from a markdown health report file instead of the cache")
 	return cmd
 }

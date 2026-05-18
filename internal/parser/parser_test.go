@@ -19,7 +19,11 @@ func TestParseEntry(t *testing.T) {
 		t.Errorf("url = %q, want %q", entry.URL, "https://www.docker.com/products/docker-desktop/")
 	}
 	if entry.Description != "Official native app. Only for Windows and MacOS." {
-		t.Errorf("description = %q, want %q", entry.Description, "Official native app. Only for Windows and MacOS.")
+		t.Errorf(
+			"description = %q, want %q",
+			entry.Description,
+			"Official native app. Only for Windows and MacOS.",
+		)
 	}
 	if len(entry.Markers) != 0 {
 		t.Errorf("markers = %v, want empty", entry.Markers)

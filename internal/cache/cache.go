@@ -38,17 +38,17 @@ func LoadExcludeList(path string) (*ExcludeList, error) {
 
 // HealthEntry stores metadata about a single entry.
 type HealthEntry struct {
-	URL        string    `yaml:"url"`
-	Name       string    `yaml:"name"`
-	Status     string    `yaml:"status"` // healthy, inactive, stale, archived, dead
-	Stars      int       `yaml:"stars,omitempty"`
-	Forks      int       `yaml:"forks,omitempty"`
-	LastPush   time.Time `yaml:"last_push,omitempty"`
-	HasLicense  bool      `yaml:"has_license,omitempty"`
-	HasReadme   bool      `yaml:"has_readme,omitempty"`
+	LastPush    time.Time `yaml:"last_push,omitempty"`
 	CheckedAt   time.Time `yaml:"checked_at"`
+	URL         string    `yaml:"url"`
+	Name        string    `yaml:"name"`
+	Status      string    `yaml:"status"`
 	Category    string    `yaml:"category,omitempty"`
 	Description string    `yaml:"description,omitempty"`
+	Stars       int       `yaml:"stars,omitempty"`
+	Forks       int       `yaml:"forks,omitempty"`
+	HasLicense  bool      `yaml:"has_license,omitempty"`
+	HasReadme   bool      `yaml:"has_readme,omitempty"`
 }
 
 // HealthCache is the full YAML cache file.
@@ -84,15 +84,17 @@ func SaveHealthCache(path string, hc *HealthCache) error {
 // Merge updates the cache with new entries, replacing existing ones by URL.
 func (hc *HealthCache) Merge(entries []HealthEntry) {
 	index := make(map[string]int)
-	for i, e := range hc.Entries {
+	for i := range hc.Entries {
+		e := &hc.Entries[i]
 		index[e.URL] = i
 	}
-	for _, e := range entries {
-		if i, exists := index[e.URL]; exists {
-			hc.Entries[i] = e
+	for i := range entries {
+		e := &entries[i]
+		if j, exists := index[e.URL]; exists {
+			hc.Entries[j] = *e
 		} else {
 			index[e.URL] = len(hc.Entries)
-			hc.Entries = append(hc.Entries, e)
+			hc.Entries = append(hc.Entries, *e)
 		}
 	}
 }

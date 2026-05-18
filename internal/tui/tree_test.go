@@ -11,7 +11,12 @@ func TestBuildTree(t *testing.T) {
 		{URL: "https://github.com/a/b", Name: "a/b", Category: "Projects > Networking", Description: "desc1"},
 		{URL: "https://github.com/c/d", Name: "c/d", Category: "Projects > Networking", Description: "desc2"},
 		{URL: "https://github.com/e/f", Name: "e/f", Category: "Projects > Security", Description: "desc3"},
-		{URL: "https://github.com/g/h", Name: "g/h", Category: "Docker Images > Base Tools", Description: "desc4"},
+		{
+			URL:         "https://github.com/g/h",
+			Name:        "g/h",
+			Category:    "Docker Images > Base Tools",
+			Description: "desc4",
+		},
 		{URL: "https://github.com/i/j", Name: "i/j", Category: "", Description: "no category"},
 	}
 
