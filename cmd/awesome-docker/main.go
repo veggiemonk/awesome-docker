@@ -13,6 +13,7 @@ import (
 	"github.com/veggiemonk/awesome-docker/internal/checker"
 	"github.com/veggiemonk/awesome-docker/internal/linter"
 	"github.com/veggiemonk/awesome-docker/internal/parser"
+	"github.com/veggiemonk/awesome-docker/internal/pruner"
 	"github.com/veggiemonk/awesome-docker/internal/scorer"
 	"github.com/veggiemonk/awesome-docker/internal/tui"
 )
@@ -52,6 +53,7 @@ func main() {
 		validateCmd(),
 		ciCmd(),
 		browseCmd(),
+		pruneCmd(),
 	)
 
 	if err := root.Execute(); err != nil {
@@ -699,5 +701,110 @@ func browseCmd() *cobra.Command {
 		},
 	}
 	cmd.Flags().StringVar(&cachePath, "cache", healthCachePath, "Path to health cache YAML")
+	return cmd
+}
+
+func pruneCmd() *cobra.Command {
+	var (
+		statuses   []string
+		dryRun     bool
+		keepCache  bool
+		fromReport string
+	)
+	cmd := &cobra.Command{
+		Use:   "prune",
+		Short: "Remove README entries by health status (default: archived, stale)",
+		Long: `Remove entries from README.md whose repository health status matches the
+given list (default: "archived,stale"). The matching cache entries are also
+dropped so the next health refresh starts from a clean slate.
+
+By default the target URL list is read from the local health cache. Refresh
+it first with:
+
+    awesome-docker health
+
+If the local cache is outdated (e.g. you only have the markdown report from
+a CI-generated issue), point --from-report at the saved markdown report file
+and the URLs will be parsed from its section headings instead.
+
+Use --dry-run to preview what would be removed without writing files.`,
+		RunE: func(cmd *cobra.Command, args []string) error {
+			var (
+				targets map[string]cache.HealthEntry
+				hc      *cache.HealthCache
+			)
+
+			if fromReport != "" {
+				f, err := os.Open(fromReport) //nolint:gosec
+				if err != nil {
+					return fmt.Errorf("open report: %w", err)
+				}
+				defer f.Close()
+				targets, err = pruner.TargetsFromReport(f, statuses)
+				if err != nil {
+					return fmt.Errorf("parse report: %w", err)
+				}
+			} else {
+				var err error
+				hc, err = cache.LoadHealthCache(healthCachePath)
+				if err != nil {
+					return fmt.Errorf("load cache: %w", err)
+				}
+				if len(hc.Entries) == 0 {
+					return fmt.Errorf("no cache data; run 'awesome-docker health' first")
+				}
+				targets = pruner.TargetURLs(hc, statuses)
+			}
+
+			if len(targets) == 0 {
+				fmt.Printf("No entries match statuses %v; nothing to do\n", statuses)
+				return nil
+			}
+
+			res, err := pruner.PruneREADME(readmePath, targets, dryRun)
+			if err != nil {
+				return fmt.Errorf("prune readme: %w", err)
+			}
+
+			byStatus := map[string]int{}
+			for _, r := range res.Removed {
+				byStatus[r.Status]++
+			}
+			action := "Removed"
+			if dryRun {
+				action = "Would remove"
+			}
+			fmt.Printf("%s %d entries from %s\n", action, len(res.Removed), readmePath)
+			for s, n := range byStatus {
+				fmt.Printf("  %s: %d\n", s, n)
+			}
+			for _, r := range res.Removed {
+				fmt.Printf("  - [%s] %s (%s)\n", r.Status, r.Name, r.URL)
+			}
+			if len(res.NotFound) > 0 {
+				fmt.Printf("\n%d target URLs not found in README (already pruned or URL drift):\n", len(res.NotFound))
+				for _, u := range res.NotFound {
+					fmt.Printf("  %s\n", u)
+				}
+			}
+
+			if !keepCache && hc != nil {
+				dropped, err := pruner.PruneCache(healthCachePath, hc, targets, dryRun)
+				if err != nil {
+					return fmt.Errorf("prune cache: %w", err)
+				}
+				cacheAction := "Removed"
+				if dryRun {
+					cacheAction = "Would remove"
+				}
+				fmt.Printf("\n%s %d cache entries from %s\n", cacheAction, dropped, healthCachePath)
+			}
+			return nil
+		},
+	}
+	cmd.Flags().StringSliceVar(&statuses, "status", []string{"archived", "stale"}, "Comma-separated health statuses to prune (archived,stale,inactive,dead)")
+	cmd.Flags().BoolVar(&dryRun, "dry-run", false, "Print what would be removed without writing files")
+	cmd.Flags().BoolVar(&keepCache, "keep-cache", false, "Do not remove pruned URLs from the health cache")
+	cmd.Flags().StringVar(&fromReport, "from-report", "", "Read target URLs from a markdown health report file instead of the cache")
 	return cmd
 }

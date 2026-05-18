@@ -86,7 +86,7 @@ func TestGenerateReport(t *testing.T) {
 
 func TestGenerateReportShowsAllEntries(t *testing.T) {
 	var results []ScoredEntry
-	for i := 0; i < 55; i++ {
+	for i := range 55 {
 		results = append(results, ScoredEntry{
 			URL:      fmt.Sprintf("https://github.com/stale/%d", i),
 			Name:     fmt.Sprintf("stale/%d", i),
