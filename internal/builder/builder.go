@@ -2,8 +2,10 @@ package builder
 
 import (
 	"bytes"
+	"errors"
 	"fmt"
 	"os"
+	"path/filepath"
 	"strings"
 
 	"github.com/yuin/goldmark"
@@ -61,10 +63,13 @@ func Build(markdownPath, templatePath, outputPath string) error {
 		}
 	}
 	if !replaced {
-		return fmt.Errorf("template missing supported markdown placeholder")
+		return errors.New("template missing supported markdown placeholder")
 	}
 
-	if err := os.WriteFile(outputPath, []byte(output), 0o644); err != nil {
+	// outputPath is a CLI-provided destination for a generated website file;
+	// the user controls the destination by design, so the taint warning is expected.
+	//nolint:gosec // G306,G304: user-supplied output path is intentional for this CLI
+	if err := os.WriteFile(filepath.Clean(outputPath), []byte(output), 0o644); err != nil {
 		return fmt.Errorf("write output: %w", err)
 	}
 	return nil

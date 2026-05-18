@@ -15,7 +15,9 @@ import (
 //	by [@author](url), by [@author][ref], by @author
 //
 // Also handles "Created by", "Maintained by" etc.
-var attributionRe = regexp.MustCompile(`\s+(?:(?:[Cc]reated|[Mm]aintained|[Bb]uilt)\s+)?by\s+\[@[^\]]+\](?:\([^)]*\)|\[[^\]]*\])\.?$`)
+var attributionRe = regexp.MustCompile(
+	`\s+(?:(?:[Cc]reated|[Mm]aintained|[Bb]uilt)\s+)?by\s+\[@[^\]]+\](?:\([^)]*\)|\[[^\]]*\])\.?$`,
+)
 
 // bareAttributionRe matches: by @author at end of line (no link).
 var bareAttributionRe = regexp.MustCompile(`\s+by\s+@\w+\.?$`)
@@ -136,13 +138,19 @@ func FixFile(path string) (int, error) {
 
 	w := bufio.NewWriter(out)
 	for i, line := range lines {
-		w.WriteString(line)
+		if _, err := w.WriteString(line); err != nil {
+			return 0, err
+		}
 		if i < len(lines)-1 {
-			w.WriteString("\n")
+			if _, err := w.WriteString("\n"); err != nil {
+				return 0, err
+			}
 		}
 	}
 	// Preserve trailing newline if original had one
-	w.WriteString("\n")
+	if _, err := w.WriteString("\n"); err != nil {
+		return 0, err
+	}
 	return fixCount, w.Flush()
 }
 
@@ -218,11 +226,17 @@ func SortFile(path string) (int, error) {
 
 	w := bufio.NewWriter(out)
 	for i, line := range lines {
-		w.WriteString(line)
+		if _, err := w.WriteString(line); err != nil {
+			return 0, err
+		}
 		if i < len(lines)-1 {
-			w.WriteString("\n")
+			if _, err := w.WriteString("\n"); err != nil {
+				return 0, err
+			}
 		}
 	}
-	w.WriteString("\n")
+	if _, err := w.WriteString("\n"); err != nil {
+		return 0, err
+	}
 	return fixCount, w.Flush()
 }

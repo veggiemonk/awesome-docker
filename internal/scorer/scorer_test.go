@@ -70,7 +70,13 @@ func TestGenerateReport(t *testing.T) {
 	results := []ScoredEntry{
 		{URL: "https://github.com/a/a", Name: "a/a", Status: StatusHealthy, Stars: 100, LastPush: time.Now()},
 		{URL: "https://github.com/b/b", Name: "b/b", Status: StatusArchived, Stars: 50, LastPush: time.Now()},
-		{URL: "https://github.com/c/c", Name: "c/c", Status: StatusStale, Stars: 10, LastPush: time.Now().AddDate(-3, 0, 0)},
+		{
+			URL:      "https://github.com/c/c",
+			Name:     "c/c",
+			Status:   StatusStale,
+			Stars:    10,
+			LastPush: time.Now().AddDate(-3, 0, 0),
+		},
 	}
 	report := GenerateReport(results)
 	if !strings.Contains(report, "Healthy: 1") {
@@ -85,8 +91,9 @@ func TestGenerateReport(t *testing.T) {
 }
 
 func TestGenerateReportShowsAllEntries(t *testing.T) {
-	var results []ScoredEntry
-	for i := 0; i < 55; i++ {
+	const entryCount = 55
+	results := make([]ScoredEntry, 0, entryCount)
+	for i := range entryCount {
 		results = append(results, ScoredEntry{
 			URL:      fmt.Sprintf("https://github.com/stale/%d", i),
 			Name:     fmt.Sprintf("stale/%d", i),
@@ -100,7 +107,7 @@ func TestGenerateReportShowsAllEntries(t *testing.T) {
 	if strings.Contains(report, "... and") {
 		t.Fatal("report should not be truncated")
 	}
-	if !strings.Contains(report, "stale/54") {
+	if !strings.Contains(report, fmt.Sprintf("stale/%d", entryCount-1)) {
 		t.Fatal("report should contain all entries")
 	}
 }
