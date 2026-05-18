@@ -1,28 +1,11 @@
-# Summary
 
-Describe what changed and why.
+# IF THE PROJECT JUST RUNS IN DOCKER, AUTOMATICALLY DENIED
 
-## Scope
+- [ ] I HAVE READ .github/CONTRIBUTING.md
 
-- [ ] README entries/content
-- [ ] Go CLI/tooling
-- [ ] GitHub workflows or `.github` docs
+Write the sentence: *"This project exists to ____."*
 
-## If This PR Adds/Edits README Entries
+If the blank doesn't contain **Docker, container, image, registry, Dockerfile, Compose, Swarm, BuildKit, or OCI**, it probably doesn't belong here.
 
-- Category/section touched:
-- New or updated project links:
+What changed and why:
 
-## Validation
-
-- [ ] `make lint`
-- [ ] `make test` (if Go code changed)
-- [ ] `./awesome-docker check` (if `GITHUB_TOKEN` available)
-
-## Contributor Checklist
-
-- [ ] Entries are alphabetically ordered in their section
-- [ ] Links point to project repositories (no duplicates or redirects)
-- [ ] Descriptions are concise and specific
-- [ ] Archived/deprecated projects were removed instead of tagged
-- [ ] Used `:yen:` only when applicable
