@@ -13,8 +13,11 @@ var (
 				BorderForeground(lipgloss.Color("#555555"))
 
 	// Tree styles
-	treeSelectedStyle = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("#FF79C6")).Background(lipgloss.Color("#3B2D50"))
-	treeNormalStyle   = lipgloss.NewStyle().Foreground(lipgloss.Color("#CCCCCC"))
+	treeSelectedStyle = lipgloss.NewStyle().
+				Bold(true).
+				Foreground(lipgloss.Color("#FF79C6")).
+				Background(lipgloss.Color("#3B2D50"))
+	treeNormalStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("#CCCCCC"))
 
 	// Entry styles
 	entryNameStyle = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("#50FA7B"))

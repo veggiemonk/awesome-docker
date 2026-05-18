@@ -30,9 +30,9 @@ const (
 // Issue is a single lint problem found.
 type Issue struct {
 	Rule     Rule
+	Message  string
 	Severity Severity
 	Line     int
-	Message  string
 }
 
 func (i Issue) String() string {
@@ -79,7 +79,11 @@ func CheckSorted(entries []parser.Entry) []Issue {
 				Rule:     RuleSorted,
 				Severity: SeverityError,
 				Line:     entries[i].Line,
-				Message:  fmt.Sprintf("%q should come before %q (alphabetical order)", entries[i].Name, entries[i-1].Name),
+				Message: fmt.Sprintf(
+					"%q should come before %q (alphabetical order)",
+					entries[i].Name,
+					entries[i-1].Name,
+				),
 			})
 		}
 	}

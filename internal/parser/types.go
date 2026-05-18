@@ -15,17 +15,17 @@ type Entry struct {
 	Name        string
 	URL         string
 	Description string
+	Raw         string
 	Markers     []Marker
-	Line        int    // 1-based line number in source
-	Raw         string // original line text
+	Line        int
 }
 
 // Section is a heading with optional entries and child sections.
 type Section struct {
 	Title    string
-	Level    int // heading level: 1 = #, 2 = ##, etc.
 	Entries  []Entry
 	Children []Section
+	Level    int
 	Line     int
 }
 

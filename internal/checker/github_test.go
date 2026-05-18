@@ -34,7 +34,14 @@ func TestExtractGitHubRepo(t *testing.T) {
 		}
 		if ok {
 			if owner != tt.owner || name != tt.name {
-				t.Errorf("ExtractGitHubRepo(%q) = (%q, %q), want (%q, %q)", tt.url, owner, name, tt.owner, tt.name)
+				t.Errorf(
+					"ExtractGitHubRepo(%q) = (%q, %q), want (%q, %q)",
+					tt.url,
+					owner,
+					name,
+					tt.owner,
+					tt.name,
+				)
 			}
 		}
 	}

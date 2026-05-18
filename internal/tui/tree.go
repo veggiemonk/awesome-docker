@@ -9,11 +9,11 @@ import (
 
 // TreeNode represents a node in the category tree.
 type TreeNode struct {
-	Name     string       // display name (leaf segment, e.g. "Networking")
-	Path     string       // full path (e.g. "Container Operations > Networking")
+	Name     string
+	Path     string
 	Children []*TreeNode
-	Expanded bool
 	Entries  []cache.HealthEntry
+	Expanded bool
 }
 
 // FlatNode is a visible tree node with its indentation depth.
@@ -51,14 +51,15 @@ func BuildTree(entries []cache.HealthEntry) []*TreeNode {
 	root := &TreeNode{Name: "root"}
 	nodeMap := map[string]*TreeNode{}
 
-	for _, e := range entries {
+	for i := range entries {
+		e := &entries[i]
 		cat := e.Category
 		if cat == "" {
 			cat = "Uncategorized"
 		}
 
 		node := ensureNode(root, nodeMap, cat)
-		node.Entries = append(node.Entries, e)
+		node.Entries = append(node.Entries, *e)
 	}
 
 	// Sort children at every level

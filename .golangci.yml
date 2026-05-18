@@ -1,0 +1,74 @@
+# Sample golangci-lint config. Edit or delete to taste.
+# Full reference: https://golangci-lint.run/usage/configuration/
+version: "2"
+
+run:
+  timeout: 5m
+
+linters:
+  enable:
+    - bodyclose       # checks HTTP response body is closed
+    - copyloopvar     # Go 1.22+ loop var capture
+    - dupword         # catches "the the"
+    - durationcheck   # multiplication of two durations
+    - embeddedstructfieldcheck
+    - errcheck        # unchecked errors
+    - errorlint       # errors.Is / errors.As hygiene
+    - forcetypeassert # type assertions without the comma-ok form
+    - gocritic        # opinionated diagnostics
+    - gosec           # security scanner
+    - govet           # stdlib vet
+    - ineffassign     # ineffectual assignments
+    - intrange        # prefer `for range N`
+    - misspell        # spelling
+    - modernize
+    - nilerr          # `return nil` after checking err != nil
+    - noctx           # http requests without context
+    - perfsprint      # fmt.Sprintf → string concat where safe
+    - prealloc        # slice preallocation hints
+    - staticcheck     # staticcheck.io
+    - unconvert       # redundant type conversions
+    - unparam         # unused function parameters
+    - unused          # dead code
+
+  settings:
+    govet:
+      enable-all: true
+      disable:
+        - shadow
+    staticcheck:
+      checks: ["all", "-QF1001", "-QF1002"] # drop quick-fix style nags
+    gocritic:
+      enabled-tags: [diagnostic, performance]
+      disabled-checks:
+        - hugeParam
+    gosec:
+      excludes:
+        - G104 # covered by errcheck
+        - G204 # subprocess with variable — allowed in CLI tooling
+        - G306 # 0600 file perms — CLIs often write executables
+
+  exclusions:
+    generated: lax
+    presets: [comments, common-false-positives, legacy, std-error-handling]
+    rules:
+      # Test code owns its fixtures.
+      - path: '_test\.go'
+        linters: [forcetypeassert, dupword, errcheck, gosec, unparam]
+      # CLI entry point: fmt.Fprint to stdout/stderr is fire-and-forget.
+      - linters: [errcheck]
+        source: 'fmt\.Fprint(ln|f)?\('
+
+issues:
+  max-issues-per-linter: 50
+  max-same-issues: 10
+
+formatters:
+  settings:
+    golines:
+      max-len: 120
+      tab-len: 8
+  enable:
+    - golines
+    - gofmt
+    - goimports
