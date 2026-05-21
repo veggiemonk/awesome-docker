@@ -23,15 +23,15 @@ const (
 
 // ScoredEntry is a repo with its computed health status.
 type ScoredEntry struct {
+	LastPush    time.Time
 	URL         string
 	Name        string
 	Status      Status
+	Category    string
+	Description string
 	Stars       int
 	Forks       int
 	HasLicense  bool
-	LastPush    time.Time
-	Category    string
-	Description string
 }
 
 // ReportSummary contains grouped status counts.
@@ -46,10 +46,10 @@ type ReportSummary struct {
 // ReportData is the full machine-readable report model.
 type ReportData struct {
 	GeneratedAt time.Time                `json:"generated_at"`
-	Total       int                      `json:"total"`
-	Summary     ReportSummary            `json:"summary"`
-	Entries     []ScoredEntry            `json:"entries"`
 	ByStatus    map[Status][]ScoredEntry `json:"by_status"`
+	Entries     []ScoredEntry            `json:"entries"`
+	Summary     ReportSummary            `json:"summary"`
+	Total       int                      `json:"total"`
 }
 
 // Score computes the health status of a GitHub repo.
@@ -94,7 +94,8 @@ func ScoreAll(infos []checker.RepoInfo) []ScoredEntry {
 func ToCacheEntries(scored []ScoredEntry) []cache.HealthEntry {
 	entries := make([]cache.HealthEntry, len(scored))
 	now := time.Now().UTC()
-	for i, s := range scored {
+	for i := range scored {
+		s := &scored[i]
 		entries[i] = cache.HealthEntry{
 			URL:         s.URL,
 			Name:        s.Name,
@@ -135,7 +136,8 @@ func GenerateReport(scored []ScoredEntry) string {
 			return
 		}
 		fmt.Fprintf(&b, "## %s\n\n", title)
-		for _, e := range entries {
+		for i := range entries {
+			e := &entries[i]
 			fmt.Fprintf(&b, "- [%s](%s) - Stars: %d - Last push: %s\n",
 				e.Name, e.URL, e.Stars, e.LastPush.Format("2006-01-02"))
 		}
@@ -152,8 +154,9 @@ func GenerateReport(scored []ScoredEntry) string {
 // BuildReportData returns full report data for machine-readable and markdown rendering.
 func BuildReportData(scored []ScoredEntry) ReportData {
 	groups := map[Status][]ScoredEntry{}
-	for _, s := range scored {
-		groups[s.Status] = append(groups[s.Status], s)
+	for i := range scored {
+		s := &scored[i]
+		groups[s.Status] = append(groups[s.Status], *s)
 	}
 
 	return ReportData{
