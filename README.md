@@ -534,6 +534,7 @@ Tools and applications that are either installed inside containers or designed t
 - [eon01](https://github.com/eon01/DockerCheatSheet)
 - [dimonomid](https://github.com/dimonomid/docker-quick-ref) (PDF)
 - [JensPiegsa](https://github.com/JensPiegsa/docker-cheat-sheet)
+- [TutorialSearch](https://tutorialsearch.io/) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
 - [wsargent](https://github.com/wsargent/docker-cheat-sheet) (Most popular)
 
 ## Where to Start (Windows)
