@@ -528,6 +528,10 @@ Tools and applications that are either installed inside containers or designed t
 - [Practical Guide about Docker Commands in Spanish](https://github.com/brunocascio/docker-espanol) This Spanish guide contains the use of basic docker commands with real life examples.
 - [Setting Python Development Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-python): A step-by-step tutorial for setting up a dockerized Python development environment with VScode, Docker, and the Dev Container extension.
 - [The Docker Handbook](https://docker-handbook.farhan.dev/) An open-source book that teaches you the fundamentals, best practices and some intermediate Docker functionalities. The book is hosted on [fhsinchy/the-docker-handbook](https://github.com/fhsinchy/the-docker-handbook) and the projects are hosted on [fhsinchy/docker-handbook-projects](https://github.com/fhsinchy/docker-handbook-projects) repository.
+- [Understanding the Docker Ecosystem](https://middleware.io/blog/understanding-the-docker-ecosystem/) - Beginner-friendly guide explaining Docker architecture, core components, and how the Docker ecosystem works together.
+- [Docker Container Logs](https://middleware.io/blog/docker-container-logs/) - Practical guide to viewing, managing, and troubleshooting Docker container logs.
+- [Docker Cleanup](https://middleware.io/blog/docker-cleanup/) - Step-by-step guide for cleaning unused Docker containers, images, volumes, and reclaiming disk space.
+- [Exit Code 143](https://middleware.io/blog/exit-code-143/) - Explanation of Docker/Kubernetes exit code 143, SIGTERM behavior, common causes, and troubleshooting approaches.
 
 **Cheatsheets**
 
