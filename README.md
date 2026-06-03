@@ -467,9 +467,10 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
 - [HarborPilot](https://github.com/potterwhite/HarborPilot) - Automated multi-platform Docker image builder for embedded Linux development (RK3588, RV1126, RK3568). Features three-layer config inheritance, PORT_SLOT-based port allocation, and cross-version Ubuntu support (20.04/22.04/24.04).
 - [Lando](https://github.com/lando/lando) - Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects.
+- [localdevstack](https://github.com/krishgok/localdevstack) - Spin up a production-shaped local stack in 30 seconds. One command generates a Dockerised service + database + hot-reload. Coverage for 9 languages, 8 databases.
 - [uniget](https://github.com/uniget-org/cli) - Uni(versal)get, the installer and updater for container tools and beyond (formerly docker-setup).
 - [Zsh-in-Docker](https://github.com/deluan/zsh-in-docker) - Install Zsh, Oh-My-Zsh and plugins inside a Docker container with one line!.
-- [localdevstack](https://github.com/krishgok/localdevstack) - Spin up a production-shaped local stack in 30 seconds. One command generates a Dockerised service + database + hot-reload. Coverage for 9 languages, 8 databases.
+
 
 ### Serverless
 
