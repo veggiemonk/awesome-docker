@@ -469,6 +469,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Lando](https://github.com/lando/lando) - Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects.
 - [uniget](https://github.com/uniget-org/cli) - Uni(versal)get, the installer and updater for container tools and beyond (formerly docker-setup).
 - [Zsh-in-Docker](https://github.com/deluan/zsh-in-docker) - Install Zsh, Oh-My-Zsh and plugins inside a Docker container with one line!.
+- [localdevstack](https://github.com/krishgok/localdevstack) - Spin up a production-shaped local stack in 30 seconds. One command generates a Dockerised service + database + hot-reload. Coverage for 9 languages, 8 databases.
 
 ### Serverless
 
