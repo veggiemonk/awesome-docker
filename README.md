@@ -663,4 +663,4 @@ Tools and applications that are either installed inside containers or designed t
 [nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://okd.io/
 [sindresorhus]: https://github.com/sindresorhus/awesome
-
+- [BreakShield CI](https://breakshield-ci.vercel.app) - Detects breaking API changes in PRs using AST. AI auto-fix included.
