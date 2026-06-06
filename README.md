@@ -457,6 +457,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository.
 - [Tekton CD](https://tekton.dev/) - A cloud-native pipeline resource.
 - [TravisCI](https://www.travis-ci.com/) - :yen: Hosted CI for GitHub projects with Docker support.
+- [Watchtower](https://github.com/openserbia/watchtower) - Automatically update running containers when a new image is pushed to the registry, recreating them with the same configuration.
 
 ### Development Environment
 
