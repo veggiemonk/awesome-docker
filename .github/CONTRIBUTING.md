@@ -62,6 +62,7 @@ If the blank doesn't contain **Docker, container, image, registry, Dockerfile, C
 ## Local Validation
 
 ```bash
+
 # Build CLI
 make build
 
