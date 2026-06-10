@@ -1,5 +1,12 @@
 # Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)][sindresorhus] [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/veggiemonk/awesome-docker/)[![Last Commit](https://img.shields.io/github/last-commit/veggiemonk/awesome-docker)](https://github.com/veggiemonk/awesome-docker/commits/main)<!-- omit in toc -->
 
+
+<!-- AUTO-PACKAGE-BADGES:START -->
+<!-- Auto-generated package badges -->
+
+![Go Reference](https://img.shields.io/github/v/tag/veggiemonk/awesome-docker?style=flat-square&logo=go&label=go.mod&color=00add8) [![Deployed](https://img.shields.io/badge/deployed-latest-blue?style=flat-square)](https://pkg.go.dev/github.com/veggiemonk/awesome-docker)
+
+<!-- AUTO-PACKAGE-BADGES:END -->
 > A curated list of projects for Docker.
 
 If you would like to contribute, please read [CONTRIBUTING.md](https://github.com/veggiemonk/awesome-docker/blob/master/.github/CONTRIBUTING.md) first.
