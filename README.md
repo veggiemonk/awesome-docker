@@ -385,6 +385,7 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [dockly](https://github.com/lirantal/dockly) - An interactive shell UI for managing Docker containers.
 - [DockMate](https://github.com/shubh-io/dockmate) - Lightweight terminal-based Docker and Podman manager with a text-based user interface,.
 - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer helps you get started with home server apps running in Docker.
+- [DockTUI](https://github.com/strmax195-hue/docktui) - Fast, zero-dependency terminal dashboard for Docker and Compose.
 - [dprs](https://github.com/durableprogramming/dprs) - A developer-focused TUI for managing Docker containers with real-time log streaming and container management.
 - [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers.
 - [easydocker](https://github.com/joao-zanutto/easydocker) - A Terminal UI highly inpired by k9s levaraging beatiful BubbleTea graphics.
