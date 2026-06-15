@@ -308,7 +308,7 @@ Container-aware reverse proxies, ingress, and TLS-terminating front-ends with au
 - [Netshare](https://github.com/ContainX/docker-volume-netshare) Docker NFS, AWS EFS, Ceph & Samba/CIFS Volume Plugin.
 - [portworx](https://portworx.com) - :yen: Decentralized storage solution for persistent, shared and replicated volumes.
 - [quobyte](https://www.quobyte.com/) - :yen: Fully fault-tolerant distributed file system with a docker volume driver.
-- [resq](https://github.com/mashb1t/resq) - Restic-powered Docker backups for volumes, databases, and .env files, both with/without stopping containers. Works with local, ssh, or any S3 compatible storage.
+- [resq](https://github.com/mashb1t/resq) - Restic-powered Docker backups for volumes, databases, and .env files, with or without stopping containers. Works with local, SSH, or any S3 compatible storage.
 - [REX-Ray](https://github.com/rexray/rexray) provides a vendor agnostic storage orchestration engine. The primary design goal is to provide persistent storage for Docker, Kubernetes, and Mesos.
 
 ## Observability
