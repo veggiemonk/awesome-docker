@@ -455,6 +455,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Jaypore CI](https://github.com/theSage21/jaypore_ci) - Simple, very flexible, powerful CI / CD / automation system configured in Python. Offline and local first.
 - [Kraken CI](https://github.com/Kraken-CI/kraken) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing. One of its executors is Docker. Developed.
 - [Screwdriver](https://screwdriver.cd/) - :yen: Yahoo's OpenSource buildplatform designed for Continous Delivery.
+- [Self Hosted Runner](https://github.com/youssefbrr/self-hosted-runner) - Dockerized solution for setting up a self-hosted GitHub Actions runner with support for Linux, macOS, and Windows. By [youssefbrr](https://github.com/youssefbrr).
 - [Semaphore CI](https://semaphore.io/) - :yen: High-performance cloud CI that builds, tests and ships containers to production.
 - [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository.
 - [Tekton CD](https://tekton.dev/) - A cloud-native pipeline resource.
