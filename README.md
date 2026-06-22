@@ -611,9 +611,7 @@ Tools and applications that are either installed inside containers or designed t
 
 ## Videos
 
-- [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
 - [Deploying and scaling applications with Docker, Swarm, and a tiny bit of Python magic](https://www.youtube.com/watch?v=GpHMTR7P2Ms) (3:11:06)
-- [Docker and SELinux by Daniel Walsh from Red Hat](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
 - [Docker Course](https://www.youtube.com/watch?v=UZpyvK6UGFo) (Spanish)
 - [Docker for Developers](https://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26)
 - [Docker from scratch](https://www.youtube.com/playlist?list=PLLhEJK7fQIxD-btrjrqdEfQHbkZnQrmqE) (1:22:01)
@@ -624,7 +622,6 @@ Tools and applications that are either installed inside containers or designed t
 - [Docker Swarm from scratch](https://www.youtube.com/playlist?list=PLLhEJK7fQIxAY4gZd1Wl-GsLvg-e9Ap1e) (1:41:28)
 - [Extending Docker with Plugins](https://vimeo.com/110835013) (15:21)
 - [From Local Docker Development to Production Deployments](https://www.youtube.com/watch?v=7CZFpHUPqXw)
-- [Immutable Infrastructure with Docker and EC2 by Michael Bryzek (Gilt)](https://www.youtube.com/watch?v=GaHzdqFithc) (42:04)
 - [Introduction to Docker and containers](https://www.youtube.com/watch?v=ZVaRK10HBjo) (3:09:00)
 - [Logging on Docker: What You Need to Know](https://vimeo.com/123341629) (51:27)
 - [Performance Analysis of Docker - Jeremy Eder](https://www.youtube.com/watch?v=6f2E6PKYb0w) (1:36:58)
