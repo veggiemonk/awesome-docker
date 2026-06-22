@@ -403,7 +403,9 @@ TUIs, CLI tools, and shell integrations for Docker.
 
 - [Arcane](https://github.com/getarcaneapp/arcane) - An easy and modern Docker management platform, built with everybody in mind.
 - [CASA](https://github.com/knrdl/casa) - Outsource the administration of a handful of containers to your co-workers,.
-- [Container Web TTY](https://github.com/wrfly/container-web-tty) - Connect your containers via a web-tty.
+- [Container Web TTY](https://github.com/wrfly/container-web-tty) - Connect your containers via a web-tty [wrfly](https://github.com/wrfly).
+- [ContainerFlow](https://github.com/RGJorge/ContainerFlow) - Real-time Docker dashboard: manage and visualize containers, monitor metrics and get best-practice config recommendations. By [RGJorge](https://github.com/RGJorge).
+- [dockemon](https://github.com/ProductiveOps/dokemon) :ice_cube: - Docker Container Management GUI.
 - [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2.
 - [docker-swarm-visualizer](https://github.com/dockersamples/docker-swarm-visualizer) - Visualizes Docker services on a Docker Swarm (for running demos).
 - [dockge](https://github.com/louislam/dockge) - Easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
