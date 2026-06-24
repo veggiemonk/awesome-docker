@@ -464,9 +464,19 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 ### Development Environment
 
 - [coder](https://github.com/coder/coder) - Remote development machines powered by Terraform or Docker.
-- [dde](https://github.com/whatwedo/dde) - Local development environment toolset based on Docker.
-- [DIP](https://github.com/bibendi/dip) - CLI utility for straightforward provisioning and interacting with an application configured by docker-compose.
-- [EnvCLI](https://github.com/EnvCLI/EnvCLI) - Replace your local installation of Node, Go, ... with project-specific docker containers.
+- [CodingBooth](https://github.com/NawaMan/CodingBooth) - Per-project dev environments via a `.booth/` folder in the repo. Maps host UID/GID into the container, runs as terminal, Jupyter, browser-based VS Code, or full Linux desktop variants, and ships a curated catalog of 130+ language / IDE / AI-tool templates.
+- [construi](https://github.com/lstephen/construi) :ice_cube: - Run your builds inside a Docker defined environment.
+- [dde](https://github.com/whatwedo/dde) - Local development environment toolset based on Docker. By [whatwedo](https://github.com/whatwedo).
+- [DIP](https://github.com/bibendi/dip) - CLI utility for straightforward provisioning and interacting with an application configured by docker-compose. By [bibendi](https://github.com/bibendi).
+- [dobi](https://github.com/dnephin/dobi) :ice_cube: - A build automation tool for Docker applications. By [dnephin](https://github.com/dnephin).
+- [Docker Missing Tools](https://github.com/nandoquintana/docker-missing-tools) :ice_cube: - A set of bash commands to shortcut typical docker dev-ops. An alternative to creating typical helper scripts like "build.sh" and "deploy.sh" inside code repositories. By [NandoQuintana](https://github.com/nandoquintana).
+- [Docker-Arch](https://github.com/Ph3nol/Docker-Arch) :ice_cube: - Generate Web/CLI projects Dockerized development environments, from 1 simple YAML file. By [Ph3nol](https://github.com/ph3nol).
+- [Docker-sync](https://github.com/EugenMayer/docker-sync) - Drastically improves performance ([50-70x](https://github.com/EugenMayer/docker-sync/wiki/4.-Performance)) when using Docker for development on Mac OS X/Windows and Linux while sharing code to the container. By [EugenMayer](https://github.com/EugenMayer).
+- [docker-vm](https://github.com/shyiko/docker-vm) :ice_cube: - Simple and transparent alternative to boot2docker (backed by Vagrant).
+- [DockerDL](https://github.com/matifali/dockerdl) - Deep Learning Docker Images. Don't waste time setting up a deep learning env when you can get a deep learning environment with everything pre-installed.
+- [Eclipse Che](https://github.com/eclipse/che) - Developer workspace server with Docker runtimes, cloud IDE, next-generation Eclipse IDE.
+- [EnvCLI](https://github.com/EnvCLI/EnvCLI) - Replace your local installation of Node, Go, ... with project-specific docker containers. By [EnvCLI](https://github.com/EnvCLI).
+- [ESP32 Linux - Docker builder](https://github.com/hpsaturn/esp32s3-linux) - Container solution to compile Linux and develop it for ESP32 microcontrollers - By [Hpsaturn](https://github.com/hpsaturn).
 - [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
 - [HarborPilot](https://github.com/potterwhite/HarborPilot) - Automated multi-platform Docker image builder for embedded Linux development (RK3588, RV1126, RK3568). Features three-layer config inheritance, PORT_SLOT-based port allocation, and cross-version Ubuntu support (20.04/22.04/24.04).
 - [Lando](https://github.com/lando/lando) - Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects.
