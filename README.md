@@ -265,6 +265,7 @@ Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Comm
 - [Triton](https://www.joyent.com/) - :yen: Elastic container-native infrastructure.
 - [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software.
 - [werf](https://github.com/werf/werf) - Werf is a CI/CD tool for building Docker images efficiently and deploying them to Kubernetes using GitOps.
+- [ZopDay](https://zop.dev/zopday) - :yen: Internal Developer Platform that provisions production-ready Kubernetes environments across AWS, GCP, Azure, and OCI. Deploys any Docker container or Helm chart via Git push, with built-in observability and RBAC governance.
 
 ### Garbage Collection
 
