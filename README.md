@@ -342,6 +342,7 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 
 Container hardening, runtime security, policy, compliance, and forensics. Self-hosted and commercial together; commercial entries marked `:yen:`.
 
+- [AEGIS](https://github.com/conchaestradamiguelangel-droid/aegis) - Autonomous intrusion detection and prevention system with 9 active defense layers and post-quantum (ML-DSA-87, NIST FIPS 204) signed threat alerts, deployable with Docker.
 - [Aqua Security](https://www.aquasec.com) - :yen: Securing container-based applications from Dev to Production on any platform.
 - [buildcage](https://github.com/dash14/buildcage) - Restricts outbound network access during Docker builds to prevent supply chain attacks, working as a drop-in BuildKit remote driver for Docker Buildx, with ready-to-use GitHub Actions.
 - [CetusGuard](https://github.com/hectorm/cetusguard) - CetusGuard is a tool that protects the Docker daemon socket by filtering calls to its API endpoints.
