@@ -198,7 +198,7 @@ Image vulnerability scanners, SBOM generators, and digest pinning tools. Commerc
 
 - [Anchor](https://github.com/SongStitch/anchor/) - A tool to ensure reproducible builds by pinning dependencies inside your Dockerfiles.
 - [Anchor Enterprise](https://anchore.com/) - :yen: Analyze images for CVE vulnerabilities and against custom security policies.
-- [BomLens](https://github.com/sktelecom/sbom-tools) - Scan container images (plus source, binaries, and firmware) into CycloneDX SBOMs with vulnerability, license, and notice reports. Ships as a single Docker image with a web UI.
+- [BomLens](https://github.com/sktelecom/bomlens) - Scan container images (plus source, binaries, and firmware) into CycloneDX SBOMs with vulnerability, license, and notice reports. Ships as a single Docker image with a web UI.
 - [Clair](https://github.com/quay/clair) - Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers.
 - [Docker Scout](https://github.com/docker/scout-cli) - Official Docker CLI for SBOM generation, vulnerability analysis, and policy evaluation.
 - [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images, filesystems and SBOMs.
