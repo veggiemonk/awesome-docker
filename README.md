@@ -665,3 +665,4 @@ Tools and applications that are either installed inside containers or designed t
 [openshift]: https://okd.io/
 [sindresorhus]: https://github.com/sindresorhus/awesome
 
+- [Spwig](https://github.com/Spwig/commerce) - Self-hosted e-commerce platform with Docker deployment, full ownership of code, data, and customers.
