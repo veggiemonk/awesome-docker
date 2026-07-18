@@ -143,6 +143,7 @@ Minimal, hardened, or purpose-built container base images.
 ### Dockerfile
 
 - [Dockerfile Generator](https://github.com/ozankasikci/dockerfile-generator) `dfg` is both a Go library and an executable that produces valid Dockerfiles using various input channels.
+- [Dev Launch Pack — Dockerfile Generator](https://draftkit.co/dev-launch-pack/dockerfile-generator.html) - Free browser-based Dockerfile generator. Produces multi-stage, non-root Dockerfiles for Node, Python, Go, Rust, and Java (distroless/alpine/slim) with a matching `.dockerignore`. No install; runs client-side.
 - [Dockershelf](https://github.com/Dockershelf/dockershelf) - A repository that serves as a collector for docker recipes that are universal, efficient and slim. Images are updated, tested and published daily via a Travis cron job.
 - [Trsuted Builds](https://dockerfile.github.io/) - Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
 
