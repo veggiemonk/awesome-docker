@@ -584,6 +584,7 @@ Tools and applications that are either installed inside containers or designed t
 ## Demos and Examples
 
 - [An Annotated Docker Config for Frontend Web Development](https://nystudio107.com/blog/an-annotated-docker-config-for-frontend-web-development) A local development environment with Docker allows you to shrink-wrap the devops your project needs as config, making onboarding frictionless.
+- [Deployable Stacks](https://github.com/deployable-sh/stacks) a catalogue of Docker Compose templates with pinned image tags, healthchecks and per-template READMEs, including multi-node clusters (RabbitMQ, Kafka, Postgres with replicas)
 - [Local Docker DB](https://github.com/alexmacarthur/local-docker-db) a list of docker-compose samples for a lot of databases
 - [Webstack-micro](https://github.com/ferbs/webstack-micro) Demo web app showing how Docker Compose might be used to set up an API Gateway, centralized authentication, background workers, and WebSockets as containerized services.
 
