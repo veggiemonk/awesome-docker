@@ -224,6 +224,7 @@ Signing, attestation, and provenance for container images.
 
 - [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files.
 - [ctk](https://github.com/ctk-hq/ctk) - Visual composer for container based workloads.
+- [DevOpsForge](https://github.com/Gohar01/devops-config-generator) - A free, 100% client-side visual Docker Compose & server configuration generator.
 - [kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes.
 - [plash](https://github.com/ihucos/plash) - A container run and build engine - runs inside docker.
 - [podman-compose](https://github.com/containers/podman-compose) - A script to run docker-compose.yml using podman.
