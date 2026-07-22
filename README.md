@@ -353,6 +353,7 @@ Container hardening, runtime security, policy, compliance, and forensics. Self-h
 - [Checkov](https://github.com/bridgecrewio/checkov) - Static analysis for infrastructure as code manifests (Terraform, Kubernetes, Cloudformation, Helm, Dockerfile, Kustomize) find security misconfiguration and fix them.
 - [compose-lint](https://github.com/tmatens/compose-lint) - Lints Docker Compose files for security misconfigurations — privileged containers, unpinned images, Docker socket mounts, plaintext credentials — grounded in OWASP and the CIS Docker Benchmark.
 - [container-explorer](https://github.com/google/container-explorer) - Forensic utility to explore Docker and containerd container details from mounted disk images.
+- [Cynative](https://github.com/cynative/cynative) - Deep security research agent for your infrastructure across AWS, GCP, Azure, any Kubernetes containers environment, GitHub & GitLab, read-only by construction, built-in code execution sandbox, security findings verification and audit log.
 - [Deepfence Threat Mapper](https://github.com/deepfence/ThreatMapper) - Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.
 - [Den](https://github.com/us/den) - Self-hosted sandbox runtime for AI agents with Docker containers, security hardening, REST API and WebSocket support.
 - [docker-bench-security](https://github.com/docker/docker-bench-security) - Script that checks for dozens of common best-practices around deploying Docker containers in production.
