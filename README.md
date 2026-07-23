@@ -114,6 +114,7 @@ Applications designed to help or simplify building **new** images
 - [buildx](https://github.com/docker/buildx) - Official Docker CLI plugin for multi-platform builds backed by BuildKit.
 - [cekit](https://github.com/cekit/cekit) - A tool used by openshift to build base images using different build engines.
 - [dlayer](https://github.com/orisano/dlayer) - Docker layer analyzer.
+- [dii](https://github.com/DDDPS/dii) - Extract and filter essential runtime configurations (ENV, ports, volumes, etc.) from Docker and OCI images, with Docker Compose generation.
 - [docker-companion](https://github.com/mudler/docker-companion) - A command line tool written in Golang to squash and unpack docker images.
 - [docker-repack](https://github.com/orf/docker-repack) - Repacks a Docker image into a smaller, more efficient version that makes it significantly faster to pull.
 - [DockerSlim](https://github.com/docker-slim/docker-slim) shrinks fat Docker images creating the smallest possible images.
