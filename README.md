@@ -137,6 +137,7 @@ Minimal, hardened, or purpose-built container base images.
 - [Chainguard Images](https://github.com/chainguard-images/images) - Minimal, signed, SBOM-attested container images built on Wolfi.
 - [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system.
 - [melange](https://github.com/chainguard-dev/melange) - Build apk packages from declarative YAML for use with apko.
+- [pglayers](https://github.com/pglayers/pglayers) - Pre-built PostgreSQL extensions as composable Docker layers. 50+ extensions, ready-to-use combined images (full, Azure-compatible).
 - [Wolfi](https://github.com/wolfi-dev/os) - Undistro Linux designed for containers; glibc-based, signed, daily SBOMs.
 
 
@@ -144,6 +145,7 @@ Minimal, hardened, or purpose-built container base images.
 
 - [Dockerfile Generator](https://github.com/ozankasikci/dockerfile-generator) `dfg` is both a Go library and an executable that produces valid Dockerfiles using various input channels.
 - [Dockershelf](https://github.com/Dockershelf/dockershelf) - A repository that serves as a collector for docker recipes that are universal, efficient and slim. Images are updated, tested and published daily via a Travis cron job.
+- [Dofigen](https://github.com/lenra-io/dofigen) - A Dockerfile generator using a simplified description in YAML or JSON format.
 - [Trsuted Builds](https://dockerfile.github.io/) - Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.
 
 ### Linter
@@ -198,6 +200,7 @@ Image vulnerability scanners, SBOM generators, and digest pinning tools. Commerc
 
 - [Anchor](https://github.com/SongStitch/anchor/) - A tool to ensure reproducible builds by pinning dependencies inside your Dockerfiles.
 - [Anchor Enterprise](https://anchore.com/) - :yen: Analyze images for CVE vulnerabilities and against custom security policies.
+- [BomLens](https://github.com/sktelecom/bomlens) - Scan container images (plus source, binaries, and firmware) into CycloneDX SBOMs with vulnerability, license, and notice reports. Ships as a single Docker image with a web UI.
 - [Clair](https://github.com/quay/clair) - Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers.
 - [Docker Scout](https://github.com/docker/scout-cli) - Official Docker CLI for SBOM generation, vulnerability analysis, and policy evaluation.
 - [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images, filesystems and SBOMs.
@@ -258,6 +261,7 @@ Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Comm
 - [Google Container Engine](https://docs.cloud.google.com/kubernetes-engine/docs) - :yen: Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
 - [Grafeas](https://github.com/grafeas/grafeas) - A common API for metadata about containers, from image and build details to security vulnerabilities.
 - [Mesosphere DC/OS Platform](https://d2iq.com/products/dcos) - :yen: Integrated platform for data and containers built on Apache Mesos.
+- [OpenRun](https://github.com/openrundev/openrun) - Builds, deploys, proxies, authenticates and auto-pauses web apps with Docker or Kubernetes.
 - [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/en)
 - [Red Hat OpenShift Dedicated](https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated) - :yen: Fully-managed Red Hat® OpenShift® service on Amazon Web Services and Google Cloud.
 - [swarm-ansible](https://github.com/LombardiDaniel/swarm-ansible?tab=readme-ov-file) - Swarm-Ansible bootstraps a production-ready swarm cluster using ansible. Comes with tools to automate CI, help monitoring and traefik pre-configured for SSL certificates and simple-auth. Comes with a private registry and more!.
@@ -303,11 +307,12 @@ Container-aware reverse proxies, ingress, and TLS-terminating front-ends with au
 
 ## Storage & Data
 
-- [Label Backup](https://github.com/resulgg/label-backup) - A lightweight, Docker-aware backup agent that automatically discovers and backs up containerized databases (PostgreSQL, MySQL, MongoDB, Redis) based on Docker labels. Supports local storage and S3-compatible destinations with flexible scheduling via cron expressions.
 - [Docker Volume Backup](https://github.com/offen/docker-volume-backup) Backup Docker volumes locally or to any S3 compatible storage.
+- [Label Backup](https://github.com/resulgg/label-backup) - A lightweight, Docker-aware backup agent that automatically discovers and backs up containerized databases (PostgreSQL, MySQL, MongoDB, Redis) based on Docker labels. Supports local storage and S3-compatible destinations with flexible scheduling via cron expressions.
 - [Netshare](https://github.com/ContainX/docker-volume-netshare) Docker NFS, AWS EFS, Ceph & Samba/CIFS Volume Plugin.
 - [portworx](https://portworx.com) - :yen: Decentralized storage solution for persistent, shared and replicated volumes.
 - [quobyte](https://www.quobyte.com/) - :yen: Fully fault-tolerant distributed file system with a docker volume driver.
+- [resq](https://github.com/mashb1t/resq) - Restic-powered Docker backups for volumes, databases, and .env files, with or without stopping containers. Works with local, SSH, or any S3 compatible storage.
 - [REX-Ray](https://github.com/rexray/rexray) provides a vendor agnostic storage orchestration engine. The primary design goal is to provide persistent storage for Docker, Kubernetes, and Mesos.
 
 ## Observability
@@ -331,6 +336,7 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 - [Drydock](https://github.com/CodesWhat/drydock) - Container update monitoring with web dashboard, 23 registry providers, 20 notification triggers, and distributed agent architecture.
 - [Dynatrace](https://docs.dynatrace.com/docs/observe/infrastructure-observability/container-platform-monitoring) - :yen: Monitor containerized applications without installing agents or modifying your Run commands.
 - [Grafana Docker Dashboard Template](https://grafana.com/grafana/dashboards/179-docker-prometheus-monitoring/) - A template for your Docker, Grafana and Prometheus stack.
+- [InfraCanvas](https://github.com/bytestrix/InfraCanvas) - Live visual map of containers, pods, volumes, and networks on any Linux server. Single binary, WebSocket-powered live updates.
 - [Maintenant](https://github.com/kolapsis/maintenant) - Self-discovering infrastructure monitoring for Docker and Kubernetes. Auto-detects containers via labels, with endpoint monitoring, heartbeats, TLS certificates, resource metrics, update intelligence, and a built-in status page. Single binary with embedded SPA.
 - [Middleware](https://middleware.io/) - :yen: Monitor Docker hosts, containers, logs, and application performance from a unified observability platform.
 - [metriclens](https://github.com/tyshkovskii/metriclens) - Auto-discovers Prometheus metrics endpoints across Docker Compose services and visualizes them in a local web UI.
@@ -346,6 +352,7 @@ Container hardening, runtime security, policy, compliance, and forensics. Self-h
 - [buildcage](https://github.com/dash14/buildcage) - Restricts outbound network access during Docker builds to prevent supply chain attacks, working as a drop-in BuildKit remote driver for Docker Buildx, with ready-to-use GitHub Actions.
 - [CetusGuard](https://github.com/hectorm/cetusguard) - CetusGuard is a tool that protects the Docker daemon socket by filtering calls to its API endpoints.
 - [Checkov](https://github.com/bridgecrewio/checkov) - Static analysis for infrastructure as code manifests (Terraform, Kubernetes, Cloudformation, Helm, Dockerfile, Kustomize) find security misconfiguration and fix them.
+- [compose-lint](https://github.com/tmatens/compose-lint) - Lints Docker Compose files for security misconfigurations — privileged containers, unpinned images, Docker socket mounts, plaintext credentials — grounded in OWASP and the CIS Docker Benchmark.
 - [container-explorer](https://github.com/google/container-explorer) - Forensic utility to explore Docker and containerd container details from mounted disk images.
 - [Deepfence Threat Mapper](https://github.com/deepfence/ThreatMapper) - Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.
 - [Den](https://github.com/us/den) - Self-hosted sandbox runtime for AI agents with Docker containers, security hardening, REST API and WebSocket support.
@@ -386,6 +393,7 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [DockMate](https://github.com/shubh-io/dockmate) - Lightweight terminal-based Docker and Podman manager with a text-based user interface,.
 - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer helps you get started with home server apps running in Docker.
 - [DockTUI](https://github.com/strmax195-hue/docktui) - Fast, zero-dependency terminal dashboard for Docker and Compose.
+- [dockup](https://github.com/paulo-amaral/dockup) - TUI to install, harden and maintain container runtimes: Docker Engine + Compose v2, NVIDIA Container Toolkit, Podman and Apple container, with a CIS-inspired security audit.
 - [dprs](https://github.com/durableprogramming/dprs) - A developer-focused TUI for managing Docker containers with real-time log streaming and container management.
 - [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers.
 - [easydocker](https://github.com/joao-zanutto/easydocker) - A Terminal UI highly inpired by k9s levaraging beatiful BubbleTea graphics.
@@ -456,6 +464,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Jaypore CI](https://github.com/theSage21/jaypore_ci) - Simple, very flexible, powerful CI / CD / automation system configured in Python. Offline and local first.
 - [Kraken CI](https://github.com/Kraken-CI/kraken) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing. One of its executors is Docker. Developed.
 - [Screwdriver](https://screwdriver.cd/) - :yen: Yahoo's OpenSource buildplatform designed for Continous Delivery.
+- [Self Hosted Runner](https://github.com/youssefbrr/self-hosted-runner) - Dockerized solution for setting up a self-hosted GitHub Actions runner with support for Linux, macOS, and Windows.
 - [Semaphore CI](https://semaphore.io/) - :yen: High-performance cloud CI that builds, tests and ships containers to production.
 - [Skipper](https://github.com/Stratoscale/skipper) - Easily dockerize your Git repository.
 - [Tekton CD](https://tekton.dev/) - A cloud-native pipeline resource.
@@ -581,11 +590,11 @@ Tools and applications that are either installed inside containers or designed t
 
 ## Good Tips
 
-- [Docker Caveats](http://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016).
+- [Docker Caveats](https://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016).
 - [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
 - [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.flexera.com/blog/finops/)
 - [Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)
-- [GUI Apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
+- [GUI Apps with Docker](https://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
 
 ## Raspberry Pi & ARM
 
@@ -612,9 +621,7 @@ Tools and applications that are either installed inside containers or designed t
 
 ## Videos
 
-- [Contributing to Docker by Andrew "Tianon" Page (InfoSiftr)](https://www.youtube.com/watch?v=1jwo8-1HYYg) (34:31)
 - [Deploying and scaling applications with Docker, Swarm, and a tiny bit of Python magic](https://www.youtube.com/watch?v=GpHMTR7P2Ms) (3:11:06)
-- [Docker and SELinux by Daniel Walsh from Red Hat](https://www.youtube.com/watch?v=zWGFqMuEHdw) (40:23)
 - [Docker Course](https://www.youtube.com/watch?v=UZpyvK6UGFo) (Spanish)
 - [Docker for Developers](https://www.youtube.com/watch?v=FdkNAjjO5yQ) (54:26)
 - [Docker from scratch](https://www.youtube.com/playlist?list=PLLhEJK7fQIxD-btrjrqdEfQHbkZnQrmqE) (1:22:01)
@@ -625,7 +632,6 @@ Tools and applications that are either installed inside containers or designed t
 - [Docker Swarm from scratch](https://www.youtube.com/playlist?list=PLLhEJK7fQIxAY4gZd1Wl-GsLvg-e9Ap1e) (1:41:28)
 - [Extending Docker with Plugins](https://vimeo.com/110835013) (15:21)
 - [From Local Docker Development to Production Deployments](https://www.youtube.com/watch?v=7CZFpHUPqXw)
-- [Immutable Infrastructure with Docker and EC2 by Michael Bryzek (Gilt)](https://www.youtube.com/watch?v=GaHzdqFithc) (42:04)
 - [Introduction to Docker and containers](https://www.youtube.com/watch?v=ZVaRK10HBjo) (3:09:00)
 - [Logging on Docker: What You Need to Know](https://vimeo.com/123341629) (51:27)
 - [Performance Analysis of Docker - Jeremy Eder](https://www.youtube.com/watch?v=6f2E6PKYb0w) (1:36:58)
