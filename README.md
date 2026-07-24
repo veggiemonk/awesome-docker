@@ -338,8 +338,8 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 - [Grafana Docker Dashboard Template](https://grafana.com/grafana/dashboards/179-docker-prometheus-monitoring/) - A template for your Docker, Grafana and Prometheus stack.
 - [InfraCanvas](https://github.com/bytestrix/InfraCanvas) - Live visual map of containers, pods, volumes, and networks on any Linux server. Single binary, WebSocket-powered live updates.
 - [Maintenant](https://github.com/kolapsis/maintenant) - Self-discovering infrastructure monitoring for Docker and Kubernetes. Auto-detects containers via labels, with endpoint monitoring, heartbeats, TLS certificates, resource metrics, update intelligence, and a built-in status page. Single binary with embedded SPA.
-- [Middleware](https://middleware.io/) - :yen: Monitor Docker hosts, containers, logs, and application performance from a unified observability platform.
 - [metriclens](https://github.com/tyshkovskii/metriclens) - Auto-discovers Prometheus metrics endpoints across Docker Compose services and visualizes them in a local web UI.
+- [Middleware](https://middleware.io/) - :yen: Monitor Docker hosts, containers, logs, and application performance from a unified observability platform.
 - [Site24x7](https://www.site24x7.com/docker-monitoring.html) - :yen: Docker Monitoring for DevOps and IT, SaaS Pay-per-Host model.
 - [Sysdig Monitor](https://www.sysdig.com/products/monitor) - :yen: Software or SaaS service that monitors, alerts, and troubleshoots containers using system calls; container-specific features for Docker and Kubernetes.
 - [Wiremap](https://github.com/codeofmario/wiremap) - A self-hosted visual Docker network topology explorer with real-time log streaming, live stats, embedded terminal, and container inspection.
@@ -672,4 +672,3 @@ Tools and applications that are either installed inside containers or designed t
 [nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://okd.io/
 [sindresorhus]: https://github.com/sindresorhus/awesome
-
