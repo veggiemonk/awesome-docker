@@ -75,6 +75,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
         - [English](#english)
         - [Russian](#russian)
         - [Spanish](#spanish)
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Self-hosted (docker-compose) open source GPL-3.0 autonomous AI penetration testing platform; can run fully offline with a local model and a Privacy Gateway that tokenises sensitive data before any LLM call. Covers web, API, Active Directory and Kubernetes.
 - [Stargazers over time](#stargazers-over-time)
 
 <!-- /TOC -->
