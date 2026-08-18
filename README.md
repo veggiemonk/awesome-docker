@@ -173,6 +173,7 @@ Services to securely store your Docker images.
 - [Gitea Container Registry](https://docs.gitea.com/usage/packages/container) - Integrated Docker registry in Gitea, ideal for private, small-scale image hosting.
 - [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) - GitHub's solution for storing and managing Docker images, with tight integration into GitHub Actions.
 - [GitLab Container Registry](https://docs.gitlab.com/user/packages/container_registry/) - Registry focused on using its images in GitLab CI.
+- [Granite Registry](https://granite.so/products/docker-registry) - :yen: Store private Docker images alongside the workloads that pull them, with scoped read-only and read-write keys.
 - [Harbor](https://github.com/goharbor/harbor) An open source trusted cloud native registry project that stores, signs, and scans content. Supports replication, user management, access control and activity auditing.
 - [JFrog Artifactory](https://jfrog.com/artifactory/) - :yen: Artifact Repository Manager, can be used as private Docker Registry as well.
 - [kontain.me](https://github.com/imjasonh/kontain.me) - On-demand container image registry that builds and serves images when they are pulled.
