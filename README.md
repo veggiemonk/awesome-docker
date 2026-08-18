@@ -415,6 +415,7 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2.
 - [docker-swarm-visualizer](https://github.com/dockersamples/docker-swarm-visualizer) - Visualizes Docker services on a Docker Swarm (for running demos).
 - [dockge](https://github.com/louislam/dockge) - Easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
+- [DockScope](https://github.com/ManuelR-T/dockscope) - Visualizes Docker containers in a 3D dependency graph with live metrics, logs, and an in-browser terminal.
 - [Komodo](https://github.com/mbecker20/komodo) - A tool to build and deploy software on many servers.
 - [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker hosts or Docker Swarm clusters.
 - [Swarmpit](https://github.com/swarmpit/swarmpit) - Swarmpit provides simple and easy to use interface for your Docker Swarm cluster. You can manage your stacks, services, secrets, volumes, networks etc.
