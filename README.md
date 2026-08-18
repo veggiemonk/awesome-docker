@@ -152,6 +152,7 @@ Minimal, hardened, or purpose-built container base images.
 
 - [Dockadvisor](https://github.com/deckrun/dockadvisor) - Lightweight Dockerfile linter with 60+ rules, quality scoring, and security checks.
 - [docker-image-size-limit](https://github.com/wemake-services/docker-image-size-limit) - A tool to keep an eye on your docker images size.
+- [Dockerfile Sanity](https://github.com/sujeito-operator/dockerfile-sanity) - Lints Dockerfiles inside VS Code for build-cache ordering, unpinned base images and credentials baked into ENV or ARG, with no hadolint or Docker install needed.
 - [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions;.
 
 ## Image Lifecycle
