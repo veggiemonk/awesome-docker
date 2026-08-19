@@ -173,6 +173,7 @@ Services to securely store your Docker images.
 - [Gitea Container Registry](https://docs.gitea.com/usage/packages/container) - Integrated Docker registry in Gitea, ideal for private, small-scale image hosting.
 - [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) - GitHub's solution for storing and managing Docker images, with tight integration into GitHub Actions.
 - [GitLab Container Registry](https://docs.gitlab.com/user/packages/container_registry/) - Registry focused on using its images in GitLab CI.
+- [Granite Registry](https://granite.so/products/docker-registry) - :yen: Store private Docker images alongside the workloads that pull them, with scoped read-only and read-write keys.
 - [Harbor](https://github.com/goharbor/harbor) An open source trusted cloud native registry project that stores, signs, and scans content. Supports replication, user management, access control and activity auditing.
 - [JFrog Artifactory](https://jfrog.com/artifactory/) - :yen: Artifact Repository Manager, can be used as private Docker Registry as well.
 - [kontain.me](https://github.com/imjasonh/kontain.me) - On-demand container image registry that builds and serves images when they are pulled.
@@ -373,6 +374,7 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 
 - [Docker DB Manager](https://github.com/AbianS/docker-db-manager) - Desktop app for managing Docker database containers with visual interface and one-click operations.
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) - Official native app. Only for Windows and MacOS.
+- [Gantry (Desktop)](https://github.com/getgantry/gantry) - Native macOS app (SwiftUI, no Electron) for managing and monitoring Docker hosts, local and over SSH: fleet dashboard, live logs and stats, exec terminal, file browser, and a bundled MCP server for AI agents.
 - [Simple Docker UI](https://github.com/felixgborrego/simple-docker-ui) - Built on Electron.
 - [Stevedore](https://github.com/slonopotamus/stevedore) - Good Docker Desktop replacement for Windows. Both Linux and Windows Containers are supported. [slonopotamus](https://github.com/slonopotamus).
 
@@ -380,6 +382,7 @@ Native desktop applications for managing and monitoring docker hosts and cluster
 
 TUIs, CLI tools, and shell integrations for Docker.
 
+- [bosun](https://github.com/psychedelicdevx/bosun) - A keyboard-driven terminal UI for Docker with compose project grouping, live logs, stats, and shell access.
 - [d4s](https://github.com/jr-k/d4s) - A fast, keyboard-driven terminal UI to manage Docker containers, Compose stacks, and Swarm services with the ergonomics of K9s.
 - [dcinja](https://github.com/Falldog/dcinja) - The powerful and smallest binary size of template engine for docker command line environment.
 - [dctl](https://github.com/FabienD/docker-stack) - Dctl is a Cli tool that helps developers by allowing them to execute all docker compose commands anywhere in the terminal, and more.
@@ -398,6 +401,7 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers.
 - [easydocker](https://github.com/joao-zanutto/easydocker) - A Terminal UI highly inpired by k9s levaraging beatiful BubbleTea graphics.
 - [goManageDocker](https://github.com/ajayd-san/gomanagedocker) - TUI tool to view and manage your docker objects blazingly fast with sensible keybindings, also supports VIM navigation out of the box.
+- [layerx](https://github.com/deveshctl/layerx) - Inspect container image layers in a TUI — browse filesystem diffs, view file contents inline, sort by size, extract individual files, and gate CI on efficiency thresholds. Supports Docker, Podman, and OCI archives.
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker. A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 - [lazyjournal](https://github.com/Lifailon/lazyjournal) - A interface for reading and filtering the logs output of Docker and Podman containers like [Dozzle](dozzle) but for the terminal with support for fuzzy find, regex and output coloring.
 - [oxker](https://github.com/mrjackwills/oxker) - A simple tui to view & control docker containers.
@@ -413,9 +417,11 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [Arcane](https://github.com/getarcaneapp/arcane) - An easy and modern Docker management platform, built with everybody in mind.
 - [CASA](https://github.com/knrdl/casa) - Outsource the administration of a handful of containers to your co-workers,.
 - [Container Web TTY](https://github.com/wrfly/container-web-tty) - Connect your containers via a web-tty.
+- [Docker Commander](https://github.com/koduj-dev/docker-commander) - A self-hosted Docker management and monitoring UI with multi-host support, Compose management, aggregated logs, alerts, RBAC, vulnerability scanning, and MCP integration.
 - [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2.
 - [docker-swarm-visualizer](https://github.com/dockersamples/docker-swarm-visualizer) - Visualizes Docker services on a Docker Swarm (for running demos).
 - [dockge](https://github.com/louislam/dockge) - Easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
+- [DockScope](https://github.com/ManuelR-T/dockscope) - Visualizes Docker containers in a 3D dependency graph with live metrics, logs, and an in-browser terminal.
 - [Komodo](https://github.com/mbecker20/komodo) - A tool to build and deploy software on many servers.
 - [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker hosts or Docker Swarm clusters.
 - [Swarmpit](https://github.com/swarmpit/swarmpit) - Swarmpit provides simple and easy to use interface for your Docker Swarm cluster. You can manage your stacks, services, secrets, volumes, networks etc.
@@ -479,6 +485,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
 - [HarborPilot](https://github.com/potterwhite/HarborPilot) - Automated multi-platform Docker image builder for embedded Linux development (RK3588, RV1126, RK3568). Features three-layer config inheritance, PORT_SLOT-based port allocation, and cross-version Ubuntu support (20.04/22.04/24.04).
 - [Lando](https://github.com/lando/lando) - Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects.
+- [Laradock](https://github.com/laradock/laradock) - Full PHP development environment based on Docker, running Nginx/Apache, PHP, MySQL, Redis and more as swappable Compose services.
 - [uniget](https://github.com/uniget-org/cli) - Uni(versal)get, the installer and updater for container tools and beyond (formerly docker-setup).
 - [Zsh-in-Docker](https://github.com/deluan/zsh-in-docker) - Install Zsh, Oh-My-Zsh and plugins inside a Docker container with one line!.
 
