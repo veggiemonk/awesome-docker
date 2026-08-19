@@ -482,6 +482,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [DIP](https://github.com/bibendi/dip) - CLI utility for straightforward provisioning and interacting with an application configured by docker-compose.
 - [EnvCLI](https://github.com/EnvCLI/EnvCLI) - Replace your local installation of Node, Go, ... with project-specific docker containers.
 - [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
+- [Govard](https://github.com/ddtcorex/govard) - Go-based local development orchestrator for PHP frameworks (Magento, Laravel, Symfony) with automatic framework discovery and Docker SDK orchestration.
 - [HarborPilot](https://github.com/potterwhite/HarborPilot) - Automated multi-platform Docker image builder for embedded Linux development (RK3588, RV1126, RK3568). Features three-layer config inheritance, PORT_SLOT-based port allocation, and cross-version Ubuntu support (20.04/22.04/24.04).
 - [Lando](https://github.com/lando/lando) - Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects.
 - [Laradock](https://github.com/laradock/laradock) - Full PHP development environment based on Docker, running Nginx/Apache, PHP, MySQL, Redis and more as swappable Compose services.
