@@ -486,8 +486,8 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Lando](https://github.com/lando/lando) - Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects.
 - [Laradock](https://github.com/laradock/laradock) - Full PHP development environment based on Docker, running Nginx/Apache, PHP, MySQL, Redis and more as swappable Compose services.
 - [uniget](https://github.com/uniget-org/cli) - Uni(versal)get, the installer and updater for container tools and beyond (formerly docker-setup).
-- [Zsh-in-Docker](https://github.com/deluan/zsh-in-docker) - Install Zsh, Oh-My-Zsh and plugins inside a Docker container with one line!.
 - [sshbox](https://github.com/kknxzz/sshbox) - Seamlessly launch disposable Docker containers that you can SSH into for temporary Linux environments, with easy and automatic cleanup when your session ends.
+- [Zsh-in-Docker](https://github.com/deluan/zsh-in-docker) - Install Zsh, Oh-My-Zsh and plugins inside a Docker container with one line!.
 
 ### Serverless
 
