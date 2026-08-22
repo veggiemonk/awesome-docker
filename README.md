@@ -480,6 +480,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [coder](https://github.com/coder/coder) - Remote development machines powered by Terraform or Docker.
 - [dde](https://github.com/whatwedo/dde) - Local development environment toolset based on Docker.
 - [DIP](https://github.com/bibendi/dip) - CLI utility for straightforward provisioning and interacting with an application configured by docker-compose.
+- [docker_mlx_cpp](https://github.com/RobotFlow-Labs/docker_mlx_cpp) - Give Docker containers Metal GPU access on Apple Silicon (MLX compute stack, LLM inference, training).
 - [EnvCLI](https://github.com/EnvCLI/EnvCLI) - Replace your local installation of Node, Go, ... with project-specific docker containers.
 - [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
 - [HarborPilot](https://github.com/potterwhite/HarborPilot) - Automated multi-platform Docker image builder for embedded Linux development (RK3588, RV1126, RK3568). Features three-layer config inheritance, PORT_SLOT-based port allocation, and cross-version Ubuntu support (20.04/22.04/24.04).
