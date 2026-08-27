@@ -247,6 +247,7 @@ Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Comm
 
 - [Amazon ECS](https://aws.amazon.com/ecs/) - :yen: A management service on EC2 that supports Docker containers.
 - [Appfleet](https://appfleet.com/) - :yen: Edge platform to deploy and manage containerized services globally; routes traffic to the closest location for low latency.
+- [AppLaunch](https://applaunch.org/docker-hosting) - :yen: Deploy and operate Docker Compose applications with GitHub auto-deploy, persistent volumes, public ports, custom domains, logs, and backups.
 - [Azure AKS](https://azure.microsoft.com/en-us/products/kubernetes-service/) - :yen: Fully managed Kubernetes container orchestration service.
 - [blackfish](https://gitlab.com/blackfish/blackfish) - A CoreOS VM to build swarm clusters for Dev & Production.
 - [BosnD](https://gitlab.com/n0r1sk/bosnd) - BosnD, the boatswain daemon - A dynamic configuration file writer & service reloader for dynamically changing container environments.
