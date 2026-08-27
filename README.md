@@ -247,7 +247,6 @@ Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Comm
 
 - [Amazon ECS](https://aws.amazon.com/ecs/) - :yen: A management service on EC2 that supports Docker containers.
 - [Appfleet](https://appfleet.com/) - :yen: Edge platform to deploy and manage containerized services globally; routes traffic to the closest location for low latency.
-- [AppLaunch](https://applaunch.org/docker-hosting) - :yen: Deploy and operate Docker Compose applications with GitHub auto-deploy, persistent volumes, public ports, custom domains, logs, and backups.
 - [Azure AKS](https://azure.microsoft.com/en-us/products/kubernetes-service/) - :yen: Fully managed Kubernetes container orchestration service.
 - [blackfish](https://gitlab.com/blackfish/blackfish) - A CoreOS VM to build swarm clusters for Dev & Production.
 - [BosnD](https://gitlab.com/n0r1sk/bosnd) - BosnD, the boatswain daemon - A dynamic configuration file writer & service reloader for dynamically changing container environments.
@@ -349,6 +348,7 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 
 Container hardening, runtime security, policy, compliance, and forensics. Self-hosted and commercial together; commercial entries marked `:yen:`.
 
+- [AppLaunch Compose Checker](https://applaunch.org/tools/docker-compose-checker) - Browser-based Docker Compose checker for risky defaults, exposed ports, likely literal secrets, mutable images, missing healthchecks, resource limits, and persistent storage. Files stay in the browser.
 - [Aqua Security](https://www.aquasec.com) - :yen: Securing container-based applications from Dev to Production on any platform.
 - [buildcage](https://github.com/dash14/buildcage) - Restricts outbound network access during Docker builds to prevent supply chain attacks, working as a drop-in BuildKit remote driver for Docker Buildx, with ready-to-use GitHub Actions.
 - [CetusGuard](https://github.com/hectorm/cetusguard) - CetusGuard is a tool that protects the Docker daemon socket by filtering calls to its API endpoints.
@@ -679,4 +679,3 @@ Tools and applications that are either installed inside containers or designed t
 [nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://okd.io/
 [sindresorhus]: https://github.com/sindresorhus/awesome
-
