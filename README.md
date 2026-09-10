@@ -578,6 +578,7 @@ Tools and applications that are either installed inside containers or designed t
 - [Learn Docker in a Month of Lunches](https://www.manning.com/books/learn-docker-in-a-month-of-lunches)
 - [Learn Docker](https://coursesity.com/blog/best-docker-tutorials/) - Learn Docker - curated list of the top online docker tutorials and courses.
 - [Programming Community Curated Resources for learning Docker](https://hackr.io/tutorials/learn-docker)
+- [Wyrcan Roadmap: Docker & Containers](https://github.com/Wyrcan-io/roadmap) - Text-first engineering curriculum covering Docker multi-stage builds, OCI container isolation, and Compose networking.
 
 ## Awesome Lists
 
