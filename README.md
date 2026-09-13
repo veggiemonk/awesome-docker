@@ -383,6 +383,7 @@ TUIs, CLI tools, and shell integrations for Docker.
 
 - [bosun](https://github.com/psychedelicdevx/bosun) - A keyboard-driven terminal UI for Docker with compose project grouping, live logs, stats, and shell access.
 - [d4s](https://github.com/jr-k/d4s) - A fast, keyboard-driven terminal UI to manage Docker containers, Compose stacks, and Swarm services with the ergonomics of K9s.
+- [d9c](https://github.com/kirg0/d9c) - Manage Docker on remote hosts over TCP or SSH from a k9s-style terminal UI: containers, images, networks, volumes, Compose projects, logs, live stats and exec, with Podman, containerd and CRI-O support.
 - [dcinja](https://github.com/Falldog/dcinja) - The powerful and smallest binary size of template engine for docker command line environment.
 - [dctl](https://github.com/FabienD/docker-stack) - Dctl is a Cli tool that helps developers by allowing them to execute all docker compose commands anywhere in the terminal, and more.
 - [decompose](https://github.com/s0rg/decompose) - Reverse-engineering tool for docker environments.
