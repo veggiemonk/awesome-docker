@@ -335,6 +335,7 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 - [Doku](https://github.com/amerkurev/doku) - Doku is a simple web-based application that allows you to monitor Docker disk usage.
 - [Dozzle](dozzle) - Monitor container logs in real-time with a browser or mobile device.
 - [Drydock](https://github.com/CodesWhat/drydock) - Container update monitoring with web dashboard, 23 registry providers, 20 notification triggers, and distributed agent architecture.
+- [dsnitch](https://github.com/infomaniac777/dsnitch) - Real-time network and DNS egress inspector TUI for Docker containers powered by eBPF.
 - [Dynatrace](https://docs.dynatrace.com/docs/observe/infrastructure-observability/container-platform-monitoring) - :yen: Monitor containerized applications without installing agents or modifying your Run commands.
 - [Grafana Docker Dashboard Template](https://grafana.com/grafana/dashboards/179-docker-prometheus-monitoring/) - A template for your Docker, Grafana and Prometheus stack.
 - [InfraCanvas](https://github.com/bytestrix/InfraCanvas) - Live visual map of containers, pods, volumes, and networks on any Linux server. Single binary, WebSocket-powered live updates.
