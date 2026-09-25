@@ -92,6 +92,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 
 - [colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup.
 - [containerd](https://github.com/containerd/containerd) - An open and reliable container runtime.
+- [boxr](https://github.com/kchaitanya863/boxr) - Fast, lightweight, rootless OCI container engine, image builder, and compose orchestrator written in Rust, with a Podman-compatible CLI and a pure-Rust user-mode networking stack.
 - [cri-o](https://github.com/cri-o/cri-o) - Open Container Initiative-based implementation of Kubernetes Container Runtime Interface.
 - [gVisor](https://github.com/google/gvisor) - Application Kernel for Containers.
 - [lxc](https://github.com/lxc/lxc) - LXC - Linux Containers.
