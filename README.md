@@ -568,6 +568,7 @@ Tools and applications that are either installed inside containers or designed t
 
 ## Books & Tutorials
 
+- [Cloud Dojo](https://github.com/nabil0x/cloud-dojo) - Gamified Docker and AWS course with local emulators, quests, and XP.
 - [Cloud Native Landscape](https://github.com/cncf/landscape)
 - [Docker Blog](https://www.docker.com/blog/) - Regular updates about Docker, the community and tools.
 - [Docker Certification](https://intellipaat.com/docker-training-course/?US) - :yen: Will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.
