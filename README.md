@@ -601,6 +601,7 @@ Tools and applications that are either installed inside containers or designed t
 - [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.flexera.com/blog/finops/)
 - [Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)
 - [GUI Apps with Docker](https://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
+- [Multi-arch images and the wrong-architecture node_modules trap](https://happy520ai.github.io/unified-ai-system/multi-arch-node-modules.html) - Diagnoses the "invalid ELF header" failure in arm64 Docker tags by reading native-module ELF headers straight out of an image's layer tarballs, with no Docker engine required.
 
 ## Raspberry Pi & ARM
 
