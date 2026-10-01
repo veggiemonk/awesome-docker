@@ -423,6 +423,7 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [DockScope](https://github.com/ManuelR-T/dockscope) - Visualizes Docker containers in a 3D dependency graph with live metrics, logs, and an in-browser terminal.
 - [Komodo](https://github.com/mbecker20/komodo) - A tool to build and deploy software on many servers.
 - [Portainer](https://github.com/portainer/portainer) - A lightweight management UI for managing your Docker hosts or Docker Swarm clusters.
+- [Stowaway](https://github.com/Sat32blk/Stowaway) - Start containers when their link is opened and put them to sleep when idle, managed from a web dashboard.
 - [Swarmpit](https://github.com/swarmpit/swarmpit) - Swarmpit provides simple and easy to use interface for your Docker Swarm cluster. You can manage your stacks, services, secrets, volumes, networks etc.
 - [usulnet](https://github.com/fr4nsys/usulnet) - A complete and modern Docker management platform designed for sysadmin, devops with enterprise grade tools, cve scanner, ssh, rdp on web and much more.
 
