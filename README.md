@@ -122,6 +122,7 @@ Applications designed to help or simplify building **new** images
 - [HPC Container Maker](https://github.com/NVIDIA/hpc-container-maker) - Generates Dockerfiles from a high level Python recipe, including building blocks for High-Performance Computing components.
 - [img](https://github.com/genuinetools/img) - Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
 - [ko](https://github.com/ko-build/ko) - Build and deploy Go applications as container images without a Dockerfile.
+- [LayerSmith](https://github.com/r0lfi/layersmith) - Build OCI container images through a self-hosted web UI with Docker or Podman, purpose-driven templates, and air-gap exports.
 - [nix2container](https://github.com/nlewo/nix2container) - Build OCI images with Nix without `docker load` round-trips.
 - [packer](https://developer.hashicorp.com/packer/integrations/hashicorp/docker/latest/components/builder/docker) - Hashicorp tool to build machine images including docker image integrated with configuration management tools like chef, puppet, ansible.
 - [Production-Ready Python Containers](https://pythonspeed.com/products/pythoncontainer/) - :yen: A template for creating production-ready Docker images for Python applications.
