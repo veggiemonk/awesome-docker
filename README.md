@@ -257,6 +257,7 @@ Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Comm
 - [docker-to-iac](https://github.com/deploystackio/docker-to-iac) - Translate docker run and commit into Infrastructure as Code templates for AWS, Render.com and DigitalOcean.
 - [doco-cd](https://github.com/kimdre/doco-cd) - Lightweight GitOps and Continuous Deployment tool to deploy Docker Compose projects and Swarm stacks using polling and webhooks.
 - [Dokku](https://github.com/dokku/dokku) - Docker powered mini-Heroku that helps you build and manage the lifecycle of applications.
+- [Easypanel](https://easypanel.io/) - :yen: Deploy and manage Docker images and Compose applications on your own server through a web panel; proprietary, with a permanent Free plan for 3 projects.
 - [Exoframe](https://github.com/exoframejs/exoframe) - A self-hosted tool that allows simple one-command deployments using Docker.
 - [Giant Swarm](https://www.giantswarm.io/) - :yen: Simple microservice infrastructure. Deploy your containers in seconds.
 - [Google Container Engine](https://docs.cloud.google.com/kubernetes-engine/docs) - :yen: Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].
