@@ -245,6 +245,7 @@ Signing, attestation, and provenance for container images.
 
 Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Commercial entries marked `:yen:`.
 
+- [Aethra](https://github.com/Authoritt/Aethra) - Builds container images from a git webhook, runs them across your machines, and swaps the reverse-proxy route only after the new container passes its healthcheck; reports per-container metrics from an agent on each host.
 - [Amazon ECS](https://aws.amazon.com/ecs/) - :yen: A management service on EC2 that supports Docker containers.
 - [Appfleet](https://appfleet.com/) - :yen: Edge platform to deploy and manage containerized services globally; routes traffic to the closest location for low latency.
 - [Azure AKS](https://azure.microsoft.com/en-us/products/kubernetes-service/) - :yen: Fully managed Kubernetes container orchestration service.
