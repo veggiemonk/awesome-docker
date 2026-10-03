@@ -348,6 +348,7 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 
 Container hardening, runtime security, policy, compliance, and forensics. Self-hosted and commercial together; commercial entries marked `:yen:`.
 
+- [AppLaunch Compose Checker](https://applaunch.org/tools/docker-compose-checker) - Browser-based Docker Compose checker for risky defaults, exposed ports, likely literal secrets, mutable images, missing healthchecks, resource limits, and persistent storage. Files stay in the browser.
 - [Aqua Security](https://www.aquasec.com) - :yen: Securing container-based applications from Dev to Production on any platform.
 - [buildcage](https://github.com/dash14/buildcage) - Restricts outbound network access during Docker builds to prevent supply chain attacks, working as a drop-in BuildKit remote driver for Docker Buildx, with ready-to-use GitHub Actions.
 - [CetusGuard](https://github.com/hectorm/cetusguard) - CetusGuard is a tool that protects the Docker daemon socket by filtering calls to its API endpoints.
@@ -678,4 +679,3 @@ Tools and applications that are either installed inside containers or designed t
 [nginxproxy]: https://github.com/nginx-proxy/nginx-proxy
 [openshift]: https://okd.io/
 [sindresorhus]: https://github.com/sindresorhus/awesome
-
