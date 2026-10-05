@@ -233,6 +233,7 @@ Signing, attestation, and provenance for container images.
 ### Orchestration
 
 - [CloudSlang](https://github.com/CloudSlang/cloud-slang) - CloudSlang is a workflow engine to create Docker process automation.
+- [deploy-bluegreen](https://github.com/Fanpino/deploy-bluegreen) - Swap a single Docker Compose service to a new container without downtime by starting it next to the old one and cutting over once its healthcheck passes.
 - [docker rollout](https://github.com/Wowu/docker-rollout) - Zero downtime deployment for Docker Compose services.
 - [Kubernetes](https://github.com/kubernetes/kubernetes) - Open source orchestration system for Docker containers by Google.
 - [Mesos](https://github.com/apache/mesos) - Resource/Job scheduler for containers, VM's and physical hosts.
