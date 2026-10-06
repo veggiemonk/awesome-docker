@@ -152,6 +152,7 @@ Minimal, hardened, or purpose-built container base images.
 
 - [Dockadvisor](https://github.com/deckrun/dockadvisor) - Lightweight Dockerfile linter with 60+ rules, quality scoring, and security checks.
 - [docker-image-size-limit](https://github.com/wemake-services/docker-image-size-limit) - A tool to keep an eye on your docker images size.
+- [dockerfile-hardener](https://github.com/fabiocicerchia/dockerfile-hardener) - Static analyser that rewrites Dockerfiles to best practice: pinned digests, non-root, minimal base, no secrets.
 - [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions;.
 
 ## Image Lifecycle
