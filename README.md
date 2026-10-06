@@ -396,6 +396,7 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer helps you get started with home server apps running in Docker.
 - [DockTUI](https://github.com/strmax195-hue/docktui) - Fast, zero-dependency terminal dashboard for Docker and Compose.
 - [dockup](https://github.com/paulo-amaral/dockup) - TUI to install, harden and maintain container runtimes: Docker Engine + Compose v2, NVIDIA Container Toolkit, Podman and Apple container, with a CIS-inspired security audit.
+- [dok](https://github.com/alsaadii98/dok) - Reformats docker ps, images, df, and logs output for humans, grouping containers by Compose project with colour-coded sizes and ages.
 - [dprs](https://github.com/durableprogramming/dprs) - A developer-focused TUI for managing Docker containers with real-time log streaming and container management.
 - [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers.
 - [easydocker](https://github.com/joao-zanutto/easydocker) - A Terminal UI highly inpired by k9s levaraging beatiful BubbleTea graphics.
