@@ -151,6 +151,7 @@ Minimal, hardened, or purpose-built container base images.
 ### Linter
 
 - [Dockadvisor](https://github.com/deckrun/dockadvisor) - Lightweight Dockerfile linter with 60+ rules, quality scoring, and security checks.
+- [Docker Doctor](https://github.com/PunGrumpy/docker-doctor) - Lint Dockerfiles and Compose files for security, build cache and image size problems, with a health score and fix guidance for coding agents.
 - [docker-image-size-limit](https://github.com/wemake-services/docker-image-size-limit) - A tool to keep an eye on your docker images size.
 - [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions;.
 
