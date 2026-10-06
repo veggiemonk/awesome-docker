@@ -150,6 +150,7 @@ Minimal, hardened, or purpose-built container base images.
 
 ### Linter
 
+- [DevOpsLesson Dockerfile Linter](https://devopslesson.com/tools/dockerfile-linter) - Lint a Dockerfile in the browser against 13 rules covering build failures, secrets baked into layers, cache invalidation and image size.
 - [Dockadvisor](https://github.com/deckrun/dockadvisor) - Lightweight Dockerfile linter with 60+ rules, quality scoring, and security checks.
 - [docker-image-size-limit](https://github.com/wemake-services/docker-image-size-limit) - A tool to keep an eye on your docker images size.
 - [Hadolint](https://github.com/hadolint/hadolint) - A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions;.
