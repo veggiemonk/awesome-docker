@@ -498,6 +498,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 
 - [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test) - A framework to validate the structure of an image by checking the outputs of commands or the contents of the filesystem.
 - [dgoss](https://github.com/goss-org/goss/tree/master/extras/dgoss) - A fast YAML based tool for validating docker containers.
+- [Keploy](https://github.com/keploy/keploy) - Record API traffic from Docker and Docker Compose apps and replay it as tests with auto-generated dependency mocks in isolated sandboxes.
 - [Kurtosis](https://github.com/kurtosis-tech/kurtosis) - A composable build system for multi-container test environments that provides developers with: a powerful Python-like SDK for environment configuration, a compile-time validator to verify environment behavior & setup, and a runtime for environment execution, monitoring, & debugging capabilities.
 - [Pumba](https://github.com/alexei-led/pumba) - Chaos testing tool for Docker. Can be deployed on kubernetes and CoreOS cluster.
 
