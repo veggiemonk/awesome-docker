@@ -327,6 +327,7 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 - [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
 - [Datadog](https://www.datadoghq.com/) - :yen: Full-stack monitoring service with first-class Docker, Kubernetes, and Mesos support.
 - [DLIA](https://github.com/zorak1103/dlia) - DLIA is an AI-powered Docker log monitoring agent that uses Large Language Models (LLMs) to intelligently analyze container logs, detect anomalies, and provide contextual insights over time.
+- [dockdu](https://github.com/maximilianfeix/dockdu) - Explains where Docker disk space went: container log files, BuildKit cache shared with images and storage per Compose project, which `docker system df` does not show. Read-only CLI, never deletes anything.
 - [docker-exporter](https://github.com/dlepaux/docker-exporter) - Lightweight Prometheus exporter for Docker container metrics written in Rust. Correct cgroup v2 memory working set on ARM64 (Raspberry Pi 5), runs non-root with a read-only socket, ~7 MiB idle RAM.
 - [Docker-Sentinel](https://github.com/Will-Luck/Docker-Sentinel) - Automated container updates with per-container policies, rollback safety, and a real-time web dashboard.
 - [DockProbe](https://github.com/deep-on/dockprobe) - Lightweight Docker monitoring dashboard in a single container. Real-time metrics, 6 anomaly detection rules, Telegram alerts, and 16 automated security scans. Zero config, ~50MB RAM.
