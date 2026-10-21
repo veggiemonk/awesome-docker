@@ -169,6 +169,7 @@ Services to securely store your Docker images.
 - [Docker Hub](https://hub.docker.com/) provided by Docker Inc.
 - [Docker Registry v2][distribution] - The Docker toolset to pack, ship, store, and deliver content
 - [Dragonfly](https://github.com/dragonflyoss/Dragonfly2) - Provide efficient, stable and secure file distribution and image acceleration based on p2p technology.
+- [fender-proxy](https://github.com/fender-proxy/fender) - Transparent Docker socket proxy that rewrites unqualified image references to your registry.
 - [GCP Artifact Registry](https://docs.cloud.google.com/artifact-registry/docs) - :yen: Fast, private Docker image storage on Google Cloud Platform.
 - [Gitea Container Registry](https://docs.gitea.com/usage/packages/container) - Integrated Docker registry in Gitea, ideal for private, small-scale image hosting.
 - [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) - GitHub's solution for storing and managing Docker images, with tight integration into GitHub Actions.
