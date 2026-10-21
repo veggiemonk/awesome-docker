@@ -162,6 +162,7 @@ Services to securely store your Docker images.
 
 - [Amazon Elastic Container Registry](https://aws.amazon.com/ecr/) - :yen: Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
 - [Azure Container Registry](https://azure.microsoft.com/en-us/products/container-registry/#overview) - :yen: Manage a Docker private registry as a first-class Azure resource.
+- [CloudRepo](https://www.cloudrepo.io/) - :yen: Hosted private registry for Docker/OCI images and Helm charts, in the same service as Maven, npm and Python repositories.
 - [Cloudsmith](https://cloudsmith.com/product/formats/docker-registry) - :yen: A fully managed package management SaaS, with first-class support for public and private Docker registries (and many others, incl. Helm charts for the Kubernetes ecosystem). Has a generous free-tier and is also completely free for open-source.
 - [Container Registry Service](https://container-registry.com/) - :yen: Harbor based Container Management Solution as a Service for teams and organizations. Free tier offers 1 GB storage for private repositories.
 - [Cycle.io](https://cycle.io/) - :yen: Bare-metal container hosting.
