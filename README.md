@@ -500,6 +500,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [dgoss](https://github.com/goss-org/goss/tree/master/extras/dgoss) - A fast YAML based tool for validating docker containers.
 - [Kurtosis](https://github.com/kurtosis-tech/kurtosis) - A composable build system for multi-container test environments that provides developers with: a powerful Python-like SDK for environment configuration, a compile-time validator to verify environment behavior & setup, and a runtime for environment execution, monitoring, & debugging capabilities.
 - [Pumba](https://github.com/alexei-led/pumba) - Chaos testing tool for Docker. Can be deployed on kubernetes and CoreOS cluster.
+- [Upgrade canary](https://github.com/zachsplat/upgrade-canary) - Catch Docker images that build but cannot start: cold build, ELF library check, start check, package diff, and a preview build on the next base image tag before a floating tag moves.
 
 ### Wrappers
 
