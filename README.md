@@ -406,6 +406,7 @@ TUIs, CLI tools, and shell integrations for Docker.
 - [oxker](https://github.com/mrjackwills/oxker) - A simple tui to view & control docker containers.
 - [proco](https://github.com/shiwaforce/poco) - Proco will help you to organise and manage Docker, Docker-Compose, Kubernetes projects of any complexity using simple YAML config files to shorten the route from finding your project to initialising it in your local environment.
 - [scuba](https://github.com/JonathonReinhart/scuba) - Transparently use Docker containers to encapsulate software build environments,.
+- [self-host](https://github.com/ajnart/self-host) - Install and set up self-hosted apps as Docker Compose services: admin accounts, API keys and the apps connected to each other.
 - [supdock](https://github.com/segersniels/supdock) - Allows for slightly more visual usage of Docker with an interactive prompt.
 - [swarmcli](https://github.com/Eldara-Tech/swarmcli) - Swarm Management at the speed of thought — with real-time log streaming, instant shell access to containers, seamless port forwarding, and on-demand secret reveal capabilities, giving you full control over your Docker Swarm without breaking your flow.
 - [tdocker](https://github.com/pivovarit/tdocker) - A `docker ps` replacement for everyday container operations.
