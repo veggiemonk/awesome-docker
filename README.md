@@ -371,6 +371,7 @@ Container hardening, runtime security, policy, compliance, and forensics. Self-h
 
 Native desktop applications for managing and monitoring docker hosts and clusters
 
+- [Ballast](https://github.com/bryanmanio/ballast) - Native macOS menu bar app that lists the Docker containers on a Synology NAS over SSH, shows their health and image updates, and starts, stops or restarts them.
 - [Docker DB Manager](https://github.com/AbianS/docker-db-manager) - Desktop app for managing Docker database containers with visual interface and one-click operations.
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) - Official native app. Only for Windows and MacOS.
 - [Gantry (Desktop)](https://github.com/getgantry/gantry) - Native macOS app (SwiftUI, no Electron) for managing and monitoring Docker hosts, local and over SSH: fleet dashboard, live logs and stats, exec terminal, file browser, and a bundled MCP server for AI agents.
