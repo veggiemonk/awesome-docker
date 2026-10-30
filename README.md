@@ -348,6 +348,7 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 
 Container hardening, runtime security, policy, compliance, and forensics. Self-hosted and commercial together; commercial entries marked `:yen:`.
 
+- [ai-selfhost-audit](https://github.com/OTA-EITA/ai-selfhost-audit) - Audits the Docker Compose files of self-hosted n8n, Open WebUI, LiteLLM, Langflow and Flowise for first-run admin setup left open, example secrets from the official compose files, ports published on all interfaces and image versions with known vulnerabilities.
 - [Aqua Security](https://www.aquasec.com) - :yen: Securing container-based applications from Dev to Production on any platform.
 - [buildcage](https://github.com/dash14/buildcage) - Restricts outbound network access during Docker builds to prevent supply chain attacks, working as a drop-in BuildKit remote driver for Docker Buildx, with ready-to-use GitHub Actions.
 - [CetusGuard](https://github.com/hectorm/cetusguard) - CetusGuard is a tool that protects the Docker daemon socket by filtering calls to its API endpoints.
