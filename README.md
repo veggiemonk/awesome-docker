@@ -309,6 +309,7 @@ Container-aware reverse proxies, ingress, and TLS-terminating front-ends with au
 ## Storage & Data
 
 - [Docker Volume Backup](https://github.com/offen/docker-volume-backup) Backup Docker volumes locally or to any S3 compatible storage.
+- [DockNest](https://github.com/DahanItamar/DockNest) - Back up Docker Compose projects (volumes, bind mounts, images and databases) to SFTP or S3-compatible storage over SSH, and verify each backup by restoring it to a separate copy.
 - [Label Backup](https://github.com/resulgg/label-backup) - A lightweight, Docker-aware backup agent that automatically discovers and backs up containerized databases (PostgreSQL, MySQL, MongoDB, Redis) based on Docker labels. Supports local storage and S3-compatible destinations with flexible scheduling via cron expressions.
 - [Netshare](https://github.com/ContainX/docker-volume-netshare) Docker NFS, AWS EFS, Ceph & Samba/CIFS Volume Plugin.
 - [portworx](https://portworx.com) - :yen: Decentralized storage solution for persistent, shared and replicated volumes.
