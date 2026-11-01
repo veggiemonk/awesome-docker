@@ -205,6 +205,7 @@ Image vulnerability scanners, SBOM generators, and digest pinning tools. Commerc
 - [Clair](https://github.com/quay/clair) - Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers.
 - [Docker Scout](https://github.com/docker/scout-cli) - Official Docker CLI for SBOM generation, vulnerability analysis, and policy evaluation.
 - [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images, filesystems and SBOMs.
+- [KestreLynx](https://github.com/kitsunetrail/kestrelynx) - Scans the images of running Docker and Kubernetes containers with Trivy and opens pull requests that update Compose image tags, Dockerfile base images, and dependencies to fixed versions.
 - [oscap-docker](https://github.com/OpenSCAP/openscap) - OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images.
 - [pindock](https://github.com/deadnews/pindock) - Pin and update Docker image digests in Dockerfiles and compose files.
 - [Syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials (SBOM) from container images and filesystems.
