@@ -622,6 +622,7 @@ Tools and applications that are either installed inside containers or designed t
 - [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](https://www.slideshare.net/slideshow/docker-security-are-your-containers-tightly-secured-to-the-ship/43834790)
 - [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
 - [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
+- [Privileged Containers Exercise](https://ransomleak.com/exercises/privileged-containers/) - Escape a privileged Docker container to the host in the browser, then fix it with a non-root user, dropped capabilities, and a read-only rootfs.
 - [Security Best Practices for Building Docker Images](https://linux-audit.com/tags/docker/)
 - [Software Engineering Radio interview of Docker Security Team Lead (Diogo Mónica)](https://www.se-radio.net/2017/05/se-radio-episode-290-diogo-monica-on-docker-security/)
 - [Ten Docker Image Security Best Practices Cheat Sheet](https://snyk.io/blog/10-docker-image-security-best-practices/)
