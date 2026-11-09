@@ -521,6 +521,7 @@ Tools and applications that are either installed inside containers or designed t
 - [CoreOS][coreos] - Linux for Massive Server Deployments
 - [docker-gen](https://github.com/jwilder/docker-gen) - Generate files from docker container meta-data.
 - [dockerize](https://github.com/powerman/dockerize) - Utility to simplify running applications in docker containers.
+- [dtshim](https://github.com/korableg/dtshim) - Run host commands from inside Docker containers: a symlinked client forwards args, env, and stdin to a host daemon over TCP or a Unix socket, with an optional allowlist policy.
 - [GoSu](https://github.com/tianon/gosu) - Run this specific application as this specific user and get out of the pipeline (entrypoint script tool).
 - [is-docker](https://github.com/sindresorhus/is-docker) - Check if the process is running inside a Docker container.
 - [microcheck](https://github.com/tarampampam/microcheck) - Lightweight health check utilities for Docker containers (75 KB instead of 9.3 MB for httpcheck versus cURL) in pure C - http(s), port checks, and parallel execution are included.
