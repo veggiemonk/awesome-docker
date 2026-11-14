@@ -345,6 +345,7 @@ Monitor Docker hosts, containers, and the services running inside them. Self-hos
 - [Middleware](https://middleware.io/) - :yen: Monitor Docker hosts, containers, logs, and application performance from a unified observability platform.
 - [Site24x7](https://www.site24x7.com/docker-monitoring.html) - :yen: Docker Monitoring for DevOps and IT, SaaS Pay-per-Host model.
 - [Sysdig Monitor](https://www.sysdig.com/products/monitor) - :yen: Software or SaaS service that monitors, alerts, and troubleshoots containers using system calls; container-specific features for Docker and Kubernetes.
+- [topic](https://github.com/yurirocha15/topic) - Monitor a container's CPU, memory, GPU, disk, network and process usage against its cgroup limits from inside the container.
 - [Wiremap](https://github.com/codeofmario/wiremap) - A self-hosted visual Docker network topology explorer with real-time log streaming, live stats, embedded terminal, and container inspection.
 
 ## Security
