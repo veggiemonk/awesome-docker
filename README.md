@@ -469,6 +469,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 - [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
 - [Gantry](https://github.com/shizunge/gantry) - Automatically update selected Docker swarm services.
 - [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner) - GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners.
+- [imagenudge-lite](https://github.com/alessio1999xx-debug/imagenudge-lite) - Check running Docker containers for a newer image digest or tag and print a read-only report; never pulls or restarts (Python stdlib).
 - [Jaypore CI](https://github.com/theSage21/jaypore_ci) - Simple, very flexible, powerful CI / CD / automation system configured in Python. Offline and local first.
 - [Kraken CI](https://github.com/Kraken-CI/kraken) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing. One of its executors is Docker. Developed.
 - [Screwdriver](https://screwdriver.cd/) - :yen: Yahoo's OpenSource buildplatform designed for Continous Delivery.
