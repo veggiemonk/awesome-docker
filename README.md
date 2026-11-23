@@ -76,6 +76,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
         - [Russian](#russian)
         - [Spanish](#spanish)
 - [Stargazers over time](#stargazers-over-time)
+- [bhautikvirani/naftis](https://github.com/bhautikvirani/naftis) - A Go-based web dashboard for Istio with reusable task templates, task execution and rollback, service graphs, and service and pod diagnostics.
 
 <!-- /TOC -->
 
