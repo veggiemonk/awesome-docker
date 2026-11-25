@@ -603,6 +603,7 @@ Tools and applications that are either installed inside containers or designed t
 
 - [Docker Caveats](https://docker-saigon.github.io/post/Docker-Caveats/) What You Should Know About Running Docker In Production (written 11 APRIL 2016).
 - [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
+- [Docker vs. Podman vs. plain systemd](https://www.grep.tips/articles/docker-vs-podman-vs-systemd) - Compares who holds root in Docker (including rootless mode), Podman with Quadlet, and systemd-nspawn, and what each gives up for running containers at boot.
 - [Docker vs. VMs? Combining Both for Cloud Portability Nirvana](https://www.flexera.com/blog/finops/)
 - [Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)
 - [GUI Apps with Docker](https://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
