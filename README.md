@@ -499,6 +499,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 
 ### Testing
 
+- [ChronoStack](https://github.com/Asmodeus14/ChronoStack) - Move a whole Docker Compose stack forward in virtual time (databases, Redis and app containers together) to test trials, cron jobs and expiry without waiting.
 - [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test) - A framework to validate the structure of an image by checking the outputs of commands or the contents of the filesystem.
 - [dgoss](https://github.com/goss-org/goss/tree/master/extras/dgoss) - A fast YAML based tool for validating docker containers.
 - [Kurtosis](https://github.com/kurtosis-tech/kurtosis) - A composable build system for multi-container test environments that provides developers with: a powerful Python-like SDK for environment configuration, a compile-time validator to verify environment behavior & setup, and a runtime for environment execution, monitoring, & debugging capabilities.
