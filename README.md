@@ -224,6 +224,7 @@ Signing, attestation, and provenance for container images.
 
 ### Composition
 
+- [compose-to-quadlet](https://github.com/liqi199315/compose-to-quadlet) - Convert Docker Compose files and docker run commands into Podman systemd Quadlet units.
 - [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files.
 - [ctk](https://github.com/ctk-hq/ctk) - Visual composer for container based workloads.
 - [kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes.
