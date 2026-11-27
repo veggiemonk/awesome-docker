@@ -225,6 +225,7 @@ Signing, attestation, and provenance for container images.
 ### Composition
 
 - [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files.
+- [Compoviz](https://github.com/adavesik/compoviz) - Visualize, edit, and compare Docker Compose projects in the browser, with drag-and-drop building and conflict detection.
 - [ctk](https://github.com/ctk-hq/ctk) - Visual composer for container based workloads.
 - [kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes.
 - [plash](https://github.com/ihucos/plash) - A container run and build engine - runs inside docker.
