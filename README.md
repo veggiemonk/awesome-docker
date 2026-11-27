@@ -195,6 +195,7 @@ Daemonless command-line tools for inspecting, copying, and manipulating images i
 - [oras](https://github.com/oras-project/oras) - Push and pull arbitrary OCI artifacts to and from any OCI registry.
 - [regctl](https://github.com/regclient/regclient) - Daemonless registry client; copy, inspect, modify, and sign OCI images.
 - [skopeo](https://github.com/containers/skopeo) - Work with remote image registries: retrieve information, copy images, sign content.
+- [SyncerD](https://github.com/clouddrove/SyncerD) - Copy images from Docker Hub to ECR, ACR, GCR and GHCR on a schedule, so pulls come from your own registry instead of hitting Docker Hub rate limits.
 
 ### Image Scanning & SBOM
 
