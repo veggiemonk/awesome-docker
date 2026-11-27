@@ -481,6 +481,7 @@ Self-hosted CI engines, build accelerators, and hosted services that target Dock
 ### Development Environment
 
 - [coder](https://github.com/coder/coder) - Remote development machines powered by Terraform or Docker.
+- [dc2kit](https://github.com/aashish-thapa/dc2kit) - Convert a `devcontainer.json` into a Docker Sandboxes kit, so AI coding agents run in the project's own container environment.
 - [dde](https://github.com/whatwedo/dde) - Local development environment toolset based on Docker.
 - [DIP](https://github.com/bibendi/dip) - CLI utility for straightforward provisioning and interacting with an application configured by docker-compose.
 - [EnvCLI](https://github.com/EnvCLI/EnvCLI) - Replace your local installation of Node, Go, ... with project-specific docker containers.
