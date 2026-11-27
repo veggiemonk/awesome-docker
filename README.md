@@ -270,6 +270,7 @@ Self-hosted and managed cloud platforms (PaaS/CaaS, deployment automation). Comm
 - [SwarmManagement](https://github.com/hansehe/SwarmManagement) - Swarm Management is a python application, installed with pip. The application makes it easy to manage a Docker Swarm by configuring a single yaml file describing which stacks to deploy, and which networks, configs or secrets to create.
 - [Triton](https://www.joyent.com/) - :yen: Elastic container-native infrastructure.
 - [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software.
+- [Tugra](https://github.com/SimerayCom/tugra) - Deploys and runs apps and databases across many Docker hosts, with Docker Swarm HA, backups and a built-in MCP server.
 - [werf](https://github.com/werf/werf) - Werf is a CI/CD tool for building Docker images efficiently and deploying them to Kubernetes using GitOps.
 
 ### Garbage Collection
