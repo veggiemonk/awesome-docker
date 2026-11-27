@@ -179,6 +179,7 @@ Services to securely store your Docker images.
 - [JFrog Artifactory](https://jfrog.com/artifactory/) - :yen: Artifact Repository Manager, can be used as private Docker Registry as well.
 - [kontain.me](https://github.com/imjasonh/kontain.me) - On-demand container image registry that builds and serves images when they are pulled.
 - [Kraken](https://github.com/uber/kraken) - Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds.
+- [MobyGuard](https://github.com/sbairamis/MobyGuard) - Manage Docker Registry access and lifecycle with ECDSA token authentication, per-repository ACLs, scheduled tag retention, notifications, and a Web UI.
 - [NORA](https://github.com/getnora-io/nora) - Lightweight multi-protocol artifact registry supporting Docker, Maven, npm, Cargo and PyPI in a single 32MB binary. Pull-through cache, Web UI, Prometheus metrics, RBAC auth.
 - [nscr](https://github.com/jhstatewide/nscr) - A light-weight, self-contained container registry that's easy to run and maintain.
 - [Quay.io](https://quay.io/) - :yen: Secure hosting for private Docker repositories.
