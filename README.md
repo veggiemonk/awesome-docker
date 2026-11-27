@@ -137,6 +137,7 @@ Minimal, hardened, or purpose-built container base images.
 - [Chainguard Images](https://github.com/chainguard-images/images) - Minimal, signed, SBOM-attested container images built on Wolfi.
 - [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system.
 - [melange](https://github.com/chainguard-dev/melange) - Build apk packages from declarative YAML for use with apko.
+- [minimal](https://github.com/rtvkiz/minimal) - Provides free, MIT-licensed hardened container images built from source on Wolfi with melange and apko; non-root, signed, SBOM-attested, and rebuilt daily.
 - [nginx-lua](https://github.com/fabiocicerchia/nginx-lua) - Latest Nginx with LuaJIT on six base distros (Alma, Alpine, Amazon, Debian, Fedora, Ubuntu).
 - [pglayers](https://github.com/pglayers/pglayers) - Pre-built PostgreSQL extensions as composable Docker layers. 50+ extensions, ready-to-use combined images (full, Azure-compatible).
 - [Wolfi](https://github.com/wolfi-dev/os) - Undistro Linux designed for containers; glibc-based, signed, daily SBOMs.
