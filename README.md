@@ -227,7 +227,7 @@ Signing, attestation, and provenance for container images.
 - [Composerize](https://github.com/magicmark/composerize) - Convert docker run commands into docker-compose files.
 - [ctk](https://github.com/ctk-hq/ctk) - Visual composer for container based workloads.
 - [kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes.
-- [MOTSELL Compose Check](https://github.com/motsell/compose-check) - Review normalized Docker Compose JSON for migration readiness, including data mounts, published ports, host files, and startup dependencies.
+- [MOTSELL Compose Check](https://github.com/motsell/compose-check) - Review a normalized Docker Compose snapshot or compare source and destination snapshots for changed volume names, mount sources and startup configuration.
 - [plash](https://github.com/ihucos/plash) - A container run and build engine - runs inside docker.
 - [podman-compose](https://github.com/containers/podman-compose) - A script to run docker-compose.yml using podman.
 - [Smalte](https://github.com/roquie/smalte) – Dynamically configure applications that require static configuration in docker container.
