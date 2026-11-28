@@ -309,6 +309,7 @@ Container-aware reverse proxies, ingress, and TLS-terminating front-ends with au
 
 ## Storage & Data
 
+- [Docker Drive](https://github.com/Rahul7562/docker-drive) - Back up Docker containers, images, volumes and bind mounts to Google Drive with streaming SHA-256 verification and safe local cleanup.
 - [Docker Volume Backup](https://github.com/offen/docker-volume-backup) Backup Docker volumes locally or to any S3 compatible storage.
 - [Label Backup](https://github.com/resulgg/label-backup) - A lightweight, Docker-aware backup agent that automatically discovers and backs up containerized databases (PostgreSQL, MySQL, MongoDB, Redis) based on Docker labels. Supports local storage and S3-compatible destinations with flexible scheduling via cron expressions.
 - [Netshare](https://github.com/ContainX/docker-volume-netshare) Docker NFS, AWS EFS, Ceph & Samba/CIFS Volume Plugin.
